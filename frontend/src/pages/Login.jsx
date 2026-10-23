@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
+import SlideLink from '../components/SlideLink'
 import { useAuth } from '../context/AuthContext'
 import { Logo } from '../components/icons'
 import LoginArt from '../components/login/LoginArt'
@@ -25,15 +26,16 @@ export default function Login() {
     <div className="flex min-h-svh flex-col overflow-hidden bg-cream text-ink lg:grid lg:h-svh lg:grid-cols-2 lg:gap-4 lg:p-4">
       <div className="relative flex flex-col lg:h-full">
         <div className="flex h-16 shrink-0 items-center px-4 lg:absolute lg:left-4 lg:top-4 lg:z-10 lg:h-auto lg:p-0">
-          <Link
+          <SlideLink
             to="/"
+            back
             aria-label="ย้อนกลับ"
             className="flex h-11 w-11 items-center justify-center rounded-full bg-white"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1F1A17" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M15 18l-6-6 6-6" />
             </svg>
-          </Link>
+          </SlideLink>
         </div>
         <LoginArt />
       </div>

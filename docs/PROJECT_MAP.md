@@ -20,6 +20,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 |------|--------|
 | frontend/ | Vite React app |
 | frontend/src/pages/ | หน้าแต่ละ route (ตอนนี้ placeholder) |
+| frontend/src/components/SlideLink.jsx | Link ที่เปลี่ยนหน้าแบบเลื่อน (View Transitions) — ไปหน้าถัดไปเลื่อนขวา→ซ้าย, prop `back` เลื่อนสวนทาง; CSS อยู่ใน index.css | เพิ่มลิงก์ระหว่างหน้า |
 | frontend/src/components/icons.jsx | ไอคอนกลาง Moon, Sparkle, Logo (ใช้หลายหน้า) |
 | frontend/src/components/landing/ | ส่วนประกอบหน้า Landing (Header, Hero, CardStack, Steps, Showcase, CtaBanner, Footer) |
 | frontend/src/components/login/ | ส่วนประกอบหน้า Login (LoginArt, GoogleButton) |
@@ -70,6 +71,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - Commit ทุกงาน ไม่ push
 - ชื่อแบรนด์ LaMoon, design ตาม mockup "8 Warm" (โทนน้ำตาล/ครีม, ฟอนต์ Anuphan) — มือถือตาม mockup เป๊ะ, desktop (lg) hero 2 คอลัมน์
 - ตัวอย่างสถานที่บน Landing ใช้ภาคใต้ (ตามจังหวัด seed)
+- เปลี่ยนหน้า: ใช้ `SlideLink` แทน `Link` (ยังใช้ BrowserRouter ไม่ย้ายไป data router) ถอยกลับใส่ `back`
 
 ## ค้างอยู่
 - [ ] เคาะจำนวนสถานที่ต่อจังหวัด
@@ -77,6 +79,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] หน้า Landing ตาม design
 - [x] animation การ์ด Hero (framer-motion)
 - [x] หน้า Login ตาม design (desktop แบ่ง 2 ฝั่ง)
+- [x] animation เปลี่ยนหน้าแบบเลื่อน
 - [ ] ลบ `frontend/src/App.css` (template เก่า ไม่มีใครใช้) — ผู้ใช้ลบเอง
 - [ ] ผู้ใช้รัน SQL `profiles` + ใส่ `.env`
 - [ ] ทำฟอร์ม Register (insert profiles)
@@ -94,3 +97,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | ทำหน้า Landing ตาม design 8 Warm (responsive), ล้าง index.css เหลือ Tailwind + theme, ใส่ฟอนต์ Anuphan |
 | 2026-10-24 | ลง framer-motion, CardStack: กางการ์ดตอนโหลด + ลอย + demo ปัดอัตโนมัติ + ลากปัดได้จริง (หยุด demo ตอนแตะ กลับมาวนหลัง 4 วิ, ปิดตาม prefers-reduced-motion) |
 | 2026-10-24 | หน้า Login ตาม design 8 Warm: ภาพการ์ด animate เบาๆ, ปุ่ม Google โลโก้จริง + loading/error, desktop แบ่ง 2 ฝั่ง; ย้าย icons ไป components/icons.jsx |
+| 2026-10-24 | เพิ่ม SlideLink + CSS view transition เลื่อนหน้า (ถอยกลับเลื่อนสวนทาง, ปิดตาม reduced motion) ใช้ใน Landing/Login |

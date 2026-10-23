@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import SlideLink from '../SlideLink'
 import { Moon, Sparkle } from '../icons'
 
 export default function CtaBanner() {
@@ -17,12 +17,12 @@ export default function CtaBanner() {
         </svg>
         <h2 className="m-0 text-2xl font-bold lg:text-[32px]">พร้อมออกเดินทางรึยัง?</h2>
         <p className="m-0 text-sm leading-[1.6] text-[#F3E3D6] lg:text-base">เข้าสู่ระบบด้วย Google แล้วเริ่มปัดได้ทันที</p>
-        <Link
+        <SlideLink
           to="/login"
           className="mt-1 flex h-[54px] w-full items-center justify-center rounded-full bg-peach text-base font-bold text-brown lg:w-80"
         >
           เริ่มเลย
-        </Link>
+        </SlideLink>
       </div>
     </section>
   )

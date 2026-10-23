@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import SlideLink from '../SlideLink'
 import CardStack from './CardStack'
 
 export default function Hero() {
@@ -25,12 +25,12 @@ export default function Hero() {
       </div>
 
       <div className="flex flex-col gap-2.5 px-[22px] pt-7 lg:w-80 lg:self-start lg:px-0">
-        <Link
+        <SlideLink
           to="/login"
           className="flex h-14 items-center justify-center rounded-full bg-brown text-base font-semibold text-white"
         >
           ลองปัดเลย
-        </Link>
+        </SlideLink>
         <div className="text-center text-[13px] text-muted">ฟรี ใช้ได้ทันทีด้วยบัญชี Google</div>
       </div>
     </section>
