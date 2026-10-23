@@ -2,6 +2,11 @@
 
 > Entry point for any new session. Read this first, then follow "How to resume".
 
+## UI Design (แบบหลัก — ใช้อันนี้)
+- App name: **LaMoon** · design system + กฎทั้งหมด: `design/DESIGN.md`
+- ภาพหน้าจอจริง (HTML เปิดใน browser ได้ ลิงก์ถึงกัน): `design/screens/01-landing.html` … `07-swipe.html`
+- ทำ frontend เมื่อไหร่ อ่าน `design/DESIGN.md` ก่อนเสมอ (สี โทน Warm, ฟอนต์ Anuphan, ปุ่มหลักน้ำตาล 1 ปุ่ม/หน้า, มุมมน)
+
 ## Status
 | Item | Value |
 |---|---|
