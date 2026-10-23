@@ -1,40 +1,68 @@
-import { useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { supabase } from '../lib/supabase'
 import { Moon, Sparkle } from '../components/icons'
-import { slideNavigate } from '../components/SlideLink'
 import ProfileCard from '../components/register/ProfileCard'
 import MoodPicker from '../components/register/MoodPicker'
-import PlacePicker from '../components/register/PlacePicker'
+import ProvincePicker from '../components/register/ProvincePicker'
+import TermsCheckbox from '../components/register/TermsCheckbox'
+import TermsModal from '../components/register/TermsModal'
+
+async function uploadAvatar(userId, file) {
+  const ext = file.type === 'image/jpeg' ? 'jpg' : file.type.split('/')[1]
+  const path = `${userId}/avatar-${Date.now()}.${ext}`
+  const { error } = await supabase.storage.from('avatars').upload(path, file, { contentType: file.type })
+  if (error) throw error
+  return supabase.storage.from('avatars').getPublicUrl(path).data.publicUrl
+}
 
 export default function Register() {
-  const { user, signOut, setProfile } = useAuth()
+  const { user, setProfile } = useAuth()
   const navigate = useNavigate()
   const location = useLocation()
   const meta = user?.user_metadata ?? {}
-  const avatarUrl = meta.avatar_url ?? meta.picture ?? null
+  const googleAvatar = meta.avatar_url ?? meta.picture ?? null
 
   const [name, setName] = useState(meta.full_name ?? meta.name ?? '')
+  const [avatarFile, setAvatarFile] = useState(null)
   const [moods, setMoods] = useState([])
-  const [regions, setRegions] = useState([])
+  const [customMoods, setCustomMoods] = useState([])
   const [provinces, setProvinces] = useState([])
   const [accepted, setAccepted] = useState(false)
+  const [termsDoc, setTermsDoc] = useState(null)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState('')
 
-  const canSubmit = name.trim() !== '' && moods.length > 0 && accepted && !saving
+  const previewUrl = useMemo(() => (avatarFile ? URL.createObjectURL(avatarFile) : null), [avatarFile])
+  useEffect(() => () => previewUrl && URL.revokeObjectURL(previewUrl), [previewUrl])
 
-  async function handleBack() {
-    await signOut()
-    slideNavigate(navigate, '/login', { back: true, replace: true })
-  }
+  const hasMood = moods.length + customMoods.length > 0
+  const canSubmit = name.trim() !== '' && hasMood && accepted && !saving
+
+  const closeTerms = useCallback(() => setTermsDoc(null), [])
+  const acceptTerms = useCallback(() => {
+    setAccepted(true)
+    setTermsDoc(null)
+  }, [])
 
   async function handleSubmit(e) {
     e.preventDefault()
     if (!canSubmit) return
     setSaving(true)
     setError('')
+
+    let avatarUrl = googleAvatar
+    if (avatarFile) {
+      try {
+        avatarUrl = await uploadAvatar(user.id, avatarFile)
+      } catch (err) {
+        console.error('upload avatar failed', err)
+        setError('อัปโหลดรูปไม่สำเร็จ ลองใหม่อีกครั้ง')
+        setSaving(false)
+        return
+      }
+    }
 
     const { data, error } = await supabase
       .from('profiles')
@@ -43,7 +71,7 @@ export default function Register() {
         display_name: name.trim(),
         avatar_url: avatarUrl,
         favorite_moods: moods,
-        regions,
+        custom_moods: customMoods,
         provinces,
         accepted_terms_at: new Date().toISOString(),
       })
@@ -64,17 +92,7 @@ export default function Register() {
 
   return (
     <form onSubmit={handleSubmit} className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink">
-      <div className="flex h-16 shrink-0 items-center gap-2.5 px-4">
-        <button
-          type="button"
-          aria-label="ย้อนกลับ"
-          onClick={handleBack}
-          className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-white"
-        >
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1F1A17" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <path d="M15 18l-6-6 6-6" />
-          </svg>
-        </button>
+      <div className="flex h-16 shrink-0 items-center px-[22px]">
         <div className="text-lg font-semibold">ตั้งค่าโปรไฟล์</div>
       </div>
 
@@ -90,34 +108,17 @@ export default function Register() {
       </div>
 
       <div className="mx-4 mt-[18px] flex flex-col gap-3.5">
-        <ProfileCard avatarUrl={avatarUrl} name={name} onNameChange={setName} />
-        <MoodPicker value={moods} onChange={setMoods} />
-        <PlacePicker
-          regions={regions}
-          onRegionsChange={setRegions}
-          provinces={provinces}
-          onProvincesChange={setProvinces}
+        <ProfileCard
+          avatarUrl={previewUrl ?? googleAvatar}
+          onAvatarChange={setAvatarFile}
+          name={name}
+          onNameChange={setName}
         />
+        <MoodPicker value={moods} onChange={setMoods} custom={customMoods} onCustomChange={setCustomMoods} />
+        <ProvincePicker value={provinces} onChange={setProvinces} />
       </div>
 
-      <label className="mx-[22px] mt-[18px] flex cursor-pointer items-start gap-3">
-        <input
-          type="checkbox"
-          checked={accepted}
-          onChange={(e) => setAccepted(e.target.checked)}
-          className="mt-px h-[22px] w-[22px] shrink-0 accent-brown"
-        />
-        <span className="text-sm leading-[1.6] text-[#4A3A30]">
-          ฉันยอมรับ{' '}
-          <a href="#" className="text-brown hover:text-ink">
-            ข้อตกลงการใช้งาน
-          </a>{' '}
-          และ{' '}
-          <a href="#" className="text-brown hover:text-ink">
-            นโยบายความเป็นส่วนตัว
-          </a>
-        </span>
-      </label>
+      <TermsCheckbox checked={accepted} onChange={setAccepted} onOpenDoc={setTermsDoc} />
 
       <div className="grow" />
 
@@ -135,9 +136,11 @@ export default function Register() {
           </p>
         )}
         <div className="text-center text-xs text-muted">
-          {moods.length === 0 ? 'เลือกมู้ดอย่างน้อย 1 อย่าง และยอมรับข้อตกลงก่อน' : 'ต้องยอมรับข้อตกลงก่อน ปุ่มจึงจะกดได้'}
+          {hasMood ? 'ต้องยอมรับข้อตกลงก่อน ปุ่มจึงจะกดได้' : 'เลือกมู้ดอย่างน้อย 1 อย่าง และยอมรับข้อตกลงก่อน'}
         </div>
       </div>
+
+      <TermsModal doc={termsDoc} onDocChange={setTermsDoc} onClose={closeTerms} onAccept={acceptTerms} />
     </form>
   )
 }

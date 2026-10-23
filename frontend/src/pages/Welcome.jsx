@@ -88,7 +88,10 @@ function WelcomeArt({ avatarUrl, name }) {
 export default function Welcome() {
   const { profile } = useAuth()
   const location = useLocation()
-  const moods = MOODS.filter((m) => profile.favorite_moods?.includes(m.id))
+  const moods = [
+    ...MOODS.filter((m) => profile.favorite_moods?.includes(m.id)).map((m) => m.label),
+    ...(profile.custom_moods ?? []),
+  ]
 
   return (
     <div className="flex min-h-svh flex-col bg-cream text-ink">
@@ -105,7 +108,7 @@ export default function Welcome() {
             <div className="flex flex-wrap justify-center gap-2 pt-2">
               {moods.map((mood, i) => (
                 <motion.span
-                  key={mood.id}
+                  key={mood}
                   className="flex h-9 items-center gap-1.5 rounded-full bg-brown px-3.5 text-sm font-semibold text-white"
                   initial={{ opacity: 0, y: 8 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -114,7 +117,7 @@ export default function Welcome() {
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     <path d="M20 6L9 17l-5-5" />
                   </svg>
-                  {mood.label}
+                  {mood}
                 </motion.span>
               ))}
             </div>

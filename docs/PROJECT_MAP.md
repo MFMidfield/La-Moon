@@ -24,8 +24,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/icons.jsx | ไอคอนกลาง Moon, Sparkle, Logo (ใช้หลายหน้า) |
 | frontend/src/components/landing/ | ส่วนประกอบหน้า Landing (Header, Hero, CardStack, Steps, Showcase, CtaBanner, Footer) |
 | frontend/src/components/login/ | ส่วนประกอบหน้า Login (LoginArt, GoogleButton) |
-| frontend/src/components/register/ | ส่วนประกอบหน้า Register (ProfileCard, MoodPicker, PlacePicker) |
-| frontend/src/data/ | ข้อมูลคงที่ใช้ร่วม (options.js: MOODS, REGIONS, PROVINCES 77 จังหวัด) |
+| frontend/src/components/register/ | ส่วนประกอบหน้า Register (ProfileCard อัปโหลดรูป, MoodPicker + อื่นๆ, ProvincePicker, ToggleChip, TermsCheckbox, TermsModal) |
+| frontend/src/data/ | ข้อมูลคงที่ใช้ร่วม (options.js: MOODS, REGIONS, PROVINCES 77 จังหวัด, POPULAR_PROVINCES) |
 | frontend/src/routes/ | route guard |
 | frontend/src/context/ | React context (auth) |
 | frontend/src/lib/ | client ภายนอก (supabase) |
@@ -63,7 +63,9 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - Register บันทึกเสร็จ: `navigate('/welcome')` + `setProfile(data)` ใน tick เดียวกัน กัน guard /register เด้งก่อน
 
 ## Database
-`profiles` (local DB) — id, display_name, avatar_url, favorite_moods text[], provinces text[], regions text[], accepted_terms_at, created_at + RLS เจ้าของเท่านั้น
+`profiles` (local DB) — id, display_name, avatar_url, favorite_moods text[] (id), custom_moods text[] (พิมพ์เอง), provinces text[], regions text[] (ไม่ใช้แล้ว), accepted_terms_at, created_at + RLS เจ้าของเท่านั้น
+- Storage bucket `avatars` (public, 2MB, jpg/png/webp) path `<user id>/avatar-<ts>.<ext>` เขียนได้เฉพาะโฟลเดอร์ตัวเอง
+- schema ทั้งหมดอยู่ใน `backend/supabase/snippets/Untitled query 698.sql`
 - กฎ DB (2026-10-24): Claude รัน SQL เองได้ แต่ต้อง backup (`pg_dump`) + ถามยืนยันก่อนทุกครั้ง; backup อยู่ `backend/supabase/backups/` (gitignore)
 - local DB: `127.0.0.1:54322` user `postgres`
 
@@ -79,7 +81,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - ชื่อแบรนด์ LaMoon, design ตาม mockup "8 Warm" (โทนน้ำตาล/ครีม, ฟอนต์ Anuphan) — มือถือตาม mockup เป๊ะ, desktop (lg) hero 2 คอลัมน์
 - ตัวอย่างสถานที่บน Landing ใช้ภาคใต้ (ตามจังหวัด seed)
 - ค่าใน DB เก็บเป็น id อังกฤษ (mood `beach`..., ภาค `north`..., จังหวัด `krabi`/`chiang-mai`) ดู `src/data/options.js`
-- Register: ปุ่มกดได้เมื่อ ชื่อไม่ว่าง + มู้ด ≥1 + ยอมรับข้อตกลง; ปุ่ม ‹ = signOut แล้วไป /login
+- Register: ไม่มีปุ่มย้อนกลับ, เลือกแค่จังหวัด (ยอดนิยม + ค้นหา), มู้ดอื่นๆ พิมพ์เองได้ ≤5 คำ ≤20 ตัว, ปุ่มกดได้เมื่อ ชื่อไม่ว่าง + มู้ด ≥1 + ยอมรับข้อตกลง
+- เนื้อหาข้อตกลง/นโยบายใน TermsModal เป็น mockup
 - เปลี่ยนหน้า: ใช้ `SlideLink` แทน `Link` (ยังใช้ BrowserRouter ไม่ย้ายไป data router) ถอยกลับใส่ `back`
 
 ## ค้างอยู่
@@ -95,6 +98,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] เพิ่มคอลัมน์ `profiles.regions text[]` (local DB)
 - [x] snippet `backend/supabase/snippets/Untitled query 698.sql` เพิ่ม regions แล้ว (ตรงกับ local DB)
 - [ ] design หน้า Home
+- [ ] เนื้อหาข้อตกลง/นโยบายจริง (ตอนนี้ mockup)
 - [ ] ผู้ใช้สร้าง Google OAuth client + ใส่ `backend/supabase/.env` + redirect URI ใน Google Console
 - [ ] Claude ร่าง seed data
 - [ ] SQL schema (paste ในแชท)
@@ -113,3 +117,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | หน้า Register ตาม 03-register.html + หน้า Welcome (Claude ออกแบบ) + /home placeholder, default หลัง login → /home, เพิ่ม src/data/options.js |
 | 2026-10-24 | backup local DB แล้ว `alter table profiles add column regions text[] not null default '{}'`, gitignore backups/ |
 | 2026-10-24 | snippet SQL profiles เพิ่มคอลัมน์ regions ให้ตรง DB |
+| 2026-10-24 | backup แล้วเพิ่ม profiles.custom_moods + bucket avatars + policy; Register: อัปโหลดรูป, มู้ดอื่นๆ, chip ไม่ขยับ, จังหวัดยอดนิยม+ค้นหา (ตัดภาค), checkbox มน + modal ข้อตกลง, ตัดปุ่มย้อนกลับ; Welcome โชว์มู้ดที่พิมพ์เอง |

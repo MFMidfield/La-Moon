@@ -104,3 +104,6 @@ export const PROVINCES = [
   { id: 'surat-thani', label: 'สุราษฎร์ธานี', region: 'south' },
   { id: 'yala', label: 'ยะลา', region: 'south' },
 ]
+
+// chip ยอดนิยมในหน้า Register (จังหวัด seed + ยอดฮิต)
+export const POPULAR_PROVINCES = ['krabi', 'phuket', 'phang-nga', 'surat-thani', 'nakhon-si-thammarat', 'chiang-mai', 'bangkok']
