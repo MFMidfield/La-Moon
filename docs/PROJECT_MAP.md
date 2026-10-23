@@ -93,7 +93,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] ผู้ใช้รัน SQL `profiles` + ใส่ `.env`
 - [x] ทำฟอร์ม Register (insert profiles) + หน้า Welcome
 - [x] เพิ่มคอลัมน์ `profiles.regions text[]` (local DB)
-- [ ] snippet `backend/supabase/snippets/Untitled query 698.sql` ยังไม่มี regions (ต้องเพิ่มถ้าจะใช้สร้าง DB ใหม่/remote)
+- [x] snippet `backend/supabase/snippets/Untitled query 698.sql` เพิ่ม regions แล้ว (ตรงกับ local DB)
 - [ ] design หน้า Home
 - [ ] ผู้ใช้สร้าง Google OAuth client + ใส่ `backend/supabase/.env` + redirect URI ใน Google Console
 - [ ] Claude ร่าง seed data
@@ -112,3 +112,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | เพิ่ม SlideLink + CSS view transition เลื่อนหน้า (ถอยกลับเลื่อนสวนทาง, ปิดตาม reduced motion) ใช้ใน Landing/Login |
 | 2026-10-24 | หน้า Register ตาม 03-register.html + หน้า Welcome (Claude ออกแบบ) + /home placeholder, default หลัง login → /home, เพิ่ม src/data/options.js |
 | 2026-10-24 | backup local DB แล้ว `alter table profiles add column regions text[] not null default '{}'`, gitignore backups/ |
+| 2026-10-24 | snippet SQL profiles เพิ่มคอลัมน์ regions ให้ตรง DB |

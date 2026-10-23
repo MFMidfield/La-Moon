@@ -4,6 +4,7 @@ create table public.profiles (
   avatar_url text,
   favorite_moods text[] not null default '{}',
   provinces text[] not null default '{}',
+  regions text[] not null default '{}',
   accepted_terms_at timestamptz not null,
   created_at timestamptz not null default now()
 );
