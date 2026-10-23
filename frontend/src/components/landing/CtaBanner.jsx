@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Moon, Sparkle } from './icons'
+import { Moon, Sparkle } from '../icons'
 
 export default function CtaBanner() {
   return (

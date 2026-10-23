@@ -1,4 +1,4 @@
-import { Logo } from './icons'
+import { Logo } from '../icons'
 
 const LINKS = ['เกี่ยวกับเรา', 'ข้อตกลง', 'ความเป็นส่วนตัว']
 

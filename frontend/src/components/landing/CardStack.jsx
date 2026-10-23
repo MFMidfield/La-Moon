@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { animate, motion, useMotionValue, useReducedMotion, useTransform } from 'framer-motion'
-import { Moon, Sparkle } from './icons'
+import { Moon, Sparkle } from '../icons'
 
 const DECK = [
   { name: 'เขาสก', meta: 'สุราษฎร์ธานี · ทะเลสาบ · ป่าดิบ', tone: '#F9D9C2' },
