@@ -20,6 +20,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 |------|--------|
 | frontend/ | Vite React app |
 | frontend/src/pages/ | หน้าแต่ละ route (ตอนนี้ placeholder) |
+| frontend/src/components/landing/ | ส่วนประกอบหน้า Landing (Header, Hero, CardStack, Steps, Showcase, CtaBanner, Footer, icons) |
 | frontend/src/routes/ | route guard |
 | frontend/src/context/ | React context (auth) |
 | frontend/src/lib/ | client ภายนอก (supabase) |
@@ -30,6 +31,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | ไฟล์ | ทำอะไร | แตะเมื่อ |
 |------|--------|---------|
 | frontend/src/App.jsx | ประกาศ routes ทั้งหมด | เพิ่ม/ย้ายหน้า |
+| frontend/src/index.css | Tailwind + theme token (`brown`, `ink`, `cream`, `peach`, `orange`, `muted`, font Anuphan) | เพิ่มสี/ฟอนต์กลาง |
 | frontend/src/context/AuthContext.jsx | session + profile + signInWithGoogle/signOut/refreshProfile (`useAuth`) | แก้ logic auth |
 | frontend/src/routes/PrivateRoute.jsx | กันหน้า private: ไม่ login → /login, ไม่มี profile → /register | แก้เงื่อนไขเข้าหน้า |
 | frontend/src/routes/PublicOnlyRoute.jsx | / และ /login — login แล้วเด้งไป /map | |
@@ -64,10 +66,14 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - จังหวัด seed: สุราษฎร์ธานี, นครศรีธรรมราช, พังงา, กระบี่, ภูเก็ต (จำนวนที่/จังหวัด ยังไม่เคาะ)
 - LLM: Gemini
 - Commit ทุกงาน ไม่ push
+- ชื่อแบรนด์ LaMoon, design ตาม mockup "8 Warm" (โทนน้ำตาล/ครีม, ฟอนต์ Anuphan) — มือถือตาม mockup เป๊ะ, desktop (lg) hero 2 คอลัมน์
+- ตัวอย่างสถานที่บน Landing ใช้ภาคใต้ (ตามจังหวัด seed)
 
 ## ค้างอยู่
 - [ ] เคาะจำนวนสถานที่ต่อจังหวัด
 - [x] วาง route + private route
+- [x] หน้า Landing ตาม design
+- [ ] ลบ `frontend/src/App.css` (template เก่า ไม่มีใครใช้) — ผู้ใช้ลบเอง
 - [ ] ผู้ใช้รัน SQL `profiles` + ใส่ `.env`
 - [ ] ทำฟอร์ม Register (insert profiles)
 - [ ] ผู้ใช้สร้าง Google OAuth client + ใส่ `backend/supabase/.env` + redirect URI ใน Google Console
@@ -81,3 +87,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | เพิ่ม frontend/vercel.json (SPA rewrite) |
 | 2026-10-24 | เพิ่ม Google OAuth ใน config.toml, site_url → 5173, gitignore `.env` ใน backend/supabase |
 | 2026-10-24 | ลง react-router-dom + supabase-js, ทำ AuthProvider + PrivateRoute/PublicOnlyRoute + หน้า placeholder |
+| 2026-10-24 | ทำหน้า Landing ตาม design 8 Warm (responsive), ล้าง index.css เหลือ Tailwind + theme, ใส่ฟอนต์ Anuphan |
