@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { POPULAR_PROVINCES, PROVINCES } from '../../data/options'
-import ToggleChip from './ToggleChip'
+import ToggleChip from '../ToggleChip'
 
 const MAX_SUGGESTIONS = 6
 

@@ -1,5 +1,4 @@
-import { useEffect, useRef } from 'react'
-import { AnimatePresence, motion } from 'framer-motion'
+import BottomSheet from '../BottomSheet'
 
 // TODO: เนื้อหา mockup — รอข้อความจริงจากทีม
 const DOCS = {
@@ -26,109 +25,72 @@ const DOCS = {
 }
 
 export default function TermsModal({ doc, onDocChange, onClose, onAccept }) {
-  const dialogRef = useRef(null)
-
-  useEffect(() => {
-    if (!doc) return
-    const prevOverflow = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    dialogRef.current?.focus()
-    const onKey = (e) => e.key === 'Escape' && onClose()
-    window.addEventListener('keydown', onKey)
-    return () => {
-      document.body.style.overflow = prevOverflow
-      window.removeEventListener('keydown', onKey)
-    }
-  }, [doc, onClose])
+  // จำ doc ล่าสุดไว้ใช้ตอน sheet กำลังปิด (doc เป็น null แล้ว)
+  const current = DOCS[doc] ?? DOCS.terms
 
   return (
-    <AnimatePresence>
-      {doc && (
-        <div className="fixed inset-0 z-50 flex items-end justify-center lg:items-center">
-          <motion.div
-            className="absolute inset-0 bg-ink/40"
-            onClick={onClose}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          />
-          <motion.div
-            ref={dialogRef}
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby="terms-title"
-            tabIndex={-1}
-            className="relative flex max-h-[85svh] w-full flex-col rounded-t-[32px] bg-white outline-none lg:max-w-[560px] lg:rounded-[32px]"
-            initial={{ y: '100%', opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            exit={{ y: '100%', opacity: 0 }}
-            transition={{ type: 'spring', stiffness: 300, damping: 32 }}
+    <BottomSheet open={Boolean(doc)} onClose={onClose} labelledBy="terms-title">
+      <div className="flex items-center justify-between px-[22px] pt-4">
+        <h2 id="terms-title" className="m-0 text-xl font-bold">
+          ข้อตกลงและนโยบาย
+        </h2>
+        <button
+          type="button"
+          aria-label="ปิด"
+          onClick={onClose}
+          className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-cream"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F1A17" strokeWidth="2.2" strokeLinecap="round" aria-hidden="true">
+            <path d="M18 6L6 18M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <div className="mx-[22px] mt-3 flex rounded-full bg-cream p-1" role="tablist">
+        {Object.entries(DOCS).map(([key, d]) => (
+          <button
+            key={key}
+            type="button"
+            role="tab"
+            aria-selected={doc === key}
+            onClick={() => onDocChange(key)}
+            className={`h-10 flex-1 cursor-pointer rounded-full text-sm font-semibold transition-colors ${
+              doc === key ? 'bg-brown text-white' : 'text-ink'
+            }`}
           >
-            <div className="mx-auto mt-2.5 h-1 w-10 rounded-full bg-[#EDE5DD] lg:hidden" />
-            <div className="flex items-center justify-between px-[22px] pt-4">
-              <h2 id="terms-title" className="m-0 text-xl font-bold">
-                ข้อตกลงและนโยบาย
-              </h2>
-              <button
-                type="button"
-                aria-label="ปิด"
-                onClick={onClose}
-                className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-cream"
-              >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F1A17" strokeWidth="2.2" strokeLinecap="round" aria-hidden="true">
-                  <path d="M18 6L6 18M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
+            {d.tab}
+          </button>
+        ))}
+      </div>
 
-            <div className="mx-[22px] mt-3 flex rounded-full bg-cream p-1" role="tablist">
-              {Object.entries(DOCS).map(([key, d]) => (
-                <button
-                  key={key}
-                  type="button"
-                  role="tab"
-                  aria-selected={doc === key}
-                  onClick={() => onDocChange(key)}
-                  className={`h-10 flex-1 cursor-pointer rounded-full text-sm font-semibold transition-colors ${
-                    doc === key ? 'bg-brown text-white' : 'text-ink'
-                  }`}
-                >
-                  {d.tab}
-                </button>
-              ))}
-            </div>
+      <div className="mt-4 flex flex-col gap-4 overflow-y-auto px-[22px] pb-2">
+        <div className="text-xs text-muted">ฉบับร่าง · อัปเดตล่าสุด 24 ต.ค. 2569</div>
+        {current.sections.map(([title, body], i) => (
+          <section key={title} className="flex flex-col gap-1">
+            <h3 className="m-0 text-[15px] font-semibold">
+              {i + 1}. {title}
+            </h3>
+            <p className="m-0 text-sm leading-[1.6] text-[#4A3A30]">{body}</p>
+          </section>
+        ))}
+      </div>
 
-            <div className="mt-4 flex flex-col gap-4 overflow-y-auto px-[22px] pb-2">
-              <div className="text-xs text-muted">ฉบับร่าง · อัปเดตล่าสุด 24 ต.ค. 2569</div>
-              {DOCS[doc].sections.map(([title, body], i) => (
-                <section key={title} className="flex flex-col gap-1">
-                  <h3 className="m-0 text-[15px] font-semibold">
-                    {i + 1}. {title}
-                  </h3>
-                  <p className="m-0 text-sm leading-[1.6] text-[#4A3A30]">{body}</p>
-                </section>
-              ))}
-            </div>
-
-            <div className="flex gap-2.5 border-t border-[#EDE5DD] px-4 pb-6 pt-4 lg:pb-5">
-              <button
-                type="button"
-                onClick={onClose}
-                className="h-[54px] flex-1 cursor-pointer rounded-full border-[1.5px] border-[#D9CFC5] bg-white text-base font-semibold text-ink"
-              >
-                ปิด
-              </button>
-              <button
-                type="button"
-                onClick={onAccept}
-                className="h-[54px] flex-[2] cursor-pointer rounded-full bg-brown text-base font-semibold text-white"
-              >
-                ยอมรับ
-              </button>
-            </div>
-          </motion.div>
-        </div>
-      )}
-    </AnimatePresence>
+      <div className="flex gap-2.5 border-t border-[#EDE5DD] px-4 pb-6 pt-4 lg:pb-5">
+        <button
+          type="button"
+          onClick={onClose}
+          className="h-[54px] flex-1 cursor-pointer rounded-full border-[1.5px] border-[#D9CFC5] bg-white text-base font-semibold text-ink"
+        >
+          ปิด
+        </button>
+        <button
+          type="button"
+          onClick={onAccept}
+          className="h-[54px] flex-[2] cursor-pointer rounded-full bg-brown text-base font-semibold text-white"
+        >
+          ยอมรับ
+        </button>
+      </div>
+    </BottomSheet>
   )
 }

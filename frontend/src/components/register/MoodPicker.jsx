@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { MOODS } from '../../data/options'
-import ToggleChip from './ToggleChip'
+import ToggleChip from '../ToggleChip'
 
 const MAX_CUSTOM = 5
 const MAX_CUSTOM_LENGTH = 20

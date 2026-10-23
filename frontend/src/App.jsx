@@ -11,6 +11,9 @@ import Map from './pages/Map'
 import Province from './pages/Province'
 import Mood from './pages/Mood'
 import Swipe from './pages/Swipe'
+import Trip from './pages/Trip'
+import TripDetail from './pages/TripDetail'
+import Personality from './pages/Personality'
 
 export default function App() {
   return (
@@ -33,6 +36,9 @@ export default function App() {
             <Route path="/map/:province" element={<Province />} />
             <Route path="/map/:province/mood" element={<Mood />} />
             <Route path="/map/:province/swipe" element={<Swipe />} />
+            <Route path="/map/:province/trip" element={<Trip />} />
+            <Route path="/trips/:id" element={<TripDetail />} />
+            <Route path="/personality" element={<Personality />} />
           </Route>
 
           <Route path="*" element={<Navigate to="/" replace />} />

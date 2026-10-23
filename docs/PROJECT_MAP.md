@@ -21,11 +21,16 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/ | Vite React app |
 | frontend/src/pages/ | หน้าแต่ละ route (ตอนนี้ placeholder) |
 | frontend/src/components/SlideLink.jsx | Link ที่เปลี่ยนหน้าแบบเลื่อน (View Transitions) — ไปหน้าถัดไปเลื่อนขวา→ซ้าย, prop `back` เลื่อนสวนทาง; CSS อยู่ใน index.css | เพิ่มลิงก์ระหว่างหน้า |
+| frontend/src/components/AppHeader.jsx | header ในแอป: ปุ่มกลับ (backTo/onBack) + crumb + title + step pill | |
+| frontend/src/components/BottomSheet.jsx | sheet ล่าง/dialog กลางจอ (Esc, backdrop, scroll lock) | |
+| frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
+| frontend/src/lib/api/ | ทุกการเรียก supabase ต่อ feature: places, swipes, trips, mood (AI + fallback คำ) — หน้าไหนห้ามเรียก supabase ตรง | เพิ่ม query |
+| frontend/src/lib/trip/ | logic ล้วน: plan (วันละ 3 nearest neighbor), combos (3 แบบ ≤2), personality, geo | |
 | frontend/src/components/icons.jsx | ไอคอนกลาง Moon, Sparkle, Logo (ใช้หลายหน้า) |
 | frontend/src/components/landing/ | ส่วนประกอบหน้า Landing (Header, Hero, CardStack, Steps, Showcase, CtaBanner, Footer) |
 | frontend/src/components/login/ | ส่วนประกอบหน้า Login (LoginArt, GoogleButton) |
 | frontend/src/components/register/ | ส่วนประกอบหน้า Register (ProfileCard อัปโหลดรูป, MoodPicker + อื่นๆ, ProvincePicker, ToggleChip, TermsCheckbox, TermsModal) |
-| frontend/src/data/ | ข้อมูลคงที่ใช้ร่วม (options.js: MOODS, REGIONS, PROVINCES 77 จังหวัด, POPULAR_PROVINCES) |
+| frontend/src/data/ | ข้อมูลคงที่ใช้ร่วม (options.js: MOODS, REGIONS, PROVINCES 77 จังหวัด, POPULAR_PROVINCES; personalities.js 7 แบบ) |
 | frontend/src/routes/ | route guard |
 | frontend/src/context/ | React context (auth) |
 | frontend/src/lib/ | client ภายนอก (supabase) |
@@ -53,7 +58,10 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | `/login` | Login Google | public only |
 | `/register` | ตั้งค่าโปรไฟล์ครั้งแรก | login แล้ว + ยังไม่มี profile |
 | `/welcome` | ต้อนรับหลัง register → ปุ่มไป from ?? /home | private |
-| `/home` | หน้าหลักหลัง login (placeholder รอ design) | private |
+| `/home` | หน้าหลักหลัง login (placeholder — lane A) | private |
+| `/map/:province/trip` | สรุปทริปจากการปัด รับ state { likedIds, moods, budget } (placeholder — lane D) | private |
+| `/trips/:id` | ดูทริปที่บันทึก (placeholder — lane D) | private |
+| `/personality` | บุคลิกการเที่ยวจาก swipes ขวาทั้งหมด (placeholder — lane A) | private |
 | `/map` | แผนที่ไทย | private |
 | `/map/:province` | ซูมจังหวัด | private |
 | `/map/:province/mood` | เลือก mood | private |
@@ -83,6 +91,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - ค่าใน DB เก็บเป็น id อังกฤษ (mood `beach`..., ภาค `north`..., จังหวัด `krabi`/`chiang-mai`) ดู `src/data/options.js`
 - Register: ไม่มีปุ่มย้อนกลับ, เลือกแค่จังหวัด (ยอดนิยม + ค้นหา), มู้ดอื่นๆ พิมพ์เองได้ ≤5 คำ ≤20 ตัว, ปุ่มกดได้เมื่อ ชื่อไม่ว่าง + มู้ด ≥1 + ยอมรับข้อตกลง
 - เนื้อหาข้อตกลง/นโยบายใน TermsModal เป็น mockup
+- P1 อยู่ในคลิป; admin ไว้ทีหลัง (ช่วงนี้ใช้ Studio); agent ใช้ Opus; รูปสถานที่ Unsplash
+- ส่งต่อระหว่างหน้า: Mood → `/swipe?moods=a,b&budget=2`; Swipe → `/trip` ด้วย state { likedIds, moods, budget }
 - เปลี่ยนหน้า: ใช้ `SlideLink` แทน `Link` (ยังใช้ BrowserRouter ไม่ย้ายไป data router) ถอยกลับใส่ `back`
 
 ## ค้างอยู่
@@ -97,7 +107,11 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] ทำฟอร์ม Register (insert profiles) + หน้า Welcome
 - [x] เพิ่มคอลัมน์ `profiles.regions text[]` (local DB)
 - [x] snippet `backend/supabase/snippets/Untitled query 698.sql` เพิ่ม regions แล้ว (ตรงกับ local DB)
-- [ ] design หน้า Home
+- [x] design หน้า Home/สรุปทริป/บุคลิก/AI มู้ด/การ์ดหายาก เคาะแล้ว (ดูแชท 2026-10-24) — combo 3 แบบ, holo ยกเว้น gradient เฉพาะ rare+
+- [ ] ตาราง places/trips/swipes + seed ตัวอย่าง (SQL อยู่ใน snippet แล้ว ยังไม่ได้รันใน DB)
+- [ ] ข้อมูลสถานที่จริง (รอทีม) + รูป Unsplash
+- [ ] Gemini API key (ยังไม่มี — mood.js fallback จับคำ)
+- [ ] แตก lane A–F ให้ agent (Opus) / Codex
 - [ ] เนื้อหาข้อตกลง/นโยบายจริง (ตอนนี้ mockup)
 - [ ] ผู้ใช้สร้าง Google OAuth client + ใส่ `backend/supabase/.env` + redirect URI ใน Google Console
 - [ ] Claude ร่าง seed data
@@ -118,3 +132,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | backup local DB แล้ว `alter table profiles add column regions text[] not null default '{}'`, gitignore backups/ |
 | 2026-10-24 | snippet SQL profiles เพิ่มคอลัมน์ regions ให้ตรง DB |
 | 2026-10-24 | backup แล้วเพิ่ม profiles.custom_moods + bucket avatars + policy; Register: อัปโหลดรูป, มู้ดอื่นๆ, chip ไม่ขยับ, จังหวัดยอดนิยม+ค้นหา (ตัดภาค), checkbox มน + modal ข้อตกลง, ตัดปุ่มย้อนกลับ; Welcome โชว์มู้ดที่พิมพ์เอง |
+| 2026-10-24 | ของกลางก่อนแตก lane: AppHeader, BottomSheet, ToggleChip กลาง, lib/api (places/swipes/trips/mood), lib/trip (plan/combos/personality/geo), data/personalities, route + placeholder Trip/TripDetail/Personality; schema places/trips/swipes ลง snippet (ยังไม่รัน — auto mode ไม่อนุญาต) |
