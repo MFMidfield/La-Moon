@@ -73,7 +73,9 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 ## Database
 `profiles` (local DB) — id, display_name, avatar_url, favorite_moods text[] (id), custom_moods text[] (พิมพ์เอง), provinces text[], regions text[] (ไม่ใช้แล้ว), accepted_terms_at, created_at + RLS เจ้าของเท่านั้น
 - Storage bucket `avatars` (public, 2MB, jpg/png/webp) path `<user id>/avatar-<ts>.<ext>` เขียนได้เฉพาะโฟลเดอร์ตัวเอง
+- `places` (อ่านได้ทุกคน, เขียนผ่าน Studio), `trips` (ของตัวเอง), `swipes` (ของตัวเอง)
 - schema ทั้งหมดอยู่ใน `backend/supabase/snippets/Untitled query 698.sql`
+- permission: `.claude/settings.local.json` อนุญาต `pg_dump`/`psql` (ผู้ใช้เพิ่มเอง) — ยังต้อง backup + ถามก่อนทุกครั้ง
 - กฎ DB (2026-10-24): Claude รัน SQL เองได้ แต่ต้อง backup (`pg_dump`) + ถามยืนยันก่อนทุกครั้ง; backup อยู่ `backend/supabase/backups/` (gitignore)
 - local DB: `127.0.0.1:54322` user `postgres`
 
@@ -108,7 +110,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] เพิ่มคอลัมน์ `profiles.regions text[]` (local DB)
 - [x] snippet `backend/supabase/snippets/Untitled query 698.sql` เพิ่ม regions แล้ว (ตรงกับ local DB)
 - [x] design หน้า Home/สรุปทริป/บุคลิก/AI มู้ด/การ์ดหายาก เคาะแล้ว (ดูแชท 2026-10-24) — combo 3 แบบ, holo ยกเว้น gradient เฉพาะ rare+
-- [ ] ตาราง places/trips/swipes + seed ตัวอย่าง (SQL อยู่ใน snippet แล้ว ยังไม่ได้รันใน DB)
+- [x] ตาราง places/trips/swipes + seed ตัวอย่าง 8 ที่ (กระบี่ 4, ภูเก็ต 4, id ขึ้นต้น `sample-` ลบเมื่อข้อมูลจริงมา)
 - [ ] ข้อมูลสถานที่จริง (รอทีม) + รูป Unsplash
 - [ ] Gemini API key (ยังไม่มี — mood.js fallback จับคำ)
 - [ ] แตก lane A–F ให้ agent (Opus) / Codex
@@ -133,3 +135,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | snippet SQL profiles เพิ่มคอลัมน์ regions ให้ตรง DB |
 | 2026-10-24 | backup แล้วเพิ่ม profiles.custom_moods + bucket avatars + policy; Register: อัปโหลดรูป, มู้ดอื่นๆ, chip ไม่ขยับ, จังหวัดยอดนิยม+ค้นหา (ตัดภาค), checkbox มน + modal ข้อตกลง, ตัดปุ่มย้อนกลับ; Welcome โชว์มู้ดที่พิมพ์เอง |
 | 2026-10-24 | ของกลางก่อนแตก lane: AppHeader, BottomSheet, ToggleChip กลาง, lib/api (places/swipes/trips/mood), lib/trip (plan/combos/personality/geo), data/personalities, route + placeholder Trip/TripDetail/Personality; schema places/trips/swipes ลง snippet (ยังไม่รัน — auto mode ไม่อนุญาต) |
+| 2026-10-24 | backup แล้วสร้าง places/trips/swipes + RLS, seed ตัวอย่าง 8 ที่ |
