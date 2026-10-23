@@ -24,6 +24,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/icons.jsx | ไอคอนกลาง Moon, Sparkle, Logo (ใช้หลายหน้า) |
 | frontend/src/components/landing/ | ส่วนประกอบหน้า Landing (Header, Hero, CardStack, Steps, Showcase, CtaBanner, Footer) |
 | frontend/src/components/login/ | ส่วนประกอบหน้า Login (LoginArt, GoogleButton) |
+| frontend/src/components/register/ | ส่วนประกอบหน้า Register (ProfileCard, MoodPicker, PlacePicker) |
+| frontend/src/data/ | ข้อมูลคงที่ใช้ร่วม (options.js: MOODS, REGIONS, PROVINCES 77 จังหวัด) |
 | frontend/src/routes/ | route guard |
 | frontend/src/context/ | React context (auth) |
 | frontend/src/lib/ | client ภายนอก (supabase) |
@@ -35,9 +37,9 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 |------|--------|---------|
 | frontend/src/App.jsx | ประกาศ routes ทั้งหมด | เพิ่ม/ย้ายหน้า |
 | frontend/src/index.css | Tailwind + theme token (`brown`, `ink`, `cream`, `peach`, `orange`, `muted`, font Anuphan) | เพิ่มสี/ฟอนต์กลาง |
-| frontend/src/context/AuthContext.jsx | session + profile + signInWithGoogle/signOut/refreshProfile (`useAuth`) | แก้ logic auth |
+| frontend/src/context/AuthContext.jsx | session + profile + setProfile + signInWithGoogle/signOut/refreshProfile (`useAuth`) | แก้ logic auth |
 | frontend/src/routes/PrivateRoute.jsx | กันหน้า private: ไม่ login → /login, ไม่มี profile → /register | แก้เงื่อนไขเข้าหน้า |
-| frontend/src/routes/PublicOnlyRoute.jsx | / และ /login — login แล้วเด้งไป /map | |
+| frontend/src/routes/PublicOnlyRoute.jsx | / และ /login — login แล้วเด้งไป /home | |
 | frontend/src/lib/supabase.js | supabase client (env `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`) | |
 | frontend/.env.example | template env | เพิ่ม env |
 | frontend/vercel.json | SPA rewrite ทุก path → index.html (กัน 404 ตอน refresh) | |
@@ -50,12 +52,15 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | `/` | Landing | public only |
 | `/login` | Login Google | public only |
 | `/register` | ตั้งค่าโปรไฟล์ครั้งแรก | login แล้ว + ยังไม่มี profile |
+| `/welcome` | ต้อนรับหลัง register → ปุ่มไป from ?? /home | private |
+| `/home` | หน้าหลักหลัง login (placeholder รอ design) | private |
 | `/map` | แผนที่ไทย | private |
 | `/map/:province` | ซูมจังหวัด | private |
 | `/map/:province/mood` | เลือก mood | private |
 | `/map/:province/swipe` | Swipe | private |
 - "register แล้ว" = มีแถวใน `profiles` (id = auth.users.id)
-- จำหน้าเดิมผ่าน `location.state.from` แล้วพากลับหลัง login/register
+- จำหน้าเดิมผ่าน `location.state.from` แล้วพากลับหลัง login/register (default /home)
+- Register บันทึกเสร็จ: `navigate('/welcome')` + `setProfile(data)` ใน tick เดียวกัน กัน guard /register เด้งก่อน
 
 ## Database
 `profiles` — SQL paste ให้แล้ว 2026-10-24 รอผู้ใช้รัน (Claude ไม่แตะ DB — แก้ผ่าน SQL ที่ paste ให้เท่านั้น)
@@ -71,6 +76,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - Commit ทุกงาน ไม่ push
 - ชื่อแบรนด์ LaMoon, design ตาม mockup "8 Warm" (โทนน้ำตาล/ครีม, ฟอนต์ Anuphan) — มือถือตาม mockup เป๊ะ, desktop (lg) hero 2 คอลัมน์
 - ตัวอย่างสถานที่บน Landing ใช้ภาคใต้ (ตามจังหวัด seed)
+- ค่าใน DB เก็บเป็น id อังกฤษ (mood `beach`..., ภาค `north`..., จังหวัด `krabi`/`chiang-mai`) ดู `src/data/options.js`
+- Register: ปุ่มกดได้เมื่อ ชื่อไม่ว่าง + มู้ด ≥1 + ยอมรับข้อตกลง; ปุ่ม ‹ = signOut แล้วไป /login
 - เปลี่ยนหน้า: ใช้ `SlideLink` แทน `Link` (ยังใช้ BrowserRouter ไม่ย้ายไป data router) ถอยกลับใส่ `back`
 
 ## ค้างอยู่
@@ -82,7 +89,9 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] animation เปลี่ยนหน้าแบบเลื่อน
 - [ ] ลบ `frontend/src/App.css` (template เก่า ไม่มีใครใช้) — ผู้ใช้ลบเอง
 - [ ] ผู้ใช้รัน SQL `profiles` + ใส่ `.env`
-- [ ] ทำฟอร์ม Register (insert profiles)
+- [x] ทำฟอร์ม Register (insert profiles) + หน้า Welcome
+- [ ] เพิ่มคอลัมน์ `profiles.regions text[]` (Register ใช้แล้ว — ยังไม่มีใน DB insert จะพัง)
+- [ ] design หน้า Home
 - [ ] ผู้ใช้สร้าง Google OAuth client + ใส่ `backend/supabase/.env` + redirect URI ใน Google Console
 - [ ] Claude ร่าง seed data
 - [ ] SQL schema (paste ในแชท)
@@ -98,3 +107,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | ลง framer-motion, CardStack: กางการ์ดตอนโหลด + ลอย + demo ปัดอัตโนมัติ + ลากปัดได้จริง (หยุด demo ตอนแตะ กลับมาวนหลัง 4 วิ, ปิดตาม prefers-reduced-motion) |
 | 2026-10-24 | หน้า Login ตาม design 8 Warm: ภาพการ์ด animate เบาๆ, ปุ่ม Google โลโก้จริง + loading/error, desktop แบ่ง 2 ฝั่ง; ย้าย icons ไป components/icons.jsx |
 | 2026-10-24 | เพิ่ม SlideLink + CSS view transition เลื่อนหน้า (ถอยกลับเลื่อนสวนทาง, ปิดตาม reduced motion) ใช้ใน Landing/Login |
+| 2026-10-24 | หน้า Register ตาม 03-register.html + หน้า Welcome (Claude ออกแบบ) + /home placeholder, default หลัง login → /home, เพิ่ม src/data/options.js |

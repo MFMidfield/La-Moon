@@ -15,7 +15,7 @@ export default function Login() {
   async function handleLogin() {
     setLoading(true)
     setError('')
-    const { error } = await signInWithGoogle(location.state?.from ?? '/map')
+    const { error } = await signInWithGoogle(location.state?.from ?? '/home')
     if (error) {
       setError('เข้าสู่ระบบไม่สำเร็จ ลองใหม่อีกครั้ง')
       setLoading(false)

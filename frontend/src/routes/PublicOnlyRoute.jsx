@@ -10,7 +10,7 @@ export default function PublicOnlyRoute() {
 
   if (session) {
     if (!profile) return <Navigate to="/register" replace />
-    return <Navigate to={location.state?.from ?? '/map'} replace />
+    return <Navigate to={location.state?.from ?? '/home'} replace />
   }
 
   return <Outlet />

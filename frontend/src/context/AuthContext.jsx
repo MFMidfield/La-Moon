@@ -45,11 +45,12 @@ export function AuthProvider({ children }) {
     session,
     user: session?.user ?? null,
     profile,
+    setProfile,
     loading,
     refreshProfile: async () => {
       if (session) setProfile(await fetchProfile(session.user.id))
     },
-    signInWithGoogle: (redirectPath = '/map') =>
+    signInWithGoogle: (redirectPath = '/home') =>
       supabase.auth.signInWithOAuth({
         provider: 'google',
         options: { redirectTo: window.location.origin + redirectPath },

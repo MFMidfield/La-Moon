@@ -5,6 +5,8 @@ import PublicOnlyRoute from './routes/PublicOnlyRoute'
 import Landing from './pages/Landing'
 import Login from './pages/Login'
 import Register from './pages/Register'
+import Welcome from './pages/Welcome'
+import Home from './pages/Home'
 import Map from './pages/Map'
 import Province from './pages/Province'
 import Mood from './pages/Mood'
@@ -25,6 +27,8 @@ export default function App() {
           </Route>
 
           <Route element={<PrivateRoute />}>
+            <Route path="/welcome" element={<Welcome />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/map" element={<Map />} />
             <Route path="/map/:province" element={<Province />} />
             <Route path="/map/:province/mood" element={<Mood />} />

@@ -18,7 +18,7 @@ export default function PrivateRoute({ requireProfile = true }) {
   }
 
   if (!requireProfile && profile) {
-    return <Navigate to={location.state?.from ?? '/map'} replace />
+    return <Navigate to={location.state?.from ?? '/home'} replace />
   }
 
   return <Outlet />
