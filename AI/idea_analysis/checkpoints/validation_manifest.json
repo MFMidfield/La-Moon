@@ -1,0 +1,20 @@
+{
+  "source_counts": {
+    "MDA": 100,
+    "MDB": 100,
+    "PDF": 100
+  },
+  "total": 300,
+  "qualified_id_unique": 300,
+  "output_partition": {
+    "shortlist": 57,
+    "reserve": 219,
+    "low_priority": 24
+  },
+  "coverage_ok": true,
+  "source_sha256": {
+    "MDA": "f539cfc7fd0d988f942a0a80e54fb2c71c6f397d2e6e2669583d02ebfd32ef46",
+    "MDB": "a633c04746880d66132cb1ce486c2b2cb34d0d07c6a4f39845e656b581fe8abe",
+    "PDF": "aa70bb00e3d3db7f82a0089d2ca8720cd60c6ebec9e152cfc428d96658731afa"
+  }
+}
