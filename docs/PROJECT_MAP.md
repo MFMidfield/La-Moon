@@ -73,6 +73,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [ ] เคาะจำนวนสถานที่ต่อจังหวัด
 - [x] วาง route + private route
 - [x] หน้า Landing ตาม design
+- [x] animation การ์ด Hero (framer-motion)
 - [ ] ลบ `frontend/src/App.css` (template เก่า ไม่มีใครใช้) — ผู้ใช้ลบเอง
 - [ ] ผู้ใช้รัน SQL `profiles` + ใส่ `.env`
 - [ ] ทำฟอร์ม Register (insert profiles)
@@ -88,3 +89,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | เพิ่ม Google OAuth ใน config.toml, site_url → 5173, gitignore `.env` ใน backend/supabase |
 | 2026-10-24 | ลง react-router-dom + supabase-js, ทำ AuthProvider + PrivateRoute/PublicOnlyRoute + หน้า placeholder |
 | 2026-10-24 | ทำหน้า Landing ตาม design 8 Warm (responsive), ล้าง index.css เหลือ Tailwind + theme, ใส่ฟอนต์ Anuphan |
+| 2026-10-24 | ลง framer-motion, CardStack: กางการ์ดตอนโหลด + ลอย + demo ปัดอัตโนมัติ + ลากปัดได้จริง (หยุด demo ตอนแตะ กลับมาวนหลัง 4 วิ, ปิดตาม prefers-reduced-motion) |
