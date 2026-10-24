@@ -3,11 +3,15 @@ import { assignStays, planMeals } from '../../lib/trip/meals'
 
 export const mid = ({ min, max }) => (min + max) / 2
 export const overrideKey = (d, meal) => `${d}:${meal}`
+// key ของแถวในวัน (ใช้กับเวลา): สถานที่ / มื้อ
+export const placeKey = (id) => `p:${id}`
+export const mealKey = (meal) => `m:${meal}`
 
 /**
  * ร้านอาหาร + ที่พักต่อวัน จากแผนสถานที่ปัจจุบัน
  * overrides: { 'd:meal': { restaurant: id|null, auto? } } — ที่ผู้ใช้สลับเอง (null = ไม่ต้องการมื้อนี้)
- * คืน { days: [{ stay, meals }], stays (ต่อคืน), dayPlaces, hasFood }
+ * คืน { days: [{ stay, meals }], stays (ต่อคืน), dayPlaces, mealPlaces, hasFood }
+ *   mealPlaces = dayPlaces แต่วันที่ไม่มีที่เที่ยวใช้ที่เที่ยวทั้งทริปเป็นจุดอ้างอิงหาร้านใกล้ๆ
  * meal ที่ผู้ใช้ข้าม = { restaurant: null, skipped: true }
  */
 export function buildFoodStay({ plan, nights, likedStays = [], stayMode, chosenStay = null, likedRestaurants = [], pool = [], overrides = {} }) {
@@ -21,9 +25,11 @@ export function buildFoodStay({ plan, nights, likedStays = [], stayMode, chosenS
   Object.entries(overrides).forEach(([key, value]) => {
     if (value?.restaurant && Number(key.split(':')[0]) < dayPlaces.length) reserved.add(value.restaurant)
   })
+  const allPlaces = dayPlaces.flat()
+  const mealPlaces = dayPlaces.map((places) => (places.length ? places : allPlaces))
   const planned = hasFood
     ? planMeals({
-      dayPlaces,
+      dayPlaces: mealPlaces,
       liked: likedRestaurants.filter((r) => !reserved.has(r.id)),
       pool: pool.filter((r) => !reserved.has(r.id)),
       breakfastAtStay,
@@ -41,7 +47,7 @@ export function buildFoodStay({ plan, nights, likedStays = [], stayMode, chosenS
       return restaurant ? { meal: slot.meal, restaurant, auto: Boolean(override.auto), atStay: false } : slot
     }),
   }))
-  return { days, stays, dayPlaces, hasFood }
+  return { days, stays, dayPlaces, mealPlaces, hasFood }
 }
 
 // มื้อทั้งทริปสำหรับ estimateTrip (ไม่รวมมื้อที่ผู้ใช้ข้าม); d = วันที่ของมื้อ
@@ -51,10 +57,13 @@ export function budgetMeals(food) {
   return slots.length ? slots : [{ atStay: true, restaurant: null, d: 0 }]
 }
 
-// รูปแบบที่เก็บใน trips.days[d] (ส่วนเพิ่มจาก items)
-export function serializeFood(foodDays) {
-  return foodDays.map((day) => ({
-    meals: day.meals.map((m) => ({ meal: m.meal, restaurant: m.restaurant?.id ?? null, auto: Boolean(m.auto), atStay: Boolean(m.atStay) })),
+// รูปแบบที่เก็บใน trips.days[d] (ส่วนเพิ่มจาก items); schedule = ผล scheduleTrip → ใส่ start/end ของมื้อ
+export function serializeFood(foodDays, schedule = null) {
+  return foodDays.map((day, d) => ({
+    meals: day.meals.map((m) => {
+      const t = schedule?.[d]?.times[mealKey(m.meal)]
+      return { meal: m.meal, restaurant: m.restaurant?.id ?? null, auto: Boolean(m.auto), atStay: Boolean(m.atStay), ...(t ? { start: t.start, end: t.end } : {}) }
+    }),
     stay: day.stay?.id ?? null,
   }))
 }
@@ -72,8 +81,8 @@ export function mealCandidates({ pool = [], liked = [], meal, places = [] }) {
 }
 
 /**
- * เรียงแถวในวันตามเวลา: เช้า → ที่เที่ยวช่วงเช้า → กลางวัน → ที่เที่ยวบ่าย/เย็น → (เวลาอิสระ) → เย็น
- * คืน [{ kind: 'meal', slot } | { kind: 'place', item, index } | { kind: 'free' }]
+ * เรียงแถวในวัน: เช้า → ที่เที่ยวช่วงเช้า → กลางวัน → ที่เที่ยวบ่าย/เย็น → เย็น (ลำดับนี้คือลำดับที่ใช้คำนวณเวลา)
+ * คืน [{ kind: 'meal', slot } | { kind: 'place', item, index }]
  * hideEmpty: ซ่อนมื้อที่ไม่มีร้าน (หน้าอ่านอย่างเดียว)
  */
 export function dayRows(items, meals = [], { hideEmpty = false } = {}) {
@@ -91,7 +100,6 @@ export function dayRows(items, meals = [], { hideEmpty = false } = {}) {
     if (index === lunchAt) pushMeal('lunch')
     rows.push({ kind: 'place', item, index })
   })
-  rows.push({ kind: 'free' })
   if (lunchAt < 0) pushMeal('lunch')
   pushMeal('dinner')
   return rows

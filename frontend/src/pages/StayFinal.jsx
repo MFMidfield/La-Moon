@@ -4,22 +4,17 @@ import { AnimatePresence, MotionConfig, motion, useReducedMotion } from 'framer-
 import AppHeader from '../components/AppHeader'
 import { slideNavigate } from '../components/SlideLink'
 import { tripLength, useTripDraft } from '../context/TripDraftContext'
-import { PACES } from '../data/travel'
 import { getPlacesByIds } from '../lib/api/places'
 import { getStaysByIds } from '../lib/api/stays'
 import { assignStays } from '../lib/trip/meals'
-import { dayCapacities, planTrip } from '../lib/trip/plan'
-import { travelOptions } from '../lib/trip/travel'
+import { planLikedOnly } from '../lib/trip/plan'
 import { TripLoading } from '../components/trip/TripStates'
 import { PRIMARY_BUTTON } from '../components/trip/styles'
 import { StayModeTile, StayNightList, StayOption } from '../components/trip/StayChoice'
 
-// สถานที่ต่อวันแบบคร่าวๆ จากที่ปัดชอบ (ใช้จัดตัวอย่างที่พัก — แผนจริงอาจเติมที่เที่ยวเพิ่ม)
-function roughDayPlaces(draft, places) {
-  const { days } = tripLength(draft)
-  const perDay = PACES.find((p) => p.id === draft.pace)?.perDay ?? 3
-  const travelHours = travelOptions(draft.origin, draft.province).options.find((o) => o.id === draft.transportTo)?.hours ?? 0
-  const plan = planTrip({ liked: places, pool: [], capacities: dayCapacities({ days, perDay, travelHours }) })
+// สถานที่ต่อวันจากที่ปัดชอบ — จัดแบบเดียวกับหน้าแผน (planLikedOnly) ที่พักตัวอย่างจึงตรงกับแผนจริง
+function dayPlacesOf(draft, places) {
+  const plan = planLikedOnly({ liked: places, days: tripLength(draft).days })
   return plan.days.map((day) => day.items.map((item) => item.place))
 }
 
@@ -31,7 +26,7 @@ function StayFinalBody({ draft, updateDraft, stays, places }) {
   const [chosen, setChosen] = useState(() => (stays.some((s) => s.id === draft.chosenStayId) ? draft.chosenStayId : null))
 
   const preview = useMemo(
-    () => assignStays({ nights, dayPlaces: roughDayPlaces(draft, places), liked: stays, mode: 'multi' }),
+    () => assignStays({ nights, dayPlaces: dayPlacesOf(draft, places), liked: stays, mode: 'multi' }),
     [nights, draft, places, stays],
   )
   const valid = mode === 'multi' || (mode === 'single' && chosen != null)

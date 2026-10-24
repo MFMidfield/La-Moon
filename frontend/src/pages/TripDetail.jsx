@@ -43,7 +43,7 @@ async function attachFoodStay(rawDays, days) {
   const stayById = new Map(stays.map(item => [item.id, item]))
   return days.map((day, d) => ({
     ...day,
-    meals: (extras[d]?.meals ?? []).map(meal => ({ meal: meal.meal, restaurant: restaurantById.get(meal.restaurant) ?? null, auto: Boolean(meal.auto), atStay: Boolean(meal.atStay) })),
+    meals: (extras[d]?.meals ?? []).map(meal => ({ meal: meal.meal, restaurant: restaurantById.get(meal.restaurant) ?? null, auto: Boolean(meal.auto), atStay: Boolean(meal.atStay), start: meal.start, end: meal.end })),
     stay: stayById.get(extras[d]?.stay) ?? null,
   }))
 }
