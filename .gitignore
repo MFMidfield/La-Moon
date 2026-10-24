@@ -3,3 +3,7 @@ node_modules/
 
 # Claude Code agent worktrees
 .claude/worktrees/
+
+# Codex runs (prompts/logs) and worktrees
+.codex-runs/
+.codex-worktrees/

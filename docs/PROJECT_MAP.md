@@ -18,6 +18,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 ผู้ใช้วางโครงเอง — Claude เสนอได้อย่างเดียว ห้ามสร้างโครงเอง
 | path | หน้าที่ |
 |------|--------|
+| .codex-runs/ , .codex-worktrees/ | prompt/ผล/log ของ Codex และ worktree ชั่วคราว (gitignore) | |
 | AGENTS.md | กฎ/บริบทโปรเจกต์สำหรับ Codex และ agent อื่น (sync กับ memory ของ Claude) |
 | frontend/ | Vite React app |
 | frontend/src/pages/ | หน้าแต่ละ route |
@@ -175,3 +176,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | ลง lucide-react (ไอคอนแทน emoji — ห้ามใช้ emoji ในเว็บ); สั่ง Codex polish UI (สุ่มเฉพาะหลังกดสุ่ม, เอา emoji ออก, animation ตอนเลือก, ตัดล็อกวันเดินทาง, กันปุ่มทับ slider, chip ไม่เบียด, ปุ่มสุ่มใหม่/ไปต่อเท่ากัน) ใน ../AFOU-codex-polish |
 | 2026-10-24 | merge Codex UI polish: ไอคอน lucide แทน emoji ทั้งเว็บ, animation ตอนเลือก, สุ่มสลับตัวอักษรครั้งเดียวหลังกดสุ่ม, ตัดล็อกวันเดินทาง, footer ไม่ทับ, chip ไม่เบียด, ปุ่มสุ่มใหม่/ไปต่อเท่ากัน |
 | 2026-10-24 | สั่ง Codex (web search + network) หาข้อมูลสถานที่ ~150 ที่ + เครือข่ายราง/เรือ กทม. (data only) |
+| 2026-10-24 | จัดระเบียบ: ลบ worktree ที่ merge แล้ว 7 อัน + branch, ย้ายไฟล์ Codex จาก MyTask/ เข้า .codex-runs/ (gitignore), ต่อไป worktree อยู่ใน .codex-worktrees/ |

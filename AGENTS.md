@@ -50,5 +50,9 @@ Instructions for coding agents (Codex and others) working in this repo. Claude C
 - **Random trip:** needs mood and budget first. Random places still go through the swipe step. After swiping, the system auto-fills days that are short and the user can drag cards between days.
 - **Admin panel:** later. Use Supabase Studio for now.
 
+## Workspace hygiene
+- Keep all files inside this repo folder. Claude creates Codex worktrees under `.codex-worktrees/<name>` and keeps prompts, results and logs in `.codex-runs/`. Both folders are gitignored, and worktrees are removed after merge.
+- Write throwaway scripts in `/tmp` and never commit them.
+
 ## Report format (end of every task)
 Files changed and what each does, what works, what you could not do, decisions you made on your own, and any change needed in files you were not allowed to touch (with code).
