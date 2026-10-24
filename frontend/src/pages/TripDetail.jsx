@@ -128,7 +128,7 @@ export default function TripDetail() {
 
         <div className="flex flex-col gap-5 px-4 pt-4">
           {(trip.start_date || trip.travelers || typeof trip.budget === 'object') && <TripOverview trip={trip} days={current.days.length || 1} nights={trip.nights ?? Math.max(0, current.days.length - 1)} people={Math.max(1, (trip.travelers?.adults ?? 1) + (trip.travelers?.children ?? 0))} />}
-          {current.days.length > 0 && <DayPlan days={current.days} startDate={trip.start_date} transit={transit} />}
+          {current.days.length > 0 && <DayPlan days={current.days} canBook={trip.trip_type !== 'daytrip'} startDate={trip.start_date} transit={transit} />}
           {current.combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
           {trip.estimate && <TripBudget estimate={trip.estimate} transit={trip.transport_local === 'transit' ? transit : null} />}
         </div>

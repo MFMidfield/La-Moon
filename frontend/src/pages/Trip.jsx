@@ -155,7 +155,7 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
       <div className="flex flex-col gap-5 px-4 pt-3">
         <TripOverview trip={draft} {...length} people={people} />
         <div className="flex items-center justify-between px-1"><h1 className="m-0 text-2xl font-bold">ทริปในแบบของคุณ</h1><span className="rounded-full bg-white px-3 py-1.5 text-xs text-brown">{places.length} ที่</span></div>
-        <DayPlan days={viewDays} spare={plan.spare} startDate={draft.startDate} onMove={move} onCycleSpare={cycleSpare} onSwap={swap} canSwap={plan.spare.length > 0} transit={transit} timeOverrides={timeOverrides} onTimeChange={changeTime} onResetTimes={resetDayTimes} onEditMeal={food.hasFood ? (d, meal) => setMealSheet({ open: true, d, meal }) : undefined} />
+        <DayPlan days={viewDays} spare={plan.spare} canBook={draft.tripType !== 'daytrip'} startDate={draft.startDate} onMove={move} onCycleSpare={cycleSpare} onSwap={swap} canSwap={plan.spare.length > 0} transit={transit} timeOverrides={timeOverrides} onTimeChange={changeTime} onResetTimes={resetDayTimes} onEditMeal={food.hasFood ? (d, meal) => setMealSheet({ open: true, d, meal }) : undefined} />
         {combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
         <TripBudget input={input} onApply={applyAlternative} transit={draft.transportLocal === 'transit' ? transit : null} />
         {warnings.length > 0 && <div className="rounded-[24px] bg-[#FBE3D2] p-4"><h2 className="m-0 flex items-center gap-2 text-sm font-semibold"><Sun size={18} strokeWidth={2} aria-hidden="true" />ก่อนออกเดินทาง</h2>{warnings.map(warning => <p key={warning.placeId} className="mb-0 mt-2 text-xs leading-relaxed text-[#4A3A30]">{warning.message}</p>)}</div>}

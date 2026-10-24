@@ -18,7 +18,7 @@ import TransitRoute, { TransitDayTotal } from './TransitRoute'
 
 const NO_OVERRIDES = {}
 
-function PlanCard({ item, index, editable, time, customTime, onEditTime, onSelect, onRemove, onSwap, onBook, onDrop, onHover, canSwap }) {
+function PlanCard({ item, index, editable, time, customTime, onEditTime, onSelect, onRemove, onSwap, onBook, canBook, onDrop, onHover, canSwap }) {
   const controls = useDragControls()
   const reduced = useReducedMotion()
   const feedback = { whileTap: reduced ? undefined : { scale: 0.96 }, transition: reduced ? { duration: 0 } : { type: 'spring', stiffness: 450, damping: 28 } }
@@ -43,7 +43,7 @@ function PlanCard({ item, index, editable, time, customTime, onEditTime, onSelec
     >
       {time && <div className="mb-2"><TimeChip start={time.start} end={time.end} label={place.name} custom={customTime} onClick={onEditTime} /></div>}
       <div className="flex items-start gap-2.5">
-        <motion.button {...feedback} type="button" onClick={() => { if (Date.now() - lastDrag.current > 250) (editable ? onSelect(place.id) : onBook(place)) }} aria-label={editable ? `ย้าย ${place.name}` : `ดูการจองใกล้ ${place.name}`} className="flex min-w-0 flex-1 items-center gap-3 text-left">
+        <motion.button {...feedback} type="button" onClick={() => { if (Date.now() - lastDrag.current > 250) (editable ? onSelect(place.id) : canBook && onBook(place)) }} aria-label={editable ? `ย้าย ${place.name}` : `ดูการจองใกล้ ${place.name}`} className="flex min-w-0 flex-1 items-center gap-3 text-left">
           <PlaceThumb src={place.image_url} />
           <span className="flex min-w-0 flex-col gap-1">
             <span className="text-sm font-semibold leading-snug">{place.name}</span>
@@ -53,7 +53,7 @@ function PlanCard({ item, index, editable, time, customTime, onEditTime, onSelec
         {editable && <motion.button {...feedback} type="button" aria-label={`ลาก ${place.name}`} title="ลากเพื่อย้ายการ์ด หรือแตะชื่อเพื่อเลือกวัน" onPointerDown={event => { if (!reduced) controls.start(event) }} onClick={() => { if (Date.now() - lastDrag.current > 250) onSelect(place.id) }} className="flex h-11 w-8 shrink-0 touch-none cursor-grab items-center justify-center rounded-full bg-cream text-lg text-muted active:cursor-grabbing"><GripVertical size={18} strokeWidth={2} aria-hidden="true" /></motion.button>}
       </div>
       <div className="mt-2 flex items-center justify-end gap-1">
-        <motion.button {...feedback} type="button" onClick={() => onBook(place)} className="flex min-h-11 items-center gap-1 rounded-full px-3 text-xs font-semibold text-brown transition-colors duration-200 hover:bg-cream">จองใกล้ที่นี่ <ChevronRight size={14} strokeWidth={2} aria-hidden="true" /></motion.button>
+        {canBook && <motion.button {...feedback} type="button" onClick={() => onBook(place)} className="flex min-h-11 items-center gap-1 rounded-full px-3 text-xs font-semibold text-brown transition-colors duration-200 hover:bg-cream">จองใกล้ที่นี่ <ChevronRight size={14} strokeWidth={2} aria-hidden="true" /></motion.button>}
         {editable && <><motion.button {...feedback} type="button" onClick={() => onSwap(place.id)} disabled={!canSwap} aria-label={`สุ่มแทน ${place.name}`} className="flex h-11 w-11 items-center justify-center rounded-full bg-cream text-brown transition-colors duration-200 disabled:opacity-30"><Dices size={18} strokeWidth={2} aria-hidden="true" /></motion.button><motion.button {...feedback} type="button" onClick={() => onRemove(place.id)} aria-label={`เก็บ ${place.name} ไว้กองสำรอง`} className="flex h-11 w-11 items-center justify-center rounded-full bg-cream text-muted transition-colors duration-200"><X size={18} strokeWidth={2} aria-hidden="true" /></motion.button></>}
       </div>
     </motion.div>
@@ -116,7 +116,8 @@ function dropTarget(event, info) {
  * แก้ได้เมื่อมี onMove; timeOverrides = { 'd:key': 'HH:MM' }, onTimeChange(fullKey, value|undefined), onResetTimes(d)
  * อ่านอย่างเดียว (ไม่มี onMove): ใช้ start ที่บันทึกใน items/meals ถ้ามี ไม่มีก็คำนวณใหม่
  */
-export default function DayPlan({ days, spare = [], startDate, onMove, onCycleSpare, onSwap, canSwap = false, transit, onEditMeal, timeOverrides = NO_OVERRIDES, onTimeChange, onResetTimes }) {
+// canBook = false (ทริปวันเดียว) → ไม่มีปุ่มจองที่พักใกล้สถานที่
+export default function DayPlan({ days, spare = [], canBook = true, startDate, onMove, onCycleSpare, onSwap, canSwap = false, transit, onEditMeal, timeOverrides = NO_OVERRIDES, onTimeChange, onResetTimes }) {
   const reduced = useReducedMotion()
   const feedback = { whileTap: reduced ? undefined : { scale: 0.96 }, transition: reduced ? { duration: 0 } : { type: 'spring', stiffness: 450, damping: 28 } }
   const editable = Boolean(onMove)
@@ -168,7 +169,7 @@ export default function DayPlan({ days, spare = [], startDate, onMove, onCycleSp
     setTimeEdit(null)
   }
 
-  const cardProps = { editable, onSelect: setSelected, onRemove: id => onMove(id, 'spare'), onSwap, onBook: setBooking, onDrop: drop, onHover: hover, canSwap }
+  const cardProps = { editable, onSelect: setSelected, onRemove: id => onMove(id, 'spare'), onSwap, onBook: setBooking, canBook, onDrop: drop, onHover: hover, canSwap }
   const canEditTime = editable && Boolean(onTimeChange)
 
   return (
@@ -212,7 +213,7 @@ export default function DayPlan({ days, spare = [], startDate, onMove, onCycleSp
         {editable && spare.length > 0 && <section data-plan-zone="spare" aria-label="กองการ์ดสำรอง" className={`rounded-[28px] border-2 p-3 ${hovered === 'spare' ? 'border-orange bg-peach/50' : 'border-dashed border-[#D9CFC5]'}`}>
           <div className="flex items-center justify-between px-1"><h2 className="m-0 text-lg font-bold">กองการ์ดสำรอง</h2><span className="rounded-full bg-white px-2.5 py-1 text-xs text-muted">{spare.length} ใบ</span></div>
           <p className="mb-3 mt-1 px-1 text-xs leading-relaxed text-muted">ปัดการ์ดขึ้นเพื่อดูใบถัดไป · ลากที่ไอคอนจุดไปวางในวัน</p>
-          <SpareDeck spare={spare} onSelect={setSelected} onBook={setBooking} onCycle={onCycleSpare ?? (id => onMove(id, 'spare'))} onDrop={drop} onHover={hover} />
+          <SpareDeck spare={spare} canBook={canBook} onSelect={setSelected} onBook={setBooking} onCycle={onCycleSpare ?? (id => onMove(id, 'spare'))} onDrop={drop} onHover={hover} />
         </section>}
       </div>
       <BottomSheet open={Boolean(selectedPlace)} onClose={closeMove} labelledBy="move-card-title">

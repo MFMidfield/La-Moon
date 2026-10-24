@@ -18,7 +18,7 @@ const DEPTHS = [
   { x: 5, y: 27, rotate: 4, scale: 0.91, bg: '#E8793A' },
 ]
 
-function DeckCard({ place, depth, count, onSelect, onBook, onCycle, onDrop, onHover, onDragging }) {
+function DeckCard({ place, depth, count, canBook, onSelect, onBook, onCycle, onDrop, onHover, onDragging }) {
   const reduced = useReducedMotion()
   const controls = useDragControls()
   const swipeY = useMotionValue(0)
@@ -90,7 +90,7 @@ function DeckCard({ place, depth, count, onSelect, onBook, onCycle, onDrop, onHo
               </button>
             </div>
             <div className="flex items-center justify-end gap-1">
-              <motion.button {...feedback} type="button" onClick={() => onBook(place)} className="flex min-h-11 cursor-pointer items-center gap-1 rounded-full px-3 text-xs font-semibold text-brown transition-colors duration-200 hover:bg-cream motion-reduce:transition-none">จองใกล้ที่นี่ <ChevronRight size={14} strokeWidth={2} aria-hidden="true" /></motion.button>
+              {canBook && <motion.button {...feedback} type="button" onClick={() => onBook(place)} className="flex min-h-11 cursor-pointer items-center gap-1 rounded-full px-3 text-xs font-semibold text-brown transition-colors duration-200 hover:bg-cream motion-reduce:transition-none">จองใกล้ที่นี่ <ChevronRight size={14} strokeWidth={2} aria-hidden="true" /></motion.button>}
               <motion.button {...feedback} type="button" onClick={() => onSelect(place.id)} aria-label={`ใส่ ${place.name} ในแผน`} className="flex min-h-11 cursor-pointer items-center gap-1 rounded-full bg-cream px-3 text-xs font-semibold text-brown"><ListPlus size={16} strokeWidth={2} aria-hidden="true" />ใส่ในแผน</motion.button>
               <motion.button {...feedback} type="button" onClick={sendBack} disabled={count < 2} aria-label="เลื่อนการ์ดใบนี้ไปหลังกอง ดูใบถัดไป" className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-cream text-brown disabled:cursor-default disabled:opacity-30"><ArrowUp size={18} strokeWidth={2} aria-hidden="true" /></motion.button>
             </div>
@@ -119,12 +119,12 @@ function DeckCard({ place, depth, count, onSelect, onBook, onCycle, onDrop, onHo
  * ปัดใบหน้าขึ้น (หรือกดลูกศร) = ส่งไปหลังกอง · ลากที่ไอคอนจุดไปวางในวัน · แตะ "ใส่ในแผน" เลือกวัน
  * onDrop/onHover = handler ลากวางเดียวกับการ์ดในวัน (DayPlan)
  */
-export default function SpareDeck({ spare, onSelect, onBook, onCycle, onDrop, onHover }) {
+export default function SpareDeck({ spare, canBook = true, onSelect, onBook, onCycle, onDrop, onHover }) {
   const [dragging, setDragging] = useState(false)
   return (
     <div className="relative" style={{ height: CARD_H + PEEK, zIndex: dragging ? 40 : 0 }}>
       {spare.map((place, depth) => (
-        <DeckCard key={place.id} place={place} depth={depth} count={spare.length} onSelect={onSelect} onBook={onBook} onCycle={onCycle} onDrop={onDrop} onHover={onHover} onDragging={setDragging} />
+        <DeckCard key={place.id} place={place} depth={depth} count={spare.length} canBook={canBook} onSelect={onSelect} onBook={onBook} onCycle={onCycle} onDrop={onDrop} onHover={onHover} onDragging={setDragging} />
       ))}
     </div>
   )
