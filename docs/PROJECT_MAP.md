@@ -24,6 +24,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/AppHeader.jsx | header ในแอป: ปุ่มกลับ (backTo/onBack) + crumb + title + step pill | |
 | frontend/src/components/BottomSheet.jsx | sheet ล่าง/dialog กลางจอ (Esc, backdrop, scroll lock) | |
 | frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
+| frontend/src/components/cards/ | การ์ด Swipe: SwipeDeck (ลาก/บินออก/ย้อน), PlaceCard, StatBars (ชิล ลุย ถ่ายรูป กิน คุ้ม), HoloOverlay, DeckFrame, SwipeControls, DeckStates | |
 | frontend/src/components/map/ | แผนที่ (Codex): CountryMap, ProvinceMap, ProvinceSearch, geometry (d3-geo), useMapData, MapStatus; GeoJSON 77 จังหวัด `src/data/geo/thailand.json` (164 KB, lazy load) | |
 | frontend/src/components/home/ | หน้า Home: HomeHeader, PersonalityChip, StartBox, TripList, WishProvinces, Sticker, useLoad (hook โหลดครั้งเดียว) | |
 | frontend/src/components/personality/ | หน้าบุคลิก: PersonalityCard, PersonalityArt (7 ฉาก), ShareActions, EmptyState | |
@@ -72,7 +73,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | `/map` | แผนที่ไทย: ค้นหา, filter ภาค, จังหวัดไม่มีข้อมูล = หมอก, สุ่มจังหวัด (lane E เสร็จ) | private |
 | `/map/:province` | ซูมจังหวัด + หมุดสถานที่ + การ์ดจังหวัด → mood (lane E เสร็จ) | private |
 | `/map/:province/mood` | เลือก mood | private |
-| `/map/:province/swipe` | Swipe | private |
+| `/map/:province/swipe` | ปัดการ์ด (?moods=&budget=) ลาก/ปุ่ม/คีย์บอร์ด, ย้อนได้, holo rare+ → trip state { likedIds, moods, budget } (lane C เสร็จ) | private |
 - "register แล้ว" = มีแถวใน `profiles` (id = auth.users.id)
 - จำหน้าเดิมผ่าน `location.state.from` แล้วพากลับหลัง login/register (default /home)
 - Register บันทึกเสร็จ: `navigate('/welcome')` + `setProfile(data)` ใน tick เดียวกัน กัน guard /register เด้งก่อน
@@ -122,7 +123,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] import ข้อมูลจริง 28 ที่ จาก `AI/gemini-code-1792804922688.json` (ลบ sample แล้ว) — มู้ด Claude กำหนดรายที่ (ค้นเว็บเพิ่ม), rarity: ลับ=ตำนาน พอรู้จัก=หายาก ดัง=ธรรมดา, price ฟรี/ถูก=1 กลาง=2 แพง=3
 - [ ] รูปอีก 17 ที่ (lane F หา Unsplash) — มีรูป Wikimedia แล้ว 11 ที่
 - [ ] Gemini API key: ใส่ `backend/supabase/functions/.env` (GEMINI_API_KEY) แล้ว `supabase functions serve mood-reader`; ถ้า 401 ตั้ง `[functions.mood-reader] verify_jwt = false`
-- [ ] แตก lane A–F ให้ agent (Opus) / Codex
+- [x] แตก lane A–E แล้ว merge ครบ (A Home/บุคลิก, B Mood/AI, C Swipe, D Trip, E Map — Codex)
 - [ ] เนื้อหาข้อตกลง/นโยบายจริง (ตอนนี้ mockup)
 - [ ] ผู้ใช้สร้าง Google OAuth client + ใส่ `backend/supabase/.env` + redirect URI ใน Google Console
 - [ ] Claude ร่าง seed data
@@ -150,3 +151,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | merge lane A: หน้า Home + บุคลิกการเที่ยว |
 | 2026-10-24 | merge lane E (Codex): หน้า Map + Province |
 | 2026-10-24 | backup แล้ว import places 28 ที่ + คอลัมน์ใหม่ (name_en, price_label, coords_uncertain, popularity, best_time, opening_hours, booking_hint, image_license, image_page_url); แตก lane C (Swipe) + lane F (รูป Unsplash) |
+| 2026-10-24 | merge lane C: หน้า Swipe + การ์ด holo — flow ครบ Landing → Trip |
