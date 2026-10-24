@@ -29,7 +29,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
 | frontend/src/components/trip/ (มื้อ/ที่พัก) | mealPlan.js (buildFoodStay, overrides, serializeFood), MealRow, StayRow, MealSwapSheet, StayChoice, CheckPop — แผนรายวันแทรกมื้อ + แถวคืนนี้; draft.itinerary.mealOverrides['d:meal']; trips.days[d] = { items, meals[], stay } | |
 | frontend/src/components/plan/ | flow วางทริป (Codex): ScrambleText (สลับตัวอักษรไทยตาม grapheme) + rollReveal.js (เล่นเฉพาะหลังสุ่ม: draft.rollId/revealed), OriginPicker (GPS→จังหวัด + ค้นหา), TripCalendar, DetailCard | |
-| frontend/src/components/cards/ | การ์ด Swipe: SwipeDeck (ลาก/บินออก/ย้อน), PlaceCard, StatBars (ชิล ลุย ถ่ายรูป กิน คุ้ม), HoloOverlay, DeckFrame, SwipeControls, DeckStates | |
+| frontend/src/components/cards/ | หน้าปัดทุกหมวด: SwipeStage (shell h-dvh ไม่ scroll + rounds + keyboard ←→↑), SwipeDeck generic (ขวา/ซ้าย/ขึ้น=เก็บไว้ก่อน), RoundIntro (คั่นรอบสอง), RestaurantCard, StayCard, CardParts, swipeHelpers; draft.swipeState/foodKey/foodState/stayKey/stayState เก็บความคืบหน้า; เดิม: SwipeDeck (ลาก/บินออก/ย้อน), PlaceCard, StatBars (ชิล ลุย ถ่ายรูป กิน คุ้ม), HoloOverlay, DeckFrame, SwipeControls, DeckStates | |
 | frontend/src/components/map/ | แผนที่ (Codex): ContinuousMap, createMapCamera (d3-zoom), CountryMap, PlacePins, ProvinceSheet (มือถือ), ProvinceDetails (ชิ้นข้อมูลจังหวัดใช้ร่วม sheet/แผงข้าง), useIsDesktop, ProvinceSearch, geometry (d3-geo), useMapData, MapStatus; GeoJSON 77 จังหวัด `src/data/geo/thailand.json` (164 KB, lazy load) | |
 | frontend/src/components/home/ | หน้า Home: HomeHeader, PersonalityChip, StartBox, TripList, WishProvinces, Sticker, useLoad (hook โหลดครั้งเดียว) | |
 | frontend/src/components/personality/ | หน้าบุคลิก: PersonalityCard, PersonalityArt (7 ฉาก), ShareActions, EmptyState | |
@@ -191,3 +191,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | backup แล้ว import 150 ที่ (+คอลัมน์ entry_fee_min/max, visit_minutes, closed_days, mood_reason, sources, coords_source); lazy-load ทุกหน้า (main 480 kB); docs/DEPLOY.md + deploy-remote.sql |
 | 2026-10-24 | ของกลางระบบร้าน/ที่พัก: mock data + api, swipeRounds (ปัดขึ้นเก็บไว้ก่อน/รอบ 2), meals/assignStays, estimateTrip รับ stays/meals ราคาจริง, draft fields, route /plan/food /plan/stay /plan/stay/final (placeholder) |
 | 2026-10-24 | merge agent B: /plan/stay/final (พักหลายที่/ที่เดียว), แผนรายวันมีมื้อ + สลับร้าน + แถวที่พัก, งบราคาจริง, บันทึก/อ่าน meals+stay |
+| 2026-10-24 | merge agent A: ปัดทุกหมวดแบบ rounds (ปัดขึ้นเก็บไว้ก่อน → รอบสอง), การ์ดพอดีจอไม่ scroll, หน้า /plan/food + /plan/stay — flow ร้าน/ที่พักครบ |
