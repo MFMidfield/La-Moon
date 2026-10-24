@@ -153,3 +153,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | merge lane C: หน้า Swipe + การ์ด holo — flow ครบ Landing → Trip |
 | 2026-10-24 | รวม /map + /map/:province เป็น route เดียว, ลง d3-zoom/selection/transition, listAllPlaces; merge lane E2 (Codex): แผนที่ต่อเนื่อง pan/zoom + highlight realtime + sheet ดึงขยาย, ลบ Province.jsx |
 | 2026-10-24 | แก้บัคแผนที่: ProvinceSheet เป็น overlay (แผนที่ไม่ resize/กระโดด), เข้า-ออกแบบเลื่อน, หน่วง 250ms ก่อนซ่อนกันกระพริบตอนเป้าหลุดจังหวัด, ซ่อนปุ่มสุ่ม/ป้ายตอน sheet โผล่ |
+| 2026-10-24 | หน้าแผนที่เต็มจอ: แผนที่ชนขอบ พื้นครีม, ปุ่มกลับ+ค้นหา+1/3+chip ภาคลอยทับด้านบน (TOP_INSET 136), sheet/แถบควบคุมกว้างสุด 560px บน desktop |

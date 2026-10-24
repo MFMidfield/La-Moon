@@ -11,7 +11,7 @@ const EMPTY_PLACES = []
 // เป้าหลุดจังหวัดแป๊บเดียว (รอยต่อ/ขอบทะเล) ยังไม่ซ่อน sheet กันกระพริบ
 const SHEET_HIDE_DELAY = 250
 
-export default function ContinuousMap({ counts, places, ready, region, query, command, onChoose, onCountry, randomEnabled, onRandom }) {
+export default function ContinuousMap({ topInset = 12, counts, places, ready, region, query, command, onChoose, onCountry, randomEnabled, onRandom }) {
   const svg = useRef(null)
   const world = useRef(null)
   const container = useRef(null)
@@ -78,11 +78,11 @@ export default function ContinuousMap({ counts, places, ready, region, query, co
   const province = view.id ? PROVINCE_BY_ID[view.id] : null
   const sheetProvince = sheetId ? PROVINCE_BY_ID[sheetId] : null
   const activePin = view.pinsVisible ? pin : null
-  const buttonClass = 'flex size-11 cursor-pointer items-center justify-center rounded-full bg-cream text-ink focus-visible:outline-2 focus-visible:outline-brown'
+  const buttonClass = 'flex size-11 cursor-pointer items-center justify-center rounded-full bg-white text-ink focus-visible:outline-2 focus-visible:outline-brown'
 
   return (
     <div ref={container} className="relative flex min-h-0 grow flex-col overflow-hidden">
-      <div className="relative min-h-0 grow overflow-hidden bg-white">
+      <div className="relative min-h-0 grow overflow-hidden bg-cream">
         <svg
           ref={svg}
           viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`}
@@ -99,16 +99,16 @@ export default function ContinuousMap({ counts, places, ready, region, query, co
           </g>
         </svg>
         {view.zoomed && <div aria-hidden="true" className="pointer-events-none absolute left-1/2 top-1/2 flex size-8 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-2 border-white bg-white/70 text-2xl text-brown">⊕</div>}
-        <div className="absolute right-3 top-3 flex flex-col items-center gap-2">
+        <div className="absolute right-3 flex flex-col items-center gap-2" style={{ top: topInset }}>
           <button type="button" onClick={() => camera.current?.zoomBy(1.6)} aria-label="ซูมเข้า" className={buttonClass}><span aria-hidden="true" className="text-2xl">+</span></button>
           <button type="button" onClick={() => camera.current?.zoomBy(1 / 1.6)} aria-label="ซูมออก" className={buttonClass}><span aria-hidden="true" className="text-2xl">−</span></button>
           <button type="button" onClick={onCountry} aria-label="ดูทั้งประเทศ" className={`${buttonClass} text-center text-[10px] font-medium leading-3.5`}><span>ทั้ง<br />ประเทศ</span></button>
         </div>
-        {activePin && <div role="status" className="absolute left-3 top-3 flex max-w-[calc(100%-100px)] items-center gap-2 rounded-2xl bg-brown py-2 pl-3 text-sm text-white"><span>{activePin.name}</span><button type="button" aria-label="ปิดชื่อที่เที่ยว" onClick={() => setPin(null)} className="flex size-11 shrink-0 cursor-pointer items-center justify-center rounded-full">×</button></div>}
-        {!province && <p role="status" className="pointer-events-none absolute inset-x-3 bottom-[68px] m-0 text-center"><span className="inline-block rounded-full bg-cream px-3 py-2 text-xs text-muted">{view.zoomed ? 'เลื่อนแผนที่ให้จังหวัดอยู่ตรงเป้า' : 'แตะจังหวัดหรือซูมเข้าไปสำรวจ'}</span></p>}
+        {activePin && <div role="status" style={{ top: topInset }} className="absolute left-3 flex max-w-[calc(100%-100px)] items-center gap-2 rounded-2xl bg-brown py-2 pl-3 text-sm text-white"><span>{activePin.name}</span><button type="button" aria-label="ปิดชื่อที่เที่ยว" onClick={() => setPin(null)} className="flex size-11 shrink-0 cursor-pointer items-center justify-center rounded-full">×</button></div>}
+        {!province && <p role="status" className="pointer-events-none absolute inset-x-3 bottom-[68px] m-0 text-center"><span className="inline-block rounded-full bg-white px-3 py-2 text-xs text-muted">{view.zoomed ? 'เลื่อนแผนที่ให้จังหวัดอยู่ตรงเป้า' : 'แตะจังหวัดหรือซูมเข้าไปสำรวจ'}</span></p>}
         <div className={`transition-opacity duration-200 ${sheetProvince ? 'pointer-events-none opacity-0' : 'opacity-100'}`} aria-hidden={Boolean(sheetProvince)}>
           <span className="pointer-events-none absolute bottom-5 left-3 rounded-full bg-white/80 px-2 py-1 text-[10px] text-muted">สีอ่อน = เร็วๆ นี้</span>
-          <button type="button" disabled={!randomEnabled} tabIndex={sheetProvince ? -1 : undefined} onClick={onRandom} className="absolute bottom-3 right-3 min-h-11 cursor-pointer rounded-full bg-cream px-4 text-sm font-medium focus-visible:outline-2 focus-visible:outline-brown disabled:cursor-default disabled:opacity-40">สุ่มจังหวัด</button>
+          <button type="button" disabled={!randomEnabled} tabIndex={sheetProvince ? -1 : undefined} onClick={onRandom} className="absolute bottom-[max(12px,env(safe-area-inset-bottom))] right-3 min-h-11 cursor-pointer rounded-full bg-white px-4 text-sm font-medium focus-visible:outline-2 focus-visible:outline-brown disabled:cursor-default disabled:opacity-40">สุ่มจังหวัด</button>
         </div>
       </div>
       {/* sheet ทับขอบล่างของแผนที่ — แผนที่สูงคงที่ ไม่ resize ตอน sheet เข้า/ออก/ดึง */}
@@ -116,7 +116,7 @@ export default function ContinuousMap({ counts, places, ready, region, query, co
         {sheetProvince && (
           <motion.div
             key="province-sheet"
-            className="absolute inset-x-0 bottom-0 z-10"
+            className="absolute inset-x-0 bottom-0 z-10 mx-auto max-w-[560px]"
             initial={{ y: '100%' }}
             animate={{ y: 0 }}
             exit={{ y: '100%' }}
