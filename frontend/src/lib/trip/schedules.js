@@ -39,12 +39,7 @@ function mockTrips(from, to, mode) {
  */
 export async function getTrips({ origin, province, mode, direction = 'out', date = null }) {
   const [from, to] = direction === 'out' ? [origin, province] : [province, origin]
-  let data = null
-  try {
-    data = await loadSchedules()
-  } catch {
-    data = null
-  }
+  const data = await loadSchedules().catch(() => null)
   const route = data?.routes?.find((r) => r.mode === mode && r.from === from && r.to === to) ?? null
   const day = date ? new Date(`${date}T12:00:00`).getDay() : null
   if (route?.trips?.length) {
