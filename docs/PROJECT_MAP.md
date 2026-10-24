@@ -36,6 +36,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | backend/supabase/functions/mood-reader/ | Edge Function Gemini: POST {text} → {moods, reason}; secret GEMINI_API_KEY (+ GEMINI_MODEL) — ไม่มี key ตอบ 503 แล้ว frontend จับคำแทน | แก้ prompt AI |
 | frontend/src/lib/api/ | ทุกการเรียก supabase ต่อ feature: places, swipes, trips, mood (AI + fallback คำ) — หน้าไหนห้ามเรียก supabase ตรง | เพิ่ม query |
 | frontend/src/lib/trip/ | logic ล้วน: plan (planDays เดิม + planTrip/dayCapacities/assignSlots แผนรายวันใหม่), travel (ระยะ/ตัวเลือกพาหนะ ด้วยสูตร), budget (estimateTrip, cheaperAlternatives, formatBaht), random (randomizeTrip), season (เตือนฤดู/คืนเพ็ญ), combos, personality, geo | |
+| frontend/src/lib/trip/transit.js | เส้นทาง กทม.+ปริมณฑล: โหลด data/transit/bkk.json แบบ lazy, graph สถานี, Dijkstra, ค่าโดยสาร, เดิน/แท็กซี่ fallback (Codex) | แก้สูตรเวลา/ค่าโดยสาร |
+| frontend/src/data/transit/bkk.json | เครือข่ายราง+เรือ กทม. 15 สาย 261 สถานี ณ 2026-10-24 พร้อมแหล่งค่าโดยสาร | อัปเดตค่าโดยสาร/สายใหม่ |
 | frontend/src/context/TripDraftContext.jsx | ร่างทริป (useTripDraft: draft/updateDraft/resetDraft + tripLength/travelerCount) เก็บ sessionStorage | เพิ่ม field ใน flow |
 | frontend/src/data/travel.js | ตัวเลขประมาณการ: พาหนะ, จังหวะ, สนามบิน/รางรถไฟ, สูตรเดินทาง, ที่พัก/อาหาร/ค่าเข้า, preset งบ | ปรับตัวเลข |
 | frontend/src/data/provinceCenters.js | จุดกลาง 77 จังหวัด (ใช้คำนวณระยะ) | |
@@ -130,7 +132,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] ตาราง places/trips/swipes + seed ตัวอย่าง 8 ที่ (กระบี่ 4, ภูเก็ต 4, id ขึ้นต้น `sample-` ลบเมื่อข้อมูลจริงมา)
 - [x] import ข้อมูลจริง 28 ที่ จาก `AI/gemini-code-1792804922688.json` (ลบ sample แล้ว) — มู้ด Claude กำหนดรายที่ (ค้นเว็บเพิ่ม), rarity: ลับ=ตำนาน พอรู้จัก=หายาก ดัง=ธรรมดา, price ฟรี/ถูก=1 กลาง=2 แพง=3
 - [x] รูปสถานที่ 26/28 (Wikimedia 20 + Unsplash 6) — ไม่มีรูป: san-chao-market, laem-homestay (การ์ดใช้ภาพประกอบ)
-- [ ] ข้อมูลเพิ่ม ~150 ที่ (กทม. 50, ปริมณฑล 5 จ. 40, ใต้ 5 จ.เดิม +60) + ระบบราง/เรือ กทม. — Codex รอบ 1 กำลังหาข้อมูลใน ../AFOU-codex-data → AI/data/places-*.json, frontend/src/data/transit/bkk.json; รอบ 2 = logic เส้นทาง + UI
+- [x] Codex รอบ 2: เส้นทางรถไฟฟ้า/เรือ ใน /plan/trip + /trips/:id (TransitRoute, usePlanTransit), โหมด 'transit' ใน 6 จังหวัด BKK_TRANSIT_PROVINCES
+- [ ] import 150 ที่ (SQL พร้อม รอผู้ใช้ยืนยัน) — ข้อมูลเพิ่ม ~150 ที่ (กทม. 50, ปริมณฑล 5 จ. 40, ใต้ 5 จ.เดิม +60) + ระบบราง/เรือ กทม. — deep research กทม. 50 ที่เสร็จแล้วใน `AI/data/deep-research-bkk.md`; ปริมณฑล/ใต้/transit และรอบ 2 logic เส้นทาง + UI ยังรอทำ
 - [ ] Gemini API key: ใส่ `backend/supabase/functions/.env` (GEMINI_API_KEY) แล้ว `supabase functions serve mood-reader`; ถ้า 401 ตั้ง `[functions.mood-reader] verify_jwt = false`
 - [x] แตก lane A–E แล้ว merge ครบ (A Home/บุคลิก, B Mood/AI, C Swipe, D Trip, E Map — Codex)
 - [ ] เนื้อหาข้อตกลง/นโยบายจริง (ตอนนี้ mockup)
@@ -177,3 +180,5 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | merge Codex UI polish: ไอคอน lucide แทน emoji ทั้งเว็บ, animation ตอนเลือก, สุ่มสลับตัวอักษรครั้งเดียวหลังกดสุ่ม, ตัดล็อกวันเดินทาง, footer ไม่ทับ, chip ไม่เบียด, ปุ่มสุ่มใหม่/ไปต่อเท่ากัน |
 | 2026-10-24 | สั่ง Codex (web search + network) หาข้อมูลสถานที่ ~150 ที่ + เครือข่ายราง/เรือ กทม. (data only) |
 | 2026-10-24 | จัดระเบียบ: ลบ worktree ที่ merge แล้ว 7 อัน + branch, ย้ายไฟล์ Codex จาก MyTask/ เข้า .codex-runs/ (gitignore), ต่อไป worktree อยู่ใน .codex-worktrees/ |
+| 2026-10-24 | Deep research สถานที่กรุงเทพฯ 50 แห่ง: เติมค่าเข้า เวลาเปิด/วันปิด ช่วงแนะนำ เวลาเที่ยว แหล่งอ้างอิง และรูปเสรีที่ตรวจสอบผู้สร้างกับใบอนุญาตแล้วใน `AI/data/deep-research-bkk.md` |
+| 2026-10-24 | merge Codex transit routing (lib/trip/transit.js + UI ระหว่างสถานที่ในแผนรายวัน) |
