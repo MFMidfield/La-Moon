@@ -1,0 +1,111 @@
+create table public.profiles (
+  id uuid primary key references auth.users(id) on delete cascade,
+  display_name text not null,
+  avatar_url text,
+  favorite_moods text[] not null default '{}',
+  provinces text[] not null default '{}',
+  regions text[] not null default '{}', -- ไม่ได้ใช้แล้ว (Register เลือกแค่จังหวัด)
+  custom_moods text[] not null default '{}',
+  home_province text,                  -- จังหวัดที่ผู้ใช้อยู่ (ต้นทางทริป)
+  accepted_terms_at timestamptz not null,
+  created_at timestamptz not null default now()
+);
+
+alter table public.profiles enable row level security;
+
+create policy "own profile select" on public.profiles
+  for select using (auth.uid() = id);
+create policy "own profile insert" on public.profiles
+  for insert with check (auth.uid() = id);
+create policy "own profile update" on public.profiles
+  for update using (auth.uid() = id);
+
+-- avatars: public bucket, เขียน/แก้/ลบได้เฉพาะโฟลเดอร์ <user id> ของตัวเอง
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values ('avatars', 'avatars', true, 2097152, array['image/jpeg','image/png','image/webp']);
+
+create policy "avatar insert own folder" on storage.objects for insert to authenticated
+  with check (bucket_id = 'avatars' and (storage.foldername(name))[1] = auth.uid()::text);
+create policy "avatar update own folder" on storage.objects for update to authenticated
+  using (bucket_id = 'avatars' and (storage.foldername(name))[1] = auth.uid()::text);
+create policy "avatar delete own folder" on storage.objects for delete to authenticated
+  using (bucket_id = 'avatars' and (storage.foldername(name))[1] = auth.uid()::text);
+
+-- places: ข้อมูลสถานที่ (อ่านได้ทุกคน, เขียนผ่าน Studio/service role เท่านั้น)
+create table public.places (
+  id text primary key,                 -- slug เช่น 'krabi-phi-phi'
+  province text not null,              -- id จังหวัด เช่น 'krabi'
+  name text not null,
+  name_en text,
+  district text,
+  description text,
+  moods text[] not null default '{}',  -- id มู้ด
+  tags text[] not null default '{}',
+  rarity text not null default 'common' check (rarity in ('common','rare','legendary')),
+  stats jsonb not null default '{}',   -- {"chill","adventure","photo","food","budget"} 0-5 (budget สูง = ประหยัด)
+  price_level smallint check (price_level between 1 and 3),  -- ประหยัด/กลางๆ/จัดเต็ม
+  price_label text,                    -- ข้อความราคาเดิม เช่น 'ถูก (<200฿)'
+  lat double precision,
+  lng double precision,
+  coords_uncertain boolean not null default false,
+  popularity text,                     -- ดัง/พอรู้จัก/ลับ (ที่มาของ rarity)
+  best_time text,
+  opening_hours text,
+  booking_hint text,                   -- ที่พักใกล้เคียง (ใช้กับ mock จอง)
+  image_url text,
+  image_credit text,
+  image_license text,
+  image_page_url text,
+  affiliate_url text,
+  entry_fee_min integer,               -- ค่าเข้า (บาท คนไทย)
+  entry_fee_max integer,
+  visit_minutes integer,
+  closed_days text,
+  mood_reason text,
+  sources text[] not null default '{}',
+  coords_source text,
+  created_at timestamptz not null default now()
+);
+alter table public.places enable row level security;
+create policy "places readable" on public.places for select to anon, authenticated using (true);
+
+-- trips: ทริปที่ผู้ใช้บันทึก
+create table public.trips (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null default auth.uid() references auth.users(id) on delete cascade,
+  province text not null,
+  moods text[] not null default '{}',
+  budget jsonb,                        -- { min, max, per: 'person'|'total' } (แถวเก่า { level })
+  days jsonb not null default '[]',    -- [{ items: [{ place, slot, auto }] }] (แถวเก่า [["place-id",...]])
+  combos text[] not null default '{}',
+  personality text,
+  start_date date,
+  end_date date,
+  nights smallint,
+  trip_type text check (trip_type in ('daytrip','overnight')),
+  travelers jsonb,                     -- { adults, children }
+  origin text,                         -- id จังหวัดต้นทาง
+  transport_to text,                   -- plane/train/bus/car (null = เที่ยวในจังหวัด)
+  transport_local text,                -- rental_car/motorbike/public/tour
+  pace text,                           -- chill/normal/packed
+  estimate jsonb,                      -- ผล estimateTrip
+  is_random boolean not null default false,
+  spare text[] not null default '{}',  -- place id กองสำรอง
+  created_at timestamptz not null default now()
+);
+alter table public.trips enable row level security;
+create policy "own trips select" on public.trips for select using (auth.uid() = user_id);
+create policy "own trips insert" on public.trips for insert with check (auth.uid() = user_id);
+create policy "own trips delete" on public.trips for delete using (auth.uid() = user_id);
+
+-- swipes: ประวัติการปัด (ใช้คำนวณบุคลิก + สถิติ sponsor)
+create table public.swipes (
+  id bigint generated always as identity primary key,
+  user_id uuid not null default auth.uid() references auth.users(id) on delete cascade,
+  place_id text not null references public.places(id) on delete cascade,
+  direction text not null check (direction in ('left','right')),
+  created_at timestamptz not null default now()
+);
+alter table public.swipes enable row level security;
+create policy "own swipes select" on public.swipes for select using (auth.uid() = user_id);
+create policy "own swipes insert" on public.swipes for insert with check (auth.uid() = user_id);

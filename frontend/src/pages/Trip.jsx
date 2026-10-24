@@ -1,0 +1,231 @@
+import { Sun } from 'lucide-react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
+import { Navigate, useNavigate } from 'react-router-dom'
+import { MotionConfig } from 'framer-motion'
+import AppHeader from '../components/AppHeader'
+import SlideLink, { slideNavigate } from '../components/SlideLink'
+import { tripLength, travelerCount, useTripDraft } from '../context/TripDraftContext'
+import { PROVINCES } from '../data/options'
+import { getPlacesByIds, listPlaces } from '../lib/api/places'
+import { distanceKm } from '../lib/trip/geo'
+import { getRestaurantsByIds, listRestaurants } from '../lib/api/restaurants'
+import { getStaysByIds } from '../lib/api/stays'
+import { createTrip } from '../lib/api/trips'
+import { assignSlots, planLikedOnly } from '../lib/trip/plan'
+import { estimateTrip } from '../lib/trip/budget'
+import { seasonWarnings } from '../lib/trip/season'
+import { findCombos } from '../lib/trip/combos'
+import { computePersonality } from '../lib/trip/personality'
+import { TripLoading, TripMessage } from '../components/trip/TripStates'
+import { PRIMARY_BUTTON } from '../components/trip/styles'
+import TripOverview from '../components/trip/TripOverview'
+import DayPlan from '../components/trip/DayPlan'
+import TripBudget from '../components/trip/TripBudget'
+import ComboCard from '../components/trip/ComboCard'
+import usePlanTransit from '../components/trip/usePlanTransit'
+import MealSwapSheet from '../components/trip/MealSwapSheet'
+import { buildFoodStay, budgetMeals, overrideKey, placeKey, serializeFood } from '../components/trip/mealPlan'
+import { scheduleTrip } from '../components/trip/dayTimes'
+import { applyLegsTransport, buildLegs, legBounds, legsTransportAmount, serializeLegs } from '../components/trip/travelLegs'
+import { alternativePatch, hydratePlan, moveCard, resizePlan, serializePlan } from '../components/trip/itinerary'
+
+function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestaurants, restaurantPool, likedStays, sourceKey }) {
+  const navigate = useNavigate()
+  const [plan, setPlan] = useState(() => {
+    // กองสำรอง = ที่ปัดข้าม + ที่เที่ยวอื่นที่ตรงมู้ด (ไม่เติมลงวันเอง ผู้ใช้ลากเข้าเอง)
+    if (draft.itineraryKey === sourceKey && draft.itinerary) {
+      const restored = resizePlan(hydratePlan(draft.itinerary, [...liked, ...spareCandidates]), tripLength(draft).days)
+      if (restored.spare.length) return restored
+      const used = new Set(restored.days.flatMap(day => day.items.map(item => item.place.id)))
+      return { ...restored, spare: spareCandidates.filter(place => !used.has(place.id)) }
+    }
+    return { ...planLikedOnly({ liked, days: tripLength(draft).days }), spare: spareCandidates }
+  })
+  const [overrides, setOverrides] = useState(() => (draft.itineraryKey === sourceKey ? draft.itinerary?.mealOverrides : null) ?? {})
+  const [timeOverrides, setTimeOverrides] = useState(() => (draft.itineraryKey === sourceKey ? draft.itinerary?.timeOverrides : null) ?? {})
+  const [mealSheet, setMealSheet] = useState({ open: false, d: 0, meal: 'lunch' })
+  const [saving, setSaving] = useState(false)
+  const [saveError, setSaveError] = useState('')
+  const [notice, setNotice] = useState('')
+  const transit = usePlanTransit(draft.province, plan.days)
+  const length = tripLength(draft)
+  const people = travelerCount(draft)
+  const places = plan.days.flatMap(day => day.items.map(item => item.place))
+  const combos = findCombos(places)
+  const chosenStay = likedStays.find(stay => stay.id === draft.chosenStayId) ?? null
+  const food = useMemo(
+    () => buildFoodStay({ plan, nights: length.nights, likedStays, stayMode: draft.stayMode, chosenStay, likedRestaurants, pool: restaurantPool, overrides }),
+    [plan, length.nights, likedStays, draft.stayMode, chosenStay, likedRestaurants, restaurantPool, overrides],
+  )
+  const viewDays = useMemo(() => plan.days.map((day, d) => ({ ...day, meals: food.days[d].meals, stay: food.days[d].stay })), [plan.days, food])
+  const input = { ...draft, ...length, people, places, stays: food.stays, meals: budgetMeals(food) }
+  const legs = useMemo(
+    () => buildLegs({ tripType: draft.tripType, transportTo: draft.transportTo, origin: draft.origin, province: draft.province, booking: draft.transportBooking, carDepart: draft.carDepart }),
+    [draft.tripType, draft.transportTo, draft.origin, draft.province, draft.transportBooking, draft.carDepart],
+  )
+  const bounds = useMemo(() => legBounds(legs, viewDays.length), [legs, viewDays.length])
+  const schedule = useMemo(() => scheduleTrip(viewDays, { overrides: timeOverrides, bounds }), [viewDays, timeOverrides, bounds])
+  const legTransport = legsTransportAmount(legs, people)
+  const estimate = applyLegsTransport(estimateTrip(input), legTransport, people)
+  const warnings = seasonWarnings(places, draft.startDate, draft.endDate)
+
+  useEffect(() => {
+    updateDraft({ itinerary: { ...serializePlan(plan), mealOverrides: overrides, timeOverrides }, itineraryKey: sourceKey })
+  }, [plan, overrides, timeOverrides, sourceKey, updateDraft])
+
+  const closeMealSheet = useCallback(() => setMealSheet(previous => ({ ...previous, open: false })), [])
+
+  function changeMeal(value) {
+    const key = overrideKey(mealSheet.d, mealSheet.meal)
+    setOverrides(previous => {
+      const next = { ...previous }
+      if (value === undefined) delete next[key]
+      else next[key] = value
+      return next
+    })
+  }
+
+  function changeTime(key, value) {
+    setTimeOverrides(previous => {
+      const next = { ...previous }
+      if (value) next[key] = value
+      else delete next[key]
+      return next
+    })
+  }
+
+  function resetDayTimes(d) {
+    setTimeOverrides(previous => Object.fromEntries(Object.entries(previous).filter(([key]) => !key.startsWith(`${d}:`))))
+  }
+
+  // ย้ายการ์ด → เวลาที่ตั้งเองของการ์ดนั้นหลุด (ไปวันอื่น/ลำดับใหม่ คำนวณเวลาใหม่)
+  function dropPlaceTimes(id) {
+    setTimeOverrides(previous => Object.fromEntries(Object.entries(previous).filter(([key]) => !key.endsWith(`:${placeKey(id)}`))))
+  }
+
+  function move(id, target, at) {
+    setPlan(previous => moveCard(previous, id, target, at))
+    dropPlaceTimes(id)
+    setNotice('ย้ายการ์ดแล้ว')
+  }
+
+  // ปัดการ์ดสำรองใบหน้าไปหลังกอง
+  function cycleSpare(id) {
+    setPlan(previous => moveCard(previous, id, 'spare'))
+  }
+
+  function swap(id) {
+    if (!plan.spare.length) return
+    const replacement = plan.spare[Math.floor(Math.random() * plan.spare.length)]
+    const old = plan.days.flatMap(day => day.items).find(item => item.place.id === id)?.place
+    if (!old) {
+      setNotice('แตะการ์ดสำรองเพื่อเลือกวันที่จะไป')
+      return
+    }
+    setPlan({ days: plan.days.map(day => ({ items: assignSlots(day.items.map(item => item.place.id === id ? { place: replacement, auto: false } : item)) })), spare: [...plan.spare.filter(place => place.id !== replacement.id), old] })
+    dropPlaceTimes(id)
+    setNotice(`สุ่มได้ ${replacement.name}`)
+  }
+
+  function applyAlternative(patch) {
+    const applied = alternativePatch(draft, patch)
+    const nextDraft = { ...draft, ...applied }
+    setPlan(previous => resizePlan(previous, tripLength(nextDraft).days))
+    updateDraft(applied)
+    setNotice('ปรับทริปให้ประหยัดขึ้นแล้ว')
+  }
+
+  async function save() {
+    if (saving) return
+    setSaving(true)
+    setSaveError('')
+    try {
+      const stored = serializePlan(plan, schedule)
+      const extras = serializeFood(food.days, schedule)
+      const trip = await createTrip({
+        province: draft.province, moods: draft.moods, days: stored.days.map((day, d) => ({ ...day, ...extras[d] })), spare: stored.spare,
+        combos: combos.map(combo => combo.id), personality: computePersonality(places)?.id ?? null,
+        start_date: draft.startDate, end_date: draft.endDate, nights: length.nights,
+        trip_type: draft.tripType, travelers: draft.travelers, budget: draft.budget,
+        origin: draft.origin, transport_to: draft.transportTo, transport_local: draft.transportLocal,
+        pace: draft.pace, estimate: legs ? { ...estimate, transportBooking: serializeLegs(legs, draft) } : estimate, is_random: draft.mode === 'random',
+      })
+      slideNavigate(navigate, `/trips/${trip.id}`, { replace: true })
+    } catch {
+      setSaveError('บันทึกทริปไม่สำเร็จ ร่างทริปยังอยู่ ลองใหม่อีกครั้งได้เลย')
+      setSaving(false)
+    }
+  }
+
+  return (
+    <>
+      <div className="flex flex-col gap-5 px-4 pt-3">
+        <TripOverview trip={draft} {...length} people={people} />
+        <div className="flex items-center justify-between px-1"><h1 className="m-0 text-2xl font-bold">ทริปในแบบของคุณ</h1><span className="rounded-full bg-white px-3 py-1.5 text-xs text-brown">{places.length} ที่</span></div>
+        <DayPlan days={viewDays} spare={plan.spare} canBook={draft.tripType !== 'daytrip'} startDate={draft.startDate} legs={legs} people={people} onMove={move} onCycleSpare={cycleSpare} onSwap={swap} canSwap={plan.spare.length > 0} transit={transit} timeOverrides={timeOverrides} onTimeChange={changeTime} onResetTimes={resetDayTimes} onEditMeal={food.hasFood ? (d, meal) => setMealSheet({ open: true, d, meal }) : undefined} />
+        {combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
+        <TripBudget input={input} legTransport={legTransport} people={people} onApply={applyAlternative} transit={draft.transportLocal === 'transit' ? transit : null} />
+        {warnings.length > 0 && <div className="rounded-[24px] bg-[#FBE3D2] p-4"><h2 className="m-0 flex items-center gap-2 text-sm font-semibold"><Sun size={18} strokeWidth={2} aria-hidden="true" />ก่อนออกเดินทาง</h2>{warnings.map(warning => <p key={warning.placeId} className="mb-0 mt-2 text-xs leading-relaxed text-[#4A3A30]">{warning.message}</p>)}</div>}
+        <p role="status" aria-live="polite" className="m-0 min-h-5 text-center text-xs text-muted">{notice}</p>
+      </div>
+      <div className="sticky bottom-0 mt-4 bg-cream px-4 pb-6 pt-3">
+        {saveError && <p role="alert" className="mb-3 mt-0 text-center text-sm text-[#9B432A]">{saveError}</p>}
+        <button type="button" onClick={save} disabled={saving || !places.length} className={PRIMARY_BUTTON}>{saving ? 'กำลังบันทึก…' : 'บันทึกทริป'}</button>
+      </div>
+      <MealSwapSheet open={mealSheet.open} d={mealSheet.d} meal={mealSheet.meal} dayLabel={`วันที่ ${mealSheet.d + 1}`} food={food} pool={restaurantPool} liked={likedRestaurants} overridden={overrideKey(mealSheet.d, mealSheet.meal) in overrides} onChange={changeMeal} onNotice={setNotice} onClose={closeMealSheet} />
+    </>
+  )
+}
+
+function TripSession({ draft, updateDraft }) {
+  const [attempt, setAttempt] = useState(0)
+  const [result, setResult] = useState(null)
+  const likedKey = draft.likedIds.join(',')
+  const moodKey = draft.moods.join(',')
+  const foodKey = draft.likedRestaurantIds.join(',')
+  const stayKey = draft.likedStayIds.join(',')
+  const skippedKey = (draft.swipeState?.skipped ?? []).join(',')
+  const province = draft.province
+  const sourceKey = `${province}|${moodKey}|${likedKey}|${draft.deck?.join(',') ?? 'pick'}`
+  const requestKey = `${sourceKey}|${attempt}`
+  useEffect(() => {
+    let active = true
+    // ร้าน/ที่พักโหลดไม่ได้ไม่ควรล้มทั้งแผน — ตกไปใช้ค่าประมาณเดิม
+    const optional = promise => promise.catch(() => [])
+    Promise.all([
+      getPlacesByIds(likedKey.split(',').filter(Boolean)),
+      optional(getPlacesByIds(skippedKey.split(',').filter(Boolean))),
+      optional(listPlaces({ province, moods: moodKey.split(',').filter(Boolean) })),
+      optional(getRestaurantsByIds(foodKey.split(',').filter(Boolean))),
+      optional(listRestaurants({ province })),
+      optional(getStaysByIds(stayKey.split(',').filter(Boolean))),
+    ])
+      .then(([liked, skipped, moodPool, likedRestaurants, restaurantPool, likedStays]) => {
+        const taken = new Set(liked.map(place => place.id))
+        const center = liked.find(place => place.lat != null)
+        const near = list => (center ? [...list].sort((a, b) => distanceKm(center, a) - distanceKm(center, b)) : list)
+        const skippedFirst = near(skipped.filter(place => !taken.has(place.id)))
+        skippedFirst.forEach(place => taken.add(place.id))
+        const spareCandidates = [...skippedFirst, ...near(moodPool.filter(place => !taken.has(place.id)))]
+        if (active) setResult({ key: requestKey, liked, spareCandidates, likedRestaurants, restaurantPool, likedStays })
+      })
+      .catch(() => { if (active) setResult({ key: requestKey, error: true }) })
+    return () => { active = false }
+  }, [province, likedKey, moodKey, skippedKey, foodKey, stayKey, requestKey])
+  const current = result?.key === requestKey ? result : null
+  const label = PROVINCES.find(p => p.id === province)?.label ?? province
+  return (
+    <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink">
+      <AppHeader crumb={label} title="แผนทริปของคุณ" backTo="/plan/swipe" />
+      {!current ? <TripLoading label="กำลังจัดทริป…" /> : current.error ? <TripMessage title="โหลดที่เที่ยวไม่สำเร็จ" body="เช็กอินเทอร์เน็ตแล้วลองอีกครั้ง"><button type="button" onClick={() => setAttempt(value => value + 1)} className={PRIMARY_BUTTON}>ลองใหม่</button></TripMessage> : !current.liked.length ? <TripMessage title="ยังไม่ได้เลือกที่เที่ยว" body="ปัดขวาที่ที่อยากไปอย่างน้อย 1 ที่ แล้วระบบจะจัดแผนให้"><SlideLink to="/plan/swipe" back className={PRIMARY_BUTTON}>กลับไปปัดการ์ด</SlideLink></TripMessage> : <TripEditor key={requestKey} draft={draft} updateDraft={updateDraft} liked={current.liked} spareCandidates={current.spareCandidates} likedRestaurants={current.likedRestaurants} restaurantPool={current.restaurantPool} likedStays={current.likedStays} sourceKey={sourceKey} />}
+    </div>
+  )
+}
+
+export default function Trip() {
+  const { draft, updateDraft } = useTripDraft()
+  if (!draft.province) return <Navigate to="/map" replace />
+  if (!draft.moods.length) return <Navigate to="/plan/mood" replace />
+  if (!draft.origin || !draft.startDate || !draft.endDate) return <Navigate to="/plan/details" replace />
+  return <MotionConfig reducedMotion="user"><TripSession draft={draft} updateDraft={updateDraft} /></MotionConfig>
+}

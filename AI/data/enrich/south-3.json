@@ -1,0 +1,221 @@
+[
+  {
+    "id": "suchart-supsin-shadow-puppet-museum",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.museumthailand.com/museum/suchart-supsin-shadow-puppet-museum",
+      "https://www.thailandtourismdirectory.go.th/en/attraction/1879"
+    ],
+    "notes": "image: no free-licensed photo found on Commons/Unsplash. closed_days: null = open every day (Museum Thailand: เปิดทุกวัน 09.00-17.00; other listings 08.00/08.30-17.00; dataset already has 08:30-17:00). best_time: not stated in any source. Entry free per Museum Thailand (fee not requested)."
+  },
+  {
+    "id": "nakhon-si-thammarat-old-city-wall",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Nakhon_Si_Thammarat_city_wall.jpg/1280px-Nakhon_Si_Thammarat_city_wall.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Nakhon_Si_Thammarat_city_wall.jpg",
+    "image_author": "Ahoerstemeier",
+    "image_license": "CC BY-SA 3.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "24 ชั่วโมง",
+    "closed_days": null,
+    "best_time": "เช้า",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.ktc.co.th/article/travel-guide/the-most-popular-tourist-in-nakhon-si-thammarat",
+      "https://www.thaiholidayguide.com/attraction/the-city-wall-of-nakhon-si-thammarat/",
+      "https://commons.wikimedia.org/wiki/File:Nakhon_Si_Thammarat_city_wall.jpg"
+    ],
+    "notes": "Image: Commons file page opened, photo of the wall (2005, Ahoerstemeier). Alternative: KOSIN SUKHUM CC BY-SA 4.0 night shot. opening_hours: conflict - KTC says open all day (เปิดให้เที่ยวชมตลอดทั้งวัน), Trip.com post says 24/7, Thai Holiday Guide says 06:00-18:00; open-air monument with no gate/ticket booth so 24 ชั่วโมง chosen (medium confidence). closed_days null = open daily. best_time: THG 'early morning most comfortable'. Free entry."
+  },
+  {
+    "id": "ligor-floating-market",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaipbs.or.th/news/content/273841"
+    ],
+    "notes": "image: none found (Commons search empty, Unsplash nothing). No other fields requested; existing dataset values (last Friday of month 16:00-23:00) not re-verified."
+  },
+  {
+    "id": "pak-phanang-retro-market",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/pak-phanang-retro-market/",
+      "https://tripniceday.com/en/place/ตลาดย้อนยุคปากพนัง"
+    ],
+    "notes": "image: none found on Commons/Unsplash. Only image requested. FYI: open Sundays/public holidays 15:00-20:00 (THG, tripniceday), free entry; THG notes some listings mention Saturday."
+  },
+  {
+    "id": "nai-phlao-beach",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Nai_Plao_Beach_Ahoerstemeier_21.jpg/1280px-Nai_Plao_Beach_Ahoerstemeier_21.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Nai_Plao_Beach_Ahoerstemeier_21.jpg",
+    "image_author": "Ahoerstemeier",
+    "image_license": "CC BY 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "24 ชั่วโมง",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/hat-nai-phlao/",
+      "https://commons.wikimedia.org/wiki/File:Nai_Plao_Beach_Ahoerstemeier_21.jpg"
+    ],
+    "notes": "Image: Commons page opened, category Nai Plao Beach (creek mouth on the beach with boat). opening_hours: inferred - THG says public beach in Hat Khanom-Mu Ko Thale Tai National Park with no entry fee or checkpoint; no explicit hours published (medium-low confidence). closed_days null = open daily (no gate)."
+  },
+  {
+    "id": "laem-talumphuk",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%B2%E0%B8%94_%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%99%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%81%E0%B8%AB%E0%B8%A5%E0%B8%A1%E0%B8%95%E0%B8%B0%E0%B8%A5%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%B8%E0%B8%81_-_panoramio.jpg/1280px-%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%B2%E0%B8%94_%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%99%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%81%E0%B8%AB%E0%B8%A5%E0%B8%A1%E0%B8%95%E0%B8%B0%E0%B8%A5%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%B8%E0%B8%81_-_panoramio.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%B2%E0%B8%94_%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%99%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%81%E0%B8%AB%E0%B8%A5%E0%B8%A1%E0%B8%95%E0%B8%B0%E0%B8%A5%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%B8%E0%B8%81_-_panoramio.jpg",
+    "image_author": "::::=UT=::::",
+    "image_license": "CC BY-SA 3.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/pakpanang-beach-and-talumpuk-cape/",
+      "https://www.lovethailand.org/travel/t/65-นครศรีธรรมราช/3581-ชายทะเลปากพนัง-และแหลมตะลุมพุก.html",
+      "https://commons.wikimedia.org/wiki/File:%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%B2%E0%B8%94_%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%99%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%81%E0%B8%AB%E0%B8%A5%E0%B8%A1%E0%B8%95%E0%B8%B0%E0%B8%A5%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%B8%E0%B8%81_-_panoramio.jpg"
+    ],
+    "notes": "Image: Panoramio-bot upload, author shown on Commons as '::::=UT=::::' (pine forest at the cape). opening_hours left null: sources conflict (THG daily 09:00-17:00; lovethailand 08:00-17:00 daily; another listing 24h). closed_days null = open daily (all sources say daily). A satellite image (File:แหลมตะลุมพุก.jpg, CC BY-SA 4.0) exists but is not a photo."
+  },
+  {
+    "id": "khao-wang-thong-cave",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.lovethailand.org/travel/t/65-นครศรีธรรมราช/3585-ถ้ำเขาวังทอง.html",
+      "https://www.ktc.co.th/article/travel-guide/the-most-popular-tourist-in-nakhon-si-thammarat"
+    ],
+    "notes": "image: none found on Commons/Unsplash. closed_days null = open every day per lovethailand.org (ทุกวัน 08.30-16.00; KTC says 09.00-16.00; hours not requested). Cave in Khanom (Khuan Thong); key from last house, flashlight rental 20 THB."
+  },
+  {
+    "id": "phrom-lok-waterfall",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Phromlok_Waterfall_2.jpg/1280px-Phromlok_Waterfall_2.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Phromlok_Waterfall_2.jpg",
+    "image_author": "Adirach Toumlamoon",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 60,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/phrom-lok-waterfall/",
+      "https://commons.wikimedia.org/wiki/File:Phromlok_Waterfall_2.jpg"
+    ],
+    "notes": "Image: Commons page opened (Wiki Loves Earth 2022, description says it is in Khao Luang NP, Phrom Khiri). Author per file description: Adirach Toumlamoon (uploader User:Adrich). closed_days null = open daily (THG: Daily 08:00-16:30). visit_minutes 60 from THG nature trail 45-60 min round trip - an estimate. FYI fees (THG, Khao Luang NP rate): Thai 40/20, foreigners 200/100 - not requested."
+  },
+  {
+    "id": "wat-chedi-ai-khai",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Wat_Chedi_Ai_Khai_1.jpg/1280px-Wat_Chedi_Ai_Khai_1.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Chedi_Ai_Khai_1.jpg",
+    "image_author": "OraMAAG",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.ktc.co.th/article/travel-guide/thailand/travel-in-nakhon-si-thammarat",
+      "https://commons.wikimedia.org/wiki/File:Wat_Chedi_Ai_Khai_1.jpg"
+    ],
+    "notes": "Image: Commons page opened, two giant rooster statues at the temple. closed_days null = open daily (KTC: ทุกวัน 8.00-18.00). best_time and visit_minutes: no source gives them -> null."
+  },
+  {
+    "id": "khao-sun-viewpoint",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/khao-sun-sea-of-mist/",
+      "https://travel.trueid.net/detail/OR2VoAZJ5gXR"
+    ],
+    "notes": "image: none found on Commons/Unsplash. closed_days null = open daily (THG Daily 07:00-18:00; TrueID 07.00-18.00). visit_minutes: not stated in any source -> null. FYI: sea of mist best before sunrise (THG 05:30-06:30, roughly Jul-Nov); free per THG."
+  },
+  {
+    "id": "ban-than-khun-nakhon-si-thammarat",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/ban-than-khun-ratthawut-wichan/",
+      "https://th.trip.com/moments/poi-baan-than-khun-38577322/",
+      "https://www.thailandtourismdirectory.go.th/en/attraction/21245"
+    ],
+    "notes": "image: none found on Commons/Unsplash. closed_days null = open daily (THG Daily 08:00-17:00; Trip.com 08:00-16:00, 'open every day'). Note dataset opening_hours 08:00-20:00 differs from these sources. Free (donation welcome) per THG; typical visit 20-30 min (THG)."
+  },
+  {
+    "id": "khao-kha-archaeological-site",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Khao_Kha_historical_site%2C_Tha_Sala%2C_Nakhon_Si_Thammarat.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Khao_Kha_historical_site,_Tha_Sala,_Nakhon_Si_Thammarat.jpg",
+    "image_author": "Ronny Gonsales",
+    "image_license": "CC BY-SA 3.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 90,
+    "sources": [
+      "https://www.lovethailand.org/travel/t/65-นครศรีธรรมราช/3627-แหล่งโบราณคดีเขาคา.html",
+      "https://www.thaiholidayguide.com/attraction/khao-kha-archaeological-site/",
+      "https://commons.wikimedia.org/wiki/File:Khao_Kha_historical_site,_Tha_Sala,_Nakhon_Si_Thammarat.jpg"
+    ],
+    "notes": "Image: Commons page opened (Wiki Loves Monuments 2014, brick ruins; file is original size, below 1280px so no thumb scaling). closed_days null = open daily (lovethailand: ทุกวัน 08.30-16.30; THG gives no hours). visit_minutes 90 = midpoint of 1-2 hours from lovethailand (single source). Site is in Sichon district. Free entry."
+  }
+]

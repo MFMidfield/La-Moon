@@ -1,0 +1,2647 @@
+{
+  "generated_at": "2026-10-24",
+  "places": [
+    {
+      "id": "ko-kret",
+      "province": "nonthaburi",
+      "name_th": "เกาะเกร็ด",
+      "name_en": "Ko Kret",
+      "district_th": "ปากเกร็ด",
+      "description_th": "เกาะกลางเจ้าพระยาที่มีชุมชนมอญและงานเครื่องปั้นดินเผา เดินชิมอาหารพื้นถิ่นและชมวิถีริมน้ำได้ในทริปเดียว",
+      "lat": 13.9069362,
+      "lng": 100.4733154,
+      "coords_source": "https://en.wikipedia.org/wiki/Ko_Kret",
+      "coords_uncertain": false,
+      "tags": [
+        "ชุมชนมอญ",
+        "เครื่องปั้นดินเผา",
+        "ริมน้ำ"
+      ],
+      "moods": [
+        "beach",
+        "food",
+        "temple"
+      ],
+      "mood_reason": "ชมวิถีชุมชนริมน้ำพร้อมอาหารมอญและวัฒนธรรมท้องถิ่น",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "ร้านค้า/ตลาดเปิดเสาร์-อาทิตย์และวันหยุดนักขัตฤกษ์ 09:00-17:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": 150,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Nontaburi_Ko_Kret2.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Nontaburi_Ko_Kret2.jpg",
+      "image_author": "Mr.Peerapong Prasutr",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ko_Kret",
+        "https://www.thaiholidayguide.com/attraction/ko-kret/",
+        "https://travel.trueid.net/detail/bLRMKbJY0pbA",
+        "https://commons.wikimedia.org/wiki/File:Nontaburi_Ko_Kret2.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "เข้าเกาะฟรี (ค่าเรือข้ามฟากประมาณ 3 บาท) เวลา 09:00-17:30 คือร้านค้าช่วงเสาร์-อาทิตย์/วันหยุด วันธรรมดาบางร้านปิด ไม่ได้ระบุวันปิดชัดเจนจึงใส่ closed_days เป็น null ใช้เวลาเที่ยว 2-3 ชม. ตาม thaiholidayguide ไม่พบช่วงเดือนที่แนะนำ (แนะนำวันธรรมดาถ้าอยากเงียบ ตลาดเต็มรูปแบบเสาร์-อาทิตย์)"
+    },
+    {
+      "id": "wat-chaloem-phra-kiat",
+      "province": "nonthaburi",
+      "name_th": "วัดเฉลิมพระเกียรติวรวิหาร",
+      "name_en": "Wat Chaloem Phra Kiat Worawihan",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "วัดริมเจ้าพระยาที่ผสมงานสถาปัตยกรรมไทยและจีน ชวนเดินดูแนวกำแพงคล้ายป้อมและเจดีย์สีขาวในเขตวัด",
+      "lat": 13.8479,
+      "lng": 100.4843,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Chaloem_Phra_Kiat_Worawihan",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดเก่า",
+        "สถาปัตยกรรม",
+        "เจ้าพระยา"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "beach"
+      ],
+      "mood_reason": "วัดเก่ามีงานสถาปัตยกรรมและพื้นที่ริมแม่น้ำให้ชม",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Wat_Chaloem_Phrakiat.jpg/1280px-Wat_Chaloem_Phrakiat.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Chaloem_Phrakiat.jpg",
+      "image_author": "Preecha.MJ",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Chaloem_Phra_Kiat_Worawihan",
+        "https://www.thaiholidayguide.com/attraction/wat-chaloem-phra-kiat-worawiharn",
+        "https://original.impact.co.th/index.php/visitor/attractions/en/143",
+        "https://commons.wikimedia.org/wiki/File:Wat_Chaloem_Phrakiat.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "เข้าฟรี เวลาเปิดแต่ละแหล่งไม่ตรงกัน: thaiholidayguide 07:00-18:00, impact.co.th 06:00-18:00, สรุปจากผลค้นหา Bangkok Post 05:30-18:30 (ไม่ได้เปิดอ่านเอง) ใช้ค่าจาก thaiholidayguide ที่เปิดอ่านแล้ว ควรให้ผู้ใช้ตรวจซ้ำ"
+    },
+    {
+      "id": "wat-sangkhathan",
+      "province": "nonthaburi",
+      "name_th": "วัดสังฆทาน",
+      "name_en": "Wat Sangkhathan",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "วัดบรรยากาศร่มรื่นที่มีอุโบสถแก้วทรงแปดเหลี่ยม เหมาะกับการแวะไหว้หลวงพ่อโตและพักใจในพื้นที่สงบ",
+      "lat": 13.82611111111111,
+      "lng": 100.49277777777777,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%86%E0%B8%97%E0%B8%B2%E0%B8%99",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดป่า",
+        "อุโบสถแก้ว",
+        "ปฏิบัติธรรม"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "mountain"
+      ],
+      "mood_reason": "ธรรมชาติร่มรื่นและพื้นที่ปฏิบัติธรรมช่วยให้พักใจได้",
+      "stats": {
+        "chill": 5,
+        "adventure": 0,
+        "photo": 3,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%86%E0%B8%97%E0%B8%B2%E0%B8%99",
+        "https://www.thaiholidayguide.com/attraction/wat-sangkatan/"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "แหล่งเดียว (thaiholidayguide) ระบุเปิดทุกวัน 06:00-18:00 เข้าฟรี ไม่พบรูปที่ใบอนุญาตเสรีบน Commons"
+    },
+    {
+      "id": "wat-borom-racha",
+      "province": "nonthaburi",
+      "name_th": "วัดบรมราชากาญจนาภิเษกอนุสรณ์",
+      "name_en": "Wat Borom Racha Kanchanaphisek Anuson",
+      "district_th": "บางบัวทอง",
+      "description_th": "วัดพุทธจีนนิกายที่เรียกกันว่าเล่งเน่ยยี่ 2 มีวิหารและลวดลายจีนให้ค่อย ๆ เดินชมควบคู่กับการไหว้พระ",
+      "lat": 13.9135,
+      "lng": 100.42123,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%A3%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดจีน",
+        "เล่งเน่ยยี่ 2",
+        "สถาปัตยกรรม"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "ชมวิหารและงานศิลปะจีนพร้อมสักการะสิ่งศักดิ์สิทธิ์",
+      "stats": {
+        "chill": 3,
+        "adventure": 0,
+        "photo": 5,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%A3%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81_-_panoramio.jpg/1280px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%A3%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%A3%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81_-_panoramio.jpg",
+      "image_author": "easy4444",
+      "image_license": "CC BY 3.0",
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%A3%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C",
+        "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%A3%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81_-_panoramio.jpg",
+        "https://www.thaiholidayguide.com/attraction/wat-boromracha-kanchanapisek-anusorn/"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide ระบุเปิดทุกวัน 06:00-18:00 เข้าฟรี; Airbnb tips (ผู้ใช้เขียน) ระบุต่างออกไป จึงอาจไม่ตรง; แนะนำเลี่ยงวันเสาร์ช่วงเทศกาลเพราะคนแน่น"
+    },
+    {
+      "id": "nonthaburi-museum",
+      "province": "nonthaburi",
+      "name_th": "พิพิธภัณฑ์จังหวัดนนทบุรี",
+      "name_en": "Nonthaburi Museum",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "เรียนรู้ประวัติเมืองนนท์ในอาคารศาลากลางหลังเก่าริมท่าน้ำ นิทรรศการเล่าชีวิตชุมชนและวัฒนธรรมของจังหวัด",
+      "lat": 13.8415808,
+      "lng": 100.4918064,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "ประวัติศาสตร์",
+        "เมืองนนท์"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "เนื้อหาประวัติศาสตร์ท้องถิ่นเหมาะกับการชมอย่างตั้งใจ",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 2,
+        "food": 0,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "อังคาร-ศุกร์ 09:00-17:00; เสาร์-อาทิตย์และวันหยุดนักขัตฤกษ์ 10:00-18:00",
+      "closed_days": "ปิดวันจันทร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5.jpg/1280px-1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5.jpg",
+      "image_author": "Saknirun",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+        "https://www.lovethailand.org/travel/t/24-นนทบุรี/1801-พิพิธภัณฑ์นนทบุรี.html",
+        "https://travel.trueid.net/detail/bLRMKbJY0pbA",
+        "https://commons.wikimedia.org/wiki/File:1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "lovethailand ระบุเข้าฟรี อังคาร-ศุกร์ 09:00-17:00 เสาร์-อาทิตย์/วันหยุด 10:00-18:00 ปิดวันจันทร์ ส่วน trueid ระบุ อังคาร-อาทิตย์ 10:00-18:00 (ไม่ตรงกันเรื่องเวลาวันธรรมดา) รูปคือศาลากลางหลังเก่าซึ่งเป็นอาคารพิพิธภัณฑ์"
+    },
+    {
+      "id": "wat-chonlaprathan-rangsarit",
+      "province": "nonthaburi",
+      "name_th": "วัดชลประทานรังสฤษดิ์",
+      "name_en": "Wat Chonlaprathan Rangsarit",
+      "district_th": "ปากเกร็ด",
+      "description_th": "พระอารามหลวงในจังหวัดนนทบุรีที่เป็นอีกจุดหมายสำหรับการแวะไหว้พระ เหมาะกับผู้ที่อยากเติมช่วงเวลาสงบให้ทริปใกล้กรุงเทพฯ",
+      "lat": 13.901066,
+      "lng": 100.508165,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Chonprathan_Rangsarit",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "พระอารามหลวง",
+        "นนทบุรี"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ศาสนสถานเหมาะกับการไหว้พระและใช้เวลาอย่างสงบ",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 3,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "08:00-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Nonthaburi_-_Wat_Chonlaprathan_Rangsarit_-_NOV_2022_-_img_02.jpg/1280px-Nonthaburi_-_Wat_Chonlaprathan_Rangsarit_-_NOV_2022_-_img_02.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Nonthaburi_-_Wat_Chonlaprathan_Rangsarit_-_NOV_2022_-_img_02.jpg",
+      "image_author": "Chainwit.",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Chonprathan_Rangsarit",
+        "https://www.thaiholidayguide.com/attraction/wat-chonprathan-rangsarit/",
+        "https://www.lovethailand.org/travel/en/24-Nonthaburi/1812-Wat-Chonprathan-Rangsarit.html",
+        "https://commons.wikimedia.org/wiki/File:Nonthaburi_-_Wat_Chonlaprathan_Rangsarit_-_NOV_2022_-_img_02.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "เข้าฟรี เปิดทุกวัน 08:00-16:30 (thaiholidayguide และ lovethailand ตรงกัน; AroundUs ระบุ 06:30-20:00 ไม่ใช้) มีกิจกรรมธรรมะเช้าวันอาทิตย์เริ่ม 09:00"
+    },
+    {
+      "id": "wat-takian-floating-market",
+      "province": "nonthaburi",
+      "name_th": "ตลาดน้ำวัดตะเคียน",
+      "name_en": "Wat Takian Floating Market",
+      "district_th": "บางกรวย",
+      "description_th": "ตลาดบกและตลาดน้ำในบริเวณวัดตะเคียน รวมการเดินหาอาหารกับการแวะไหว้พระไว้ในจุดเดียว",
+      "lat": 13.828333333333333,
+      "lng": 100.4225,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%B0%E0%B9%80%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B8%99_%28%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%29",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดน้ำ",
+        "ของกิน",
+        "วัดตะเคียน"
+      ],
+      "moods": [
+        "food",
+        "temple",
+        "beach"
+      ],
+      "mood_reason": "เดินตลาดกินอาหารและแวะวัดในบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 3,
+        "adventure": 1,
+        "photo": 3,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "จันทร์-ศุกร์ 07:30-16:00; เสาร์-อาทิตย์ 07:30-17:00",
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%B0%E0%B9%80%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B8%99_%28%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%29",
+        "https://www.visitthailandtoday.com/markets-shopping/bangkok/wat-takien-floating-market",
+        "https://novotelbangkokimpact.com/bangkok-destination/bangkok-shopping-guide/wat-takien-floating-market/"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "ไม่พบข้อมูลค่าเข้า (ไม่มีแหล่งระบุ) เวลาเปิดไม่ตรงกัน: visitthailandtoday ระบุเปิดทุกวัน ส่วน Wanderlog/รีวิวบอกว่าคึกคักเฉพาะเสาร์-อาทิตย์และวันหยุด; ไม่พบรูปที่ใบอนุญาตเสรี"
+    },
+    {
+      "id": "chaloem-kanchanaphisek-park",
+      "province": "nonthaburi",
+      "name_th": "อุทยานเฉลิมกาญจนาภิเษก",
+      "name_en": "Chaloem Kanchanaphisek Park",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "พื้นที่สวนริมเจ้าพระยาในย่านบางศรีเมือง เหมาะกับการเว้นจังหวะจากการเที่ยววัดแล้วเดินพักชมความเขียวในเมือง",
+      "lat": 13.8506178,
+      "lng": 100.4806816,
+      "coords_source": "https://nominatim.openstreetmap.org/search?q=%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%89%E0%B8%A5%E0%B8%B4%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81&format=jsonv2&countrycodes=th&limit=5",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "ริมน้ำ",
+        "บางศรีเมือง"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "beach"
+      ],
+      "mood_reason": "พื้นที่สีเขียวริมแม่น้ำเหมาะกับการเดินพัก",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "เช้า 06:00-08:00",
+      "opening_hours": "05:30-18:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.openstreetmap.org/way/164588367",
+        "https://nominatim.openstreetmap.org/search?q=%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%89%E0%B8%A5%E0%B8%B4%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81&format=jsonv2&countrycodes=th&limit=5",
+        "https://www.lovethailand.org/travel/en/24-Nonthaburi/1867-Chaloem-Kanchanaphisek-Park.html",
+        "https://www.thaiholidayguide.com/attraction/kanchanaphisek-park-utthayan-chalerm-phrakiat/"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "สวนริมเจ้าพระยาข้างวัดเฉลิมพระเกียรติฯ (บางศรีเมือง) เข้าฟรี 05:30-18:30 ทุกวัน (lovethailand และ thaiholidayguide ตรงกัน) ช่วงเช้า 06:00-08:00 แนะนำโดย thaiholidayguide ภาพใน Commons ชื่อ 'อุทยานเฉลิมกาญจนาภิเษก' เป็นภาพ Wiki Loves Earth ของพื้นที่อื่น (หมวดพืชพรรณ/พื้นที่คุ้มครอง) จึงไม่ใช้"
+    },
+    {
+      "id": "dream-world",
+      "province": "pathum-thani",
+      "name_th": "ดรีมเวิลด์",
+      "name_en": "Dream World",
+      "district_th": "ธัญบุรี",
+      "description_th": "สวนสนุกที่รวมเครื่องเล่นหลายระดับและฉากถ่ายรูปไว้ในพื้นที่เดียว เหมาะกับวันทำกิจกรรมร่วมกันกับเพื่อนหรือครอบครัว",
+      "lat": 13.9875,
+      "lng": 100.675,
+      "coords_source": "https://en.wikipedia.org/wiki/Dream_World_%28Thailand%29",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสนุก",
+        "เครื่องเล่น",
+        "ครอบครัว"
+      ],
+      "moods": [
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "เครื่องเล่นและฉากถ่ายรูปเหมาะกับวันเที่ยวที่อยากทำกิจกรรม",
+      "stats": {
+        "chill": 2,
+        "adventure": 5,
+        "photo": 4,
+        "food": 2,
+        "budget": 2
+      },
+      "popularity": "ดัง",
+      "best_time": "พ.ย.-ก.พ.",
+      "opening_hours": "จันทร์-ศุกร์ 10:00-17:00; เสาร์-อาทิตย์และวันหยุดนักขัตฤกษ์ 10:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": 360,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/%E0%B8%94%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B9%80%E0%B8%A7%E0%B8%B4%E0%B8%A5%E0%B8%94%E0%B9%8C_Bangkok_Dream_World_-_panoramio.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%94%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B9%80%E0%B8%A7%E0%B8%B4%E0%B8%A5%E0%B8%94%E0%B9%8C_Bangkok_Dream_World_-_panoramio.jpg",
+      "image_author": "Thaweesak Churasri",
+      "image_license": "CC BY 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dream_World_%28Thailand%29",
+        "https://www.dreamworld.co.th/ticket",
+        "https://www.dreamworld.co.th/information?section=map",
+        "https://thebettervacation.com/bangkok-city/dream-world-bangkok/amp/",
+        "https://www.thansettakij.com/lifestyle/travel-shopping/648245",
+        "https://www.ktc.co.th/article/travel-guide/promotion-zoo-and-amusement-park-in-bangkok",
+        "https://commons.wikimedia.org/wiki/File:%E0%B8%94%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B9%80%E0%B8%A7%E0%B8%B4%E0%B8%A5%E0%B8%94%E0%B9%8C_Bangkok_Dream_World_-_panoramio.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "ไม่พบราคาบัตรผู้ใหญ่คนไทยที่ยืนยันได้ (เว็บทางการโหลดด้วย JS) ที่พบ: ค่าผ่านประตูเด็กสูงไม่เกิน 145 ซม. ราคาปกติ 250 บาท (Thansettakij ม.ค. 2569), บัตรรวมเครื่องเล่นปกติ 600 บาท, Dream World Visa 575 บาท / Super Visa 950 บาท (KTC ไม่ระบุปี) เด็กไม่เกิน 90 ซม. เข้าฟรี ชั่วโมงทำการจากบล็อก thebettervacation (วันเด็กปี 2569 ขยายเป็น 08:00-19:00) เวลาเที่ยว 5-7 ชม. และช่วง พ.ย.-ก.พ. จาก thebettervacation"
+    },
+    {
+      "id": "national-science-museum",
+      "province": "pathum-thani",
+      "name_th": "พิพิธภัณฑ์วิทยาศาสตร์ อพวช.",
+      "name_en": "National Science Museum",
+      "district_th": "คลองหลวง",
+      "description_th": "พิพิธภัณฑ์ในเทคโนธานีที่ชวนสำรวจวิทยาศาสตร์ผ่านนิทรรศการ ใช้เป็นจุดหมายสำหรับวันที่อยากเรียนรู้ร่วมกันมากกว่าการเดินชมอย่างเดียว",
+      "lat": 14.0484458,
+      "lng": 100.7168597,
+      "coords_source": "https://en.wikipedia.org/wiki/National_Science_Museum_%28Thailand%29",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "วิทยาศาสตร์",
+        "ครอบครัว"
+      ],
+      "moods": [
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "นิทรรศการวิทยาศาสตร์ชวนเรียนรู้และทดลองกิจกรรม",
+      "stats": {
+        "chill": 3,
+        "adventure": 3,
+        "photo": 4,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "อังคาร-ศุกร์ 09:30-15:00; เสาร์-อาทิตย์และวันหยุดนักขัตฤกษ์ 09:30-17:00",
+      "closed_days": "ปิดวันจันทร์ (รวมวันหยุดนักขัตฤกษ์ที่ตรงกับวันจันทร์)",
+      "entry_fee_thb": {
+        "min": 100,
+        "max": 100
+      },
+      "price_label": "ถูก (<200฿)",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Khlong_Ha%2C_Khlong_Luang_District%2C_Pathum_Thani_12120%2C_Thailand_-_panoramio.jpg/1280px-Khlong_Ha%2C_Khlong_Luang_District%2C_Pathum_Thani_12120%2C_Thailand_-_panoramio.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Khlong_Ha,_Khlong_Luang_District,_Pathum_Thani_12120,_Thailand_-_panoramio.jpg",
+      "image_author": "mohigan",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/National_Science_Museum_%28Thailand%29",
+        "https://www.nsm.or.th/nsm/en/visit/price",
+        "https://www.nsm.or.th/nsm/en/close-open",
+        "https://commons.wikimedia.org/wiki/File:Khlong_Ha,_Khlong_Luang_District,_Pathum_Thani_12120,_Thailand_-_panoramio.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "ผู้ใหญ่ 100 บาท (บัตรเดียวใช้ได้ 3 พิพิธภัณฑ์: วิทยาศาสตร์ ประวัติศาสตร์ธรรมชาติ เทคโนโลยีสารสนเทศ) เข้าฟรี: อายุต่ำกว่า 18 ปี, นักศึกษาปริญญาตรีไม่เกิน 24 ปี, ผู้สูงอายุ 60+ หน้าเวลาทำการเดียวกันสำหรับทุกพิพิธภัณฑ์ใน อพวช. (หน้าเว็บมีบรรทัดสรุปเก่าที่ต่างออกไป) Time Out ระบุ 09:30-17:00 อังคาร-อาทิตย์"
+    },
+    {
+      "id": "national-memorial",
+      "province": "pathum-thani",
+      "name_th": "อนุสรณ์สถานแห่งชาติ",
+      "name_en": "National Memorial",
+      "district_th": "ลำลูกกา",
+      "description_th": "แหล่งเรียนรู้ที่รำลึกถึงผู้เสียสละเพื่อชาติ จัดแสดงเรื่องราวประวัติศาสตร์ทหารและการปกป้องประเทศ",
+      "lat": 13.9521,
+      "lng": 100.6211,
+      "coords_source": "https://en.wikipedia.org/wiki/National_Memorial_%28Thailand%29",
+      "coords_uncertain": false,
+      "tags": [
+        "ประวัติศาสตร์",
+        "อนุสรณ์สถาน",
+        "พิพิธภัณฑ์"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "พื้นที่รำลึกและเนื้อหาประวัติศาสตร์เหมาะกับการชมอย่างสงบ",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 3,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/D85_3734_%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_The_National_Memorial_of_Thailand_Photographed_by_Trisorn_Triboon_%2830%29.jpg/1280px-D85_3734_%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_The_National_Memorial_of_Thailand_Photographed_by_Trisorn_Triboon_%2830%29.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:D85_3734_%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_The_National_Memorial_of_Thailand_Photographed_by_Trisorn_Triboon_(30).jpg",
+      "image_author": "Tris T7",
+      "image_license": "CC BY 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/National_Memorial_%28Thailand%29",
+        "https://www.thaiholidayguide.com/attraction/the-national-memorial/",
+        "https://www.lovethailand.org/travel/en/25-Pathum-Thani/1925-National-Memorial.html",
+        "https://www.visitthailandtoday.com/temples-culture/bangkok/the-national-memorial",
+        "https://commons.wikimedia.org/wiki/File:D85_3734_%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_The_National_Memorial_of_Thailand_Photographed_by_Trisorn_Triboon_(30).jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "เข้าฟรี (หลายแหล่งตรงกัน) แต่วันเวลาทำการขัดแย้งกันมาก: thaiholidayguide อังคาร+พฤหัส-อาทิตย์ 08:30-16:30 ปิดจันทร์/พุธ, visitthailandtoday ทุกวัน 08:30-15:30, lovethailand จันทร์-ศุกร์ 09:00-16:00; Novotel ระบุว่าต้องนัดหมายล่วงหน้า (ไม่ได้ยืนยัน) จึงใส่ hours/closed เป็น null ควรโทรสอบถามกองการศึกษาทหาร"
+    },
+    {
+      "id": "wat-hong-pathummawat",
+      "province": "pathum-thani",
+      "name_th": "วัดหงษ์ปทุมาวาส",
+      "name_en": "Wat Hong Pathummawat",
+      "district_th": "เมืองปทุมธานี",
+      "description_th": "วัดริมเจ้าพระยาที่สืบประวัติกับชุมชนมอญ ชวนชมเสาหงส์และศาสนสถานก่อนพักดูบรรยากาศแม่น้ำ",
+      "lat": 14.023888888888889,
+      "lng": 100.53527777777778,
+      "coords_source": "https://www.wikidata.org/wiki/Special:EntityData/Q100594970.json",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดมอญ",
+        "เจ้าพระยา",
+        "เสาหงส์"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "วัฒนธรรมมอญและพื้นที่ริมเจ้าพระยาเหมาะกับการชมวัดและพักใจ",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 3,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%87%E0%B8%A9%E0%B9%8C%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA_01.jpg/1280px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%87%E0%B8%A9%E0%B9%8C%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA_01.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%87%E0%B8%A9%E0%B9%8C%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA_01.jpg",
+      "image_author": "Dharmadana",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%87%E0%B8%A9%E0%B9%8C%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q100594970.json",
+        "https://www.lovethailand.org/travel/en/25-pathum-thani/1905-wat-hong-pathumawas.html",
+        "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%87%E0%B8%A9%E0%B9%8C%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA_01.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "lovethailand ระบุเปิดทุกวัน 08:00-17:00 ไม่ระบุค่าเข้า (ไม่ใส่ค่า) แหล่งเดียว"
+    },
+    {
+      "id": "wat-panyanantaram",
+      "province": "pathum-thani",
+      "name_th": "วัดปัญญานันทาราม",
+      "name_en": "Wat Panyanantaram",
+      "district_th": "คลองหลวง",
+      "description_th": "วัดที่ก่อตั้งโดยหลวงพ่อปัญญานันทภิกขุ เป็นจุดหมายสำหรับผู้ที่อยากเรียนรู้ธรรมะและใช้เวลาอยู่กับบรรยากาศวัด",
+      "lat": 14.129567,
+      "lng": 100.723617,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%99%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1",
+      "coords_uncertain": false,
+      "tags": [
+        "ธรรมะ",
+        "วัด",
+        "คลองหก"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "พื้นที่วัดและการเรียนรู้ธรรมะเหมาะกับการพักใจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 0,
+        "photo": 3,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "08:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%99%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1",
+        "https://mthai.com/travel/pathum-thani/336862.html",
+        "https://travel.trueid.net/detail/b37kBegz8ON3"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "mthai ระบุเปิด 08:00-18:00 เข้าชมฟรี (รับบริจาค) ส่วน trueid/Trip.com ระบุ 08:00-16:00 ไม่ตรงกัน; ไม่พบรูปที่ใบอนุญาตเสรีใน Commons"
+    },
+    {
+      "id": "wat-bot-sam-khok",
+      "province": "pathum-thani",
+      "name_th": "วัดโบสถ์ สามโคก",
+      "name_en": "Wat Bot Sam Khok",
+      "district_th": "สามโคก",
+      "description_th": "วัดริมเจ้าพระยาที่รู้จักจากหลวงพ่อโตองค์ใหญ่ แวะสักการะและเดินชมบรรยากาศริมแม่น้ำในย่านสามโคก",
+      "lat": 14.113888888888889,
+      "lng": 100.54027777777777,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%9A%E0%B8%AA%E0%B8%96%E0%B9%8C_%28%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%81%29",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "หลวงพ่อโต",
+        "เจ้าพระยา"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "องค์หลวงพ่อโตและพื้นที่ริมน้ำเป็นจุดเด่นของการเที่ยววัด",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 4,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%9A%E0%B8%AA%E0%B8%96%E0%B9%8C_%E0%B8%AD.%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%81_%E0%B8%88.%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5_%282%29.jpg/1280px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%9A%E0%B8%AA%E0%B8%96%E0%B9%8C_%E0%B8%AD.%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%81_%E0%B8%88.%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5_%282%29.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%9A%E0%B8%AA%E0%B8%96%E0%B9%8C_%E0%B8%AD.%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%81_%E0%B8%88.%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5_(2).jpg",
+      "image_author": "กสิณธร ราชโอรส",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%9A%E0%B8%AA%E0%B8%96%E0%B9%8C_%28%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%81%29",
+        "https://travel.trueid.net/detail/g6vOoBGkAg7Q",
+        "https://mthai.com/travel/pathum-thani/336848.html",
+        "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%9A%E0%B8%AA%E0%B8%96%E0%B9%8C_%E0%B8%AD.%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%81_%E0%B8%88.%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5_(2).jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "trueid และ mthai ตรงกัน 06:00-18:00 ทุกวัน ไม่พบข้อมูลค่าเข้า (ไม่ใส่ค่า) อย่าสับสนกับวัดโบสถ์ อ.เมืองปทุมธานี (08:00-17:00) ซึ่งเป็นคนละวัด"
+    },
+    {
+      "id": "talad-thai",
+      "province": "pathum-thani",
+      "name_th": "ตลาดไท",
+      "name_en": "Talad Thai",
+      "district_th": "คลองหลวง",
+      "description_th": "ตลาดค้าส่งสินค้าเกษตรในย่านคลองหนึ่ง ชวนดูจังหวะการซื้อขายและความหลากหลายของผลผลิตที่เดินทางมาจากหลายพื้นที่",
+      "lat": 14.0819475,
+      "lng": 100.6183884,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B9%84%E0%B8%97",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดค้าส่ง",
+        "สินค้าเกษตร",
+        "ผลไม้"
+      ],
+      "moods": [
+        "food",
+        "adventure"
+      ],
+      "mood_reason": "ตลาดค้าส่งขนาดใหญ่มีอาหารและบรรยากาศซื้อขายให้สำรวจ",
+      "stats": {
+        "chill": 1,
+        "adventure": 3,
+        "photo": 2,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B9%84%E0%B8%97",
+        "https://www.lovethailand.org/travel/en/25-Pathum-Thani/1881-Talaad-Thai.html"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "lovethailand: เปิดทุกวัน 24 ชม. ไม่มีค่าเข้า (ตลาดค้าส่งผลไม้/ผักขนาดใหญ่ ช่วงดึก-เช้ามืดคึกคักที่สุดตามธรรมชาติของตลาดค้าส่ง แต่ไม่มีแหล่งระบุ จึงไม่ใส่ best_time) ไม่พบรูปที่ใบอนุญาตเสรี"
+    },
+    {
+      "id": "lotus-museum",
+      "province": "pathum-thani",
+      "name_th": "พิพิธภัณฑ์บัว มทร.ธัญบุรี",
+      "name_en": "Lotus Museum RMUTT",
+      "district_th": null,
+      "description_th": "แหล่งรวบรวมและเรียนรู้เรื่องบัวในมหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี เหมาะกับการเดินชมพืชและสังเกตความต่างของดอกบัว",
+      "lat": 14.0321593,
+      "lng": 100.7300553,
+      "coords_source": "https://nominatim.openstreetmap.org/search?q=Lotus+Museum+Pathum+Thani&format=jsonv2&countrycodes=th&limit=5",
+      "coords_uncertain": false,
+      "tags": [
+        "บัว",
+        "พฤกษศาสตร์",
+        "มหาวิทยาลัย"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "พื้นที่ศึกษาพืชและดอกบัวเหมาะกับการชมธรรมชาติอย่างช้า ๆ",
+      "stats": {
+        "chill": 5,
+        "adventure": 0,
+        "photo": 4,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "จันทร์-ศุกร์ 08:30-16:30",
+      "closed_days": "เสาร์-อาทิตย์ วันหยุดราชการ และวันหยุดนักขัตฤกษ์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/%E0%B8%9A%E0%B8%B1%E0%B8%A7_%E0%B9%82%E0%B8%94%E0%B8%A2_%E0%B8%84%E0%B8%B8%E0%B8%93_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%8D.jpg/1280px-%E0%B8%9A%E0%B8%B1%E0%B8%A7_%E0%B9%82%E0%B8%94%E0%B8%A2_%E0%B8%84%E0%B8%B8%E0%B8%93_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%8D.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%9A%E0%B8%B1%E0%B8%A7_%E0%B9%82%E0%B8%94%E0%B8%A2_%E0%B8%84%E0%B8%B8%E0%B8%93_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%8D.jpg",
+      "image_author": "One World Thailand",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://www.openstreetmap.org/way/547541949",
+        "https://lotus.rmutt.ac.th/%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B9%88%E0%B8%AD-%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88/",
+        "https://www.rmutt.ac.th/museum-center/",
+        "https://nominatim.openstreetmap.org/search?q=Lotus+Museum+Pathum+Thani&format=jsonv2&countrycodes=th&limit=5",
+        "https://www.eng.rmutt.ac.th/lotus-museum/",
+        "https://commons.wikimedia.org/wiki/File:%E0%B8%9A%E0%B8%B1%E0%B8%A7_%E0%B9%82%E0%B8%94%E0%B8%A2_%E0%B8%84%E0%B8%B8%E0%B8%93_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%8D.jpg"
+      ],
+      "uncertain_fields": [
+        "district_th",
+        "best_time",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "เว็บ มทร.ธัญบุรี ระบุ Admission free เปิดจันทร์-ศุกร์ 08:30-16:30 (ข้อมูลนี้มีอยู่ในชุดข้อมูลแล้ว จึงไม่ใส่ซ้ำ) ไม่พบช่วงเวลาบัวบานหรือระยะเวลาเที่ยวชม รูปเป็นดอกบัวในพิพิธภัณฑ์บัว (ไม่ใช่ภาพอาคาร)"
+    },
+    {
+      "id": "ancient-siam",
+      "province": "samut-prakan",
+      "name_th": "เมืองโบราณ",
+      "name_en": "Ancient Siam",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "อุทยานพิพิธภัณฑ์ที่รวบรวมแบบจำลองสถาปัตยกรรมสำคัญของไทย เดินทางผ่านเรื่องราวหลายภูมิภาคได้ในพื้นที่เดียว",
+      "lat": 13.539305,
+      "lng": 100.62292083,
+      "coords_source": "https://en.wikipedia.org/wiki/Ancient_Siam",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์กลางแจ้ง",
+        "สถาปัตยกรรม",
+        "วัฒนธรรม"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "สถาปัตยกรรมหลากหลายและพื้นที่กว้างเหมาะกับการเดินสำรวจ",
+      "stats": {
+        "chill": 3,
+        "adventure": 3,
+        "photo": 5,
+        "food": 1,
+        "budget": 2
+      },
+      "popularity": "ดัง",
+      "best_time": "พ.ย.-ก.พ.",
+      "opening_hours": "09:00-19:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 400,
+        "max": 400
+      },
+      "price_label": "กลาง (200-1000฿)",
+      "visit_minutes": 300,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Sanphet_Prasat_Palace_replica_at_Ancient_Siam%2C_Muang_Boran.jpg/1280px-Sanphet_Prasat_Palace_replica_at_Ancient_Siam%2C_Muang_Boran.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Sanphet_Prasat_Palace_replica_at_Ancient_Siam,_Muang_Boran.jpg",
+      "image_author": "iMahesh",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ancient_Siam",
+        "https://www.lovethailand.org/travel/en/30-Samut-Prakan/1960-The-Ancient-City.html",
+        "https://www.visitthailandtoday.com/temples-culture/bangkok/the-ancient-city",
+        "https://commons.wikimedia.org/wiki/File:Sanphet_Prasat_Palace_replica_at_Ancient_Siam,_Muang_Boran.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "คนไทย ผู้ใหญ่ 400 / เด็ก 200 บาท; ชาวต่างชาติ ผู้ใหญ่ 800 / เด็ก 400 บาท (lovethailand) เปิดทุกวัน 09:00-19:00 ขายบัตรถึง 18:00 ใช้เวลา 'หลายชั่วโมงถึงทั้งวัน' (visitthailandtoday: 5 ชม. ผ่านไปเร็ว) จึงใส่ 300 นาที; พ.ย.-ก.พ. อากาศเย็น หลีกเลี่ยง เม.ย.-พ.ค."
+    },
+    {
+      "id": "erawan-museum",
+      "province": "samut-prakan",
+      "name_th": "พิพิธภัณฑ์ช้างเอราวัณ",
+      "name_en": "Erawan Museum",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "พิพิธภัณฑ์ที่มีประติมากรรมช้างสามเศียรเป็นจุดสังเกต ภายในเชื่อมงานศิลปะกับความเชื่อผ่านพื้นที่จัดแสดงหลายชั้น",
+      "lat": 13.62833,
+      "lng": 100.58889,
+      "coords_source": "https://en.wikipedia.org/wiki/Erawan_Museum",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "ช้างสามเศียร",
+        "ศิลปะ"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "งานศิลปะและคติความเชื่อเป็นจุดเด่นของพื้นที่จัดแสดง",
+      "stats": {
+        "chill": 3,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 2
+      },
+      "popularity": "ดัง",
+      "best_time": "เช้า วันธรรมดา",
+      "opening_hours": "09:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 250,
+        "max": 250
+      },
+      "price_label": "กลาง (200-1000฿)",
+      "visit_minutes": 105,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Erawan_museum-001.jpg/1280px-Erawan_museum-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Erawan_museum-001.jpg",
+      "image_author": "Ddalbiez",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Erawan_Museum",
+        "https://commons.wikimedia.org/wiki/File:Erawan_museum-001.jpg",
+        "https://www.lovethailand.org/travel/en/30-Samut-Prakan/1940-The-Erawan-Museum.html",
+        "https://www.thaiholidayguide.com/attraction/erawan-museum/"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "stats.budget"
+      ],
+      "research_notes": "คนไทย ผู้ใหญ่ 250 / เด็ก 125 บาท; ต่างชาติ ผู้ใหญ่ 500 / เด็ก 250 บาท (lovethailand; ราคาคนไทย 250 ตรงกับรีวิว Wongnai 2026 และเอกสารมหิดล) แต่ thaiholidayguide ระบุ 500/250 ราคาเดียวทุกสัญชาติ (ขัดแย้ง) ขายบัตรถึง 17:00 เที่ยว 1.5-2 ชม. (thaiholidayguide) เช้าวันธรรมดาคนน้อย"
+    },
+    {
+      "id": "bang-pu-recreation-center",
+      "province": "samut-prakan",
+      "name_th": "สถานตากอากาศบางปู",
+      "name_en": "Bang Pu Recreation Center",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "พื้นที่พักผ่อนริมอ่าวไทยที่มีป่าชายเลนและนกน้ำ ชวนเดินรับลมและชมทิวทัศน์ชายฝั่งจากบริเวณสะพานสุขตา",
+      "lat": 13.5198865,
+      "lng": 100.6509074,
+      "coords_source": "https://nominatim.openstreetmap.org/search?q=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%81%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9B%E0%B8%B9&format=jsonv2&countrycodes=th&limit=5",
+      "coords_uncertain": false,
+      "tags": [
+        "ชายทะเล",
+        "ดูนก",
+        "สะพานสุขตา"
+      ],
+      "moods": [
+        "beach",
+        "mountain",
+        "photo"
+      ],
+      "mood_reason": "ลมทะเล ป่าชายเลน และนกน้ำเหมาะกับการชมธรรมชาติ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ช่วงเย็น",
+      "opening_hours": "10:00-20:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": 180,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Samutprakarn_Bangpu_Recreation_Centre_2.jpg/1280px-Samutprakarn_Bangpu_Recreation_Centre_2.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Samutprakarn_Bangpu_Recreation_Centre_2.jpg",
+      "image_author": "Mr.Sivakrit Saravit",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bang_Pu",
+        "https://www.openstreetmap.org/way/543819719",
+        "https://www.bangpoocity.com/main/index.php?Itemid=107&id=134&option=com_content&view=article",
+        "https://nominatim.openstreetmap.org/search?q=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%81%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9B%E0%B8%B9&format=jsonv2&countrycodes=th&limit=5",
+        "https://www.lovethailand.org/travel/en/30-Samut-Prakan/1958-Bang-Pu-Recreation-Center.html",
+        "https://commons.wikimedia.org/wiki/File:Samutprakarn_Bangpu_Recreation_Centre_2.jpg"
+      ],
+      "uncertain_fields": [
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "lovethailand: เข้าฟรี เปิดทุกวัน 10:00-20:00 เที่ยว 2-4 ชม. (ใช้ค่ากลาง 180 นาที) ฤดูนกนางนวลปลายปี-ประมาณ พ.ค. (best_time ในชุดข้อมูลมี 'ช่วงเย็น' อยู่แล้ว ไม่แก้)"
+    },
+    {
+      "id": "bang-nam-phueng-floating-market",
+      "province": "samut-prakan",
+      "name_th": "ตลาดน้ำบางน้ำผึ้ง",
+      "name_en": "Bang Nam Phueng Floating Market",
+      "district_th": "พระประแดง",
+      "description_th": "ตลาดชุมชนในคุ้งบางกะเจ้าที่เปิดช่วงสุดสัปดาห์ เหมาะกับการเดินหาอาหารแล้วค่อยต่อไปสำรวจพื้นที่สีเขียวรอบชุมชน",
+      "lat": 13.680451111111111,
+      "lng": 100.57574111111111,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9C%E0%B8%B6%E0%B9%89%E0%B8%87",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดชุมชน",
+        "ของกิน",
+        "บางกะเจ้า"
+      ],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "mood_reason": "อาหารชุมชนและที่ตั้งในคุ้งน้ำเหมาะกับทริปเดินชิม",
+      "stats": {
+        "chill": 3,
+        "adventure": 1,
+        "photo": 3,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "พ.ย.-ก.พ.",
+      "opening_hours": "เสาร์-อาทิตย์ และวันหยุดนักขัตฤกษ์ที่ติดกับเสาร์-อาทิตย์ 08:00-14:00",
+      "closed_days": "จันทร์-ศุกร์ ยกเว้นวันหยุดต่อเนื่องที่ตลาดประกาศเปิด",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Sunday_market.jpg/1280px-Sunday_market.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Sunday_market.jpg",
+      "image_author": "KongkhamWichit",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9C%E0%B8%B6%E0%B9%89%E0%B8%87",
+        "https://www.lovethailand.org/travel/en/30-Samut-Prakan/1933-Bang-Nam-Phueng-Floating-Market.html",
+        "https://www.visitthailandtoday.com/markets-shopping/bangkok/bang-nam-phueng-floating-market",
+        "https://commons.wikimedia.org/wiki/File:Sunday_market.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "lovethailand: เข้าฟรี; best_time พ.ย.-ก.พ. จาก visitthailandtoday (เลี่ยง เม.ย.-พ.ค.) เวลาเปิดในชุดข้อมูลมีอยู่แล้ว (แหล่งต่างๆ ระบุ 08:00-14:00 หรือ 08:00-16:00) ไม่พบระยะเวลาเที่ยว"
+    },
+    {
+      "id": "si-nakhon-khuean-khan-park",
+      "province": "samut-prakan",
+      "name_th": "สวนศรีนครเขื่อนขันธ์",
+      "name_en": "Si Nakhon Khuean Khan Park and Botanical Garden",
+      "district_th": "พระประแดง",
+      "description_th": "สวนและสวนพฤกษชาติในบางกะเจ้าที่เก็บความเขียวไว้ใกล้เมือง ใช้เวลาเดินชมพืชและสังเกตธรรมชาติในพื้นที่สวน",
+      "lat": 13.6967989,
+      "lng": 100.5668436,
+      "coords_source": "https://nominatim.openstreetmap.org/search?q=Sri+Nakhon+Khuean+Khan&format=jsonv2&countrycodes=th&limit=5",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนพฤกษชาติ",
+        "บางกะเจ้า",
+        "พื้นที่สีเขียว"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "พื้นที่ศึกษาพืชและธรรมชาติเหมาะกับการพักผ่อนและถ่ายภาพ",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "เช้า ก่อน 09:00",
+      "opening_hours": "05:00-19:00 ทุกวัน",
+      "closed_days": "ไม่มีวันหยุดประจำตามข้อมูลผู้ดูแลสวน",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bird_Watching_Tower_at_Si_Nakhon_Khuean_Khan_Park.jpg/1280px-Bird_Watching_Tower_at_Si_Nakhon_Khuean_Khan_Park.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Bird_Watching_Tower_at_Si_Nakhon_Khuean_Khan_Park.jpg",
+      "image_author": "Thohig",
+      "image_license": "CC0",
+      "sources": [
+        "https://www.openstreetmap.org/way/40348145",
+        "https://www.suansri-bangkachao.com/th/home/lesson1/%E0%B8%AA%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%AD%E0%B8%B3%E0%B8%99%E0%B8%A7%E0%B8%A2%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B0%E0%B8%94%E0%B8%A7%E0%B8%81",
+        "https://nominatim.openstreetmap.org/search?q=Sri+Nakhon+Khuean+Khan&format=jsonv2&countrycodes=th&limit=5",
+        "https://www.thaiholidayguide.com/attraction/si-nakhon-khuean-khan-park-and-botanical-garden/",
+        "https://commons.wikimedia.org/wiki/File:Bird_Watching_Tower_at_Si_Nakhon_Khuean_Khan_Park.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide: เข้าฟรี เปิด 05:00-19:00 ทุกวัน (ตรงกับชุดข้อมูล) แนะนำเช้าก่อน 09:00 อากาศเย็นและมีนกเยอะ ค่าเช่าจักรยานแยกต่างหากประมาณ 20-30 บาท/วัน ไม่พบระยะเวลาเที่ยว"
+    },
+    {
+      "id": "phra-samut-chedi",
+      "province": "samut-prakan",
+      "name_th": "วัดพระสมุทรเจดีย์",
+      "name_en": "Wat Phra Samut Chedi",
+      "district_th": "พระสมุทรเจดีย์",
+      "description_th": "วัดริมเจ้าพระยาที่มีเจดีย์สีขาวเป็นสัญลักษณ์ของเมือง ชมศาสนสถานพร้อมมองบรรยากาศช่วงปลายแม่น้ำ",
+      "lat": 13.600165,
+      "lng": 100.58678,
+      "coords_source": "https://en.wikipedia.org/wiki/Phra_Samut_Chedi",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "เจดีย์สีขาว",
+        "เจ้าพระยา"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "เจดีย์และพื้นที่ริมแม่น้ำเชื่อมการไหว้พระกับการชมวิว",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 4,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": 40,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Wat_Phra_Samut_Chedi.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Phra_Samut_Chedi.jpg",
+      "image_author": "Ahoerstemeier",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Phra_Samut_Chedi",
+        "https://www.lovethailand.org/travel/en/30-Samut-Prakan/1938-Phra-Samut-Chedi.html",
+        "https://www.thaiholidayguide.com/attraction/phra-samut-chedi/",
+        "https://commons.wikimedia.org/wiki/File:Wat_Phra_Samut_Chedi.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "เข้าฟรี (thaiholidayguide) เวลาไม่ตรงกัน: lovethailand 08:00-16:00, thaiholidayguide 07:00-16:00 (บางแหล่ง 08:30-16:30) ใช้ 08:00-16:00 เที่ยว 30-45 นาที (ใช้ 40) งานนมัสการพระสมุทรเจดีย์ปลายเดือนต.ค.-พ.ย. (ขึ้นกับปฏิทินจันทรคติ)"
+    },
+    {
+      "id": "chulachomklao-fort",
+      "province": "samut-prakan",
+      "name_th": "ป้อมพระจุลจอมเกล้า",
+      "name_en": "Chulachomklao Fort",
+      "district_th": "พระสมุทรเจดีย์",
+      "description_th": "ป้อมชายฝั่งบริเวณปากแม่น้ำเจ้าพระยาที่สะท้อนประวัติการป้องกันประเทศ เหมาะกับการเดินชมร่องรอยทางทหารและภูมิทัศน์ปลายแม่น้ำ",
+      "lat": 13.5378,
+      "lng": 100.5837,
+      "coords_source": "https://en.wikipedia.org/wiki/Chulachomklao_Fort",
+      "coords_uncertain": false,
+      "tags": [
+        "ป้อมปราการ",
+        "ประวัติศาสตร์",
+        "ปากแม่น้ำ"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "โบราณสถานทางทหารและที่ตั้งปากแม่น้ำเหมาะกับการชมประวัติศาสตร์",
+      "stats": {
+        "chill": 3,
+        "adventure": 1,
+        "photo": 4,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "08:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Chulachomklao_Fort_03.jpg/1280px-Chulachomklao_Fort_03.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Chulachomklao_Fort_03.jpg",
+      "image_author": "Kittipong khunnen",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chulachomklao_Fort",
+        "http://m-culture.in.th/album/view/58148/",
+        "https://www.thai-tour.com/place/1910",
+        "https://travel.samutprakan.go.th/%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B8%E0%B8%A5%E0%B8%88%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2/",
+        "https://commons.wikimedia.org/wiki/File:Chulachomklao_Fort_03.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "เข้าฟรี (m-culture, thai-tour) เปิดทุกวัน ~08:00-18:00 แต่เว็บท่องเที่ยวจังหวัดสมุทรปราการระบุ จันทร์-ศุกร์ 08:00-20:00 (ขัดแย้ง) ต้องขออนุญาตกองรักษาการณ์หน้าประตูและแลกบัตรประจำตัว (กองทัพเรือดูแล) ตัวเลข 8 บาทในเว็บจังหวัดเป็นค่าเรือข้ามฟาก ไม่ใช่ค่าเข้า"
+    },
+    {
+      "id": "wat-asokaram",
+      "province": "samut-prakan",
+      "name_th": "วัดอโศการาม",
+      "name_en": "Wat Asokaram",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "วัดในย่านท้ายบ้านของสมุทรปราการ แวะไหว้พระและใช้เวลาเดินชมพื้นที่ศาสนสถานก่อนเที่ยวต่อในจังหวัด",
+      "lat": 13.5474649,
+      "lng": 100.6079739,
+      "coords_source": "https://nominatim.openstreetmap.org/search?q=%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B9%82%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1+%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3&format=jsonv2&countrycodes=th&limit=5",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "ท้ายบ้าน"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "พื้นที่ศาสนสถานเหมาะกับการไหว้พระและพักใจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 0,
+        "photo": 4,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "เช้า",
+      "opening_hours": "08:00-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B9%82%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1.jpg/1280px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B9%82%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B9%82%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1.jpg",
+      "image_author": "Preecha.MJ",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://www.openstreetmap.org/node/1669111106",
+        "https://nominatim.openstreetmap.org/search?q=%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B9%82%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1+%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3&format=jsonv2&countrycodes=th&limit=5",
+        "https://www.thaiholidayguide.com/attraction/wat-asokaram/",
+        "https://www.lovethailand.org/travel/en/30-Samut-Prakan/1952-Wat-Asokaram.html",
+        "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B9%82%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide และ lovethailand ตรงกัน: เปิดทุกวัน 08:00-16:30 เข้าฟรี; เช้าเป็นช่วงที่มีกิจกรรมสวดมนต์/นั่งสมาธิ (thaiholidayguide) บางแหล่งระบุเวลาอื่น (06:00-17:00)"
+    },
+    {
+      "id": "phra-pathom-chedi",
+      "province": "nakhon-pathom",
+      "name_th": "องค์พระปฐมเจดีย์",
+      "name_en": "Phra Pathom Chedi",
+      "district_th": "เมืองนครปฐม",
+      "description_th": "พระเจดีย์สำคัญกลางเมืองนครปฐมที่เป็นจุดหมายของผู้มาไหว้พระ เดินชมขนาดและสัดส่วนขององค์เจดีย์จากลานโดยรอบ",
+      "lat": 13.81972,
+      "lng": 100.06028,
+      "coords_source": "https://en.wikipedia.org/wiki/Phra_Pathommachedi",
+      "coords_uncertain": false,
+      "tags": [
+        "เจดีย์",
+        "วัด",
+        "นครปฐม"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "เจดีย์ขนาดใหญ่และความสำคัญทางศาสนาเหมาะกับการเที่ยวเชิงวัฒนธรรม",
+      "stats": {
+        "chill": 3,
+        "adventure": 0,
+        "photo": 5,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "เช้า 07:00-08:00",
+      "opening_hours": "06:00-19:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Phra_Pathom_Chedi_-_Day.jpg/1280px-Phra_Pathom_Chedi_-_Day.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Phra_Pathom_Chedi_-_Day.jpg",
+      "image_author": "Supanut Arunoprayote",
+      "image_license": "CC BY 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Phra_Pathommachedi",
+        "https://www.thaiholidayguide.com/attraction/wat-phra-pathom-chedi-ratchaworamahawihan/",
+        "https://www.yourthaiguide.com/phra-pathom-chedi/",
+        "https://en.wikipedia.org/wiki/Phra_Pathom_Chedi"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "ลานวัด/บริเวณองค์พระเป็นวัดสาธารณะ ไม่เก็บค่าเข้าสำหรับคนไทย (Wongnai ระบุไม่มีค่าเข้าชม); thaiholidayguide ระบุ 'Adult 60' สำหรับเดินระเบียงคตชั้นใน ซึ่งน่าจะเป็นอัตราชาวต่างชาติ (รีวิวแจ้งว่าเก็บ 60 บาทจากต่างชาติ แต่มักไม่มีคนเก็บ) ยืนยันไม่ได้; yourthaiguide ระบุ 20 บาท (บทความ ส.ค. 2025) ขัดแย้งกัน ใช้ 0 สำหรับคนไทย. เวลาเปิดขัดแย้ง: thaiholidayguide (ก.ค. 2026) 06:00-19:00, yourthaiguide 07:00-20:00 ใช้ตัวแรก. พิพิธภัณฑ์แห่งชาติพระปฐมเจดีย์แยกต่างหาก (เปิดพุธ-อาทิตย์ ตามแหล่งข้อมูล ค่าเข้าไทย 20 บาท) ไม่นับรวม. visit_minutes ไม่มีแหล่งระบุ. ภาพ: Phra Pathom Chedi - Day.jpg ภาพองค์พระปฐมเจดีย์ ตรวจดูแล้วตรงสถานที่"
+    },
+    {
+      "id": "wat-samphran",
+      "province": "nakhon-pathom",
+      "name_th": "วัดสามพราน",
+      "name_en": "Wat Samphran",
+      "district_th": "สามพราน",
+      "description_th": "วัดที่มีมังกรพันรอบอาคารสูงสีชมพูเป็นภาพจำ แวะชมรูปทรงแปลกตาของศาสนสถานและสักการะภายในวัด",
+      "lat": 13.735,
+      "lng": 100.215,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Samphran",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "มังกร",
+        "สถาปัตยกรรม"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "มังกรรอบอาคารเป็นมุมเด่นสำหรับชมสถาปัตยกรรมและถ่ายภาพ",
+      "stats": {
+        "chill": 3,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 80
+      },
+      "price_label": "ถูก (<200฿)",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Wat_Samphran_%282%29.jpg/1280px-Wat_Samphran_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Samphran_%282%29.jpg",
+      "image_author": "DiverDave",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Samphran",
+        "https://commons.wikimedia.org/wiki/File:Wat_Samphran_%282%29.jpg",
+        "https://en.wikipedia.org/wiki/Wat_Sam_Phran"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "stats.budget"
+      ],
+      "research_notes": "Wikipedia: ไม่บังคับซื้อตั๋ว แต่ 'แนะนำบริจาค 80 บาท' (min 0 = ไม่บังคับ, max 80 = เงินบริจาคที่แนะนำ ไม่ใช่ตั๋วจริง ไม่ระบุว่าคนไทยจ่ายเท่าไร). เปิดทุกวัน 06:00-18:00 ตาม Wikipedia; บทความเก่า 2019 ระบุว่าทางเดินในตัวมังกรเปิดเฉพาะวันพระ/วันอาทิตย์/วันหยุดนักขัตฤกษ์ ยืนยันปัจจุบันไม่ได้. best_time และ visit_minutes ไม่พบแหล่งข้อมูล. ไม่ต้องหารูป (ไม่อยู่ในรายการ missing)"
+    },
+    {
+      "id": "don-wai-market",
+      "province": "nakhon-pathom",
+      "name_th": "ตลาดน้ำดอนหวาย",
+      "name_en": "Don Wai Market",
+      "district_th": "สามพราน",
+      "description_th": "ตลาดริมแม่น้ำท่าจีนในบริเวณวัดดอนหวาย เหมาะกับการเลือกชิมอาหารและเดินดูบรรยากาศการค้าริมน้ำ",
+      "lat": 13.771732,
+      "lng": 100.283933,
+      "coords_source": "https://en.wikipedia.org/wiki/Don_Wai_Market",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดริมน้ำ",
+        "อาหารท้องถิ่น",
+        "ท่าจีน"
+      ],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "mood_reason": "ตลาดอาหารริมท่าจีนเหมาะกับการเดินชิมและพักชมแม่น้ำ",
+      "stats": {
+        "chill": 3,
+        "adventure": 1,
+        "photo": 3,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "พ.ย.-ก.พ.",
+      "opening_hours": "ทุกวัน (จ.-ศ. 08:00-17:00, ส.-อา. 07:00-18:30)",
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": 120,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Talat_Nam_Don_Wai_5328.JPG/1280px-Talat_Nam_Don_Wai_5328.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Talat_Nam_Don_Wai_5328.JPG",
+      "image_author": "Hdamm",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Don_Wai_Market",
+        "https://commons.wikimedia.org/wiki/File:Talat_Nam_Don_Wai_5328.JPG",
+        "https://www.visitthailandtoday.com/markets-shopping/bangkok/don-wai-floating-market",
+        "https://www.lovethailand.org/travel/en/22-Nakhon-Pathom/1732-Don-Wai-Market.html"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "stats.budget"
+      ],
+      "research_notes": "ไม่พบแหล่งที่ระบุค่าเข้าตลาด (ไม่มีแหล่งไหนบอกว่าเก็บหรือไม่เก็บ) จึงเป็น null; ค่าเรือแยกต่างหาก: Don Wai-วัดไร่ขิง 60 บาท/คน ไป-กลับ, ล่องแม่น้ำท่าจีนราว 1 ชม. 100 บาท (Wikipedia). เวลาเปิด: visitthailandtoday ระบุ จ.-ศ. 08:00-17:00, ส.-อา. 07:00-18:30 ส่วน lovethailand ระบุ 06:00-18:00 ทุกวัน ใช้แหล่งแรก. best_time 'พ.ย.-ก.พ.' จาก visitthailandtoday (ฝูงชนสูงสุด ธ.ค.-ม.ค. เลี่ยง เม.ย.-พ.ค.); lovethailand แนะนำเช้าวันหยุดสุดสัปดาห์ของกินหลากหลายสุด. visit_minutes 120 จาก 'ผู้รีวิวใช้เวลาราวสองชั่วโมง'"
+    },
+    {
+      "id": "lam-phaya-floating-market",
+      "province": "nakhon-pathom",
+      "name_th": "ตลาดน้ำวัดลำพญา",
+      "name_en": "Wat Lam Phaya Floating Market",
+      "district_th": "บางเลน",
+      "description_th": "ตลาดในบริเวณวัดลำพญาริมแม่น้ำท่าจีน ชวนมองวิถีค้าขายของชุมชนไปพร้อมกับการเลือกอาหารท้องถิ่น",
+      "lat": 13.95873,
+      "lng": 100.203292,
+      "coords_source": "https://en.wikipedia.org/wiki/Lam_Phaya_Floating_Market",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดน้ำ",
+        "อาหารชุมชน",
+        "ท่าจีน"
+      ],
+      "moods": [
+        "food",
+        "beach",
+        "temple"
+      ],
+      "mood_reason": "ตลาดริมวัดและแม่น้ำรวมของกินกับวัฒนธรรมชุมชน",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "เช้า ก่อน 09:30",
+      "opening_hours": "08:00-17:00",
+      "closed_days": "ปิดวันจันทร์-ศุกร์ (ตลาดเปิดเฉพาะเสาร์-อาทิตย์และวันหยุดนักขัตฤกษ์)",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": 60,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lam_Phaya_Floating_Market",
+        "https://www.thaiholidayguide.com/attraction/wat-lam-phaya-floating-market/",
+        "https://www.wongnai.com/attractions/326337xQ-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A5%E0%B8%B3%E0%B8%9E%E0%B8%8D%E0%B8%B2",
+        "https://www.wongnai.com/reviews/878c34a11f904cbaa31a580d2f801fcc"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide (อัปเดต ก.ค. 2026): เสาร์-อาทิตย์/วันหยุดราชการ 08:00-17:00, เข้าฟรี (จ่ายแค่ค่าของ), 'ควรไปก่อน 09:30', 'ใช้เวลาราว 1 ชม.'; Wongnai ระบุ ส.-อา. 08:00-16:00 (รีวิวปี 2020 บอก 17:00) ขัดกันเล็กน้อย ใช้ 17:00 ตามแหล่งใหม่กว่า. ค่านั่งเรือแยกต่างหาก 60/80 บาท (รีวิว Wongnai ไม่ใช่ราคาทางการ). ไม่พบรูปที่มีสิทธิ์ใช้ได้ใน Commons จึงเป็น null"
+    },
+    {
+      "id": "phutthamonthon",
+      "province": "nakhon-pathom",
+      "name_th": "พุทธมณฑล",
+      "name_en": "Phutthamonthon",
+      "district_th": "พุทธมณฑล",
+      "description_th": "พื้นที่พุทธศาสนาขนาดใหญ่ที่มีพระศรีศากยะทศพลญาณเป็นจุดสำคัญ เดินชมศาสนสถานและใช้เวลากับพื้นที่สวนโดยรอบ",
+      "lat": 13.77611,
+      "lng": 100.32083,
+      "coords_source": "https://en.wikipedia.org/wiki/Phutthamonthon",
+      "coords_uncertain": false,
+      "tags": [
+        "พุทธศาสนา",
+        "สวน",
+        "พระพุทธรูป"
+      ],
+      "moods": [
+        "temple",
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "ศาสนสถานและสวนกว้างเหมาะกับการเดินพักอย่างสงบ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "เช้า ก่อนแดดแรง",
+      "opening_hours": "05:00-19:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": 120,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Buddha_Monthon%2CNakornpathom%2CThailand_%2892%29.jpg/1280px-Buddha_Monthon%2CNakornpathom%2CThailand_%2892%29.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Buddha_Monthon,Nakornpathom,Thailand_(92).jpg",
+      "image_author": "กสิณธร ราชโอรส",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Phutthamonthon",
+        "https://www.thaiholidayguide.com/attraction/phutthamonthon/",
+        "https://commons.wikimedia.org/wiki/File:Buddha_Monthon,Nakornpathom,Thailand_(92).jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 05:00-19:00, เข้าฟรี, เช้าตรู่เงียบและเย็นสุด/เย็นอีกช่วงหนึ่งก็ดี, ชมรอบอุทยานเดินเท้า 'ราวสองชั่วโมง'; วันพระและเทศกาล (วิสาขบูชา ฯลฯ) คนมาก. ภาพ: พระพุทธรูปปางลีลา พุทธมณฑล (ไฟล์ original 4592x3448)"
+    },
+    {
+      "id": "thai-human-imagery-museum",
+      "province": "nakhon-pathom",
+      "name_th": "พิพิธภัณฑ์หุ่นขี้ผึ้งไทย",
+      "name_en": "Thai Human Imagery Museum",
+      "district_th": "นครชัยศรี",
+      "description_th": "พิพิธภัณฑ์ที่ใช้หุ่นไฟเบอร์กลาสถ่ายทอดผู้คนและเรื่องราวของไทย ชวนสังเกตรายละเอียดของหุ่นและฉากจัดแสดงอย่างใกล้ชิด",
+      "lat": 13.7728,
+      "lng": 100.208,
+      "coords_source": "https://en.wikipedia.org/wiki/Thai_Human_Imagery_Museum",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "หุ่นจำลอง",
+        "วัฒนธรรมไทย"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "หุ่นจำลองและเรื่องราวไทยเหมาะกับการชมงานศิลปะเชิงวัฒนธรรม",
+      "stats": {
+        "chill": 3,
+        "adventure": 0,
+        "photo": 4,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "เช้า วันธรรมดา",
+      "opening_hours": "จ.-ศ. 09:00-17:30, ส.-อา./วันหยุด 08:30-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 80,
+        "max": 80
+      },
+      "price_label": "ถูก (<200฿)",
+      "visit_minutes": 90,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Thai_Human_Imagery_Museum.JPG/1280px-Thai_Human_Imagery_Museum.JPG",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Thai_Human_Imagery_Museum.JPG",
+      "image_author": "Chongkian",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thai_Human_Imagery_Museum",
+        "https://www.thaiholidayguide.com/attraction/thai-wax-museum/",
+        "https://www.lovethailand.org/travel/t/22-นครปฐม/1746-พิพิธภัณฑ์หุ่นขี้ผึ้งไทย.html"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide (ก.ค. 2026): ผู้ใหญ่ไทย 80 / เด็กไทย 40 บาท; ชาวต่างชาติผู้ใหญ่ 300 / เด็ก 150 (lovethailand เก่ากว่า: ไทย 50 / ต่างชาติ 200 ใช้ตัวใหม่). ส่วนหัวหน้า thaiholidayguide เขียน 'Daily 09:00-17:30' แต่เนื้อหาและ lovethailand ระบุเสาร์-อาทิตย์/วันหยุด 08:30-18:00. 'ใช้เวลา 1-2 ชม.' -> 90. 'เช้าวันธรรมดาเงียบกว่า'"
+    },
+    {
+      "id": "wat-rai-khing",
+      "province": "nakhon-pathom",
+      "name_th": "วัดไร่ขิง",
+      "name_en": "Wat Rai Khing",
+      "district_th": "สามพราน",
+      "description_th": "วัดสำคัญริมแม่น้ำท่าจีนที่ผู้คนมาไหว้หลวงพ่อวัดไร่ขิง แวะสักการะและชมบรรยากาศริมน้ำของย่านสามพราน",
+      "lat": 13.7425,
+      "lng": 100.2586,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Rai_Khing",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "หลวงพ่อวัดไร่ขิง",
+        "ท่าจีน"
+      ],
+      "moods": [
+        "temple",
+        "beach"
+      ],
+      "mood_reason": "การสักการะพระและที่ตั้งริมแม่น้ำเป็นจุดเด่นของทริป",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 3,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Wat_Rai_King_waterside.jpg/1280px-Wat_Rai_King_waterside.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Rai_King_waterside.jpg",
+      "image_author": "Ahoerstemeier",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Rai_Khing",
+        "https://www.thaiholidayguide.com/attraction/wat-rai-khing/",
+        "https://commons.wikimedia.org/wiki/File:Wat_Rai_King_waterside.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 08:00-16:00 เข้าฟรี; มีตลาดวัดวันอาทิตย์และงานนมัสการหลวงพ่อวัดไร่ขิง 9 วัน ช่วงปลาย มี.ค./ต้น เม.ย. (ตรวจวันที่ของปีนั้นอีกครั้ง) แต่ไม่ได้ระบุช่วงเวลาที่ดีที่สุด และไม่ระบุเวลาที่ใช้เที่ยว จึงเป็น null. ภาพมองวัดจากแม่น้ำท่าจีน"
+    },
+    {
+      "id": "phra-prathon-chedi",
+      "province": "nakhon-pathom",
+      "name_th": "วัดพระประโทณเจดีย์",
+      "name_en": "Wat Phra Prathon Chedi",
+      "district_th": "เมืองนครปฐม",
+      "description_th": "เจดีย์โบราณในเมืองนครปฐมที่ชวนย้อนดูร่องรอยวัฒนธรรมทวารวดี เป็นอีกจุดสำหรับแวะศึกษาประวัติศาสตร์นอกเส้นทางองค์พระปฐมเจดีย์",
+      "lat": 13.81472,
+      "lng": 100.09694,
+      "coords_source": "https://en.wikipedia.org/wiki/Phra_Prathon_Chedi",
+      "coords_uncertain": false,
+      "tags": [
+        "เจดีย์โบราณ",
+        "ทวารวดี",
+        "โบราณสถาน"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "โบราณสถานทวารวดีเหมาะกับการชมประวัติศาสตร์อย่างค่อยเป็นค่อยไป",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 4,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": 25,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Chedi_Phra_Pathon-001.jpg/1280px-Chedi_Phra_Pathon-001.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Chedi_Phra_Pathon-001.jpg",
+      "image_author": "Ddalbiez",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Phra_Prathon_Chedi",
+        "https://www.thaiholidayguide.com/attraction/phra-prathon-chedi/",
+        "https://commons.wikimedia.org/wiki/File:Chedi_Phra_Pathon-001.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 06:00-18:00 เข้าฟรี 'ใช้เวลา 20-30 นาที' -> 25; ไม่ระบุเวลาที่ดีที่สุด. ภาพเจดีย์พระประโทณ ตรงสถานที่"
+    },
+    {
+      "id": "wat-krok-krak",
+      "province": "samut-sakhon",
+      "name_th": "วัดโกรกกราก",
+      "name_en": "Wat Krok Krak",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดเก่าริมแม่น้ำท่าจีนในย่านโกรกกราก แวะไหว้พระและชมวิถีชุมชนริมน้ำของเมืองสมุทรสาคร",
+      "lat": 13.5311513,
+      "lng": 100.2751283,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%81",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดเก่า",
+        "ท่าจีน",
+        "ชุมชน"
+      ],
+      "moods": [
+        "temple",
+        "beach"
+      ],
+      "mood_reason": "วัดเก่าริมท่าจีนเชื่อมประวัติศาสตร์กับวิถีชุมชน",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 3,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "เช้า วันธรรมดา (เลี่ยงงานเดือน ม.ค.)",
+      "opening_hours": "08:30-17:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": 25,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%81_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3.jpg/1280px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%81_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%81_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3.jpg",
+      "image_author": "กสิณธร ราชโอรส",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%81",
+        "https://www.thaiholidayguide.com/attraction/wat-krok-krak/",
+        "https://commons.wikimedia.org/wiki/File:วัดโกรกกราก_อ.เมือง_จ.สมุทรสาคร.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 08:30-17:30 เข้าฟรี; 'ส่วนใหญ่อยู่ 20-30 นาที ยกเว้นมางานเดือน ม.ค.' -> 25; แนะนำเช้าวันธรรมดา นอกเดือน ม.ค. (งานวัดคนมาก). ภาพ: หลวงพ่อวัดโกรกกราก (พระประธานสวมแว่นกันแดด ปรากฏในภาพถ่ายหลายภาพของผู้ถ่ายต่างกันบน Commons ผู้ใช้ควรดูภาพเองก่อนใช้) ถ้าไม่อยากใช้ภาพนี้ให้ใช้ null"
+    },
+    {
+      "id": "tha-chalom-community",
+      "province": "samut-sakhon",
+      "name_th": "ชุมชนท่าฉลอม",
+      "name_en": "Tha Chalom Community",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "ย่านชุมชนริมท่าจีนฝั่งตรงข้ามมหาชัย ชวนเดินดูเมืองเก่าที่เติบโตมากับการประมงและการค้าริมน้ำ",
+      "lat": 13.53833,
+      "lng": 100.27222,
+      "coords_source": "https://en.wikipedia.org/wiki/Tha_Chalom",
+      "coords_uncertain": false,
+      "tags": [
+        "ชุมชน",
+        "เมืองเก่า",
+        "ท่าจีน"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "วิถีชุมชนเก่าและแม่น้ำเหมาะกับการเดินชมและถ่ายภาพ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "เช้า",
+      "opening_hours": "ศูนย์ข้อมูลท่องเที่ยวบ้านท่าฉลอม เสาร์-อาทิตย์ 09:00-17:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Samutsakorn_ThaChalom_Fishing_village_3.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Samutsakorn_ThaChalom_Fishing_village_3.jpg",
+      "image_author": "Mr.Niwat Tantayanusorn,Ph.D.",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tha_Chalom",
+        "https://www.thaiholidayguide.com/attraction/baan-thachalom-tourism-information-center/",
+        "https://www.thaiholidayguide.com/visit/samut-sakhon/",
+        "https://commons.wikimedia.org/wiki/File:Samutsakorn_ThaChalom_Fishing_village_3.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "ชุมชนเป็นย่านเปิดให้เดินชม ไม่มีเวลาเปิด-ปิดทางการ; เวลาที่ใส่คือของศูนย์ข้อมูลท่องเที่ยวบ้านท่าฉลอม (thaiholidayguide ก.ค. 2026: เสาร์-อาทิตย์ 09:00-17:30 เข้าฟรี) ซึ่งปิดจันทร์-ศุกร์ จึงไม่ใส่ closed_days เพราะตัวชุมชนไม่ปิด. 'เช้าสะดวกสุด ก่อนร้อนและตลาดยังขายอยู่'. fee 0 อ้างอิงเฉพาะศูนย์ข้อมูลที่เข้าฟรี. ไม่พบแหล่งเวลาที่ใช้เที่ยว. ภาพขนาดต้นฉบับ 1187x791 (ไม่มี thumbnail 1280)"
+    },
+    {
+      "id": "mahachai-market",
+      "province": "samut-sakhon",
+      "name_th": "ตลาดมหาชัย",
+      "name_en": "Mahachai Market",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "ตลาดสดใกล้ท่าเรือข้ามไปท่าฉลอม มีอาหารทะเลเป็นจุดเด่นของการค้าขาย เหมาะกับการเดินดูวัตถุดิบและสัมผัสจังหวะเมืองประมง",
+      "lat": 13.545462144251301,
+      "lng": 100.27571757021882,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%B1%E0%B8%A2",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดสด",
+        "อาหารทะเล",
+        "มหาชัย"
+      ],
+      "moods": [
+        "food",
+        "adventure",
+        "beach"
+      ],
+      "mood_reason": "ตลาดอาหารทะเลและย่านท่าเรือมีชีวิตชีวาให้สำรวจ",
+      "stats": {
+        "chill": 1,
+        "adventure": 3,
+        "photo": 3,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "เช้า 07:00-09:00",
+      "opening_hours": "05:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%B1%E0%B8%A2.jpg/1280px-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%B1%E0%B8%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%B1%E0%B8%A2.jpg",
+      "image_author": "Dharmadana",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%B1%E0%B8%A2",
+        "https://commons.wikimedia.org/wiki/File:%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%B1%E0%B8%A2.jpg",
+        "https://www.thaiholidayguide.com/attraction/mahachai-market-municipal-port/",
+        "https://www.thaiholidayguide.com/visit/samut-sakhon/"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 05:00-18:00 'ตลาดสาธารณะ ไม่ใช่สถานที่ขายตั๋ว' เข้าฟรี; เช้า 07:00-09:00 ของสดเลือกได้มากสุดก่อนล็อตขายส่งหมด. ไม่พบแหล่งเวลาที่ใช้เที่ยว"
+    },
+    {
+      "id": "phanthai-norasing-shrine",
+      "province": "samut-sakhon",
+      "name_th": "ศาลพันท้ายนรสิงห์",
+      "name_en": "Phanthai Norasing Shrine",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "ศาลที่เชื่อมกับเรื่องเล่าความซื่อสัตย์ของพันท้ายนรสิงห์ แวะสักการะและเรียนรู้เหตุการณ์ในประวัติศาสตร์อยุธยาที่ผู้คนจดจำ",
+      "lat": 13.5735,
+      "lng": 100.345778,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C",
+      "coords_uncertain": false,
+      "tags": [
+        "ศาล",
+        "ประวัติศาสตร์",
+        "พันท้ายนรสิงห์"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "สถานที่รำลึกเชื่อมเรื่องเล่าประวัติศาสตร์กับการสักการะ",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 3,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "เช้า ก่อนสาย",
+      "opening_hours": "08:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": 30,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C_Phanthai_Norasing_Shrine.JPG/1280px-%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C_Phanthai_Norasing_Shrine.JPG",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C_Phanthai_Norasing_Shrine.JPG",
+      "image_author": "กสิณธร ราชโอรส",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C",
+        "https://www.thaiholidayguide.com/attraction/phanthainorasingh-shrine/",
+        "https://commons.wikimedia.org/wiki/File:ศาลพันท้ายนรสิงห์_Phanthai_Norasing_Shrine.JPG"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 08:00-18:00 เข้าฟรี; 'ศาลอย่างเดียวใช้เวลาไม่ถึง 30 นาที' -> 30 (ถ้าเที่ยวอุทยานประวัติศาสตร์พันท้ายนรสิงห์ด้วยจะนานกว่า); 'ไปก่อนสายถ้าอยากได้บรรยากาศเงียบ' วันเสาร์-อาทิตย์เช้าคนไทยเยอะ. Wongnai (บล็อก ไม่ทางการ) ให้เวลา ส.-อา. 09:00-20:00 ไม่ใช้"
+    },
+    {
+      "id": "samut-sakhon-city-pillar-shrine",
+      "province": "samut-sakhon",
+      "name_th": "ศาลเจ้าพ่อหลักเมืองสมุทรสาคร",
+      "name_en": "Samut Sakhon City Pillar Shrine",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "ศาลในย่านมหาชัยที่สะท้อนความศรัทธาของชาวเมืองและชาวประมง แวะสักการะพร้อมชมลักษณะศาลแบบจีนที่เชื่อมกับวัฒนธรรมท้องถิ่น",
+      "lat": 13.5445596,
+      "lng": 100.2742834,
+      "coords_source": "https://nominatim.openstreetmap.org/search?q=%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B9%88%E0%B8%AD%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3&format=jsonv2&countrycodes=th&limit=5",
+      "coords_uncertain": false,
+      "tags": [
+        "ศาลเจ้า",
+        "มหาชัย",
+        "วัฒนธรรมชุมชน"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "ศาลจีนและความเชื่อของชุมชนเหมาะกับการชมวัฒนธรรมท้องถิ่น",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 3,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "08:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": 25,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://dp.culturalmapthailand.info/CD-139",
+        "https://nominatim.openstreetmap.org/search?q=%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B9%88%E0%B8%AD%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3&format=jsonv2&countrycodes=th&limit=5",
+        "https://www.openstreetmap.org/node/1102859761",
+        "https://www.thaiholidayguide.com/attraction/sanlugmuang-samut-sakorn/"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 08:00-18:00 เข้าฟรี 'เยี่ยมชม 20-30 นาที' -> 25; ตั้งอยู่ริมแม่น้ำท่าจีนใกล้ป้อมวิชิตโชดก ถ.เศรษฐกิจ 1 มหาชัย; ขบวนแห่เจ้าพ่อหลักเมือง ขึ้น 11 ค่ำ เดือน 5 (ราว พ.ค.-มิ.ย.) ไม่นับเป็นช่วงเวลาที่ดีที่สุด. ไม่พบภาพ Commons ที่ยืนยันได้ (ไฟล์ 'ศาลหลักเมือง(City pillar shine) - panoramio.jpg' ไม่ระบุจังหวัด จึงไม่ใช้)"
+    },
+    {
+      "id": "wat-nang-sao",
+      "province": "samut-sakhon",
+      "name_th": "วัดนางสาว",
+      "name_en": "Wat Nang Sao",
+      "district_th": "กระทุ่มแบน",
+      "description_th": "วัดริมท่าจีนที่มีอุโบสถมหาอุดเป็นจุดสำคัญ ชวนดูอาคารประตูเดียวและเรียนรู้เรื่องราวเก่าแก่ของชุมชนท่าไม้",
+      "lat": 13.666944444444445,
+      "lng": 100.26916666666666,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A7",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดเก่า",
+        "โบสถ์มหาอุด",
+        "ท่าจีน"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "อุโบสถเก่าและบรรยากาศริมน้ำเหมาะกับการชมวัฒนธรรม",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 4,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "สาย (ก่อนแดดบ่าย)",
+      "opening_hours": "07:30-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Wat_NangSaw_03.jpg/1280px-Wat_NangSaw_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_NangSaw_03.jpg",
+      "image_author": "Kittipong khunnen",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A7",
+        "https://commons.wikimedia.org/wiki/File:Wat_NangSaw_03.jpg",
+        "https://www.thaiholidayguide.com/attraction/wat-nangsao/"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "stats.budget"
+      ],
+      "research_notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 07:30-17:00 เข้าฟรี; แนะนำช่วงสายเพื่อชมแสงในพระอุโบสถก่อนแดดบ่ายเปลี่ยนมุม. ไม่พบแหล่งเวลาที่ใช้เที่ยว"
+    },
+    {
+      "id": "wat-lak-si-rat-samoson",
+      "province": "samut-sakhon",
+      "name_th": "วัดหลักสี่ราษฎร์สโมสร",
+      "name_en": "Wat Lak Si Rat Samoson",
+      "district_th": "บ้านแพ้ว",
+      "description_th": "วัดริมคลองดำเนินสะดวกที่ประดิษฐานหลวงพ่อโต แวะสักการะแล้วเดินชมศาลาท่าน้ำและบรรยากาศชุมชนริมคลอง",
+      "lat": 13.573888888888888,
+      "lng": 100.07805555555555,
+      "coords_source": "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B5%E0%B9%88%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8E%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B9%82%E0%B8%A1%E0%B8%AA%E0%B8%A3",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "หลวงพ่อโต",
+        "คลองดำเนินสะดวก"
+      ],
+      "moods": [
+        "temple",
+        "beach"
+      ],
+      "mood_reason": "วัดและศาลาริมคลองเหมาะกับการไหว้พระควบคู่ชมวิถีริมน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 0,
+        "photo": 3,
+        "food": 0,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B5%E0%B9%88%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8E%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B9%82%E0%B8%A1%E0%B8%AA%E0%B8%A3",
+        "https://mgronline.com/travel/detail/9620000030839"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "วัดอยู่ต.ยกกระบัตร อ.บ้านแพ้ว สมุทรสาคร (ติดคลองดำเนินสะดวก) พระประธาน 'หลวงพ่อโต'; ไม่พบเวลาเปิด/ค่าเข้า/ช่วงเวลาแนะนำจากแหล่งน่าเชื่อถือ (MGR 2019 ไม่ระบุ). ไม่พบภาพ Commons/Unsplash (ผลค้นหา 'วัดหลักสี่' เป็นวัดหลักสี่ กทม. คนละแห่ง ไม่ใช้)"
+    },
+    {
+      "id": "don-kai-di-benjarong-village",
+      "province": "samut-sakhon",
+      "name_th": "หมู่บ้านเบญจรงค์ดอนไก่ดี",
+      "name_en": "Don Kai Di Benjarong Village",
+      "district_th": "กระทุ่มแบน",
+      "description_th": "ชุมชนงานเบญจรงค์ในตำบลดอนไก่ดี ชวนดูสีและลวดลายของเครื่องเคลือบที่เกิดจากฝีมือช่างท้องถิ่น",
+      "lat": 13.6443439,
+      "lng": 100.2539151,
+      "coords_source": "https://nominatim.openstreetmap.org/search?q=%E0%B9%80%E0%B8%9A%E0%B8%8D%E0%B8%88%E0%B8%A3%E0%B8%87%E0%B8%84%E0%B9%8C+%E0%B8%94%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%94%E0%B8%B5&format=jsonv2&countrycodes=th&limit=5",
+      "coords_uncertain": false,
+      "tags": [
+        "งานหัตถกรรม",
+        "เบญจรงค์",
+        "ชุมชน"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "งานช่างและลวดลายเบญจรงค์เหมาะกับการชมวัฒนธรรมท้องถิ่น",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Don_Kai_Di",
+        "https://www.openstreetmap.org/node/4934338421",
+        "https://nominatim.openstreetmap.org/search?q=%E0%B9%80%E0%B8%9A%E0%B8%8D%E0%B8%88%E0%B8%A3%E0%B8%87%E0%B8%84%E0%B9%8C+%E0%B8%94%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%94%E0%B8%B5&format=jsonv2&countrycodes=th&limit=5",
+        "https://mgronline.com/travel/detail/9600000022505",
+        "https://www.thaipost.net/main/detail/7446"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license",
+        "stats.budget"
+      ],
+      "research_notes": "หมู่ที่ 1 ต.ดอนไก่ดี อ.กระทุ่มแบน; โทร 0-3447-3480 (หมู่บ้าน). ไม่พบเวลาเปิด/ค่าเข้าปัจจุบัน (บทความ MGR 2017 และ Thaipost 2018 ไม่ระบุ; เวลา 10:00-22:00 เป็นเวลางานประจำปี มี.ค. 2017 ไม่ใช่เวลาปกติ; ค่าออกแบบลายเบญจรงค์เอง 430 บาท/คน เป็นกิจกรรมไม่ใช่ค่าเข้า). ไม่พบภาพ Commons/Unsplash"
+    }
+  ]
+}

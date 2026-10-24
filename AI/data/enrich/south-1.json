@@ -1,0 +1,420 @@
+[
+  {
+    "id": "tiger-cave-temple-krabi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Krabi%2C_Tiger_Cave_Temple%2C_Thailand.jpg/1280px-Krabi%2C_Tiger_Cave_Temple%2C_Thailand.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Krabi,_Tiger_Cave_Temple,_Thailand.jpg",
+    "image_author": "Vyacheslav Argenberg",
+    "image_license": "CC BY 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "06:00-18:00",
+    "closed_days": null,
+    "best_time": "เช้า ช่วงพระอาทิตย์ขึ้น",
+    "visit_minutes": 150,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-tham-suea-tiger-cave-temple/"
+    ],
+    "notes": "THG (อัปเดต ต.ค. 2026): เข้าฟรี เปิดทุกวัน 06:00-18:00 ไม่พบวันปิด; ควรมาช่วง 05:00-08:00 เพื่อเย็นและเห็นพระอาทิตย์ขึ้น; ใช้เวลารวม 2-3 ชม. (ขึ้น 30-60 นาที ลง 20-40 นาที). แหล่งเดียว ไม่ใช่เว็บทางการ. หน้า Krabi guide อื่นของ THG เคยระบุ 50 บาท แต่หน้าหลักระบุฟรี."
+  },
+  {
+    "id": "tha-pom-khlong-song-nam",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Thapom_Klong_Song_Nam_SF0001.jpg/1280px-Thapom_Klong_Song_Nam_SF0001.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Thapom_Klong_Song_Nam_SF0001.jpg",
+    "image_author": "Stefan Fussan",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 20,
+    "entry_fee_max": 20,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 45,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/tha-pom-klong-song-nam/"
+    ],
+    "notes": "THG (ก.ค. 2026): คนไทยผู้ใหญ่ 20 เด็ก 10; ต่างชาติผู้ใหญ่ 50 เด็ก 30; เปิดทุกวัน 08:00-17:00 ไม่พบวันปิด; เดินวนประมาณ 700 ม. ใช้เวลาประมาณ 45 นาที (ไม่รวมล่องเรือ). ไม่พบค่าล่องเรือแยก."
+  },
+  {
+    "id": "than-bok-khorani-national-park",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Than_Bok_Khorani_National_Park_SF0001.jpg/1280px-Than_Bok_Khorani_National_Park_SF0001.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Than_Bok_Khorani_National_Park_SF0001.jpg",
+    "image_author": "Stefan Fussan",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 60,
+    "entry_fee_max": 60,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://travel.trueid.net/detail/wPWagor8keGA",
+      "https://www.thaiholidayguide.com/attraction/than-bok-khorani-national-park/"
+    ],
+    "notes": "อุทยานกลุ่ม 3 ตามอัตรา DNP ตั้งแต่ 7 มิ.ย. 2565: คนไทยผู้ใหญ่ 60 เด็ก 30; ต่างชาติผู้ใหญ่ 300 เด็ก 150 (THG ก.ค. 2026 ตรงกัน); เปิดทุกวัน 08:00-16:30 ไม่พบวันปิด. ค่าเรือไปถ้ำ/เกาะห้องจ่ายแยก. คนไทยอายุ 60+ เข้าฟรี."
+  },
+  {
+    "id": "khao-phanom-bencha-national-park",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Waterfall_Khao_Phanom_Bencha_National_Park_02.jpg/1280px-Waterfall_Khao_Phanom_Bencha_National_Park_02.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Waterfall_Khao_Phanom_Bencha_National_Park_02.jpg",
+    "image_author": "Daniel Sasse",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 20,
+    "entry_fee_max": 20,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "พ.ค.-พ.ย.",
+    "visit_minutes": null,
+    "sources": [
+      "https://travel.trueid.net/detail/wPWagor8keGA",
+      "https://www.thaiholidayguide.com/attraction/namtok-huai-to/",
+      "https://www.thaiholidayguide.com/attraction/khao-phanom-bencha-national-park/"
+    ],
+    "notes": "อุทยานกลุ่ม 1: คนไทยผู้ใหญ่ 20 เด็ก 10; ต่างชาติผู้ใหญ่ 100 เด็ก 50. เปิดทุกวัน 08:30-16:30 ไม่พบวันปิด. best_time อ้างอิง THG หน้าน้ำตกห้วยโต้: 'May-November for full flow; water drops Dec-Apr'; ข่าว 18 ก.ย. 2569 อุทยานปิดน้ำตกห้วยโต้ชั่วคราวเพราะฝนหนัก (bangkokbiznews.com/news/1252545). visit_minutes ไม่พบแหล่งยืนยัน."
+  },
+  {
+    "id": "ban-koh-klang-community",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "ติดต่อชุมชนล่วงหน้าเพื่อนัดวัน-เวลา",
+    "closed_days": null,
+    "best_time": "ตลอดปี",
+    "visit_minutes": 240,
+    "sources": [
+      "https://www.lovethailand.org/travel/en/64-Krabi/7833-Ban-Koh-Klang-Community.html"
+    ],
+    "notes": "lovethailand.org: ต้องติดต่อชุมชนล่วงหน้าเพื่อนัดวัน/เวลากิจกรรม ไม่ระบุค่าเข้า; ทริปครึ่งวัน (นั่งเรือข้าม + เดินชมเกาะ + อาหารทะเล) หรือพักค้าง 2 วัน 1 คืน; งานฝีมือเข้าชมได้ตลอดปี กิจกรรมนาข้าว/ประมงขึ้นกับฤดู น้ำขึ้นลง และอากาศ. ภาพ Commons 'Ko Klang seen from Ko Lanta' ไม่ยืนยันว่าเป็นเกาะเดียวกัน จึงไม่ใช้."
+  },
+  {
+    "id": "dragon-crest-mountain",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Khao_Ngon_Nak_National_Park.jpg/1280px-Khao_Ngon_Nak_National_Park.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Khao_Ngon_Nak_National_Park.jpg",
+    "image_author": "Doreme21150",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 40,
+    "entry_fee_max": 40,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 240,
+    "sources": [
+      "https://www.weseektravel.com/dragon-crest-mountain-krabi/",
+      "https://www.baldhiker.com/hiking-dragon-crest-mountain-in-thailand/",
+      "https://pickyourtrail.com/attractions/krabi/dragon-crest-krabi",
+      "https://travel.trueid.net/detail/wPWagor8keGA"
+    ],
+    "notes": "weseektravel: คนไทยผู้ใหญ่ 40 เด็ก 20; ต่างชาติ 200/100 (ตรงกับกลุ่ม 2 ของ DNP เพราะอยู่ในอุทยานฯ หาดนพรัตน์ธารา-หมู่เกาะพีพี); เปิดทุกวัน ไม่พบวันปิด; เส้นทางเดินป่า 3.7 กม. ขึ้น 1.5-2 ชม. ลง ~1 ชม. แหล่งอื่นให้ไป-กลับ 3-6 ชม. จึงใช้ 240; รับคนเข้าครั้งสุดท้าย 14:00. แหล่งบางแห่งระบุ 400/200 บาท ซึ่งขัดกัน. ภาพ: จุดชมวิวบนยอดเขา (Khao Ngon Nak)."
+  },
+  {
+    "id": "wat-kaew-korawaram",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Wat_Kaew_Korawaram_03.jpg/1280px-Wat_Kaew_Korawaram_03.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Kaew_Korawaram_03.jpg",
+    "image_author": "Christophe95",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://travel.trueid.net/detail/7qb0M0GjkEOJ"
+    ],
+    "notes": "ไม่พบแหล่งยืนยัน closed_days/best_time/visit_minutes; trueid (ธ.ค. 2565) ระบุเปิด 06:00-19:00 ไม่พบวันปิด จึงปล่อย null."
+  },
+  {
+    "id": "krabi-walking-street",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Krabi_Walking_Street.jpg/1280px-Krabi_Walking_Street.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Krabi_Walking_Street.jpg",
+    "image_author": "Christophe95",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/krabi-walking-street/"
+    ],
+    "notes": "THG (ต.ค. 2026): เข้าฟรี เปิดศุกร์-อาทิตย์ 17:00-22:00; ควรมาตอน 17:00 ก่อนคนเยอะ; ไม่ระบุเวลาที่ควรใช้ จึง null."
+  },
+  {
+    "id": "mud-crab-sculpture-krabi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Krabi_-_Krabbenskulptur_-_0001.jpg/1280px-Krabi_-_Krabbenskulptur_-_0001.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Krabi_-_Krabbenskulptur_-_0001.jpg",
+    "image_author": "Stefan Fussan",
+    "image_license": "CC BY-SA 3.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "เย็น ช่วงพระอาทิตย์ตก",
+    "visit_minutes": 10,
+    "sources": [
+      "https://www.visitthailandtoday.com/temples-culture/krabi/the-mud-crabs-sculpture",
+      "https://www.solosophie.com/?p=53651"
+    ],
+    "notes": "visitthailandtoday (ต.ค. 2026): ไม่มีค่าเข้า ไม่มีประตู เข้าได้ทุกเวลา แนะนำช่วงพระอาทิตย์ตกหรือหลังมืด ถ่ายรูป ~10 นาที (เดินริมน้ำ/ตลาดกลางคืนฝั่งตรงข้ามอาจอยู่นานกว่า); solosophie แนะนำเช้าตรู่หรือบ่ายแก่เพื่อแสงสวย."
+  },
+  {
+    "id": "wat-maha-that-wachiramongkol",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Wat_Maha_That_Wachiramongkol_%281%29.jpg/1280px-Wat_Maha_That_Wachiramongkol_%281%29.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Maha_That_Wachiramongkol_(1).jpg",
+    "image_author": "PEAK99",
+    "image_license": "CC BY 3.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://travel.trueid.net/detail/7qb0M0GjkEOJ"
+    ],
+    "notes": "ไม่พบแหล่งยืนยัน closed_days/best_time; trueid (ธ.ค. 2565) ระบุเปิด 08:00-18:00; ไม่พบค่าเข้า."
+  },
+  {
+    "id": "wat-khlong-thom-museum",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 20,
+    "entry_fee_max": 20,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 45,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-khlong-thom-museum/"
+    ],
+    "notes": "THG (ก.ค. 2026): คนไทย 20 บาททั้งผู้ใหญ่/เด็ก; ต่างชาติ 100; เปิดทุกวัน 08:30-16:30 (THG ไม่ระบุวันปิด ขัดกับข้อมูลเดิมที่ว่าปิดวันพุธ จึงควรตรวจสอบ); ใช้เวลา 45-60 นาที; ไม่ระบุ best_time. ไม่พบภาพ Commons/Unsplash ที่ยืนยันได้ว่าเป็นสถานที่นี้."
+  },
+  {
+    "id": "ban-thung-yi-pheng-community",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "ล่องเรือเช้า 05:30-07:30, ล่องเรือเย็น 16:30-18:00, พายคายัค 08:00-16:00 (ต้องจองล่วงหน้า)",
+    "closed_days": null,
+    "best_time": "เช้าตรู่",
+    "visit_minutes": 120,
+    "sources": [
+      "https://www.lovethailand.org/travel/t/64-กระบี่/3920-บ้านทุ่งหยีเพ็ง.html",
+      "https://www.thaiholidayguide.com/attraction/thung-yee-peng-mangrove-forest/"
+    ],
+    "notes": "lovethailand: ไม่มีค่าเข้าทั่วไป คิดตามกิจกรรม (เรือเช้า 850/คน, เรือเย็น 750/คน, คายัค 400/ลำ 2 คน); THG ระบุค่าเข้าประมาณ 40 บาท และคายัค/เรือหางยาวประมาณ 500 บาท ขัดกัน จึงไม่ใส่ค่าเข้า. เรือเช้าเป็นช่วงที่ดีที่สุด. เรือเช้า 05:30-07:30 = 120 นาที (THG: หางยาว ~2 ชม., คายัค ~3 ชม.). ภาพ Commons ใกล้เคียงเป็นป่าชายเลนทั่วไปบนเกาะลันตา ไม่ยืนยันว่าเป็นชุมชนนี้ จึงไม่ใช้."
+  },
+  {
+    "id": "khao-lak-lam-ru-national-park",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Khao_Lak-Lam_Ru_National_Park%2C_Rainforest%2C_Thailand.jpg/1280px-Khao_Lak-Lam_Ru_National_Park%2C_Rainforest%2C_Thailand.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Khao_Lak-Lam_Ru_National_Park,_Rainforest,_Thailand.jpg",
+    "image_author": "Vyacheslav Argenberg",
+    "image_license": "CC BY 4.0",
+    "entry_fee_min": 20,
+    "entry_fee_max": 20,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "ธ.ค.-ก.พ.",
+    "visit_minutes": null,
+    "sources": [
+      "https://travel.trueid.net/detail/wPWagor8keGA",
+      "https://www.thaiholidayguide.com/attraction/khao-lak-lam-ru-national-park/"
+    ],
+    "notes": "อุทยานกลุ่ม 1: คนไทยผู้ใหญ่ 20 เด็ก 10; ต่างชาติผู้ใหญ่ 100 เด็ก 50; เปิดทุกวัน 08:00-16:30 (THG ก.ค. 2026) ไม่พบวันปิด; best_time จาก THG 'December-February dry trails and still-flowing waterfalls'. visit_minutes ไม่พบ."
+  },
+  {
+    "id": "khao-lampi-hat-thai-mueang-national-park",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/LamPi01.jpg/1280px-LamPi01.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:LamPi01.jpg",
+    "image_author": "Bjoertvedt",
+    "image_license": "CC BY 3.0",
+    "entry_fee_min": 20,
+    "entry_fee_max": 20,
+    "opening_hours": "08:00-16:00",
+    "closed_days": null,
+    "best_time": "พ.ค.-ต.ค.",
+    "visit_minutes": null,
+    "sources": [
+      "https://travel.trueid.net/detail/wPWagor8keGA",
+      "https://www.sanook.com/travel/1415541/",
+      "https://travel.trueid.net/detail/J9xZ41VwjgJY",
+      "https://en.wikipedia.org/wiki/Khao_Lampi%E2%80%93Hat_Thai_Mueang_National_Park"
+    ],
+    "notes": "อุทยานกลุ่ม 1: คนไทยผู้ใหญ่ 20 เด็ก 10 (ตรงกับ sanook 2562 และ trueid 2563). เวลา 08:00-16:00 จากบทความ 2562/2563 (เก่า ควรตรวจสอบ). best_time: บทความระบุหน้าฝนน้ำตกสวยสุด (ฤดูฝนอันดามัน ~พ.ค.-ต.ค.; เป็นการตีความเดือนจากคำว่าฤดูฝน); เคยปิดน้ำตกชั่วคราวเมื่อฝนหนัก. ไม่พบวันปิดและเวลาที่ใช้เที่ยว."
+  },
+  {
+    "id": "si-phang-nga-national-park",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%95%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87.jpg/1280px-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%95%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%95%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87.jpg",
+    "image_author": "Setaphong Tantanawat",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 20,
+    "entry_fee_max": 20,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://travel.trueid.net/detail/wPWagor8keGA",
+      "https://www.thaiholidayguide.com/attraction/si-phang-nga-national-park/"
+    ],
+    "notes": "อุทยานกลุ่ม 1: คนไทยผู้ใหญ่ 20 เด็ก 10; ต่างชาติผู้ใหญ่ 100 เด็ก 50 (THG ก.ค. 2026 ตรงกัน); เปิดทุกวัน 08:00-16:30 ไม่พบวันปิด. best_time/visit_minutes ไม่ชัด (THG: นกพิตต้าเห็นง่ายปลาย ม.ค.-ต้น พ.ค.; น้ำตกน้ำมากช่วงฝน) จึง null. ภาพ: น้ำตกตำหนัง ในอุทยานฯ."
+  },
+  {
+    "id": "koh-yao-noi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sunrise%2C_Koh_Yao_Noi_%28island%29%2C_Phang_Nga_Bay%2C_Thailand.jpg/1280px-Sunrise%2C_Koh_Yao_Noi_%28island%29%2C_Phang_Nga_Bay%2C_Thailand.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Sunrise,_Koh_Yao_Noi_(island),_Phang_Nga_Bay,_Thailand.jpg",
+    "image_author": "Vyacheslav Argenberg",
+    "image_license": "CC BY 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/visit/koh-yao-noi/"
+    ],
+    "notes": "เกาะ ไม่มีเวลาเปิด-ปิด/ค่าเข้าเกาะที่ยืนยันได้; THG: ควรพัก 2-4 วัน ไม่ใช่เวลาเที่ยวต่อครั้ง จึง visit_minutes = null."
+  },
+  {
+    "id": "koh-panyee",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Koh_Panyi_Village.jpg/1280px-Koh_Panyi_Village.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Koh_Panyi_Village.jpg",
+    "image_author": "Glen MacLarty",
+    "image_license": "CC BY 2.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "08:00-16:30",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/ko-panyi/"
+    ],
+    "notes": "THG (ก.ค. 2026): เข้าหมู่บ้านฟรี เปิดทุกวัน 08:00-16:30; ควรมาก่อน 10:00 หรือหลังทัวร์กลับ. ถ้าแวะเกาะในอุทยานฯ อ่าวพังงา (กลุ่ม 3) คนไทยผู้ใหญ่ 60 เด็ก 30 / ต่างชาติผู้ใหญ่ 300 (ค่าอุทยานแยก ไม่ใช่ค่าเข้าหมู่บ้าน)."
+  },
+  {
+    "id": "takua-pa-old-town",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 45,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/takua-pa-old-town/"
+    ],
+    "notes": "THG (ต.ค. 2026): ถนนสาธารณะ ฟรี เปิดทุกวัน ไม่พบวันปิด; ถนนคนเดินวันอาทิตย์ ~15:00-20:00; เดินชมนอกตลาด ~45 นาที. ไม่พบภาพที่ยืนยันได้ว่าเป็นย่านเมืองเก่า."
+  },
+  {
+    "id": "little-amazon-takua-pa",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "เช้า ช่วงน้ำขึ้น",
+    "visit_minutes": 90,
+    "sources": [
+      "https://travel.trueid.net/detail/nLKomvoKvKRL",
+      "https://www.pptvhd36.com/travel/thailand/203157"
+    ],
+    "notes": "trueid (พ.ย. 2563): คิดค่าเรือต่อลำ คายัค 500 บาท/2 คน, เรือยนต์ 700 บาท/2 คน (ไม่ใช่ค่าเข้า จึงไม่ใส่ fee); เปิด 09:00-17:00; น้ำขึ้นราว 09:00-10:00 เหมาะสุด ควรโทรถามระดับน้ำก่อน; ล่องเรือ ~1 ชม. (pptv 2566: ~1.5 ชม.; Wongnai: 1-2 ชม.) จึงใช้ 90. ไม่พบวันปิด ไม่พบภาพ (ภาพ macaque ใกล้เคียงไม่แสดงสถานที่)."
+  },
+  {
+    "id": "bang-phat-village",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [],
+    "notes": "ไม่พบแหล่งยืนยัน closed_days/visit_minutes; ราคาอาหารชุดซีฟู้ด ~250 บาท/คน (ไทยรัฐ) ไม่ใช่ค่าเข้า; ไม่พบภาพใน Commons."
+  },
+  {
+    "id": "wat-bang-riang",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Wat_Bang_Riang_chedi.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Bang_Riang_chedi.jpg",
+    "image_author": "Ahoerstemeier",
+    "image_license": "CC BY-SA 3.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 90,
+    "sources": [
+      "https://www.lovethailand.org/travel/t/68-พังงา/4083-วัดราษฎร์อุปถัมภ์-(วัดบางเหรียง).html"
+    ],
+    "notes": "lovethailand (วัดราษฎร์อุปถัมภ์ (วัดบางเหรียง)): เปิดทุกวัน 09:00-16:00 ไม่เสียค่าเข้า ใช้เวลา 1-2 ชม.; ช่วงเช้าเหมาะสุด. (ผลค้นหาอีกชุดให้ 08:00-17:00 ไม่ตรงกัน). ภาพต้นฉบับขนาดเล็ก (ปี 2003) ใช้ไฟล์ต้นฉบับ"
+  },
+  {
+    "id": "sa-nang-manora-waterfall",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sa_Nang_Manora.jpg/1280px-Sa_Nang_Manora.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Sa_Nang_Manora.jpg",
+    "image_author": "Юрочкин Роман",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/sa-nang-manora-forest-park/"
+    ],
+    "notes": "THG (ก.ค. 2026): เข้าฟรี เปิดทุกวัน 08:00-18:00 ไม่พบวันปิด; เส้นทางไป-กลับ 2 กม. ไม่ระบุเวลา จึง null."
+  },
+  {
+    "id": "ban-nam-khem-tsunami-memorial",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 40,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/ban-nam-khem-tsunami-memorial-park/"
+    ],
+    "notes": "THG (ก.ค. 2026): สวนอนุสรณ์เข้าฟรี เปิดทุกวัน 08:00-20:00 ไม่พบวันปิด; แวะ 30-45 นาที. พิพิธภัณฑ์สึนามิบ้านน้ำเค็มเป็นอีกแห่งห่าง ~1.3 กม. ปกติเปิดพุธ-อาทิตย์. ภาพเรือประมงที่ถูกคลื่นซัดในหมู่บ้านบน Commons ไม่ใช่ตัวอนุสรณ์ จึงไม่ใช้."
+  },
+  {
+    "id": "phang-nga-city-museum",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [],
+    "notes": "ไม่พบแหล่งที่ยืนยันได้ (ผลค้นหาที่อ้างว่าเข้าฟรี/ใช้เวลา ~20 นาที เปิดหน้าตรวจแล้วไม่มีข้อมูล); ไม่พบภาพที่ยืนยันได้ว่าเป็นพิพิธภัณฑ์นี้."
+  }
+]
