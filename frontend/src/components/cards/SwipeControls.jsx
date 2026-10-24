@@ -1,24 +1,25 @@
-import { motion, useTransform } from 'framer-motion'
+import { motion, useReducedMotion, useTransform } from 'framer-motion'
 
 const TAP = { scale: 0.88 }
 const SPRING = { type: 'spring', stiffness: 500, damping: 22 }
 
 // ปุ่มใต้กองการ์ด: ข้าม · ย้อนการ์ด · อยากไป — ปุ่มขยายตามทิศที่ลาก (dragX)
 export default function SwipeControls({ dragX, onSkip, onUndo, onLike, canUndo, disabled }) {
+  const reduce = useReducedMotion()
   const skipScale = useTransform(dragX, [-120, 0], [1.14, 1])
   const likeScale = useTransform(dragX, [0, 120], [1, 1.14])
 
   return (
     <div className="flex shrink-0 items-center justify-center gap-5 pb-2 pt-6">
-      <motion.div style={{ scale: skipScale }}>
+      <motion.div style={{ scale: reduce ? 1 : skipScale }}>
         <motion.button
           type="button"
           aria-label="ข้าม"
           title="ข้าม (←)"
           onClick={onSkip}
           disabled={disabled}
-          whileTap={disabled ? undefined : TAP}
-          transition={SPRING}
+          whileTap={disabled || reduce ? undefined : TAP}
+          transition={reduce ? { duration: 0 } : SPRING}
           className="flex h-[60px] w-[60px] cursor-pointer items-center justify-center rounded-full bg-white disabled:cursor-not-allowed disabled:opacity-40"
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1F1A17" strokeWidth="2.2" strokeLinecap="round" aria-hidden="true">
@@ -33,8 +34,8 @@ export default function SwipeControls({ dragX, onSkip, onUndo, onLike, canUndo, 
         title="ย้อนการ์ด (Z)"
         onClick={onUndo}
         disabled={disabled || !canUndo}
-        whileTap={disabled || !canUndo ? undefined : { rotate: -40, scale: 0.9 }}
-        transition={SPRING}
+        whileTap={disabled || !canUndo || reduce ? undefined : { rotate: -40, scale: 0.9 }}
+        transition={reduce ? { duration: 0 } : SPRING}
         className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full disabled:cursor-not-allowed disabled:opacity-35"
       >
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6E625A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -43,15 +44,15 @@ export default function SwipeControls({ dragX, onSkip, onUndo, onLike, canUndo, 
         </svg>
       </motion.button>
 
-      <motion.div style={{ scale: likeScale }}>
+      <motion.div style={{ scale: reduce ? 1 : likeScale }}>
         <motion.button
           type="button"
           aria-label="อยากไป"
           title="อยากไป (→)"
           onClick={onLike}
           disabled={disabled}
-          whileTap={disabled ? undefined : TAP}
-          transition={SPRING}
+          whileTap={disabled || reduce ? undefined : TAP}
+          transition={reduce ? { duration: 0 } : SPRING}
           className="flex h-[68px] w-[68px] cursor-pointer items-center justify-center rounded-full bg-brown disabled:cursor-not-allowed disabled:opacity-40"
         >
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

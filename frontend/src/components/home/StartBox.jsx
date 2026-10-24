@@ -2,6 +2,7 @@ import { motion, useReducedMotion } from 'framer-motion'
 import SlideLink from '../SlideLink'
 import { Moon, Sparkle } from '../icons'
 import Sticker from './Sticker'
+import { useTripDraft } from '../../context/TripDraftContext'
 
 const CARDS = [
   { tone: '#E7EFDC', rotate: -14, x: -58, y: 10 },
@@ -33,6 +34,7 @@ function MiniCard({ tone, rotate, x, y, reduce }) {
 // กล่องพีช "วันนี้อยากไปไหน?" + ปุ่มหลักไปแผนที่
 export default function StartBox() {
   const reduce = useReducedMotion()
+  const { resetDraft } = useTripDraft()
 
   return (
     <section className="relative mx-4 mt-4 overflow-hidden rounded-[36px] bg-peach px-5 pb-5 pt-4">
@@ -57,14 +59,15 @@ export default function StartBox() {
 
       <div className="relative flex flex-col items-center gap-1 pt-3 text-center">
         <h2 className="m-0 text-2xl font-bold">วันนี้อยากไปไหน?</h2>
-        <p className="m-0 text-sm leading-[1.6] text-[#4A3A30]">เลือกจังหวัด บอกมู้ด แล้วปัดการ์ดหาที่ที่ใช่</p>
+        <p className="m-0 text-sm leading-[1.6] text-[#4A3A30]">บอกมู้ด สุ่มทริป แล้วปัดการ์ดหาที่ที่ใช่</p>
       </div>
 
       <SlideLink
-        to="/map"
+        to="/plan/mood"
+        onClick={() => resetDraft()}
         className="relative mt-4 flex h-14 items-center justify-center rounded-full bg-brown text-base font-semibold text-white"
       >
-        เริ่มเลือกจังหวัด
+        เริ่มวางทริป
       </SlideLink>
     </section>
   )

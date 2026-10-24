@@ -13,7 +13,7 @@ const clamp = (v, min, max) => Math.min(max, Math.max(min, v))
 
 function DeckCard({ ref, place, isFront, enterX, dragX, nextScale, onSwiped, face }) {
   const reduce = useReducedMotion()
-  const x = useMotionValue(enterX)
+  const x = useMotionValue(reduce ? 0 : enterX)
   const px = useMotionValue(50)
   const py = useMotionValue(50)
   const rotate = useTransform(x, [-240, 240], [-16, 16])
@@ -40,17 +40,23 @@ function DeckCard({ ref, place, isFront, enterX, dragX, nextScale, onSwiped, fac
   // undo: card comes back from the side it left
   useEffect(() => {
     if (x.get() === 0) return
+    if (reduce) { x.set(0); return }
     const controls = animate(x, 0, { type: 'spring', stiffness: 260, damping: 26 })
     return () => controls.stop()
-  }, [x])
+  }, [x, reduce])
 
   const fly = useCallback(
     (dir, fromDrag = false) => {
       if (flying.current) return
       flying.current = true
       setGone(true)
+      if (reduce) {
+        x.set(0)
+        onSwipedRef.current(dir)
+        return
+      }
       animate(x, dir * (window.innerWidth / 2 + OUT_EXTRA), {
-        duration: reduce ? 0.2 : fromDrag ? 0.28 : 0.38,
+        duration: fromDrag ? 0.28 : 0.38,
         ease: fromDrag ? 'easeOut' : [0.5, 0, 0.75, 0.4],
         onComplete: () => onSwipedRef.current(dir),
       })
@@ -63,24 +69,25 @@ function DeckCard({ ref, place, isFront, enterX, dragX, nextScale, onSwiped, fac
   function handleDragEnd(_, info) {
     const power = info.offset.x + info.velocity.x * 0.2
     if (Math.abs(power) > SWIPE_POWER) fly(Math.sign(power), true)
+    else if (reduce) x.set(0)
     else animate(x, 0, { type: 'spring', stiffness: 320, damping: 24 })
   }
 
   function handlePointerMove(e) {
-    if (!holo || e.pointerType !== 'mouse') return
+    if (reduce || !holo || e.pointerType !== 'mouse') return
     const r = e.currentTarget.getBoundingClientRect()
     px.set(clamp(((e.clientX - r.left) / r.width) * 100, 0, 100))
     py.set(clamp(((e.clientY - r.top) / r.height) * 100, 0, 100))
   }
 
   function handlePointerLeave() {
-    if (!holo) return
+    if (reduce || !holo) return
     animate(px, 50, { duration: 0.4 })
     animate(py, 50, { duration: 0.4 })
   }
 
-  const style = { x, rotate, scale: isFront ? 1 : nextScale }
-  if (holo) Object.assign(style, { rotateX: tiltX, rotateY: tiltY, transformPerspective: 900 })
+  const style = { x, rotate: reduce ? 0 : rotate, scale: reduce || isFront ? 1 : nextScale }
+  if (holo && !reduce) Object.assign(style, { rotateX: tiltX, rotateY: tiltY, transformPerspective: 900 })
 
   return (
     <motion.div
@@ -90,9 +97,9 @@ function DeckCard({ ref, place, isFront, enterX, dragX, nextScale, onSwiped, fac
           : 'z-[1]'
       } ${gone ? 'pointer-events-none' : ''}`}
       style={style}
-      initial={{ opacity: 0 }}
+      initial={reduce ? false : { opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 0.25 }}
+      transition={{ duration: reduce ? 0 : 0.25 }}
       drag={isFront && !gone ? 'x' : false}
       dragMomentum={false}
       onDragEnd={isFront ? handleDragEnd : undefined}
@@ -133,6 +140,7 @@ function DeckCard({ ref, place, isFront, enterX, dragX, nextScale, onSwiped, fac
 
 // กองการ์ดปัดได้ — ref: { swipe(dir), busy() }; dir 1 = อยากไป, -1 = ข้าม; places = null → skeleton
 export default function SwipeDeck({ ref, places, index, returning, dragX, onSwiped, provinceLabel, moodTotal }) {
+  const reduce = useReducedMotion()
   const frontRef = useRef(null)
   const nextScale = useTransform(dragX, (v) => 0.95 + 0.05 * Math.min(Math.abs(v) / 160, 1))
 
@@ -154,9 +162,9 @@ export default function SwipeDeck({ ref, places, index, returning, dragX, onSwip
     <DeckFrame remaining={places ? places.length - index : 3} bump={index}>
       <motion.div
         className="absolute inset-0"
-        initial={{ opacity: 0, y: 28 }}
+        initial={reduce ? false : { opacity: 0, y: 28 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ type: 'spring', stiffness: 200, damping: 22 }}
+        transition={reduce ? { duration: 0 } : { type: 'spring', stiffness: 200, damping: 22 }}
       >
         {!places && <SkeletonCard />}
         {[next, front].filter(Boolean).map((place) => {

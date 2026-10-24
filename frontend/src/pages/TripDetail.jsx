@@ -3,7 +3,12 @@ import { useNavigate, useParams } from 'react-router-dom'
 import AppHeader from '../components/AppHeader'
 import BottomSheet from '../components/BottomSheet'
 import SlideLink, { slideNavigate } from '../components/SlideLink'
-import TripSummary from '../components/trip/TripSummary'
+import { MotionConfig } from 'framer-motion'
+import DayPlan from '../components/trip/DayPlan'
+import TripOverview from '../components/trip/TripOverview'
+import TripBudget from '../components/trip/TripBudget'
+import ComboCard from '../components/trip/ComboCard'
+import { hydratePlan, normalizeDays } from '../components/trip/itinerary'
 import { TripLoading, TripMessage } from '../components/trip/TripStates'
 import { PRIMARY_BUTTON, TEXT_LINK } from '../components/trip/styles'
 import { MOODS, PROVINCES } from '../data/options'
@@ -14,10 +19,9 @@ import { findCombos } from '../lib/trip/combos'
 async function loadTrip(id) {
   const trip = await getTrip(id)
   if (!trip) return { notFound: true }
-  const groups = trip.days ?? []
-  const places = await getPlacesByIds(groups.flat())
-  const byId = Object.fromEntries(places.map((p) => [p.id, p]))
-  const days = groups.map((ids) => ids.map((pid) => byId[pid]).filter(Boolean)).filter((d) => d.length)
+  const groups = normalizeDays(trip.days ?? [])
+  const places = await getPlacesByIds(groups.flatMap(day => day.items.map(item => item.place)))
+  const { days } = hydratePlan({ days: groups }, places)
   return { trip, days, combos: findCombos(places), count: places.length }
 }
 
@@ -98,9 +102,13 @@ export default function TripDetail() {
           {moodLabels.length > 0 && ` · ${moodLabels.join(', ')}`}
         </p>
 
-        {current.days.length > 0 ? (
-          <TripSummary days={current.days} combos={current.combos} />
-        ) : (
+        <div className="flex flex-col gap-5 px-4 pt-4">
+          {(trip.start_date || trip.travelers || typeof trip.budget === 'object') && <TripOverview trip={trip} days={current.days.length || 1} nights={trip.nights ?? Math.max(0, current.days.length - 1)} people={Math.max(1, (trip.travelers?.adults ?? 1) + (trip.travelers?.children ?? 0))} />}
+          {current.days.length > 0 && <DayPlan days={current.days} startDate={trip.start_date} />}
+          {current.combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
+          {trip.estimate && <TripBudget estimate={trip.estimate} />}
+        </div>
+        {current.days.length === 0 && (
           <p className="m-0 px-[22px] pt-6 text-[15px] text-muted">สถานที่ในทริปนี้ถูกนำออกจากระบบแล้ว</p>
         )}
 
@@ -155,9 +163,11 @@ export default function TripDetail() {
   }
 
   return (
+    <MotionConfig reducedMotion="user">
     <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink">
       <AppHeader title={trip ? `ทริป${provinceLabel}` : 'ทริปของฉัน'} crumb={crumb} backTo="/home" />
       {body}
     </div>
+    </MotionConfig>
   )
 }

@@ -1,13 +1,17 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { Navigate, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { useMotionValue } from 'framer-motion'
+import { Navigate, useNavigate } from 'react-router-dom'
+import { MotionConfig, useMotionValue } from 'framer-motion'
 import AppHeader from '../components/AppHeader'
 import SlideLink, { slideNavigate } from '../components/SlideLink'
 import SwipeDeck from '../components/cards/SwipeDeck'
 import SwipeControls from '../components/cards/SwipeControls'
 import { DeckMessage } from '../components/cards/DeckStates'
 import { MOODS, PROVINCES } from '../data/options'
-import { listPlaces } from '../lib/api/places'
+import { getPlacesByIds, listPlaces } from '../lib/api/places'
+import { tripLength, useTripDraft } from '../context/TripDraftContext'
+import { PACES } from '../data/travel'
+import { travelOptions } from '../lib/trip/travel'
+import { dayCapacities } from '../lib/trip/plan'
 import { recordSwipe } from '../lib/api/swipes'
 
 const PRIMARY_BUTTON =
@@ -20,20 +24,26 @@ function preload(url) {
   img.src = url
 }
 
-function SwipeSession({ province, provinceLabel, moods, budget }) {
+function SwipeSession({ draft, updateDraft, province, provinceLabel, moods }) {
   const navigate = useNavigate()
   const deckRef = useRef(null)
   const dragX = useMotionValue(0)
   const moodKey = moods.join(',')
+  const deckKey = draft.deck == null ? null : draft.deck.join(',')
+  const sessionKey = `${province}|${moodKey}|${deckKey ?? 'pick'}`
+  const { days } = tripLength(draft)
+  const travelHours = travelOptions(draft.origin, province).options.find(option => option.id === draft.transportTo)?.hours ?? 0
+  const perDay = PACES.find(pace => pace.id === draft.pace)?.perDay ?? 3
+  const goal = dayCapacities({ days, perDay, travelHours }).reduce((sum, count) => sum + count, 0)
   const [attempt, setAttempt] = useState(0)
   const [result, setResult] = useState(null)
-  const [history, setHistory] = useState([]) // [{ id, dir }] ตามลำดับที่ปัด
+  const [history, setHistory] = useState(() => draft.swipeKey === sessionKey ? draft.swipeHistory ?? [] : [])
   const [returning, setReturning] = useState(null)
 
   useEffect(() => {
     let cancelled = false
-    listPlaces({ province, moods: moodKey.split(','), budget })
-      .then((places) => !cancelled && setResult({ attempt, places }))
+    const request = deckKey == null ? listPlaces({ province, moods: moodKey.split(',').filter(Boolean) }) : getPlacesByIds(deckKey.split(',').filter(Boolean))
+    request.then((places) => !cancelled && setResult({ attempt, places: places.map(place => ({ ...place, matchCount: (place.moods ?? []).filter(mood => moodKey.split(',').includes(mood)).length })) }))
       .catch((err) => {
         console.error('load places failed', err)
         if (!cancelled) setResult({ attempt, error: true })
@@ -41,7 +51,7 @@ function SwipeSession({ province, provinceLabel, moods, budget }) {
     return () => {
       cancelled = true
     }
-  }, [province, moodKey, budget, attempt])
+  }, [province, moodKey, deckKey, attempt])
 
   const current = result?.attempt === attempt ? result : null
   const places = current?.places ?? null
@@ -55,11 +65,10 @@ function SwipeSession({ province, provinceLabel, moods, budget }) {
 
   const finish = useCallback(
     (steps) => {
-      slideNavigate(navigate, `/map/${province}/trip`, {
-        state: { likedIds: steps.filter((s) => s.dir === 1).map((s) => s.id), moods: moodKey.split(','), budget },
-      })
+      updateDraft({ likedIds: steps.filter((step) => step.dir === 1).map((step) => step.id) })
+      slideNavigate(navigate, '/plan/trip')
     },
-    [navigate, province, moodKey, budget],
+    [navigate, updateDraft],
   )
 
   function handleSwiped(dir) {
@@ -68,6 +77,7 @@ function SwipeSession({ province, provinceLabel, moods, budget }) {
     recordSwipe(place.id, dir === 1 ? 'right' : 'left')
     const steps = [...history, { id: place.id, dir }]
     setHistory(steps)
+    updateDraft({ swipeKey: sessionKey, swipeHistory: steps })
     setReturning(null)
     if (steps.length >= places.length) finish(steps)
   }
@@ -75,7 +85,9 @@ function SwipeSession({ province, provinceLabel, moods, budget }) {
   function undo() {
     if (!history.length || deckRef.current?.busy()) return
     setReturning(history.at(-1))
-    setHistory(history.slice(0, -1))
+    const steps = history.slice(0, -1)
+    setHistory(steps)
+    updateDraft({ swipeKey: sessionKey, swipeHistory: steps })
   }
 
   const actions = useRef(null)
@@ -116,9 +128,16 @@ function SwipeSession({ province, provinceLabel, moods, budget }) {
   } else if (places && !total) {
     body = (
       <DeckMessage title="ยังไม่มีที่เที่ยวที่ตรงกับมู้ดนี้" body="ลองเปลี่ยนมู้ดหรืองบดู แล้วมาปัดกันใหม่">
-        <SlideLink to={`/map/${province}/mood`} back replace className={PRIMARY_BUTTON}>
+        <SlideLink to="/plan/mood" back replace className={PRIMARY_BUTTON}>
           เลือกมู้ดใหม่
         </SlideLink>
+      </DeckMessage>
+    )
+  } else if (places && index >= total) {
+    body = (
+      <DeckMessage title="เลือกการ์ดครบแล้ว" body={`ถูกใจ ${likedIds.length} ที่ พร้อมจัดทริปให้คุณ`}>
+        <button type="button" onClick={() => finish(history)} className={PRIMARY_BUTTON}>สรุปทริปเลย</button>
+        <button type="button" onClick={undo} className="mt-2 h-11 w-full rounded-full bg-white text-sm font-semibold text-brown">ย้อนการ์ดก่อนหน้า</button>
       </DeckMessage>
     )
   } else {
@@ -148,13 +167,10 @@ function SwipeSession({ province, provinceLabel, moods, budget }) {
           <button
             type="button"
             onClick={() => !deckRef.current?.busy() && finish(history)}
-            tabIndex={likedIds.length ? 0 : -1}
-            aria-hidden={likedIds.length ? undefined : true}
-            className={`h-11 cursor-pointer px-4 text-sm font-semibold text-brown transition-opacity duration-300 ${
-              likedIds.length ? 'opacity-100' : 'pointer-events-none opacity-0'
-            }`}
+            disabled={!places || !total}
+            className="h-11 cursor-pointer px-4 text-sm font-semibold text-brown disabled:opacity-30"
           >
-            สรุปทริปเลย ›
+            สรุปทริปเลย{likedIds.length ? ` · ถูกใจ ${likedIds.length} ที่` : ''} ›
           </button>
         </div>
         <div className="h-4 shrink-0" />
@@ -168,36 +184,26 @@ function SwipeSession({ province, provinceLabel, moods, budget }) {
         <AppHeader
           crumb={`${provinceLabel} · ${moodLabels}`}
           title="เลือกที่เที่ยว"
-          step={total ? `${Math.min(index + 1, total)} / ${total}` : undefined}
-          backTo={`/map/${province}/mood`}
+          step="4 / 4"
+          backTo="/plan/details"
         />
+        <div className="flex items-center justify-between px-[22px] py-2 text-xs text-muted"><span className="rounded-full bg-peach px-3 py-1.5 text-brown">อยากได้ ~{goal} ที่</span><span aria-live="polite">{total ? `${Math.min(index + 1, total)} / ${total} ใบ` : 'กำลังเตรียมการ์ด…'}</span></div>
         {body}
       </div>
     </div>
   )
 }
 
-// /map/:province/swipe?moods=beach,food&budget=2
+// A new session starts when the province, mood selection or generated deck changes.
 export default function Swipe() {
-  const { province } = useParams()
-  const [params] = useSearchParams()
-
-  const info = PROVINCES.find((p) => p.id === province)
+  const { draft, updateDraft } = useTripDraft()
+  const info = PROVINCES.find(p => p.id === draft.province)
   if (!info) return <Navigate to="/map" replace />
-
-  const moods = (params.get('moods') ?? '').split(',').filter((id) => MOODS.some((m) => m.id === id))
-  if (!moods.length) return <Navigate to={`/map/${province}/mood`} replace />
-
-  const rawBudget = Number(params.get('budget'))
-  const budget = [1, 2, 3].includes(rawBudget) ? rawBudget : null
-
+  if (!draft.moods.length) return <Navigate to="/plan/mood" replace />
+  if (!draft.origin || !draft.startDate || !draft.endDate) return <Navigate to="/plan/details" replace />
   return (
-    <SwipeSession
-      key={`${province}|${moods.join(',')}|${budget}`}
-      province={province}
-      provinceLabel={info.label}
-      moods={moods}
-      budget={budget}
-    />
+    <MotionConfig reducedMotion="user">
+      <SwipeSession key={`${draft.province}|${draft.moods.join(',')}|${draft.deck?.join(',') ?? 'pick'}`} draft={draft} updateDraft={updateDraft} province={draft.province} provinceLabel={info.label} moods={draft.moods} />
+    </MotionConfig>
   )
 }

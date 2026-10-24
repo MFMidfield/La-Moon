@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import { motion, useReducedMotion } from 'framer-motion'
 import Sticker from '../home/Sticker'
 import { Moon, Sparkle } from '../icons'
 
@@ -6,14 +6,15 @@ import { Moon, Sparkle } from '../icons'
 const DECK_HEIGHT = 'h-[clamp(440px,calc(100svh_-_236px),660px)]'
 
 function BackCard({ className, rotate, show, bump }) {
+  const reduce = useReducedMotion()
   return (
     <motion.div
       key={bump}
       aria-hidden="true"
       className={`absolute rounded-[32px] ${className}`}
-      initial={{ rotate: rotate * 1.4, scale: 0.97, opacity: show ? 1 : 0 }}
+      initial={reduce ? false : { rotate: rotate * 1.4, scale: 0.97, opacity: show ? 1 : 0 }}
       animate={{ rotate, scale: 1, opacity: show ? 1 : 0 }}
-      transition={{ type: 'spring', stiffness: 260, damping: 18 }}
+      transition={reduce ? { duration: 0 } : { type: 'spring', stiffness: 260, damping: 18 }}
     />
   )
 }

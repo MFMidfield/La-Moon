@@ -1,6 +1,6 @@
 import { Moon, Sparkle } from '../icons'
 
-const BLOCK = 'animate-pulse rounded-full bg-cream'
+const BLOCK = 'animate-pulse motion-reduce:animate-none rounded-full bg-cream'
 
 export function SkeletonCard() {
   return (
@@ -9,7 +9,7 @@ export function SkeletonCard() {
       aria-label="กำลังโหลดที่เที่ยว"
       className="absolute inset-x-2 bottom-0.5 top-5 flex flex-col rounded-[32px] bg-white p-2.5 shadow-[0_6px_18px_#5A2E1414]"
     >
-      <div className="min-h-0 grow animate-pulse rounded-3xl bg-peach/60" />
+      <div className="min-h-0 grow animate-pulse rounded-3xl bg-peach/60 motion-reduce:animate-none" />
       <div className="flex shrink-0 flex-col gap-2.5 px-2.5 pb-1.5 pt-3">
         <div className="flex items-center justify-between">
           <div className={`h-7 w-40 ${BLOCK}`} />
