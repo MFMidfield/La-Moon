@@ -13,6 +13,8 @@ const STORAGE_KEY = 'lamoon.tripDraft'
  * locked: key ที่ไม่สุ่มซ้ำ ('province'|'transportTo'|'dates'|'pace'|'transportLocal')
  * deck: place id ที่ระบบสุ่มให้ปัด (โหมดสุ่ม) | null = ใช้ listPlaces ตามมู้ด
  * likedIds: place id ที่ปัดขวา ตามลำดับ
+ * likedRestaurantIds / likedStayIds: ร้าน/ที่พักที่ปัดขวา (หลังรอบสอง)
+ * stayMode: 'single'|'multi'|null, chosenStayId: ที่พักที่เลือก (โหมด single)
  */
 // eslint-disable-next-line react-refresh/only-export-components
 export const EMPTY_DRAFT = {
@@ -31,6 +33,10 @@ export const EMPTY_DRAFT = {
   locked: [],
   deck: null,
   likedIds: [],
+  likedRestaurantIds: [],
+  likedStayIds: [],
+  stayMode: null,
+  chosenStayId: null,
 }
 
 function load() {

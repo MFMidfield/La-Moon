@@ -16,11 +16,11 @@ export function budgetTier(budget, people, days) {
 
 /**
  * ประมาณค่าใช้จ่ายทั้งทริป (บาท ทั้งกลุ่ม)
- * input: { origin, province, transportTo, transportLocal, budget, people, days, nights, places }
+ * input: { origin, province, transportTo, transportLocal, budget, people, days, nights, places, stays?, meals? }
  * คืน { transport, stay, food, local, entries, total, perPerson, budget, over, tier }
  *   over > 0 = เกินงบกี่บาท
  */
-export function estimateTrip({ origin, province, transportTo, transportLocal, budget, people, days, nights, places = [] }) {
+export function estimateTrip({ origin, province, transportTo, transportLocal, budget, people, days, nights, places = [], stays = null, meals = null }) {
   const tier = budgetTier(budget, people, days)
 
   let transport = 0
@@ -30,8 +30,15 @@ export function estimateTrip({ origin, province, transportTo, transportLocal, bu
     transport = option.perVehicle ? oneWay * 2 * Math.ceil(people / 4) : oneWay * 2 * people
   }
 
-  const stay = nights * STAY_PER_ROOM[tier] * Math.ceil(people / 2)
-  const food = days * FOOD_PER_DAY[tier] * people
+  // stays: Stay[] ต่อคืน (จากหน้าปัดที่พัก) → ใช้ราคาจริง, ไม่มีก็ประมาณตามระดับงบ
+  const rooms = Math.ceil(people / 2)
+  const stay = stays?.length
+    ? stays.reduce((sum, s) => sum + (s ? mid(s.price_per_night) : STAY_PER_ROOM[tier]) * rooms, 0)
+    : nights * STAY_PER_ROOM[tier] * rooms
+  // meals: { restaurant|null, atStay }[] ทุกมื้อของทริป → ร้านที่รู้ราคาใช้ราคาจริง มื้อที่เหลือประมาณ 1/3 ของค่ากินต่อวัน
+  const food = meals?.length
+    ? meals.reduce((sum, m) => sum + (m.atStay ? 0 : m.restaurant ? mid(m.restaurant.price_per_person) : FOOD_PER_DAY[tier] / 3) * people, 0)
+    : days * FOOD_PER_DAY[tier] * people
   const localMode = TRANSPORT_LOCAL.find((m) => m.id === transportLocal)
   const local = localMode ? localMode.costPerDay * days * (localMode.perPerson ? people : 1) : 0
   const entries = places.reduce((sum, p) => sum + (ENTRY_BY_PRICE_LEVEL[p.price_level ?? 1] ?? 0) * people, 0)
@@ -39,7 +46,7 @@ export function estimateTrip({ origin, province, transportTo, transportLocal, bu
   const total = Math.round(transport + stay + food + local + entries)
   const limit = budgetTotal(budget, people)
   return {
-    transport: Math.round(transport), stay, food, local, entries, total,
+    transport: Math.round(transport), stay: Math.round(stay), food: Math.round(food), local, entries, total,
     perPerson: Math.round(total / people), budget: limit, over: Math.max(0, total - limit), tier,
   }
 }

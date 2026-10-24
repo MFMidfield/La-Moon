@@ -37,6 +37,9 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | backend/supabase/functions/mood-reader/ | Edge Function Gemini: POST {text} → {moods, reason}; secret GEMINI_API_KEY (+ GEMINI_MODEL) — ไม่มี key ตอบ 503 แล้ว frontend จับคำแทน | แก้ prompt AI |
 | frontend/src/lib/api/ | ทุกการเรียก supabase ต่อ feature: places, swipes, trips, mood (AI + fallback คำ) — หน้าไหนห้ามเรียก supabase ตรง | เพิ่ม query |
 | frontend/src/lib/trip/ | logic ล้วน: plan (planDays เดิม + planTrip/dayCapacities/assignSlots แผนรายวันใหม่), travel (ระยะ/ตัวเลือกพาหนะ ด้วยสูตร), budget (estimateTrip, cheaperAlternatives, formatBaht), random (randomizeTrip), season (เตือนฤดู/คืนเพ็ญ), combos, personality, geo | |
+| frontend/src/lib/trip/swipeRounds.js | กติกาปัดทุกหมวด: ขวา/ซ้าย/ขึ้น(เก็บไว้ก่อน) → รอบ 2 เฉพาะที่เก็บ (ปัดขึ้นไม่ได้) | |
+| frontend/src/lib/trip/meals.js | planMeals (ร้านที่ชอบลงมื้อ + เติมจาก pool), assignStays (single/multi ต่อคืน) | |
+| frontend/src/lib/api/stays.js, restaurants.js + data/mock/ | ที่พัก 66 + ร้าน 88 ชื่อสมมุติ (is_mock) — เปลี่ยนเป็น DB จริงที่ api 2 ไฟล์นี้ | ข้อมูลจริงมา |
 | frontend/src/lib/trip/transit.js | เส้นทาง กทม.+ปริมณฑล: โหลด data/transit/bkk.json แบบ lazy, graph สถานี, Dijkstra, ค่าโดยสาร, เดิน/แท็กซี่ fallback (Codex) | แก้สูตรเวลา/ค่าโดยสาร |
 | frontend/src/data/transit/bkk.json | เครือข่ายราง+เรือ กทม. 15 สาย 261 สถานี ณ 2026-10-24 พร้อมแหล่งค่าโดยสาร | อัปเดตค่าโดยสาร/สายใหม่ |
 | frontend/src/context/TripDraftContext.jsx | ร่างทริป (useTripDraft: draft/updateDraft/resetDraft + tripLength/travelerCount) เก็บ sessionStorage | เพิ่ม field ใน flow |
@@ -80,7 +83,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | `/map/:province/trip` | สรุปทริปจากการปัด รับ state { likedIds, moods, budget } → บันทึก → /trips/:id (lane D เสร็จ) | private |
 | `/trips/:id` | ดูทริปที่บันทึก + ลบ (lane D เสร็จ) | private |
 | `/personality` | บุคลิกการเที่ยวจาก swipes ขวาทั้งหมด + แชร์ (lane A เสร็จ) | private |
-| `/plan/mood` → `/plan/details` → `/plan/swipe` → `/plan/trip` | flow วางทริป (มู้ด+งบ+คน → sheet 🎲/🗺 → แผนที่ → รายละเอียด → ปัด → แผนรายวันลากการ์ดได้) ข้อมูลใน useTripDraft (Codex เพิ่ม draft.itinerary/itineraryKey เก็บแผนที่แก้ค้าง) — เสร็จ รอเทส | private |
+| `/plan/mood` → `/plan/details` → `/plan/swipe` → `/plan/food` → (ค้างคืน) `/plan/stay` → `/plan/stay/final` (ถ้าชอบ >1) → `/plan/trip` | flow วางทริป (มู้ด+งบ+คน → sheet 🎲/🗺 → แผนที่ → รายละเอียด → ปัด → แผนรายวันลากการ์ดได้) ข้อมูลใน useTripDraft (Codex เพิ่ม draft.itinerary/itineraryKey เก็บแผนที่แก้ค้าง) — เสร็จ รอเทส | private |
 | `/map/:province?` | แผนที่เดียว (route เดียว ไม่ remount): pan/pinch/wheel zoom (d3-zoom), แตะจังหวัด = บินซูม + URL replace, ซูมเข้า = เป้ากลางจอ highlight realtime, หมุดทุกที่, sheet ดึงขยาย → mood; หมอก = ยังไม่มีข้อมูล | private |
 | `/map/:province/mood` | เลือก mood | private |
 | `/map/:province/swipe` | ปัดการ์ด (?moods=&budget=) ลาก/ปุ่ม/คีย์บอร์ด, ย้อนได้, holo rare+ → trip state { likedIds, moods, budget } (lane C เสร็จ) | private |
@@ -185,3 +188,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | Deep research สถานที่กรุงเทพฯ 50 แห่ง: เติมค่าเข้า เวลาเปิด/วันปิด ช่วงแนะนำ เวลาเที่ยว แหล่งอ้างอิง และรูปเสรีที่ตรวจสอบผู้สร้างกับใบอนุญาตแล้วใน `AI/data/deep-research-bkk.md` |
 | 2026-10-24 | merge Codex transit routing (lib/trip/transit.js + UI ระหว่างสถานที่ในแผนรายวัน) |
 | 2026-10-24 | backup แล้ว import 150 ที่ (+คอลัมน์ entry_fee_min/max, visit_minutes, closed_days, mood_reason, sources, coords_source); lazy-load ทุกหน้า (main 480 kB); docs/DEPLOY.md + deploy-remote.sql |
+| 2026-10-24 | ของกลางระบบร้าน/ที่พัก: mock data + api, swipeRounds (ปัดขึ้นเก็บไว้ก่อน/รอบ 2), meals/assignStays, estimateTrip รับ stays/meals ราคาจริง, draft fields, route /plan/food /plan/stay /plan/stay/final (placeholder) |
