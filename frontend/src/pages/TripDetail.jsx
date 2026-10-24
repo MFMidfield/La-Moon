@@ -9,6 +9,7 @@ import DayPlan from '../components/trip/DayPlan'
 import TripOverview from '../components/trip/TripOverview'
 import TripBudget from '../components/trip/TripBudget'
 import ComboCard from '../components/trip/ComboCard'
+import usePlanTransit from '../components/trip/usePlanTransit'
 import { hydratePlan, normalizeDays } from '../components/trip/itinerary'
 import { TripLoading, TripMessage } from '../components/trip/TripStates'
 import { PRIMARY_BUTTON, TEXT_LINK } from '../components/trip/styles'
@@ -16,6 +17,8 @@ import { MOODS, PROVINCES } from '../data/options'
 import { getPlacesByIds } from '../lib/api/places'
 import { deleteTrip, getTrip } from '../lib/api/trips'
 import { findCombos } from '../lib/trip/combos'
+
+const NO_DAYS = []
 
 async function loadTrip(id) {
   const trip = await getTrip(id)
@@ -70,6 +73,7 @@ export default function TripDetail() {
 
   const current = result?.key === requestKey ? result : null
   const trip = current?.trip
+  const transit = usePlanTransit(trip?.province, current?.days ?? NO_DAYS)
   const provinceLabel = trip ? (PROVINCES.find((p) => p.id === trip.province)?.label ?? trip.province) : ''
   const crumb = trip
     ? new Date(trip.created_at).toLocaleDateString('th-TH', { day: 'numeric', month: 'short', year: 'numeric' })
@@ -105,9 +109,9 @@ export default function TripDetail() {
 
         <div className="flex flex-col gap-5 px-4 pt-4">
           {(trip.start_date || trip.travelers || typeof trip.budget === 'object') && <TripOverview trip={trip} days={current.days.length || 1} nights={trip.nights ?? Math.max(0, current.days.length - 1)} people={Math.max(1, (trip.travelers?.adults ?? 1) + (trip.travelers?.children ?? 0))} />}
-          {current.days.length > 0 && <DayPlan days={current.days} startDate={trip.start_date} />}
+          {current.days.length > 0 && <DayPlan days={current.days} startDate={trip.start_date} transit={transit} />}
           {current.combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
-          {trip.estimate && <TripBudget estimate={trip.estimate} />}
+          {trip.estimate && <TripBudget estimate={trip.estimate} transit={trip.transport_local === 'transit' ? transit : null} />}
         </div>
         {current.days.length === 0 && (
           <p className="m-0 px-[22px] pt-6 text-[15px] text-muted">สถานที่ในทริปนี้ถูกนำออกจากระบบแล้ว</p>

@@ -12,7 +12,7 @@ import { createRollReveal } from '../components/plan/rollReveal'
 import { useAuth } from '../context/AuthContext'
 import { tripLength, travelerCount, useTripDraft } from '../context/TripDraftContext'
 import { PROVINCES } from '../data/options'
-import { PACES, TRANSPORT_LOCAL, TRANSPORT_TO } from '../data/travel'
+import { BKK_TRANSIT_PROVINCES, PACES, TRANSPORT_LOCAL, TRANSPORT_TO } from '../data/travel'
 import { listPlaces } from '../lib/api/places'
 import { updateHomeProvince } from '../lib/api/profile'
 import { cheaperAlternatives, estimateTrip, formatBaht } from '../lib/trip/budget'
@@ -21,7 +21,7 @@ import { seasonWarnings } from '../lib/trip/season'
 import { formatHours, travelOptions } from '../lib/trip/travel'
 
 const TRANSPORT_ICONS = { plane: Plane, train: TrainFront, bus: BusFront, car: Car }
-const LOCAL_ICONS = { rental_car: CarFront, motorbike: Bike, public: CarTaxiFront, tour: Sailboat }
+const LOCAL_ICONS = { transit: TrainFront, rental_car: CarFront, motorbike: Bike, public: CarTaxiFront, tour: Sailboat }
 const localIso = date => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
 const addDate = (value, amount) => { const date = new Date(`${value}T12:00:00`); date.setDate(date.getDate() + amount); return localIso(date) }
 const shortDate = value => value ? new Date(`${value}T12:00:00`).toLocaleDateString('th-TH', { day: 'numeric', month: 'short' }) : 'เลือกวัน'
@@ -63,7 +63,9 @@ function DetailsForm() {
   const transportTo = origin && !travel.sameProvince
     ? travel.options.find(o => o.id === draft.transportTo && o.available)?.id ?? travel.options.find(o => o.available)?.id ?? null
     : null
-  const transportLocal = draft.transportLocal ?? 'public'
+  const supportsTransit = BKK_TRANSIT_PROVINCES.includes(province)
+  const localOptions = TRANSPORT_LOCAL.filter(mode => mode.id !== 'transit' || supportsTransit)
+  const transportLocal = localOptions.find(mode => mode.id === draft.transportLocal)?.id ?? (supportsTransit ? 'transit' : 'public')
   const { days, nights } = tripLength(draft)
   const people = travelerCount(draft)
   const requestKey = `${province}:${attempt}`
@@ -205,7 +207,7 @@ function DetailsForm() {
 
           <DetailCard title="เที่ยวในพื้นที่" icon={<Bike size={19} strokeWidth={2} />} lockKey="transportLocal" {...cardProps}>
             {random && <p className="mb-3 mt-0 text-sm font-semibold text-brown">{valueText(localLabel, 3)}</p>}
-            <div className="grid grid-cols-2 gap-2">{TRANSPORT_LOCAL.map(mode => {
+            <div className="grid grid-cols-2 gap-2">{localOptions.map(mode => {
               const Icon = LOCAL_ICONS[mode.id]
               const active = transportLocal === mode.id
               return <motion.button type="button" key={mode.id} onClick={() => updateDraft({ transportLocal: mode.id })} aria-pressed={active} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className={`flex h-16 min-w-0 items-center gap-1.5 rounded-[22px] px-2 text-left text-[13px] font-medium transition-colors duration-200 motion-reduce:transition-none ${active ? 'bg-peach text-brown' : 'bg-cream text-[#4A3A30]'}`}><Icon size={18} strokeWidth={2} aria-hidden="true" className="shrink-0" /><span className="min-w-0 flex-1 leading-snug">{mode.label}</span><span className="h-5 w-5 shrink-0"><SelectionCheck selected={active} reduced={reduced} /></span></motion.button>

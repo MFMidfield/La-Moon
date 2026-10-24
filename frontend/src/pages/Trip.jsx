@@ -21,6 +21,7 @@ import TripOverview from '../components/trip/TripOverview'
 import DayPlan from '../components/trip/DayPlan'
 import TripBudget from '../components/trip/TripBudget'
 import ComboCard from '../components/trip/ComboCard'
+import usePlanTransit from '../components/trip/usePlanTransit'
 import { alternativePatch, hydratePlan, moveCard, resizePlan, serializePlan } from '../components/trip/itinerary'
 
 function capacitiesFor(draft) {
@@ -36,6 +37,7 @@ function TripEditor({ draft, updateDraft, liked, pool, sourceKey }) {
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState('')
   const [notice, setNotice] = useState('')
+  const transit = usePlanTransit(draft.province, plan.days)
   const length = tripLength(draft)
   const people = travelerCount(draft)
   const places = plan.days.flatMap(day => day.items.map(item => item.place))
@@ -99,9 +101,9 @@ function TripEditor({ draft, updateDraft, liked, pool, sourceKey }) {
       <div className="flex flex-col gap-5 px-4 pt-3">
         <TripOverview trip={draft} {...length} people={people} />
         <div className="flex items-center justify-between px-1"><h1 className="m-0 text-2xl font-bold">ทริปในแบบของคุณ</h1><span className="rounded-full bg-white px-3 py-1.5 text-xs text-brown">{places.length} ที่</span></div>
-        <DayPlan days={plan.days} spare={plan.spare} capacities={capacitiesFor(draft)} startDate={draft.startDate} onMove={move} onSwap={swap} canSwap={plan.spare.length > 0} />
+        <DayPlan days={plan.days} spare={plan.spare} capacities={capacitiesFor(draft)} startDate={draft.startDate} onMove={move} onSwap={swap} canSwap={plan.spare.length > 0} transit={transit} />
         {combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
-        <TripBudget input={input} onApply={applyAlternative} />
+        <TripBudget input={input} onApply={applyAlternative} transit={draft.transportLocal === 'transit' ? transit : null} />
         {warnings.length > 0 && <div className="rounded-[24px] bg-[#FBE3D2] p-4"><h2 className="m-0 flex items-center gap-2 text-sm font-semibold"><Sun size={18} strokeWidth={2} aria-hidden="true" />ก่อนออกเดินทาง</h2>{warnings.map(warning => <p key={warning.placeId} className="mb-0 mt-2 text-xs leading-relaxed text-[#4A3A30]">{warning.message}</p>)}</div>}
         <p role="status" aria-live="polite" className="m-0 min-h-5 text-center text-xs text-muted">{notice}</p>
       </div>
