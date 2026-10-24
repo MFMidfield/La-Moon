@@ -19,6 +19,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | path | หน้าที่ |
 |------|--------|
 | .codex-runs/ , .codex-worktrees/ | prompt/ผล/log ของ Codex และ worktree ชั่วคราว (gitignore) | |
+| docs/DEPLOY.md | ขั้นตอน deploy Supabase จริง + Google OAuth + Vercel | เปลี่ยนวิธี deploy |
 | AGENTS.md | กฎ/บริบทโปรเจกต์สำหรับ Codex และ agent อื่น (sync กับ memory ของ Claude) |
 | frontend/ | Vite React app |
 | frontend/src/pages/ | หน้าแต่ละ route |
@@ -133,7 +134,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] import ข้อมูลจริง 28 ที่ จาก `AI/gemini-code-1792804922688.json` (ลบ sample แล้ว) — มู้ด Claude กำหนดรายที่ (ค้นเว็บเพิ่ม), rarity: ลับ=ตำนาน พอรู้จัก=หายาก ดัง=ธรรมดา, price ฟรี/ถูก=1 กลาง=2 แพง=3
 - [x] รูปสถานที่ 26/28 (Wikimedia 20 + Unsplash 6) — ไม่มีรูป: san-chao-market, laem-homestay (การ์ดใช้ภาพประกอบ)
 - [x] Codex รอบ 2: เส้นทางรถไฟฟ้า/เรือ ใน /plan/trip + /trips/:id (TransitRoute, usePlanTransit), โหมด 'transit' ใน 6 จังหวัด BKK_TRANSIT_PROVINCES
-- [ ] import 150 ที่ (SQL พร้อม รอผู้ใช้ยืนยัน) — ข้อมูลเพิ่ม ~150 ที่ (กทม. 50, ปริมณฑล 5 จ. 40, ใต้ 5 จ.เดิม +60) + ระบบราง/เรือ กทม. — deep research กทม. 50 ที่เสร็จแล้วใน `AI/data/deep-research-bkk.md`; ปริมณฑล/ใต้/transit และรอบ 2 logic เส้นทาง + UI ยังรอทำ
+- [x] import 150 ที่ (รวม 178 ใน 11 จังหวัด, มีรูป 116) — ข้อมูลเพิ่ม ~150 ที่ (กทม. 50, ปริมณฑล 5 จ. 40, ใต้ 5 จ.เดิม +60) + ระบบราง/เรือ กทม. — deep research กทม. 50 ที่เสร็จแล้วใน `AI/data/deep-research-bkk.md`; ปริมณฑล/ใต้/transit และรอบ 2 logic เส้นทาง + UI ยังรอทำ
+- [ ] Deploy: ทำตาม docs/DEPLOY.md (SQL รวม backend/supabase/backups/deploy-remote.sql)
 - [ ] Gemini API key: ใส่ `backend/supabase/functions/.env` (GEMINI_API_KEY) แล้ว `supabase functions serve mood-reader`; ถ้า 401 ตั้ง `[functions.mood-reader] verify_jwt = false`
 - [x] แตก lane A–E แล้ว merge ครบ (A Home/บุคลิก, B Mood/AI, C Swipe, D Trip, E Map — Codex)
 - [ ] เนื้อหาข้อตกลง/นโยบายจริง (ตอนนี้ mockup)
@@ -182,3 +184,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | จัดระเบียบ: ลบ worktree ที่ merge แล้ว 7 อัน + branch, ย้ายไฟล์ Codex จาก MyTask/ เข้า .codex-runs/ (gitignore), ต่อไป worktree อยู่ใน .codex-worktrees/ |
 | 2026-10-24 | Deep research สถานที่กรุงเทพฯ 50 แห่ง: เติมค่าเข้า เวลาเปิด/วันปิด ช่วงแนะนำ เวลาเที่ยว แหล่งอ้างอิง และรูปเสรีที่ตรวจสอบผู้สร้างกับใบอนุญาตแล้วใน `AI/data/deep-research-bkk.md` |
 | 2026-10-24 | merge Codex transit routing (lib/trip/transit.js + UI ระหว่างสถานที่ในแผนรายวัน) |
+| 2026-10-24 | backup แล้ว import 150 ที่ (+คอลัมน์ entry_fee_min/max, visit_minutes, closed_days, mood_reason, sources, coords_source); lazy-load ทุกหน้า (main 480 kB); docs/DEPLOY.md + deploy-remote.sql |

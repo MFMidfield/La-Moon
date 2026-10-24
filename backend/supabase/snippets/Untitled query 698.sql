@@ -57,6 +57,13 @@ create table public.places (
   image_license text,
   image_page_url text,
   affiliate_url text,
+  entry_fee_min integer,               -- ค่าเข้า (บาท คนไทย)
+  entry_fee_max integer,
+  visit_minutes integer,
+  closed_days text,
+  mood_reason text,
+  sources text[] not null default '{}',
+  coords_source text,
   created_at timestamptz not null default now()
 );
 alter table public.places enable row level security;
