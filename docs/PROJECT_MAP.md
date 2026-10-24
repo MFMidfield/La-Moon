@@ -25,7 +25,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/AppHeader.jsx | header ในแอป: ปุ่มกลับ (backTo/onBack) + crumb + title + step pill | |
 | frontend/src/components/BottomSheet.jsx | sheet ล่าง/dialog กลางจอ (Esc, backdrop, scroll lock) | |
 | frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
-| frontend/src/components/plan/ | flow วางทริป (Codex): ScrambleText (สลับตัวอักษรไทยตาม grapheme), OriginPicker (GPS→จังหวัด + ค้นหา), TripCalendar, DetailCard | |
+| frontend/src/components/plan/ | flow วางทริป (Codex): ScrambleText (สลับตัวอักษรไทยตาม grapheme) + rollReveal.js (เล่นเฉพาะหลังสุ่ม: draft.rollId/revealed), OriginPicker (GPS→จังหวัด + ค้นหา), TripCalendar, DetailCard | |
 | frontend/src/components/cards/ | การ์ด Swipe: SwipeDeck (ลาก/บินออก/ย้อน), PlaceCard, StatBars (ชิล ลุย ถ่ายรูป กิน คุ้ม), HoloOverlay, DeckFrame, SwipeControls, DeckStates | |
 | frontend/src/components/map/ | แผนที่ (Codex): ContinuousMap, createMapCamera (d3-zoom), CountryMap, PlacePins, ProvinceSheet (มือถือ), ProvinceDetails (ชิ้นข้อมูลจังหวัดใช้ร่วม sheet/แผงข้าง), useIsDesktop, ProvinceSearch, geometry (d3-geo), useMapData, MapStatus; GeoJSON 77 จังหวัด `src/data/geo/thailand.json` (164 KB, lazy load) | |
 | frontend/src/components/home/ | หน้า Home: HomeHeader, PersonalityChip, StartBox, TripList, WishProvinces, Sticker, useLoad (hook โหลดครั้งเดียว) | |
@@ -172,3 +172,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | เพิ่ม AGENTS.md (กฎ + decision ให้ Codex) |
 | 2026-10-24 | merge งาน Codex lane 2–5 (flow วางทริปใหม่ครบ); random.js ใช้วันที่ local แทน UTC |
 | 2026-10-24 | ลง lucide-react (ไอคอนแทน emoji — ห้ามใช้ emoji ในเว็บ); สั่ง Codex polish UI (สุ่มเฉพาะหลังกดสุ่ม, เอา emoji ออก, animation ตอนเลือก, ตัดล็อกวันเดินทาง, กันปุ่มทับ slider, chip ไม่เบียด, ปุ่มสุ่มใหม่/ไปต่อเท่ากัน) ใน ../AFOU-codex-polish |
+| 2026-10-24 | merge Codex UI polish: ไอคอน lucide แทน emoji ทั้งเว็บ, animation ตอนเลือก, สุ่มสลับตัวอักษรครั้งเดียวหลังกดสุ่ม, ตัดล็อกวันเดินทาง, footer ไม่ทับ, chip ไม่เบียด, ปุ่มสุ่มใหม่/ไปต่อเท่ากัน |
