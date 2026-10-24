@@ -4,10 +4,12 @@ import { ProvinceCta, ProvinceExtra, ProvinceSummary } from './ProvinceDetails'
 
 const PEEK_HEIGHT = 184
 
-export default function ProvinceSheet({ province, count, places, ready, height }) {
+export default function ProvinceSheet({ province, count, places, ready, height, plan }) {
+  const isRandom = plan?.randomId === province.id
+  const peekHeight = PEEK_HEIGHT + (isRandom ? 52 + (plan?.randomError ? 42 : 0) + (plan?.needMore > 0 ? 48 : 0) : 0)
   // ดึงขยายได้ถึง 3/4 ของจอ
-  const expandedHeight = Math.max(PEEK_HEIGHT + 80, Math.round(height * 0.75))
-  const travel = expandedHeight - PEEK_HEIGHT
+  const expandedHeight = Math.max(peekHeight + 80, Math.round(height * 0.75))
+  const travel = expandedHeight - peekHeight
   const [expanded, setExpanded] = useState(false)
   const y = useMotionValue(travel)
   const sheetHeight = useTransform(y, value => expandedHeight - value)
@@ -45,7 +47,7 @@ export default function ProvinceSheet({ province, count, places, ready, height }
         style={{ y, height: expandedHeight }}
         className="absolute inset-x-0 bottom-0 flex flex-col rounded-t-[32px] border border-b-0 border-[#EDE5DD] bg-white"
       >
-        <div className="flex h-[184px] shrink-0 flex-col px-4 pb-4">
+        <div style={{ height: peekHeight }} className="flex shrink-0 flex-col px-4 pb-4">
           <button
             type="button"
             aria-label={expanded ? 'ย่อข้อมูลจังหวัด' : 'ขยายข้อมูลจังหวัด'}
@@ -58,9 +60,9 @@ export default function ProvinceSheet({ province, count, places, ready, height }
             <span aria-hidden="true" className="h-1 w-10 rounded-full bg-[#D9CFC5]" />
           </button>
           <div className="min-h-0 grow">
-            <ProvinceSummary province={province} count={count} ready={ready} />
+            <ProvinceSummary province={province} count={count} ready={ready} plan={plan} />
           </div>
-          <ProvinceCta province={province} count={count} ready={ready} />
+          <ProvinceCta province={province} count={count} ready={ready} plan={plan} />
         </div>
         <div id="province-details" aria-hidden={!expanded} inert={!expanded} className="min-h-0 grow overflow-y-auto overscroll-contain border-t border-[#EDE5DD] px-4 pb-5 pt-3">
           <ProvinceExtra province={province} places={places} />

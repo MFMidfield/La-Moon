@@ -1,136 +1,148 @@
-import { useEffect, useMemo, useState } from 'react'
-import { Navigate, useLocation, useNavigate, useParams } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { Navigate, useNavigate } from 'react-router-dom'
+import { MotionConfig } from 'framer-motion'
 import AppHeader from '../components/AppHeader'
 import SlideLink, { slideNavigate } from '../components/SlideLink'
-import TripSummary from '../components/trip/TripSummary'
-import { TripLoading, TripMessage } from '../components/trip/TripStates'
-import { PRIMARY_BUTTON, TEXT_LINK } from '../components/trip/styles'
+import { tripLength, travelerCount, useTripDraft } from '../context/TripDraftContext'
 import { PROVINCES } from '../data/options'
-import { getPlacesByIds } from '../lib/api/places'
+import { PACES } from '../data/travel'
+import { getPlacesByIds, listPlaces } from '../lib/api/places'
 import { createTrip } from '../lib/api/trips'
-import { planDays } from '../lib/trip/plan'
+import { assignSlots, dayCapacities, planTrip } from '../lib/trip/plan'
+import { travelOptions } from '../lib/trip/travel'
+import { estimateTrip } from '../lib/trip/budget'
+import { seasonWarnings } from '../lib/trip/season'
 import { findCombos } from '../lib/trip/combos'
 import { computePersonality } from '../lib/trip/personality'
+import { TripLoading, TripMessage } from '../components/trip/TripStates'
+import { PRIMARY_BUTTON } from '../components/trip/styles'
+import TripOverview from '../components/trip/TripOverview'
+import DayPlan from '../components/trip/DayPlan'
+import TripBudget from '../components/trip/TripBudget'
+import ComboCard from '../components/trip/ComboCard'
+import { alternativePatch, hydratePlan, moveCard, resizePlan, serializePlan } from '../components/trip/itinerary'
 
-function swipeUrl(province, moods = [], budget) {
-  const params = []
-  if (moods.length) params.push(`moods=${moods.map(encodeURIComponent).join(',')}`)
-  if (budget) params.push(`budget=${budget}`)
-  return `/map/${province}/swipe${params.length ? `?${params.join('&')}` : ''}`
+function capacitiesFor(draft) {
+  return dayCapacities({ days: tripLength(draft).days, perDay: PACES.find(p => p.id === draft.pace)?.perDay ?? 3, travelHours: travelOptions(draft.origin, draft.province).options.find(o => o.id === draft.transportTo)?.hours ?? 0 })
 }
 
-// สรุปทริปจากการปัด — รับ location.state { likedIds, moods, budget } จาก Swipe
-export default function Trip() {
-  const { province } = useParams()
-  const { state } = useLocation()
+function TripEditor({ draft, updateDraft, liked, pool, sourceKey }) {
   const navigate = useNavigate()
-
-  const idsKey = (state?.likedIds ?? []).join(',')
-  const [attempt, setAttempt] = useState(0)
-  const requestKey = `${idsKey}#${attempt}`
-  const [result, setResult] = useState(null)
+  const [plan, setPlan] = useState(() => {
+    if (draft.itineraryKey === sourceKey && draft.itinerary) return resizePlan(hydratePlan(draft.itinerary, [...liked, ...pool]), tripLength(draft).days)
+    return planTrip({ liked, pool, capacities: capacitiesFor(draft) })
+  })
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState('')
+  const [notice, setNotice] = useState('')
+  const length = tripLength(draft)
+  const people = travelerCount(draft)
+  const places = plan.days.flatMap(day => day.items.map(item => item.place))
+  const combos = findCombos(places)
+  const input = { ...draft, ...length, people, places }
+  const estimate = estimateTrip(input)
+  const warnings = seasonWarnings(places, draft.startDate, draft.endDate)
 
   useEffect(() => {
-    if (!idsKey) return
-    let cancelled = false
-    getPlacesByIds(idsKey.split(','))
-      .then((places) => !cancelled && setResult({ key: requestKey, places }))
-      .catch((err) => {
-        console.error('load trip places failed', err)
-        if (!cancelled) setResult({ key: requestKey, error: true })
-      })
-    return () => {
-      cancelled = true
+    updateDraft({ itinerary: serializePlan(plan), itineraryKey: sourceKey })
+  }, [plan, sourceKey, updateDraft])
+
+  function move(id, target, at) {
+    setPlan(previous => moveCard(previous, id, target, at))
+    setNotice('ย้ายการ์ดแล้ว')
+  }
+
+  function swap(id) {
+    if (!plan.spare.length) return
+    const replacement = plan.spare[Math.floor(Math.random() * plan.spare.length)]
+    const old = plan.days.flatMap(day => day.items).find(item => item.place.id === id)?.place
+    if (!old) {
+      setNotice('แตะการ์ดสำรองเพื่อเลือกวันที่จะไป')
+      return
     }
-  }, [idsKey, requestKey])
+    setPlan({ days: plan.days.map(day => ({ items: assignSlots(day.items.map(item => item.place.id === id ? { place: replacement, auto: true } : item)) })), spare: [...plan.spare.filter(place => place.id !== replacement.id), old] })
+    setNotice(`สุ่มได้ ${replacement.name}`)
+  }
 
-  const current = result?.key === requestKey ? result : null
-  const places = current?.places
-  const plan = useMemo(() => {
-    if (!places) return null
-    return { days: planDays(places), combos: findCombos(places), personality: computePersonality(places) }
-  }, [places])
+  function applyAlternative(patch) {
+    const applied = alternativePatch(draft, patch)
+    const nextDraft = { ...draft, ...applied }
+    setPlan(previous => resizePlan(previous, tripLength(nextDraft).days))
+    updateDraft(applied)
+    setNotice('ปรับทริปให้ประหยัดขึ้นแล้ว')
+  }
 
-  if (!state) return <Navigate to={`/map/${province}/mood`} replace />
-
-  const provinceLabel = PROVINCES.find((p) => p.id === province)?.label ?? province
-  const moods = state.moods ?? []
-  const budget = state.budget ?? null
-
-  async function handleSave() {
-    if (!plan || saving) return
+  async function save() {
+    if (saving) return
     setSaving(true)
     setSaveError('')
     try {
+      const stored = serializePlan(plan)
       const trip = await createTrip({
-        province,
-        moods,
-        budget,
-        days: plan.days.map((d) => d.map((p) => p.id)),
-        combos: plan.combos.map((c) => c.id),
-        personality: plan.personality?.id ?? null,
+        province: draft.province, moods: draft.moods, days: stored.days, spare: stored.spare,
+        combos: combos.map(combo => combo.id), personality: computePersonality(places)?.id ?? null,
+        start_date: draft.startDate, end_date: draft.endDate, nights: length.nights,
+        trip_type: draft.tripType, travelers: draft.travelers, budget: draft.budget,
+        origin: draft.origin, transport_to: draft.transportTo, transport_local: draft.transportLocal,
+        pace: draft.pace, estimate, is_random: draft.mode === 'random',
       })
       slideNavigate(navigate, `/trips/${trip.id}`, { replace: true })
-    } catch (err) {
-      console.error('create trip failed', err)
-      setSaveError('บันทึกทริปไม่สำเร็จ ลองใหม่อีกครั้ง')
+    } catch {
+      setSaveError('บันทึกทริปไม่สำเร็จ ร่างทริปยังอยู่ ลองใหม่อีกครั้งได้เลย')
       setSaving(false)
     }
   }
 
-  let body
-  if (!idsKey || places?.length === 0) {
-    body = (
-      <TripMessage title="ยังไม่ได้เลือกที่ไหนเลย" body="ปัดขวาการ์ดที่อยากไป แล้วเราจะจัดทริปให้">
-        <SlideLink to={swipeUrl(province, moods, budget)} back replace className={PRIMARY_BUTTON}>
-          กลับไปปัดการ์ด
-        </SlideLink>
-      </TripMessage>
-    )
-  } else if (current?.error) {
-    body = (
-      <TripMessage title="โหลดทริปไม่สำเร็จ" body="เช็กอินเทอร์เน็ตแล้วลองใหม่อีกครั้ง">
-        <button type="button" onClick={() => setAttempt((a) => a + 1)} className={PRIMARY_BUTTON}>
-          ลองใหม่
-        </button>
-      </TripMessage>
-    )
-  } else if (!plan) {
-    body = <TripLoading label="กำลังจัดทริป…" />
-  } else {
-    body = (
-      <>
-        <p className="m-0 px-[22px] pt-2 text-[15px] text-[#4A3A30]">
-          ปัดขวา {places.length} ที่ · {plan.days.length} วัน
-        </p>
+  return (
+    <>
+      <div className="flex flex-col gap-5 px-4 pt-3">
+        <TripOverview trip={draft} {...length} people={people} />
+        <div className="flex items-center justify-between px-1"><h1 className="m-0 text-2xl font-bold">ทริปในแบบของคุณ</h1><span className="rounded-full bg-white px-3 py-1.5 text-xs text-brown">{places.length} ที่</span></div>
+        <DayPlan days={plan.days} spare={plan.spare} capacities={capacitiesFor(draft)} startDate={draft.startDate} onMove={move} onSwap={swap} canSwap={plan.spare.length > 0} />
+        {combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
+        <TripBudget input={input} onApply={applyAlternative} />
+        {warnings.length > 0 && <div className="rounded-[24px] bg-[#FBE3D2] p-4"><h2 className="m-0 text-sm font-semibold">☀ ก่อนออกเดินทาง</h2>{warnings.map(warning => <p key={warning.placeId} className="mb-0 mt-2 text-xs leading-relaxed text-[#4A3A30]">{warning.message}</p>)}</div>}
+        <p role="status" aria-live="polite" className="m-0 min-h-5 text-center text-xs text-muted">{notice}</p>
+      </div>
+      <div className="sticky bottom-0 mt-4 bg-cream px-4 pb-6 pt-3">
+        {saveError && <p role="alert" className="mb-3 mt-0 text-center text-sm text-[#9B432A]">{saveError}</p>}
+        <button type="button" onClick={save} disabled={saving || !places.length} className={PRIMARY_BUTTON}>{saving ? 'กำลังบันทึก…' : 'บันทึกทริป'}</button>
+      </div>
+    </>
+  )
+}
 
-        <TripSummary days={plan.days} combos={plan.combos} />
-
-        <div className="grow" />
-
-        <div className="flex flex-col gap-2 px-4 pb-7 pt-8">
-          <button type="button" onClick={handleSave} disabled={saving} className={PRIMARY_BUTTON}>
-            {saving ? 'กำลังบันทึก…' : 'บันทึกทริป'}
-          </button>
-          {saveError && (
-            <p role="alert" className="m-0 text-center text-[13px] text-[#C0392B]">
-              {saveError}
-            </p>
-          )}
-          <SlideLink to="/personality" className={TEXT_LINK}>
-            ดูบุคลิกการเที่ยวของคุณ ›
-          </SlideLink>
-        </div>
-      </>
-    )
-  }
-
+function TripSession({ draft, updateDraft }) {
+  const [attempt, setAttempt] = useState(0)
+  const [result, setResult] = useState(null)
+  const likedKey = draft.likedIds.join(',')
+  const moodKey = draft.moods.join(',')
+  const province = draft.province
+  const sourceKey = `${province}|${moodKey}|${likedKey}|${draft.deck?.join(',') ?? 'pick'}`
+  const requestKey = `${sourceKey}|${attempt}`
+  useEffect(() => {
+    let active = true
+    Promise.all([getPlacesByIds(likedKey.split(',').filter(Boolean)), listPlaces({ province, moods: moodKey.split(',').filter(Boolean) })])
+      .then(([liked, all]) => {
+        if (active) setResult({ key: requestKey, liked, pool: all.filter(place => !liked.some(p => p.id === place.id)) })
+      })
+      .catch(() => { if (active) setResult({ key: requestKey, error: true }) })
+    return () => { active = false }
+  }, [province, likedKey, moodKey, requestKey])
+  const current = result?.key === requestKey ? result : null
+  const label = PROVINCES.find(p => p.id === province)?.label ?? province
   return (
     <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink">
-      <AppHeader title={`ทริป${provinceLabel}`} step="3 / 3" backTo={`/map/${province}/mood`} />
-      {body}
+      <AppHeader crumb={label} title="แผนทริปของคุณ" backTo="/plan/swipe" />
+      {!current ? <TripLoading label="กำลังจัดทริป…" /> : current.error ? <TripMessage title="โหลดที่เที่ยวไม่สำเร็จ" body="เช็กอินเทอร์เน็ตแล้วลองอีกครั้ง"><button type="button" onClick={() => setAttempt(value => value + 1)} className={PRIMARY_BUTTON}>ลองใหม่</button></TripMessage> : !current.liked.length && !current.pool.length ? <TripMessage title="ยังไม่มีที่เที่ยวตรงมู้ดนี้" body="ลองเปลี่ยนมู้ดหรือเลือกจังหวัดใหม่"><SlideLink to="/plan/mood" back className={PRIMARY_BUTTON}>เลือกมู้ดใหม่</SlideLink></TripMessage> : <TripEditor key={requestKey} draft={draft} updateDraft={updateDraft} liked={current.liked} pool={current.pool} sourceKey={sourceKey} />}
     </div>
   )
+}
+
+export default function Trip() {
+  const { draft, updateDraft } = useTripDraft()
+  if (!draft.province) return <Navigate to="/map" replace />
+  if (!draft.moods.length) return <Navigate to="/plan/mood" replace />
+  if (!draft.origin || !draft.startDate || !draft.endDate) return <Navigate to="/plan/details" replace />
+  return <MotionConfig reducedMotion="user"><TripSession draft={draft} updateDraft={updateDraft} /></MotionConfig>
 }

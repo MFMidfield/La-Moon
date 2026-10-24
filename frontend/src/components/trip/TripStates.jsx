@@ -3,7 +3,7 @@ import { Moon, Sparkle } from '../icons'
 export function TripLoading({ label }) {
   return (
     <div role="status" className="flex grow flex-col items-center justify-center gap-3 py-20">
-      <div className="h-10 w-10 animate-spin rounded-full border-4 border-brown/20 border-t-brown" />
+      <div className="h-10 w-10 animate-spin motion-reduce:animate-none rounded-full border-4 border-brown/20 border-t-brown" />
       <span className="text-sm text-muted">{label}</span>
     </div>
   )

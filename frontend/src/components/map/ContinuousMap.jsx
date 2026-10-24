@@ -11,7 +11,7 @@ const EMPTY_PLACES = []
 // เป้าหลุดจังหวัดแป๊บเดียว (รอยต่อ/ขอบทะเล) ยังไม่ซ่อน sheet กันกระพริบ
 const SHEET_HIDE_DELAY = 250
 
-export default function ContinuousMap({ topInset = 12, showSheet = true, onCurrentChange, counts, places, ready, region, query, command, onChoose, onCountry, randomEnabled, onRandom }) {
+export default function ContinuousMap({ topInset = 12, showSheet = true, onCurrentChange, onSettled, plan, counts, places, ready, region, query, command, onChoose, onCountry, randomEnabled, onRandom }) {
   const svg = useRef(null)
   const world = useRef(null)
   const container = useRef(null)
@@ -37,6 +37,7 @@ export default function ContinuousMap({ topInset = 12, showSheet = true, onCurre
   const publish = useEffectEvent(id => {
     const path = id ? `/map/${id}` : '/map'
     if (location.pathname !== path) { internalRoute.current = path; navigate(path, { replace: true }) }
+    onSettled?.(id)
   })
 
   useEffect(() => {
@@ -58,7 +59,7 @@ export default function ContinuousMap({ topInset = 12, showSheet = true, onCurre
   useEffect(() => {
     const path = routeId ? `/map/${routeId}` : '/map'
     if (internalRoute.current === path) { internalRoute.current = null; return }
-    if (FEATURE_BY_ID.has(routeId)) camera.current?.focusProvince(routeId, false)
+    if (FEATURE_BY_ID.has(routeId)) camera.current?.focusProvince(routeId)
     else camera.current?.reset(false)
   }, [routeId])
   useEffect(() => {
@@ -126,7 +127,7 @@ export default function ContinuousMap({ topInset = 12, showSheet = true, onCurre
             exit={{ y: '100%' }}
             transition={reducedMotion ? { duration: 0 } : { type: 'spring', stiffness: 320, damping: 34 }}
           >
-            <ProvinceSheet province={sheetProvince} count={counts[sheetProvince.id] ?? 0} places={placesByProvince.get(sheetProvince.id) ?? EMPTY_PLACES} ready={ready} height={height} />
+            <ProvinceSheet province={sheetProvince} count={counts[sheetProvince.id] ?? 0} places={placesByProvince.get(sheetProvince.id) ?? EMPTY_PLACES} ready={ready} height={height} plan={plan} />
           </motion.div>
         )}
       </AnimatePresence>
