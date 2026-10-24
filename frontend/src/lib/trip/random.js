@@ -4,7 +4,8 @@ import { travelOptions } from './travel'
 
 const pick = (list) => list[Math.floor(Math.random() * list.length)]
 const shuffle = (list) => [...list].sort(() => Math.random() - 0.5)
-const iso = (d) => d.toISOString().slice(0, 10)
+// วันที่ local (ไม่ใช้ toISOString — จะเลื่อนวันตาม UTC)
+const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
 
 // วันเสาร์ถัดไป (อย่างน้อยพรุ่งนี้)
 export function nextSaturday(today = new Date()) {

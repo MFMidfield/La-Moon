@@ -25,11 +25,12 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/AppHeader.jsx | header ในแอป: ปุ่มกลับ (backTo/onBack) + crumb + title + step pill | |
 | frontend/src/components/BottomSheet.jsx | sheet ล่าง/dialog กลางจอ (Esc, backdrop, scroll lock) | |
 | frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
+| frontend/src/components/plan/ | flow วางทริป (Codex): ScrambleText (สลับตัวอักษรไทยตาม grapheme), OriginPicker (GPS→จังหวัด + ค้นหา), TripCalendar, DetailCard | |
 | frontend/src/components/cards/ | การ์ด Swipe: SwipeDeck (ลาก/บินออก/ย้อน), PlaceCard, StatBars (ชิล ลุย ถ่ายรูป กิน คุ้ม), HoloOverlay, DeckFrame, SwipeControls, DeckStates | |
 | frontend/src/components/map/ | แผนที่ (Codex): ContinuousMap, createMapCamera (d3-zoom), CountryMap, PlacePins, ProvinceSheet (มือถือ), ProvinceDetails (ชิ้นข้อมูลจังหวัดใช้ร่วม sheet/แผงข้าง), useIsDesktop, ProvinceSearch, geometry (d3-geo), useMapData, MapStatus; GeoJSON 77 จังหวัด `src/data/geo/thailand.json` (164 KB, lazy load) | |
 | frontend/src/components/home/ | หน้า Home: HomeHeader, PersonalityChip, StartBox, TripList, WishProvinces, Sticker, useLoad (hook โหลดครั้งเดียว) | |
 | frontend/src/components/personality/ | หน้าบุคลิก: PersonalityCard, PersonalityArt (7 ฉาก), ShareActions, EmptyState | |
-| frontend/src/components/trip/ | สรุปทริป: TripSummary, ComboCard, PlaceRow, PlaceThumb, BookingSheet (mock Agoda/Booking/Klook), TripStates | |
+| frontend/src/components/trip/ | แผนรายวัน: DayPlan (ลากการ์ดข้ามวัน/กองสำรอง, แตะย้าย fallback), TripBudget, TripOverview, itinerary.js (hydrate/serialize/moveCard); สรุปทริปเดิม: TripSummary, ComboCard, PlaceRow, PlaceThumb, BookingSheet (mock Agoda/Booking/Klook), TripStates | |
 | frontend/src/components/mood/ | หน้า Mood: AiMoodBox, MoodTile, MoodIcon, BudgetPicker | |
 | backend/supabase/functions/mood-reader/ | Edge Function Gemini: POST {text} → {moods, reason}; secret GEMINI_API_KEY (+ GEMINI_MODEL) — ไม่มี key ตอบ 503 แล้ว frontend จับคำแทน | แก้ prompt AI |
 | frontend/src/lib/api/ | ทุกการเรียก supabase ต่อ feature: places, swipes, trips, mood (AI + fallback คำ) — หน้าไหนห้ามเรียก supabase ตรง | เพิ่ม query |
@@ -75,7 +76,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | `/map/:province/trip` | สรุปทริปจากการปัด รับ state { likedIds, moods, budget } → บันทึก → /trips/:id (lane D เสร็จ) | private |
 | `/trips/:id` | ดูทริปที่บันทึก + ลบ (lane D เสร็จ) | private |
 | `/personality` | บุคลิกการเที่ยวจาก swipes ขวาทั้งหมด + แชร์ (lane A เสร็จ) | private |
-| `/plan/mood` → `/plan/details` → `/plan/swipe` → `/plan/trip` | flow วางทริปใหม่ (มู้ด+งบ+คน → modal สุ่ม/เลือกเอง → แผนที่ → รายละเอียด → ปัด → แผนรายวัน) ข้อมูลใน useTripDraft — lane 2–5 (Codex) | private |
+| `/plan/mood` → `/plan/details` → `/plan/swipe` → `/plan/trip` | flow วางทริป (มู้ด+งบ+คน → sheet 🎲/🗺 → แผนที่ → รายละเอียด → ปัด → แผนรายวันลากการ์ดได้) ข้อมูลใน useTripDraft (Codex เพิ่ม draft.itinerary/itineraryKey เก็บแผนที่แก้ค้าง) — เสร็จ รอเทส | private |
 | `/map/:province?` | แผนที่เดียว (route เดียว ไม่ remount): pan/pinch/wheel zoom (d3-zoom), แตะจังหวัด = บินซูม + URL replace, ซูมเข้า = เป้ากลางจอ highlight realtime, หมุดทุกที่, sheet ดึงขยาย → mood; หมอก = ยังไม่มีข้อมูล | private |
 | `/map/:province/mood` | เลือก mood | private |
 | `/map/:province/swipe` | ปัดการ์ด (?moods=&budget=) ลาก/ปุ่ม/คีย์บอร์ด, ย้อนได้, holo rare+ → trip state { likedIds, moods, budget } (lane C เสร็จ) | private |
@@ -168,3 +169,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | Lane 1 (ของกลาง flow ใหม่): TripDraftContext, data/travel + provinceCenters, lib/trip travel/budget/random/season + planTrip, api profile.updateHomeProvince, createTrip รับ object, route /plan/*, placeholder TripDetails |
 | 2026-10-24 | backup แล้ว migrate: profiles.home_province, trips.budget → jsonb + คอลัมน์รายละเอียดทริป; สั่ง Codex (gpt-6.1-sol xhigh) ทำ lane 2–5 ใน worktree ../AFOU-codex-flow (branch codex-flow) |
 | 2026-10-24 | เพิ่ม AGENTS.md (กฎ + decision ให้ Codex) |
+| 2026-10-24 | merge งาน Codex lane 2–5 (flow วางทริปใหม่ครบ); random.js ใช้วันที่ local แทน UTC |
