@@ -9,10 +9,7 @@ import { DeckMessage } from '../components/cards/DeckStates'
 import { PRIMARY_BUTTON } from '../components/cards/swipeHelpers'
 import { MOODS, PROVINCES } from '../data/options'
 import { getPlacesByIds, listPlaces } from '../lib/api/places'
-import { tripLength, useTripDraft } from '../context/TripDraftContext'
-import { PACES } from '../data/travel'
-import { travelOptions } from '../lib/trip/travel'
-import { dayCapacities } from '../lib/trip/plan'
+import { useTripDraft } from '../context/TripDraftContext'
 import { recordSwipe } from '../lib/api/swipes'
 
 function SwipeSession({ draft, updateDraft, province, provinceLabel, moods }) {
@@ -21,10 +18,6 @@ function SwipeSession({ draft, updateDraft, province, provinceLabel, moods }) {
   const moodKey = moods.join(',')
   const deckKey = draft.deck == null ? null : draft.deck.join(',')
   const sessionKey = `${province}|${moodKey}|${deckKey ?? 'pick'}`
-  const { days } = tripLength(draft)
-  const travelHours = travelOptions(draft.origin, province).options.find(option => option.id === draft.transportTo)?.hours ?? 0
-  const perDay = PACES.find(pace => pace.id === draft.pace)?.perDay ?? 3
-  const goal = dayCapacities({ days, perDay, travelHours }).reduce((sum, count) => sum + count, 0)
   const [attempt, setAttempt] = useState(0)
   const [result, setResult] = useState(null)
 
@@ -104,7 +97,7 @@ function SwipeSession({ draft, updateDraft, province, provinceLabel, moods }) {
           backTo="/plan/details"
         />
       }
-      hint={<span className="rounded-full bg-peach px-3 py-1.5 text-brown">อยากได้ ~{goal} ที่</span>}
+      hint={<span className="rounded-full bg-peach px-3 py-1.5 text-brown">ปัดขวากี่ที่ก็ได้ เดี๋ยวจัดวันให้</span>}
       finishLabel={(liked) => `ไปต่อเลย${liked ? ` · ถูกใจ ${liked} ที่` : ''}`}
     />
   )
