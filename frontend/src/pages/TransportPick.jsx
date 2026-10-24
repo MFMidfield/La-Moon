@@ -1,5 +1,5 @@
 import { useEffect, useId, useState } from 'react'
-import { Navigate, useNavigate } from 'react-router-dom'
+import { Navigate, useNavigate, useLocation } from 'react-router-dom'
 import { motion, useReducedMotion } from 'framer-motion'
 import { Check, ExternalLink, Info } from 'lucide-react'
 import AppHeader from '../components/AppHeader'
@@ -54,7 +54,10 @@ function PickForm({ origin, province, mode }) {
   const { draft, updateDraft } = useTripDraft()
   const navigate = useNavigate()
   const reduced = useReducedMotion()
-  const [tab, setTab] = useState('out')
+  const location = useLocation()
+  // มาจากแผนรายวัน (เลือก/เปลี่ยนเที่ยว) → กลับไปแผน และเปิดแท็บตามขาที่กด
+  const returnTo = location.state?.from === 'trip' ? '/plan/trip' : '/plan/details'
+  const [tab, setTab] = useState(location.state?.direction === 'back' ? 'back' : 'out')
   const [attempt, setAttempt] = useState(0)
   const [result, setResult] = useState(null)
   const people = travelerCount(draft)
@@ -91,12 +94,12 @@ function PickForm({ origin, province, mode }) {
     updateDraft((d) => ({ transportBooking: { ...(d.transportBooking ?? { out: null, back: null }), [tab]: leg } }))
   }
 
-  const done = () => slideNavigate(navigate, '/plan/details', { back: true })
+  const done = () => slideNavigate(navigate, returnTo, { back: true })
 
   return (
     <div className="min-h-svh bg-cream text-ink">
       <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col lg:pt-4">
-        <AppHeader title="เลือกเที่ยวไป-กลับ" crumb={`${labelOf(origin)} ⇄ ${labelOf(province)}`} backTo="/plan/details" />
+        <AppHeader title="เลือกเที่ยวไป-กลับ" crumb={`${labelOf(origin)} ⇄ ${labelOf(province)}`} backTo={returnTo} />
         <main className="flex flex-col gap-3 px-4 pb-[calc(150px+env(safe-area-inset-bottom))] pt-3">
           <Tabs value={tab} onChange={setTab} dates={dates} picked={{ out: Boolean(booking.out), back: Boolean(booking.back) }} reduced={reduced} />
 

@@ -27,6 +27,9 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/AppHeader.jsx | header ในแอป: ปุ่มกลับ (backTo/onBack) + crumb + title + step pill | |
 | frontend/src/components/BottomSheet.jsx | sheet ล่าง/dialog กลางจอ (Esc, backdrop, scroll lock) | |
 | frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
+| frontend/src/components/trip/ (เดินทางไป-กลับ) | travelLegs.js (buildLegs, legBounds วันแรกเริ่มหลังถึง+transfer / วันสุดท้ายเตือนไม่ทันเที่ยวกลับ, applyLegsTransport), TravelLegRow; บันทึกใน trips.estimate.transportBooking | |
+| frontend/src/components/plan/ (เลือกเที่ยว) | TripOption, transportFormat.js; หน้า /plan/transport (แท็บขาไป/กลับ, ไปจองจริง) กลับไปหน้าที่มา (state.from === 'trip' → /plan/trip) | |
+| frontend/src/lib/trip/schedules.js + data/schedules/bkk-south.json | ตารางเที่ยวจริง กทม.↔ใต้ (agent กำลังค้น) ไม่มี → เที่ยวตัวอย่างจากสูตร; bookingUrl (Google Flights / SRT D-Ticket / 12Go / Maps) | อัปเดตตาราง |
 | frontend/src/components/trip/ (เวลา/กองสำรอง) | dayTimes.js (scheduleTrip; มื้อกลางวัน≥12:00 เย็น≥18:00), TimeChip (แตะแก้เวลาเริ่ม), SpareDeck (กองซ้อน ปัดขึ้นวนไปหลัง); draft.itinerary.timeOverrides; trips.days[d].items[].start/end + meals[].start/end | |
 | frontend/src/components/trip/ (มื้อ/ที่พัก) | mealPlan.js (buildFoodStay, overrides, serializeFood), MealRow, StayRow, MealSwapSheet, StayChoice, CheckPop — แผนรายวันแทรกมื้อ + แถวคืนนี้; draft.itinerary.mealOverrides['d:meal']; trips.days[d] = { items, meals[], stay } | |
 | frontend/src/components/plan/ | flow วางทริป (Codex): ScrambleText (สลับตัวอักษรไทยตาม grapheme) + rollReveal.js (เล่นเฉพาะหลังสุ่ม: draft.rollId/revealed), OriginPicker (GPS→จังหวัด + ค้นหา), TripCalendar, DetailCard | |
@@ -200,3 +203,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | merge agent A+B: มู้ดหรูหรา (Gem), หน้า 3 ไม่มีล็อก/จังหวะ, รถส่วนตัว, วันพรุ่งนี้สำหรับทริปวันเดียวในจังหวัด, ป้ายระยะห่างบนการ์ดปัด, แผนใช้เฉพาะที่ชอบ + เวลาจริงแก้ได้ + กองสำรองแบบซ้อน |
 | 2026-10-24 | แก้กองการ์ดสำรองว่าง: spare = ที่ปัดข้าม (swipeState.skipped) ก่อน + ที่เที่ยวอื่นที่ตรงมู้ด เรียงใกล้แผน (ไม่เติมลงวันเอง) |
 | 2026-10-24 | ทริปวันเดียว: ซ่อนปุ่ม "จองใกล้ที่นี่" ในแผน/กองสำรอง/ทริปที่บันทึก (DayPlan canBook) |
+| 2026-10-24 | ทริปค้างคืน: การ์ดไปยังไง 4 แบบ, เที่ยวในพื้นที่ตามพาหนะ (รถส่วนตัว → รถส่วนตัวเท่านั้น), หน้า /plan/transport เลือกเที่ยว + ไปจองจริง, แผนมีแถวเดินทางไป-กลับ + เวลาวันแรก/วันสุดท้ายตามเที่ยว, งบจากราคาเที่ยว |
