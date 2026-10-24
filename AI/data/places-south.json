@@ -1,0 +1,3621 @@
+{
+  "generated_at": "2026-10-24",
+  "places": [
+    {
+      "id": "tiger-cave-temple-krabi",
+      "province": "krabi",
+      "name_th": "วัดถ้ำเสือ",
+      "name_en": "Tiger Cave Temple",
+      "district_th": "เมืองกระบี่",
+      "description_th": "ชมศาสนสถานท่ามกลางเขาหินปูน แล้วเดินขึ้นบันไดไปยังจุดชมวิวเหนือเมืองกระบี่",
+      "lat": 8.1245241825418,
+      "lng": 98.924619214034,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1807",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดบนเขา",
+        "บันได",
+        "จุดชมวิว"
+      ],
+      "moods": [
+        "temple",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1807"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "tha-pom-khlong-song-nam",
+      "province": "krabi",
+      "name_th": "ท่าปอมคลองสองน้ำ",
+      "name_en": "Tha Pom Khlong Song Nam",
+      "district_th": "เมืองกระบี่",
+      "description_th": "เดินตามทางศึกษาธรรมชาติผ่านป่าพรุ ชมลำคลองที่เปลี่ยนลักษณะตามจังหวะน้ำทะเล",
+      "lat": 8.2142,
+      "lng": 98.7772,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1811",
+      "coords_uncertain": false,
+      "tags": [
+        "ป่าพรุ",
+        "ทางเดินธรรมชาติ",
+        "สายน้ำ"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1811"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "than-bok-khorani-national-park",
+      "province": "krabi",
+      "name_th": "อุทยานแห่งชาติธารโบกขรณี",
+      "name_en": "Than Bok Khorani National Park",
+      "district_th": "อ่าวลึก",
+      "description_th": "พักท่ามกลางป่าในอ่าวลึกและชมธารน้ำที่ไหลผ่านภูเขาหินปูน",
+      "lat": 8.3886,
+      "lng": 98.7343,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1812",
+      "coords_uncertain": false,
+      "tags": [
+        "อุทยานแห่งชาติ",
+        "ลำธาร",
+        "ป่า"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "adventure"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 5,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 120,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1812"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label"
+      ]
+    },
+    {
+      "id": "khao-phanom-bencha-national-park",
+      "province": "krabi",
+      "name_th": "อุทยานแห่งชาติเขาพนมเบญจา",
+      "name_en": "Khao Phanom Bencha National Park",
+      "district_th": "เมืองกระบี่",
+      "description_th": "สำรวจป่าภูเขาของกระบี่ที่มีทั้งลำธาร น้ำตก และเส้นทางสัมผัสธรรมชาติ",
+      "lat": 8.2406,
+      "lng": 98.9139,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1806",
+      "coords_uncertain": false,
+      "tags": [
+        "อุทยานแห่งชาติ",
+        "น้ำตก",
+        "ศึกษาธรรมชาติ"
+      ],
+      "moods": [
+        "mountain",
+        "adventure",
+        "quiet"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 5,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "08:00-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1806"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "ban-koh-klang-community",
+      "province": "krabi",
+      "name_th": "ชุมชนบ้านเกาะกลาง",
+      "name_en": "Ban Koh Klang Community",
+      "district_th": "เมืองกระบี่",
+      "description_th": "นั่งเรือข้ามแม่น้ำไปเรียนรู้งานฝีมือและวิถีประมงของชุมชนมุสลิมบนเกาะกลาง",
+      "lat": 8.055605,
+      "lng": 98.931432,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/21970",
+      "coords_uncertain": false,
+      "tags": [
+        "วิถีชุมชน",
+        "อาหารทะเล",
+        "งานฝีมือ"
+      ],
+      "moods": [
+        "temple",
+        "food",
+        "beach"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": "สอบถามเรือข้ามฟากและกิจกรรมท่องเที่ยวของชุมชนเกาะกลาง",
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/21970"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "dragon-crest-mountain",
+      "province": "krabi",
+      "name_th": "จุดชมวิวเขาหงอนนาค",
+      "name_en": "Dragon Crest Mountain Viewpoint",
+      "district_th": "เมืองกระบี่",
+      "description_th": "เดินผ่านป่าและฐานเรียนรู้ธรรมชาติขึ้นสู่จุดชมวิวเขาหงอนนาค เหมาะกับทริปที่เผื่อเวลาให้การเดินเขา",
+      "lat": 8.08777,
+      "lng": 98.77672,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/3099",
+      "coords_uncertain": false,
+      "tags": [
+        "เดินป่า",
+        "จุดชมวิว",
+        "เขาหินปูน"
+      ],
+      "moods": [
+        "mountain",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 3,
+        "adventure": 5,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "พ.ย.-ธ.ค.",
+      "opening_hours": "06:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/3099"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "wat-kaew-korawaram",
+      "province": "krabi",
+      "name_th": "วัดแก้วโกรวาราม",
+      "name_en": "Wat Kaew Korawaram",
+      "district_th": "เมืองกระบี่",
+      "description_th": "แวะชมวัดในเมืองกระบี่และรายละเอียดของอุโบสถ ก่อนเดินต่อไปสำรวจย่านตัวเมือง",
+      "lat": 8.0632185,
+      "lng": 98.9144182,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1070",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "เมืองกระบี่",
+        "สถาปัตยกรรม"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "06:00-19:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1070"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "krabi-walking-street",
+      "province": "krabi",
+      "name_th": "ถนนคนเดินเมืองกระบี่",
+      "name_en": "Krabi Walking Street",
+      "district_th": "เมืองกระบี่",
+      "description_th": "เดินชิมอาหารและเลือกชมสินค้าจากร้านเล็ก ๆ ในถนนคนเดินช่วงสุดสัปดาห์ของเมืองกระบี่",
+      "lat": 8.063829,
+      "lng": 98.915419,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1066",
+      "coords_uncertain": false,
+      "tags": [
+        "ถนนคนเดิน",
+        "อาหารท้องถิ่น",
+        "ตลาดเย็น"
+      ],
+      "moods": [
+        "food",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "สำรวจอาหารและวิถีการกิน",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "ศุกร์-อาทิตย์ 17:00-22:00",
+      "closed_days": "จันทร์-พฤหัสบดี",
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1066"
+      ],
+      "uncertain_fields": [
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "mud-crab-sculpture-krabi",
+      "province": "krabi",
+      "name_th": "ลานปูดำ",
+      "name_en": "Krabi Mud Crab Sculpture",
+      "district_th": "เมืองกระบี่",
+      "description_th": "แวะถ่ายรูปประติมากรรมปูดำริมแม่น้ำกระบี่ พร้อมมองบรรยากาศของป่าชายเลนฝั่งตรงข้าม",
+      "lat": 8.067044,
+      "lng": 98.917109,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1067",
+      "coords_uncertain": false,
+      "tags": [
+        "ริมแม่น้ำ",
+        "ประติมากรรม",
+        "เมืองกระบี่"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1067"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "wat-maha-that-wachiramongkol",
+      "province": "krabi",
+      "name_th": "วัดมหาธาตุวชิรมงคล",
+      "name_en": "Wat Maha That Wachiramongkol",
+      "district_th": "อ่าวลึก",
+      "description_th": "ชมเจดีย์และศิลปกรรมของวัดมหาธาตุวชิรมงคลในอำเภออ่าวลึก",
+      "lat": 8.526464,
+      "lng": 98.71981,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2220",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "อ่าวลึก",
+        "เจดีย์"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 120,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2220"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label"
+      ]
+    },
+    {
+      "id": "wat-khlong-thom-museum",
+      "province": "krabi",
+      "name_th": "พิพิธภัณฑ์วัดคลองท่อม",
+      "name_en": "Wat Khlong Thom Museum",
+      "district_th": "คลองท่อม",
+      "description_th": "ตามรอยเรื่องราวการค้าในอดีตผ่านลูกปัดและโบราณวัตถุที่รวบรวมไว้ในวัดคลองท่อม",
+      "lat": 7.928743,
+      "lng": 99.14752,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2216",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "ลูกปัดโบราณ",
+        "โบราณคดี"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "จันทร์-อังคารและพฤหัสบดี-อาทิตย์ 08:30-16:30",
+      "closed_days": "พุธ",
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2216"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "ban-thung-yi-pheng-community",
+      "province": "krabi",
+      "name_th": "ชุมชนบ้านทุ่งหยีเพ็ง",
+      "name_en": "Ban Thung Yi Pheng Community",
+      "district_th": "เกาะลันตา",
+      "description_th": "ทำความรู้จักชุมชนบนเกาะลันตาผ่านกิจกรรมล่องเรือและธรรมชาติในป่าชายเลน",
+      "lat": 7.5883409,
+      "lng": 99.0685554,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/21974",
+      "coords_uncertain": false,
+      "tags": [
+        "ป่าชายเลน",
+        "วิถีชุมชน",
+        "ล่องเรือ"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "adventure"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 5,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": "สอบถามชุมชนบ้านทุ่งหยีเพ็งเรื่องกิจกรรมล่องเรือป่าชายเลน",
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/21974"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "khao-lak-lam-ru-national-park",
+      "province": "phang-nga",
+      "name_th": "อุทยานแห่งชาติเขาหลัก-ลำรู่",
+      "name_en": "Khao Lak-Lam Ru National Park",
+      "district_th": "ตะกั่วป่า",
+      "description_th": "สัมผัสภูเขาและป่าของเขาหลัก-ลำรู่ในอุทยานที่เชื่อมธรรมชาติกับชายฝั่งอันดามัน",
+      "lat": 8.622647609976886,
+      "lng": 98.23601245880127,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1949",
+      "coords_uncertain": false,
+      "tags": [
+        "อุทยานแห่งชาติ",
+        "ป่าภูเขา",
+        "ชายฝั่ง"
+      ],
+      "moods": [
+        "mountain",
+        "beach",
+        "adventure"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1949"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "khao-lampi-hat-thai-mueang-national-park",
+      "province": "phang-nga",
+      "name_th": "อุทยานแห่งชาติเขาลำปี-หาดท้ายเหมือง",
+      "name_en": "Khao Lampi-Hat Thai Mueang National Park",
+      "district_th": "ท้ายเหมือง",
+      "description_th": "สำรวจธรรมชาติที่แบ่งเป็นแนวหาดท้ายเหมืองและป่าภูเขาลำปีภายในอุทยานเดียวกัน",
+      "lat": 8.4386914,
+      "lng": 98.2353543,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1953",
+      "coords_uncertain": false,
+      "tags": [
+        "อุทยานแห่งชาติ",
+        "ชายหาด",
+        "ป่าดงดิบ"
+      ],
+      "moods": [
+        "beach",
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1953"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "si-phang-nga-national-park",
+      "province": "phang-nga",
+      "name_th": "อุทยานแห่งชาติศรีพังงา",
+      "name_en": "Si Phang Nga National Park",
+      "district_th": "คุระบุรี",
+      "description_th": "เดินชมป่าในพื้นที่ต้นน้ำของพังงาและเรียนรู้ธรรมชาติที่ยังอุดมสมบูรณ์",
+      "lat": 8.99845,
+      "lng": 98.45829,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/3595",
+      "coords_uncertain": false,
+      "tags": [
+        "อุทยานแห่งชาติ",
+        "ป่า",
+        "ต้นน้ำ"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "adventure"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 5,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "06:00-19:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/3595"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "koh-yao-noi",
+      "province": "phang-nga",
+      "name_th": "เกาะยาวน้อย",
+      "name_en": "Koh Yao Noi",
+      "district_th": "เกาะยาว",
+      "description_th": "ใช้เวลากับวิถีชุมชนและทิวทัศน์รอบเกาะยาวน้อย เหมาะกับการพักแบบค่อยเป็นค่อยไป",
+      "lat": 8.055226,
+      "lng": 98.5611142,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1927",
+      "coords_uncertain": false,
+      "tags": [
+        "เกาะ",
+        "โฮมสเตย์",
+        "วิถีชุมชน"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "temple"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": "สอบถามโฮมสเตย์ของชุมชนบนเกาะยาวน้อย",
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1927"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "koh-panyee",
+      "province": "phang-nga",
+      "name_th": "เกาะปันหยี",
+      "name_en": "Koh Panyee",
+      "district_th": "เมืองพังงา",
+      "description_th": "เดินชมหมู่บ้านที่สร้างอยู่เหนือทะเลใต้แนวผาหินปูน และแวะชิมอาหารทะเลของชุมชน",
+      "lat": 8.343101,
+      "lng": 98.503667,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1956",
+      "coords_uncertain": false,
+      "tags": [
+        "หมู่บ้านกลางน้ำ",
+        "อาหารทะเล",
+        "ชุมชนมุสลิม"
+      ],
+      "moods": [
+        "beach",
+        "food",
+        "temple"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 120,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1956"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label"
+      ]
+    },
+    {
+      "id": "takua-pa-old-town",
+      "province": "phang-nga",
+      "name_th": "ย่านเมืองเก่าตะกั่วป่า",
+      "name_en": "Takua Pa Old Town",
+      "district_th": "ตะกั่วป่า",
+      "description_th": "เดินดูอาคารเก่าและบรรยากาศย่านการค้าของตะกั่วป่า เมืองที่มีเรื่องราวผูกพันกับการค้าและเหมืองแร่",
+      "lat": 8.86739,
+      "lng": 98.346743,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/3594",
+      "coords_uncertain": false,
+      "tags": [
+        "เมืองเก่า",
+        "ตึกแถว",
+        "ชุมชน"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "food"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 3,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-20:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/3594"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "little-amazon-takua-pa",
+      "province": "phang-nga",
+      "name_th": "คลองสังเน่ห์ ลิตเติลแอมะซอนตะกั่วป่า",
+      "name_en": "Little Amazon Takua Pa",
+      "district_th": "ตะกั่วป่า",
+      "description_th": "ล่องเรือไปตามคลองสังเน่ห์เพื่อชมพืชพรรณและความหลากหลายของธรรมชาติริมคลอง",
+      "lat": 8.8763792,
+      "lng": 98.342117,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/21713",
+      "coords_uncertain": false,
+      "tags": [
+        "ล่องเรือ",
+        "คลอง",
+        "ธรรมชาติ"
+      ],
+      "moods": [
+        "beach",
+        "mountain",
+        "adventure"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": "สอบถามวิสาหกิจชุมชนคลองสังเน่ห์เรื่องเรือนำเที่ยว",
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/21713"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "bang-phat-village",
+      "province": "phang-nga",
+      "name_th": "หมู่บ้านบางพัฒน์",
+      "name_en": "Bang Phat Village",
+      "district_th": "เมืองพังงา",
+      "description_th": "รู้จักวิถีหมู่บ้านประมงริมป่าโกงกาง พร้อมแวะรับประทานอาหารทะเลจากชุมชน",
+      "lat": 8.4525,
+      "lng": 98.5875,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1964",
+      "coords_uncertain": false,
+      "tags": [
+        "อาหารทะเล",
+        "หมู่บ้านประมง",
+        "โฮมสเตย์"
+      ],
+      "moods": [
+        "food",
+        "beach",
+        "temple"
+      ],
+      "mood_reason": "สำรวจอาหารและวิถีการกิน",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": "สอบถามโฮมสเตย์ของชุมชนบนหมู่บ้านบางพัฒน์",
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1964"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "wat-bang-riang",
+      "province": "phang-nga",
+      "name_th": "วัดบางเหรียง",
+      "name_en": "Wat Bang Riang",
+      "district_th": "ทับปุด",
+      "description_th": "ชมเจดีย์และศิลปกรรมของวัดบางเหรียง ซึ่งเป็นศาสนสถานที่ชาวทับปุดเคารพนับถือ",
+      "lat": 8.59335,
+      "lng": 98.66854,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/3597",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "เจดีย์",
+        "ทับปุด"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/3597"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "sa-nang-manora-waterfall",
+      "province": "phang-nga",
+      "name_th": "น้ำตกสระนางมโนราห์",
+      "name_en": "Sa Nang Manora Waterfall",
+      "district_th": "เมืองพังงา",
+      "description_th": "พักริมลำธารที่ไหลลดหลั่นผ่านแอ่งน้ำในป่าร่มรื่นใกล้เมืองพังงา",
+      "lat": 8.5122,
+      "lng": 98.5376,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1962",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตก",
+        "ลำธาร",
+        "ร่มรื่น"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "adventure"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 5,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1962"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "ban-nam-khem-tsunami-memorial",
+      "province": "phang-nga",
+      "name_th": "อนุสรณ์สึนามิบ้านน้ำเค็ม",
+      "name_en": "Ban Nam Khem Tsunami Memorial",
+      "district_th": "ตะกั่วป่า",
+      "description_th": "เรียนรู้ความทรงจำของชุมชนบ้านน้ำเค็มผ่านพื้นที่รำลึกถึงเหตุการณ์สึนามิ",
+      "lat": 8.8656503,
+      "lng": 98.2737378,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/21714",
+      "coords_uncertain": false,
+      "tags": [
+        "อนุสรณ์",
+        "ประวัติศาสตร์",
+        "ริมทะเล"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/21714"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "phang-nga-city-museum",
+      "province": "phang-nga",
+      "name_th": "พิพิธภัณฑ์เมืองพังงา",
+      "name_en": "Phang Nga City Museum",
+      "district_th": "เมืองพังงา",
+      "description_th": "ทำความรู้จักพังงาผ่านเรื่องราวประวัติศาสตร์ ธรรมชาติ และวัฒนธรรมที่จัดแสดงในพิพิธภัณฑ์เมือง",
+      "lat": 8.443447,
+      "lng": 98.520732,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/21745",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "ประวัติศาสตร์",
+        "วัฒนธรรม"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "จันทร์-ศุกร์ 08:30-16:30",
+      "closed_days": "เสาร์-อาทิตย์และวันหยุดนักขัตฤกษ์",
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/21745"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "khao-khad-views-tower",
+      "province": "phuket",
+      "name_th": "หอชมวิวเขาขาด",
+      "name_en": "Khao Khad Views Tower",
+      "district_th": "เมืองภูเก็ต",
+      "description_th": "ขึ้นหอชมวิวเขาขาดเพื่อมองแนวอ่าวและภูมิประเทศรอบแหลมพันวาจากมุมสูง",
+      "lat": 7.8346428237256,
+      "lng": 98.383619785309,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1997",
+      "coords_uncertain": false,
+      "tags": [
+        "จุดชมวิว",
+        "อ่าวยน",
+        "เนินเขา"
+      ],
+      "moods": [
+        "photo",
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "มีภูมิทัศน์หรือรายละเอียดให้ถ่ายภาพ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1997"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "karon-beach",
+      "province": "phuket",
+      "name_th": "หาดกะรน",
+      "name_en": "Karon Beach",
+      "district_th": "เมืองภูเก็ต",
+      "description_th": "เดินเล่นบนแนวหาดกะรนแล้วแวะสำรวจร้านค้าและบรรยากาศย่านท่องเที่ยวรอบชายหาด",
+      "lat": 7.8439109371976,
+      "lng": 98.293604850769,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/4718",
+      "coords_uncertain": false,
+      "tags": [
+        "ชายหาด",
+        "พักผ่อน",
+        "ย่านท่องเที่ยว"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/4718"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "kata-beach",
+      "province": "phuket",
+      "name_th": "หาดกะตะ",
+      "name_en": "Kata Beach",
+      "district_th": "เมืองภูเก็ต",
+      "description_th": "ใช้เวลาริมหาดทรายกะตะที่มีแนวต้นปาล์มและร้านบริการอยู่ในย่านใกล้เคียง",
+      "lat": 7.8201450399381,
+      "lng": 98.297853469849,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2003",
+      "coords_uncertain": false,
+      "tags": [
+        "ชายหาด",
+        "ต้นปาล์ม",
+        "พักผ่อน"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2003"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "nai-harn-beach",
+      "province": "phuket",
+      "name_th": "หาดในหาน",
+      "name_en": "Nai Harn Beach",
+      "district_th": "เมืองภูเก็ต",
+      "description_th": "พักรับลมริมหาดในหานที่มีเชิงเขาโอบอยู่ทั้งสองด้านและบึงน้ำอยู่ใกล้ชายหาด",
+      "lat": 7.7743100266198,
+      "lng": 98.306908607483,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2688",
+      "coords_uncertain": false,
+      "tags": [
+        "ชายหาด",
+        "บึง",
+        "พักผ่อน"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2688"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "phuket-thai-hua-museum",
+      "province": "phuket",
+      "name_th": "พิพิธภัณฑ์ภูเก็ตไทยหัว",
+      "name_en": "Phuket Thai Hua Museum",
+      "district_th": "เมืองภูเก็ต",
+      "description_th": "เรียนรู้ชีวิตชาวจีนในภูเก็ตผ่านเรื่องราวประเพณี อาชีพ และประวัติของโรงเรียนไทยหัว",
+      "lat": 7.8855804,
+      "lng": 98.3868459,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/4367",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "วัฒนธรรมจีน",
+        "โรงเรียนเก่า"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "09:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/4367"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "thalang-national-museum",
+      "province": "phuket",
+      "name_th": "พิพิธภัณฑสถานแห่งชาติถลาง",
+      "name_en": "Thalang National Museum",
+      "district_th": "ถลาง",
+      "description_th": "ชมหลักฐานทางโบราณคดีและเรื่องราวศึกถลางที่ช่วยเล่าความเป็นมาของผู้คนบนเกาะภูเก็ต",
+      "lat": 7.981008,
+      "lng": 98.3668117,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2679",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "ศึกถลาง",
+        "ประวัติศาสตร์"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "09:00-16:00 ยกเว้นวันหยุดนักขัตฤกษ์",
+      "closed_days": "วันหยุดนักขัตฤกษ์",
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2679"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "chillva-market",
+      "province": "phuket",
+      "name_th": "ตลาดชิลล์วา",
+      "name_en": "Chillva Market",
+      "district_th": "เมืองภูเก็ต",
+      "description_th": "เดินเลือกอาหารและสินค้าในตลาดชิลล์วาย่านสามกอง ซึ่งเป็นแหล่งนัดพบของคนในเมืองภูเก็ต",
+      "lat": 7.9069721,
+      "lng": 98.3732685,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/80015",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดเย็น",
+        "อาหาร",
+        "ช้อปปิ้ง"
+      ],
+      "moods": [
+        "food",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "สำรวจอาหารและวิถีการกิน",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "จันทร์-เสาร์ 16:00-00:00",
+      "closed_days": "อาทิตย์",
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/80015"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "naka-weekend-market",
+      "province": "phuket",
+      "name_th": "ตลาดนัดนาคา",
+      "name_en": "Naka Weekend Market",
+      "district_th": null,
+      "description_th": "เดินชมร้านขายเสื้อผ้า ของใช้ และสินค้ามือสองในตลาดนัดนาคาช่วงสุดสัปดาห์",
+      "lat": 7.8805672,
+      "lng": 98.3662143,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/99170",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดนัด",
+        "อาหาร",
+        "สินค้ามือสอง"
+      ],
+      "moods": [
+        "food",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "สำรวจอาหารและวิถีการกิน",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "เสาร์-อาทิตย์ 16:00-22:00",
+      "closed_days": "จันทร์-ศุกร์",
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/99170"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "district_th",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "bang-pae-waterfall",
+      "province": "phuket",
+      "name_th": "น้ำตกบางแป",
+      "name_en": "Bang Pae Waterfall",
+      "district_th": "ถลาง",
+      "description_th": "พักในร่มไม้และเดินชมลำธารกับแอ่งน้ำของน้ำตกบางแปในอำเภอถลาง",
+      "lat": 8.036809,
+      "lng": 98.387145,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2678",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตก",
+        "ป่า",
+        "ลำธาร"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "adventure"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 5,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2678"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "wat-phra-thong",
+      "province": "phuket",
+      "name_th": "วัดพระทอง",
+      "name_en": "Wat Phra Thong",
+      "district_th": "ถลาง",
+      "description_th": "สักการะพระพุทธรูปที่ปรากฏขึ้นจากพื้นเพียงครึ่งองค์ และชมข้าวของท้องถิ่นภายในวัดพระทอง",
+      "lat": 8.034338,
+      "lng": 98.33834,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/4658",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "พระผุด",
+        "พิพิธภัณฑ์"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "07:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/4658"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "khao-rang-viewpoint",
+      "province": "phuket",
+      "name_th": "จุดชมวิวเขารัง",
+      "name_en": "Khao Rang Viewpoint",
+      "district_th": "เมืองภูเก็ต",
+      "description_th": "มองเมืองภูเก็ตจากเนินเขารังและพักในพื้นที่สวนบนเขา ยามค่ำจะเห็นแสงไฟของเมืองเบื้องล่าง",
+      "lat": 7.8936053,
+      "lng": 98.3797735,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/21955",
+      "coords_uncertain": false,
+      "tags": [
+        "จุดชมวิว",
+        "สวนสาธารณะ",
+        "เมืองภูเก็ต"
+      ],
+      "moods": [
+        "photo",
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "มีภูมิทัศน์หรือรายละเอียดให้ถ่ายภาพ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ช่วงค่ำ",
+      "opening_hours": "08:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/21955"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "ban-tha-chat-chai-community",
+      "province": "phuket",
+      "name_th": "ชุมชนบ้านท่าฉัตรไชย",
+      "name_en": "Ban Tha Chat Chai Community",
+      "district_th": "ถลาง",
+      "description_th": "รู้จักชุมชนชายฝั่งทางเหนือของภูเก็ตผ่านเรื่องราววัฒนธรรมมอแกล็นและประวัติท่าฉัตรไชย",
+      "lat": 8.1842547,
+      "lng": 98.2976241,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/80189",
+      "coords_uncertain": false,
+      "tags": [
+        "วิถีชุมชน",
+        "มอแกล็น",
+        "ชายฝั่ง"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/80189"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "suan-mokkh",
+      "province": "surat-thani",
+      "name_th": "สวนโมกขพลาราม",
+      "name_en": "Suan Mokkh",
+      "district_th": "ไชยา",
+      "description_th": "ใช้เวลาเรียนรู้ธรรมะและบรรยากาศสงบของสวนโมกข์ สถานที่เผยแผ่พระพุทธศาสนาที่พุทธทาสภิกขุก่อตั้ง",
+      "lat": 9.3601805,
+      "lng": 99.1712604,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2144",
+      "coords_uncertain": false,
+      "tags": [
+        "ปฏิบัติธรรม",
+        "พุทธทาส",
+        "ร่มรื่น"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "mountain"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 120,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2144"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label"
+      ]
+    },
+    {
+      "id": "phra-that-si-surat",
+      "province": "surat-thani",
+      "name_th": "พระธาตุศรีสุราษฎร์",
+      "name_en": "Phra That Si Surat",
+      "district_th": "เมืองสุราษฎร์ธานี",
+      "description_th": "ขึ้นเขาท่าเพชรไปชมพระธาตุศรีสุราษฎร์ที่มีรูปทรงคล้ายลำเทียนและรายละเอียดแบบศรีวิชัย",
+      "lat": 9.09966,
+      "lng": 99.35117,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/4041",
+      "coords_uncertain": false,
+      "tags": [
+        "พระธาตุ",
+        "เขาท่าเพชร",
+        "จุดชมวิว"
+      ],
+      "moods": [
+        "temple",
+        "mountain",
+        "photo"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 3,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 120,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/4041"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label"
+      ]
+    },
+    {
+      "id": "na-muang-waterfall",
+      "province": "surat-thani",
+      "name_th": "น้ำตกหน้าเมือง",
+      "name_en": "Na Muang Waterfall",
+      "district_th": "เกาะสมุย",
+      "description_th": "เดินชมน้ำตกหน้าเมืองที่สายน้ำไหลผ่านหินแกรนิต เหมาะกับการแวะสัมผัสธรรมชาติบนเกาะสมุย",
+      "lat": 9.4663237,
+      "lng": 99.9839608,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2127",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตก",
+        "เกาะสมุย",
+        "หินแกรนิต"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "adventure"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 5,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "09:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2127"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "bo-phut-beach",
+      "province": "surat-thani",
+      "name_th": "หาดบ่อผุด",
+      "name_en": "Bo Phut Beach",
+      "district_th": "เกาะสมุย",
+      "description_th": "เดินเลียบหาดบ่อผุดผ่านย่านบ้านเรือนของชุมชนประมงเก่าและร้านอาหารทะเล",
+      "lat": 9.5611023,
+      "lng": 100.0280125,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2138",
+      "coords_uncertain": false,
+      "tags": [
+        "ชายหาด",
+        "ชุมชนประมง",
+        "อาหารทะเล"
+      ],
+      "moods": [
+        "beach",
+        "food",
+        "temple"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2138"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "wat-khao-phang-hanging-bridge",
+      "province": "surat-thani",
+      "name_th": "สะพานแขวนวัดเขาพัง",
+      "name_en": "Wat Khao Phang Hanging Bridge",
+      "district_th": "บ้านตาขุน",
+      "description_th": "เดินข้ามสะพานแขวนเหนือคลองพระแสงใกล้วัดเขาพัง เพื่อมองสายน้ำและภูมิทัศน์รอบชุมชน",
+      "lat": 8.9488194,
+      "lng": 98.8228453,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1017",
+      "coords_uncertain": false,
+      "tags": [
+        "สะพานแขวน",
+        "คลองพระแสง",
+        "วัด"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1017"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "koh-lamphu-public-park",
+      "province": "surat-thani",
+      "name_th": "สวนสาธารณะเกาะลำพู",
+      "name_en": "Koh Lamphu Public Park",
+      "district_th": "เมืองสุราษฎร์ธานี",
+      "description_th": "พักผ่อนและเดินออกกำลังกายบนเกาะกลางแม่น้ำตาปีท่ามกลางพื้นที่สีเขียวของเมืองสุราษฎร์ธานี",
+      "lat": 9.139,
+      "lng": 99.3176,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2164",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "แม่น้ำตาปี",
+        "ออกกำลังกาย"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "mountain"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2164"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "chaiya-national-museum",
+      "province": "surat-thani",
+      "name_th": "พิพิธภัณฑสถานแห่งชาติไชยา",
+      "name_en": "Chaiya National Museum",
+      "district_th": "ไชยา",
+      "description_th": "ชมประติมากรรมและโบราณวัตถุที่ช่วยเล่าเรื่องเมืองไชยาตั้งแต่ยุคก่อนประวัติศาสตร์ถึงสมัยหลัง",
+      "lat": 9.387348,
+      "lng": 99.1511502,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2979",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "ศรีวิชัย",
+        "โบราณคดี"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "พุธ-อาทิตย์ 09:00-16:00",
+      "closed_days": "จันทร์-อังคาร",
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 60,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2979"
+      ],
+      "uncertain_fields": [
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label"
+      ]
+    },
+    {
+      "id": "phum-riang-village",
+      "province": "surat-thani",
+      "name_th": "หมู่บ้านพุมเรียง",
+      "name_en": "Phum Riang Village",
+      "district_th": "ไชยา",
+      "description_th": "เรียนรู้ภูมิปัญญาการทอผ้าไหมของชุมชนพุมเรียง และสำรวจวิถีชีวิตใกล้ชายทะเลไชยา",
+      "lat": 9.3863,
+      "lng": 99.254,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2146",
+      "coords_uncertain": false,
+      "tags": [
+        "ผ้าไหม",
+        "วิถีชุมชน",
+        "อาหารท้องถิ่น"
+      ],
+      "moods": [
+        "temple",
+        "food",
+        "quiet"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2146"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "khlong-phanom-national-park",
+      "province": "surat-thani",
+      "name_th": "อุทยานแห่งชาติคลองพนม",
+      "name_en": "Khlong Phanom National Park",
+      "district_th": "พนม",
+      "description_th": "สำรวจธรรมชาติของป่าดงดิบและภูเขาหินปูนในคลองพนม ซึ่งเป็นส่วนหนึ่งของพื้นที่ต้นน้ำแม่น้ำตาปี",
+      "lat": 8.8802,
+      "lng": 98.6738,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2158",
+      "coords_uncertain": false,
+      "tags": [
+        "อุทยานแห่งชาติ",
+        "เขาหินปูน",
+        "ป่าดงดิบ"
+      ],
+      "moods": [
+        "mountain",
+        "adventure",
+        "quiet"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 5,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ธ.ค.-เม.ย.",
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2158"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "tai-rom-yen-national-park",
+      "province": "surat-thani",
+      "name_th": "อุทยานแห่งชาติใต้ร่มเย็น",
+      "name_en": "Tai Rom Yen National Park",
+      "district_th": "บ้านนาสาร",
+      "description_th": "สัมผัสป่าดิบชื้นของใต้ร่มเย็นที่มีหน้าผา ถ้ำ และน้ำตกกระจายอยู่ในพื้นที่",
+      "lat": 8.8632,
+      "lng": 99.4784,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2152",
+      "coords_uncertain": false,
+      "tags": [
+        "อุทยานแห่งชาติ",
+        "น้ำตก",
+        "ถ้ำ"
+      ],
+      "moods": [
+        "mountain",
+        "adventure",
+        "quiet"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 5,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2152"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "hin-phat-viewpoint",
+      "province": "surat-thani",
+      "name_th": "หินพัด",
+      "name_en": "Hin Phat Viewpoint",
+      "district_th": "คีรีรัฐนิคม",
+      "description_th": "ชมก้อนหินทรงแปลกบนหน้าผาและทิวเขารอบคีรีรัฐนิคม เส้นทางช่วงสุดท้ายมีบริการรถของชุมชน",
+      "lat": 9.073943,
+      "lng": 98.848411,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1010",
+      "coords_uncertain": false,
+      "tags": [
+        "จุดชมวิว",
+        "หินธรรมชาติ",
+        "ทะเลหมอก"
+      ],
+      "moods": [
+        "mountain",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": "สอบถามรถขับเคลื่อนสี่ล้อของชุมชนบ้านยวนสาวสำหรับขึ้นหินพัด",
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1010"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "sala-athit-garden",
+      "province": "surat-thani",
+      "name_th": "สวนสละอาทิตย์",
+      "name_en": "Sala Athit Garden",
+      "district_th": "บ้านนาสาร",
+      "description_th": "เรียนรู้การปลูกสละและเดินชมแปลงเกษตรของสวนสละอาทิตย์ พร้อมทำความรู้จักกิจกรรมกาแฟของสวน",
+      "lat": 8.7483392,
+      "lng": 99.3565784,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/97484",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนผลไม้",
+        "สละ",
+        "กาแฟ"
+      ],
+      "moods": [
+        "food",
+        "mountain",
+        "adventure"
+      ],
+      "mood_reason": "สำรวจอาหารและวิถีการกิน",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 3,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "08:30-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": "สอบถามโฮมสเตย์และกิจกรรมเกษตรของสวนสละอาทิตย์",
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/97484"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "suchart-supsin-shadow-puppet-museum",
+      "province": "nakhon-si-thammarat",
+      "name_th": "บ้านหนังตะลุงสุชาติ ทรัพย์สิน",
+      "name_en": "Suchart Supsin Shadow Puppet Museum",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "เรียนรู้ศิลปะหนังตะลุงผ่านตัวหนังและผลงานของสุชาติ ทรัพย์สินในพื้นที่บ้านและพิพิธภัณฑ์",
+      "lat": 8.4146869,
+      "lng": 99.9684932,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1879",
+      "coords_uncertain": false,
+      "tags": [
+        "หนังตะลุง",
+        "พิพิธภัณฑ์",
+        "งานฝีมือ"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "08:30-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 120,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1879"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label"
+      ]
+    },
+    {
+      "id": "nakhon-si-thammarat-old-city-wall",
+      "province": "nakhon-si-thammarat",
+      "name_th": "กำแพงเมืองเก่านครศรีธรรมราช",
+      "name_en": "Nakhon Si Thammarat Old City Wall",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "เดินชมแนวกำแพงเมืองเก่าที่ช่วยให้เห็นร่องรอยความเป็นเมืองประวัติศาสตร์ของนครศรีธรรมราช",
+      "lat": 8.4276369532326,
+      "lng": 99.963589968262,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/3448",
+      "coords_uncertain": false,
+      "tags": [
+        "กำแพงเมือง",
+        "ประวัติศาสตร์",
+        "เมืองเก่า"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 60,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/3448"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label"
+      ]
+    },
+    {
+      "id": "ligor-floating-market",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ตลาดน้ำเมืองลิกอร์",
+      "name_en": "Ligor Floating Market",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "แวะเลือกชิมอาหารพื้นเมืองและชมบรรยากาศตลาดน้ำเมืองลิกอร์ในตัวเมืองนครศรีธรรมราช",
+      "lat": 8.4280016757551,
+      "lng": 99.962915170639,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/21222",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดน้ำ",
+        "อาหารพื้นเมือง",
+        "วัฒนธรรม"
+      ],
+      "moods": [
+        "food",
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "สำรวจอาหารและวิถีการกิน",
+      "stats": {
+        "chill": 3,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "วันศุกร์สุดท้ายของเดือน 16:00-23:00",
+      "closed_days": "วันอื่นนอกจากวันศุกร์สุดท้ายของเดือน",
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 60,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/21222"
+      ],
+      "uncertain_fields": [
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label"
+      ]
+    },
+    {
+      "id": "pak-phanang-retro-market",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ตลาดย้อนยุคปากพนัง",
+      "name_en": "Pak Phanang Retro Market",
+      "district_th": "ปากพนัง",
+      "description_th": "เดินตลาดวันอาทิตย์ในปากพนังเพื่อสำรวจอาหารและบรรยากาศการค้าของชุมชนเก่า",
+      "lat": 8.3556227392596,
+      "lng": 100.19899836561,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/21171",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดย้อนยุค",
+        "ชุมชน",
+        "อาหารท้องถิ่น"
+      ],
+      "moods": [
+        "food",
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "สำรวจอาหารและวิถีการกิน",
+      "stats": {
+        "chill": 3,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "อาทิตย์ 14:00-20:00",
+      "closed_days": "จันทร์-เสาร์",
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 120,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/21171"
+      ],
+      "uncertain_fields": [
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label"
+      ]
+    },
+    {
+      "id": "nai-phlao-beach",
+      "province": "nakhon-si-thammarat",
+      "name_th": "หาดในเพลา",
+      "name_en": "Nai Phlao Beach",
+      "district_th": "ขนอม",
+      "description_th": "พักริมชายหาดในเพลาของขนอมและมองแนวโค้งของชายฝั่งที่มีภูเขาเป็นฉากหลัง",
+      "lat": 9.1333135111659,
+      "lng": 99.878185423279,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1855",
+      "coords_uncertain": false,
+      "tags": [
+        "ชายหาด",
+        "ขนอม",
+        "พักผ่อน"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 120,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1855"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label"
+      ]
+    },
+    {
+      "id": "laem-talumphuk",
+      "province": "nakhon-si-thammarat",
+      "name_th": "แหลมตะลุมพุก",
+      "name_en": "Laem Talumphuk",
+      "district_th": "ปากพนัง",
+      "description_th": "ชมภูมิประเทศริมทะเลและวิถีชุมชนประมงบนแหลมตะลุมพุกในอำเภอปากพนัง",
+      "lat": 8.5058,
+      "lng": 100.1638,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1871",
+      "coords_uncertain": false,
+      "tags": [
+        "แหลม",
+        "วิถีประมง",
+        "ปากพนัง"
+      ],
+      "moods": [
+        "beach",
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 60,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1871"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "opening_hours",
+        "price_label"
+      ]
+    },
+    {
+      "id": "khao-wang-thong-cave",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ถ้ำเขาวังทอง",
+      "name_en": "Khao Wang Thong Cave",
+      "district_th": "ขนอม",
+      "description_th": "สำรวจห้องถ้ำและรูปทรงหินงอกหินย้อยของถ้ำเขาวังทองในอำเภอขนอม",
+      "lat": 9.2045234671852,
+      "lng": 99.774034023285,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/2471",
+      "coords_uncertain": false,
+      "tags": [
+        "ถ้ำ",
+        "หินงอกหินย้อย",
+        "ขนอม"
+      ],
+      "moods": [
+        "adventure",
+        "mountain",
+        "photo"
+      ],
+      "mood_reason": "มีกิจกรรมให้เดินสำรวจหรือสัมผัสบรรยากาศคึกคัก",
+      "stats": {
+        "chill": 3,
+        "adventure": 5,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 45,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2471"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label"
+      ]
+    },
+    {
+      "id": "phrom-lok-waterfall",
+      "province": "nakhon-si-thammarat",
+      "name_th": "น้ำตกพรหมโลก",
+      "name_en": "Phrom Lok Waterfall",
+      "district_th": "พรหมคีรี",
+      "description_th": "เดินชมธารน้ำและป่ารอบน้ำตกพรหมโลกในพื้นที่อุทยานแห่งชาติเขาหลวง",
+      "lat": 8.5272827726315,
+      "lng": 99.783363294651,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1873",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตก",
+        "เขาหลวง",
+        "ศึกษาธรรมชาติ"
+      ],
+      "moods": [
+        "mountain",
+        "adventure",
+        "quiet"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 5,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1873"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "wat-chedi-ai-khai",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดเจดีย์ไอ้ไข่",
+      "name_en": "Wat Chedi Ai Khai",
+      "district_th": "สิชล",
+      "description_th": "เรียนรู้ความศรัทธาและเรื่องเล่าของไอ้ไข่ที่วัดเจดีย์ในอำเภอสิชล",
+      "lat": 8.9114192,
+      "lng": 99.8472532,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/1036",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "ความเชื่อท้องถิ่น",
+        "สิชล"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1036"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "khao-sun-viewpoint",
+      "province": "nakhon-si-thammarat",
+      "name_th": "จุดชมวิวเขาศูนย์",
+      "name_en": "Khao Sun Viewpoint",
+      "district_th": "ฉวาง",
+      "description_th": "ขึ้นเขาศูนย์เพื่อมองภูมิทัศน์อำเภอฉวาง ช่วงเช้าหรือหลังฝนมีโอกาสพบหมอกคลุมแนวเขา",
+      "lat": 8.4846115298162,
+      "lng": 99.469463228005,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/21310",
+      "coords_uncertain": false,
+      "tags": [
+        "จุดชมวิว",
+        "ทะเลหมอก",
+        "ฉวาง"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ชมธรรมชาติและพื้นที่สีเขียว",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/21310"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    },
+    {
+      "id": "ban-than-khun-nakhon-si-thammarat",
+      "province": "nakhon-si-thammarat",
+      "name_th": "บ้านท่านขุน",
+      "name_en": "Ban Than Khun",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "ชมบ้านทรงปั้นหยาที่ได้รับการอนุรักษ์และเรียนรู้เรื่องราวของขุนรัฐวุฒิวิจารณ์ในเมืองนครศรีธรรมราช",
+      "lat": 8.409615695,
+      "lng": 99.96762432,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/21245",
+      "coords_uncertain": false,
+      "tags": [
+        "บ้านเก่า",
+        "สถาปัตยกรรม",
+        "วัฒนธรรม"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-20:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": 60,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/21245"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label"
+      ]
+    },
+    {
+      "id": "khao-kha-archaeological-site",
+      "province": "nakhon-si-thammarat",
+      "name_th": "โบราณสถานเขาคา",
+      "name_en": "Khao Kha Archaeological Site",
+      "district_th": "สิชล",
+      "description_th": "ตามรอยชุมชนโบราณและศาสนสถานพราหมณ์บนเนินเขาคา ซึ่งยังเหลือหลักฐานกระจายตามสันเขา",
+      "lat": 8.87809,
+      "lng": 99.86968,
+      "coords_source": "https://www.thailandtourismdirectory.go.th/en/attraction/3451",
+      "coords_uncertain": false,
+      "tags": [
+        "โบราณสถาน",
+        "พราหมณ์",
+        "ประวัติศาสตร์"
+      ],
+      "moods": [
+        "temple",
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "เรียนรู้ศาสนา ประวัติศาสตร์ หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": null,
+        "max": null
+      },
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thailandtourismdirectory.go.th/en/attraction/3451"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "image_author",
+        "image_license",
+        "image_page_url",
+        "image_url",
+        "nearby_booking_hint",
+        "price_label",
+        "visit_minutes"
+      ]
+    }
+  ]
+}
