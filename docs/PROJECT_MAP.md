@@ -129,6 +129,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] ตาราง places/trips/swipes + seed ตัวอย่าง 8 ที่ (กระบี่ 4, ภูเก็ต 4, id ขึ้นต้น `sample-` ลบเมื่อข้อมูลจริงมา)
 - [x] import ข้อมูลจริง 28 ที่ จาก `AI/gemini-code-1792804922688.json` (ลบ sample แล้ว) — มู้ด Claude กำหนดรายที่ (ค้นเว็บเพิ่ม), rarity: ลับ=ตำนาน พอรู้จัก=หายาก ดัง=ธรรมดา, price ฟรี/ถูก=1 กลาง=2 แพง=3
 - [x] รูปสถานที่ 26/28 (Wikimedia 20 + Unsplash 6) — ไม่มีรูป: san-chao-market, laem-homestay (การ์ดใช้ภาพประกอบ)
+- [ ] ข้อมูลเพิ่ม ~150 ที่ (กทม. 50, ปริมณฑล 5 จ. 40, ใต้ 5 จ.เดิม +60) + ระบบราง/เรือ กทม. — Codex รอบ 1 กำลังหาข้อมูลใน ../AFOU-codex-data → AI/data/places-*.json, frontend/src/data/transit/bkk.json; รอบ 2 = logic เส้นทาง + UI
 - [ ] Gemini API key: ใส่ `backend/supabase/functions/.env` (GEMINI_API_KEY) แล้ว `supabase functions serve mood-reader`; ถ้า 401 ตั้ง `[functions.mood-reader] verify_jwt = false`
 - [x] แตก lane A–E แล้ว merge ครบ (A Home/บุคลิก, B Mood/AI, C Swipe, D Trip, E Map — Codex)
 - [ ] เนื้อหาข้อตกลง/นโยบายจริง (ตอนนี้ mockup)
@@ -173,3 +174,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | merge งาน Codex lane 2–5 (flow วางทริปใหม่ครบ); random.js ใช้วันที่ local แทน UTC |
 | 2026-10-24 | ลง lucide-react (ไอคอนแทน emoji — ห้ามใช้ emoji ในเว็บ); สั่ง Codex polish UI (สุ่มเฉพาะหลังกดสุ่ม, เอา emoji ออก, animation ตอนเลือก, ตัดล็อกวันเดินทาง, กันปุ่มทับ slider, chip ไม่เบียด, ปุ่มสุ่มใหม่/ไปต่อเท่ากัน) ใน ../AFOU-codex-polish |
 | 2026-10-24 | merge Codex UI polish: ไอคอน lucide แทน emoji ทั้งเว็บ, animation ตอนเลือก, สุ่มสลับตัวอักษรครั้งเดียวหลังกดสุ่ม, ตัดล็อกวันเดินทาง, footer ไม่ทับ, chip ไม่เบียด, ปุ่มสุ่มใหม่/ไปต่อเท่ากัน |
+| 2026-10-24 | สั่ง Codex (web search + network) หาข้อมูลสถานที่ ~150 ที่ + เครือข่ายราง/เรือ กทม. (data only) |
