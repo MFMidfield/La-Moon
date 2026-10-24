@@ -24,6 +24,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/AppHeader.jsx | header ในแอป: ปุ่มกลับ (backTo/onBack) + crumb + title + step pill | |
 | frontend/src/components/BottomSheet.jsx | sheet ล่าง/dialog กลางจอ (Esc, backdrop, scroll lock) | |
 | frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
+| frontend/src/components/map/ | แผนที่ (Codex): CountryMap, ProvinceMap, ProvinceSearch, geometry (d3-geo), useMapData, MapStatus; GeoJSON 77 จังหวัด `src/data/geo/thailand.json` (164 KB, lazy load) | |
 | frontend/src/components/home/ | หน้า Home: HomeHeader, PersonalityChip, StartBox, TripList, WishProvinces, Sticker, useLoad (hook โหลดครั้งเดียว) | |
 | frontend/src/components/personality/ | หน้าบุคลิก: PersonalityCard, PersonalityArt (7 ฉาก), ShareActions, EmptyState | |
 | frontend/src/components/trip/ | สรุปทริป: TripSummary, ComboCard, PlaceRow, PlaceThumb, BookingSheet (mock Agoda/Booking/Klook), TripStates | |
@@ -68,8 +69,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | `/map/:province/trip` | สรุปทริปจากการปัด รับ state { likedIds, moods, budget } → บันทึก → /trips/:id (lane D เสร็จ) | private |
 | `/trips/:id` | ดูทริปที่บันทึก + ลบ (lane D เสร็จ) | private |
 | `/personality` | บุคลิกการเที่ยวจาก swipes ขวาทั้งหมด + แชร์ (lane A เสร็จ) | private |
-| `/map` | แผนที่ไทย | private |
-| `/map/:province` | ซูมจังหวัด | private |
+| `/map` | แผนที่ไทย: ค้นหา, filter ภาค, จังหวัดไม่มีข้อมูล = หมอก, สุ่มจังหวัด (lane E เสร็จ) | private |
+| `/map/:province` | ซูมจังหวัด + หมุดสถานที่ + การ์ดจังหวัด → mood (lane E เสร็จ) | private |
 | `/map/:province/mood` | เลือก mood | private |
 | `/map/:province/swipe` | Swipe | private |
 - "register แล้ว" = มีแถวใน `profiles` (id = auth.users.id)
@@ -145,3 +146,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | merge lane B: หน้า Mood + Edge Function mood-reader; gitignore .claude/worktrees |
 | 2026-10-24 | merge lane D: หน้าสรุปทริป + ทริปที่บันทึก (ลบได้, จอง mock) |
 | 2026-10-24 | merge lane A: หน้า Home + บุคลิกการเที่ยว |
+| 2026-10-24 | merge lane E (Codex): หน้า Map + Province |
