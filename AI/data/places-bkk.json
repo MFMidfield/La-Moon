@@ -1,0 +1,2905 @@
+{
+  "generated_at": "2026-10-24",
+  "places": [
+    {
+      "id": "wat-arun",
+      "province": "bangkok",
+      "name_th": "วัดอรุณราชวราราม",
+      "name_en": "Wat Arun",
+      "district_th": "บางกอกใหญ่",
+      "description_th": "วัดริมเจ้าพระยาที่มีพระปรางค์เด่นเป็นจุดสังเกต ลองเดินชมงานประดับและมองทิวทัศน์สองฝั่งแม่น้ำ",
+      "lat": 13.74361,
+      "lng": 100.48889,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Arun",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "ริมแม่น้ำ",
+        "สถาปัตยกรรม"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "beach"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ / มีพื้นที่หรือบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B8%B8%E0%B8%932.jpg/1280px-%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B8%B8%E0%B8%932.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:เจดีย์ประธานทรงปรางค์วัดอรุณ2.jpg",
+      "image_author": "Mastertongapollo",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Arun",
+        "https://commons.wikimedia.org/wiki/File:เจดีย์ประธานทรงปรางค์วัดอรุณ2.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "wat-pho",
+      "province": "bangkok",
+      "name_th": "วัดพระเชตุพนวิมลมังคลาราม",
+      "name_en": "Wat Pho",
+      "district_th": "พระนคร",
+      "description_th": "เดินชมพระพุทธไสยาสและกลุ่มเจดีย์ในวัดเก่าแก่ พื้นที่นี้ยังผูกพันกับความรู้ด้านการแพทย์แผนไทย",
+      "lat": 13.74639,
+      "lng": 100.49361,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Pho",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "พระพุทธไสยาส",
+        "ประวัติศาสตร์"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Pho"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "grand-palace-bangkok",
+      "province": "bangkok",
+      "name_th": "พระบรมมหาราชวัง",
+      "name_en": "Grand Palace",
+      "district_th": "พระนคร",
+      "description_th": "ชมหมู่พระที่นั่งและรายละเอียดงานช่างในเขตพระราชฐานเก่า เหมาะกับการทำความรู้จักประวัติศาสตร์กรุงเทพฯ",
+      "lat": 13.7501,
+      "lng": 100.492,
+      "coords_source": "https://en.wikipedia.org/wiki/Grand_Palace",
+      "coords_uncertain": false,
+      "tags": [
+        "พระราชวัง",
+        "ประวัติศาสตร์",
+        "สถาปัตยกรรม"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/0005574_-_Wat_Phra_Kaew_006.jpg/1280px-0005574_-_Wat_Phra_Kaew_006.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:0005574_-_Wat_Phra_Kaew_006.jpg",
+      "image_author": "Preecha.MJ",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Grand_Palace",
+        "https://commons.wikimedia.org/wiki/File:0005574_-_Wat_Phra_Kaew_006.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "wat-saket",
+      "province": "bangkok",
+      "name_th": "วัดสระเกศและภูเขาทอง",
+      "name_en": "Wat Saket and Golden Mount",
+      "district_th": "ป้อมปราบศัตรูพ่าย",
+      "description_th": "ค่อย ๆ เดินขึ้นภูเขาทองเพื่อชมเจดีย์และมุมเมืองเก่า ระหว่างทางมีรายละเอียดของวัดให้หยุดดู",
+      "lat": 13.75389,
+      "lng": 100.50833,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Saket",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "เมืองเก่า",
+        "จุดชมวิว"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%81%E0%B8%A8-2.jpg/1280px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%81%E0%B8%A8-2.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:วัดสระเกศ-2.jpg",
+      "image_author": "BerryJ",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Saket",
+        "https://commons.wikimedia.org/wiki/File:วัดสระเกศ-2.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "wat-suthat",
+      "province": "bangkok",
+      "name_th": "วัดสุทัศนเทพวราราม",
+      "name_en": "Wat Suthat",
+      "district_th": "พระนคร",
+      "description_th": "เดินชมพระวิหารและงานจิตรกรรมในวัดใกล้เสาชิงช้า เหมาะกับการหยุดพักระหว่างเที่ยวพระนคร",
+      "lat": 13.75056,
+      "lng": 100.50111,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Suthat",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "จิตรกรรม",
+        "เมืองเก่า"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ / เหมาะกับการพักและค่อย ๆ เดินชม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Suthat"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "wat-benchamabophit",
+      "province": "bangkok",
+      "name_th": "วัดเบญจมบพิตรดุสิตวนาราม",
+      "name_en": "Wat Benchamabophit",
+      "district_th": "ดุสิต",
+      "description_th": "ชมพระอุโบสถหินอ่อนและระเบียงพระพุทธรูปในย่านดุสิต รายละเอียดอาคารเป็นจุดเด่นของการเดินชมวัด",
+      "lat": 13.766583,
+      "lng": 100.514083,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Benchamabophit",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "หินอ่อน",
+        "สถาปัตยกรรม"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Wat_Benjamabophit1.jpg/1280px-Wat_Benjamabophit1.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Benjamabophit1.jpg",
+      "image_author": "Kriengsak Jirasirirojanakorn",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Benchamabophit",
+        "https://commons.wikimedia.org/wiki/File:Wat_Benjamabophit1.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "wat-ratchanatdaram",
+      "province": "bangkok",
+      "name_th": "วัดราชนัดดารามวรวิหาร",
+      "name_en": "Wat Ratchanatdaram",
+      "district_th": "พระนคร",
+      "description_th": "ชมโลหะปราสาทที่มีรูปทรงต่างจากวัดทั่วไป แล้วเดินต่อสำรวจบริเวณถนนราชดำเนิน",
+      "lat": 13.75472,
+      "lng": 100.50472,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Ratchanatdaram",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "โลหะปราสาท",
+        "เมืองเก่า"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/03-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%99%E0%B8%B1%E0%B8%94%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1.jpg/1280px-03-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%99%E0%B8%B1%E0%B8%94%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:03-วัดราชนัดดาราม.jpg",
+      "image_author": "BerryJ",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Ratchanatdaram",
+        "https://commons.wikimedia.org/wiki/File:03-วัดราชนัดดาราม.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "wat-traimit",
+      "province": "bangkok",
+      "name_th": "วัดไตรมิตรวิทยาราม",
+      "name_en": "Wat Traimit",
+      "district_th": "สัมพันธวงศ์",
+      "description_th": "แวะสักการะพระพุทธมหาสุวรรณปฏิมากรในวัดย่านเยาวราช เหมาะกับการเชื่อมทริปวัดและชุมชนจีน",
+      "lat": 13.73806,
+      "lng": 100.51361,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Traimit",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "พระพุทธรูปทองคำ",
+        "ชุมชนจีน"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/0005387_-_Wat_Traimitr_Withayaram_002.jpg/1280px-0005387_-_Wat_Traimitr_Withayaram_002.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:0005387_-_Wat_Traimitr_Withayaram_002.jpg",
+      "image_author": "Preecha.MJ",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Traimit",
+        "https://commons.wikimedia.org/wiki/File:0005387_-_Wat_Traimitr_Withayaram_002.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "wat-paknam-bhasicharoen",
+      "province": "bangkok",
+      "name_th": "วัดปากน้ำภาษีเจริญ",
+      "name_en": "Wat Paknam Bhasicharoen",
+      "district_th": "ภาษีเจริญ",
+      "description_th": "เดินชมวัดเก่าฝั่งธนบุรีที่มีพระพุทธรูปองค์ใหญ่และมหาเจดีย์เป็นจุดเด่น เหมาะกับคนชอบงานศิลป์ในวัด",
+      "lat": 13.7217,
+      "lng": 100.4703,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Paknam_Bhasicharoen",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "พระใหญ่",
+        "ฝั่งธนบุรี"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Paknam_Bhasicharoen"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "wat-kalayanamitr",
+      "province": "bangkok",
+      "name_th": "วัดกัลยาณมิตรวรมหาวิหาร",
+      "name_en": "Wat Kalayanamitr",
+      "district_th": "ธนบุรี",
+      "description_th": "แวะวัดริมแม่น้ำเจ้าพระยาและชมพระพุทธรูปในพระวิหาร เชื่อมเดินสำรวจชุมชนฝั่งธนบุรีได้",
+      "lat": 13.74,
+      "lng": 100.49139,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Kalayanamitr",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "ริมแม่น้ำ",
+        "ฝั่งธนบุรี"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีพื้นที่หรือบรรยากาศริมน้ำ / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B1%E0%B8%A5%E0%B8%A2%E0%B8%B2%E0%B8%93%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%A3%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A32.jpg/1280px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B1%E0%B8%A5%E0%B8%A2%E0%B8%B2%E0%B8%93%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%A3%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A32.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:วัดกัลยาณมิตรวรมหาวิหาร2.jpg",
+      "image_author": "Mastertongapollo",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Kalayanamitr",
+        "https://commons.wikimedia.org/wiki/File:วัดกัลยาณมิตรวรมหาวิหาร2.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "bangkok-art-and-culture-centre",
+      "province": "bangkok",
+      "name_th": "หอศิลปวัฒนธรรมแห่งกรุงเทพมหานคร",
+      "name_en": "Bangkok Art and Culture Centre",
+      "district_th": "ปทุมวัน",
+      "description_th": "เดินดูนิทรรศการศิลปะและพื้นที่สร้างสรรค์ใจกลางเมือง ทางเดินภายในอาคารเปิดมุมมองให้ค่อย ๆ สำรวจงานแต่ละชั้น",
+      "lat": 13.74667,
+      "lng": 100.53,
+      "coords_source": "https://en.wikipedia.org/wiki/Bangkok_Art_and_Culture_Centre",
+      "coords_uncertain": false,
+      "tags": [
+        "ศิลปะ",
+        "นิทรรศการ",
+        "ใจกลางเมือง"
+      ],
+      "moods": [
+        "photo",
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "มีรายละเอียดและมุมภาพให้สำรวจ / มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / เหมาะกับการพักและค่อย ๆ เดินชม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "10:00-21:00",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "price_label": "ฟรี",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/BKK_Art_and_Culture_Centre_%28II%29.jpg/1280px-BKK_Art_and_Culture_Centre_%28II%29.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:BKK_Art_and_Culture_Centre_(II).jpg",
+      "image_author": "Supanut Arunoprayote",
+      "image_license": "CC BY 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bangkok_Art_and_Culture_Centre",
+        "https://commons.wikimedia.org/wiki/File:BKK_Art_and_Culture_Centre_(II).jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "museum-siam",
+      "province": "bangkok",
+      "name_th": "มิวเซียมสยาม",
+      "name_en": "Museum Siam",
+      "district_th": "พระนคร",
+      "description_th": "สำรวจเรื่องราวความเป็นไทยผ่านพิพิธภัณฑ์การเรียนรู้ในอาคารเก่า เหมาะกับการเติมบริบทให้ทริปเมืองเก่า",
+      "lat": 13.7441,
+      "lng": 100.4941,
+      "coords_source": "https://en.wikipedia.org/wiki/Museum_Siam",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "ประวัติศาสตร์",
+        "เมืองเก่า"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Museum_Siam_20250825.jpg/1280px-Museum_Siam_20250825.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Museum_Siam_20250825.jpg",
+      "image_author": "Supanut Arunoprayote",
+      "image_license": "CC BY 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Museum_Siam",
+        "https://commons.wikimedia.org/wiki/File:Museum_Siam_20250825.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "bangkok-national-museum",
+      "province": "bangkok",
+      "name_th": "พิพิธภัณฑสถานแห่งชาติ พระนคร",
+      "name_en": "Bangkok National Museum",
+      "district_th": "พระนคร",
+      "description_th": "ชมโบราณวัตถุและงานศิลปะที่เล่าประวัติศาสตร์ไทยในพื้นที่วังหน้า เหมาะกับคนที่อยากใช้เวลากับรายละเอียดของแต่ละยุค",
+      "lat": 13.7575,
+      "lng": 100.49222,
+      "coords_source": "https://en.wikipedia.org/wiki/Bangkok_National_Museum",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "โบราณวัตถุ",
+        "วังหน้า"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / เหมาะกับการพักและค่อย ๆ เดินชม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Siwamok_Phiman_Hall_at_Noon.jpg/1280px-Siwamok_Phiman_Hall_at_Noon.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Siwamok_Phiman_Hall_at_Noon.jpg",
+      "image_author": "Supanut Arunoprayote",
+      "image_license": "CC BY 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bangkok_National_Museum",
+        "https://commons.wikimedia.org/wiki/File:Siwamok_Phiman_Hall_at_Noon.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "jim-thompson-house",
+      "province": "bangkok",
+      "name_th": "พิพิธภัณฑ์บ้านจิม ทอมป์สัน",
+      "name_en": "Jim Thompson House",
+      "district_th": "ปทุมวัน",
+      "description_th": "ชมบ้านไทยและงานศิลปะเอเชียที่จิม ทอมป์สันรวบรวมไว้ บรรยากาศบ้านช่วยให้เห็นอีกมุมของย่านใจกลางเมือง",
+      "lat": 13.74917,
+      "lng": 100.52833,
+      "coords_source": "https://en.wikipedia.org/wiki/Jim_Thompson_House",
+      "coords_uncertain": false,
+      "tags": [
+        "บ้านไทย",
+        "พิพิธภัณฑ์",
+        "ศิลปะ"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ / เหมาะกับการพักและค่อย ๆ เดินชม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Main_House_of_Jim_Thompson_photo_Don_Ramey_Logan.jpg/1280px-Main_House_of_Jim_Thompson_photo_Don_Ramey_Logan.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Main_House_of_Jim_Thompson_photo_Don_Ramey_Logan.jpg",
+      "image_author": "Don Ramey Logan",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jim_Thompson_House",
+        "https://commons.wikimedia.org/wiki/File:Main_House_of_Jim_Thompson_photo_Don_Ramey_Logan.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "moca-bangkok",
+      "province": "bangkok",
+      "name_th": "พิพิธภัณฑ์ศิลปะไทยร่วมสมัย",
+      "name_en": "MOCA Bangkok",
+      "district_th": "จตุจักร",
+      "description_th": "ค่อย ๆ ดูงานศิลปะไทยร่วมสมัยในพิพิธภัณฑ์ย่านจตุจักร มีทั้งภาพเขียนและประติมากรรมให้สำรวจ",
+      "lat": 13.851944444444,
+      "lng": 100.5625,
+      "coords_source": "https://www.wikidata.org/wiki/Special:EntityData/Q65100079.json",
+      "coords_uncertain": false,
+      "tags": [
+        "ศิลปะร่วมสมัย",
+        "พิพิธภัณฑ์",
+        "นิทรรศการ"
+      ],
+      "moods": [
+        "photo",
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "มีรายละเอียดและมุมภาพให้สำรวจ / มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / เหมาะกับการพักและค่อย ๆ เดินชม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "10:00-18:00",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 300,
+        "max": 300
+      },
+      "price_label": "กลาง (200-1000฿)",
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Museum_of_Contemporary_Art_%28MOCA%29%2C_Bangkok%2C_Thailand_-_20161201-05.jpg/1280px-Museum_of_Contemporary_Art_%28MOCA%29%2C_Bangkok%2C_Thailand_-_20161201-05.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Museum_of_Contemporary_Art_(MOCA),_Bangkok,_Thailand_-_20161201-05.jpg",
+      "image_author": "Smuconlaw",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Museum_of_Contemporary_Art_(Bangkok)",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q65100079.json",
+        "https://www.mocabangkok.com/contact-us/faq/",
+        "https://commons.wikimedia.org/wiki/File:Museum_of_Contemporary_Art_(MOCA),_Bangkok,_Thailand_-_20161201-05.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "bangkokian-museum",
+      "province": "bangkok",
+      "name_th": "พิพิธภัณฑ์ชาวบางกอก",
+      "name_en": "Bangkokian Museum",
+      "district_th": "บางรัก",
+      "description_th": "เดินชมบ้านและข้าวของที่สะท้อนชีวิตคนบางกอกช่วงกลางศตวรรษที่ยี่สิบ เป็นมุมเล็ก ๆ สำหรับมองอดีตของย่านบางรัก",
+      "lat": 13.72833,
+      "lng": 100.51806,
+      "coords_source": "https://en.wikipedia.org/wiki/Bangkokian_Museum",
+      "coords_uncertain": false,
+      "tags": [
+        "บ้านเก่า",
+        "พิพิธภัณฑ์",
+        "วิถีชีวิต"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / เหมาะกับการพักและค่อย ๆ เดินชม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Bangkokian_museum.JPG/1280px-Bangkokian_museum.JPG",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Bangkokian_museum.JPG",
+      "image_author": "hkgalbert",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bangkokian_Museum",
+        "https://commons.wikimedia.org/wiki/File:Bangkokian_museum.JPG"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "national-museum-of-royal-barges",
+      "province": "bangkok",
+      "name_th": "พิพิธภัณฑสถานแห่งชาติ เรือพระราชพิธี",
+      "name_en": "National Museum of Royal Barges",
+      "district_th": "บางกอกน้อย",
+      "description_th": "ชมเรือพระราชพิธีและงานแกะสลักตกแต่งเรือริมคลองบางกอกน้อย เหมาะกับคนสนใจงานช่างและพระราชประเพณี",
+      "lat": 13.76167,
+      "lng": 100.484417,
+      "coords_source": "https://en.wikipedia.org/wiki/National_Museum_of_Royal_Barges",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "เรือพระราชพิธี",
+        "งานช่าง"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/National_Museum_of_Royal_Barges"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "lumphini-park",
+      "province": "bangkok",
+      "name_th": "สวนลุมพินี",
+      "name_en": "Lumphini Park",
+      "district_th": "ปทุมวัน",
+      "description_th": "เดินเล่นรอบสระน้ำและพักใต้ต้นไม้ในสวนกลางเมือง เป็นพื้นที่เปลี่ยนจังหวะจากถนนที่พลุกพล่าน",
+      "lat": 13.73056,
+      "lng": 100.54167,
+      "coords_source": "https://en.wikipedia.org/wiki/Lumphini_Park",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "ธรรมชาติในเมือง",
+        "เดินเล่น"
+      ],
+      "moods": [
+        "quiet",
+        "mountain",
+        "photo"
+      ],
+      "mood_reason": "เหมาะกับการพักและค่อย ๆ เดินชม / สัมผัสพื้นที่สีเขียวและธรรมชาติในเมือง / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "04:30-21:00",
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Aerial_view_of_Lumphini_Park.jpg/1280px-Aerial_view_of_Lumphini_Park.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Lumphini_Park.jpg",
+      "image_author": "Terence Ong",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lumphini_Park",
+        "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Lumphini_Park.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "benjakitti-park",
+      "province": "bangkok",
+      "name_th": "สวนเบญจกิติ",
+      "name_en": "Benjakitti Park",
+      "district_th": "คลองเตย",
+      "description_th": "เดินชมพื้นที่สีเขียวและบึงน้ำท่ามกลางอาคารเมือง เหมาะกับการพักสายตาหรือค่อย ๆ ถ่ายภาพระหว่างทาง",
+      "lat": 13.7294,
+      "lng": 100.5586,
+      "coords_source": "https://en.wikipedia.org/wiki/Benjakitti_Park",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "ธรรมชาติในเมือง",
+        "บึงน้ำ"
+      ],
+      "moods": [
+        "quiet",
+        "mountain",
+        "photo"
+      ],
+      "mood_reason": "เหมาะกับการพักและค่อย ๆ เดินชม / สัมผัสพื้นที่สีเขียวและธรรมชาติในเมือง / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "04:30-21:00",
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Benjakitti_Park"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "chatuchak-park",
+      "province": "bangkok",
+      "name_th": "สวนจตุจักร",
+      "name_en": "Chatuchak Park",
+      "district_th": "จตุจักร",
+      "description_th": "พักเดินเล่นในสวนใกล้ย่านจตุจักร มีพื้นที่สีเขียวและแหล่งน้ำให้หยุดพักระหว่างเที่ยวเมือง",
+      "lat": 13.80806,
+      "lng": 100.55556,
+      "coords_source": "https://en.wikipedia.org/wiki/Chatuchak_Park",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "ธรรมชาติในเมือง",
+        "เดินเล่น"
+      ],
+      "moods": [
+        "quiet",
+        "mountain"
+      ],
+      "mood_reason": "เหมาะกับการพักและค่อย ๆ เดินชม / สัมผัสพื้นที่สีเขียวและธรรมชาติในเมือง",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Chatuchak_Park_%28I%29.jpg/1280px-Chatuchak_Park_%28I%29.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Chatuchak_Park_(I).jpg",
+      "image_author": "Supanut Arunoprayote",
+      "image_license": "CC BY 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chatuchak_Park",
+        "https://commons.wikimedia.org/wiki/File:Chatuchak_Park_(I).jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "queen-sirikit-park-bangkok",
+      "province": "bangkok",
+      "name_th": "สวนสมเด็จพระนางเจ้าสิริกิติ์ฯ",
+      "name_en": "Queen Sirikit Park",
+      "district_th": "จตุจักร",
+      "description_th": "เดินชมสวนพฤกษศาสตร์ในกลุ่มสวนจตุจักร เหมาะกับการมองรายละเอียดของต้นไม้และสวนดอกไม้",
+      "lat": 13.8067,
+      "lng": 100.55,
+      "coords_source": "https://en.wikipedia.org/wiki/Queen_Sirikit_Park",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนพฤกษศาสตร์",
+        "ธรรมชาติในเมือง",
+        "ดอกไม้"
+      ],
+      "moods": [
+        "quiet",
+        "mountain",
+        "photo"
+      ],
+      "mood_reason": "เหมาะกับการพักและค่อย ๆ เดินชม / สัมผัสพื้นที่สีเขียวและธรรมชาติในเมือง / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen_Sirikit_Park"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "wachirabenchathat-park",
+      "province": "bangkok",
+      "name_th": "สวนวชิรเบญจทัศ (สวนรถไฟ)",
+      "name_en": "Wachirabenchathat Park",
+      "district_th": "จตุจักร",
+      "description_th": "พักในสวนขนาดใหญ่ของย่านจตุจักร เลือกเดินหรือปั่นจักรยานสำรวจแนวต้นไม้ตามจังหวะของตัวเอง",
+      "lat": 13.812,
+      "lng": 100.554,
+      "coords_source": "https://en.wikipedia.org/wiki/Wachirabenchathat_Park",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "จักรยาน",
+        "ธรรมชาติในเมือง"
+      ],
+      "moods": [
+        "quiet",
+        "mountain",
+        "adventure"
+      ],
+      "mood_reason": "เหมาะกับการพักและค่อย ๆ เดินชม / สัมผัสพื้นที่สีเขียวและธรรมชาติในเมือง / มีกิจกรรมหรือบรรยากาศคึกคัก",
+      "stats": {
+        "chill": 5,
+        "adventure": 4,
+        "photo": 3,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Wachirabenchatat_park.jpg/1280px-Wachirabenchatat_park.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Wachirabenchatat_park.jpg",
+      "image_author": "Lerdsuwa",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wachirabenchathat_Park",
+        "https://commons.wikimedia.org/wiki/File:Wachirabenchatat_park.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "suan-luang-rama-ix",
+      "province": "bangkok",
+      "name_th": "สวนหลวง ร.9",
+      "name_en": "Suan Luang Rama IX",
+      "district_th": "ประเวศ",
+      "description_th": "เดินชมสวนและพื้นที่ริมบึงในย่านประเวศ พื้นที่กว้างช่วยให้เลือกมุมพักผ่อนหรือถ่ายภาพได้หลายแบบ",
+      "lat": 13.68833,
+      "lng": 100.66333,
+      "coords_source": "https://en.wikipedia.org/wiki/Suan_Luang_Rama_IX",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "สวนดอกไม้",
+        "บึงน้ำ"
+      ],
+      "moods": [
+        "quiet",
+        "mountain",
+        "photo"
+      ],
+      "mood_reason": "เหมาะกับการพักและค่อย ๆ เดินชม / สัมผัสพื้นที่สีเขียวและธรรมชาติในเมือง / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Suan_Luang_Rama_IX"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "nong-bon-water-sports-center",
+      "province": "bangkok",
+      "name_th": "ศูนย์กีฬาทางน้ำบึงหนองบอน",
+      "name_en": "Nong Bon Water Sports Center",
+      "district_th": "ประเวศ",
+      "description_th": "สำรวจบึงและเส้นทางรอบน้ำในสวนฝั่งตะวันออกของกรุงเทพฯ ที่นี่มีพื้นที่สำหรับกิจกรรมเรือและกีฬาทางน้ำ",
+      "lat": 13.693028,
+      "lng": 100.66225,
+      "coords_source": "https://en.wikipedia.org/wiki/Nong_Bon_Water_Sports_Center",
+      "coords_uncertain": false,
+      "tags": [
+        "กีฬาทางน้ำ",
+        "บึงน้ำ",
+        "จักรยาน"
+      ],
+      "moods": [
+        "adventure",
+        "beach",
+        "mountain"
+      ],
+      "mood_reason": "มีกิจกรรมหรือบรรยากาศคึกคัก / มีพื้นที่หรือบรรยากาศริมน้ำ / สัมผัสพื้นที่สีเขียวและธรรมชาติในเมือง",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 3,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "05:30-18:00",
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nong_Bon_Water_Sports_Center"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "santiphap-park",
+      "province": "bangkok",
+      "name_th": "สวนสันติภาพ",
+      "name_en": "Santiphap Park",
+      "district_th": "ราชเทวี",
+      "description_th": "พักเดินในสวนระหว่างถนนรางน้ำและถนนราชวิถี เป็นจุดเปลี่ยนบรรยากาศจากย่านอนุสาวรีย์ชัยสมรภูมิ",
+      "lat": 13.763151,
+      "lng": 100.541489,
+      "coords_source": "https://en.wikipedia.org/wiki/Santiphap_Park",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "เดินเล่น",
+        "ธรรมชาติในเมือง"
+      ],
+      "moods": [
+        "quiet",
+        "mountain"
+      ],
+      "mood_reason": "เหมาะกับการพักและค่อย ๆ เดินชม / สัมผัสพื้นที่สีเขียวและธรรมชาติในเมือง",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": "05:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Santiphap_Park_2.jpg/1280px-Santiphap_Park_2.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Santiphap_Park_2.jpg",
+      "image_author": "Mx. Granger",
+      "image_license": "CC0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Santiphap_Park",
+        "https://commons.wikimedia.org/wiki/File:Santiphap_Park_2.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "santichaiprakarn-park",
+      "province": "bangkok",
+      "name_th": "สวนสันติชัยปราการ",
+      "name_en": "Santichaiprakarn Park",
+      "district_th": "พระนคร",
+      "description_th": "นั่งพักริมเจ้าพระยาใกล้ป้อมพระสุเมรุ เหมาะกับการชมบรรยากาศแม่น้ำระหว่างเดินย่านบางลำพู",
+      "lat": 13.7637722,
+      "lng": 100.4960861,
+      "coords_source": "https://en.wikipedia.org/wiki/Santichaiprakarn_Park",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนริมน้ำ",
+        "เมืองเก่า",
+        "พักผ่อน"
+      ],
+      "moods": [
+        "quiet",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "เหมาะกับการพักและค่อย ๆ เดินชม / มีพื้นที่หรือบรรยากาศริมน้ำ / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "05:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Santichaiprakarn_Park"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "rommaninat-park",
+      "province": "bangkok",
+      "name_th": "สวนรมณีนาถ",
+      "name_en": "Rommaninat Park",
+      "district_th": "พระนคร",
+      "description_th": "เดินพักในสวนที่พัฒนาจากพื้นที่เรือนจำเก่าในพระนคร เหมาะกับการแทรกช่วงพักระหว่างชมวัดและชุมชนใกล้เคียง",
+      "lat": 13.7487972,
+      "lng": 100.5029944,
+      "coords_source": "https://en.wikipedia.org/wiki/Rommaninat_Park",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "ประวัติศาสตร์",
+        "เมืองเก่า"
+      ],
+      "moods": [
+        "quiet",
+        "temple"
+      ],
+      "mood_reason": "เหมาะกับการพักและค่อย ๆ เดินชม / มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Bangkok_Suan_Romaninart_Park_IMG_6834.JPG/1280px-Bangkok_Suan_Romaninart_Park_IMG_6834.JPG",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Bangkok_Suan_Romaninart_Park_IMG_6834.JPG",
+      "image_author": "Bjoertvedt",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rommaninat_Park",
+        "https://commons.wikimedia.org/wiki/File:Bangkok_Suan_Romaninart_Park_IMG_6834.JPG"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "chatuchak-weekend-market",
+      "province": "bangkok",
+      "name_th": "ตลาดนัดจตุจักร",
+      "name_en": "Chatuchak Weekend Market",
+      "district_th": "จตุจักร",
+      "description_th": "เดินสำรวจร้านค้าและอาหารในตลาดนัดขนาดใหญ่ มีสินค้าหลายประเภทให้เลือกชมตามความสนใจ",
+      "lat": 13.80083,
+      "lng": 100.55139,
+      "coords_source": "https://en.wikipedia.org/wiki/Chatuchak_Weekend_Market",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดนัด",
+        "ชอปปิง",
+        "อาหาร"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "สำรวจอาหารและวัฒนธรรมการกิน / มีรายละเอียดและมุมภาพให้สำรวจ / มีกิจกรรมหรือบรรยากาศคึกคัก",
+      "stats": {
+        "chill": 2,
+        "adventure": 4,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Bangkok_-_Jatujak_Market_02.JPG/1280px-Bangkok_-_Jatujak_Market_02.JPG",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Bangkok_-_Jatujak_Market_02.JPG",
+      "image_author": "Azreey",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chatuchak_Weekend_Market",
+        "https://commons.wikimedia.org/wiki/File:Bangkok_-_Jatujak_Market_02.JPG"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "or-tor-kor-market",
+      "province": "bangkok",
+      "name_th": "ตลาด อ.ต.ก.",
+      "name_en": "Or Tor Kor Market",
+      "district_th": "จตุจักร",
+      "description_th": "เลือกดูผลไม้ วัตถุดิบ และอาหารในตลาดใกล้จตุจักร เหมาะกับทริปที่อยากสำรวจอาหารผ่านแผงค้าหลากชนิด",
+      "lat": 13.7971,
+      "lng": 100.5475,
+      "coords_source": "https://en.wikipedia.org/wiki/Or_Tor_Kor_Market",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดสด",
+        "ผลไม้",
+        "อาหารไทย"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "สำรวจอาหารและวัฒนธรรมการกิน / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Or_Tor_Kor_Market"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "pak-khlong-talat",
+      "province": "bangkok",
+      "name_th": "ปากคลองตลาด",
+      "name_en": "Pak Khlong Talat",
+      "district_th": "พระนคร",
+      "description_th": "เดินดูสีสันของดอกไม้และแผงขายผักผลไม้ในตลาดเก่าริมแม่น้ำ ช่วงก่อนรุ่งเช้าเป็นจังหวะที่ตลาดคึกคัก",
+      "lat": 13.742209,
+      "lng": 100.496567,
+      "coords_source": "https://en.wikipedia.org/wiki/Pak_Khlong_Talat",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดดอกไม้",
+        "ตลาดสด",
+        "วิถีชีวิต"
+      ],
+      "moods": [
+        "photo",
+        "food"
+      ],
+      "mood_reason": "มีรายละเอียดและมุมภาพให้สำรวจ / สำรวจอาหารและวัฒนธรรมการกิน",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ก่อนรุ่งเช้า",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pak_Khlong_Talat"
+      ],
+      "uncertain_fields": [
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "taling-chan-floating-market",
+      "province": "bangkok",
+      "name_th": "ตลาดน้ำตลิ่งชัน",
+      "name_en": "Taling Chan Floating Market",
+      "district_th": "ตลิ่งชัน",
+      "description_th": "เดินชิมอาหารและดูแผงค้าริมคลองชักพระ บรรยากาศตลาดเชื่อมกับวิถีสวนและคลองของฝั่งธนบุรี",
+      "lat": 13.776366944444,
+      "lng": 100.45666,
+      "coords_source": "https://www.wikidata.org/wiki/Special:EntityData/Q13014947.json",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดน้ำ",
+        "อาหารท้องถิ่น",
+        "ริมคลอง"
+      ],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "สำรวจอาหารและวัฒนธรรมการกิน / มีพื้นที่หรือบรรยากาศริมน้ำ / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "07:00-17:00 เฉพาะวันเสาร์ วันอาทิตย์ และวันหยุดนักขัตฤกษ์",
+      "closed_days": "วันจันทร์-วันศุกร์ที่ไม่ใช่วันหยุดนักขัตฤกษ์",
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Taling_Chan_Floating_Market",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q13014947.json",
+        "https://www.tourismthailand.org/Attraction/talingchan-floating-market"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "khlong-lat-mayom-floating-market",
+      "province": "bangkok",
+      "name_th": "ตลาดน้ำคลองลัดมะยม",
+      "name_en": "Khlong Lat Mayom Floating Market",
+      "district_th": "ตลิ่งชัน",
+      "description_th": "สำรวจอาหารและผลิตผลของชุมชนริมคลองในย่านบางระมาด เหมาะกับการเดินชิมและรู้จักวิถีสวนฝั่งธนบุรี",
+      "lat": 13.761861,
+      "lng": 100.4155806,
+      "coords_source": "https://en.wikipedia.org/wiki/Khlong_Lat_Mayom_Floating_Market",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดน้ำ",
+        "ชุมชนชาวสวน",
+        "อาหารท้องถิ่น"
+      ],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "สำรวจอาหารและวัฒนธรรมการกิน / มีพื้นที่หรือบรรยากาศริมน้ำ / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%A5%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B8%A2%E0%B8%A1_01.jpg/1280px-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%A5%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B8%A2%E0%B8%A1_01.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:ตลาดน้ำคลองลัดมะยม_01.jpg",
+      "image_author": "Dharmadana",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Khlong_Lat_Mayom_Floating_Market",
+        "https://commons.wikimedia.org/wiki/File:ตลาดน้ำคลองลัดมะยม_01.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "khwan-riam-floating-market",
+      "province": "bangkok",
+      "name_th": "ตลาดน้ำขวัญเรียม",
+      "name_en": "Khwan Riam Floating Market",
+      "district_th": "มีนบุรี",
+      "description_th": "เดินชมตลาดสองฝั่งคลองแสนแสบระหว่างวัดบำเพ็ญเหนือและวัดบางเพ็งใต้ เลือกแวะอาหารและมุมริมน้ำตามทาง",
+      "lat": 13.8001,
+      "lng": 100.71,
+      "coords_source": "https://en.wikipedia.org/wiki/Khwan_Riam_Floating_Market",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดน้ำ",
+        "ริมคลอง",
+        "อาหาร"
+      ],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "สำรวจอาหารและวัฒนธรรมการกิน / มีพื้นที่หรือบรรยากาศริมน้ำ / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": "07:00-18:00 เฉพาะวันเสาร์ วันอาทิตย์ และวันหยุดนักขัตฤกษ์",
+      "closed_days": "วันจันทร์-วันศุกร์ที่ไม่ใช่วันหยุดนักขัตฤกษ์",
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Min_Buri%2C_Bangkok_10510%2C_Thailand_-_panoramio_%285%29.jpg/1280px-Min_Buri%2C_Bangkok_10510%2C_Thailand_-_panoramio_%285%29.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Min_Buri,_Bangkok_10510,_Thailand_-_panoramio_(5).jpg",
+      "image_author": "mohigan",
+      "image_license": "CC BY-SA 3.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Khwan_Riam_Floating_Market",
+        "https://commons.wikimedia.org/wiki/File:Min_Buri,_Bangkok_10510,_Thailand_-_panoramio_(5).jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "wang-lang-market",
+      "province": "bangkok",
+      "name_th": "ตลาดวังหลัง",
+      "name_en": "Wang Lang Market",
+      "district_th": "บางกอกน้อย",
+      "description_th": "เดินสำรวจร้านอาหาร ขนม และเสื้อผ้าในย่านวังหลัง ตลาดอยู่ใกล้แม่น้ำและเชื่อมกับวิถีชุมชนฝั่งธนบุรี",
+      "lat": 13.7554972,
+      "lng": 100.485075,
+      "coords_source": "https://en.wikipedia.org/wiki/Wang_Lang_Market",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดชุมชน",
+        "ขนม",
+        "อาหารท้องถิ่น"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "สำรวจอาหารและวัฒนธรรมการกิน / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Rear_Palace_Sushi_-_2017-02-25_%28001%29.jpg/1280px-Rear_Palace_Sushi_-_2017-02-25_%28001%29.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Rear_Palace_Sushi_-_2017-02-25_(001).jpg",
+      "image_author": "Iudexvivorum",
+      "image_license": "CC0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wang_Lang_Market",
+        "https://commons.wikimedia.org/wiki/File:Rear_Palace_Sushi_-_2017-02-25_(001).jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "talat-noi",
+      "province": "bangkok",
+      "name_th": "ตลาดน้อย",
+      "name_en": "Talat Noi",
+      "district_th": "สัมพันธวงศ์",
+      "description_th": "เดินตามตรอกของชุมชนจีนเก่าริมเจ้าพระยา มีศาลเจ้า บ้านเรือน และร่องรอยย่านช่างให้ค่อย ๆ สังเกต",
+      "lat": 13.73333,
+      "lng": 100.51389,
+      "coords_source": "https://en.wikipedia.org/wiki/Talat_Noi",
+      "coords_uncertain": false,
+      "tags": [
+        "ชุมชนเก่า",
+        "ริมแม่น้ำ",
+        "วัฒนธรรมจีน"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "food"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ / สำรวจอาหารและวัฒนธรรมการกิน",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Rong_Kuak_Shrine_Talat_Noi_%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%B7%E0%B8%AD%E0%B8%81_%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2_2021_June.jpg/1280px-Rong_Kuak_Shrine_Talat_Noi_%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%B7%E0%B8%AD%E0%B8%81_%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2_2021_June.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Rong_Kuak_Shrine_Talat_Noi_ศาลเจ้าโรงเกือก_ตลาดน้อย_2021_June.jpg",
+      "image_author": "Chainwit.",
+      "image_license": "CC BY-SA 4.0",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Talat_Noi",
+        "https://commons.wikimedia.org/wiki/File:Rong_Kuak_Shrine_Talat_Noi_ศาลเจ้าโรงเกือก_ตลาดน้อย_2021_June.jpg"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station"
+      ]
+    },
+    {
+      "id": "kudi-chin",
+      "province": "bangkok",
+      "name_th": "ชุมชนกุฎีจีน",
+      "name_en": "Kudi Chin",
+      "district_th": "ธนบุรี",
+      "description_th": "สำรวจชุมชนฝั่งธนบุรีที่มีร่องรอยวัฒนธรรมโปรตุเกสและขนมพื้นถิ่น เหมาะกับการเดินดูความหลากหลายของย่านริมน้ำ",
+      "lat": 13.73889,
+      "lng": 100.49306,
+      "coords_source": "https://en.wikipedia.org/wiki/Kudi_Chin",
+      "coords_uncertain": false,
+      "tags": [
+        "ชุมชนเก่า",
+        "ขนมฝรั่งกุฎีจีน",
+        "วัฒนธรรม"
+      ],
+      "moods": [
+        "temple",
+        "food",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / สำรวจอาหารและวัฒนธรรมการกิน / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kudi_Chin"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "wat-suwannaram-bangkok",
+      "province": "bangkok",
+      "name_th": "วัดสุวรรณารามราชวรวิหาร",
+      "name_en": "Wat Suwannaram",
+      "district_th": "บางกอกน้อย",
+      "description_th": "แวะวัดริมคลองบางกอกน้อยเพื่อชมงานจิตรกรรมไทย เหมาะกับการเดินเที่ยววัดและชุมชนในละแวกเดียวกัน",
+      "lat": 13.763306,
+      "lng": 100.476833,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Suwannaram",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "จิตรกรรม",
+        "ริมคลอง"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / เหมาะกับการพักและค่อย ๆ เดินชม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Suwannaram"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "sam-phraeng",
+      "province": "bangkok",
+      "name_th": "ย่านสามแพร่ง",
+      "name_en": "Sam Phraeng",
+      "district_th": "พระนคร",
+      "description_th": "เดินดูตึกแถวเก่าและร้านอาหารในย่านสามแพร่ง ถนนและซอยเล็ก ๆ ช่วยเล่าเรื่องของเมืองเก่าผ่านชีวิตประจำวัน",
+      "lat": 13.752028,
+      "lng": 100.497583,
+      "coords_source": "https://en.wikipedia.org/wiki/Sam_Phraeng",
+      "coords_uncertain": false,
+      "tags": [
+        "ย่านเก่า",
+        "ตึกแถว",
+        "อาหารท้องถิ่น"
+      ],
+      "moods": [
+        "temple",
+        "food",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / สำรวจอาหารและวัฒนธรรมการกิน / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sam_Phraeng"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "nang-loeng-market",
+      "province": "bangkok",
+      "name_th": "ตลาดนางเลิ้ง",
+      "name_en": "Nang Loeng Market",
+      "district_th": "ป้อมปราบศัตรูพ่าย",
+      "description_th": "สำรวจตลาดเก่าที่เติบโตเป็นตลาดบกตั้งแต่สมัยรัชกาลที่ห้า เหมาะกับการเดินชิมและดูร่องรอยของชุมชนนางเลิ้ง",
+      "lat": 13.7596889,
+      "lng": 100.5121306,
+      "coords_source": "https://en.wikipedia.org/wiki/Nang_Loeng_Market",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดเก่า",
+        "อาหารท้องถิ่น",
+        "ประวัติศาสตร์"
+      ],
+      "moods": [
+        "food",
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "สำรวจอาหารและวัฒนธรรมการกิน / มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nang_Loeng_Market"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "wat-ratchabophit",
+      "province": "bangkok",
+      "name_th": "วัดราชบพิธสถิตมหาสีมาราม",
+      "name_en": "Wat Ratchabophit",
+      "district_th": "พระนคร",
+      "description_th": "ชมผังวัดและรายละเอียดสถาปัตยกรรมในพระนคร เป็นอีกจุดสำหรับค่อย ๆ เดินชมงานช่างของวัดหลวง",
+      "lat": 13.74917,
+      "lng": 100.49722,
+      "coords_source": "https://en.wikipedia.org/wiki/Wat_Ratchabophit",
+      "coords_uncertain": false,
+      "tags": [
+        "วัด",
+        "สถาปัตยกรรม",
+        "เมืองเก่า"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ / เหมาะกับการพักและค่อย ๆ เดินชม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wat_Ratchabophit"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "yaowarat-road",
+      "province": "bangkok",
+      "name_th": "ถนนเยาวราช",
+      "name_en": "Yaowarat Road",
+      "district_th": "สัมพันธวงศ์",
+      "description_th": "สำรวจร้านอาหารและบรรยากาศถนนสายหลักของไชนาทาวน์ ช่วงกลางคืนช่วยให้เห็นอีกจังหวะของย่านการค้าเก่า",
+      "lat": 13.741136,
+      "lng": 100.508305,
+      "coords_source": "https://en.wikipedia.org/wiki/Yaowarat_Road",
+      "coords_uncertain": false,
+      "tags": [
+        "สตรีทฟู้ด",
+        "ไชนาทาวน์",
+        "เที่ยวกลางคืน"
+      ],
+      "moods": [
+        "food",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "สำรวจอาหารและวัฒนธรรมการกิน / มีกิจกรรมหรือบรรยากาศคึกคัก / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 4,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yaowarat_Road"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "khaosan-road",
+      "province": "bangkok",
+      "name_th": "ถนนข้าวสาร",
+      "name_en": "Khaosan Road",
+      "district_th": "พระนคร",
+      "description_th": "เดินดูร้านค้า ร้านอาหาร และสถานบันเทิงในย่านบางลำพู เหมาะกับคนที่อยากสัมผัสบรรยากาศถนนท่องเที่ยวคึกคัก",
+      "lat": 13.75889,
+      "lng": 100.49722,
+      "coords_source": "https://en.wikipedia.org/wiki/Khaosan_Road",
+      "coords_uncertain": false,
+      "tags": [
+        "เที่ยวกลางคืน",
+        "ร้านอาหาร",
+        "บางลำพู"
+      ],
+      "moods": [
+        "adventure",
+        "food",
+        "photo"
+      ],
+      "mood_reason": "มีกิจกรรมหรือบรรยากาศคึกคัก / สำรวจอาหารและวัฒนธรรมการกิน / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 4,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Khaosan_Road"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "song-wat-road",
+      "province": "bangkok",
+      "name_th": "ถนนทรงวาด",
+      "name_en": "Song Wat Road",
+      "district_th": "สัมพันธวงศ์",
+      "description_th": "เดินชมอาคารและกิจการในถนนการค้าเก่าที่ทอดใกล้เจ้าพระยา ลองสังเกตรายละเอียดหน้าร้านและเรื่องราวของย่าน",
+      "lat": 13.739325,
+      "lng": 100.5037528,
+      "coords_source": "https://en.wikipedia.org/wiki/Song_Wat_Road",
+      "coords_uncertain": false,
+      "tags": [
+        "ถนนเก่า",
+        "ชุมชนการค้า",
+        "สถาปัตยกรรม"
+      ],
+      "moods": [
+        "photo",
+        "temple",
+        "food"
+      ],
+      "mood_reason": "มีรายละเอียดและมุมภาพให้สำรวจ / มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / สำรวจอาหารและวัฒนธรรมการกิน",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Song_Wat_Road"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "grand-postal-building-bangkok",
+      "province": "bangkok",
+      "name_th": "อาคารไปรษณีย์กลาง บางรัก",
+      "name_en": "Grand Postal Building",
+      "district_th": "บางรัก",
+      "description_th": "ชมสถาปัตยกรรมอาคารไปรษณีย์กลางที่ต่อมาเป็นที่ตั้งของ TCDC เหมาะกับการเชื่อมทริปงานออกแบบและย่านเจริญกรุง",
+      "lat": 13.72694,
+      "lng": 100.51556,
+      "coords_source": "https://en.wikipedia.org/wiki/General_Post_Office_(Bangkok)",
+      "coords_uncertain": false,
+      "tags": [
+        "อาคารประวัติศาสตร์",
+        "งานออกแบบ",
+        "เจริญกรุง"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/General_Post_Office_(Bangkok)"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "iconsiam",
+      "province": "bangkok",
+      "name_th": "ไอคอนสยาม",
+      "name_en": "ICONSIAM",
+      "district_th": "คลองสาน",
+      "description_th": "เดินสำรวจพื้นที่ร้านค้าและอาหารริมเจ้าพระยาฝั่งคลองสาน แล้วแวะชมมุมแม่น้ำรอบโครงการ",
+      "lat": 13.726694,
+      "lng": 100.5105,
+      "coords_source": "https://en.wikipedia.org/wiki/Iconsiam",
+      "coords_uncertain": false,
+      "tags": [
+        "ชอปปิง",
+        "อาหาร",
+        "ริมแม่น้ำ"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "beach"
+      ],
+      "mood_reason": "สำรวจอาหารและวัฒนธรรมการกิน / มีรายละเอียดและมุมภาพให้สำรวจ / มีพื้นที่หรือบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iconsiam"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "asiatique-the-riverfront",
+      "province": "bangkok",
+      "name_th": "เอเชียทีค เดอะ ริเวอร์ฟร้อนท์",
+      "name_en": "Asiatique The Riverfront",
+      "district_th": "บางคอแหลม",
+      "description_th": "เดินชมร้านค้าและร้านอาหารในพื้นที่โกดังเก่าริมเจ้าพระยา บรรยากาศช่วงเย็นเชื่อมกับกิจกรรมและการแสดงของโครงการ",
+      "lat": 13.706,
+      "lng": 100.5047,
+      "coords_source": "https://en.wikipedia.org/wiki/Asiatique",
+      "coords_uncertain": false,
+      "tags": [
+        "ริมแม่น้ำ",
+        "เที่ยวกลางคืน",
+        "ร้านอาหาร"
+      ],
+      "moods": [
+        "adventure",
+        "food",
+        "beach"
+      ],
+      "mood_reason": "มีกิจกรรมหรือบรรยากาศคึกคัก / สำรวจอาหารและวัฒนธรรมการกิน / มีพื้นที่หรือบรรยากาศริมน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 3,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Asiatique"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "king-power-mahanakhon",
+      "province": "bangkok",
+      "name_th": "คิง เพาเวอร์ มหานคร",
+      "name_en": "King Power Mahanakhon",
+      "district_th": "บางรัก",
+      "description_th": "ชมรูปทรงอาคารสูงที่มีเอกลักษณ์ในย่านบางรัก และสำรวจประสบการณ์ชมเมืองจากอาคารมหานคร",
+      "lat": 13.72361,
+      "lng": 100.52833,
+      "coords_source": "https://en.wikipedia.org/wiki/King_Power_Mahanakhon",
+      "coords_uncertain": false,
+      "tags": [
+        "จุดชมวิว",
+        "อาคารสูง",
+        "ใจกลางเมือง"
+      ],
+      "moods": [
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "มีรายละเอียดและมุมภาพให้สำรวจ / มีกิจกรรมหรือบรรยากาศคึกคัก",
+      "stats": {
+        "chill": 2,
+        "adventure": 4,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/King_Power_Mahanakhon"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "rajadamnern-stadium",
+      "province": "bangkok",
+      "name_th": "สนามมวยราชดำเนิน",
+      "name_en": "Rajadamnern Stadium",
+      "district_th": "ป้อมปราบศัตรูพ่าย",
+      "description_th": "สัมผัสบรรยากาศการชมมวยไทยในสนามมวยเก่าแก่ของกรุงเทพฯ เหมาะกับคนสนใจกีฬาและวัฒนธรรมการต่อสู้",
+      "lat": 13.76111,
+      "lng": 100.50889,
+      "coords_source": "https://en.wikipedia.org/wiki/Rajadamnern_Stadium",
+      "coords_uncertain": false,
+      "tags": [
+        "มวยไทย",
+        "กีฬา",
+        "วัฒนธรรม"
+      ],
+      "moods": [
+        "adventure",
+        "temple"
+      ],
+      "mood_reason": "มีกิจกรรมหรือบรรยากาศคึกคัก / มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม",
+      "stats": {
+        "chill": 2,
+        "adventure": 4,
+        "photo": 3,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rajadamnern_Stadium"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "queen-saovabha-memorial-institute",
+      "province": "bangkok",
+      "name_th": "สถานเสาวภา สภากาชาดไทย",
+      "name_en": "Queen Saovabha Memorial Institute",
+      "district_th": "ปทุมวัน",
+      "description_th": "เรียนรู้เรื่องงูและบทบาทด้านเซรุ่มของสถานเสาวภา เหมาะกับการเที่ยวเชิงความรู้ที่ต่างจากพิพิธภัณฑ์ทั่วไป",
+      "lat": 13.7323167,
+      "lng": 100.5327,
+      "coords_source": "https://en.wikipedia.org/wiki/Queen_Saovabha_Memorial_Institute",
+      "coords_uncertain": false,
+      "tags": [
+        "เรียนรู้",
+        "งู",
+        "วิทยาศาสตร์"
+      ],
+      "moods": [
+        "adventure",
+        "temple"
+      ],
+      "mood_reason": "มีกิจกรรมหรือบรรยากาศคึกคัก / มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม",
+      "stats": {
+        "chill": 2,
+        "adventure": 4,
+        "photo": 3,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen_Saovabha_Memorial_Institute"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    },
+    {
+      "id": "erawan-shrine",
+      "province": "bangkok",
+      "name_th": "ศาลท้าวมหาพรหมเอราวัณ",
+      "name_en": "Erawan Shrine",
+      "district_th": "ปทุมวัน",
+      "description_th": "แวะศาลพระพรหมบริเวณแยกราชประสงค์ เพื่อชมพื้นที่ศรัทธาที่อยู่ท่ามกลางย่านการค้าใจกลางเมือง",
+      "lat": 13.744361,
+      "lng": 100.540444,
+      "coords_source": "https://en.wikipedia.org/wiki/Erawan_Shrine",
+      "coords_uncertain": false,
+      "tags": [
+        "ศาลพระพรหม",
+        "ราชประสงค์",
+        "วัฒนธรรม"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "มีเนื้อหาทางประวัติศาสตร์หรือวัฒนธรรม / มีรายละเอียดและมุมภาพให้สำรวจ",
+      "stats": {
+        "chill": 2,
+        "adventure": 1,
+        "photo": 5,
+        "food": 0,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": null,
+      "opening_hours": null,
+      "closed_days": null,
+      "entry_fee_thb": null,
+      "price_label": null,
+      "visit_minutes": null,
+      "nearby_booking_hint": null,
+      "nearest_station": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Erawan_Shrine"
+      ],
+      "uncertain_fields": [
+        "best_time",
+        "opening_hours",
+        "closed_days",
+        "entry_fee_thb",
+        "price_label",
+        "visit_minutes",
+        "nearby_booking_hint",
+        "nearest_station",
+        "image_url",
+        "image_page_url",
+        "image_author",
+        "image_license"
+      ]
+    }
+  ]
+}
