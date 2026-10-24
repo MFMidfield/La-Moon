@@ -1,0 +1,428 @@
+[
+  {
+    "id": "khao-khad-views-tower",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/khao-khat-views-tower/"
+    ],
+    "notes": "เปิดทุกวัน 06:00-21:00 (แหล่งเดียว; บางแหล่งว่า 06:00-19:00) ไม่มีวันหยุด ฟรี; ไม่มีรูป Commons ที่เป็นหอชมวิวนี้ (ไฟล์ Ao Yon เป็นหาด); ไม่มีแหล่งบอกเวลาเที่ยว ปีนบันได 10-15 นาที"
+  },
+  {
+    "id": "karon-beach",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sunset_at_Karon_Beach%2C_Phuket%2C_Thailand.JPG/1280px-Sunset_at_Karon_Beach%2C_Phuket%2C_Thailand.JPG",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Sunset_at_Karon_Beach,_Phuket,_Thailand.JPG",
+    "image_author": "Pather alexiy",
+    "image_license": "CC BY-SA 3.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "พ.ย.-เม.ย.",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/visit/karon",
+      "https://championtraveler.com/dates/best-time-to-visit-karon-th/",
+      "https://commons.wikimedia.org/wiki/File:Sunset_at_Karon_Beach,_Phuket,_Thailand.JPG"
+    ],
+    "notes": "best_time: ฤดูแล้งว่ายน้ำปลอดภัย พ.ย.-เม.ย. (พ.ค.-ต.ค. มรสุม ธงแดง); หาดสาธารณะ ไม่มีแหล่งระบุเวลาเปิด-ปิด/วันหยุด; ไม่มีแหล่งบอกเวลาเที่ยว"
+  },
+  {
+    "id": "kata-beach",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Kata_Beach%2C_Phuket.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Kata_Beach,_Phuket.jpg",
+    "image_author": "Ken Eckert",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "24 ชั่วโมง",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.lovethailand.org/travel/en/70-Phuket/8059-Kata-Beach.html",
+      "https://commons.wikimedia.org/wiki/File:Kata_Beach,_Phuket.jpg"
+    ],
+    "notes": "opening_hours จาก lovethailand (แหล่งเดียว) หาดสาธารณะ ฟรี ไม่มีวันหยุด; ไม่มีแหล่งบอกเวลาเที่ยว; ว่ายน้ำปลอดภัย พ.ย.-เม.ย."
+  },
+  {
+    "id": "nai-harn-beach",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Phuket_-_Nai_Harn_Beach_008.jpg/1280px-Phuket_-_Nai_Harn_Beach_008.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Phuket_-_Nai_Harn_Beach_008.jpg",
+    "image_author": "ADwarf",
+    "image_license": "Public domain",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "พ.ย.-เม.ย.",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/hat-nai-han/",
+      "https://www.agoda.com/travel-guides/thailand/phuket/discover-nai-harn-beach-your-guide-to-paradise-in-phuket",
+      "https://commons.wikimedia.org/wiki/File:Phuket_-_Nai_Harn_Beach_008.jpg"
+    ],
+    "notes": "เวลาเปิดขัดแย้ง (thaiholidayguide 06:00-18:00 vs บางแหล่ง 24 ชม.) จึงใส่ null; ไม่มีแหล่งบอกเวลาเที่ยว; ฟรี"
+  },
+  {
+    "id": "phuket-thai-hua-museum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Phuket_Thai_Hua_Museum_at_night.jpg/1280px-Phuket_Thai_Hua_Museum_at_night.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Phuket_Thai_Hua_Museum_at_night.jpg",
+    "image_author": "Deepak-nsk",
+    "image_license": "CC0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "ตลอดปี",
+    "visit_minutes": 60,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/phuket-thai-hua-museum/",
+      "https://www.phuket101.net/thai-hua-museum/",
+      "https://commons.wikimedia.org/wiki/File:Phuket_Thai_Hua_Museum_at_night.jpg"
+    ],
+    "notes": "วันปิดขัดแย้ง: thaiholidayguide/lovethailand ว่าปิดวันพุธ+นักขัตฤกษ์, phuket101/pickyourtrail ว่าปิดวันจันทร์, Shopee ว่าเปิดทุกวัน จึง null; เวลา 09:00-17:00; คนไทย 50 บาท ต่างชาติ 200 บาท; เที่ยวประมาณ 1 ชม.; พิพิธภัณฑ์ในอาคาร ไม่ขึ้นกับฤดู"
+  },
+  {
+    "id": "thalang-national-museum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%282024%29_%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%AD.%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%88.%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95.jpg/1280px-%282024%29_%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%AD.%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%88.%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:(2024)_%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%AD.%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%88.%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95.jpg",
+    "image_author": "กสิณธร ราชโอรส",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "ตลอดปี",
+    "visit_minutes": 60,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/thalang-national-museum/",
+      "https://commons.wikimedia.org/wiki/File:(2024)_%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%AD.%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%88.%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95.jpg"
+    ],
+    "notes": "เปิดพุธ-อาทิตย์ 09:00-16:00 ปิดจันทร์-อังคาร (thaiholidayguide, tripniceday; ยังไม่ได้ยืนยันกับกรมศิลปากร); ไทย 20 บาท ต่างชาติ 120 บาท; เที่ยวประมาณ 1 ชม."
+  },
+  {
+    "id": "chillva-market",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "เย็น-ค่ำ",
+    "visit_minutes": null,
+    "sources": [
+      "https://thesmartlocal.co.th/chillva-market-phuket",
+      "https://www.timeout.com/phuket/things-to-do/dive-into-the-chaos-of-chillva-market"
+    ],
+    "notes": "เปิดจันทร์-เสาร์ 17:00-23:00 ปิดวันอาทิตย์ (บางแหล่งว่าเปิดทุกวัน/ปิด 22:00); คึกคักสุดพฤหัส-เสาร์ (Time Out); ไม่มีรูป Commons ที่ยืนยันได้ว่าเป็นตลาดนี้ (ไฟล์ Chillva Market Stage ใส่ชื่อจีนไม่ตรง จึงไม่ใช้); ไม่มีแหล่งบอกเวลาเที่ยว"
+  },
+  {
+    "id": "naka-weekend-market",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "เย็น ช่วงเริ่มเปิดตลาด 16:00-19:00",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.visitthailandtoday.com/markets-shopping/phuket/naka-weekend-market",
+      "https://windowonphuket.com/?p=2575"
+    ],
+    "notes": "เปิดเสาร์-อาทิตย์ ~16:00-22:00; ไปช่วงเพิ่งเปิด/ก่อน 19:00 คนน้อยกว่า; ไม่มีรูป Commons ของตลาดนี้; ไม่มีแหล่งบอกเวลาเที่ยว"
+  },
+  {
+    "id": "bang-pae-waterfall",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "พ.ค.-พ.ย.",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/nam-tok-bang-pae/",
+      "https://forevervacation.com/phuket/bang-pae-waterfall"
+    ],
+    "notes": "เปิดทุกวัน 09:00-16:00 (บางแหล่ง 08:00-17:00) ไม่มีวันหยุด; น้ำมากสุดหน้าฝน พ.ค.-พ.ย. (บางแหล่ง ก.ย.-พ.ย.); เดินจากลานจอด 10-15 นาที ไม่มีแหล่งบอกเวลาเที่ยวรวม; ค่าเข้าเขตป่า ไทย 20 บาท ต่างชาติ 200 บาท; รูป Commons มีแค่ 'Near Bang Pae waterfall' ซึ่งไม่ใช่ตัวน้ำตก จึงไม่ใช้"
+  },
+  {
+    "id": "wat-phra-thong",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%282024%29_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%AD%E0%B8%87_%E0%B8%AD.%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%88.%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95_%282%29.jpg/1280px-%282024%29_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%AD%E0%B8%87_%E0%B8%AD.%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%88.%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95_%282%29.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:(2024)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%AD%E0%B8%87_%E0%B8%AD.%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%88.%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95_(2).jpg",
+    "image_author": "กสิณธร ราชโอรส",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "ตลอดปี",
+    "visit_minutes": 60,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-phra-thong/",
+      "https://pickyourtrail.com/attractions/phuket/wat-phra-thong-phuket",
+      "https://commons.wikimedia.org/wiki/File:(2024)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%AD%E0%B8%87_%E0%B8%AD.%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%88.%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95_(2).jpg"
+    ],
+    "notes": "เปิดทุกวัน 08:00-17:30 ไม่มีวันหยุด ฟรี; visit_minutes จากแหล่งเดียวที่บอก 1-2 ชม. (ใช้ค่าต่ำ); วัด ไม่ขึ้นกับฤดู"
+  },
+  {
+    "id": "khao-rang-viewpoint",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/View_of_Phuket_city_from_Khao_Rang_hill.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:View_of_Phuket_city_from_Khao_Rang_hill.jpg",
+    "image_author": "Oleg Bor",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 45,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/khao-rang/",
+      "https://commons.wikimedia.org/wiki/File:View_of_Phuket_city_from_Khao_Rang_hill.jpg"
+    ],
+    "notes": "เปิดทุกวัน (ไม่มีเวลาประตูตายตัว ~06:00-20:00) ฟรี ไม่มีวันหยุด; thaiholidayguide ว่าแวะ ~45 นาที (อีกแหล่งว่า 2-3 ชม.); รูปเป็นวิวเมืองภูเก็ตจากเขารัง ไม่ใช่ตัวลานชมวิว"
+  },
+  {
+    "id": "ban-tha-chat-chai-community",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [],
+    "notes": "ค้นไม่พบข้อมูลท่องเที่ยวชุมชนบ้านท่าฉัตรไชย (ผลค้นเจอแต่ด่านตรวจโควิด/ธนาคารปูม้า) ทุกฟิลด์จึง null"
+  },
+  {
+    "id": "suan-mokkh",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Spiritual_Theater1.jpg/1280px-Spiritual_Theater1.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Spiritual_Theater1.jpg",
+    "image_author": "Wit Pimkanchanapong",
+    "image_license": "CC BY-SA 2.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/suan-mokkhapalaram/",
+      "https://commons.wikimedia.org/wiki/Category:Suan_Mokkh",
+      "https://commons.wikimedia.org/wiki/File:Spiritual_Theater1.jpg"
+    ],
+    "notes": "เปิดทุกวัน 08:00-17:00 ไม่มีวันหยุด (thaiholidayguide แหล่งเดียว); ค่าเข้าขัดแย้ง (ฟรี / ไทย 40 ต่างชาติ 200 / 20-100); รูปเป็น Spiritual Theater ที่สวนโมกข์ (ไม่ใช่ไฟล์ International Dharma Hermitage)"
+  },
+  {
+    "id": "phra-that-si-surat",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Phra_That_Si_Surat_1.jpg/1280px-Phra_That_Si_Surat_1.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Phra_That_Si_Surat_1.jpg",
+    "image_author": "Ahoerstemeier",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/phra-that-si-surat/",
+      "https://commons.wikimedia.org/wiki/File:Phra_That_Si_Surat_1.jpg"
+    ],
+    "notes": "เปิดทุกวัน 08:30-17:00 (อีกแหล่ง 08:00-17:00) ไม่มีวันหยุด ฟรี"
+  },
+  {
+    "id": "na-muang-waterfall",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Namuang_waterfall_2.jpg/1280px-Namuang_waterfall_2.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Namuang_waterfall_2.jpg",
+    "image_author": "Koudkeu",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "ต.ค.-ม.ค.",
+    "visit_minutes": 90,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/na-muang-waterfall/",
+      "https://commons.wikimedia.org/wiki/File:Namuang_waterfall_2.jpg"
+    ],
+    "notes": "เปิดทุกวัน ~08:00-17:00 ไม่มีวันหยุด; น้ำมากสุด ต.ค.-ม.ค. (บางแหล่ง พ.ค.-ต.ค./ก.ย.-พ.ย.); 1-2 ชม. สำหรับน้ำตก 1 (ใช้ค่ากลาง), เดินขึ้นน้ำตก 2 ต้อง 3-4 ชม.; น้ำตก 1 ฟรี น้ำตก 2 50 บาท"
+  },
+  {
+    "id": "bo-phut-beach",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Bophut_Beach_01.jpg/1280px-Bophut_Beach_01.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Bophut_Beach_01.jpg",
+    "image_author": "Christophe95",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/visit/bophut/",
+      "https://www.hotels.com/go/thailand/fishermans-village-walking-street-bophut",
+      "https://commons.wikimedia.org/wiki/File:Bophut_Beach_01.jpg"
+    ],
+    "notes": "ไม่พบแหล่งระบุเวลาเปิดหรือเวลาเที่ยวของหาด (หาดสาธารณะ) จึง null; ถนนคนเดินชาวประมงเปิดศุกร์ 17:00-23:00; รูปเป็นหาดบ่อผุด"
+  },
+  {
+    "id": "wat-khao-phang-hanging-bridge",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "06:00-18:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/rope-bridge-heart-shaped-mountain-and-ban-thepphithak-community/"
+    ],
+    "notes": "เปิดทุกวัน 06:00-18:00 ไม่มีวันหยุด ฟรี (จอดรถ 20 บาท) แหล่งเดียว; แวะสั้นๆ ไม่มีตัวเลขเวลา; ไม่พบรูป Commons ของสะพาน"
+  },
+  {
+    "id": "koh-lamphu-public-park",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Surat_Thani_Ko_Lamphu.jpg/1280px-Surat_Thani_Ko_Lamphu.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Surat_Thani_Ko_Lamphu.jpg",
+    "image_author": "Ahoerstemeier",
+    "image_license": "CC BY-SA 3.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "04:00-21:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.lovethailand.org/travel/en/74-Surat-Thani/7698-Ko-Lamphu-Public-Park.html",
+      "https://commons.wikimedia.org/wiki/File:Surat_Thani_Ko_Lamphu.jpg"
+    ],
+    "notes": "เปิดทุกวัน 04:00-21:00 ฟรี (แหล่งเดียว); ไม่มีแหล่งบอกเวลาเที่ยว"
+  },
+  {
+    "id": "chaiya-national-museum",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [],
+    "notes": "ไม่พบรูป Commons ของอาคารพิพิธภัณฑ์ (มีแต่รูปโบราณวัตถุที่เก็บที่กรุงเทพ); ฟิลด์อื่นไม่ได้ขอ"
+  },
+  {
+    "id": "phum-riang-village",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/phum-riang-village-and-laem-pho/"
+    ],
+    "notes": "เข้าฟรี ไม่มีเวลาตายตัว (แหล่งเดียว) จึงไม่ระบุวันปิด; ไม่มีแหล่งบอกเวลาเที่ยว; ไม่พบรูป Commons"
+  },
+  {
+    "id": "khlong-phanom-national-park",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Khlong_Phanom%2C_Karst_landscape%2C_Surat_Thani%2C_Thailand.jpg/1280px-Khlong_Phanom%2C_Karst_landscape%2C_Surat_Thani%2C_Thailand.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Khlong_Phanom,_Karst_landscape,_Surat_Thani,_Thailand.jpg",
+    "image_author": "Vyacheslav Argenberg",
+    "image_license": "CC BY 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "08:00-16:30",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/khlong-phanom-national-park/",
+      "https://commons.wikimedia.org/wiki/File:Khlong_Phanom,_Karst_landscape,_Surat_Thani,_Thailand.jpg"
+    ],
+    "notes": "เปิดทุกวัน 08:00-16:30 (thaiholidayguide; lovethailand ว่า 06:00-18:00) ไม่มีวันหยุด; ค่าเข้า ไทย 20 ต่างชาติ 100 (แหล่งเดียว); ไม่มีแหล่งบอกเวลาเที่ยว (แนะนำเตรียมอาหารทั้งวัน)"
+  },
+  {
+    "id": "tai-rom-yen-national-park",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Phet_Phanom_Wat_Waterfall_in_Tai_Rom_Yen_National_Park%2C_Thailand.jpg/1280px-Phet_Phanom_Wat_Waterfall_in_Tai_Rom_Yen_National_Park%2C_Thailand.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Phet_Phanom_Wat_Waterfall_in_Tai_Rom_Yen_National_Park,_Thailand.jpg",
+    "image_author": "JCSPhotography",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "ธ.ค.-เม.ย.",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/tai-rom-yen-national-park/",
+      "https://commons.wikimedia.org/wiki/File:Phet_Phanom_Wat_Waterfall_in_Tai_Rom_Yen_National_Park,_Thailand.jpg"
+    ],
+    "notes": "best_time: เดินป่าสะดวก ธ.ค.-เม.ย. (น้ำตกดาดฟ้าน้ำมากสุด มิ.ย.-ต.ค. แต่ทางลื่น/มีทาก); เปิดทุกวัน 08:30-16:30 ไม่มีวันหยุด; ไม่มีแหล่งบอกเวลาเที่ยว; รูปเป็นน้ำตกเพ็ชรพนมวัดในอุทยาน"
+  },
+  {
+    "id": "hin-phat-viewpoint",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [],
+    "notes": "ค้นไม่พบข้อมูลแหล่งนี้จากแหล่งที่เชื่อถือได้ และไม่พบรูป Commons ทุกฟิลด์จึง null"
+  },
+  {
+    "id": "sala-athit-garden",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "ตลอดปี",
+    "visit_minutes": null,
+    "sources": [
+      "https://tceb.or.th/cn/communities/thailand-7-mice-magnificent-themes/culinary-journeys/763-sala-sala-artit",
+      "https://www.moac.go.th/philosopher-philosopher-files-411291791793"
+    ],
+    "notes": "best_time: TCEB ระบุสละออกผลตลอดปี กิจกรรมเรียนรู้ในสวนทำได้ตลอดปี (ชื่อ 'Sala Sala Artit' เจ้าของ อาทิตย์ มธิธรรม บ้านนาสาร น่าจะเป็นที่เดียวกัน แต่ไม่ยืนยัน 100%); ไม่พบวันปิดและเวลาเที่ยว; ไม่พบรูป Commons"
+  }
+]

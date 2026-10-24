@@ -1,0 +1,449 @@
+[
+  {
+    "id": "ko-kret",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Nontaburi_Ko_Kret2.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Nontaburi_Ko_Kret2.jpg",
+    "image_author": "Mr.Peerapong Prasutr",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "ร้านค้า/ตลาดเปิดเสาร์-อาทิตย์และวันหยุดนักขัตฤกษ์ 09:00-17:30",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 150,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/ko-kret/",
+      "https://travel.trueid.net/detail/bLRMKbJY0pbA",
+      "https://en.wikipedia.org/wiki/Ko_Kret",
+      "https://commons.wikimedia.org/wiki/File:Nontaburi_Ko_Kret2.jpg"
+    ],
+    "notes": "เข้าเกาะฟรี (ค่าเรือข้ามฟากประมาณ 3 บาท) เวลา 09:00-17:30 คือร้านค้าช่วงเสาร์-อาทิตย์/วันหยุด วันธรรมดาบางร้านปิด ไม่ได้ระบุวันปิดชัดเจนจึงใส่ closed_days เป็น null ใช้เวลาเที่ยว 2-3 ชม. ตาม thaiholidayguide ไม่พบช่วงเดือนที่แนะนำ (แนะนำวันธรรมดาถ้าอยากเงียบ ตลาดเต็มรูปแบบเสาร์-อาทิตย์)"
+  },
+  {
+    "id": "wat-chaloem-phra-kiat",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Wat_Chaloem_Phrakiat.jpg/1280px-Wat_Chaloem_Phrakiat.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Chaloem_Phrakiat.jpg",
+    "image_author": "Preecha.MJ",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "07:00-18:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-chaloem-phra-kiat-worawiharn",
+      "https://original.impact.co.th/index.php/visitor/attractions/en/143",
+      "https://en.wikipedia.org/wiki/Wat_Chaloem_Phra_Kiat_Worawihan",
+      "https://commons.wikimedia.org/wiki/File:Wat_Chaloem_Phrakiat.jpg"
+    ],
+    "notes": "เข้าฟรี เวลาเปิดแต่ละแหล่งไม่ตรงกัน: thaiholidayguide 07:00-18:00, impact.co.th 06:00-18:00, สรุปจากผลค้นหา Bangkok Post 05:30-18:30 (ไม่ได้เปิดอ่านเอง) ใช้ค่าจาก thaiholidayguide ที่เปิดอ่านแล้ว ควรให้ผู้ใช้ตรวจซ้ำ"
+  },
+  {
+    "id": "wat-sangkhathan",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "06:00-18:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-sangkatan/"
+    ],
+    "notes": "แหล่งเดียว (thaiholidayguide) ระบุเปิดทุกวัน 06:00-18:00 เข้าฟรี ไม่พบรูปที่ใบอนุญาตเสรีบน Commons"
+  },
+  {
+    "id": "wat-borom-racha",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "06:00-18:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-boromracha-kanchanapisek-anusorn/"
+    ],
+    "notes": "thaiholidayguide ระบุเปิดทุกวัน 06:00-18:00 เข้าฟรี; Airbnb tips (ผู้ใช้เขียน) ระบุต่างออกไป จึงอาจไม่ตรง; แนะนำเลี่ยงวันเสาร์ช่วงเทศกาลเพราะคนแน่น"
+  },
+  {
+    "id": "nonthaburi-museum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5.jpg/1280px-1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5.jpg",
+    "image_author": "Saknirun",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "อังคาร-ศุกร์ 09:00-17:00; เสาร์-อาทิตย์และวันหยุดนักขัตฤกษ์ 10:00-18:00",
+    "closed_days": "ปิดวันจันทร์",
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.lovethailand.org/travel/t/24-นนทบุรี/1801-พิพิธภัณฑ์นนทบุรี.html",
+      "https://travel.trueid.net/detail/bLRMKbJY0pbA",
+      "https://commons.wikimedia.org/wiki/File:1%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5.jpg"
+    ],
+    "notes": "lovethailand ระบุเข้าฟรี อังคาร-ศุกร์ 09:00-17:00 เสาร์-อาทิตย์/วันหยุด 10:00-18:00 ปิดวันจันทร์ ส่วน trueid ระบุ อังคาร-อาทิตย์ 10:00-18:00 (ไม่ตรงกันเรื่องเวลาวันธรรมดา) รูปคือศาลากลางหลังเก่าซึ่งเป็นอาคารพิพิธภัณฑ์"
+  },
+  {
+    "id": "wat-chonlaprathan-rangsarit",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Nonthaburi_-_Wat_Chonlaprathan_Rangsarit_-_NOV_2022_-_img_02.jpg/1280px-Nonthaburi_-_Wat_Chonlaprathan_Rangsarit_-_NOV_2022_-_img_02.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Nonthaburi_-_Wat_Chonlaprathan_Rangsarit_-_NOV_2022_-_img_02.jpg",
+    "image_author": "Chainwit.",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "08:00-16:30",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-chonprathan-rangsarit/",
+      "https://www.lovethailand.org/travel/en/24-Nonthaburi/1812-Wat-Chonprathan-Rangsarit.html",
+      "https://commons.wikimedia.org/wiki/File:Nonthaburi_-_Wat_Chonlaprathan_Rangsarit_-_NOV_2022_-_img_02.jpg"
+    ],
+    "notes": "เข้าฟรี เปิดทุกวัน 08:00-16:30 (thaiholidayguide และ lovethailand ตรงกัน; AroundUs ระบุ 06:30-20:00 ไม่ใช้) มีกิจกรรมธรรมะเช้าวันอาทิตย์เริ่ม 09:00"
+  },
+  {
+    "id": "wat-takian-floating-market",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "จันทร์-ศุกร์ 07:30-16:00; เสาร์-อาทิตย์ 07:30-17:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.visitthailandtoday.com/markets-shopping/bangkok/wat-takien-floating-market",
+      "https://novotelbangkokimpact.com/bangkok-destination/bangkok-shopping-guide/wat-takien-floating-market/"
+    ],
+    "notes": "ไม่พบข้อมูลค่าเข้า (ไม่มีแหล่งระบุ) เวลาเปิดไม่ตรงกัน: visitthailandtoday ระบุเปิดทุกวัน ส่วน Wanderlog/รีวิวบอกว่าคึกคักเฉพาะเสาร์-อาทิตย์และวันหยุด; ไม่พบรูปที่ใบอนุญาตเสรี"
+  },
+  {
+    "id": "chaloem-kanchanaphisek-park",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "05:30-18:30",
+    "closed_days": null,
+    "best_time": "เช้า 06:00-08:00",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.lovethailand.org/travel/en/24-Nonthaburi/1867-Chaloem-Kanchanaphisek-Park.html",
+      "https://www.thaiholidayguide.com/attraction/kanchanaphisek-park-utthayan-chalerm-phrakiat/"
+    ],
+    "notes": "สวนริมเจ้าพระยาข้างวัดเฉลิมพระเกียรติฯ (บางศรีเมือง) เข้าฟรี 05:30-18:30 ทุกวัน (lovethailand และ thaiholidayguide ตรงกัน) ช่วงเช้า 06:00-08:00 แนะนำโดย thaiholidayguide ภาพใน Commons ชื่อ 'อุทยานเฉลิมกาญจนาภิเษก' เป็นภาพ Wiki Loves Earth ของพื้นที่อื่น (หมวดพืชพรรณ/พื้นที่คุ้มครอง) จึงไม่ใช้"
+  },
+  {
+    "id": "dream-world",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/%E0%B8%94%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B9%80%E0%B8%A7%E0%B8%B4%E0%B8%A5%E0%B8%94%E0%B9%8C_Bangkok_Dream_World_-_panoramio.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%94%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B9%80%E0%B8%A7%E0%B8%B4%E0%B8%A5%E0%B8%94%E0%B9%8C_Bangkok_Dream_World_-_panoramio.jpg",
+    "image_author": "Thaweesak Churasri",
+    "image_license": "CC BY 3.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "จันทร์-ศุกร์ 10:00-17:00; เสาร์-อาทิตย์และวันหยุดนักขัตฤกษ์ 10:00-18:00",
+    "closed_days": null,
+    "best_time": "พ.ย.-ก.พ.",
+    "visit_minutes": 360,
+    "sources": [
+      "https://thebettervacation.com/bangkok-city/dream-world-bangkok/amp/",
+      "https://www.thansettakij.com/lifestyle/travel-shopping/648245",
+      "https://www.ktc.co.th/article/travel-guide/promotion-zoo-and-amusement-park-in-bangkok",
+      "https://commons.wikimedia.org/wiki/File:%E0%B8%94%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B9%80%E0%B8%A7%E0%B8%B4%E0%B8%A5%E0%B8%94%E0%B9%8C_Bangkok_Dream_World_-_panoramio.jpg"
+    ],
+    "notes": "ไม่พบราคาบัตรผู้ใหญ่คนไทยที่ยืนยันได้ (เว็บทางการโหลดด้วย JS) ที่พบ: ค่าผ่านประตูเด็กสูงไม่เกิน 145 ซม. ราคาปกติ 250 บาท (Thansettakij ม.ค. 2569), บัตรรวมเครื่องเล่นปกติ 600 บาท, Dream World Visa 575 บาท / Super Visa 950 บาท (KTC ไม่ระบุปี) เด็กไม่เกิน 90 ซม. เข้าฟรี ชั่วโมงทำการจากบล็อก thebettervacation (วันเด็กปี 2569 ขยายเป็น 08:00-19:00) เวลาเที่ยว 5-7 ชม. และช่วง พ.ย.-ก.พ. จาก thebettervacation"
+  },
+  {
+    "id": "national-science-museum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Khlong_Ha%2C_Khlong_Luang_District%2C_Pathum_Thani_12120%2C_Thailand_-_panoramio.jpg/1280px-Khlong_Ha%2C_Khlong_Luang_District%2C_Pathum_Thani_12120%2C_Thailand_-_panoramio.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Khlong_Ha,_Khlong_Luang_District,_Pathum_Thani_12120,_Thailand_-_panoramio.jpg",
+    "image_author": "mohigan",
+    "image_license": "CC BY-SA 3.0",
+    "entry_fee_min": 100,
+    "entry_fee_max": 100,
+    "opening_hours": "อังคาร-ศุกร์ 09:30-15:00; เสาร์-อาทิตย์และวันหยุดนักขัตฤกษ์ 09:30-17:00",
+    "closed_days": "ปิดวันจันทร์ (รวมวันหยุดนักขัตฤกษ์ที่ตรงกับวันจันทร์)",
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.nsm.or.th/nsm/en/visit/price",
+      "https://www.nsm.or.th/nsm/en/close-open",
+      "https://commons.wikimedia.org/wiki/File:Khlong_Ha,_Khlong_Luang_District,_Pathum_Thani_12120,_Thailand_-_panoramio.jpg"
+    ],
+    "notes": "ผู้ใหญ่ 100 บาท (บัตรเดียวใช้ได้ 3 พิพิธภัณฑ์: วิทยาศาสตร์ ประวัติศาสตร์ธรรมชาติ เทคโนโลยีสารสนเทศ) เข้าฟรี: อายุต่ำกว่า 18 ปี, นักศึกษาปริญญาตรีไม่เกิน 24 ปี, ผู้สูงอายุ 60+ หน้าเวลาทำการเดียวกันสำหรับทุกพิพิธภัณฑ์ใน อพวช. (หน้าเว็บมีบรรทัดสรุปเก่าที่ต่างออกไป) Time Out ระบุ 09:30-17:00 อังคาร-อาทิตย์"
+  },
+  {
+    "id": "national-memorial",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/D85_3734_%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_The_National_Memorial_of_Thailand_Photographed_by_Trisorn_Triboon_%2830%29.jpg/1280px-D85_3734_%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_The_National_Memorial_of_Thailand_Photographed_by_Trisorn_Triboon_%2830%29.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:D85_3734_%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_The_National_Memorial_of_Thailand_Photographed_by_Trisorn_Triboon_(30).jpg",
+    "image_author": "Tris T7",
+    "image_license": "CC BY 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/the-national-memorial/",
+      "https://www.lovethailand.org/travel/en/25-Pathum-Thani/1925-National-Memorial.html",
+      "https://www.visitthailandtoday.com/temples-culture/bangkok/the-national-memorial",
+      "https://commons.wikimedia.org/wiki/File:D85_3734_%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_The_National_Memorial_of_Thailand_Photographed_by_Trisorn_Triboon_(30).jpg"
+    ],
+    "notes": "เข้าฟรี (หลายแหล่งตรงกัน) แต่วันเวลาทำการขัดแย้งกันมาก: thaiholidayguide อังคาร+พฤหัส-อาทิตย์ 08:30-16:30 ปิดจันทร์/พุธ, visitthailandtoday ทุกวัน 08:30-15:30, lovethailand จันทร์-ศุกร์ 09:00-16:00; Novotel ระบุว่าต้องนัดหมายล่วงหน้า (ไม่ได้ยืนยัน) จึงใส่ hours/closed เป็น null ควรโทรสอบถามกองการศึกษาทหาร"
+  },
+  {
+    "id": "wat-hong-pathummawat",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%87%E0%B8%A9%E0%B9%8C%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA_01.jpg/1280px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%87%E0%B8%A9%E0%B9%8C%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA_01.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%87%E0%B8%A9%E0%B9%8C%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA_01.jpg",
+    "image_author": "Dharmadana",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "08:00-17:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.lovethailand.org/travel/en/25-pathum-thani/1905-wat-hong-pathumawas.html",
+      "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%87%E0%B8%A9%E0%B9%8C%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA_01.jpg"
+    ],
+    "notes": "lovethailand ระบุเปิดทุกวัน 08:00-17:00 ไม่ระบุค่าเข้า (ไม่ใส่ค่า) แหล่งเดียว"
+  },
+  {
+    "id": "wat-panyanantaram",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "08:00-18:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://mthai.com/travel/pathum-thani/336862.html",
+      "https://travel.trueid.net/detail/b37kBegz8ON3"
+    ],
+    "notes": "mthai ระบุเปิด 08:00-18:00 เข้าชมฟรี (รับบริจาค) ส่วน trueid/Trip.com ระบุ 08:00-16:00 ไม่ตรงกัน; ไม่พบรูปที่ใบอนุญาตเสรีใน Commons"
+  },
+  {
+    "id": "wat-bot-sam-khok",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%9A%E0%B8%AA%E0%B8%96%E0%B9%8C_%E0%B8%AD.%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%81_%E0%B8%88.%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5_%282%29.jpg/1280px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%9A%E0%B8%AA%E0%B8%96%E0%B9%8C_%E0%B8%AD.%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%81_%E0%B8%88.%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5_%282%29.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%9A%E0%B8%AA%E0%B8%96%E0%B9%8C_%E0%B8%AD.%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%81_%E0%B8%88.%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5_(2).jpg",
+    "image_author": "กสิณธร ราชโอรส",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "06:00-18:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://travel.trueid.net/detail/g6vOoBGkAg7Q",
+      "https://mthai.com/travel/pathum-thani/336848.html",
+      "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%9A%E0%B8%AA%E0%B8%96%E0%B9%8C_%E0%B8%AD.%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%81_%E0%B8%88.%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5_(2).jpg"
+    ],
+    "notes": "trueid และ mthai ตรงกัน 06:00-18:00 ทุกวัน ไม่พบข้อมูลค่าเข้า (ไม่ใส่ค่า) อย่าสับสนกับวัดโบสถ์ อ.เมืองปทุมธานี (08:00-17:00) ซึ่งเป็นคนละวัด"
+  },
+  {
+    "id": "talad-thai",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "24 ชั่วโมง",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.lovethailand.org/travel/en/25-Pathum-Thani/1881-Talaad-Thai.html"
+    ],
+    "notes": "lovethailand: เปิดทุกวัน 24 ชม. ไม่มีค่าเข้า (ตลาดค้าส่งผลไม้/ผักขนาดใหญ่ ช่วงดึก-เช้ามืดคึกคักที่สุดตามธรรมชาติของตลาดค้าส่ง แต่ไม่มีแหล่งระบุ จึงไม่ใส่ best_time) ไม่พบรูปที่ใบอนุญาตเสรี"
+  },
+  {
+    "id": "lotus-museum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/%E0%B8%9A%E0%B8%B1%E0%B8%A7_%E0%B9%82%E0%B8%94%E0%B8%A2_%E0%B8%84%E0%B8%B8%E0%B8%93_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%8D.jpg/1280px-%E0%B8%9A%E0%B8%B1%E0%B8%A7_%E0%B9%82%E0%B8%94%E0%B8%A2_%E0%B8%84%E0%B8%B8%E0%B8%93_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%8D.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%9A%E0%B8%B1%E0%B8%A7_%E0%B9%82%E0%B8%94%E0%B8%A2_%E0%B8%84%E0%B8%B8%E0%B8%93_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%8D.jpg",
+    "image_author": "One World Thailand",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.eng.rmutt.ac.th/lotus-museum/",
+      "https://commons.wikimedia.org/wiki/File:%E0%B8%9A%E0%B8%B1%E0%B8%A7_%E0%B9%82%E0%B8%94%E0%B8%A2_%E0%B8%84%E0%B8%B8%E0%B8%93_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C_%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%8D.jpg"
+    ],
+    "notes": "เว็บ มทร.ธัญบุรี ระบุ Admission free เปิดจันทร์-ศุกร์ 08:30-16:30 (ข้อมูลนี้มีอยู่ในชุดข้อมูลแล้ว จึงไม่ใส่ซ้ำ) ไม่พบช่วงเวลาบัวบานหรือระยะเวลาเที่ยวชม รูปเป็นดอกบัวในพิพิธภัณฑ์บัว (ไม่ใช่ภาพอาคาร)"
+  },
+  {
+    "id": "ancient-siam",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Sanphet_Prasat_Palace_replica_at_Ancient_Siam%2C_Muang_Boran.jpg/1280px-Sanphet_Prasat_Palace_replica_at_Ancient_Siam%2C_Muang_Boran.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Sanphet_Prasat_Palace_replica_at_Ancient_Siam,_Muang_Boran.jpg",
+    "image_author": "iMahesh",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 400,
+    "entry_fee_max": 400,
+    "opening_hours": "09:00-19:00",
+    "closed_days": null,
+    "best_time": "พ.ย.-ก.พ.",
+    "visit_minutes": 300,
+    "sources": [
+      "https://www.lovethailand.org/travel/en/30-Samut-Prakan/1960-The-Ancient-City.html",
+      "https://www.visitthailandtoday.com/temples-culture/bangkok/the-ancient-city",
+      "https://commons.wikimedia.org/wiki/File:Sanphet_Prasat_Palace_replica_at_Ancient_Siam,_Muang_Boran.jpg"
+    ],
+    "notes": "คนไทย ผู้ใหญ่ 400 / เด็ก 200 บาท; ชาวต่างชาติ ผู้ใหญ่ 800 / เด็ก 400 บาท (lovethailand) เปิดทุกวัน 09:00-19:00 ขายบัตรถึง 18:00 ใช้เวลา 'หลายชั่วโมงถึงทั้งวัน' (visitthailandtoday: 5 ชม. ผ่านไปเร็ว) จึงใส่ 300 นาที; พ.ย.-ก.พ. อากาศเย็น หลีกเลี่ยง เม.ย.-พ.ค."
+  },
+  {
+    "id": "erawan-museum",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 250,
+    "entry_fee_max": 250,
+    "opening_hours": "09:00-18:00",
+    "closed_days": null,
+    "best_time": "เช้า วันธรรมดา",
+    "visit_minutes": 105,
+    "sources": [
+      "https://www.lovethailand.org/travel/en/30-Samut-Prakan/1940-The-Erawan-Museum.html",
+      "https://www.thaiholidayguide.com/attraction/erawan-museum/"
+    ],
+    "notes": "คนไทย ผู้ใหญ่ 250 / เด็ก 125 บาท; ต่างชาติ ผู้ใหญ่ 500 / เด็ก 250 บาท (lovethailand; ราคาคนไทย 250 ตรงกับรีวิว Wongnai 2026 และเอกสารมหิดล) แต่ thaiholidayguide ระบุ 500/250 ราคาเดียวทุกสัญชาติ (ขัดแย้ง) ขายบัตรถึง 17:00 เที่ยว 1.5-2 ชม. (thaiholidayguide) เช้าวันธรรมดาคนน้อย"
+  },
+  {
+    "id": "bang-pu-recreation-center",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Samutprakarn_Bangpu_Recreation_Centre_2.jpg/1280px-Samutprakarn_Bangpu_Recreation_Centre_2.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Samutprakarn_Bangpu_Recreation_Centre_2.jpg",
+    "image_author": "Mr.Sivakrit Saravit",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "10:00-20:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 180,
+    "sources": [
+      "https://www.lovethailand.org/travel/en/30-Samut-Prakan/1958-Bang-Pu-Recreation-Center.html",
+      "https://commons.wikimedia.org/wiki/File:Samutprakarn_Bangpu_Recreation_Centre_2.jpg"
+    ],
+    "notes": "lovethailand: เข้าฟรี เปิดทุกวัน 10:00-20:00 เที่ยว 2-4 ชม. (ใช้ค่ากลาง 180 นาที) ฤดูนกนางนวลปลายปี-ประมาณ พ.ค. (best_time ในชุดข้อมูลมี 'ช่วงเย็น' อยู่แล้ว ไม่แก้)"
+  },
+  {
+    "id": "bang-nam-phueng-floating-market",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Sunday_market.jpg/1280px-Sunday_market.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Sunday_market.jpg",
+    "image_author": "KongkhamWichit",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "พ.ย.-ก.พ.",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.lovethailand.org/travel/en/30-Samut-Prakan/1933-Bang-Nam-Phueng-Floating-Market.html",
+      "https://www.visitthailandtoday.com/markets-shopping/bangkok/bang-nam-phueng-floating-market",
+      "https://commons.wikimedia.org/wiki/File:Sunday_market.jpg"
+    ],
+    "notes": "lovethailand: เข้าฟรี; best_time พ.ย.-ก.พ. จาก visitthailandtoday (เลี่ยง เม.ย.-พ.ค.) เวลาเปิดในชุดข้อมูลมีอยู่แล้ว (แหล่งต่างๆ ระบุ 08:00-14:00 หรือ 08:00-16:00) ไม่พบระยะเวลาเที่ยว"
+  },
+  {
+    "id": "si-nakhon-khuean-khan-park",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bird_Watching_Tower_at_Si_Nakhon_Khuean_Khan_Park.jpg/1280px-Bird_Watching_Tower_at_Si_Nakhon_Khuean_Khan_Park.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Bird_Watching_Tower_at_Si_Nakhon_Khuean_Khan_Park.jpg",
+    "image_author": "Thohig",
+    "image_license": "CC0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": "เช้า ก่อน 09:00",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/si-nakhon-khuean-khan-park-and-botanical-garden/",
+      "https://commons.wikimedia.org/wiki/File:Bird_Watching_Tower_at_Si_Nakhon_Khuean_Khan_Park.jpg"
+    ],
+    "notes": "thaiholidayguide: เข้าฟรี เปิด 05:00-19:00 ทุกวัน (ตรงกับชุดข้อมูล) แนะนำเช้าก่อน 09:00 อากาศเย็นและมีนกเยอะ ค่าเช่าจักรยานแยกต่างหากประมาณ 20-30 บาท/วัน ไม่พบระยะเวลาเที่ยว"
+  },
+  {
+    "id": "phra-samut-chedi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Wat_Phra_Samut_Chedi.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Phra_Samut_Chedi.jpg",
+    "image_author": "Ahoerstemeier",
+    "image_license": "CC BY-SA 3.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "08:00-16:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 40,
+    "sources": [
+      "https://www.lovethailand.org/travel/en/30-Samut-Prakan/1938-Phra-Samut-Chedi.html",
+      "https://www.thaiholidayguide.com/attraction/phra-samut-chedi/",
+      "https://commons.wikimedia.org/wiki/File:Wat_Phra_Samut_Chedi.jpg"
+    ],
+    "notes": "เข้าฟรี (thaiholidayguide) เวลาไม่ตรงกัน: lovethailand 08:00-16:00, thaiholidayguide 07:00-16:00 (บางแหล่ง 08:30-16:30) ใช้ 08:00-16:00 เที่ยว 30-45 นาที (ใช้ 40) งานนมัสการพระสมุทรเจดีย์ปลายเดือนต.ค.-พ.ย. (ขึ้นกับปฏิทินจันทรคติ)"
+  },
+  {
+    "id": "chulachomklao-fort",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Chulachomklao_Fort_03.jpg/1280px-Chulachomklao_Fort_03.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Chulachomklao_Fort_03.jpg",
+    "image_author": "Kittipong khunnen",
+    "image_license": "CC BY-SA 3.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "08:00-18:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "http://m-culture.in.th/album/view/58148/",
+      "https://www.thai-tour.com/place/1910",
+      "https://travel.samutprakan.go.th/%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B8%E0%B8%A5%E0%B8%88%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2/",
+      "https://commons.wikimedia.org/wiki/File:Chulachomklao_Fort_03.jpg"
+    ],
+    "notes": "เข้าฟรี (m-culture, thai-tour) เปิดทุกวัน ~08:00-18:00 แต่เว็บท่องเที่ยวจังหวัดสมุทรปราการระบุ จันทร์-ศุกร์ 08:00-20:00 (ขัดแย้ง) ต้องขออนุญาตกองรักษาการณ์หน้าประตูและแลกบัตรประจำตัว (กองทัพเรือดูแล) ตัวเลข 8 บาทในเว็บจังหวัดเป็นค่าเรือข้ามฟาก ไม่ใช่ค่าเข้า"
+  },
+  {
+    "id": "wat-asokaram",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B9%82%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1.jpg/1280px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B9%82%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B9%82%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1.jpg",
+    "image_author": "Preecha.MJ",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "08:00-16:30",
+    "closed_days": null,
+    "best_time": "เช้า",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-asokaram/",
+      "https://www.lovethailand.org/travel/en/30-Samut-Prakan/1952-Wat-Asokaram.html",
+      "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B9%82%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1.jpg"
+    ],
+    "notes": "thaiholidayguide และ lovethailand ตรงกัน: เปิดทุกวัน 08:00-16:30 เข้าฟรี; เช้าเป็นช่วงที่มีกิจกรรมสวดมนต์/นั่งสมาธิ (thaiholidayguide) บางแหล่งระบุเวลาอื่น (06:00-17:00)"
+  }
+]

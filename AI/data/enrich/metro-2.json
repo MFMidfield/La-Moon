@@ -1,0 +1,291 @@
+[
+  {
+    "id": "phra-pathom-chedi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Phra_Pathom_Chedi_-_Day.jpg/1280px-Phra_Pathom_Chedi_-_Day.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Phra_Pathom_Chedi_-_Day.jpg",
+    "image_author": "Supanut Arunoprayote",
+    "image_license": "CC BY 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "06:00-19:00",
+    "closed_days": null,
+    "best_time": "เช้า 07:00-08:00",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-phra-pathom-chedi-ratchaworamahawihan/",
+      "https://www.yourthaiguide.com/phra-pathom-chedi/",
+      "https://en.wikipedia.org/wiki/Phra_Pathom_Chedi"
+    ],
+    "notes": "ลานวัด/บริเวณองค์พระเป็นวัดสาธารณะ ไม่เก็บค่าเข้าสำหรับคนไทย (Wongnai ระบุไม่มีค่าเข้าชม); thaiholidayguide ระบุ 'Adult 60' สำหรับเดินระเบียงคตชั้นใน ซึ่งน่าจะเป็นอัตราชาวต่างชาติ (รีวิวแจ้งว่าเก็บ 60 บาทจากต่างชาติ แต่มักไม่มีคนเก็บ) ยืนยันไม่ได้; yourthaiguide ระบุ 20 บาท (บทความ ส.ค. 2025) ขัดแย้งกัน ใช้ 0 สำหรับคนไทย. เวลาเปิดขัดแย้ง: thaiholidayguide (ก.ค. 2026) 06:00-19:00, yourthaiguide 07:00-20:00 ใช้ตัวแรก. พิพิธภัณฑ์แห่งชาติพระปฐมเจดีย์แยกต่างหาก (เปิดพุธ-อาทิตย์ ตามแหล่งข้อมูล ค่าเข้าไทย 20 บาท) ไม่นับรวม. visit_minutes ไม่มีแหล่งระบุ. ภาพ: Phra Pathom Chedi - Day.jpg ภาพองค์พระปฐมเจดีย์ ตรวจดูแล้วตรงสถานที่"
+  },
+  {
+    "id": "wat-samphran",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 0,
+    "entry_fee_max": 80,
+    "opening_hours": "06:00-18:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wat_Sam_Phran"
+    ],
+    "notes": "Wikipedia: ไม่บังคับซื้อตั๋ว แต่ 'แนะนำบริจาค 80 บาท' (min 0 = ไม่บังคับ, max 80 = เงินบริจาคที่แนะนำ ไม่ใช่ตั๋วจริง ไม่ระบุว่าคนไทยจ่ายเท่าไร). เปิดทุกวัน 06:00-18:00 ตาม Wikipedia; บทความเก่า 2019 ระบุว่าทางเดินในตัวมังกรเปิดเฉพาะวันพระ/วันอาทิตย์/วันหยุดนักขัตฤกษ์ ยืนยันปัจจุบันไม่ได้. best_time และ visit_minutes ไม่พบแหล่งข้อมูล. ไม่ต้องหารูป (ไม่อยู่ในรายการ missing)"
+  },
+  {
+    "id": "don-wai-market",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": "ทุกวัน (จ.-ศ. 08:00-17:00, ส.-อา. 07:00-18:30)",
+    "closed_days": null,
+    "best_time": "พ.ย.-ก.พ.",
+    "visit_minutes": 120,
+    "sources": [
+      "https://www.visitthailandtoday.com/markets-shopping/bangkok/don-wai-floating-market",
+      "https://www.lovethailand.org/travel/en/22-Nakhon-Pathom/1732-Don-Wai-Market.html",
+      "https://en.wikipedia.org/wiki/Don_Wai_Market"
+    ],
+    "notes": "ไม่พบแหล่งที่ระบุค่าเข้าตลาด (ไม่มีแหล่งไหนบอกว่าเก็บหรือไม่เก็บ) จึงเป็น null; ค่าเรือแยกต่างหาก: Don Wai-วัดไร่ขิง 60 บาท/คน ไป-กลับ, ล่องแม่น้ำท่าจีนราว 1 ชม. 100 บาท (Wikipedia). เวลาเปิด: visitthailandtoday ระบุ จ.-ศ. 08:00-17:00, ส.-อา. 07:00-18:30 ส่วน lovethailand ระบุ 06:00-18:00 ทุกวัน ใช้แหล่งแรก. best_time 'พ.ย.-ก.พ.' จาก visitthailandtoday (ฝูงชนสูงสุด ธ.ค.-ม.ค. เลี่ยง เม.ย.-พ.ค.); lovethailand แนะนำเช้าวันหยุดสุดสัปดาห์ของกินหลากหลายสุด. visit_minutes 120 จาก 'ผู้รีวิวใช้เวลาราวสองชั่วโมง'"
+  },
+  {
+    "id": "lam-phaya-floating-market",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "08:00-17:00",
+    "closed_days": "ปิดวันจันทร์-ศุกร์ (ตลาดเปิดเฉพาะเสาร์-อาทิตย์และวันหยุดนักขัตฤกษ์)",
+    "best_time": "เช้า ก่อน 09:30",
+    "visit_minutes": 60,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-lam-phaya-floating-market/",
+      "https://www.wongnai.com/attractions/326337xQ-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A5%E0%B8%B3%E0%B8%9E%E0%B8%8D%E0%B8%B2",
+      "https://www.wongnai.com/reviews/878c34a11f904cbaa31a580d2f801fcc"
+    ],
+    "notes": "thaiholidayguide (อัปเดต ก.ค. 2026): เสาร์-อาทิตย์/วันหยุดราชการ 08:00-17:00, เข้าฟรี (จ่ายแค่ค่าของ), 'ควรไปก่อน 09:30', 'ใช้เวลาราว 1 ชม.'; Wongnai ระบุ ส.-อา. 08:00-16:00 (รีวิวปี 2020 บอก 17:00) ขัดกันเล็กน้อย ใช้ 17:00 ตามแหล่งใหม่กว่า. ค่านั่งเรือแยกต่างหาก 60/80 บาท (รีวิว Wongnai ไม่ใช่ราคาทางการ). ไม่พบรูปที่มีสิทธิ์ใช้ได้ใน Commons จึงเป็น null"
+  },
+  {
+    "id": "phutthamonthon",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Buddha_Monthon%2CNakornpathom%2CThailand_%2892%29.jpg/1280px-Buddha_Monthon%2CNakornpathom%2CThailand_%2892%29.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Buddha_Monthon,Nakornpathom,Thailand_(92).jpg",
+    "image_author": "กสิณธร ราชโอรส",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "05:00-19:00",
+    "closed_days": null,
+    "best_time": "เช้า ก่อนแดดแรง",
+    "visit_minutes": 120,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/phutthamonthon/",
+      "https://commons.wikimedia.org/wiki/File:Buddha_Monthon,Nakornpathom,Thailand_(92).jpg"
+    ],
+    "notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 05:00-19:00, เข้าฟรี, เช้าตรู่เงียบและเย็นสุด/เย็นอีกช่วงหนึ่งก็ดี, ชมรอบอุทยานเดินเท้า 'ราวสองชั่วโมง'; วันพระและเทศกาล (วิสาขบูชา ฯลฯ) คนมาก. ภาพ: พระพุทธรูปปางลีลา พุทธมณฑล (ไฟล์ original 4592x3448)"
+  },
+  {
+    "id": "thai-human-imagery-museum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Thai_Human_Imagery_Museum.JPG/1280px-Thai_Human_Imagery_Museum.JPG",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Thai_Human_Imagery_Museum.JPG",
+    "image_author": "Chongkian",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 80,
+    "entry_fee_max": 80,
+    "opening_hours": "จ.-ศ. 09:00-17:30, ส.-อา./วันหยุด 08:30-18:00",
+    "closed_days": null,
+    "best_time": "เช้า วันธรรมดา",
+    "visit_minutes": 90,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/thai-wax-museum/",
+      "https://www.lovethailand.org/travel/t/22-นครปฐม/1746-พิพิธภัณฑ์หุ่นขี้ผึ้งไทย.html",
+      "https://en.wikipedia.org/wiki/Thai_Human_Imagery_Museum"
+    ],
+    "notes": "thaiholidayguide (ก.ค. 2026): ผู้ใหญ่ไทย 80 / เด็กไทย 40 บาท; ชาวต่างชาติผู้ใหญ่ 300 / เด็ก 150 (lovethailand เก่ากว่า: ไทย 50 / ต่างชาติ 200 ใช้ตัวใหม่). ส่วนหัวหน้า thaiholidayguide เขียน 'Daily 09:00-17:30' แต่เนื้อหาและ lovethailand ระบุเสาร์-อาทิตย์/วันหยุด 08:30-18:00. 'ใช้เวลา 1-2 ชม.' -> 90. 'เช้าวันธรรมดาเงียบกว่า'"
+  },
+  {
+    "id": "wat-rai-khing",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Wat_Rai_King_waterside.jpg/1280px-Wat_Rai_King_waterside.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Rai_King_waterside.jpg",
+    "image_author": "Ahoerstemeier",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "08:00-16:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-rai-khing/",
+      "https://commons.wikimedia.org/wiki/File:Wat_Rai_King_waterside.jpg"
+    ],
+    "notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 08:00-16:00 เข้าฟรี; มีตลาดวัดวันอาทิตย์และงานนมัสการหลวงพ่อวัดไร่ขิง 9 วัน ช่วงปลาย มี.ค./ต้น เม.ย. (ตรวจวันที่ของปีนั้นอีกครั้ง) แต่ไม่ได้ระบุช่วงเวลาที่ดีที่สุด และไม่ระบุเวลาที่ใช้เที่ยว จึงเป็น null. ภาพมองวัดจากแม่น้ำท่าจีน"
+  },
+  {
+    "id": "phra-prathon-chedi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Chedi_Phra_Pathon-001.jpg/1280px-Chedi_Phra_Pathon-001.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Chedi_Phra_Pathon-001.jpg",
+    "image_author": "Ddalbiez",
+    "image_license": "CC BY-SA 3.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "06:00-18:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 25,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/phra-prathon-chedi/",
+      "https://commons.wikimedia.org/wiki/File:Chedi_Phra_Pathon-001.jpg"
+    ],
+    "notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 06:00-18:00 เข้าฟรี 'ใช้เวลา 20-30 นาที' -> 25; ไม่ระบุเวลาที่ดีที่สุด. ภาพเจดีย์พระประโทณ ตรงสถานที่"
+  },
+  {
+    "id": "wat-krok-krak",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%81_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3.jpg/1280px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%81_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%81_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3.jpg",
+    "image_author": "กสิณธร ราชโอรส",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "08:30-17:30",
+    "closed_days": null,
+    "best_time": "เช้า วันธรรมดา (เลี่ยงงานเดือน ม.ค.)",
+    "visit_minutes": 25,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-krok-krak/",
+      "https://commons.wikimedia.org/wiki/File:วัดโกรกกราก_อ.เมือง_จ.สมุทรสาคร.jpg"
+    ],
+    "notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 08:30-17:30 เข้าฟรี; 'ส่วนใหญ่อยู่ 20-30 นาที ยกเว้นมางานเดือน ม.ค.' -> 25; แนะนำเช้าวันธรรมดา นอกเดือน ม.ค. (งานวัดคนมาก). ภาพ: หลวงพ่อวัดโกรกกราก (พระประธานสวมแว่นกันแดด ปรากฏในภาพถ่ายหลายภาพของผู้ถ่ายต่างกันบน Commons ผู้ใช้ควรดูภาพเองก่อนใช้) ถ้าไม่อยากใช้ภาพนี้ให้ใช้ null"
+  },
+  {
+    "id": "tha-chalom-community",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Samutsakorn_ThaChalom_Fishing_village_3.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Samutsakorn_ThaChalom_Fishing_village_3.jpg",
+    "image_author": "Mr.Niwat Tantayanusorn,Ph.D.",
+    "image_license": "CC BY-SA 4.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "ศูนย์ข้อมูลท่องเที่ยวบ้านท่าฉลอม เสาร์-อาทิตย์ 09:00-17:30",
+    "closed_days": null,
+    "best_time": "เช้า",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/baan-thachalom-tourism-information-center/",
+      "https://www.thaiholidayguide.com/visit/samut-sakhon/",
+      "https://commons.wikimedia.org/wiki/File:Samutsakorn_ThaChalom_Fishing_village_3.jpg"
+    ],
+    "notes": "ชุมชนเป็นย่านเปิดให้เดินชม ไม่มีเวลาเปิด-ปิดทางการ; เวลาที่ใส่คือของศูนย์ข้อมูลท่องเที่ยวบ้านท่าฉลอม (thaiholidayguide ก.ค. 2026: เสาร์-อาทิตย์ 09:00-17:30 เข้าฟรี) ซึ่งปิดจันทร์-ศุกร์ จึงไม่ใส่ closed_days เพราะตัวชุมชนไม่ปิด. 'เช้าสะดวกสุด ก่อนร้อนและตลาดยังขายอยู่'. fee 0 อ้างอิงเฉพาะศูนย์ข้อมูลที่เข้าฟรี. ไม่พบแหล่งเวลาที่ใช้เที่ยว. ภาพขนาดต้นฉบับ 1187x791 (ไม่มี thumbnail 1280)"
+  },
+  {
+    "id": "mahachai-market",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "05:00-18:00",
+    "closed_days": null,
+    "best_time": "เช้า 07:00-09:00",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/mahachai-market-municipal-port/",
+      "https://www.thaiholidayguide.com/visit/samut-sakhon/"
+    ],
+    "notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 05:00-18:00 'ตลาดสาธารณะ ไม่ใช่สถานที่ขายตั๋ว' เข้าฟรี; เช้า 07:00-09:00 ของสดเลือกได้มากสุดก่อนล็อตขายส่งหมด. ไม่พบแหล่งเวลาที่ใช้เที่ยว"
+  },
+  {
+    "id": "phanthai-norasing-shrine",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C_Phanthai_Norasing_Shrine.JPG/1280px-%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C_Phanthai_Norasing_Shrine.JPG",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C_Phanthai_Norasing_Shrine.JPG",
+    "image_author": "กสิณธร ราชโอรส",
+    "image_license": "CC BY-SA 3.0",
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "08:00-18:00",
+    "closed_days": null,
+    "best_time": "เช้า ก่อนสาย",
+    "visit_minutes": 30,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/phanthainorasingh-shrine/",
+      "https://commons.wikimedia.org/wiki/File:ศาลพันท้ายนรสิงห์_Phanthai_Norasing_Shrine.JPG"
+    ],
+    "notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 08:00-18:00 เข้าฟรี; 'ศาลอย่างเดียวใช้เวลาไม่ถึง 30 นาที' -> 30 (ถ้าเที่ยวอุทยานประวัติศาสตร์พันท้ายนรสิงห์ด้วยจะนานกว่า); 'ไปก่อนสายถ้าอยากได้บรรยากาศเงียบ' วันเสาร์-อาทิตย์เช้าคนไทยเยอะ. Wongnai (บล็อก ไม่ทางการ) ให้เวลา ส.-อา. 09:00-20:00 ไม่ใช้"
+  },
+  {
+    "id": "samut-sakhon-city-pillar-shrine",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "08:00-18:00",
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": 25,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/sanlugmuang-samut-sakorn/"
+    ],
+    "notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 08:00-18:00 เข้าฟรี 'เยี่ยมชม 20-30 นาที' -> 25; ตั้งอยู่ริมแม่น้ำท่าจีนใกล้ป้อมวิชิตโชดก ถ.เศรษฐกิจ 1 มหาชัย; ขบวนแห่เจ้าพ่อหลักเมือง ขึ้น 11 ค่ำ เดือน 5 (ราว พ.ค.-มิ.ย.) ไม่นับเป็นช่วงเวลาที่ดีที่สุด. ไม่พบภาพ Commons ที่ยืนยันได้ (ไฟล์ 'ศาลหลักเมือง(City pillar shine) - panoramio.jpg' ไม่ระบุจังหวัด จึงไม่ใช้)"
+  },
+  {
+    "id": "wat-nang-sao",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": 0,
+    "entry_fee_max": 0,
+    "opening_hours": "07:30-17:00",
+    "closed_days": null,
+    "best_time": "สาย (ก่อนแดดบ่าย)",
+    "visit_minutes": null,
+    "sources": [
+      "https://www.thaiholidayguide.com/attraction/wat-nangsao/"
+    ],
+    "notes": "thaiholidayguide (ก.ค. 2026): เปิดทุกวัน 07:30-17:00 เข้าฟรี; แนะนำช่วงสายเพื่อชมแสงในพระอุโบสถก่อนแดดบ่ายเปลี่ยนมุม. ไม่พบแหล่งเวลาที่ใช้เที่ยว"
+  },
+  {
+    "id": "wat-lak-si-rat-samoson",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://mgronline.com/travel/detail/9620000030839"
+    ],
+    "notes": "วัดอยู่ต.ยกกระบัตร อ.บ้านแพ้ว สมุทรสาคร (ติดคลองดำเนินสะดวก) พระประธาน 'หลวงพ่อโต'; ไม่พบเวลาเปิด/ค่าเข้า/ช่วงเวลาแนะนำจากแหล่งน่าเชื่อถือ (MGR 2019 ไม่ระบุ). ไม่พบภาพ Commons/Unsplash (ผลค้นหา 'วัดหลักสี่' เป็นวัดหลักสี่ กทม. คนละแห่ง ไม่ใช้)"
+  },
+  {
+    "id": "don-kai-di-benjarong-village",
+    "image_url": null,
+    "image_page_url": null,
+    "image_author": null,
+    "image_license": null,
+    "entry_fee_min": null,
+    "entry_fee_max": null,
+    "opening_hours": null,
+    "closed_days": null,
+    "best_time": null,
+    "visit_minutes": null,
+    "sources": [
+      "https://mgronline.com/travel/detail/9600000022505",
+      "https://www.thaipost.net/main/detail/7446"
+    ],
+    "notes": "หมู่ที่ 1 ต.ดอนไก่ดี อ.กระทุ่มแบน; โทร 0-3447-3480 (หมู่บ้าน). ไม่พบเวลาเปิด/ค่าเข้าปัจจุบัน (บทความ MGR 2017 และ Thaipost 2018 ไม่ระบุ; เวลา 10:00-22:00 เป็นเวลางานประจำปี มี.ค. 2017 ไม่ใช่เวลาปกติ; ค่าออกแบบลายเบญจรงค์เอง 430 บาท/คน เป็นกิจกรรมไม่ใช่ค่าเข้า). ไม่พบภาพ Commons/Unsplash"
+  }
+]
