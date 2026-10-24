@@ -30,7 +30,7 @@ export default function PlaceCard({ place, provinceLabel, moodTotal, recommended
 
   return (
     <div className="flex h-full flex-col">
-      <div className="relative min-h-0 grow overflow-hidden rounded-3xl bg-peach">
+      <div className="relative min-h-[72px] grow overflow-hidden rounded-3xl bg-peach">
         {showImage ? (
           <img
             src={place.image_url}
@@ -66,7 +66,7 @@ export default function PlaceCard({ place, provinceLabel, moodTotal, recommended
         )}
       </div>
 
-      <div className="flex shrink-0 flex-col gap-2 px-2.5 pb-1.5 pt-3">
+      <div className="flex shrink-0 flex-col gap-2 overflow-hidden px-2.5 pb-1.5 pt-3">
         <div className="flex items-center justify-between gap-2">
           <h2 className="m-0 min-w-0 truncate text-2xl font-semibold leading-tight">{place.name}</h2>
           <span className="shrink-0 rounded-full bg-[#E7EFDC] px-2.5 py-[3px] text-xs text-[#3F5A2E]">
@@ -85,7 +85,7 @@ export default function PlaceCard({ place, provinceLabel, moodTotal, recommended
           )}
         </div>
 
-        <div className="flex h-[26px] gap-1.5 overflow-hidden">
+        <div className="flex h-[26px] gap-1.5 overflow-hidden [@media(max-height:640px)]:hidden">
           {tags.map((tag) => (
             <span key={tag} className="min-w-0 truncate rounded-full bg-cream px-3 py-[3px] text-[13px]">
               {tag}

@@ -2,11 +2,11 @@ import { Moon, Sparkle } from '../icons'
 
 const BLOCK = 'animate-pulse motion-reduce:animate-none rounded-full bg-cream'
 
-export function SkeletonCard() {
+export function SkeletonCard({ label = 'กำลังโหลดการ์ด' }) {
   return (
     <div
       role="status"
-      aria-label="กำลังโหลดที่เที่ยว"
+      aria-label={label}
       className="absolute inset-x-2 bottom-0.5 top-5 flex flex-col rounded-[32px] bg-white p-2.5 shadow-[0_6px_18px_#5A2E1414]"
     >
       <div className="min-h-0 grow animate-pulse rounded-3xl bg-peach/60 motion-reduce:animate-none" />
@@ -34,7 +34,7 @@ export function SkeletonCard() {
 // ข้อความกลางจอ (ว่าง / error) + ปุ่ม
 export function DeckMessage({ title, body, children }) {
   return (
-    <div className="flex grow flex-col items-center justify-center gap-2 px-[22px] py-16 text-center">
+    <div className="flex grow flex-col items-center justify-center gap-2 px-[22px] py-8 text-center">
       <div className="relative mb-3 flex h-24 w-24 items-center justify-center rounded-full bg-peach">
         <Moon size={40} fill="#5A2E14" className="-rotate-12" />
         <span className="absolute -right-1 top-1">

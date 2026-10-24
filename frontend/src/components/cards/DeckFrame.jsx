@@ -2,9 +2,6 @@ import { motion, useReducedMotion } from 'framer-motion'
 import Sticker from '../home/Sticker'
 import { Moon, Sparkle } from '../icons'
 
-// สูงเท่าที่เหลือจาก header + ปุ่มล่าง (≈236px) แต่ไม่เตี้ย/สูงเกินไป
-const DECK_HEIGHT = 'h-[clamp(440px,calc(100svh_-_236px),660px)]'
-
 function BackCard({ className, rotate, show, bump }) {
   const reduce = useReducedMotion()
   return (
@@ -19,10 +16,10 @@ function BackCard({ className, rotate, show, bump }) {
   )
 }
 
-// กรอบกองการ์ด: ใบหลังส้ม −7°, ใบกลางพีช +5° (ซ่อนเมื่อการ์ดเหลือน้อย) + สติกเกอร์
+// กรอบกองการ์ด: สูงเต็มพื้นที่ที่ parent เหลือให้ (parent ต้อง min-h-0 + flex-1) ; ใบหลังส้ม −7°, ใบกลางพีช +5° (ซ่อนเมื่อการ์ดเหลือน้อย) + สติกเกอร์
 export default function DeckFrame({ remaining = 3, bump = 0, children }) {
   return (
-    <div className={`relative mx-4 mt-2.5 shrink-0 ${DECK_HEIGHT}`}>
+    <div className="relative mx-4 h-full">
       <BackCard className="inset-x-3.5 bottom-1.5 top-[26px] bg-orange" rotate={-7} show={remaining >= 3} bump={bump} />
       <BackCard className="inset-x-2.5 bottom-1 top-[22px] bg-peach" rotate={5} show={remaining >= 2} bump={bump} />
 
