@@ -8,9 +8,10 @@ export default function ProvinceSearch({ query, onQueryChange, counts, ready, on
   function handleKeyDown(event) {
     if (event.key === 'Escape') setOpen(false)
     if (event.key === 'Enter' && ready && open) {
-      const first = matches.find(province => counts[province.id] > 0)
+      const first = matches[0]
       if (first) {
         event.preventDefault()
+        setOpen(false)
         onChoose(first.id)
       }
     }
@@ -46,8 +47,8 @@ export default function ProvinceSearch({ query, onQueryChange, counts, ready, on
                 <li key={province.id}>
                   <button
                     type="button"
-                    disabled={!available}
-                    onClick={() => onChoose(province.id)}
+                    disabled={!ready}
+                    onClick={() => { setOpen(false); onChoose(province.id) }}
                     className="flex min-h-11 w-full cursor-pointer items-center justify-between gap-3 rounded-full px-3 text-left text-sm hover:bg-cream focus-visible:outline-2 focus-visible:outline-brown disabled:cursor-default disabled:text-muted"
                   >
                     <span>{province.label}</span>
