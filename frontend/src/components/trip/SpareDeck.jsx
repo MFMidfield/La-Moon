@@ -11,7 +11,8 @@ const SWIPE_VELOCITY = 500
 
 // ตำแหน่งของใบตามลำดับในกอง (0 = ใบหน้า) — ใบหลังเอียงสลับ สีไล่ขาว → พีช → ส้มตาม DESIGN.md
 const DEPTHS = [
-  { x: 0, y: 0, rotate: 0, scale: 1, bg: '#FFFFFF' },
+  // ใบหน้า: พื้นขาวอยู่ที่ตัวการ์ดที่ปัดขึ้นได้ (ด้านใน) จะได้ลอยขึ้นไปทั้งใบ
+  { x: 0, y: 0, rotate: 0, scale: 1, bg: 'rgba(255,255,255,0)' },
   { x: 6, y: 10, rotate: 2.5, scale: 0.97, bg: '#F9D9C2' },
   { x: -6, y: 19, rotate: -3, scale: 0.94, bg: '#F4A36C' },
   { x: 5, y: 27, rotate: 4, scale: 0.91, bg: '#E8793A' },
@@ -79,7 +80,7 @@ function DeckCard({ place, depth, count, onSelect, onBook, onCycle, onDrop, onHo
               if (info.offset.y < -SWIPE_DISTANCE || info.velocity.y < -SWIPE_VELOCITY) onCycle(place.id)
             }}
             style={{ y: swipeY }}
-            className="flex h-full flex-col justify-between p-3"
+            className={`flex h-full flex-col justify-between rounded-[24px] p-3 ${top ? 'bg-white' : ''}`}
           >
             <div className="flex items-start gap-2.5 pr-10">
               <PlaceThumb src={place.image_url} />
