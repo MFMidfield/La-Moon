@@ -4,9 +4,10 @@ const RARITY_ORDER = { legendary: 0, rare: 1, common: 2 }
 
 /**
  * Place (แถวจากตาราง places):
- * { id, province, name, district, description, moods: string[], tags: string[],
- *   rarity: 'common'|'rare'|'legendary', stats: { view, chill, value, access } (1-5),
- *   price_level: 1|2|3|null, lat, lng, image_url, image_credit, affiliate_url }
+ * { id, province, name, name_en, district, description, moods: string[], tags: string[],
+ *   rarity: 'common'|'rare'|'legendary', stats: { chill, adventure, photo, food, budget } (0-5, budget สูง = ประหยัด),
+ *   price_level: 1|2|3|null, price_label, lat, lng, coords_uncertain, popularity, best_time, opening_hours,
+ *   booking_hint, image_url, image_credit, image_license, image_page_url, affiliate_url }
  */
 
 // สถานที่ของจังหวัด กรองมู้ด (ตรงอย่างน้อย 1) และงบ (price_level <= budget)

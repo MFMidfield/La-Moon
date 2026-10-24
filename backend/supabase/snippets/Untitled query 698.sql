@@ -35,17 +35,26 @@ create table public.places (
   id text primary key,                 -- slug เช่น 'krabi-phi-phi'
   province text not null,              -- id จังหวัด เช่น 'krabi'
   name text not null,
+  name_en text,
   district text,
   description text,
   moods text[] not null default '{}',  -- id มู้ด
   tags text[] not null default '{}',
   rarity text not null default 'common' check (rarity in ('common','rare','legendary')),
-  stats jsonb not null default '{}',   -- {"view":1-5,"chill":1-5,"value":1-5,"access":1-5}
+  stats jsonb not null default '{}',   -- {"chill","adventure","photo","food","budget"} 0-5 (budget สูง = ประหยัด)
   price_level smallint check (price_level between 1 and 3),  -- ประหยัด/กลางๆ/จัดเต็ม
+  price_label text,                    -- ข้อความราคาเดิม เช่น 'ถูก (<200฿)'
   lat double precision,
   lng double precision,
+  coords_uncertain boolean not null default false,
+  popularity text,                     -- ดัง/พอรู้จัก/ลับ (ที่มาของ rarity)
+  best_time text,
+  opening_hours text,
+  booking_hint text,                   -- ที่พักใกล้เคียง (ใช้กับ mock จอง)
   image_url text,
   image_credit text,
+  image_license text,
+  image_page_url text,
   affiliate_url text,
   created_at timestamptz not null default now()
 );

@@ -80,7 +80,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 ## Database
 `profiles` (local DB) — id, display_name, avatar_url, favorite_moods text[] (id), custom_moods text[] (พิมพ์เอง), provinces text[], regions text[] (ไม่ใช้แล้ว), accepted_terms_at, created_at + RLS เจ้าของเท่านั้น
 - Storage bucket `avatars` (public, 2MB, jpg/png/webp) path `<user id>/avatar-<ts>.<ext>` เขียนได้เฉพาะโฟลเดอร์ตัวเอง
-- `places` (อ่านได้ทุกคน, เขียนผ่าน Studio), `trips` (ของตัวเอง), `swipes` (ของตัวเอง)
+- `places` (อ่านได้ทุกคน, เขียนผ่าน Studio) 28 ที่: สุราษฎร์ 8, นครศรี 5, พังงา 5, กระบี่ 5, ภูเก็ต 5; stats = {chill, adventure, photo, food, budget} 0-5
+- `trips` (ของตัวเอง), `swipes` (ของตัวเอง)
 - schema ทั้งหมดอยู่ใน `backend/supabase/snippets/Untitled query 698.sql`
 - permission: `.claude/settings.local.json` อนุญาต `pg_dump`/`psql` (ผู้ใช้เพิ่มเอง) — ยังต้อง backup + ถามก่อนทุกครั้ง
 - กฎ DB (2026-10-24): Claude รัน SQL เองได้ แต่ต้อง backup (`pg_dump`) + ถามยืนยันก่อนทุกครั้ง; backup อยู่ `backend/supabase/backups/` (gitignore)
@@ -118,7 +119,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] snippet `backend/supabase/snippets/Untitled query 698.sql` เพิ่ม regions แล้ว (ตรงกับ local DB)
 - [x] design หน้า Home/สรุปทริป/บุคลิก/AI มู้ด/การ์ดหายาก เคาะแล้ว (ดูแชท 2026-10-24) — combo 3 แบบ, holo ยกเว้น gradient เฉพาะ rare+
 - [x] ตาราง places/trips/swipes + seed ตัวอย่าง 8 ที่ (กระบี่ 4, ภูเก็ต 4, id ขึ้นต้น `sample-` ลบเมื่อข้อมูลจริงมา)
-- [ ] ข้อมูลสถานที่จริง (รอทีม) + รูป Unsplash
+- [x] import ข้อมูลจริง 28 ที่ จาก `AI/gemini-code-1792804922688.json` (ลบ sample แล้ว) — มู้ด Claude กำหนดรายที่ (ค้นเว็บเพิ่ม), rarity: ลับ=ตำนาน พอรู้จัก=หายาก ดัง=ธรรมดา, price ฟรี/ถูก=1 กลาง=2 แพง=3
+- [ ] รูปอีก 17 ที่ (lane F หา Unsplash) — มีรูป Wikimedia แล้ว 11 ที่
 - [ ] Gemini API key: ใส่ `backend/supabase/functions/.env` (GEMINI_API_KEY) แล้ว `supabase functions serve mood-reader`; ถ้า 401 ตั้ง `[functions.mood-reader] verify_jwt = false`
 - [ ] แตก lane A–F ให้ agent (Opus) / Codex
 - [ ] เนื้อหาข้อตกลง/นโยบายจริง (ตอนนี้ mockup)
@@ -147,3 +149,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | merge lane D: หน้าสรุปทริป + ทริปที่บันทึก (ลบได้, จอง mock) |
 | 2026-10-24 | merge lane A: หน้า Home + บุคลิกการเที่ยว |
 | 2026-10-24 | merge lane E (Codex): หน้า Map + Province |
+| 2026-10-24 | backup แล้ว import places 28 ที่ + คอลัมน์ใหม่ (name_en, price_label, coords_uncertain, popularity, best_time, opening_hours, booking_hint, image_license, image_page_url); แตก lane C (Swipe) + lane F (รูป Unsplash) |
