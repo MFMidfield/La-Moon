@@ -1,0 +1,58 @@
+import SlideLink from '../SlideLink'
+import { Moon } from '../icons'
+import { MOODS, PROVINCES } from '../../data/options'
+
+const provinceLabel = (id) => PROVINCES.find((p) => p.id === id)?.label ?? id
+const moodLabel = (id) => MOODS.find((m) => m.id === id)?.label ?? id
+
+function TripRow({ trip }) {
+  const count = (trip.days ?? []).flat().length
+  const moods = (trip.moods ?? []).slice(0, 2).map(moodLabel)
+  const meta = [`${count} ที่`, ...moods].join(' · ')
+
+  return (
+    <SlideLink to={`/trips/${trip.id}`} className="flex min-h-[68px] items-center gap-3 rounded-[24px] bg-white px-3.5 py-3">
+      <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#FBE3D2]">
+        <Moon size={20} fill="#E8793A" />
+      </span>
+      <span className="flex min-w-0 grow flex-col">
+        <span className="truncate text-base font-semibold">{provinceLabel(trip.province)}</span>
+        <span className="truncate text-[13px] text-muted">{meta}</span>
+      </span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6E625A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M9 18l6-6-6-6" />
+      </svg>
+    </SlideLink>
+  )
+}
+
+// ทริปของฉัน: loading / error / ว่าง / รายการ
+export default function TripList({ status, trips }) {
+  let body
+  if (status === 'loading') {
+    body = [0, 1].map((i) => <div key={i} className="h-[68px] animate-pulse rounded-[24px] bg-white/70" aria-hidden="true" />)
+  } else if (status === 'error') {
+    body = (
+      <p role="alert" className="m-0 px-1.5 text-[13px] text-[#C0392B]">
+        โหลดทริปไม่สำเร็จ ลองรีเฟรชหน้าอีกครั้ง
+      </p>
+    )
+  } else if (!trips.length) {
+    body = (
+      <div className="rounded-[24px] bg-white px-5 py-5 text-center text-sm leading-[1.6] text-[#4A3A30]">
+        ยังไม่มีทริปเลย ลองเลือกจังหวัดแล้วปัดการ์ด
+        <br />
+        ทริปแรกของคุณจะมาอยู่ตรงนี้
+      </div>
+    )
+  } else {
+    body = trips.map((trip) => <TripRow key={trip.id} trip={trip} />)
+  }
+
+  return (
+    <section className="mt-8">
+      <h2 className="m-0 px-[22px] text-[22px] font-bold">ทริปของฉัน</h2>
+      <div className="mx-4 mt-3 flex flex-col gap-2.5">{body}</div>
+    </section>
+  )
+}
