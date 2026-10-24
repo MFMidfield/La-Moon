@@ -11,7 +11,7 @@ const EMPTY_PLACES = []
 // เป้าหลุดจังหวัดแป๊บเดียว (รอยต่อ/ขอบทะเล) ยังไม่ซ่อน sheet กันกระพริบ
 const SHEET_HIDE_DELAY = 250
 
-export default function ContinuousMap({ topInset = 12, counts, places, ready, region, query, command, onChoose, onCountry, randomEnabled, onRandom }) {
+export default function ContinuousMap({ topInset = 12, showSheet = true, onCurrentChange, counts, places, ready, region, query, command, onChoose, onCountry, randomEnabled, onRandom }) {
   const svg = useRef(null)
   const world = useRef(null)
   const container = useRef(null)
@@ -69,14 +69,18 @@ export default function ContinuousMap({ topInset = 12, counts, places, ready, re
     else camera.current?.reset()
   }, [command])
 
+  const reportCurrent = useEffectEvent(id => onCurrentChange?.(id))
   useEffect(() => {
-    const timer = setTimeout(() => setSheetId(view.id), view.id ? 0 : SHEET_HIDE_DELAY)
+    const timer = setTimeout(() => {
+      setSheetId(view.id)
+      reportCurrent(view.id)
+    }, view.id ? 0 : SHEET_HIDE_DELAY)
     return () => clearTimeout(timer)
   }, [view.id])
 
   const choosePin = useCallback(value => setPin(value), [])
   const province = view.id ? PROVINCE_BY_ID[view.id] : null
-  const sheetProvince = sheetId ? PROVINCE_BY_ID[sheetId] : null
+  const sheetProvince = showSheet && sheetId ? PROVINCE_BY_ID[sheetId] : null
   const activePin = view.pinsVisible ? pin : null
   const buttonClass = 'flex size-11 cursor-pointer items-center justify-center rounded-full bg-white text-ink focus-visible:outline-2 focus-visible:outline-brown'
 
@@ -105,7 +109,7 @@ export default function ContinuousMap({ topInset = 12, counts, places, ready, re
           <button type="button" onClick={onCountry} aria-label="ดูทั้งประเทศ" className={`${buttonClass} text-center text-[10px] font-medium leading-3.5`}><span>ทั้ง<br />ประเทศ</span></button>
         </div>
         {activePin && <div role="status" style={{ top: topInset }} className="absolute left-3 flex max-w-[calc(100%-100px)] items-center gap-2 rounded-2xl bg-brown py-2 pl-3 text-sm text-white"><span>{activePin.name}</span><button type="button" aria-label="ปิดชื่อที่เที่ยว" onClick={() => setPin(null)} className="flex size-11 shrink-0 cursor-pointer items-center justify-center rounded-full">×</button></div>}
-        {!province && <p role="status" className="pointer-events-none absolute inset-x-3 bottom-[68px] m-0 text-center"><span className="inline-block rounded-full bg-white px-3 py-2 text-xs text-muted">{view.zoomed ? 'เลื่อนแผนที่ให้จังหวัดอยู่ตรงเป้า' : 'แตะจังหวัดหรือซูมเข้าไปสำรวจ'}</span></p>}
+        {showSheet && !province && <p role="status" className="pointer-events-none absolute inset-x-3 bottom-[68px] m-0 text-center"><span className="inline-block rounded-full bg-white px-3 py-2 text-xs text-muted">{view.zoomed ? 'เลื่อนแผนที่ให้จังหวัดอยู่ตรงเป้า' : 'แตะจังหวัดหรือซูมเข้าไปสำรวจ'}</span></p>}
         <div className={`transition-opacity duration-200 ${sheetProvince ? 'pointer-events-none opacity-0' : 'opacity-100'}`} aria-hidden={Boolean(sheetProvince)}>
           <span className="pointer-events-none absolute bottom-5 left-3 rounded-full bg-white/80 px-2 py-1 text-[10px] text-muted">สีอ่อน = เร็วๆ นี้</span>
           <button type="button" disabled={!randomEnabled} tabIndex={sheetProvince ? -1 : undefined} onClick={onRandom} className="absolute bottom-[max(12px,env(safe-area-inset-bottom))] right-3 min-h-11 cursor-pointer rounded-full bg-white px-4 text-sm font-medium focus-visible:outline-2 focus-visible:outline-brown disabled:cursor-default disabled:opacity-40">สุ่มจังหวัด</button>

@@ -25,7 +25,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/BottomSheet.jsx | sheet ล่าง/dialog กลางจอ (Esc, backdrop, scroll lock) | |
 | frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
 | frontend/src/components/cards/ | การ์ด Swipe: SwipeDeck (ลาก/บินออก/ย้อน), PlaceCard, StatBars (ชิล ลุย ถ่ายรูป กิน คุ้ม), HoloOverlay, DeckFrame, SwipeControls, DeckStates | |
-| frontend/src/components/map/ | แผนที่ (Codex): ContinuousMap, createMapCamera (d3-zoom), CountryMap, PlacePins, ProvinceSheet, ProvinceSearch, geometry (d3-geo), useMapData, MapStatus; GeoJSON 77 จังหวัด `src/data/geo/thailand.json` (164 KB, lazy load) | |
+| frontend/src/components/map/ | แผนที่ (Codex): ContinuousMap, createMapCamera (d3-zoom), CountryMap, PlacePins, ProvinceSheet (มือถือ), ProvinceDetails (ชิ้นข้อมูลจังหวัดใช้ร่วม sheet/แผงข้าง), useIsDesktop, ProvinceSearch, geometry (d3-geo), useMapData, MapStatus; GeoJSON 77 จังหวัด `src/data/geo/thailand.json` (164 KB, lazy load) | |
 | frontend/src/components/home/ | หน้า Home: HomeHeader, PersonalityChip, StartBox, TripList, WishProvinces, Sticker, useLoad (hook โหลดครั้งเดียว) | |
 | frontend/src/components/personality/ | หน้าบุคลิก: PersonalityCard, PersonalityArt (7 ฉาก), ShareActions, EmptyState | |
 | frontend/src/components/trip/ | สรุปทริป: TripSummary, ComboCard, PlaceRow, PlaceThumb, BookingSheet (mock Agoda/Booking/Klook), TripStates | |
@@ -154,3 +154,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | รวม /map + /map/:province เป็น route เดียว, ลง d3-zoom/selection/transition, listAllPlaces; merge lane E2 (Codex): แผนที่ต่อเนื่อง pan/zoom + highlight realtime + sheet ดึงขยาย, ลบ Province.jsx |
 | 2026-10-24 | แก้บัคแผนที่: ProvinceSheet เป็น overlay (แผนที่ไม่ resize/กระโดด), เข้า-ออกแบบเลื่อน, หน่วง 250ms ก่อนซ่อนกันกระพริบตอนเป้าหลุดจังหวัด, ซ่อนปุ่มสุ่ม/ป้ายตอน sheet โผล่ |
 | 2026-10-24 | หน้าแผนที่เต็มจอ: แผนที่ชนขอบ พื้นครีม, ปุ่มกลับ+ค้นหา+1/3+chip ภาคลอยทับด้านบน (TOP_INSET 136), sheet/แถบควบคุมกว้างสุด 560px บน desktop |
+| 2026-10-24 | แผนที่: ซ่อน scrollbar แถว chip (utility `no-scrollbar` ใน index.css); desktop (lg) = แผงซ้าย 380px (ค้นหา, chip ภาคตัดบรรทัด, ข้อมูลจังหวัดเปิดเต็ม) + แผนที่ขวา; มือถือคงเดิม |

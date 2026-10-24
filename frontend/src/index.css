@@ -58,3 +58,11 @@ html[data-nav='back']::view-transition-new(root) {
     animation: none;
   }
 }
+
+/* ซ่อน scrollbar แต่ยังเลื่อนได้ (แถว chip แนวนอน) */
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
