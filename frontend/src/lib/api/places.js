@@ -34,6 +34,13 @@ export async function getPlacesByIds(ids) {
   return ids.map((id) => byId[id]).filter(Boolean)
 }
 
+// ทุกสถานที่แบบย่อ — ใช้วาดหมุด/การ์ดจังหวัดบนแผนที่
+export async function listAllPlaces() {
+  const { data, error } = await supabase.from('places').select('id, province, name, moods, rarity, lat, lng')
+  if (error) throw error
+  return data
+}
+
 // จำนวนสถานที่ต่อจังหวัด { krabi: 5, ... } — จังหวัดที่ไม่มี = หมอกบนแผนที่
 export async function countPlacesByProvince() {
   const { data, error } = await supabase.from('places').select('province')
