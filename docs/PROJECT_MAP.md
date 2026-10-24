@@ -27,6 +27,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/AppHeader.jsx | header ในแอป: ปุ่มกลับ (backTo/onBack) + crumb + title + step pill | |
 | frontend/src/components/BottomSheet.jsx | sheet ล่าง/dialog กลางจอ (Esc, backdrop, scroll lock) | |
 | frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
+| frontend/src/components/trip/ (เวลา/กองสำรอง) | dayTimes.js (scheduleTrip; มื้อกลางวัน≥12:00 เย็น≥18:00), TimeChip (แตะแก้เวลาเริ่ม), SpareDeck (กองซ้อน ปัดขึ้นวนไปหลัง); draft.itinerary.timeOverrides; trips.days[d].items[].start/end + meals[].start/end | |
 | frontend/src/components/trip/ (มื้อ/ที่พัก) | mealPlan.js (buildFoodStay, overrides, serializeFood), MealRow, StayRow, MealSwapSheet, StayChoice, CheckPop — แผนรายวันแทรกมื้อ + แถวคืนนี้; draft.itinerary.mealOverrides['d:meal']; trips.days[d] = { items, meals[], stay } | |
 | frontend/src/components/plan/ | flow วางทริป (Codex): ScrambleText (สลับตัวอักษรไทยตาม grapheme) + rollReveal.js (เล่นเฉพาะหลังสุ่ม: draft.rollId/revealed), OriginPicker (GPS→จังหวัด + ค้นหา), TripCalendar, DetailCard | |
 | frontend/src/components/cards/ | หน้าปัดทุกหมวด: SwipeStage (shell h-dvh ไม่ scroll + rounds + keyboard ←→↑), SwipeDeck generic (ขวา/ซ้าย/ขึ้น=เก็บไว้ก่อน), RoundIntro (คั่นรอบสอง), RestaurantCard, StayCard, CardParts, swipeHelpers; draft.swipeState/foodKey/foodState/stayKey/stayState เก็บความคืบหน้า; เดิม: SwipeDeck (ลาก/บินออก/ย้อน), PlaceCard, StatBars (ชิล ลุย ถ่ายรูป กิน คุ้ม), HoloOverlay, DeckFrame, SwipeControls, DeckStates | |
@@ -196,3 +197,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | merge agent B: /plan/stay/final (พักหลายที่/ที่เดียว), แผนรายวันมีมื้อ + สลับร้าน + แถวที่พัก, งบราคาจริง, บันทึก/อ่าน meals+stay |
 | 2026-10-24 | merge agent A: ปัดทุกหมวดแบบ rounds (ปัดขึ้นเก็บไว้ก่อน → รอบสอง), การ์ดพอดีจอไม่ scroll, หน้า /plan/food + /plan/stay — flow ร้าน/ที่พักครบ |
 | 2026-10-24 | ของกลางรอบปรับ flow: มู้ด luxury, รถส่วนตัว (own_car คิดค่าน้ำมันตามระยะ), FEATURES ปิดการเดินทางข้ามจังหวัด/รถไฟฟ้า, planLikedOnly, schedule.js เวลาจริง, geo.nearestOf |
+| 2026-10-24 | merge agent A+B: มู้ดหรูหรา (Gem), หน้า 3 ไม่มีล็อก/จังหวะ, รถส่วนตัว, วันพรุ่งนี้สำหรับทริปวันเดียวในจังหวัด, ป้ายระยะห่างบนการ์ดปัด, แผนใช้เฉพาะที่ชอบ + เวลาจริงแก้ได้ + กองสำรองแบบซ้อน |
