@@ -15,6 +15,8 @@ const STORAGE_KEY = 'lamoon.tripDraft'
  * likedIds: place id ที่ปัดขวา ตามลำดับ
  * likedRestaurantIds / likedStayIds: ร้าน/ที่พักที่ปัดขวา (หลังรอบสอง)
  * stayMode: 'single'|'multi'|null, chosenStayId: ที่พักที่เลือก (โหมด single)
+ * transportBooking: { out: Trip|null, back: Trip|null } เที่ยวไป-กลับที่เลือก (Trip จาก lib/trip/schedules.js + routeId)
+ * carDepart: 'HH:MM' เวลาออกเดินทางกรณีรถส่วนตัว
  */
 // eslint-disable-next-line react-refresh/only-export-components
 export const EMPTY_DRAFT = {
@@ -37,6 +39,8 @@ export const EMPTY_DRAFT = {
   likedStayIds: [],
   stayMode: null,
   chosenStayId: null,
+  transportBooking: { out: null, back: null },
+  carDepart: '06:00',
 }
 
 function load() {

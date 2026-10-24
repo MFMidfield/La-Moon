@@ -18,6 +18,7 @@ const Trip = lazy(() => import('./pages/Trip'))
 const FoodSwipe = lazy(() => import('./pages/FoodSwipe'))
 const StaySwipe = lazy(() => import('./pages/StaySwipe'))
 const StayFinal = lazy(() => import('./pages/StayFinal'))
+const TransportPick = lazy(() => import('./pages/TransportPick'))
 const TripDetails = lazy(() => import('./pages/TripDetails'))
 const TripDetail = lazy(() => import('./pages/TripDetail'))
 const Personality = lazy(() => import('./pages/Personality'))
@@ -47,6 +48,7 @@ export default function App() {
               <Route path="/plan/mood" element={<Mood />} />
               <Route path="/plan/details" element={<TripDetails />} />
               <Route path="/plan/swipe" element={<Swipe />} />
+              <Route path="/plan/transport" element={<TransportPick />} />
               <Route path="/plan/food" element={<FoodSwipe />} />
               <Route path="/plan/stay" element={<StaySwipe />} />
               <Route path="/plan/stay/final" element={<StayFinal />} />
