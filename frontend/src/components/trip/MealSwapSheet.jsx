@@ -22,7 +22,7 @@ export default function MealSwapSheet({ open, d, meal, dayLabel, food, pool, lik
   const slot = day?.meals.find((m) => m.meal === meal)
   const currentId = slot?.restaurant?.id ?? null
   const usedElsewhere = new Set(food.days.flatMap((x, i) => x.meals.filter((m) => !(i === d && m.meal === meal)).map((m) => m.restaurant?.id).filter(Boolean)))
-  const candidates = open && day ? mealCandidates({ pool, liked, meal, places: food.dayPlaces[d] ?? [] }) : []
+  const candidates = open && day ? mealCandidates({ pool, liked, meal, places: food.mealPlaces?.[d] ?? food.dayPlaces[d] ?? [] }) : []
 
   function pick(restaurant) {
     onChange({ restaurant: restaurant.id, auto: false })

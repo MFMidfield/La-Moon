@@ -3,6 +3,7 @@ import { motion, useReducedMotion } from 'framer-motion'
 import { formatBaht } from '../../lib/trip/budget'
 import { mealLabel } from '../../lib/trip/meals'
 import { mid } from './mealPlan'
+import TimeChip from './TimeChip'
 
 const BADGE = 'inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px]'
 
@@ -11,7 +12,8 @@ export function MockBadge() {
 }
 
 // แถวมื้ออาหารในแผนรายวัน — onEdit ว่าง = อ่านอย่างเดียว
-export default function MealRow({ slot, stayName, onEdit }) {
+// time = { start, end } (ไม่มี = มื้อนี้ไม่กินเวลา เช่น ข้ามมื้อ); onEditTime ว่าง = แสดงเวลาอย่างเดียว
+export default function MealRow({ slot, stayName, onEdit, time, customTime = false, onEditTime }) {
   const reduced = useReducedMotion()
   const Icon = slot.meal === 'breakfast' ? Coffee : Utensils
   const restaurant = slot.restaurant
@@ -23,7 +25,10 @@ export default function MealRow({ slot, stayName, onEdit }) {
     <div className="flex items-center gap-3 rounded-[22px] bg-white/75 py-2 pl-3 pr-2" data-meal={slot.meal}>
       <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#FBE3D2] text-brown"><Icon size={18} strokeWidth={2} aria-hidden="true" /></span>
       <div className="min-w-0 flex-1">
-        <p className="m-0 text-xs font-medium text-brown">มื้อ{mealLabel(slot.meal)}</p>
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <p className="m-0 text-xs font-medium text-brown">มื้อ{mealLabel(slot.meal)}</p>
+          {time && <TimeChip start={time.start} end={time.end} label={`มื้อ${mealLabel(slot.meal)}`} custom={customTime} onClick={onEditTime} />}
+        </div>
         <motion.div key={shownKey} initial={reduced ? false : { opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} transition={reduced ? { duration: 0 } : { duration: 0.2 }}>
           {slot.atStay ? (
             <>

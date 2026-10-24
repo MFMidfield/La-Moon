@@ -1,4 +1,5 @@
 import { assignSlots } from '../../lib/trip/plan'
+import { placeKey } from './mealPlan'
 
 export function localDate(date) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
@@ -15,14 +16,19 @@ export function thaiDate(value, options = { day: 'numeric', month: 'short' }) {
 }
 
 export function dayNarrative(items) {
-  if (!items.length) return 'วันนี้ปล่อยใจสบายๆ มีเวลาให้แวะระหว่างทาง'
-  const labels = { morning: 'เช้านี้เริ่มที่', afternoon: 'บ่ายต่อที่', evening: 'ปิดท้ายที่' }
-  return items.map((item, i) => `${i && items[i - 1].slot === item.slot ? 'แล้วแวะ' : labels[item.slot]}${item.place.name}`).join(' · ')
+  if (!items.length) return 'วันนี้ยังไม่มีที่เที่ยว มีแค่มื้ออาหาร'
+  return items.map(item => item.place.name).join(' → ')
 }
 
-export function serializePlan(plan) {
+// schedule = ผล scheduleTrip → ใส่ start/end (เวลาจริง) ให้แต่ละ item
+export function serializePlan(plan, schedule = null) {
   return {
-    days: plan.days.map(day => ({ items: day.items.map(item => ({ place: item.place.id, slot: item.slot, auto: Boolean(item.auto) })) })),
+    days: plan.days.map((day, d) => ({
+      items: day.items.map(item => {
+        const t = schedule?.[d]?.times[placeKey(item.place.id)]
+        return { place: item.place.id, slot: item.slot, auto: Boolean(item.auto), ...(t ? { start: t.start, end: t.end } : {}) }
+      }),
+    })),
     spare: plan.spare.map(place => place.id),
   }
 }

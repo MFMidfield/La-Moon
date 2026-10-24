@@ -6,13 +6,11 @@ import AppHeader from '../components/AppHeader'
 import SlideLink, { slideNavigate } from '../components/SlideLink'
 import { tripLength, travelerCount, useTripDraft } from '../context/TripDraftContext'
 import { PROVINCES } from '../data/options'
-import { PACES } from '../data/travel'
-import { getPlacesByIds, listPlaces } from '../lib/api/places'
+import { getPlacesByIds } from '../lib/api/places'
 import { getRestaurantsByIds, listRestaurants } from '../lib/api/restaurants'
 import { getStaysByIds } from '../lib/api/stays'
 import { createTrip } from '../lib/api/trips'
-import { assignSlots, dayCapacities, planTrip } from '../lib/trip/plan'
-import { travelOptions } from '../lib/trip/travel'
+import { assignSlots, planLikedOnly } from '../lib/trip/plan'
 import { estimateTrip } from '../lib/trip/budget'
 import { seasonWarnings } from '../lib/trip/season'
 import { findCombos } from '../lib/trip/combos'
@@ -25,20 +23,18 @@ import TripBudget from '../components/trip/TripBudget'
 import ComboCard from '../components/trip/ComboCard'
 import usePlanTransit from '../components/trip/usePlanTransit'
 import MealSwapSheet from '../components/trip/MealSwapSheet'
-import { buildFoodStay, budgetMeals, overrideKey, serializeFood } from '../components/trip/mealPlan'
+import { buildFoodStay, budgetMeals, overrideKey, placeKey, serializeFood } from '../components/trip/mealPlan'
+import { scheduleTrip } from '../components/trip/dayTimes'
 import { alternativePatch, hydratePlan, moveCard, resizePlan, serializePlan } from '../components/trip/itinerary'
 
-function capacitiesFor(draft) {
-  return dayCapacities({ days: tripLength(draft).days, perDay: PACES.find(p => p.id === draft.pace)?.perDay ?? 3, travelHours: travelOptions(draft.origin, draft.province).options.find(o => o.id === draft.transportTo)?.hours ?? 0 })
-}
-
-function TripEditor({ draft, updateDraft, liked, pool, likedRestaurants, restaurantPool, likedStays, sourceKey }) {
+function TripEditor({ draft, updateDraft, liked, likedRestaurants, restaurantPool, likedStays, sourceKey }) {
   const navigate = useNavigate()
   const [plan, setPlan] = useState(() => {
-    if (draft.itineraryKey === sourceKey && draft.itinerary) return resizePlan(hydratePlan(draft.itinerary, [...liked, ...pool]), tripLength(draft).days)
-    return planTrip({ liked, pool, capacities: capacitiesFor(draft) })
+    if (draft.itineraryKey === sourceKey && draft.itinerary) return resizePlan(hydratePlan(draft.itinerary, liked), tripLength(draft).days)
+    return planLikedOnly({ liked, days: tripLength(draft).days })
   })
   const [overrides, setOverrides] = useState(() => (draft.itineraryKey === sourceKey ? draft.itinerary?.mealOverrides : null) ?? {})
+  const [timeOverrides, setTimeOverrides] = useState(() => (draft.itineraryKey === sourceKey ? draft.itinerary?.timeOverrides : null) ?? {})
   const [mealSheet, setMealSheet] = useState({ open: false, d: 0, meal: 'lunch' })
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState('')
@@ -55,12 +51,13 @@ function TripEditor({ draft, updateDraft, liked, pool, likedRestaurants, restaur
   )
   const viewDays = useMemo(() => plan.days.map((day, d) => ({ ...day, meals: food.days[d].meals, stay: food.days[d].stay })), [plan.days, food])
   const input = { ...draft, ...length, people, places, stays: food.stays, meals: budgetMeals(food) }
+  const schedule = useMemo(() => scheduleTrip(viewDays, { overrides: timeOverrides }), [viewDays, timeOverrides])
   const estimate = estimateTrip(input)
   const warnings = seasonWarnings(places, draft.startDate, draft.endDate)
 
   useEffect(() => {
-    updateDraft({ itinerary: { ...serializePlan(plan), mealOverrides: overrides }, itineraryKey: sourceKey })
-  }, [plan, overrides, sourceKey, updateDraft])
+    updateDraft({ itinerary: { ...serializePlan(plan), mealOverrides: overrides, timeOverrides }, itineraryKey: sourceKey })
+  }, [plan, overrides, timeOverrides, sourceKey, updateDraft])
 
   const closeMealSheet = useCallback(() => setMealSheet(previous => ({ ...previous, open: false })), [])
 
@@ -74,9 +71,33 @@ function TripEditor({ draft, updateDraft, liked, pool, likedRestaurants, restaur
     })
   }
 
+  function changeTime(key, value) {
+    setTimeOverrides(previous => {
+      const next = { ...previous }
+      if (value) next[key] = value
+      else delete next[key]
+      return next
+    })
+  }
+
+  function resetDayTimes(d) {
+    setTimeOverrides(previous => Object.fromEntries(Object.entries(previous).filter(([key]) => !key.startsWith(`${d}:`))))
+  }
+
+  // ย้ายการ์ด → เวลาที่ตั้งเองของการ์ดนั้นหลุด (ไปวันอื่น/ลำดับใหม่ คำนวณเวลาใหม่)
+  function dropPlaceTimes(id) {
+    setTimeOverrides(previous => Object.fromEntries(Object.entries(previous).filter(([key]) => !key.endsWith(`:${placeKey(id)}`))))
+  }
+
   function move(id, target, at) {
     setPlan(previous => moveCard(previous, id, target, at))
+    dropPlaceTimes(id)
     setNotice('ย้ายการ์ดแล้ว')
+  }
+
+  // ปัดการ์ดสำรองใบหน้าไปหลังกอง
+  function cycleSpare(id) {
+    setPlan(previous => moveCard(previous, id, 'spare'))
   }
 
   function swap(id) {
@@ -87,7 +108,8 @@ function TripEditor({ draft, updateDraft, liked, pool, likedRestaurants, restaur
       setNotice('แตะการ์ดสำรองเพื่อเลือกวันที่จะไป')
       return
     }
-    setPlan({ days: plan.days.map(day => ({ items: assignSlots(day.items.map(item => item.place.id === id ? { place: replacement, auto: true } : item)) })), spare: [...plan.spare.filter(place => place.id !== replacement.id), old] })
+    setPlan({ days: plan.days.map(day => ({ items: assignSlots(day.items.map(item => item.place.id === id ? { place: replacement, auto: false } : item)) })), spare: [...plan.spare.filter(place => place.id !== replacement.id), old] })
+    dropPlaceTimes(id)
     setNotice(`สุ่มได้ ${replacement.name}`)
   }
 
@@ -104,8 +126,8 @@ function TripEditor({ draft, updateDraft, liked, pool, likedRestaurants, restaur
     setSaving(true)
     setSaveError('')
     try {
-      const stored = serializePlan(plan)
-      const extras = serializeFood(food.days)
+      const stored = serializePlan(plan, schedule)
+      const extras = serializeFood(food.days, schedule)
       const trip = await createTrip({
         province: draft.province, moods: draft.moods, days: stored.days.map((day, d) => ({ ...day, ...extras[d] })), spare: stored.spare,
         combos: combos.map(combo => combo.id), personality: computePersonality(places)?.id ?? null,
@@ -126,7 +148,7 @@ function TripEditor({ draft, updateDraft, liked, pool, likedRestaurants, restaur
       <div className="flex flex-col gap-5 px-4 pt-3">
         <TripOverview trip={draft} {...length} people={people} />
         <div className="flex items-center justify-between px-1"><h1 className="m-0 text-2xl font-bold">ทริปในแบบของคุณ</h1><span className="rounded-full bg-white px-3 py-1.5 text-xs text-brown">{places.length} ที่</span></div>
-        <DayPlan days={viewDays} spare={plan.spare} capacities={capacitiesFor(draft)} startDate={draft.startDate} onMove={move} onSwap={swap} canSwap={plan.spare.length > 0} transit={transit} onEditMeal={food.hasFood ? (d, meal) => setMealSheet({ open: true, d, meal }) : undefined} />
+        <DayPlan days={viewDays} spare={plan.spare} startDate={draft.startDate} onMove={move} onCycleSpare={cycleSpare} onSwap={swap} canSwap={plan.spare.length > 0} transit={transit} timeOverrides={timeOverrides} onTimeChange={changeTime} onResetTimes={resetDayTimes} onEditMeal={food.hasFood ? (d, meal) => setMealSheet({ open: true, d, meal }) : undefined} />
         {combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
         <TripBudget input={input} onApply={applyAlternative} transit={draft.transportLocal === 'transit' ? transit : null} />
         {warnings.length > 0 && <div className="rounded-[24px] bg-[#FBE3D2] p-4"><h2 className="m-0 flex items-center gap-2 text-sm font-semibold"><Sun size={18} strokeWidth={2} aria-hidden="true" />ก่อนออกเดินทาง</h2>{warnings.map(warning => <p key={warning.placeId} className="mb-0 mt-2 text-xs leading-relaxed text-[#4A3A30]">{warning.message}</p>)}</div>}
@@ -157,23 +179,22 @@ function TripSession({ draft, updateDraft }) {
     const optional = promise => promise.catch(() => [])
     Promise.all([
       getPlacesByIds(likedKey.split(',').filter(Boolean)),
-      listPlaces({ province, moods: moodKey.split(',').filter(Boolean) }),
       optional(getRestaurantsByIds(foodKey.split(',').filter(Boolean))),
       optional(listRestaurants({ province })),
       optional(getStaysByIds(stayKey.split(',').filter(Boolean))),
     ])
-      .then(([liked, all, likedRestaurants, restaurantPool, likedStays]) => {
-        if (active) setResult({ key: requestKey, liked, pool: all.filter(place => !liked.some(p => p.id === place.id)), likedRestaurants, restaurantPool, likedStays })
+      .then(([liked, likedRestaurants, restaurantPool, likedStays]) => {
+        if (active) setResult({ key: requestKey, liked, likedRestaurants, restaurantPool, likedStays })
       })
       .catch(() => { if (active) setResult({ key: requestKey, error: true }) })
     return () => { active = false }
-  }, [province, likedKey, moodKey, foodKey, stayKey, requestKey])
+  }, [province, likedKey, foodKey, stayKey, requestKey])
   const current = result?.key === requestKey ? result : null
   const label = PROVINCES.find(p => p.id === province)?.label ?? province
   return (
     <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink">
       <AppHeader crumb={label} title="แผนทริปของคุณ" backTo="/plan/swipe" />
-      {!current ? <TripLoading label="กำลังจัดทริป…" /> : current.error ? <TripMessage title="โหลดที่เที่ยวไม่สำเร็จ" body="เช็กอินเทอร์เน็ตแล้วลองอีกครั้ง"><button type="button" onClick={() => setAttempt(value => value + 1)} className={PRIMARY_BUTTON}>ลองใหม่</button></TripMessage> : !current.liked.length && !current.pool.length ? <TripMessage title="ยังไม่มีที่เที่ยวตรงมู้ดนี้" body="ลองเปลี่ยนมู้ดหรือเลือกจังหวัดใหม่"><SlideLink to="/plan/mood" back className={PRIMARY_BUTTON}>เลือกมู้ดใหม่</SlideLink></TripMessage> : <TripEditor key={requestKey} draft={draft} updateDraft={updateDraft} liked={current.liked} pool={current.pool} likedRestaurants={current.likedRestaurants} restaurantPool={current.restaurantPool} likedStays={current.likedStays} sourceKey={sourceKey} />}
+      {!current ? <TripLoading label="กำลังจัดทริป…" /> : current.error ? <TripMessage title="โหลดที่เที่ยวไม่สำเร็จ" body="เช็กอินเทอร์เน็ตแล้วลองอีกครั้ง"><button type="button" onClick={() => setAttempt(value => value + 1)} className={PRIMARY_BUTTON}>ลองใหม่</button></TripMessage> : !current.liked.length ? <TripMessage title="ยังไม่ได้เลือกที่เที่ยว" body="ปัดขวาที่ที่อยากไปอย่างน้อย 1 ที่ แล้วระบบจะจัดแผนให้"><SlideLink to="/plan/swipe" back className={PRIMARY_BUTTON}>กลับไปปัดการ์ด</SlideLink></TripMessage> : <TripEditor key={requestKey} draft={draft} updateDraft={updateDraft} liked={current.liked} likedRestaurants={current.likedRestaurants} restaurantPool={current.restaurantPool} likedStays={current.likedStays} sourceKey={sourceKey} />}
     </div>
   )
 }
