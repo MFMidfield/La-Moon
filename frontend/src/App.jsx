@@ -1,26 +1,30 @@
+import { lazy, Suspense } from 'react'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import FullPageLoader from './components/FullPageLoader'
 import { AuthProvider } from './context/AuthContext'
 import { TripDraftProvider } from './context/TripDraftContext'
 import PrivateRoute from './routes/PrivateRoute'
 import PublicOnlyRoute from './routes/PublicOnlyRoute'
-import Landing from './pages/Landing'
-import Login from './pages/Login'
-import Register from './pages/Register'
-import Welcome from './pages/Welcome'
-import Home from './pages/Home'
-import Map from './pages/Map'
-import Mood from './pages/Mood'
-import Swipe from './pages/Swipe'
-import Trip from './pages/Trip'
-import TripDetails from './pages/TripDetails'
-import TripDetail from './pages/TripDetail'
-import Personality from './pages/Personality'
+// โหลดแยกทีละหน้า
+const Landing = lazy(() => import('./pages/Landing'))
+const Login = lazy(() => import('./pages/Login'))
+const Register = lazy(() => import('./pages/Register'))
+const Welcome = lazy(() => import('./pages/Welcome'))
+const Home = lazy(() => import('./pages/Home'))
+const Map = lazy(() => import('./pages/Map'))
+const Mood = lazy(() => import('./pages/Mood'))
+const Swipe = lazy(() => import('./pages/Swipe'))
+const Trip = lazy(() => import('./pages/Trip'))
+const TripDetails = lazy(() => import('./pages/TripDetails'))
+const TripDetail = lazy(() => import('./pages/TripDetail'))
+const Personality = lazy(() => import('./pages/Personality'))
 
 export default function App() {
   return (
     <BrowserRouter>
       <AuthProvider>
         <TripDraftProvider>
+          <Suspense fallback={<FullPageLoader />}>
           <Routes>
             <Route element={<PublicOnlyRoute />}>
               <Route path="/" element={<Landing />} />
@@ -47,6 +51,7 @@ export default function App() {
 
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
+          </Suspense>
         </TripDraftProvider>
       </AuthProvider>
     </BrowserRouter>
