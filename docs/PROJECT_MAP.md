@@ -24,6 +24,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/AppHeader.jsx | header ในแอป: ปุ่มกลับ (backTo/onBack) + crumb + title + step pill | |
 | frontend/src/components/BottomSheet.jsx | sheet ล่าง/dialog กลางจอ (Esc, backdrop, scroll lock) | |
 | frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
+| frontend/src/components/mood/ | หน้า Mood: AiMoodBox, MoodTile, MoodIcon, BudgetPicker | |
+| backend/supabase/functions/mood-reader/ | Edge Function Gemini: POST {text} → {moods, reason}; secret GEMINI_API_KEY (+ GEMINI_MODEL) — ไม่มี key ตอบ 503 แล้ว frontend จับคำแทน | แก้ prompt AI |
 | frontend/src/lib/api/ | ทุกการเรียก supabase ต่อ feature: places, swipes, trips, mood (AI + fallback คำ) — หน้าไหนห้ามเรียก supabase ตรง | เพิ่ม query |
 | frontend/src/lib/trip/ | logic ล้วน: plan (วันละ 3 nearest neighbor), combos (3 แบบ ≤2), personality, geo | |
 | frontend/src/components/icons.jsx | ไอคอนกลาง Moon, Sparkle, Logo (ใช้หลายหน้า) |
@@ -59,6 +61,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | `/register` | ตั้งค่าโปรไฟล์ครั้งแรก | login แล้ว + ยังไม่มี profile |
 | `/welcome` | ต้อนรับหลัง register → ปุ่มไป from ?? /home | private |
 | `/home` | หน้าหลักหลัง login (placeholder — lane A) | private |
+| `/map/:province/mood` | เลือกมู้ด ≤3 + AI + งบ (default 2) → `/swipe?moods=&budget=` (lane B เสร็จ) | private |
 | `/map/:province/trip` | สรุปทริปจากการปัด รับ state { likedIds, moods, budget } (placeholder — lane D) | private |
 | `/trips/:id` | ดูทริปที่บันทึก (placeholder — lane D) | private |
 | `/personality` | บุคลิกการเที่ยวจาก swipes ขวาทั้งหมด (placeholder — lane A) | private |
@@ -112,7 +115,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] design หน้า Home/สรุปทริป/บุคลิก/AI มู้ด/การ์ดหายาก เคาะแล้ว (ดูแชท 2026-10-24) — combo 3 แบบ, holo ยกเว้น gradient เฉพาะ rare+
 - [x] ตาราง places/trips/swipes + seed ตัวอย่าง 8 ที่ (กระบี่ 4, ภูเก็ต 4, id ขึ้นต้น `sample-` ลบเมื่อข้อมูลจริงมา)
 - [ ] ข้อมูลสถานที่จริง (รอทีม) + รูป Unsplash
-- [ ] Gemini API key (ยังไม่มี — mood.js fallback จับคำ)
+- [ ] Gemini API key: ใส่ `backend/supabase/functions/.env` (GEMINI_API_KEY) แล้ว `supabase functions serve mood-reader`; ถ้า 401 ตั้ง `[functions.mood-reader] verify_jwt = false`
 - [ ] แตก lane A–F ให้ agent (Opus) / Codex
 - [ ] เนื้อหาข้อตกลง/นโยบายจริง (ตอนนี้ mockup)
 - [ ] ผู้ใช้สร้าง Google OAuth client + ใส่ `backend/supabase/.env` + redirect URI ใน Google Console
@@ -136,3 +139,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | backup แล้วเพิ่ม profiles.custom_moods + bucket avatars + policy; Register: อัปโหลดรูป, มู้ดอื่นๆ, chip ไม่ขยับ, จังหวัดยอดนิยม+ค้นหา (ตัดภาค), checkbox มน + modal ข้อตกลง, ตัดปุ่มย้อนกลับ; Welcome โชว์มู้ดที่พิมพ์เอง |
 | 2026-10-24 | ของกลางก่อนแตก lane: AppHeader, BottomSheet, ToggleChip กลาง, lib/api (places/swipes/trips/mood), lib/trip (plan/combos/personality/geo), data/personalities, route + placeholder Trip/TripDetail/Personality; schema places/trips/swipes ลง snippet (ยังไม่รัน — auto mode ไม่อนุญาต) |
 | 2026-10-24 | backup แล้วสร้าง places/trips/swipes + RLS, seed ตัวอย่าง 8 ที่ |
+| 2026-10-24 | merge lane B: หน้า Mood + Edge Function mood-reader; gitignore .claude/worktrees |
