@@ -8,7 +8,6 @@ import Register from './pages/Register'
 import Welcome from './pages/Welcome'
 import Home from './pages/Home'
 import Map from './pages/Map'
-import Province from './pages/Province'
 import Mood from './pages/Mood'
 import Swipe from './pages/Swipe'
 import Trip from './pages/Trip'
@@ -32,8 +31,8 @@ export default function App() {
           <Route element={<PrivateRoute />}>
             <Route path="/welcome" element={<Welcome />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/map" element={<Map />} />
-            <Route path="/map/:province" element={<Province />} />
+            {/* แผนที่เดียว: /map = ทั้งประเทศ, /map/:province = ซูมจังหวัด (ไม่ remount) */}
+            <Route path="/map/:province?" element={<Map />} />
             <Route path="/map/:province/mood" element={<Mood />} />
             <Route path="/map/:province/swipe" element={<Swipe />} />
             <Route path="/map/:province/trip" element={<Trip />} />
