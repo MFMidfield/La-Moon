@@ -24,6 +24,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/AppHeader.jsx | header ในแอป: ปุ่มกลับ (backTo/onBack) + crumb + title + step pill | |
 | frontend/src/components/BottomSheet.jsx | sheet ล่าง/dialog กลางจอ (Esc, backdrop, scroll lock) | |
 | frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
+| frontend/src/components/home/ | หน้า Home: HomeHeader, PersonalityChip, StartBox, TripList, WishProvinces, Sticker, useLoad (hook โหลดครั้งเดียว) | |
+| frontend/src/components/personality/ | หน้าบุคลิก: PersonalityCard, PersonalityArt (7 ฉาก), ShareActions, EmptyState | |
 | frontend/src/components/trip/ | สรุปทริป: TripSummary, ComboCard, PlaceRow, PlaceThumb, BookingSheet (mock Agoda/Booking/Klook), TripStates | |
 | frontend/src/components/mood/ | หน้า Mood: AiMoodBox, MoodTile, MoodIcon, BudgetPicker | |
 | backend/supabase/functions/mood-reader/ | Edge Function Gemini: POST {text} → {moods, reason}; secret GEMINI_API_KEY (+ GEMINI_MODEL) — ไม่มี key ตอบ 503 แล้ว frontend จับคำแทน | แก้ prompt AI |
@@ -61,11 +63,11 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | `/login` | Login Google | public only |
 | `/register` | ตั้งค่าโปรไฟล์ครั้งแรก | login แล้ว + ยังไม่มี profile |
 | `/welcome` | ต้อนรับหลัง register → ปุ่มไป from ?? /home | private |
-| `/home` | หน้าหลักหลัง login (placeholder — lane A) | private |
+| `/home` | หน้าหลัก: บุคลิก chip, เริ่มเลือกจังหวัด, ทริปของฉัน, จังหวัดที่อยากไป, เมนูออกจากระบบ (lane A เสร็จ) | private |
 | `/map/:province/mood` | เลือกมู้ด ≤3 + AI + งบ (default 2) → `/swipe?moods=&budget=` (lane B เสร็จ) | private |
 | `/map/:province/trip` | สรุปทริปจากการปัด รับ state { likedIds, moods, budget } → บันทึก → /trips/:id (lane D เสร็จ) | private |
 | `/trips/:id` | ดูทริปที่บันทึก + ลบ (lane D เสร็จ) | private |
-| `/personality` | บุคลิกการเที่ยวจาก swipes ขวาทั้งหมด (placeholder — lane A) | private |
+| `/personality` | บุคลิกการเที่ยวจาก swipes ขวาทั้งหมด + แชร์ (lane A เสร็จ) | private |
 | `/map` | แผนที่ไทย | private |
 | `/map/:province` | ซูมจังหวัด | private |
 | `/map/:province/mood` | เลือก mood | private |
@@ -142,3 +144,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | backup แล้วสร้าง places/trips/swipes + RLS, seed ตัวอย่าง 8 ที่ |
 | 2026-10-24 | merge lane B: หน้า Mood + Edge Function mood-reader; gitignore .claude/worktrees |
 | 2026-10-24 | merge lane D: หน้าสรุปทริป + ทริปที่บันทึก (ลบได้, จอง mock) |
+| 2026-10-24 | merge lane A: หน้า Home + บุคลิกการเที่ยว |
