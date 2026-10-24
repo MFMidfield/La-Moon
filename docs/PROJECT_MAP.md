@@ -18,6 +18,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 ผู้ใช้วางโครงเอง — Claude เสนอได้อย่างเดียว ห้ามสร้างโครงเอง
 | path | หน้าที่ |
 |------|--------|
+| AGENTS.md | กฎ/บริบทโปรเจกต์สำหรับ Codex และ agent อื่น (sync กับ memory ของ Claude) |
 | frontend/ | Vite React app |
 | frontend/src/pages/ | หน้าแต่ละ route |
 | frontend/src/components/SlideLink.jsx | Link ที่เปลี่ยนหน้าแบบเลื่อน (View Transitions) — ไปหน้าถัดไปเลื่อนขวา→ซ้าย, prop `back` เลื่อนสวนทาง; CSS อยู่ใน index.css | เพิ่มลิงก์ระหว่างหน้า |
@@ -86,7 +87,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 `profiles` (local DB) — id, display_name, avatar_url, favorite_moods text[] (id), custom_moods text[] (พิมพ์เอง), provinces text[], regions text[] (ไม่ใช้แล้ว), accepted_terms_at, created_at + RLS เจ้าของเท่านั้น
 - Storage bucket `avatars` (public, 2MB, jpg/png/webp) path `<user id>/avatar-<ts>.<ext>` เขียนได้เฉพาะโฟลเดอร์ตัวเอง
 - `places` (อ่านได้ทุกคน, เขียนผ่าน Studio) 28 ที่: สุราษฎร์ 8, นครศรี 5, พังงา 5, กระบี่ 5, ภูเก็ต 5; stats = {chill, adventure, photo, food, budget} 0-5
-- `trips` (ของตัวเอง), `swipes` (ของตัวเอง)
+- `trips` (ของตัวเอง) — มีวันที่/คืน/คน/งบ jsonb/ต้นทาง/พาหนะ/จังหวะ/estimate/is_random/spare, days แบบ [{items:[{place,slot,auto}]}]; `swipes` (ของตัวเอง); `profiles.home_province`
 - schema ทั้งหมดอยู่ใน `backend/supabase/snippets/Untitled query 698.sql`
 - permission: `.claude/settings.local.json` อนุญาต `pg_dump`/`psql` (ผู้ใช้เพิ่มเอง) — ยังต้อง backup + ถามก่อนทุกครั้ง
 - กฎ DB (2026-10-24): Claude รัน SQL เองได้ แต่ต้อง backup (`pg_dump`) + ถามยืนยันก่อนทุกครั้ง; backup อยู่ `backend/supabase/backups/` (gitignore)
@@ -165,3 +166,5 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | backup แล้ว update รูป Unsplash 6 ที่ (ratchaprapha-dam, koh-nang-yuan, kiriwong-village, similan-islands, maya-bay, phuket-old-town) |
 | 2026-10-24 | backup แล้ว update รูป Wikimedia 9 ที่ (รวมมีรูป 26/28); commit ไฟล์ข้อมูลต้นฉบับ JSON |
 | 2026-10-24 | Lane 1 (ของกลาง flow ใหม่): TripDraftContext, data/travel + provinceCenters, lib/trip travel/budget/random/season + planTrip, api profile.updateHomeProvince, createTrip รับ object, route /plan/*, placeholder TripDetails |
+| 2026-10-24 | backup แล้ว migrate: profiles.home_province, trips.budget → jsonb + คอลัมน์รายละเอียดทริป; สั่ง Codex (gpt-6.1-sol xhigh) ทำ lane 2–5 ใน worktree ../AFOU-codex-flow (branch codex-flow) |
+| 2026-10-24 | เพิ่ม AGENTS.md (กฎ + decision ให้ Codex) |

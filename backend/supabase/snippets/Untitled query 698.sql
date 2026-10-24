@@ -6,6 +6,7 @@ create table public.profiles (
   provinces text[] not null default '{}',
   regions text[] not null default '{}', -- ไม่ได้ใช้แล้ว (Register เลือกแค่จังหวัด)
   custom_moods text[] not null default '{}',
+  home_province text,                  -- จังหวัดที่ผู้ใช้อยู่ (ต้นทางทริป)
   accepted_terms_at timestamptz not null,
   created_at timestamptz not null default now()
 );
@@ -67,10 +68,22 @@ create table public.trips (
   user_id uuid not null default auth.uid() references auth.users(id) on delete cascade,
   province text not null,
   moods text[] not null default '{}',
-  budget smallint,
-  days jsonb not null default '[]',    -- [["place-id",...], [...]] เรียงตามวัน
+  budget jsonb,                        -- { min, max, per: 'person'|'total' } (แถวเก่า { level })
+  days jsonb not null default '[]',    -- [{ items: [{ place, slot, auto }] }] (แถวเก่า [["place-id",...]])
   combos text[] not null default '{}',
   personality text,
+  start_date date,
+  end_date date,
+  nights smallint,
+  trip_type text check (trip_type in ('daytrip','overnight')),
+  travelers jsonb,                     -- { adults, children }
+  origin text,                         -- id จังหวัดต้นทาง
+  transport_to text,                   -- plane/train/bus/car (null = เที่ยวในจังหวัด)
+  transport_local text,                -- rental_car/motorbike/public/tour
+  pace text,                           -- chill/normal/packed
+  estimate jsonb,                      -- ผล estimateTrip
+  is_random boolean not null default false,
+  spare text[] not null default '{}',  -- place id กองสำรอง
   created_at timestamptz not null default now()
 );
 alter table public.trips enable row level security;
