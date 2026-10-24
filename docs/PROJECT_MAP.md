@@ -120,7 +120,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] design หน้า Home/สรุปทริป/บุคลิก/AI มู้ด/การ์ดหายาก เคาะแล้ว (ดูแชท 2026-10-24) — combo 3 แบบ, holo ยกเว้น gradient เฉพาะ rare+
 - [x] ตาราง places/trips/swipes + seed ตัวอย่าง 8 ที่ (กระบี่ 4, ภูเก็ต 4, id ขึ้นต้น `sample-` ลบเมื่อข้อมูลจริงมา)
 - [x] import ข้อมูลจริง 28 ที่ จาก `AI/gemini-code-1792804922688.json` (ลบ sample แล้ว) — มู้ด Claude กำหนดรายที่ (ค้นเว็บเพิ่ม), rarity: ลับ=ตำนาน พอรู้จัก=หายาก ดัง=ธรรมดา, price ฟรี/ถูก=1 กลาง=2 แพง=3
-- [ ] รูปอีก 17 ที่ (lane F หา Unsplash) — มีรูป Wikimedia แล้ว 11 ที่
+- [ ] รูปสถานที่: มีแล้ว 17/28 (Wikimedia 11 + Unsplash 6) — อีก 11 ที่ agent กำลังหาใน Wikimedia
 - [ ] Gemini API key: ใส่ `backend/supabase/functions/.env` (GEMINI_API_KEY) แล้ว `supabase functions serve mood-reader`; ถ้า 401 ตั้ง `[functions.mood-reader] verify_jwt = false`
 - [x] แตก lane A–E แล้ว merge ครบ (A Home/บุคลิก, B Mood/AI, C Swipe, D Trip, E Map — Codex)
 - [ ] เนื้อหาข้อตกลง/นโยบายจริง (ตอนนี้ mockup)
@@ -157,3 +157,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | แผนที่: ซ่อน scrollbar แถว chip (utility `no-scrollbar` ใน index.css); desktop (lg) = แผงซ้าย 380px (ค้นหา, chip ภาคตัดบรรทัด, ข้อมูลจังหวัดเปิดเต็ม) + แผนที่ขวา; มือถือคงเดิม |
 | 2026-10-24 | ProvinceSheet มือถือ ดึงขยายได้ถึงครึ่งจอ (เดิมสูงสุด 390px) |
 | 2026-10-24 | ProvinceSheet มือถือ ดึงขยายได้ถึง 3/4 ของจอ |
+| 2026-10-24 | backup แล้ว update รูป Unsplash 6 ที่ (ratchaprapha-dam, koh-nang-yuan, kiriwong-village, similan-islands, maya-bay, phuket-old-town) |
