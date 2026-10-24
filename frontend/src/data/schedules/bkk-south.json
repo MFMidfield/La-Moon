@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-24",
-  "note": "ตารางอ้างอิง — เวลาและราคาจริงอาจเปลี่ยน ตรวจที่เว็บจองก่อนเดินทาง",
+  "note": "ตารางอ้างอิง — เวลาและราคาจริงอาจเปลี่ยน ตรวจที่เว็บจองก่อนเดินทาง · เครื่องบินเฉพาะสายการบินต้นทุนต่ำ (AirAsia, Lion Air, Nok Air, Vietjet)",
   "sources": [
     "https://www.railway.co.th/SRTTimetable/StationList?StartStation=1000&DestStation=4239",
     "https://www.railway.co.th/SRTTimetable/StationList?StartStation=4239&DestStation=1000",
@@ -54,20 +54,6 @@
           "note": "ออกจาก สุวรรณภูมิ (BKK)"
         },
         {
-          "code": "TG241",
-          "operator": "Thai Airways",
-          "depart": "07:35",
-          "arrive": "08:55",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1233,
-            "max": 2833
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
-        },
-        {
           "code": "DD542",
           "operator": "Nok Air",
           "depart": "09:40",
@@ -108,34 +94,6 @@
           },
           "class": null,
           "note": "ออกจาก ดอนเมือง (DMK)"
-        },
-        {
-          "code": "TG249",
-          "operator": "Thai Airways",
-          "depart": "18:15",
-          "arrive": "19:40",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1233,
-            "max": 2833
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
-        },
-        {
-          "code": "PG263",
-          "operator": "Bangkok Airways",
-          "depart": "19:45",
-          "arrive": "21:15",
-          "arrive_next_day": false,
-          "days": null,
-          "price_thb": {
-            "min": 1233,
-            "max": 2833
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
         }
       ],
       "transfer": {
@@ -240,34 +198,6 @@
           },
           "class": null,
           "note": "ลงที่ ดอนเมือง (DMK)"
-        },
-        {
-          "code": "TG250",
-          "operator": "Thai Airways",
-          "depart": "20:20",
-          "arrive": "21:45",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1248,
-            "max": 2833
-          },
-          "class": null,
-          "note": "ลงที่ สุวรรณภูมิ (BKK)"
-        },
-        {
-          "code": "PG264",
-          "operator": "Bangkok Airways",
-          "depart": "22:00",
-          "arrive": "23:30",
-          "arrive_next_day": false,
-          "days": null,
-          "price_thb": {
-            "min": 1248,
-            "max": 2833
-          },
-          "class": null,
-          "note": "ลงที่ สุวรรณภูมิ (BKK)"
         }
       ],
       "transfer": {
@@ -303,20 +233,6 @@
           "note": "ออกจาก ดอนเมือง (DMK)"
         },
         {
-          "code": "TG201",
-          "operator": "Thai Airways",
-          "depart": "07:40",
-          "arrive": "09:10",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1241,
-            "max": 2570
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
-        },
-        {
           "code": "FD3037",
           "operator": "Thai AirAsia",
           "depart": "08:20",
@@ -331,20 +247,6 @@
           "note": "ออกจาก ดอนเมือง (DMK)"
         },
         {
-          "code": "TG211",
-          "operator": "Thai Airways",
-          "depart": "13:55",
-          "arrive": "15:25",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1241,
-            "max": 2570
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
-        },
-        {
           "code": "FD3017",
           "operator": "Thai AirAsia",
           "depart": "15:15",
@@ -357,20 +259,6 @@
           },
           "class": null,
           "note": "ออกจาก ดอนเมือง (DMK)"
-        },
-        {
-          "code": "TG221",
-          "operator": "Thai Airways",
-          "depart": "18:30",
-          "arrive": "20:00",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1241,
-            "max": 2570
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
         },
         {
           "code": "SL764",
@@ -449,20 +337,6 @@
           "note": "ลงที่ ดอนเมือง (DMK)"
         },
         {
-          "code": "TG202",
-          "operator": "Thai Airways",
-          "depart": "09:50",
-          "arrive": "11:20",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1241,
-            "max": 2570
-          },
-          "class": null,
-          "note": "ลงที่ สุวรรณภูมิ (BKK)"
-        },
-        {
           "code": "FD3092",
           "operator": "Thai AirAsia",
           "depart": "13:20",
@@ -477,20 +351,6 @@
           "note": "ลงที่ ดอนเมือง (DMK)"
         },
         {
-          "code": "TG208",
-          "operator": "Thai Airways",
-          "depart": "13:40",
-          "arrive": "15:10",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1241,
-            "max": 2570
-          },
-          "class": null,
-          "note": "ลงที่ สุวรรณภูมิ (BKK)"
-        },
-        {
           "code": "FD3018",
           "operator": "Thai AirAsia",
           "depart": "17:25",
@@ -503,20 +363,6 @@
           },
           "class": null,
           "note": "ลงที่ ดอนเมือง (DMK)"
-        },
-        {
-          "code": "TG218",
-          "operator": "Thai Airways",
-          "depart": "19:25",
-          "arrive": "21:00",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1241,
-            "max": 2570
-          },
-          "class": null,
-          "note": "ลงที่ สุวรรณภูมิ (BKK)"
         },
         {
           "code": "SL765",
@@ -793,226 +639,6 @@
       ]
     },
     {
-      "id": "bangkok-surat-thani-plane-samui",
-      "mode": "plane",
-      "from": "bangkok",
-      "to": "surat-thani",
-      "from_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
-      "to_station": "สนามบินสมุย (USM)",
-      "trips": [
-        {
-          "code": "PG101",
-          "operator": "Bangkok Airways",
-          "depart": "06:00",
-          "arrive": "07:10",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
-        },
-        {
-          "code": "PG125",
-          "operator": "Bangkok Airways",
-          "depart": "07:00",
-          "arrive": "08:10",
-          "arrive_next_day": false,
-          "days": null,
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
-        },
-        {
-          "code": "PG451",
-          "operator": "Bangkok Airways",
-          "depart": "08:50",
-          "arrive": "10:25",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ออกจาก ดอนเมือง (DMK)"
-        },
-        {
-          "code": "PG151",
-          "operator": "Bangkok Airways",
-          "depart": "14:25",
-          "arrive": "15:35",
-          "arrive_next_day": false,
-          "days": null,
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
-        },
-        {
-          "code": "PG177",
-          "operator": "Bangkok Airways",
-          "depart": "18:40",
-          "arrive": "19:50",
-          "arrive_next_day": false,
-          "days": null,
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
-        },
-        {
-          "code": "PG191",
-          "operator": "Bangkok Airways",
-          "depart": "19:15",
-          "arrive": "20:25",
-          "arrive_next_day": false,
-          "days": null,
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
-        }
-      ],
-      "transfer": {
-        "to_city_minutes": 20,
-        "note": "สนามบินสมุยไปเฉวง ~17 นาที แท็กซี่ ~500 บาท (ลามัย 30-45 นาที) ไปเกาะสมุยไม่ใช่ตัวเมืองสุราษฎร์"
-      },
-      "sources": [
-        "https://www.flightstats.com/v2/flight-tracker/route/BKK/USM/?year=2026&month=10&date=26",
-        "https://www.flightstats.com/v2/flight-tracker/route/DMK/USM/?year=2026&month=10&date=26",
-        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Ko-Samui-USM"
-      ]
-    },
-    {
-      "id": "surat-thani-bangkok-plane-samui",
-      "mode": "plane",
-      "from": "surat-thani",
-      "to": "bangkok",
-      "from_station": "สนามบินสมุย (USM)",
-      "to_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
-      "trips": [
-        {
-          "code": "PG450",
-          "operator": "Bangkok Airways",
-          "depart": "06:45",
-          "arrive": "08:20",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ลงที่ ดอนเมือง (DMK)"
-        },
-        {
-          "code": "PG102",
-          "operator": "Bangkok Airways",
-          "depart": "07:00",
-          "arrive": "08:15",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ลงที่ สุวรรณภูมิ (BKK)"
-        },
-        {
-          "code": "PG104",
-          "operator": "Bangkok Airways",
-          "depart": "07:55",
-          "arrive": "09:10",
-          "arrive_next_day": false,
-          "days": null,
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ลงที่ สุวรรณภูมิ (BKK)"
-        },
-        {
-          "code": "PG452",
-          "operator": "Bangkok Airways",
-          "depart": "11:00",
-          "arrive": "12:35",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ลงที่ ดอนเมือง (DMK)"
-        },
-        {
-          "code": "PG132",
-          "operator": "Bangkok Airways",
-          "depart": "12:15",
-          "arrive": "13:30",
-          "arrive_next_day": false,
-          "days": null,
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ลงที่ สุวรรณภูมิ (BKK)"
-        },
-        {
-          "code": "PG144",
-          "operator": "Bangkok Airways",
-          "depart": "14:05",
-          "arrive": "15:20",
-          "arrive_next_day": false,
-          "days": null,
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ลงที่ สุวรรณภูมิ (BKK)"
-        },
-        {
-          "code": "PG176",
-          "operator": "Bangkok Airways",
-          "depart": "19:00",
-          "arrive": "20:15",
-          "arrive_next_day": false,
-          "days": null,
-          "price_thb": {
-            "min": 2526,
-            "max": 5878
-          },
-          "class": null,
-          "note": "ลงที่ สุวรรณภูมิ (BKK)"
-        }
-      ],
-      "transfer": {
-        "to_city_minutes": 20,
-        "note": "จากเฉวงไปสนามบินสมุย ~17 นาที (ช่วงราคาใช้ของขาไป)"
-      },
-      "sources": [
-        "https://www.flightstats.com/v2/flight-tracker/route/USM/BKK/?year=2026&month=10&date=26",
-        "https://www.flightstats.com/v2/flight-tracker/route/USM/DMK/?year=2026&month=10&date=26",
-        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Ko-Samui-USM"
-      ]
-    },
-    {
       "id": "bangkok-nakhon-si-thammarat-plane",
       "mode": "plane",
       "from": "bangkok",
@@ -1284,34 +910,6 @@
           "note": "ออกจาก ดอนเมือง (DMK)"
         },
         {
-          "code": "TG201",
-          "operator": "Thai Airways",
-          "depart": "07:40",
-          "arrive": "09:10",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1241,
-            "max": 2570
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
-        },
-        {
-          "code": "TG211",
-          "operator": "Thai Airways",
-          "depart": "13:55",
-          "arrive": "15:25",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1241,
-            "max": 2570
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
-        },
-        {
           "code": "FD3017",
           "operator": "Thai AirAsia",
           "depart": "15:15",
@@ -1324,20 +922,6 @@
           },
           "class": null,
           "note": "ออกจาก ดอนเมือง (DMK)"
-        },
-        {
-          "code": "TG221",
-          "operator": "Thai Airways",
-          "depart": "18:30",
-          "arrive": "20:00",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1241,
-            "max": 2570
-          },
-          "class": null,
-          "note": "ออกจาก สุวรรณภูมิ (BKK)"
         },
         {
           "code": "SL764",
@@ -1402,20 +986,6 @@
           "note": "ลงที่ ดอนเมือง (DMK)"
         },
         {
-          "code": "TG208",
-          "operator": "Thai Airways",
-          "depart": "13:40",
-          "arrive": "15:10",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1241,
-            "max": 2570
-          },
-          "class": null,
-          "note": "ลงที่ สุวรรณภูมิ (BKK)"
-        },
-        {
           "code": "FD3018",
           "operator": "Thai AirAsia",
           "depart": "17:25",
@@ -1428,20 +998,6 @@
           },
           "class": null,
           "note": "ลงที่ ดอนเมือง (DMK)"
-        },
-        {
-          "code": "TG218",
-          "operator": "Thai Airways",
-          "depart": "19:25",
-          "arrive": "21:00",
-          "arrive_next_day": false,
-          "days": "daily",
-          "price_thb": {
-            "min": 1241,
-            "max": 2570
-          },
-          "class": null,
-          "note": "ลงที่ สุวรรณภูมิ (BKK)"
         },
         {
           "code": "SL765",
