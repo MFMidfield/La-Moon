@@ -6,7 +6,8 @@ import AppHeader from '../components/AppHeader'
 import SlideLink, { slideNavigate } from '../components/SlideLink'
 import { tripLength, travelerCount, useTripDraft } from '../context/TripDraftContext'
 import { PROVINCES } from '../data/options'
-import { getPlacesByIds } from '../lib/api/places'
+import { getPlacesByIds, listPlaces } from '../lib/api/places'
+import { distanceKm } from '../lib/trip/geo'
 import { getRestaurantsByIds, listRestaurants } from '../lib/api/restaurants'
 import { getStaysByIds } from '../lib/api/stays'
 import { createTrip } from '../lib/api/trips'
@@ -27,11 +28,17 @@ import { buildFoodStay, budgetMeals, overrideKey, placeKey, serializeFood } from
 import { scheduleTrip } from '../components/trip/dayTimes'
 import { alternativePatch, hydratePlan, moveCard, resizePlan, serializePlan } from '../components/trip/itinerary'
 
-function TripEditor({ draft, updateDraft, liked, likedRestaurants, restaurantPool, likedStays, sourceKey }) {
+function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestaurants, restaurantPool, likedStays, sourceKey }) {
   const navigate = useNavigate()
   const [plan, setPlan] = useState(() => {
-    if (draft.itineraryKey === sourceKey && draft.itinerary) return resizePlan(hydratePlan(draft.itinerary, liked), tripLength(draft).days)
-    return planLikedOnly({ liked, days: tripLength(draft).days })
+    // กองสำรอง = ที่ปัดข้าม + ที่เที่ยวอื่นที่ตรงมู้ด (ไม่เติมลงวันเอง ผู้ใช้ลากเข้าเอง)
+    if (draft.itineraryKey === sourceKey && draft.itinerary) {
+      const restored = resizePlan(hydratePlan(draft.itinerary, [...liked, ...spareCandidates]), tripLength(draft).days)
+      if (restored.spare.length) return restored
+      const used = new Set(restored.days.flatMap(day => day.items.map(item => item.place.id)))
+      return { ...restored, spare: spareCandidates.filter(place => !used.has(place.id)) }
+    }
+    return { ...planLikedOnly({ liked, days: tripLength(draft).days }), spare: spareCandidates }
   })
   const [overrides, setOverrides] = useState(() => (draft.itineraryKey === sourceKey ? draft.itinerary?.mealOverrides : null) ?? {})
   const [timeOverrides, setTimeOverrides] = useState(() => (draft.itineraryKey === sourceKey ? draft.itinerary?.timeOverrides : null) ?? {})
@@ -170,6 +177,7 @@ function TripSession({ draft, updateDraft }) {
   const moodKey = draft.moods.join(',')
   const foodKey = draft.likedRestaurantIds.join(',')
   const stayKey = draft.likedStayIds.join(',')
+  const skippedKey = (draft.swipeState?.skipped ?? []).join(',')
   const province = draft.province
   const sourceKey = `${province}|${moodKey}|${likedKey}|${draft.deck?.join(',') ?? 'pick'}`
   const requestKey = `${sourceKey}|${attempt}`
@@ -179,22 +187,30 @@ function TripSession({ draft, updateDraft }) {
     const optional = promise => promise.catch(() => [])
     Promise.all([
       getPlacesByIds(likedKey.split(',').filter(Boolean)),
+      optional(getPlacesByIds(skippedKey.split(',').filter(Boolean))),
+      optional(listPlaces({ province, moods: moodKey.split(',').filter(Boolean) })),
       optional(getRestaurantsByIds(foodKey.split(',').filter(Boolean))),
       optional(listRestaurants({ province })),
       optional(getStaysByIds(stayKey.split(',').filter(Boolean))),
     ])
-      .then(([liked, likedRestaurants, restaurantPool, likedStays]) => {
-        if (active) setResult({ key: requestKey, liked, likedRestaurants, restaurantPool, likedStays })
+      .then(([liked, skipped, moodPool, likedRestaurants, restaurantPool, likedStays]) => {
+        const taken = new Set(liked.map(place => place.id))
+        const center = liked.find(place => place.lat != null)
+        const near = list => (center ? [...list].sort((a, b) => distanceKm(center, a) - distanceKm(center, b)) : list)
+        const skippedFirst = near(skipped.filter(place => !taken.has(place.id)))
+        skippedFirst.forEach(place => taken.add(place.id))
+        const spareCandidates = [...skippedFirst, ...near(moodPool.filter(place => !taken.has(place.id)))]
+        if (active) setResult({ key: requestKey, liked, spareCandidates, likedRestaurants, restaurantPool, likedStays })
       })
       .catch(() => { if (active) setResult({ key: requestKey, error: true }) })
     return () => { active = false }
-  }, [province, likedKey, foodKey, stayKey, requestKey])
+  }, [province, likedKey, moodKey, skippedKey, foodKey, stayKey, requestKey])
   const current = result?.key === requestKey ? result : null
   const label = PROVINCES.find(p => p.id === province)?.label ?? province
   return (
     <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink">
       <AppHeader crumb={label} title="แผนทริปของคุณ" backTo="/plan/swipe" />
-      {!current ? <TripLoading label="กำลังจัดทริป…" /> : current.error ? <TripMessage title="โหลดที่เที่ยวไม่สำเร็จ" body="เช็กอินเทอร์เน็ตแล้วลองอีกครั้ง"><button type="button" onClick={() => setAttempt(value => value + 1)} className={PRIMARY_BUTTON}>ลองใหม่</button></TripMessage> : !current.liked.length ? <TripMessage title="ยังไม่ได้เลือกที่เที่ยว" body="ปัดขวาที่ที่อยากไปอย่างน้อย 1 ที่ แล้วระบบจะจัดแผนให้"><SlideLink to="/plan/swipe" back className={PRIMARY_BUTTON}>กลับไปปัดการ์ด</SlideLink></TripMessage> : <TripEditor key={requestKey} draft={draft} updateDraft={updateDraft} liked={current.liked} likedRestaurants={current.likedRestaurants} restaurantPool={current.restaurantPool} likedStays={current.likedStays} sourceKey={sourceKey} />}
+      {!current ? <TripLoading label="กำลังจัดทริป…" /> : current.error ? <TripMessage title="โหลดที่เที่ยวไม่สำเร็จ" body="เช็กอินเทอร์เน็ตแล้วลองอีกครั้ง"><button type="button" onClick={() => setAttempt(value => value + 1)} className={PRIMARY_BUTTON}>ลองใหม่</button></TripMessage> : !current.liked.length ? <TripMessage title="ยังไม่ได้เลือกที่เที่ยว" body="ปัดขวาที่ที่อยากไปอย่างน้อย 1 ที่ แล้วระบบจะจัดแผนให้"><SlideLink to="/plan/swipe" back className={PRIMARY_BUTTON}>กลับไปปัดการ์ด</SlideLink></TripMessage> : <TripEditor key={requestKey} draft={draft} updateDraft={updateDraft} liked={current.liked} spareCandidates={current.spareCandidates} likedRestaurants={current.likedRestaurants} restaurantPool={current.restaurantPool} likedStays={current.likedStays} sourceKey={sourceKey} />}
     </div>
   )
 }
