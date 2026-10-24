@@ -37,6 +37,8 @@ Instructions for coding agents (Codex and others) working in this repo. Claude C
 - **Shared components:** `AppHeader`, `BottomSheet`, `ToggleChip`, `SlideLink` and `icons` (Moon, Sparkle, Logo). Reuse them instead of re-creating.
 - **Feature folders:** each feature has its own folder under `src/components/<feature>/` (landing, login, register, mood, map, cards, trip, home, personality, plan).
 - **Dialogs:** never use `window.alert` or `window.confirm`. Use `BottomSheet`.
+- **Icons:** no emoji in the UI. Use `lucide-react` icons, inline SVG or `components/icons.jsx`.
+- **Selection feedback:** every selectable control animates (tap scale, color transition, sliding pill for segmented controls) and never shifts neighbouring layout.
 
 ## Decisions already made (don't re-litigate)
 - **MVP scope:** core flow plus card stats/rarity, holo cards, AI mood reader, travel personality and trip combos. Quests are demo-only. Revenue is pitched with mock affiliate booking, quest sponsorship and season pass.
