@@ -4,10 +4,28 @@ import { TransitBudgetLine } from './TransitRoute'
 
 const rows = [['transport', 'เดินทางไป–กลับ'], ['stay', 'ที่พัก'], ['food', 'อาหาร'], ['local', 'เที่ยวในพื้นที่'], ['entries', 'ค่าเข้าสถานที่']]
 
+// ตัดที่พัก/มื้อให้ตรงกับจำนวนคืน/วันที่ลดลง เพื่อให้ยอดที่ประหยัดถูกต้องเมื่อใช้ราคาจริง
+function trimmed(input, patch) {
+  const next = { ...input, ...patch }
+  if (patch.days != null) {
+    next.stays = input.stays?.slice(0, patch.nights)
+    next.meals = input.meals?.filter(meal => meal.d < patch.days)
+  }
+  return next
+}
+
+function alternativesFor(input) {
+  const base = estimateTrip(input).total
+  return cheaperAlternatives({ ...input, stays: null, meals: null })
+    .map(alt => ({ ...alt, saves: base - estimateTrip(trimmed(input, alt.patch)).total }))
+    .filter(alt => alt.saves > 0)
+    .sort((a, b) => b.saves - a.saves)
+}
+
 export default function TripBudget({ input, estimate: savedEstimate, onApply, transit }) {
   const reduced = useReducedMotion()
   const estimate = savedEstimate ?? estimateTrip(input)
-  const alternatives = onApply && estimate.over > 0 ? cheaperAlternatives(input) : []
+  const alternatives = onApply && estimate.over > 0 ? alternativesFor(input) : []
   return (
     <section className="rounded-[28px] bg-white p-5" aria-label="ค่าใช้จ่ายประมาณการ">
       <div className="flex items-center justify-between gap-2"><h2 className="m-0 text-lg font-semibold">งบประมาณทริป</h2><span className="rounded-full bg-cream px-2.5 py-1 text-xs text-muted">ประมาณการ · ทั้งกลุ่ม</span></div>

@@ -1,9 +1,12 @@
 import { ArrowDown, ArrowUp, ChevronRight, Cloud, Dices, GripVertical, X } from 'lucide-react'
-import { useCallback, useRef, useState } from 'react'
+import { Fragment, useCallback, useRef, useState } from 'react'
 import { motion, useDragControls, useReducedMotion } from 'framer-motion'
 import BottomSheet from '../BottomSheet'
 import BookingSheet from './BookingSheet'
 import PlaceThumb from './PlaceThumb'
+import MealRow from './MealRow'
+import StayRow from './StayRow'
+import { dayRows } from './mealPlan'
 import { RARITY } from '../../data/rarity'
 import { SLOTS } from '../../data/travel'
 import { addDays, dayNarrative, thaiDate } from './itinerary'
@@ -61,7 +64,7 @@ function dropTarget(event, info) {
   return { zone: zone.dataset.planZone, index: card ? Number(card.dataset.planIndex) + (y > rect.top + rect.height / 2 ? 1 : 0) : Infinity, y }
 }
 
-export default function DayPlan({ days, spare = [], capacities = [], startDate, onMove, onSwap, canSwap = false, transit }) {
+export default function DayPlan({ days, spare = [], capacities = [], startDate, onMove, onSwap, canSwap = false, transit, onEditMeal }) {
   const reduced = useReducedMotion()
   const feedback = { whileTap: reduced ? undefined : { scale: 0.96 }, transition: reduced ? { duration: 0 } : { type: 'spring', stiffness: 450, damping: 28 } }
   const editable = Boolean(onMove)
@@ -103,17 +106,26 @@ export default function DayPlan({ days, spare = [], capacities = [], startDate, 
         {editable && <p className="m-0 px-1 text-xs leading-relaxed text-muted">ลากที่ไอคอนจุดเพื่อจัดการ์ด · แตะชื่อเพื่อย้ายวัน</p>}
         {transit?.loading && <p role="status" className="m-0 px-1 text-xs text-muted">กำลังคำนวณเส้นทางรถไฟฟ้า/เรือ…</p>}
         {transit?.error && <div role="status" className="rounded-[22px] bg-white px-4 py-2 text-xs text-muted">ยังโหลดข้อมูลเส้นทางไม่ได้ <motion.button {...feedback} type="button" onClick={transit.retry} className="min-h-11 rounded-full px-2 font-semibold text-brown transition-colors hover:bg-cream motion-reduce:transition-none">ลองใหม่</motion.button></div>}
-        {days.map((day, d) => (
-          <section key={d} data-plan-zone={d} aria-label={`วันที่ ${d + 1}`} className={`rounded-[28px] border-2 p-3 transition-colors ${hovered === String(d) ? 'border-orange bg-peach/50' : 'border-transparent bg-[#EDE5DD]/50'}`}>
-            <div className="flex items-center justify-between gap-2 px-1"><h2 className="m-0 text-lg font-bold">วันที่ {d + 1}{startDate ? ` · ${thaiDate(addDays(startDate, d), { weekday: 'short', day: 'numeric', month: 'short' })}` : ''}</h2><span className="shrink-0 text-xs text-muted">{day.items.length} ที่</span></div>
-            <p className="mb-3 mt-2 px-1 text-xs leading-relaxed text-muted">{dayNarrative(day.items)}</p>
-            <div className="flex flex-col gap-2">
-              {day.items.map((item, i) => <div key={item.place.id}>{i > 0 && transit?.days?.[d]?.routes[i - 1] && <TransitRoute route={transit.days[d].routes[i - 1]} fromName={day.items[i - 1].place.name} toName={item.place.name} />}<p className="mb-1 ml-2 mt-2 text-xs font-medium text-brown">{SLOTS.find(slot => slot.id === item.slot)?.label ?? 'ระหว่างวัน'}</p><PlanCard item={item} index={i} {...cardProps} /></div>)}
-              {Array.from({ length: Math.max(day.items.length ? 0 : 1, (capacities[d] ?? 0) - day.items.length) }, (_, i) => <div key={`free-${i}`} className="flex min-h-20 items-center justify-center gap-2 rounded-[22px] border border-dashed border-[#C9BDB2] px-4 py-3 text-sm text-muted"><Cloud size={18} strokeWidth={2} aria-hidden="true" /> เวลาอิสระ</div>)}
-            </div>
-            {transit?.days?.[d] && <TransitDayTotal total={transit.days[d].total} hasRoutes={transit.days[d].routes.length > 0} />}
-          </section>
-        ))}
+        {days.map((day, d) => {
+          const rows = dayRows(day.items, day.meals ?? [], { hideEmpty: !onEditMeal })
+          const freeSlots = Math.max(day.items.length ? 0 : 1, (capacities[d] ?? 0) - day.items.length)
+          return (
+            <section key={d} data-plan-zone={d} aria-label={`วันที่ ${d + 1}`} className={`rounded-[28px] border-2 p-3 transition-colors ${hovered === String(d) ? 'border-orange bg-peach/50' : 'border-transparent bg-[#EDE5DD]/50'}`}>
+              <div className="flex items-center justify-between gap-2 px-1"><h2 className="m-0 text-lg font-bold">วันที่ {d + 1}{startDate ? ` · ${thaiDate(addDays(startDate, d), { weekday: 'short', day: 'numeric', month: 'short' })}` : ''}</h2><span className="shrink-0 text-xs text-muted">{day.items.length} ที่</span></div>
+              <p className="mb-3 mt-2 px-1 text-xs leading-relaxed text-muted">{dayNarrative(day.items)}</p>
+              <div className="flex flex-col gap-2">
+                {rows.map(row => {
+                  if (row.kind === 'meal') return <MealRow key={`meal-${row.slot.meal}`} slot={row.slot} stayName={days[d - 1]?.stay?.name} onEdit={onEditMeal ? () => onEditMeal(d, row.slot.meal) : undefined} />
+                  if (row.kind === 'free') return <Fragment key="free">{Array.from({ length: freeSlots }, (_, i) => <div key={`free-${i}`} className="flex min-h-20 items-center justify-center gap-2 rounded-[22px] border border-dashed border-[#C9BDB2] px-4 py-3 text-sm text-muted"><Cloud size={18} strokeWidth={2} aria-hidden="true" /> เวลาอิสระ</div>)}</Fragment>
+                  const { item, index: i } = row
+                  return <div key={item.place.id}>{i > 0 && transit?.days?.[d]?.routes[i - 1] && <TransitRoute route={transit.days[d].routes[i - 1]} fromName={day.items[i - 1].place.name} toName={item.place.name} />}<p className="mb-1 ml-2 mt-2 text-xs font-medium text-brown">{SLOTS.find(slot => slot.id === item.slot)?.label ?? 'ระหว่างวัน'}</p><PlanCard item={item} index={i} {...cardProps} /></div>
+                })}
+                {day.stay && <StayRow stay={day.stay} onBook={stay => setBooking({ name: stay.name, isStay: true })} />}
+              </div>
+              {transit?.days?.[d] && <TransitDayTotal total={transit.days[d].total} hasRoutes={transit.days[d].routes.length > 0} />}
+            </section>
+          )
+        })}
         {editable && <section data-plan-zone="spare" aria-label="กองการ์ดสำรอง" className={`rounded-[28px] border-2 p-3 ${hovered === 'spare' ? 'border-orange bg-peach/50' : 'border-dashed border-[#D9CFC5]'}`}>
           <div className="mb-3 flex items-center justify-between px-1"><h2 className="m-0 text-lg font-bold">กองการ์ดสำรอง</h2><span className="rounded-full bg-white px-2.5 py-1 text-xs text-muted">{spare.length} ใบ</span></div>
           <div className="flex flex-col gap-2">{spare.map((place, i) => <PlanCard key={place.id} item={{ place, auto: false }} index={i} {...cardProps} spareCard />)}{!spare.length && <p className="m-0 flex min-h-24 items-center justify-center text-sm text-muted">ลากการ์ดมาเก็บไว้ตรงนี้</p>}</div>
@@ -125,7 +137,7 @@ export default function DayPlan({ days, spare = [], capacities = [], startDate, 
           <div className="mt-3 flex gap-2"><motion.button {...feedback} type="button" disabled={sourceIndex <= 0} onClick={() => moveSelected(source >= 0 ? source : 'spare', sourceIndex - 1)} className="flex min-h-11 flex-1 items-center justify-center gap-1 rounded-full border border-[#D9CFC5] text-sm disabled:opacity-30"><ArrowUp size={16} strokeWidth={2} aria-hidden="true" />ขึ้นหนึ่งใบ</motion.button><motion.button {...feedback} type="button" disabled={sourceIndex >= sourceLength - 1} onClick={() => moveSelected(source >= 0 ? source : 'spare', sourceIndex + 2)} className="flex min-h-11 flex-1 items-center justify-center gap-1 rounded-full border border-[#D9CFC5] text-sm disabled:opacity-30"><ArrowDown size={16} strokeWidth={2} aria-hidden="true" />ลงหนึ่งใบ</motion.button></div>
         </div>
       </BottomSheet>
-      <BookingSheet open={Boolean(booking)} place={booking} onClose={closeBooking} />
+      <BookingSheet open={Boolean(booking)} place={booking} title={booking?.isStay ? `จองที่พัก ${booking.name}` : undefined} onClose={closeBooking} />
     </>
   )
 }

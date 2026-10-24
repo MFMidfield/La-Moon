@@ -8,12 +8,12 @@ const PARTNERS = [
   { id: 'klook', name: 'Klook', note: 'ทัวร์ กิจกรรม', tone: '#F6E3B8' },
 ]
 
-export default function BookingSheet({ open, place, onClose }) {
+export default function BookingSheet({ open, place, title, onClose }) {
   return (
     <BottomSheet open={open} onClose={onClose} labelledBy="booking-title">
       <div className="flex items-center justify-between gap-3 px-[22px] pt-4">
         <h2 id="booking-title" className="m-0 min-w-0 text-xl font-bold">
-          จองที่พักใกล้ {place?.name}
+          {title ?? `จองที่พักใกล้ ${place?.name}`}
         </h2>
         <button
           type="button"
