@@ -1,7 +1,7 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import { Navigate, useNavigate, useNavigationType } from 'react-router-dom'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
-import { ArrowRight, Bike, BusFront, CalendarDays, Car, CarFront, CarTaxiFront, Check, Coins, Dices, Luggage, MapPin, Plane, Sailboat, Sun, TrainFront } from 'lucide-react'
+import { ArrowRight, Bike, BusFront, CalendarDays, Car, CarFront, CarTaxiFront, Check, ChevronRight, Coins, Dices, Luggage, MapPin, Plane, Sailboat, Sun, Ticket, TrainFront } from 'lucide-react'
 import AppHeader from '../components/AppHeader'
 import { slideNavigate } from '../components/SlideLink'
 import OriginPicker from '../components/plan/OriginPicker'
@@ -9,6 +9,7 @@ import ScrambleText from '../components/plan/ScrambleText'
 import DetailCard from '../components/plan/DetailCard'
 import TripCalendar from '../components/plan/TripCalendar'
 import { createRollReveal } from '../components/plan/rollReveal'
+import { arrivalText, legTimes, priceMid } from '../components/plan/transportFormat'
 import { useAuth } from '../context/AuthContext'
 import { tripLength, travelerCount, useTripDraft } from '../context/TripDraftContext'
 import { PROVINCES } from '../data/options'
@@ -61,14 +62,18 @@ function DetailsForm() {
   const provinceLabel = PROVINCES.find(p => p.id === province)?.label ?? province
   const random = draft.mode === 'random'
   const travel = useMemo(() => travelOptions(origin, province), [origin, province])
-  const showIntercity = FEATURES.intercityTransport
+  const overnight = draft.tripType === 'overnight'
+  const showIntercity = FEATURES.intercityTransport && overnight
   const transportTo = showIntercity && origin && !travel.sameProvince
     ? travel.options.find(o => o.id === draft.transportTo && o.available)?.id ?? travel.options.find(o => o.available)?.id ?? null
     : null
   const supportsTransit = BKK_TRANSIT_PROVINCES.includes(province)
   const localAll = TRANSPORT_LOCAL.filter(mode => mode.id !== 'transit' || supportsTransit)
-  const localOptions = travel.sameProvince && origin ? [...localAll.filter(mode => mode.id === 'own_car'), ...localAll.filter(mode => mode.id !== 'own_car')] : localAll
-  const fallbackLocal = travel.sameProvince && origin ? 'own_car' : supportsTransit ? 'transit' : 'public'
+  const driving = transportTo === 'car'
+  const localOptions = overnight
+    ? driving ? localAll.filter(mode => mode.id === 'own_car') : localAll.filter(mode => mode.id !== 'own_car')
+    : travel.sameProvince && origin ? [...localAll.filter(mode => mode.id === 'own_car'), ...localAll.filter(mode => mode.id !== 'own_car')] : localAll
+  const fallbackLocal = driving || (!overnight && travel.sameProvince && origin) ? 'own_car' : supportsTransit ? 'transit' : 'public'
   const transportLocal = localOptions.find(mode => mode.id === draft.transportLocal)?.id ?? fallbackLocal
   const { days, nights } = tripLength(draft)
   const people = travelerCount(draft)
@@ -76,8 +81,16 @@ function DetailsForm() {
   const currentPlaces = placesResult?.key === requestKey ? placesResult : null
   const places = currentPlaces?.places ?? []
   const estimateInput = { origin, province, transportTo, transportLocal, budget: draft.budget, people, days, nights, places: [] }
-  const estimate = estimateTrip(estimateInput)
+  const baseEstimate = estimateTrip(estimateInput)
+  const booking = draft.transportBooking ?? { out: null, back: null }
+  const legOk = (leg, date) => leg && leg.mode === transportTo && leg.date === date && leg.origin === origin && leg.province === province ? leg : null
+  const validOut = legOk(booking.out, draft.startDate)
+  const validBack = legOk(booking.back, draft.endDate)
+  const bookedCost = validOut && validBack ? Math.round((priceMid(validOut.price_thb) + priceMid(validBack.price_thb)) * people) : null
+  const bookedTotal = bookedCost == null ? baseEstimate.total : baseEstimate.total - baseEstimate.transport + bookedCost
+  const estimate = bookedCost == null ? baseEstimate : { ...baseEstimate, transport: bookedCost, total: bookedTotal, perPerson: Math.round(bookedTotal / people), over: Math.max(0, bookedTotal - baseEstimate.budget) }
   const alternatives = estimate.over ? cheaperAlternatives(estimateInput).filter(alt => showIntercity || !alt.id.startsWith('to:')) : []
+  const bookingOpen = Boolean(draft.startDate && draft.endDate)
   const warnings = seasonWarnings(places, draft.startDate, draft.endDate)
   const datesValid = Boolean(draft.startDate && draft.startDate >= localIso(new Date()) && draft.endDate && (draft.tripType === 'daytrip' ? draft.endDate === draft.startDate : draft.endDate > draft.startDate))
   const canContinue = Boolean(origin && datesValid && (!showIntercity || travel.sameProvince || transportTo))
@@ -97,13 +110,14 @@ function DetailsForm() {
     if (draft.origin !== origin) patch.origin = origin
     if (draft.transportTo !== transportTo) patch.transportTo = transportTo
     if (draft.transportLocal !== transportLocal) patch.transportLocal = transportLocal
+    if (draft.transportTo !== transportTo || (booking.out ?? null) !== validOut || (booking.back ?? null) !== validBack) patch.transportBooking = { out: draft.transportTo !== transportTo ? null : validOut, back: draft.transportTo !== transportTo ? null : validBack }
     if (!defaulted.current) {
       defaulted.current = true
       if (!random && !draft.startDate) patch.tripType = travel.dayTripSuggested ? 'daytrip' : 'overnight'
       if (travel.sameProvince && (patch.tripType ?? draft.tripType) === 'daytrip') Object.assign(patch, { startDate: tomorrowIso(), endDate: tomorrowIso() })
     }
     if (Object.keys(patch).length) updateDraft(patch)
-  }, [origin, draft.origin, draft.transportTo, draft.transportLocal, draft.startDate, draft.tripType, random, travel.dayTripSuggested, travel.sameProvince, transportTo, transportLocal, updateDraft])
+  }, [origin, draft.origin, draft.transportTo, draft.transportLocal, draft.startDate, draft.tripType, random, travel.dayTripSuggested, travel.sameProvince, transportTo, transportLocal, booking.out, booking.back, validOut, validBack, updateDraft])
 
   async function changeOrigin(id) {
     const sequence = ++saveSequence.current
@@ -119,6 +133,11 @@ function DetailsForm() {
     } finally {
       if (sequence === saveSequence.current) setOriginSaving(false)
     }
+  }
+
+  function selectTransport(id) {
+    if (id === transportTo) return
+    updateDraft({ transportTo: id, transportBooking: { out: null, back: null } })
   }
 
   function changeType(type) {
@@ -183,14 +202,14 @@ function DetailsForm() {
           </DetailCard>
 
           {showIntercity && <DetailCard title="ไปยังไง" icon={<Luggage size={19} strokeWidth={2} />}>
-            {!origin ? <p className="m-0 text-sm text-muted">เลือกต้นทางก่อน แล้วเราจะหาวิธีเดินทางให้</p> : travel.sameProvince ? <span className="inline-flex min-h-10 items-center rounded-full bg-peach px-4 text-sm font-semibold text-brown">{valueText('เที่ยวในจังหวัด', 2)}</span> : <>
+            {!origin ? <p className="m-0 flex items-center gap-2 rounded-[20px] bg-cream px-4 py-3 text-sm text-[#4A3A30]"><MapPin size={18} strokeWidth={2} aria-hidden="true" className="shrink-0 text-brown" />เลือกต้นทางก่อน แล้วจะแสดงวิธีเดินทาง</p> : travel.sameProvince ? <span className="inline-flex min-h-10 items-center rounded-full bg-peach px-4 text-sm font-semibold text-brown">{valueText('เที่ยวในจังหวัด', 2)}</span> : <>
               {random && transportLabel && <p className="mb-3 mt-0 text-sm font-semibold text-brown">{valueText(transportLabel, 2)}</p>}
               <div className="grid grid-cols-2 gap-2">
                 {travel.options.map(option => {
                   const active = transportTo === option.id
                   const label = TRANSPORT_TO.find(t => t.id === option.id)?.label
                   const Icon = TRANSPORT_ICONS[option.id]
-                  return <motion.button type="button" key={option.id} disabled={!option.available} onClick={() => updateDraft({ transportTo: option.id })} aria-pressed={active} whileTap={reduced || !option.available ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className={`relative flex min-h-[150px] min-w-0 flex-col items-start gap-1 rounded-[22px] border p-3 text-left transition-colors duration-200 motion-reduce:transition-none disabled:cursor-not-allowed disabled:opacity-35 ${active ? 'border-[#D9A27E] bg-peach' : 'border-transparent bg-cream'}`}>
+                  return <motion.button type="button" key={option.id} disabled={!option.available} onClick={() => selectTransport(option.id)} aria-pressed={active} whileTap={reduced || !option.available ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className={`relative flex min-h-[150px] min-w-0 flex-col items-start gap-1 rounded-[22px] border p-3 text-left transition-colors duration-200 motion-reduce:transition-none disabled:cursor-not-allowed disabled:opacity-35 ${active ? 'border-[#D9A27E] bg-peach' : 'border-transparent bg-cream'}`}>
                     <Icon aria-hidden="true" size={24} strokeWidth={2} className="mb-1 text-brown" />
                     <span className="absolute right-3 top-3 h-5 w-5"><SelectionCheck selected={active} reduced={reduced} /></span>
                     <span className="text-sm font-semibold">{label}</span>
@@ -202,16 +221,36 @@ function DetailsForm() {
                 })}
               </div>
               <p className="mb-0 mt-2 text-[11px] text-muted">เวลาและราคาโดยประมาณต่อเที่ยว</p>
+              {transportTo && <div className="mt-3 min-h-[76px]">
+                {transportTo === 'car' ? <div className="flex min-h-[76px] items-center justify-between gap-3 rounded-[22px] bg-cream px-4 py-3">
+                  <div className="min-w-0">
+                    <label htmlFor="car-depart" className="block text-sm font-semibold">ออกเดินทาง</label>
+                    <p className="m-0 mt-0.5 text-xs text-[#4A3A30]">ถึงประมาณ {arrivalText(draft.carDepart || '06:00', travel.options.find(o => o.id === 'car')?.hours ?? 0)}</p>
+                  </div>
+                  <input id="car-depart" type="time" value={draft.carDepart || '06:00'} onChange={e => e.target.value && updateDraft({ carDepart: e.target.value })} className="h-11 w-[120px] shrink-0 rounded-full border-0 bg-white px-4 text-center text-sm font-semibold text-ink outline-none focus-visible:ring-2 focus-visible:ring-brown" />
+                </div> : <motion.button type="button" disabled={!bookingOpen} onClick={() => slideNavigate(navigate, '/plan/transport')} whileTap={reduced || !bookingOpen ? undefined : { scale: 0.98 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className="flex min-h-[76px] w-full items-center gap-3 rounded-[22px] bg-cream px-4 py-3 text-left transition-colors duration-200 motion-reduce:transition-none disabled:cursor-not-allowed disabled:opacity-60">
+                  <span aria-hidden="true" className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white text-brown"><Ticket size={18} strokeWidth={2} /></span>
+                  <span className="flex min-w-0 grow flex-col">
+                    <span className="text-sm font-semibold">เลือกเที่ยวไป-กลับ</span>
+                    {bookingOpen ? <>
+                      <span className={`truncate text-xs ${validOut ? 'text-brown' : 'text-muted'}`}>ไป {validOut ? `${validOut.code} ${legTimes(validOut)}` : 'ยังไม่ได้เลือก'}</span>
+                      <span className={`truncate text-xs ${validBack ? 'text-brown' : 'text-muted'}`}>กลับ {validBack ? `${validBack.code} ${legTimes(validBack)}` : 'ยังไม่ได้เลือก'}</span>
+                    </> : <span className="text-xs text-muted">เลือกวันเดินทางก่อน</span>}
+                  </span>
+                  <ChevronRight size={18} strokeWidth={2} aria-hidden="true" className="shrink-0 text-muted" />
+                </motion.button>}
+              </div>}
             </>}
           </DetailCard>}
 
           <DetailCard title="เที่ยวในพื้นที่" icon={<Bike size={19} strokeWidth={2} />}>
             {random && <p className="mb-3 mt-0 text-sm font-semibold text-brown">{valueText(localLabel, 3)}</p>}
-            <div className="grid grid-cols-2 gap-2">{localOptions.map(mode => {
+            <div className={`grid gap-2 ${localOptions.length === 1 ? 'grid-cols-1' : 'grid-cols-2'}`}>{localOptions.map(mode => {
               const Icon = LOCAL_ICONS[mode.id]
               const active = transportLocal === mode.id
               return <motion.button type="button" key={mode.id} onClick={() => updateDraft({ transportLocal: mode.id })} aria-pressed={active} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className={`flex h-16 min-w-0 items-center gap-1.5 rounded-[22px] px-2 text-left text-[13px] font-medium transition-colors duration-200 motion-reduce:transition-none ${active ? 'bg-peach text-brown' : 'bg-cream text-[#4A3A30]'}`}><Icon size={18} strokeWidth={2} aria-hidden="true" className="shrink-0" /><span className="min-w-0 flex-1 leading-snug">{mode.label}</span><span className="h-5 w-5 shrink-0"><SelectionCheck selected={active} reduced={reduced} /></span></motion.button>
             })}</div>
+            {driving && <p className="mb-0 mt-2 text-[11px] text-muted">ขับรถไปเอง ใช้รถคันเดิมเที่ยวต่อในพื้นที่</p>}
           </DetailCard>
 
           <DetailCard title="วันเดินทาง" icon={<CalendarDays size={19} strokeWidth={2} />}>
@@ -229,7 +268,7 @@ function DetailsForm() {
               <p className="m-0 text-[28px] font-bold text-brown">{formatBaht(estimate.total)}<span className="ml-2 text-xs font-normal text-muted">ทั้งทริป · {people} คน</span></p>
               <p className="mb-3 mt-0.5 text-xs text-muted">{formatBaht(estimate.perPerson)}/คน · งบ {formatBaht(estimate.budget)}</p>
               <div role="meter" aria-label="งบประมาณที่ใช้" aria-valuemin={0} aria-valuemax={Math.max(estimate.budget, estimate.total)} aria-valuenow={estimate.total} aria-valuetext={`${formatBaht(estimate.total)} จากงบ ${formatBaht(estimate.budget)}`} className="mb-4 h-2.5 overflow-hidden rounded-full bg-cream"><motion.div initial={false} animate={{ width: `${Math.min(100, estimate.total / Math.max(1, estimate.budget) * 100)}%` }} transition={{ duration: reduced ? 0 : 0.3 }} className={`h-full rounded-full ${estimate.over ? 'bg-orange' : 'bg-[#8BAA6E]'}`} /></div>
-              <dl className="m-0 flex flex-col gap-2 text-sm">{[['เดินทาง', estimate.transport], ['ที่พัก', estimate.stay], ['อาหาร', estimate.food], ['เที่ยวในพื้นที่', estimate.local]].map(([label, cost]) => <div key={label} className="flex items-center justify-between"><dt className="text-muted">{label}</dt><dd className="m-0 font-medium">{formatBaht(cost)}</dd></div>)}</dl>
+              <dl className="m-0 flex flex-col gap-2 text-sm">{[['เดินทาง', estimate.transport], ['ที่พัก', estimate.stay], ['อาหาร', estimate.food], ['เที่ยวในพื้นที่', estimate.local]].map(([label, cost]) => <div key={label} className="flex items-center justify-between"><dt className="text-muted">{label}{label === 'เดินทาง' && bookedCost != null && <span className="ml-1.5 text-[11px]">ตามเที่ยวที่เลือก</span>}</dt><dd className="m-0 font-medium">{formatBaht(cost)}</dd></div>)}</dl>
             </div>
             {estimate.over > 0 && <div className="mt-4 rounded-[20px] bg-[#FBE3D2] p-3"><p className="mb-2 mt-0 text-sm font-semibold text-brown">เกินงบ {formatBaht(estimate.over)} · ลองปรับดู</p><div className="flex flex-wrap gap-2">{alternatives.filter(alt => alt.patch.nights == null || datesValid).map(alt => <motion.button key={alt.id} type="button" onClick={() => applyAlternative(alt)} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className="min-h-11 rounded-full bg-white px-3 text-xs text-brown transition-colors duration-200 motion-reduce:transition-none">{alt.label} · ลด {formatBaht(alt.saves)}</motion.button>)}</div></div>}
             <p className="mb-0 mt-3 text-[11px] leading-relaxed text-muted">ประมาณการเบื้องต้น ยังไม่รวมค่าเข้าสถานที่ ราคาอาจเปลี่ยนตามวันเดินทาง</p>
