@@ -15,6 +15,8 @@ import { TripLoading, TripMessage } from '../components/trip/TripStates'
 import { PRIMARY_BUTTON, TEXT_LINK } from '../components/trip/styles'
 import { MOODS, PROVINCES } from '../data/options'
 import { getPlacesByIds } from '../lib/api/places'
+import { getRestaurantsByIds } from '../lib/api/restaurants'
+import { getStaysByIds } from '../lib/api/stays'
 import { deleteTrip, getTrip } from '../lib/api/trips'
 import { findCombos } from '../lib/trip/combos'
 
@@ -25,8 +27,25 @@ async function loadTrip(id) {
   if (!trip) return { notFound: true }
   const groups = normalizeDays(trip.days ?? [])
   const places = await getPlacesByIds(groups.flatMap(day => day.items.map(item => item.place)))
-  const { days } = hydratePlan({ days: groups }, places)
+  const { days: planDays } = hydratePlan({ days: groups }, places)
+  const days = await attachFoodStay(trip.days ?? [], planDays)
   return { trip, days, combos: findCombos(places), count: places.length }
+}
+
+// ทริปเก่าไม่มี meals/stay ในวัน — ข้ามไปได้เลย
+async function attachFoodStay(rawDays, days) {
+  const extras = rawDays.map(day => (Array.isArray(day) || !day ? {} : day))
+  const restaurantIds = [...new Set(extras.flatMap(day => (day.meals ?? []).map(meal => meal.restaurant)).filter(Boolean))]
+  const stayIds = [...new Set(extras.map(day => day.stay).filter(Boolean))]
+  if (!restaurantIds.length && !stayIds.length) return days
+  const [restaurants, stays] = await Promise.all([getRestaurantsByIds(restaurantIds).catch(() => []), getStaysByIds(stayIds).catch(() => [])])
+  const restaurantById = new Map(restaurants.map(item => [item.id, item]))
+  const stayById = new Map(stays.map(item => [item.id, item]))
+  return days.map((day, d) => ({
+    ...day,
+    meals: (extras[d]?.meals ?? []).map(meal => ({ meal: meal.meal, restaurant: restaurantById.get(meal.restaurant) ?? null, auto: Boolean(meal.auto), atStay: Boolean(meal.atStay) })),
+    stay: stayById.get(extras[d]?.stay) ?? null,
+  }))
 }
 
 // ทริปที่บันทึกแล้ว
