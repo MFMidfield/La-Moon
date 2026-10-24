@@ -13,6 +13,15 @@ export default function TripCalendar({ startDate, endDate, tripType, onChange })
     const start = startDate ? parseLocal(startDate) : new Date()
     return new Date(start.getFullYear(), start.getMonth(), 1)
   })
+  // วันเริ่มถูกตั้งจากข้างนอก (เช่น ค่าเริ่มต้น "พรุ่งนี้") แล้วอยู่คนละเดือน → พาปฏิทินไปเดือนนั้น (การแตะในปฏิทินอยู่ในเดือนที่เห็นเสมอ)
+  const [seenStart, setSeenStart] = useState(startDate)
+  if (seenStart !== startDate) {
+    setSeenStart(startDate)
+    if (startDate) {
+      const target = parseLocal(startDate)
+      if (target.getFullYear() !== month.getFullYear() || target.getMonth() !== month.getMonth()) setMonth(new Date(target.getFullYear(), target.getMonth(), 1))
+    }
+  }
   const today = localIso(new Date())
   const year = month.getFullYear()
   const index = month.getMonth()

@@ -1,7 +1,7 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import { Navigate, useNavigate, useNavigationType } from 'react-router-dom'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
-import { ArrowRight, Bike, BusFront, CalendarDays, Car, CarFront, CarTaxiFront, Check, Coins, Dices, Leaf, Lock, LockOpen, Luggage, MapPin, Plane, Sailboat, Sun, TrainFront } from 'lucide-react'
+import { ArrowRight, Bike, BusFront, CalendarDays, Car, CarFront, CarTaxiFront, Check, Coins, Dices, Luggage, MapPin, Plane, Sailboat, Sun, TrainFront } from 'lucide-react'
 import AppHeader from '../components/AppHeader'
 import { slideNavigate } from '../components/SlideLink'
 import OriginPicker from '../components/plan/OriginPicker'
@@ -12,7 +12,7 @@ import { createRollReveal } from '../components/plan/rollReveal'
 import { useAuth } from '../context/AuthContext'
 import { tripLength, travelerCount, useTripDraft } from '../context/TripDraftContext'
 import { PROVINCES } from '../data/options'
-import { BKK_TRANSIT_PROVINCES, PACES, TRANSPORT_LOCAL, TRANSPORT_TO } from '../data/travel'
+import { BKK_TRANSIT_PROVINCES, FEATURES, TRANSPORT_LOCAL, TRANSPORT_TO } from '../data/travel'
 import { listPlaces } from '../lib/api/places'
 import { updateHomeProvince } from '../lib/api/profile'
 import { cheaperAlternatives, estimateTrip, formatBaht } from '../lib/trip/budget'
@@ -21,21 +21,22 @@ import { seasonWarnings } from '../lib/trip/season'
 import { formatHours, travelOptions } from '../lib/trip/travel'
 
 const TRANSPORT_ICONS = { plane: Plane, train: TrainFront, bus: BusFront, car: Car }
-const LOCAL_ICONS = { transit: TrainFront, rental_car: CarFront, motorbike: Bike, public: CarTaxiFront, tour: Sailboat }
+const LOCAL_ICONS = { own_car: Car, transit: TrainFront, rental_car: CarFront, motorbike: Bike, public: CarTaxiFront, tour: Sailboat }
 const localIso = date => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
 const addDate = (value, amount) => { const date = new Date(`${value}T12:00:00`); date.setDate(date.getDate() + amount); return localIso(date) }
+const tomorrowIso = () => addDate(localIso(new Date()), 1)
 const shortDate = value => value ? new Date(`${value}T12:00:00`).toLocaleDateString('th-TH', { day: 'numeric', month: 'short' }) : 'เลือกวัน'
 
 function SelectionCheck({ selected, reduced }) {
   return <AnimatePresence initial={false}>{selected && <motion.span aria-hidden="true" initial={reduced ? false : { scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: reduced ? 1 : 0.6, opacity: 0 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2, bounce: 0.2 }} className="flex h-5 w-5 items-center justify-center rounded-full bg-brown text-white"><Check size={13} strokeWidth={2} /></motion.span>}</AnimatePresence>
 }
 
-function DetailsSegments({ label, value, options, onChange, reduced, pace = false }) {
+function DetailsSegments({ label, value, options, onChange, reduced }) {
   const id = useId()
-  return <div role="group" aria-label={label} className={`grid gap-1 bg-cream p-1 ${pace ? 'grid-cols-3 rounded-[24px]' : 'mb-4 grid-cols-2 rounded-full'}`}>
-    {options.map(option => <motion.button key={option.id} type="button" onClick={() => onChange(option.id)} aria-pressed={value === option.id} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className={`relative isolate min-w-0 px-2 text-sm font-semibold transition-colors duration-200 motion-reduce:transition-none ${pace ? 'min-h-16 rounded-[21px] py-2' : 'min-h-11 rounded-full'} ${value === option.id ? 'text-brown' : 'text-[#4A3A30]'}`}>
-      {value === option.id && <motion.span aria-hidden="true" layoutId={reduced ? undefined : `${id}-selected`} className={`absolute inset-0 -z-10 bg-peach ${pace ? 'rounded-[21px]' : 'rounded-full'}`} transition={{ type: 'spring', duration: reduced ? 0 : 0.25, bounce: 0.12 }} />}
-      <span className="block">{option.label}</span>{pace && <span className="block text-xs font-normal">{option.perDay} ที่/วัน</span>}
+  return <div role="group" aria-label={label} className="mb-4 grid grid-cols-2 gap-1 rounded-full bg-cream p-1">
+    {options.map(option => <motion.button key={option.id} type="button" onClick={() => onChange(option.id)} aria-pressed={value === option.id} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className={`relative isolate min-h-11 min-w-0 rounded-full px-2 text-sm font-semibold transition-colors duration-200 motion-reduce:transition-none ${value === option.id ? 'text-brown' : 'text-[#4A3A30]'}`}>
+      {value === option.id && <motion.span aria-hidden="true" layoutId={reduced ? undefined : `${id}-selected`} className="absolute inset-0 -z-10 rounded-full bg-peach" transition={{ type: 'spring', duration: reduced ? 0 : 0.25, bounce: 0.12 }} />}
+      <span className="block">{option.label}</span>
     </motion.button>)}
   </div>
 }
@@ -60,12 +61,15 @@ function DetailsForm() {
   const provinceLabel = PROVINCES.find(p => p.id === province)?.label ?? province
   const random = draft.mode === 'random'
   const travel = useMemo(() => travelOptions(origin, province), [origin, province])
-  const transportTo = origin && !travel.sameProvince
+  const showIntercity = FEATURES.intercityTransport
+  const transportTo = showIntercity && origin && !travel.sameProvince
     ? travel.options.find(o => o.id === draft.transportTo && o.available)?.id ?? travel.options.find(o => o.available)?.id ?? null
     : null
   const supportsTransit = BKK_TRANSIT_PROVINCES.includes(province)
-  const localOptions = TRANSPORT_LOCAL.filter(mode => mode.id !== 'transit' || supportsTransit)
-  const transportLocal = localOptions.find(mode => mode.id === draft.transportLocal)?.id ?? (supportsTransit ? 'transit' : 'public')
+  const localAll = TRANSPORT_LOCAL.filter(mode => mode.id !== 'transit' || supportsTransit)
+  const localOptions = travel.sameProvince && origin ? [...localAll.filter(mode => mode.id === 'own_car'), ...localAll.filter(mode => mode.id !== 'own_car')] : localAll
+  const fallbackLocal = travel.sameProvince && origin ? 'own_car' : supportsTransit ? 'transit' : 'public'
+  const transportLocal = localOptions.find(mode => mode.id === draft.transportLocal)?.id ?? fallbackLocal
   const { days, nights } = tripLength(draft)
   const people = travelerCount(draft)
   const requestKey = `${province}:${attempt}`
@@ -73,10 +77,10 @@ function DetailsForm() {
   const places = currentPlaces?.places ?? []
   const estimateInput = { origin, province, transportTo, transportLocal, budget: draft.budget, people, days, nights, places: [] }
   const estimate = estimateTrip(estimateInput)
-  const alternatives = estimate.over ? cheaperAlternatives(estimateInput) : []
+  const alternatives = estimate.over ? cheaperAlternatives(estimateInput).filter(alt => showIntercity || !alt.id.startsWith('to:')) : []
   const warnings = seasonWarnings(places, draft.startDate, draft.endDate)
   const datesValid = Boolean(draft.startDate && draft.startDate >= localIso(new Date()) && draft.endDate && (draft.tripType === 'daytrip' ? draft.endDate === draft.startDate : draft.endDate > draft.startDate))
-  const canContinue = Boolean(origin && datesValid && (travel.sameProvince || transportTo))
+  const canContinue = Boolean(origin && datesValid && (!showIntercity || travel.sameProvince || transportTo))
 
   useEffect(() => {
     let active = true
@@ -96,9 +100,10 @@ function DetailsForm() {
     if (!defaulted.current) {
       defaulted.current = true
       if (!random && !draft.startDate) patch.tripType = travel.dayTripSuggested ? 'daytrip' : 'overnight'
+      if (travel.sameProvince && (patch.tripType ?? draft.tripType) === 'daytrip') Object.assign(patch, { startDate: tomorrowIso(), endDate: tomorrowIso() })
     }
     if (Object.keys(patch).length) updateDraft(patch)
-  }, [origin, draft.origin, draft.transportTo, draft.transportLocal, draft.startDate, random, travel.dayTripSuggested, transportTo, transportLocal, updateDraft])
+  }, [origin, draft.origin, draft.transportTo, draft.transportLocal, draft.startDate, draft.tripType, random, travel.dayTripSuggested, travel.sameProvince, transportTo, transportLocal, updateDraft])
 
   async function changeOrigin(id) {
     const sequence = ++saveSequence.current
@@ -116,11 +121,8 @@ function DetailsForm() {
     }
   }
 
-  function toggleLock(key) {
-    updateDraft(current => ({ locked: current.locked.includes(key) ? current.locked.filter(k => k !== key) : [...current.locked, key] }))
-  }
-
   function changeType(type) {
+    if (type === 'daytrip' && !draft.startDate && travel.sameProvince) return updateDraft({ tripType: type, startDate: tomorrowIso(), endDate: tomorrowIso() })
     updateDraft({ tripType: type, endDate: !draft.startDate ? null : type === 'daytrip' ? draft.startDate : draft.endDate && draft.endDate > draft.startDate ? draft.endDate : addDate(draft.startDate, 1) })
   }
 
@@ -132,12 +134,13 @@ function DetailsForm() {
       const loaded = currentPlaces?.places ?? await listPlaces({ province })
       const now = new Date()
       now.setHours(12, 0, 0, 0)
-      const result = randomizeTrip({ draft: { ...draft, origin, locked: [...new Set([...draft.locked.filter(key => key !== 'dates'), 'province'])] }, places: loaded, today: now })
+      const result = randomizeTrip({ draft: { ...draft, origin, locked: ['province'] }, places: loaded, today: now })
       if (!result.patch) {
-        setRandomError(result.needMore ? `งบยังไม่พอ ลองเพิ่มอีก ${formatBaht(result.needMore)} หรือลองปลดล็อกบางตัวเลือก` : 'ยังไม่มีที่เที่ยวตรงมู้ดในจังหวัดนี้ ลองเปลี่ยนมู้ด')
+        setRandomError(result.needMore ? `งบยังไม่พอ ลองเพิ่มอีก ${formatBaht(result.needMore)} หรือลองเปลี่ยนมู้ด` : 'ยังไม่มีที่เที่ยวตรงมู้ดในจังหวัดนี้ ลองเปลี่ยนมู้ด')
         return
       }
-      updateDraft({ ...result.patch, ...createRollReveal(), locked: draft.locked.filter(key => key !== 'dates'), swipeKey: null, swipeHistory: [], itineraryKey: null, itinerary: null })
+      const dayTripHere = result.patch.tripType === 'daytrip' && travelOptions(origin, result.patch.province).sameProvince
+      updateDraft({ ...result.patch, ...(dayTripHere ? { startDate: tomorrowIso(), endDate: tomorrowIso() } : {}), ...createRollReveal(), swipeKey: null, swipeHistory: [], itineraryKey: null, itinerary: null })
     } catch {
       setRandomError('สุ่มไม่สำเร็จ ลองอีกครั้งได้เลย')
     } finally {
@@ -155,10 +158,8 @@ function DetailsForm() {
   function valueText(text, index = 0, className = '') {
     return random ? <ScrambleText key={`${draft.rollId}:${index}:${text}`} revealKey={`details-${index}`} text={text} play={navigationType !== 'POP' || draft.rollId !== entryRollId} delay={index * 90} className={className} /> : <span className={className}>{text}</span>
   }
-  const cardProps = { random, locked: draft.locked, onToggleLock: toggleLock }
   const transportLabel = travel.sameProvince && origin ? 'เที่ยวในจังหวัด' : TRANSPORT_TO.find(t => t.id === transportTo)?.label
   const localLabel = TRANSPORT_LOCAL.find(t => t.id === transportLocal)?.label
-  const pace = PACES.find(p => p.id === draft.pace) ?? PACES[1]
 
   return (
     <div className="min-h-svh bg-cream text-ink">
@@ -169,7 +170,6 @@ function DetailsForm() {
             <div className="mb-1 flex flex-wrap items-center gap-2">
               {random && <span className="inline-flex items-center gap-1.5 rounded-full bg-[#FBE3D2] px-2.5 py-1 text-xs font-semibold text-brown"><Dices size={14} strokeWidth={2} aria-hidden="true" />ทริปที่สุ่มได้</span>}
               <h1 className="m-0 text-[26px] font-bold">{valueText(provinceLabel, 0)}</h1>
-              {random && <motion.button type="button" onClick={() => toggleLock('province')} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} aria-label={`${draft.locked.includes('province') ? 'ปลดล็อก' : 'ล็อก'}จังหวัดสำหรับการสุ่มบนแผนที่`} aria-pressed={draft.locked.includes('province')} className={`flex h-11 w-11 items-center justify-center rounded-full text-brown transition-colors duration-200 motion-reduce:transition-none ${draft.locked.includes('province') ? 'bg-peach' : 'bg-white'}`}><AnimatePresence initial={false} mode="wait"><motion.span key={draft.locked.includes('province') ? 'locked' : 'open'} initial={reduced ? false : { opacity: 0, scale: 0.6 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: reduced ? 1 : 0.6 }} transition={{ duration: reduced ? 0 : 0.1 }}>{draft.locked.includes('province') ? <Lock size={18} strokeWidth={2} aria-hidden="true" /> : <LockOpen size={18} strokeWidth={2} aria-hidden="true" />}</motion.span></AnimatePresence></motion.button>}
             </div>
             <p className="m-0 text-sm text-muted">{random ? 'ปรับให้เป็นทริปของคุณ' : 'เติมรายละเอียด แล้วไปเลือกที่เที่ยวกัน'}</p>
             {randomError && <p role="alert" className="mb-0 mt-3 rounded-[20px] bg-[#FBE3D2] p-3 text-sm text-brown">{randomError}</p>}
@@ -182,7 +182,7 @@ function DetailsForm() {
             {originNotice && <p role="status" className="mb-0 mt-2 text-xs text-muted">{originNotice}</p>}
           </DetailCard>
 
-          <DetailCard title="ไปยังไง" icon={<Luggage size={19} strokeWidth={2} />} lockKey="transportTo" {...cardProps}>
+          {showIntercity && <DetailCard title="ไปยังไง" icon={<Luggage size={19} strokeWidth={2} />}>
             {!origin ? <p className="m-0 text-sm text-muted">เลือกต้นทางก่อน แล้วเราจะหาวิธีเดินทางให้</p> : travel.sameProvince ? <span className="inline-flex min-h-10 items-center rounded-full bg-peach px-4 text-sm font-semibold text-brown">{valueText('เที่ยวในจังหวัด', 2)}</span> : <>
               {random && transportLabel && <p className="mb-3 mt-0 text-sm font-semibold text-brown">{valueText(transportLabel, 2)}</p>}
               <div className="grid grid-cols-2 gap-2">
@@ -203,9 +203,9 @@ function DetailsForm() {
               </div>
               <p className="mb-0 mt-2 text-[11px] text-muted">เวลาและราคาโดยประมาณต่อเที่ยว</p>
             </>}
-          </DetailCard>
+          </DetailCard>}
 
-          <DetailCard title="เที่ยวในพื้นที่" icon={<Bike size={19} strokeWidth={2} />} lockKey="transportLocal" {...cardProps}>
+          <DetailCard title="เที่ยวในพื้นที่" icon={<Bike size={19} strokeWidth={2} />}>
             {random && <p className="mb-3 mt-0 text-sm font-semibold text-brown">{valueText(localLabel, 3)}</p>}
             <div className="grid grid-cols-2 gap-2">{localOptions.map(mode => {
               const Icon = LOCAL_ICONS[mode.id]
@@ -222,11 +222,6 @@ function DetailsForm() {
             </div>
             <TripCalendar key={`${draft.province}:${draft.rollId}`} startDate={draft.startDate} endDate={draft.endDate} tripType={draft.tripType} onChange={patch => updateDraft(patch)} />
             {draft.startDate && draft.startDate < localIso(new Date()) && <p role="alert" className="mb-0 mt-2 text-xs text-brown">วันเดินทางผ่านไปแล้ว เลือกวันใหม่ได้เลย</p>}
-          </DetailCard>
-
-          <DetailCard title="จังหวะ" icon={<Leaf size={19} strokeWidth={2} />} lockKey="pace" {...cardProps}>
-            {random && <p className="mb-3 mt-0 text-sm font-semibold text-brown">{valueText(`${pace.label} · ${pace.perDay} ที่/วัน`, 6)}</p>}
-            <DetailsSegments label="จังหวะเที่ยว" value={draft.pace} options={PACES} onChange={id => updateDraft({ pace: id })} reduced={reduced} pace />
           </DetailCard>
 
           <DetailCard title="งบประมาณทริป" icon={<Coins size={19} strokeWidth={2} />}>

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { motion, useReducedMotion } from 'framer-motion'
 import AppHeader from '../components/AppHeader'
@@ -44,6 +44,7 @@ function SwipeSession({ draft, updateDraft, province, provinceLabel, moods }) {
   const current = result?.attempt === attempt ? result : null
   const places = current?.places ?? null
   const total = places?.length ?? 0
+  const placeById = useMemo(() => Object.fromEntries((places ?? []).map((p) => [p.id, p])), [places])
 
   function finish(likedIds) {
     updateDraft({ likedIds })
@@ -83,8 +84,14 @@ function SwipeSession({ draft, updateDraft, province, provinceLabel, moods }) {
       onDone={finish}
       holoOf={(place) => place.rarity}
       labelOf={(place) => place.name}
-      renderCard={(place) => (
-        <PlaceCard place={place} provinceLabel={provinceLabel} moodTotal={moods.length} recommended={place.id === places[0]?.id} />
+      renderCard={(place, rs) => (
+        <PlaceCard
+          place={place}
+          provinceLabel={provinceLabel}
+          moodTotal={moods.length}
+          recommended={place.id === places[0]?.id}
+          likedPlaces={(rs?.liked ?? []).map((id) => placeById[id]).filter(Boolean)}
+        />
       )}
       doneTitle="เลือกการ์ดครบแล้ว"
       doneBody={(liked) => `ถูกใจ ${liked} ที่ ไปเลือกร้านอาหารต่อกัน`}

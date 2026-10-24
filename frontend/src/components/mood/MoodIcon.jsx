@@ -1,4 +1,4 @@
-import { Camera, Compass, Landmark, Moon, Mountain, Utensils, Waves } from 'lucide-react'
+import { Camera, Compass, Gem, Landmark, Moon, Mountain, Utensils, Waves } from 'lucide-react'
 
 const ICONS = {
   beach: Waves,
@@ -8,6 +8,7 @@ const ICONS = {
   quiet: Moon,
   photo: Camera,
   adventure: Compass,
+  luxury: Gem,
 }
 
 export default function MoodIcon({ id, size = 22, className = '' }) {

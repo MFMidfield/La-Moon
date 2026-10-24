@@ -1,6 +1,7 @@
-import { MapPin } from 'lucide-react'
+import { MapPin, Route, TriangleAlert } from 'lucide-react'
 import { useState } from 'react'
 import { HOLO_RARITIES, RARITY } from '../../data/rarity'
+import { nearestOf } from '../../lib/trip/geo'
 import { Sparkle } from '../icons'
 import StatBars from './StatBars'
 
@@ -20,13 +21,31 @@ function PinIcon() {
   )
 }
 
+const FAR_KM = 30
+const fmtKm = (km) => (km < 10 ? km.toFixed(1) : String(Math.round(km)))
+
+// ความใกล้กับที่ที่ถูกใจไว้ในรอบนี้ — ยังไม่เลือกอะไร/ไม่มีพิกัด = ไม่แสดง ; ไกลเกิน 30 กม. = เตือน
+function NearHint({ place, likedPlaces }) {
+  const near = nearestOf(place, likedPlaces)
+  if (!near) return null
+  const far = near.km > FAR_KM
+  const Icon = far ? TriangleAlert : Route
+  return (
+    <span className={`flex min-w-0 items-center gap-1 rounded-full px-2 text-xs font-medium leading-5 ${far ? 'bg-[#FBE3D2] text-brown' : 'bg-cream text-[#4A3A30]'}`}>
+      <Icon size={12} strokeWidth={2} aria-hidden="true" className={`shrink-0 ${far ? 'text-orange' : 'text-muted'}`} />
+      <span className="truncate">{far ? `ไกลจากที่เลือกไว้ ~${fmtKm(near.km)} กม.` : `ห่างจาก ${near.place.name} ~${fmtKm(near.km)} กม.`}</span>
+    </span>
+  )
+}
+
 // หน้าการ์ดสถานที่ (เนื้อหาอย่างเดียว ไม่มี drag) — สูงเต็มกรอบ รูปยืดตามที่เหลือ
-export default function PlaceCard({ place, provinceLabel, moodTotal, recommended }) {
+export default function PlaceCard({ place, provinceLabel, moodTotal, recommended, likedPlaces = [] }) {
   const [broken, setBroken] = useState(false)
   const rarity = RARITY[place.rarity] ?? RARITY.common
   const holo = HOLO_RARITIES.includes(place.rarity)
   const showImage = place.image_url && !broken
   const tags = (place.tags ?? []).slice(0, 3)
+  const hasHint = nearestOf(place, likedPlaces) != null
 
   return (
     <div className="flex h-full flex-col">
@@ -77,11 +96,15 @@ export default function PlaceCard({ place, provinceLabel, moodTotal, recommended
         <div className="flex min-w-0 items-center gap-1.5 text-sm text-muted">
           <PinIcon />
           <span className="shrink-0">{provinceLabel}</span>
-          {place.best_time && (
-            <>
-              <span className="shrink-0 text-[#C9BDB2]">·</span>
-              <span className="truncate text-[#8F837A]">{place.best_time}</span>
-            </>
+          {hasHint ? (
+            <NearHint place={place} likedPlaces={likedPlaces} />
+          ) : (
+            place.best_time && (
+              <>
+                <span className="shrink-0 text-[#C9BDB2]">·</span>
+                <span className="truncate text-[#8F837A]">{place.best_time}</span>
+              </>
+            )
           )}
         </div>
 

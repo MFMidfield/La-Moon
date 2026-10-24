@@ -11,10 +11,11 @@ import { PROVINCES } from '../data/options'
 import { useTripDraft } from '../context/TripDraftContext'
 import { getPlacesByIds } from '../lib/api/places'
 import { listRestaurants } from '../lib/api/restaurants'
+import { sortForMoods } from '../lib/trip/luxury'
 
-// เรียง: มู้ดตรงมากก่อน แล้วใกล้ที่เที่ยวที่ถูกใจก่อน
+// เรียง: มู้ดตรงมากก่อน แล้วใกล้ที่เที่ยวที่ถูกใจก่อน ; มู้ด luxury = ร้านพรีเมียมขึ้นก่อน (เรียงซ้ำแบบ stable)
 function orderRestaurants(list, moods, center) {
-  return list
+  const ordered = list
     .map((r) => ({
       r,
       match: (r.moods ?? []).filter((m) => moods.includes(m)).length,
@@ -22,6 +23,7 @@ function orderRestaurants(list, moods, center) {
     }))
     .sort((a, b) => b.match - a.match || byDistance(a.dist, b.dist))
     .map(({ r }) => r)
+  return sortForMoods(ordered, moods)
 }
 
 function FoodSession({ draft, updateDraft, province, provinceLabel, moods }) {
