@@ -2,17 +2,17 @@ import { supabase } from '../supabase'
 
 /**
  * Trip (แถวจากตาราง trips):
- * { id, user_id, province, moods: string[], budget: 1|2|3|null,
- *   days: string[][] (place id แยกตามวัน), combos: string[] (combo id),
- *   personality: string|null (personality id), created_at }
+ * { id, user_id, province, moods: string[], days: jsonb, combos: string[], personality, created_at,
+ *   start_date, end_date ('YYYY-MM-DD'), nights, trip_type ('daytrip'|'overnight'),
+ *   travelers: { adults, children }, budget: { min, max, per }, origin, transport_to, transport_local,
+ *   pace, estimate: jsonb (ผล estimateTrip), is_random, spare: string[] (place id กองสำรอง) }
+ * days (แบบใหม่): [{ items: [{ place: placeId, slot: 'morning'|'afternoon'|'evening', auto: boolean }] }]
+ *   (แถวเก่ายังเป็น string[][] — ฝั่งอ่านต้องรองรับทั้งสองแบบ)
  */
 
-export async function createTrip({ province, moods, budget, days, combos, personality }) {
-  const { data, error } = await supabase
-    .from('trips')
-    .insert({ province, moods, budget, days, combos, personality })
-    .select()
-    .single()
+// trip: object ตามคอลัมน์ด้านบน (ไม่ต้องใส่ id/user_id/created_at)
+export async function createTrip(trip) {
+  const { data, error } = await supabase.from('trips').insert(trip).select().single()
   if (error) throw error
   return data
 }

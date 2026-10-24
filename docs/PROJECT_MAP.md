@@ -32,7 +32,10 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/mood/ | หน้า Mood: AiMoodBox, MoodTile, MoodIcon, BudgetPicker | |
 | backend/supabase/functions/mood-reader/ | Edge Function Gemini: POST {text} → {moods, reason}; secret GEMINI_API_KEY (+ GEMINI_MODEL) — ไม่มี key ตอบ 503 แล้ว frontend จับคำแทน | แก้ prompt AI |
 | frontend/src/lib/api/ | ทุกการเรียก supabase ต่อ feature: places, swipes, trips, mood (AI + fallback คำ) — หน้าไหนห้ามเรียก supabase ตรง | เพิ่ม query |
-| frontend/src/lib/trip/ | logic ล้วน: plan (วันละ 3 nearest neighbor), combos (3 แบบ ≤2), personality, geo | |
+| frontend/src/lib/trip/ | logic ล้วน: plan (planDays เดิม + planTrip/dayCapacities/assignSlots แผนรายวันใหม่), travel (ระยะ/ตัวเลือกพาหนะ ด้วยสูตร), budget (estimateTrip, cheaperAlternatives, formatBaht), random (randomizeTrip), season (เตือนฤดู/คืนเพ็ญ), combos, personality, geo | |
+| frontend/src/context/TripDraftContext.jsx | ร่างทริป (useTripDraft: draft/updateDraft/resetDraft + tripLength/travelerCount) เก็บ sessionStorage | เพิ่ม field ใน flow |
+| frontend/src/data/travel.js | ตัวเลขประมาณการ: พาหนะ, จังหวะ, สนามบิน/รางรถไฟ, สูตรเดินทาง, ที่พัก/อาหาร/ค่าเข้า, preset งบ | ปรับตัวเลข |
+| frontend/src/data/provinceCenters.js | จุดกลาง 77 จังหวัด (ใช้คำนวณระยะ) | |
 | frontend/src/components/icons.jsx | ไอคอนกลาง Moon, Sparkle, Logo (ใช้หลายหน้า) |
 | frontend/src/components/landing/ | ส่วนประกอบหน้า Landing (Header, Hero, CardStack, Steps, Showcase, CtaBanner, Footer) |
 | frontend/src/components/login/ | ส่วนประกอบหน้า Login (LoginArt, GoogleButton) |
@@ -71,6 +74,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | `/map/:province/trip` | สรุปทริปจากการปัด รับ state { likedIds, moods, budget } → บันทึก → /trips/:id (lane D เสร็จ) | private |
 | `/trips/:id` | ดูทริปที่บันทึก + ลบ (lane D เสร็จ) | private |
 | `/personality` | บุคลิกการเที่ยวจาก swipes ขวาทั้งหมด + แชร์ (lane A เสร็จ) | private |
+| `/plan/mood` → `/plan/details` → `/plan/swipe` → `/plan/trip` | flow วางทริปใหม่ (มู้ด+งบ+คน → modal สุ่ม/เลือกเอง → แผนที่ → รายละเอียด → ปัด → แผนรายวัน) ข้อมูลใน useTripDraft — lane 2–5 (Codex) | private |
 | `/map/:province?` | แผนที่เดียว (route เดียว ไม่ remount): pan/pinch/wheel zoom (d3-zoom), แตะจังหวัด = บินซูม + URL replace, ซูมเข้า = เป้ากลางจอ highlight realtime, หมุดทุกที่, sheet ดึงขยาย → mood; หมอก = ยังไม่มีข้อมูล | private |
 | `/map/:province/mood` | เลือก mood | private |
 | `/map/:province/swipe` | ปัดการ์ด (?moods=&budget=) ลาก/ปุ่ม/คีย์บอร์ด, ย้อนได้, holo rare+ → trip state { likedIds, moods, budget } (lane C เสร็จ) | private |
@@ -160,3 +164,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | ProvinceSheet มือถือ ดึงขยายได้ถึง 3/4 ของจอ |
 | 2026-10-24 | backup แล้ว update รูป Unsplash 6 ที่ (ratchaprapha-dam, koh-nang-yuan, kiriwong-village, similan-islands, maya-bay, phuket-old-town) |
 | 2026-10-24 | backup แล้ว update รูป Wikimedia 9 ที่ (รวมมีรูป 26/28); commit ไฟล์ข้อมูลต้นฉบับ JSON |
+| 2026-10-24 | Lane 1 (ของกลาง flow ใหม่): TripDraftContext, data/travel + provinceCenters, lib/trip travel/budget/random/season + planTrip, api profile.updateHomeProvince, createTrip รับ object, route /plan/*, placeholder TripDetails |

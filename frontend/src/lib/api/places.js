@@ -36,7 +36,7 @@ export async function getPlacesByIds(ids) {
 
 // ทุกสถานที่แบบย่อ — ใช้วาดหมุด/การ์ดจังหวัดบนแผนที่
 export async function listAllPlaces() {
-  const { data, error } = await supabase.from('places').select('id, province, name, moods, rarity, lat, lng')
+  const { data, error } = await supabase.from('places').select('id, province, name, moods, rarity, lat, lng, price_level, best_time, image_url')
   if (error) throw error
   return data
 }
