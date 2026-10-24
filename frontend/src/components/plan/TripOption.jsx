@@ -9,7 +9,7 @@ export default function TripOption({ trip, route, selected, onSelect }) {
   const reduced = useReducedMotion()
   const { min, max } = trip.price_thb ?? {}
   const price = min == null ? null : min === max ? formatBaht(min) : `${formatBaht(min)}–${formatBaht(max)}`
-  const transfer = route?.transfer
+  const transfer = trip.transfer !== undefined ? trip.transfer : route?.transfer
   const detail = [trip.class, trip.note].filter(Boolean).join(' · ')
 
   return (
@@ -40,7 +40,7 @@ export default function TripOption({ trip, route, selected, onSelect }) {
       </span>
 
       {detail && <span className="text-xs text-[#4A3A30]">{detail}</span>}
-      {route?.from_station && <span className="text-xs text-muted">{route.from_station} → {route.to_station}</span>}
+      {(trip.from_station ?? route?.from_station) && <span className="text-xs text-muted">{trip.from_station ?? route.from_station} → {trip.to_station ?? route.to_station}</span>}
       {transfer && (
         <span className="flex items-start gap-1.5 rounded-[16px] bg-cream px-3 py-2 text-xs text-[#4A3A30]">
           <Bus size={14} strokeWidth={2} aria-hidden="true" className="mt-0.5 shrink-0 text-brown" />

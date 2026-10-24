@@ -40,10 +40,15 @@ function mockTrips(from, to, mode) {
 export async function getTrips({ origin, province, mode, direction = 'out', date = null }) {
   const [from, to] = direction === 'out' ? [origin, province] : [province, origin]
   const data = await loadSchedules().catch(() => null)
-  const route = data?.routes?.find((r) => r.mode === mode && r.from === from && r.to === to) ?? null
+  // เส้นทางเดียวกันอาจมีหลาย route (เช่น บินลงสุราษฎร์ URT / สมุย USM) → รวมเที่ยว ใส่สถานีต่อเที่ยว
+  const routes = data?.routes?.filter((r) => r.mode === mode && r.from === from && r.to === to) ?? []
+  const route = routes[0] ?? null
   const day = date ? new Date(`${date}T12:00:00`).getDay() : null
-  if (route?.trips?.length) {
-    const trips = route.trips.filter((t) => day == null || t.days === 'daily' || t.days?.includes(day))
+  if (route) {
+    const trips = routes
+      .flatMap((r) => r.trips.map((t) => ({ ...t, routeId: r.id, from_station: r.from_station, to_station: r.to_station, transfer: r.transfer ?? null })))
+      .filter((t) => day == null || t.days == null || t.days === 'daily' || t.days?.includes(day))
+      .sort((a, b) => (a.depart ?? '99').localeCompare(b.depart ?? '99'))
     return { route, trips, isMock: false, updatedAt: data.updated_at ?? null, note: data.note ?? null }
   }
   const trips = mockTrips(from, to, mode)

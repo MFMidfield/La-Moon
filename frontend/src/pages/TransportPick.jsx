@@ -90,7 +90,7 @@ function PickForm({ origin, province, mode }) {
   function select(trip) {
     const leg = isSelected(trip)
       ? null
-      : { ...trip, routeId: data.route.id, mode, date: dates[tab], from_station: data.route.from_station, to_station: data.route.to_station, transfer: data.route.transfer ?? null, origin, province }
+      : { ...trip, routeId: trip.routeId ?? data.route.id, mode, date: dates[tab], from_station: trip.from_station ?? data.route.from_station, to_station: trip.to_station ?? data.route.to_station, transfer: trip.transfer !== undefined ? trip.transfer : data.route.transfer ?? null, origin, province }
     updateDraft((d) => ({ transportBooking: { ...(d.transportBooking ?? { out: null, back: null }), [tab]: leg } }))
   }
 

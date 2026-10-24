@@ -1,6 +1,3260 @@
 {
-  "updated_at": null,
-  "note": "ตารางจริงเส้นทางหลัก กรุงเทพ ↔ ใต้ 5 จังหวัด — agent กำลังค้น; ระหว่างนี้ lib/trip/schedules.js สร้างข้อมูลตัวอย่างจากสูตร",
-  "sources": [],
-  "routes": []
+  "updated_at": "2026-10-24",
+  "note": "ตารางอ้างอิง — เวลาและราคาจริงอาจเปลี่ยน ตรวจที่เว็บจองก่อนเดินทาง",
+  "sources": [
+    "https://www.railway.co.th/SRTTimetable/StationList?StartStation=1000&DestStation=4239",
+    "https://www.railway.co.th/SRTTimetable/StationList?StartStation=4239&DestStation=1000",
+    "https://www.railway.co.th/SRTTimetable/StationList?StartStation=1000&DestStation=4308",
+    "https://www.railway.co.th/SRTTimetable/StationList?StartStation=4308&DestStation=1000",
+    "https://www.thairath.co.th/news/governmentpolicy/2932126",
+    "https://pscd.prd.go.th/th/content/category/detail/id/39/iid/502499",
+    "https://www.train36.com/train-85-timetable-thailand.html",
+    "https://www.flightstats.com/v2/flight-tracker/route/ (ตารางวันที่ 22 และ 26 ต.ค. 2569)",
+    "https://www.kayak.co.th/flight-routes/ (ช่วงราคา)",
+    "https://booking.busandvan.com/",
+    "https://book.busticket.in.th/",
+    "https://www.visitthailandtoday.com/guides/bangkok-to-krabi",
+    "https://www.rome2rio.com/"
+  ],
+  "routes": [
+    {
+      "id": "bangkok-krabi-plane",
+      "mode": "plane",
+      "from": "bangkok",
+      "to": "krabi",
+      "from_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
+      "to_station": "สนามบินกระบี่ (KBV)",
+      "trips": [
+        {
+          "code": "FD3221",
+          "operator": "Thai AirAsia",
+          "depart": "07:00",
+          "arrive": "08:25",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1233,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TVJ340",
+          "operator": "Thai Vietjet",
+          "depart": "07:00",
+          "arrive": "08:30",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1233,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "TG241",
+          "operator": "Thai Airways",
+          "depart": "07:35",
+          "arrive": "08:55",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1233,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "DD542",
+          "operator": "Nok Air",
+          "depart": "09:40",
+          "arrive": "11:05",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1233,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "DD546",
+          "operator": "Nok Air",
+          "depart": "16:45",
+          "arrive": "18:10",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1233,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "SL812",
+          "operator": "Thai Lion Air",
+          "depart": "17:20",
+          "arrive": "18:45",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1233,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TG249",
+          "operator": "Thai Airways",
+          "depart": "18:15",
+          "arrive": "19:40",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1233,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "PG263",
+          "operator": "Bangkok Airways",
+          "depart": "19:45",
+          "arrive": "21:15",
+          "arrive_next_day": false,
+          "days": null,
+          "price_thb": {
+            "min": 1233,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 30,
+        "note": "รถตู้/แท็กซี่เข้าเมืองกระบี่ ~30 นาที (รถรับส่งสนามบิน ~140 บาท)"
+      },
+      "sources": [
+        "https://www.flightstats.com/v2/flight-tracker/route/DMK/KBV/?year=2026&month=10&date=26",
+        "https://www.flightstats.com/v2/flight-tracker/route/BKK/KBV/?year=2026&month=10&date=26",
+        "https://www.kayak.co.th/flight-routes/Bangkok-Don-Mueang-DMK/Krabi-KBV",
+        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Krabi-KBV"
+      ]
+    },
+    {
+      "id": "krabi-bangkok-plane",
+      "mode": "plane",
+      "from": "krabi",
+      "to": "bangkok",
+      "from_station": "สนามบินกระบี่ (KBV)",
+      "to_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
+      "trips": [
+        {
+          "code": "TVJ341",
+          "operator": "Thai Vietjet",
+          "depart": "09:00",
+          "arrive": "10:25",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1248,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "FD3230",
+          "operator": "Thai AirAsia",
+          "depart": "10:50",
+          "arrive": "12:20",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1248,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "DD543",
+          "operator": "Nok Air",
+          "depart": "11:35",
+          "arrive": "13:00",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1248,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "FD3211",
+          "operator": "Thai AirAsia",
+          "depart": "12:15",
+          "arrive": "13:40",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1248,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "DD547",
+          "operator": "Nok Air",
+          "depart": "18:40",
+          "arrive": "20:05",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1248,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "FD3216",
+          "operator": "Thai AirAsia",
+          "depart": "19:05",
+          "arrive": "20:30",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1248,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TG250",
+          "operator": "Thai Airways",
+          "depart": "20:20",
+          "arrive": "21:45",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1248,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "PG264",
+          "operator": "Bangkok Airways",
+          "depart": "22:00",
+          "arrive": "23:30",
+          "arrive_next_day": false,
+          "days": null,
+          "price_thb": {
+            "min": 1248,
+            "max": 2833
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 30,
+        "note": "จากเมืองกระบี่ไปสนามบิน ~30 นาที (รถตู้/แท็กซี่)"
+      },
+      "sources": [
+        "https://www.flightstats.com/v2/flight-tracker/route/KBV/DMK/?year=2026&month=10&date=26",
+        "https://www.flightstats.com/v2/flight-tracker/route/KBV/BKK/?year=2026&month=10&date=26",
+        "https://www.kayak.co.th/flight-routes/Krabi-KBV/Bangkok-BKK"
+      ]
+    },
+    {
+      "id": "bangkok-phuket-plane",
+      "mode": "plane",
+      "from": "bangkok",
+      "to": "phuket",
+      "from_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
+      "to_station": "สนามบินภูเก็ต (HKT)",
+      "trips": [
+        {
+          "code": "SL752",
+          "operator": "Thai Lion Air",
+          "depart": "07:05",
+          "arrive": "08:30",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TG201",
+          "operator": "Thai Airways",
+          "depart": "07:40",
+          "arrive": "09:10",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "FD3037",
+          "operator": "Thai AirAsia",
+          "depart": "08:20",
+          "arrive": "09:55",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TG211",
+          "operator": "Thai Airways",
+          "depart": "13:55",
+          "arrive": "15:25",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "FD3017",
+          "operator": "Thai AirAsia",
+          "depart": "15:15",
+          "arrive": "16:50",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TG221",
+          "operator": "Thai Airways",
+          "depart": "18:30",
+          "arrive": "20:00",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "SL764",
+          "operator": "Thai Lion Air",
+          "depart": "19:30",
+          "arrive": "20:55",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "DD536",
+          "operator": "Nok Air",
+          "depart": "22:05",
+          "arrive": "23:35",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 40,
+        "note": "สนามบินห่างตัวเมืองภูเก็ต ~30 กม. แท็กซี่ ~400-500 บาท รถตู้รวม ~200 บาท (ช้ากว่า)"
+      },
+      "sources": [
+        "https://www.flightstats.com/v2/flight-tracker/route/DMK/HKT/?year=2026&month=10&date=26",
+        "https://www.flightstats.com/v2/flight-tracker/route/BKK/HKT/?year=2026&month=10&date=26",
+        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Phuket-HKT",
+        "https://www.kayak.co.th/flight-routes/Bangkok-Don-Mueang-DMK/Phuket-HKT"
+      ]
+    },
+    {
+      "id": "phuket-bangkok-plane",
+      "mode": "plane",
+      "from": "phuket",
+      "to": "bangkok",
+      "from_station": "สนามบินภูเก็ต (HKT)",
+      "to_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
+      "trips": [
+        {
+          "code": "FD3036",
+          "operator": "Thai AirAsia",
+          "depart": "06:30",
+          "arrive": "07:50",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "SL753",
+          "operator": "Thai Lion Air",
+          "depart": "09:45",
+          "arrive": "11:15",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TG202",
+          "operator": "Thai Airways",
+          "depart": "09:50",
+          "arrive": "11:20",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "FD3092",
+          "operator": "Thai AirAsia",
+          "depart": "13:20",
+          "arrive": "14:55",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TG208",
+          "operator": "Thai Airways",
+          "depart": "13:40",
+          "arrive": "15:10",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "FD3018",
+          "operator": "Thai AirAsia",
+          "depart": "17:25",
+          "arrive": "18:50",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TG218",
+          "operator": "Thai Airways",
+          "depart": "19:25",
+          "arrive": "21:00",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "SL765",
+          "operator": "Thai Lion Air",
+          "depart": "22:05",
+          "arrive": "23:30",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 40,
+        "note": "ตัวเมืองภูเก็ตไปสนามบิน ~30-45 นาที (ช่วงราคาใช้ของขาไป)"
+      },
+      "sources": [
+        "https://www.flightstats.com/v2/flight-tracker/route/HKT/DMK/?year=2026&month=10&date=26",
+        "https://www.flightstats.com/v2/flight-tracker/route/HKT/BKK/?year=2026&month=10&date=26",
+        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Phuket-HKT"
+      ]
+    },
+    {
+      "id": "bangkok-surat-thani-plane",
+      "mode": "plane",
+      "from": "bangkok",
+      "to": "surat-thani",
+      "from_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
+      "to_station": "สนามบินสุราษฎร์ธานี (URT)",
+      "trips": [
+        {
+          "code": "FD3235",
+          "operator": "Thai AirAsia",
+          "depart": "07:00",
+          "arrive": "08:15",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "SL734",
+          "operator": "Thai Lion Air",
+          "depart": "07:25",
+          "arrive": "08:40",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TVJ350",
+          "operator": "Thai Vietjet",
+          "depart": "09:30",
+          "arrive": "10:50",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "FD3231",
+          "operator": "Thai AirAsia",
+          "depart": "14:10",
+          "arrive": "15:25",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "SL746",
+          "operator": "Thai Lion Air",
+          "depart": "16:45",
+          "arrive": "18:00",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TVJ352",
+          "operator": "Thai Vietjet",
+          "depart": "17:00",
+          "arrive": "18:20",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "FD3233",
+          "operator": "Thai AirAsia",
+          "depart": "18:00",
+          "arrive": "19:10",
+          "arrive_next_day": false,
+          "days": null,
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 40,
+        "note": "สนามบินอยู่ห่างตัวเมือง ~20-28 กม. รถรับส่ง ~140 บาท แท็กซี่ ~500-700 บาท"
+      },
+      "sources": [
+        "https://www.flightstats.com/v2/flight-tracker/route/DMK/URT/?year=2026&month=10&date=26",
+        "https://www.flightstats.com/v2/flight-tracker/route/BKK/URT/?year=2026&month=10&date=26",
+        "https://www.kayak.co.th/flight-routes/Bangkok-Don-Mueang-DMK/Surat-Thani-URT",
+        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Surat-Thani-URT"
+      ]
+    },
+    {
+      "id": "surat-thani-bangkok-plane",
+      "mode": "plane",
+      "from": "surat-thani",
+      "to": "bangkok",
+      "from_station": "สนามบินสุราษฎร์ธานี (URT)",
+      "to_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
+      "trips": [
+        {
+          "code": "FD3236",
+          "operator": "Thai AirAsia",
+          "depart": "08:45",
+          "arrive": "10:00",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "SL735",
+          "operator": "Thai Lion Air",
+          "depart": "09:20",
+          "arrive": "10:35",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TVJ351",
+          "operator": "Thai Vietjet",
+          "depart": "11:25",
+          "arrive": "12:40",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "TVJ355",
+          "operator": "Thai Vietjet",
+          "depart": "13:10",
+          "arrive": "14:30",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "FD3240",
+          "operator": "Thai AirAsia",
+          "depart": "14:35",
+          "arrive": "15:45",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "FD3232",
+          "operator": "Thai AirAsia",
+          "depart": "15:55",
+          "arrive": "17:10",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "SL747",
+          "operator": "Thai Lion Air",
+          "depart": "18:40",
+          "arrive": "20:00",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TVJ353",
+          "operator": "Thai Vietjet",
+          "depart": "18:50",
+          "arrive": "20:05",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 933,
+            "max": 2180
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 40,
+        "note": "ตัวเมืองสุราษฎร์ไปสนามบิน ~35-45 นาที (ช่วงราคาใช้ของขาไป)"
+      },
+      "sources": [
+        "https://www.flightstats.com/v2/flight-tracker/route/URT/DMK/?year=2026&month=10&date=26",
+        "https://www.flightstats.com/v2/flight-tracker/route/URT/BKK/?year=2026&month=10&date=26",
+        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Surat-Thani-URT"
+      ]
+    },
+    {
+      "id": "bangkok-surat-thani-plane-samui",
+      "mode": "plane",
+      "from": "bangkok",
+      "to": "surat-thani",
+      "from_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
+      "to_station": "สนามบินสมุย (USM)",
+      "trips": [
+        {
+          "code": "PG101",
+          "operator": "Bangkok Airways",
+          "depart": "06:00",
+          "arrive": "07:10",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "PG125",
+          "operator": "Bangkok Airways",
+          "depart": "07:00",
+          "arrive": "08:10",
+          "arrive_next_day": false,
+          "days": null,
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "PG451",
+          "operator": "Bangkok Airways",
+          "depart": "08:50",
+          "arrive": "10:25",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "PG151",
+          "operator": "Bangkok Airways",
+          "depart": "14:25",
+          "arrive": "15:35",
+          "arrive_next_day": false,
+          "days": null,
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "PG177",
+          "operator": "Bangkok Airways",
+          "depart": "18:40",
+          "arrive": "19:50",
+          "arrive_next_day": false,
+          "days": null,
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "PG191",
+          "operator": "Bangkok Airways",
+          "depart": "19:15",
+          "arrive": "20:25",
+          "arrive_next_day": false,
+          "days": null,
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 20,
+        "note": "สนามบินสมุยไปเฉวง ~17 นาที แท็กซี่ ~500 บาท (ลามัย 30-45 นาที) ไปเกาะสมุยไม่ใช่ตัวเมืองสุราษฎร์"
+      },
+      "sources": [
+        "https://www.flightstats.com/v2/flight-tracker/route/BKK/USM/?year=2026&month=10&date=26",
+        "https://www.flightstats.com/v2/flight-tracker/route/DMK/USM/?year=2026&month=10&date=26",
+        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Ko-Samui-USM"
+      ]
+    },
+    {
+      "id": "surat-thani-bangkok-plane-samui",
+      "mode": "plane",
+      "from": "surat-thani",
+      "to": "bangkok",
+      "from_station": "สนามบินสมุย (USM)",
+      "to_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
+      "trips": [
+        {
+          "code": "PG450",
+          "operator": "Bangkok Airways",
+          "depart": "06:45",
+          "arrive": "08:20",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "PG102",
+          "operator": "Bangkok Airways",
+          "depart": "07:00",
+          "arrive": "08:15",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "PG104",
+          "operator": "Bangkok Airways",
+          "depart": "07:55",
+          "arrive": "09:10",
+          "arrive_next_day": false,
+          "days": null,
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "PG452",
+          "operator": "Bangkok Airways",
+          "depart": "11:00",
+          "arrive": "12:35",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "PG132",
+          "operator": "Bangkok Airways",
+          "depart": "12:15",
+          "arrive": "13:30",
+          "arrive_next_day": false,
+          "days": null,
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "PG144",
+          "operator": "Bangkok Airways",
+          "depart": "14:05",
+          "arrive": "15:20",
+          "arrive_next_day": false,
+          "days": null,
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "PG176",
+          "operator": "Bangkok Airways",
+          "depart": "19:00",
+          "arrive": "20:15",
+          "arrive_next_day": false,
+          "days": null,
+          "price_thb": {
+            "min": 2526,
+            "max": 5878
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 20,
+        "note": "จากเฉวงไปสนามบินสมุย ~17 นาที (ช่วงราคาใช้ของขาไป)"
+      },
+      "sources": [
+        "https://www.flightstats.com/v2/flight-tracker/route/USM/BKK/?year=2026&month=10&date=26",
+        "https://www.flightstats.com/v2/flight-tracker/route/USM/DMK/?year=2026&month=10&date=26",
+        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Ko-Samui-USM"
+      ]
+    },
+    {
+      "id": "bangkok-nakhon-si-thammarat-plane",
+      "mode": "plane",
+      "from": "bangkok",
+      "to": "nakhon-si-thammarat",
+      "from_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
+      "to_station": "สนามบินนครศรีธรรมราช (NST)",
+      "trips": [
+        {
+          "code": "DD550",
+          "operator": "Nok Air",
+          "depart": "06:00",
+          "arrive": "07:20",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "SL782",
+          "operator": "Thai Lion Air",
+          "depart": "07:00",
+          "arrive": "08:20",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TVJ330",
+          "operator": "Thai Vietjet",
+          "depart": "08:05",
+          "arrive": "09:30",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "TVJ334",
+          "operator": "Thai Vietjet",
+          "depart": "13:10",
+          "arrive": "14:30",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "SL786",
+          "operator": "Thai Lion Air",
+          "depart": "13:20",
+          "arrive": "14:40",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "SL794",
+          "operator": "Thai Lion Air",
+          "depart": "18:45",
+          "arrive": "20:00",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "FD3182",
+          "operator": "Thai AirAsia",
+          "depart": "19:05",
+          "arrive": "20:25",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 35,
+        "note": "รถตู้รวม ~150-250 บาท แท็กซี่ ~300-500 บาท (รถประจำทางสนามบิน 30-40 บาท ตรวจก่อนเดินทาง)"
+      },
+      "sources": [
+        "https://www.flightstats.com/v2/flight-tracker/route/DMK/NST/?year=2026&month=10&date=26",
+        "https://www.flightstats.com/v2/flight-tracker/route/BKK/NST/?year=2026&month=10&date=26",
+        "https://www.kayak.co.th/flight-routes/Bangkok-Don-Mueang-DMK/Nakhon-Si-Thammarat-NST",
+        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Nakhon-Si-Thammarat-NST"
+      ]
+    },
+    {
+      "id": "nakhon-si-thammarat-bangkok-plane",
+      "mode": "plane",
+      "from": "nakhon-si-thammarat",
+      "to": "bangkok",
+      "from_station": "สนามบินนครศรีธรรมราช (NST)",
+      "to_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
+      "trips": [
+        {
+          "code": "DD551",
+          "operator": "Nok Air",
+          "depart": "07:50",
+          "arrive": "09:10",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "FD3189",
+          "operator": "Thai AirAsia",
+          "depart": "08:45",
+          "arrive": "10:00",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TVJ331",
+          "operator": "Thai Vietjet",
+          "depart": "10:05",
+          "arrive": "11:35",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "TVJ335",
+          "operator": "Thai Vietjet",
+          "depart": "15:00",
+          "arrive": "16:20",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "SL787",
+          "operator": "Thai Lion Air",
+          "depart": "15:20",
+          "arrive": "16:35",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "SL789",
+          "operator": "Thai Lion Air",
+          "depart": "16:40",
+          "arrive": "17:55",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "SL795",
+          "operator": "Thai Lion Air",
+          "depart": "20:40",
+          "arrive": "22:05",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "FD3183",
+          "operator": "Thai AirAsia",
+          "depart": "20:55",
+          "arrive": "22:10",
+          "arrive_next_day": false,
+          "days": null,
+          "price_thb": {
+            "min": 1092,
+            "max": 1909
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 35,
+        "note": "จากตัวเมืองนครศรีฯ ไปสนามบิน ~30-45 นาที (ช่วงราคาใช้ของขาไป)"
+      },
+      "sources": [
+        "https://www.flightstats.com/v2/flight-tracker/route/NST/DMK/?year=2026&month=10&date=26",
+        "https://www.flightstats.com/v2/flight-tracker/route/NST/BKK/?year=2026&month=10&date=26",
+        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Nakhon-Si-Thammarat-NST"
+      ]
+    },
+    {
+      "id": "bangkok-phang-nga-plane",
+      "mode": "plane",
+      "from": "bangkok",
+      "to": "phang-nga",
+      "from_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
+      "to_station": "สนามบินภูเก็ต (HKT)",
+      "trips": [
+        {
+          "code": "SL752",
+          "operator": "Thai Lion Air",
+          "depart": "07:05",
+          "arrive": "08:30",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TG201",
+          "operator": "Thai Airways",
+          "depart": "07:40",
+          "arrive": "09:10",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "TG211",
+          "operator": "Thai Airways",
+          "depart": "13:55",
+          "arrive": "15:25",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "FD3017",
+          "operator": "Thai AirAsia",
+          "depart": "15:15",
+          "arrive": "16:50",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TG221",
+          "operator": "Thai Airways",
+          "depart": "18:30",
+          "arrive": "20:00",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "SL764",
+          "operator": "Thai Lion Air",
+          "depart": "19:30",
+          "arrive": "20:55",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ออกจาก ดอนเมือง (DMK)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 90,
+        "note": "บินลงภูเก็ต (ไม่มีสนามบินพังงา) แล้วต่อแท็กซี่/รถตู้ไปตัวเมืองพังงาหรือเขาหลัก ~1.5 ชม. (แท็กซี่ไปเขาหลัก ~1,200-1,800 บาท) ราคาตั๋วไม่รวมค่ารถ"
+      },
+      "sources": [
+        "https://www.flightstats.com/v2/flight-tracker/route/DMK/HKT/?year=2026&month=10&date=26",
+        "https://www.flightstats.com/v2/flight-tracker/route/BKK/HKT/?year=2026&month=10&date=26",
+        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Phuket-HKT",
+        "https://khaolakcenter.com/how-to-get-from-phuket-airport-to-khao-lak/"
+      ]
+    },
+    {
+      "id": "phang-nga-bangkok-plane",
+      "mode": "plane",
+      "from": "phang-nga",
+      "to": "bangkok",
+      "from_station": "สนามบินภูเก็ต (HKT)",
+      "to_station": "ดอนเมือง (DMK) / สุวรรณภูมิ (BKK)",
+      "trips": [
+        {
+          "code": "SL753",
+          "operator": "Thai Lion Air",
+          "depart": "09:45",
+          "arrive": "11:15",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "FD3092",
+          "operator": "Thai AirAsia",
+          "depart": "13:20",
+          "arrive": "14:55",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TG208",
+          "operator": "Thai Airways",
+          "depart": "13:40",
+          "arrive": "15:10",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "FD3018",
+          "operator": "Thai AirAsia",
+          "depart": "17:25",
+          "arrive": "18:50",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        },
+        {
+          "code": "TG218",
+          "operator": "Thai Airways",
+          "depart": "19:25",
+          "arrive": "21:00",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ สุวรรณภูมิ (BKK)"
+        },
+        {
+          "code": "SL765",
+          "operator": "Thai Lion Air",
+          "depart": "22:05",
+          "arrive": "23:30",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 1241,
+            "max": 2570
+          },
+          "class": null,
+          "note": "ลงที่ ดอนเมือง (DMK)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 90,
+        "note": "ต้องเดินทางจากพังงา/เขาหลักไปสนามบินภูเก็ตก่อน ~1.5 ชม. (เผื่อเวลา) ราคาตั๋วไม่รวมค่ารถ"
+      },
+      "sources": [
+        "https://www.flightstats.com/v2/flight-tracker/route/HKT/DMK/?year=2026&month=10&date=26",
+        "https://www.flightstats.com/v2/flight-tracker/route/HKT/BKK/?year=2026&month=10&date=26",
+        "https://www.kayak.co.th/flight-routes/Bangkok-BKK/Phuket-HKT"
+      ]
+    },
+    {
+      "id": "bangkok-surat-thani-train",
+      "mode": "train",
+      "from": "bangkok",
+      "to": "surat-thani",
+      "from_station": "กรุงเทพอภิวัฒน์",
+      "to_station": "สถานีสุราษฎร์ธานี (พุนพิน)",
+      "trips": [
+        {
+          "code": "43",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "07:30",
+          "arrive": "16:20",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": null
+        },
+        {
+          "code": "171",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "15:10",
+          "arrive": "01:11",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 216,
+            "max": 724
+          },
+          "class": "รถเร็ว",
+          "note": null
+        },
+        {
+          "code": "37",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "16:10",
+          "arrive": "01:49",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 296,
+            "max": 1872
+          },
+          "class": "รถด่วนพิเศษ",
+          "note": "พ่วงกับขบวน 45 ไปสุไหงโก-ลก/ปาดังเบซาร์"
+        },
+        {
+          "code": "31",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "16:50",
+          "arrive": "02:20",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 904,
+            "max": 2372
+          },
+          "class": "รถด่วนพิเศษ",
+          "note": null
+        },
+        {
+          "code": "83",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "18:50",
+          "arrive": "04:58",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": null
+        },
+        {
+          "code": "85",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "19:50",
+          "arrive": "06:23",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": null
+        },
+        {
+          "code": "173",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "20:10",
+          "arrive": "06:46",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 216,
+            "max": 724
+          },
+          "class": "รถเร็ว",
+          "note": "เปิดให้บริการตั้งแต่ 15 พ.ค. 2569"
+        },
+        {
+          "code": "39",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "22:50",
+          "arrive": "07:50",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": null
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 25,
+        "note": "สถานีพุนพินห่างตัวเมืองสุราษฎร์ฯ ~15 กม. ต่อรถสองแถว/แท็กซี่/รถรับส่งไปตัวเมืองหรือท่าเรือ"
+      },
+      "sources": [
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=1000&DestStation=4239",
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=4239&DestStation=1000",
+        "https://www.train36.com/train-85-timetable-thailand.html"
+      ]
+    },
+    {
+      "id": "surat-thani-bangkok-train",
+      "mode": "train",
+      "from": "surat-thani",
+      "to": "bangkok",
+      "from_station": "สถานีสุราษฎร์ธานี (พุนพิน)",
+      "to_station": "กรุงเทพอภิวัฒน์",
+      "trips": [
+        {
+          "code": "40",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "09:00",
+          "arrive": "18:05",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": null
+        },
+        {
+          "code": "44",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "18:25",
+          "arrive": "03:45",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": null
+        },
+        {
+          "code": "86",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "19:31",
+          "arrive": "06:10",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": null
+        },
+        {
+          "code": "174",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "20:02",
+          "arrive": "06:45",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 216,
+            "max": 724
+          },
+          "class": "รถเร็ว",
+          "note": "เปิดให้บริการตั้งแต่ 15 พ.ค. 2569"
+        },
+        {
+          "code": "84",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "20:23",
+          "arrive": "07:05",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": null
+        },
+        {
+          "code": "172",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "20:55",
+          "arrive": "07:30",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 216,
+            "max": 724
+          },
+          "class": "รถเร็ว",
+          "note": null
+        },
+        {
+          "code": "32",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "22:24",
+          "arrive": "08:10",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 904,
+            "max": 2372
+          },
+          "class": "รถด่วนพิเศษ",
+          "note": null
+        },
+        {
+          "code": "38",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "22:50",
+          "arrive": "09:05",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 296,
+            "max": 1872
+          },
+          "class": "รถด่วนพิเศษ",
+          "note": null
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 25,
+        "note": "จากตัวเมืองสุราษฎร์ฯ ไปสถานีพุนพิน ~15 กม."
+      },
+      "sources": [
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=1000&DestStation=4239",
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=4239&DestStation=1000",
+        "https://www.train36.com/train-85-timetable-thailand.html"
+      ]
+    },
+    {
+      "id": "bangkok-nakhon-si-thammarat-train",
+      "mode": "train",
+      "from": "bangkok",
+      "to": "nakhon-si-thammarat",
+      "from_station": "กรุงเทพอภิวัฒน์",
+      "to_station": "สถานีนครศรีธรรมราช",
+      "trips": [
+        {
+          "code": "85",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "19:50",
+          "arrive": "09:55",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 282,
+            "max": 1965
+          },
+          "class": "รถด่วน",
+          "note": null
+        },
+        {
+          "code": "173",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "20:10",
+          "arrive": "10:20",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 242,
+            "max": 785
+          },
+          "class": "รถเร็ว",
+          "note": "รถเร็วขบวนใหม่ เปิดให้บริการตั้งแต่ 15 พ.ค. 2569"
+        }
+      ],
+      "transfer": null,
+      "sources": [
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=1000&DestStation=4308",
+        "https://www.train36.com/train-85-timetable-thailand.html",
+        "https://www.thairath.co.th/news/governmentpolicy/2932126",
+        "https://pscd.prd.go.th/th/content/category/detail/id/39/iid/502499"
+      ]
+    },
+    {
+      "id": "nakhon-si-thammarat-bangkok-train",
+      "mode": "train",
+      "from": "nakhon-si-thammarat",
+      "to": "bangkok",
+      "from_station": "สถานีนครศรีธรรมราช",
+      "to_station": "กรุงเทพอภิวัฒน์",
+      "trips": [
+        {
+          "code": "86",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "16:00",
+          "arrive": "06:10",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 282,
+            "max": 1965
+          },
+          "class": "รถด่วน",
+          "note": null
+        },
+        {
+          "code": "174",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "16:30",
+          "arrive": "06:45",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 242,
+            "max": 785
+          },
+          "class": "รถเร็ว",
+          "note": "รถเร็วขบวนใหม่ เปิดให้บริการตั้งแต่ 15 พ.ค. 2569"
+        }
+      ],
+      "transfer": null,
+      "sources": [
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=4308&DestStation=1000",
+        "https://www.thairath.co.th/news/governmentpolicy/2932126"
+      ]
+    },
+    {
+      "id": "bangkok-krabi-train",
+      "mode": "train",
+      "from": "bangkok",
+      "to": "krabi",
+      "from_station": "กรุงเทพอภิวัฒน์",
+      "to_station": "สถานีสุราษฎร์ธานี (พุนพิน) + ต่อรถไปกระบี่",
+      "trips": [
+        {
+          "code": "43",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "07:30",
+          "arrive": "16:20",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": "ถึงพุนพิน 16:20 แล้วต่อรถไปกระบี่ (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น) — ขบวนนี้ถึง 16:20 ต้องเช็กรอบรถต่อรอบสุดท้ายก่อน"
+        },
+        {
+          "code": "83",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "18:50",
+          "arrive": "04:58",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": "ถึงพุนพิน 04:58 แล้วต่อรถไปกระบี่ (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น)"
+        },
+        {
+          "code": "85",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "19:50",
+          "arrive": "06:23",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": "ถึงพุนพิน 06:23 แล้วต่อรถไปกระบี่ (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น)"
+        },
+        {
+          "code": "173",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "20:10",
+          "arrive": "06:46",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 216,
+            "max": 724
+          },
+          "class": "รถเร็ว",
+          "note": "ถึงพุนพิน 06:46 แล้วต่อรถไปกระบี่ (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น)"
+        },
+        {
+          "code": "39",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "22:50",
+          "arrive": "07:50",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": "ถึงพุนพิน 07:50 แล้วต่อรถไปกระบี่ (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 180,
+        "note": "ต่อรถโดยสารจากหน้าสถานีพุนพินไปกระบี่ ~2.5-4 ชม. ค่ารถ ~180-360 บาท (มีขายตั๋วรวมกับรถไฟ) — รอบรถต่อไม่ได้ยืนยัน ตรวจกับผู้ให้บริการ (Phantip/Lomprayah)"
+      },
+      "sources": [
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=1000&DestStation=4239",
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=4239&DestStation=1000",
+        "https://www.visitthailandtoday.com/guides/bangkok-to-krabi",
+        "https://www.rome2rio.com/s/Surat-Thani-Train-Station/Krabi"
+      ]
+    },
+    {
+      "id": "krabi-bangkok-train",
+      "mode": "train",
+      "from": "krabi",
+      "to": "bangkok",
+      "from_station": "สถานีสุราษฎร์ธานี (พุนพิน) (ต่อรถจากกระบี่)",
+      "to_station": "กรุงเทพอภิวัฒน์",
+      "trips": [
+        {
+          "code": "40",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "09:00",
+          "arrive": "18:05",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": "ออกจากพุนพิน 09:00 — ต้องนั่งรถจากกระบี่มาพุนพินก่อนล่วงหน้า"
+        },
+        {
+          "code": "44",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "18:25",
+          "arrive": "03:45",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": "ออกจากพุนพิน 18:25 — ต้องนั่งรถจากกระบี่มาพุนพินก่อนล่วงหน้า"
+        },
+        {
+          "code": "86",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "19:31",
+          "arrive": "06:10",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": "ออกจากพุนพิน 19:31 — ต้องนั่งรถจากกระบี่มาพุนพินก่อนล่วงหน้า"
+        },
+        {
+          "code": "174",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "20:02",
+          "arrive": "06:45",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 216,
+            "max": 724
+          },
+          "class": "รถเร็ว",
+          "note": "ออกจากพุนพิน 20:02 — ต้องนั่งรถจากกระบี่มาพุนพินก่อนล่วงหน้า"
+        },
+        {
+          "code": "32",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "22:24",
+          "arrive": "08:10",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 904,
+            "max": 2372
+          },
+          "class": "รถด่วนพิเศษ",
+          "note": "ออกจากพุนพิน 22:24 — ต้องนั่งรถจากกระบี่มาพุนพินก่อนล่วงหน้า"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 180,
+        "note": "ต่อรถโดยสารจากหน้าสถานีพุนพินไปกระบี่ ~2.5-4 ชม. ค่ารถ ~180-360 บาท (มีขายตั๋วรวมกับรถไฟ) — รอบรถต่อไม่ได้ยืนยัน ตรวจกับผู้ให้บริการ (Phantip/Lomprayah)"
+      },
+      "sources": [
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=1000&DestStation=4239",
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=4239&DestStation=1000",
+        "https://www.visitthailandtoday.com/guides/bangkok-to-krabi",
+        "https://www.rome2rio.com/s/Surat-Thani-Train-Station/Krabi"
+      ]
+    },
+    {
+      "id": "bangkok-phuket-train",
+      "mode": "train",
+      "from": "bangkok",
+      "to": "phuket",
+      "from_station": "กรุงเทพอภิวัฒน์",
+      "to_station": "สถานีสุราษฎร์ธานี (พุนพิน) + ต่อรถไปภูเก็ต",
+      "trips": [
+        {
+          "code": "43",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "07:30",
+          "arrive": "16:20",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": "ถึงพุนพิน 16:20 แล้วต่อรถไปภูเก็ต (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น) — ขบวนนี้ถึง 16:20 ต้องเช็กรอบรถต่อรอบสุดท้ายก่อน"
+        },
+        {
+          "code": "83",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "18:50",
+          "arrive": "04:58",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": "ถึงพุนพิน 04:58 แล้วต่อรถไปภูเก็ต (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น)"
+        },
+        {
+          "code": "85",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "19:50",
+          "arrive": "06:23",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": "ถึงพุนพิน 06:23 แล้วต่อรถไปภูเก็ต (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น)"
+        },
+        {
+          "code": "173",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "20:10",
+          "arrive": "06:46",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 216,
+            "max": 724
+          },
+          "class": "รถเร็ว",
+          "note": "ถึงพุนพิน 06:46 แล้วต่อรถไปภูเก็ต (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น)"
+        },
+        {
+          "code": "39",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "22:50",
+          "arrive": "07:50",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": "ถึงพุนพิน 07:50 แล้วต่อรถไปภูเก็ต (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 240,
+        "note": "ต่อรถจากพุนพินไปสถานีขนส่งภูเก็ต 2 ~4 ชม. ค่ารถ ~400 บาท (Phantip 1970 วันละ 1 เที่ยว) — รอบรถต่อไม่ได้ยืนยัน ตรวจกับผู้ให้บริการ"
+      },
+      "sources": [
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=1000&DestStation=4239",
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=4239&DestStation=1000",
+        "https://www.visitthailandtoday.com/guides/bangkok-to-krabi",
+        "https://www.rome2rio.com/s/Surat-Thani-Train-Station/Phuket"
+      ]
+    },
+    {
+      "id": "phuket-bangkok-train",
+      "mode": "train",
+      "from": "phuket",
+      "to": "bangkok",
+      "from_station": "สถานีสุราษฎร์ธานี (พุนพิน) (ต่อรถจากภูเก็ต)",
+      "to_station": "กรุงเทพอภิวัฒน์",
+      "trips": [
+        {
+          "code": "40",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "09:00",
+          "arrive": "18:05",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": "ออกจากพุนพิน 09:00 — ต้องนั่งรถจากภูเก็ตมาพุนพินก่อนล่วงหน้า"
+        },
+        {
+          "code": "44",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "18:25",
+          "arrive": "03:45",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": "ออกจากพุนพิน 18:25 — ต้องนั่งรถจากภูเก็ตมาพุนพินก่อนล่วงหน้า"
+        },
+        {
+          "code": "86",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "19:31",
+          "arrive": "06:10",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": "ออกจากพุนพิน 19:31 — ต้องนั่งรถจากภูเก็ตมาพุนพินก่อนล่วงหน้า"
+        },
+        {
+          "code": "174",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "20:02",
+          "arrive": "06:45",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 216,
+            "max": 724
+          },
+          "class": "รถเร็ว",
+          "note": "ออกจากพุนพิน 20:02 — ต้องนั่งรถจากภูเก็ตมาพุนพินก่อนล่วงหน้า"
+        },
+        {
+          "code": "32",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "22:24",
+          "arrive": "08:10",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 904,
+            "max": 2372
+          },
+          "class": "รถด่วนพิเศษ",
+          "note": "ออกจากพุนพิน 22:24 — ต้องนั่งรถจากภูเก็ตมาพุนพินก่อนล่วงหน้า"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 240,
+        "note": "ต่อรถจากพุนพินไปสถานีขนส่งภูเก็ต 2 ~4 ชม. ค่ารถ ~400 บาท (Phantip 1970 วันละ 1 เที่ยว) — รอบรถต่อไม่ได้ยืนยัน ตรวจกับผู้ให้บริการ"
+      },
+      "sources": [
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=1000&DestStation=4239",
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=4239&DestStation=1000",
+        "https://www.visitthailandtoday.com/guides/bangkok-to-krabi",
+        "https://www.rome2rio.com/s/Surat-Thani-Train-Station/Phuket"
+      ]
+    },
+    {
+      "id": "bangkok-phang-nga-train",
+      "mode": "train",
+      "from": "bangkok",
+      "to": "phang-nga",
+      "from_station": "กรุงเทพอภิวัฒน์",
+      "to_station": "สถานีสุราษฎร์ธานี (พุนพิน) + ต่อรถไปพังงา",
+      "trips": [
+        {
+          "code": "83",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "18:50",
+          "arrive": "04:58",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": "ถึงพุนพิน 04:58 แล้วต่อรถไปพังงา (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น)"
+        },
+        {
+          "code": "85",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "19:50",
+          "arrive": "06:23",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": "ถึงพุนพิน 06:23 แล้วต่อรถไปพังงา (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น)"
+        },
+        {
+          "code": "173",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "20:10",
+          "arrive": "06:46",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 216,
+            "max": 724
+          },
+          "class": "รถเร็ว",
+          "note": "ถึงพุนพิน 06:46 แล้วต่อรถไปพังงา (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น)"
+        },
+        {
+          "code": "39",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "22:50",
+          "arrive": "07:50",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": "ถึงพุนพิน 07:50 แล้วต่อรถไปพังงา (เวลาถึง/ราคาในแถวนี้เป็นของช่วงรถไฟเท่านั้น)"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 200,
+        "note": "ไม่มีรถตรงพุนพิน-พังงา ต้องต่อรถไปกระบี่ (Lomprayah ~1.5 ชม.) แล้วต่อรถกระบี่-พังงา (~1 ชม. 7 นาที) รวม ~3 ชม. 20 นาที ไม่รวมเวลารอ — รอบรถต่อไม่ได้ยืนยัน"
+      },
+      "sources": [
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=1000&DestStation=4239",
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=4239&DestStation=1000",
+        "https://www.visitthailandtoday.com/guides/bangkok-to-krabi",
+        "https://www.rome2rio.com/s/Surat-Thani-Train-Station/Phang-Nga"
+      ]
+    },
+    {
+      "id": "phang-nga-bangkok-train",
+      "mode": "train",
+      "from": "phang-nga",
+      "to": "bangkok",
+      "from_station": "สถานีสุราษฎร์ธานี (พุนพิน) (ต่อรถจากพังงา)",
+      "to_station": "กรุงเทพอภิวัฒน์",
+      "trips": [
+        {
+          "code": "40",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "09:00",
+          "arrive": "18:05",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": "ออกจากพุนพิน 09:00 — ต้องนั่งรถจากพังงามาพุนพินก่อนล่วงหน้า"
+        },
+        {
+          "code": "44",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "18:25",
+          "arrive": "03:45",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 524,
+            "max": 524
+          },
+          "class": "รถด่วนพิเศษดีเซลราง",
+          "note": "ออกจากพุนพิน 18:25 — ต้องนั่งรถจากพังงามาพุนพินก่อนล่วงหน้า"
+        },
+        {
+          "code": "86",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "19:31",
+          "arrive": "06:10",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 256,
+            "max": 1832
+          },
+          "class": "รถด่วน",
+          "note": "ออกจากพุนพิน 19:31 — ต้องนั่งรถจากพังงามาพุนพินก่อนล่วงหน้า"
+        },
+        {
+          "code": "174",
+          "operator": "การรถไฟแห่งประเทศไทย (SRT)",
+          "depart": "20:02",
+          "arrive": "06:45",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 216,
+            "max": 724
+          },
+          "class": "รถเร็ว",
+          "note": "ออกจากพุนพิน 20:02 — ต้องนั่งรถจากพังงามาพุนพินก่อนล่วงหน้า"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 200,
+        "note": "ไม่มีรถตรงพุนพิน-พังงา ต้องต่อรถไปกระบี่ (Lomprayah ~1.5 ชม.) แล้วต่อรถกระบี่-พังงา (~1 ชม. 7 นาที) รวม ~3 ชม. 20 นาที ไม่รวมเวลารอ — รอบรถต่อไม่ได้ยืนยัน"
+      },
+      "sources": [
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=1000&DestStation=4239",
+        "https://www.railway.co.th/SRTTimetable/StationList?StartStation=4239&DestStation=1000",
+        "https://www.visitthailandtoday.com/guides/bangkok-to-krabi",
+        "https://www.rome2rio.com/s/Surat-Thani-Train-Station/Phang-Nga"
+      ]
+    },
+    {
+      "id": "bangkok-krabi-bus",
+      "mode": "bus",
+      "from": "bangkok",
+      "to": "krabi",
+      "from_station": "สถานีขนส่งสายใต้ใหม่ (บรมราชชนนี)",
+      "to_station": "สถานีขนส่งกระบี่",
+      "trips": [
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "16:30",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 779,
+            "max": 779
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "เวลาเป็นของต้นทางตามระบบจอง (รถวิ่งผ่านหมอชิต 2 / รับระหว่างทาง) ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "17:15",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 752,
+            "max": 752
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "เวลาเป็นของต้นทางตามระบบจอง (รถวิ่งผ่านหมอชิต 2 / รับระหว่างทาง) ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "18:30",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 878,
+            "max": 878
+          },
+          "class": "Business (ม.1พ)",
+          "note": "เวลาเป็นของต้นทางตามระบบจอง (รถวิ่งผ่านหมอชิต 2 / รับระหว่างทาง) ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "18:40",
+          "arrive": "08:40",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 779,
+            "max": 779
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "เวลาถึงตามระบบจอง บางแหล่งระบุถึงเช้ากว่านี้ (~05:40)"
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "18:50",
+          "arrive": "08:50",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 1170,
+            "max": 1170
+          },
+          "class": "VIP 24 ที่นั่ง",
+          "note": "เวลาถึงตามระบบจอง บางแหล่งระบุถึงเช้ากว่านี้"
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "19:30",
+          "arrive": "09:30",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 796,
+            "max": 796
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": null
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 20,
+        "note": "สถานีขนส่งกระบี่ (ตลาดกก) ห่างตัวเมือง ~4-5 กม. ต่อสองแถว/Grab"
+      },
+      "sources": [
+        "https://booking.busandvan.com/bus/bangkok-bus-terminal-southern-sai-tai-mai/krabi-bus-terminal/5909",
+        "https://www.visitthailandtoday.com/guides/bangkok-to-krabi",
+        "https://thailandtravelroutes.com/bus-times-from-bangkok-to-krabi/"
+      ]
+    },
+    {
+      "id": "krabi-bangkok-bus",
+      "mode": "bus",
+      "from": "krabi",
+      "to": "bangkok",
+      "from_station": "สถานีขนส่งกระบี่",
+      "to_station": "สถานีขนส่งสายใต้ใหม่ (บรมราชชนนี)",
+      "trips": [
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "16:00",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 779,
+            "max": 779
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "16:00",
+          "arrive": "06:00",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 779,
+            "max": 779
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "16:30",
+          "arrive": "06:30",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 796,
+            "max": 796
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "17:00",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 752,
+            "max": 752
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "17:00",
+          "arrive": "07:00",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 1170,
+            "max": 1170
+          },
+          "class": "VIP 24 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "17:30",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 878,
+            "max": 878
+          },
+          "class": "Business (ม.1พ)",
+          "note": "ไม่ระบุเวลาถึง"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 20,
+        "note": "จากตัวเมืองกระบี่ไปสถานีขนส่ง ~4-5 กม."
+      },
+      "sources": [
+        "https://book.busticket.in.th/bus/กระบี่/กรุงเทพมหานคร/671344",
+        "https://www.visitthailandtoday.com/guides/krabi-to-bangkok"
+      ]
+    },
+    {
+      "id": "bangkok-phuket-bus",
+      "mode": "bus",
+      "from": "bangkok",
+      "to": "phuket",
+      "from_station": "สถานีขนส่งสายใต้ใหม่ (บรมราชชนนี)",
+      "to_station": "สถานีขนส่งภูเก็ต 2",
+      "trips": [
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "06:45",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 796,
+            "max": 796
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "เวลาเป็นของต้นทางตามระบบจอง (รถวิ่งผ่านหมอชิต 2 / รับระหว่างทาง) ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "16:00",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 796,
+            "max": 796
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "เวลาเป็นของต้นทางตามระบบจอง (รถวิ่งผ่านหมอชิต 2 / รับระหว่างทาง) ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "17:25",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 1238,
+            "max": 1238
+          },
+          "class": "First class (ม.1ก)",
+          "note": "เวลาเป็นของต้นทางตามระบบจอง (รถวิ่งผ่านหมอชิต 2 / รับระหว่างทาง) ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "17:30",
+          "arrive": "05:30",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 1238,
+            "max": 1238
+          },
+          "class": "VIP 24 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Phuket Tour (ภูเก็ตท่องเที่ยว)",
+          "depart": "17:50",
+          "arrive": "06:00",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 1238,
+            "max": 1238
+          },
+          "class": "Premium VIP 24 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "18:00",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 928,
+            "max": 928
+          },
+          "class": "Business (ม.1พ)",
+          "note": "เวลาเป็นของต้นทางตามระบบจอง (รถวิ่งผ่านหมอชิต 2 / รับระหว่างทาง) ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "18:20",
+          "arrive": "06:20",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 796,
+            "max": 796
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "19:20",
+          "arrive": "09:20",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 796,
+            "max": 796
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": null
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 15,
+        "note": "สถานีขนส่งภูเก็ต 2 ห่างตัวเมือง ~5 กม."
+      },
+      "sources": [
+        "https://book.busticket.in.th/bus/สถานีขนส่งผู้โดยสารกรุงเทพ-ถนนบรมราชชนนี-สายใต้ใหม่/ภูเก็ต/607833",
+        "https://www.rome2rio.com/s/Bangkok-Southern-Bus-Terminal/Phuket-Bus-Terminal-2"
+      ]
+    },
+    {
+      "id": "phuket-bangkok-bus",
+      "mode": "bus",
+      "from": "phuket",
+      "to": "bangkok",
+      "from_station": "สถานีขนส่งภูเก็ต 2",
+      "to_station": "สถานีขนส่งสายใต้ใหม่ (บรมราชชนนี)",
+      "trips": [
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "06:30",
+          "arrive": "20:30",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 796,
+            "max": 796
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "07:30",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 796,
+            "max": 796
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "15:30",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 796,
+            "max": 796
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "15:30",
+          "arrive": "05:30",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 1238,
+            "max": 1238
+          },
+          "class": "VIP 24 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "16:30",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 1238,
+            "max": 1238
+          },
+          "class": "First class (ม.1ก)",
+          "note": "ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "16:30",
+          "arrive": "06:30",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 796,
+            "max": 796
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "17:00",
+          "arrive": "07:00",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 1238,
+            "max": 1238
+          },
+          "class": "VIP 24 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "18:00",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 928,
+            "max": 928
+          },
+          "class": "Business (ม.1พ)",
+          "note": "ไม่ระบุเวลาถึง"
+        }
+      ],
+      "transfer": {
+        "to_city_minutes": 15,
+        "note": "จากตัวเมืองภูเก็ตไปสถานีขนส่ง 2 ~5 กม."
+      },
+      "sources": [
+        "https://book.busticket.in.th/bus/ภูเก็ต/กรุงเทพมหานคร/670952"
+      ]
+    },
+    {
+      "id": "bangkok-surat-thani-bus",
+      "mode": "bus",
+      "from": "bangkok",
+      "to": "surat-thani",
+      "from_station": "สถานีขนส่งสายใต้ใหม่ (บรมราชชนนี)",
+      "to_station": "สถานีขนส่งสุราษฎร์ธานี",
+      "trips": [
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "06:05",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 621,
+            "max": 621
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "เวลาเป็นของต้นทางตามระบบจอง (รถวิ่งผ่านหมอชิต 2 / รับระหว่างทาง) ไม่ระบุเวลาถึง (ระบบจองรวมหลายปลายทางใกล้เคียง ตรวจปลายทางตอนจอง)"
+        },
+        {
+          "code": null,
+          "operator": "Bangkok Bus Line (บางกอกบัสไลน์)",
+          "depart": "07:30",
+          "arrive": "17:30",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 725,
+            "max": 725
+          },
+          "class": "Business (ป.1 พิเศษ)",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "17:00",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 966,
+            "max": 966
+          },
+          "class": "First class (ม.1ก)",
+          "note": "เวลาเป็นของต้นทางตามระบบจอง (รถวิ่งผ่านหมอชิต 2 / รับระหว่างทาง) ไม่ระบุเวลาถึง (ระบบจองรวมหลายปลายทางใกล้เคียง ตรวจปลายทางตอนจอง)"
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "17:30",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 621,
+            "max": 621
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "เวลาเป็นของต้นทางตามระบบจอง (รถวิ่งผ่านหมอชิต 2 / รับระหว่างทาง) ไม่ระบุเวลาถึง (ระบบจองรวมหลายปลายทางใกล้เคียง ตรวจปลายทางตอนจอง)"
+        },
+        {
+          "code": null,
+          "operator": "Sri Suthep Tour (ศรีสุเทพทัวร์)",
+          "depart": "17:30",
+          "arrive": "02:30",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 725,
+            "max": 725
+          },
+          "class": "VIP 32 ที่นั่ง",
+          "note": null
+        }
+      ],
+      "transfer": null,
+      "sources": [
+        "https://book.busticket.in.th/bus/กรุงเทพมหานคร/สุราษฎร์ธานี/668320"
+      ]
+    },
+    {
+      "id": "surat-thani-bangkok-bus",
+      "mode": "bus",
+      "from": "surat-thani",
+      "to": "bangkok",
+      "from_station": "สถานีขนส่งสุราษฎร์ธานี",
+      "to_station": "สถานีขนส่งสายใต้ใหม่ (บรมราชชนนี)",
+      "trips": [
+        {
+          "code": null,
+          "operator": "Bangkok Bus Line (บางกอกบัสไลน์)",
+          "depart": "07:30",
+          "arrive": "17:30",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 725,
+            "max": 725
+          },
+          "class": "Business (ป.1 พิเศษ)",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Sap Phaisan Tour (ทรัพย์ไพศาลทัวร์)",
+          "depart": "19:00",
+          "arrive": "06:00",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 621,
+            "max": 621
+          },
+          "class": "ชั้น 1 (ป.1)",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Sap Phaisan Tour (ทรัพย์ไพศาลทัวร์)",
+          "depart": "19:00",
+          "arrive": "06:00",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 966,
+            "max": 966
+          },
+          "class": "VIP 24 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Chok Anant Tour (โชคอนันต์ทัวร์)",
+          "depart": "19:00",
+          "arrive": "05:00",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 966,
+            "max": 966
+          },
+          "class": "ม.4ก VIP 2 ชั้น",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Krung Siam Tour (กรุงสยามทัวร์)",
+          "depart": "19:10",
+          "arrive": "05:40",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 966,
+            "max": 966
+          },
+          "class": "First class (ม.1ก)",
+          "note": null
+        }
+      ],
+      "transfer": null,
+      "sources": [
+        "https://book.busticket.in.th/bus/สุราษฎร์ธานี/กรุงเทพมหานคร/670210"
+      ]
+    },
+    {
+      "id": "bangkok-nakhon-si-thammarat-bus",
+      "mode": "bus",
+      "from": "bangkok",
+      "to": "nakhon-si-thammarat",
+      "from_station": "สถานีขนส่งสายใต้ใหม่ (บรมราชชนนี)",
+      "to_station": "สถานีขนส่งนครศรีธรรมราช",
+      "trips": [
+        {
+          "code": null,
+          "operator": "Nakorn Sri Romyen (นครศรีรมย์)",
+          "depart": "07:30",
+          "arrive": "18:00",
+          "arrive_next_day": false,
+          "days": "daily",
+          "price_thb": {
+            "min": 865,
+            "max": 865
+          },
+          "class": "VIP 40 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "15:30",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 742,
+            "max": 742
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "เวลาเป็นของต้นทางตามระบบจอง (รถวิ่งผ่านหมอชิต 2 / รับระหว่างทาง) ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "16:30",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 742,
+            "max": 742
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "เวลาเป็นของต้นทางตามระบบจอง (รถวิ่งผ่านหมอชิต 2 / รับระหว่างทาง) ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "Sri Suthep Tour (ศรีสุเทพทัวร์)",
+          "depart": "17:30",
+          "arrive": "05:00",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 865,
+            "max": 865
+          },
+          "class": "VIP 32 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Nakorn Sri Romyen (นครศรีรมย์)",
+          "depart": "17:40",
+          "arrive": "04:40",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 1154,
+            "max": 1154
+          },
+          "class": "VIP 30 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Sri Suthep Tour (ศรีสุเทพทัวร์)",
+          "depart": "18:30",
+          "arrive": "06:40",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 865,
+            "max": 865
+          },
+          "class": "VIP 32 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Nakorn Sri Romyen (นครศรีรมย์)",
+          "depart": "18:35",
+          "arrive": "05:05",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 865,
+            "max": 865
+          },
+          "class": "VIP 40 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Nakhon Si Racha Tour",
+          "depart": "18:50",
+          "arrive": "06:50",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 1154,
+            "max": 1154
+          },
+          "class": "First class",
+          "note": null
+        }
+      ],
+      "transfer": null,
+      "sources": [
+        "https://booking.busandvan.com/bus/bangkok-bus-terminal-southern-sai-tai-mai/nakhon-si-thammarat-bus-terminal/5986"
+      ]
+    },
+    {
+      "id": "bangkok-phang-nga-bus",
+      "mode": "bus",
+      "from": "bangkok",
+      "to": "phang-nga",
+      "from_station": "สถานีขนส่งสายใต้ใหม่ (บรมราชชนนี)",
+      "to_station": "สถานีขนส่งพังงา",
+      "trips": [
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "06:45",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 713,
+            "max": 713
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "ออกหมอชิต 2 เวลานี้ รับที่สายใต้ใหม่ภายหลัง ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "17:30",
+          "arrive": "04:20",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 1109,
+            "max": 1109
+          },
+          "class": "VIP 24 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Phuket Tour (ภูเก็ตท่องเที่ยว)",
+          "depart": "17:50",
+          "arrive": "04:25",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 1109,
+            "max": 1109
+          },
+          "class": "Premium VIP 24 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "18:00",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 832,
+            "max": 832
+          },
+          "class": "Business (ม.1พ)",
+          "note": "ออกหมอชิต 2 เวลานี้ รับที่สายใต้ใหม่ภายหลัง ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "18:20",
+          "arrive": "05:10",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 713,
+            "max": 713
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": null
+        }
+      ],
+      "transfer": null,
+      "sources": [
+        "https://book.busticket.in.th/bus/กรุงเทพมหานคร/พังงา/668341"
+      ]
+    },
+    {
+      "id": "phang-nga-bangkok-bus",
+      "mode": "bus",
+      "from": "phang-nga",
+      "to": "bangkok",
+      "from_station": "สถานีขนส่งพังงา",
+      "to_station": "สถานีขนส่งสายใต้ใหม่ (บรมราชชนนี)",
+      "trips": [
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "07:30",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 796,
+            "max": 796
+          },
+          "class": "ชั้น 1 (ม.1ข)",
+          "note": "ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "15:30",
+          "arrive": "05:30",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 876,
+            "max": 876
+          },
+          "class": "VIP 32 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "Lignite Tour (ลิกไนท์ทัวร์)",
+          "depart": "15:30",
+          "arrive": "05:30",
+          "arrive_next_day": true,
+          "days": "daily",
+          "price_thb": {
+            "min": 1168,
+            "max": 1168
+          },
+          "class": "VIP 24 ที่นั่ง",
+          "note": null
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "16:30",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 1238,
+            "max": 1238
+          },
+          "class": "First class (ม.1ก)",
+          "note": "ไม่ระบุเวลาถึง"
+        },
+        {
+          "code": null,
+          "operator": "บขส. (The Transport Co.)",
+          "depart": "18:00",
+          "arrive": null,
+          "arrive_next_day": null,
+          "days": "daily",
+          "price_thb": {
+            "min": 928,
+            "max": 928
+          },
+          "class": "Business (ม.1พ)",
+          "note": "ไม่ระบุเวลาถึง"
+        }
+      ],
+      "transfer": null,
+      "sources": [
+        "https://book.busticket.in.th/bus/พังงา/กรุงเทพมหานคร/671841"
+      ]
+    }
+  ]
 }

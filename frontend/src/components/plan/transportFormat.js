@@ -11,15 +11,18 @@ const pad = (n) => String(n).padStart(2, '0')
 export const priceMid = (price) => (price ? (price.min + price.max) / 2 : 0)
 
 // "06:00–07:20" (+1 เมื่อถึงวันถัดไป)
-export const legTimes = (leg) => `${leg.depart}–${leg.arrive}${leg.arrive_next_day ? ' +1' : ''}`
+// บางเที่ยว (บขส.) ไม่มีเวลาถึงในตาราง → แสดงแค่เวลาออก
+export const legTimes = (leg) => (leg.arrive ? `${leg.depart}–${leg.arrive}${leg.arrive_next_day ? ' +1' : ''}` : `ออก ${leg.depart} · ไม่ระบุเวลาถึง`)
 
 // ระยะเวลาเป็นนาที
 export function tripMinutes(trip) {
+  if (!trip.arrive || !trip.depart) return null
   const diff = toMinutes(trip.arrive) - toMinutes(trip.depart) + (trip.arrive_next_day ? 1440 : 0)
   return diff > 0 ? diff : diff + 1440
 }
 
 export function formatDuration(minutes) {
+  if (minutes == null) return ''
   const h = Math.floor(minutes / 60)
   const m = minutes % 60
   return `${h ? `${h} ชม.` : ''}${h && m ? ' ' : ''}${m ? `${m} น.` : ''}`
