@@ -9,6 +9,7 @@ const MOODS: Record<string, string> = {
   quiet: 'อยากเงียบๆ (พักผ่อน สงบ ไม่วุ่นวาย)',
   photo: 'ถ่ายรูปสวย (วิว จุดเช็กอิน)',
   adventure: 'ผจญภัย (เดินป่า ดำน้ำ กิจกรรมลุยๆ)',
+  luxury: 'หรูหรา (พรีเมียม สปา ร้านหรู ฉลองโอกาสพิเศษ)',
 }
 const MOOD_IDS = Object.keys(MOODS)
 const MAX_TEXT = 500

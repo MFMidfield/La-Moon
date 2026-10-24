@@ -8,6 +8,8 @@ export const MOODS = [
   { id: 'quiet', label: 'อยากเงียบๆ' },
   { id: 'photo', label: 'ถ่ายรูปสวย' },
   { id: 'adventure', label: 'ผจญภัย' },
+  // luxury ไม่ได้ติดในข้อมูลสถานที่ — ใช้ดันของระดับพรีเมียม (ดู lib/trip/luxury.js)
+  { id: 'luxury', label: 'หรูหรา' },
 ]
 
 export const REGIONS = [

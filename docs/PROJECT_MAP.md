@@ -38,6 +38,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | backend/supabase/functions/mood-reader/ | Edge Function Gemini: POST {text} → {moods, reason}; secret GEMINI_API_KEY (+ GEMINI_MODEL) — ไม่มี key ตอบ 503 แล้ว frontend จับคำแทน | แก้ prompt AI |
 | frontend/src/lib/api/ | ทุกการเรียก supabase ต่อ feature: places, swipes, trips, mood (AI + fallback คำ) — หน้าไหนห้ามเรียก supabase ตรง | เพิ่ม query |
 | frontend/src/lib/trip/ | logic ล้วน: plan (planDays เดิม + planTrip/dayCapacities/assignSlots แผนรายวันใหม่), travel (ระยะ/ตัวเลือกพาหนะ ด้วยสูตร), budget (estimateTrip, cheaperAlternatives, formatBaht), random (randomizeTrip), season (เตือนฤดู/คืนเพ็ญ), combos, personality, geo | |
+| frontend/src/lib/trip/luxury.js | มู้ด luxury (หรูหรา) = ดันของพรีเมียมขึ้นก่อน (premiumScore/sortForMoods) ไม่ใช้กรอง | |
+| frontend/src/lib/trip/schedule.js | เวลาจริงในแผน: scheduleDay (เริ่ม 09:00 + visit/มื้อ + เดินทาง 30 กม./ชม.) + overrides เวลาเริ่ม | ปรับสูตรเวลา |
 | frontend/src/lib/trip/swipeRounds.js | กติกาปัดทุกหมวด: ขวา/ซ้าย/ขึ้น(เก็บไว้ก่อน) → รอบ 2 เฉพาะที่เก็บ (ปัดขึ้นไม่ได้) | |
 | frontend/src/lib/trip/meals.js | planMeals (ร้านที่ชอบลงมื้อ + เติมจาก pool), assignStays (single/multi ต่อคืน) | |
 | frontend/src/lib/api/stays.js, restaurants.js + data/mock/ | ที่พัก 66 + ร้าน 88 ชื่อสมมุติ (is_mock) — เปลี่ยนเป็น DB จริงที่ api 2 ไฟล์นี้ | ข้อมูลจริงมา |
@@ -117,6 +119,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - Register: ไม่มีปุ่มย้อนกลับ, เลือกแค่จังหวัด (ยอดนิยม + ค้นหา), มู้ดอื่นๆ พิมพ์เองได้ ≤5 คำ ≤20 ตัว, ปุ่มกดได้เมื่อ ชื่อไม่ว่าง + มู้ด ≥1 + ยอมรับข้อตกลง
 - เนื้อหาข้อตกลง/นโยบายใน TermsModal เป็น mockup
 - ห้ามใช้ emoji ใน UI — ใช้ไอคอน lucide-react / SVG
+- โฟกัสทริปวันเดียวก่อน; ไม่มีจังหวะเที่ยว — แผนใช้เฉพาะที่ปัดขวา (planLikedOnly) ไม่เติม; FEATURES.intercityTransport / bkkTransit ปิดชั่วคราว (data/travel.js)
 - P1 อยู่ในคลิป; admin ไว้ทีหลัง (ช่วงนี้ใช้ Studio); agent ใช้ Opus; รูปสถานที่ Unsplash
 - ส่งต่อระหว่างหน้า: Mood → `/swipe?moods=a,b&budget=2`; Swipe → `/trip` ด้วย state { likedIds, moods, budget }
 - เปลี่ยนหน้า: ใช้ `SlideLink` แทน `Link` (ยังใช้ BrowserRouter ไม่ย้ายไป data router) ถอยกลับใส่ `back`
@@ -192,3 +195,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | ของกลางระบบร้าน/ที่พัก: mock data + api, swipeRounds (ปัดขึ้นเก็บไว้ก่อน/รอบ 2), meals/assignStays, estimateTrip รับ stays/meals ราคาจริง, draft fields, route /plan/food /plan/stay /plan/stay/final (placeholder) |
 | 2026-10-24 | merge agent B: /plan/stay/final (พักหลายที่/ที่เดียว), แผนรายวันมีมื้อ + สลับร้าน + แถวที่พัก, งบราคาจริง, บันทึก/อ่าน meals+stay |
 | 2026-10-24 | merge agent A: ปัดทุกหมวดแบบ rounds (ปัดขึ้นเก็บไว้ก่อน → รอบสอง), การ์ดพอดีจอไม่ scroll, หน้า /plan/food + /plan/stay — flow ร้าน/ที่พักครบ |
+| 2026-10-24 | ของกลางรอบปรับ flow: มู้ด luxury, รถส่วนตัว (own_car คิดค่าน้ำมันตามระยะ), FEATURES ปิดการเดินทางข้ามจังหวัด/รถไฟฟ้า, planLikedOnly, schedule.js เวลาจริง, geo.nearestOf |

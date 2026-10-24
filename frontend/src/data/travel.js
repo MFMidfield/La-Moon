@@ -17,6 +17,8 @@ export const TRANSPORT_LOCAL = [
   { id: 'motorbike', label: 'เช่ามอเตอร์ไซค์', costPerDay: 300 },
   { id: 'public', label: 'รถสาธารณะ/แท็กซี่', costPerDay: 400, perPerson: true },
   { id: 'tour', label: 'ทัวร์/เรือ', costPerDay: 900, perPerson: true },
+  // ขับรถมาเอง/รถส่วนตัว: ค่าน้ำมันตามระยะที่วนในวัน (budget.js) ไม่คิดรายวัน
+  { id: 'own_car', label: 'รถส่วนตัว', costPerDay: 0, bahtPerKm: 2.5 },
 ]
 
 // จังหวะเที่ยว = จำนวนที่ต่อวันเต็ม
@@ -74,3 +76,9 @@ export const SLOTS = [
   { id: 'afternoon', label: 'บ่าย' },
   { id: 'evening', label: 'เย็น' },
 ]
+
+// ฟีเจอร์ที่ปิดชั่วคราว (โหลดไม่ขึ้นในการเทส — เปิดกลับเมื่อแก้แล้ว)
+export const FEATURES = {
+  intercityTransport: false, // การ์ด "ไปยังไง" (เครื่องบิน/รถไฟ/รถทัวร์) ในหน้ารายละเอียด
+  bkkTransit: false, // แถบเส้นทางรถไฟฟ้า/เรือในแผนรายวัน
+}

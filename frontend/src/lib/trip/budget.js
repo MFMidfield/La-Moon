@@ -1,5 +1,6 @@
 import { ENTRY_BY_PRICE_LEVEL, FOOD_PER_DAY, STAY_PER_ROOM, TRANSPORT_LOCAL } from '../../data/travel'
 import { travelOptions } from './travel'
+import { distanceKm } from './geo'
 
 const mid = ({ min, max }) => (min + max) / 2
 
@@ -40,7 +41,15 @@ export function estimateTrip({ origin, province, transportTo, transportLocal, bu
     ? meals.reduce((sum, m) => sum + (m.atStay ? 0 : m.restaurant ? mid(m.restaurant.price_per_person) : FOOD_PER_DAY[tier] / 3) * people, 0)
     : days * FOOD_PER_DAY[tier] * people
   const localMode = TRANSPORT_LOCAL.find((m) => m.id === transportLocal)
-  const local = localMode ? localMode.costPerDay * days * (localMode.perPerson ? people : 1) : 0
+  let local = localMode ? localMode.costPerDay * days * (localMode.perPerson ? people : 1) : 0
+  // รถส่วนตัว: ระยะวนระหว่างสถานที่ × 1.3 + ไป-กลับในเมือง ~20 กม./วัน
+  if (localMode?.bahtPerKm) {
+    const km = places.slice(1).reduce((sum, p, i) => {
+      const d = distanceKm(places[i], p)
+      return sum + (Number.isFinite(d) ? d * 1.3 : 0)
+    }, 20 * days)
+    local = Math.round(km * localMode.bahtPerKm)
+  }
   const entries = places.reduce((sum, p) => sum + (ENTRY_BY_PRICE_LEVEL[p.price_level ?? 1] ?? 0) * people, 0)
 
   const total = Math.round(transport + stay + food + local + entries)

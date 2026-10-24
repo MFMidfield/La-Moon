@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
-import { BKK_TRANSIT_PROVINCES } from '../../data/travel'
+import { BKK_TRANSIT_PROVINCES, FEATURES } from '../../data/travel'
 import { loadTransit, routeBetween, summarizeRoutes } from '../../lib/trip/transit'
 
 export default function usePlanTransit(province, days) {
-  const enabled = BKK_TRANSIT_PROVINCES.includes(province)
+  const enabled = FEATURES.bkkTransit && BKK_TRANSIT_PROVINCES.includes(province)
   const [result, setResult] = useState(null)
   const [attempt, setAttempt] = useState(0)
   useEffect(() => {

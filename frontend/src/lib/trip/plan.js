@@ -68,3 +68,15 @@ export function planTrip({ liked, pool = [], capacities }) {
 
   return { days: out.map((items) => ({ items: assignSlots(items) })), spare }
 }
+
+/**
+ * แผนจากที่ปัดขวาเท่านั้น (ไม่มีจังหวะ ไม่เติม) — เรียงตามความใกล้ แล้วแบ่งเป็น days ช่วงให้เท่าๆ กัน
+ * คืน { days: [{ items: [{ place, auto: false }] }], spare: [] } (วันที่ไม่มีที่เที่ยว = items ว่าง → แผนเหลือมื้ออาหาร)
+ */
+export function planLikedOnly({ liked, days }) {
+  const order = planDays(liked, liked.length || 1).flat()
+  const out = Array.from({ length: Math.max(1, days) }, () => [])
+  const per = Math.ceil(order.length / out.length) || 1
+  order.forEach((place, i) => out[Math.min(out.length - 1, Math.floor(i / per))].push({ place, auto: false }))
+  return { days: out.map((items) => ({ items: assignSlots(items) })), spare: [] }
+}

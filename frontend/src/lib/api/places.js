@@ -1,4 +1,5 @@
 import { supabase } from '../supabase'
+import { isLuxury, premiumScore } from '../trip/luxury'
 
 const RARITY_ORDER = { legendary: 0, rare: 1, common: 2 }
 
@@ -13,6 +14,9 @@ const RARITY_ORDER = { legendary: 0, rare: 1, common: 2 }
 // สถานที่ของจังหวัด กรองมู้ด (ตรงอย่างน้อย 1) และงบ (price_level <= budget)
 // คืน Place + matchCount (จำนวนมู้ดที่ตรง) เรียง ตรงมาก → หายาก
 export async function listPlaces({ province, moods = [], budget = null }) {
+  // luxury ไม่ได้ติดในข้อมูล → ไม่ใช้กรอง แต่ดันของพรีเมียมขึ้นก่อน
+  const luxury = isLuxury(moods)
+  moods = moods.filter((m) => m !== 'luxury')
   let query = supabase.from('places').select('*').eq('province', province)
   if (moods.length) query = query.overlaps('moods', moods)
   if (budget) query = query.or(`price_level.is.null,price_level.lte.${budget}`)
@@ -21,8 +25,8 @@ export async function listPlaces({ province, moods = [], budget = null }) {
   if (error) throw error
 
   return data
-    .map((p) => ({ ...p, matchCount: p.moods.filter((m) => moods.includes(m)).length }))
-    .sort((a, b) => b.matchCount - a.matchCount || RARITY_ORDER[a.rarity] - RARITY_ORDER[b.rarity])
+    .map((p) => ({ ...p, matchCount: p.moods.filter((m) => moods.includes(m)).length + (luxury && premiumScore(p) >= 2 ? 1 : 0) }))
+    .sort((a, b) => b.matchCount - a.matchCount || (luxury ? premiumScore(b) - premiumScore(a) : 0) || RARITY_ORDER[a.rarity] - RARITY_ORDER[b.rarity])
 }
 
 // ดึงตาม id คงลำดับตาม ids ที่ส่งมา
