@@ -35,7 +35,7 @@ function mockTrips(from, to, mode) {
 
 /**
  * เที่ยวของวันนั้น: direction 'out' = origin → province, 'back' = province → origin
- * คืน { route, trips, isMock }
+ * คืน { route, trips, isMock, updatedAt, note }
  */
 export async function getTrips({ origin, province, mode, direction = 'out', date = null }) {
   const [from, to] = direction === 'out' ? [origin, province] : [province, origin]
@@ -44,10 +44,10 @@ export async function getTrips({ origin, province, mode, direction = 'out', date
   const day = date ? new Date(`${date}T12:00:00`).getDay() : null
   if (route?.trips?.length) {
     const trips = route.trips.filter((t) => day == null || t.days === 'daily' || t.days?.includes(day))
-    return { route, trips, isMock: false }
+    return { route, trips, isMock: false, updatedAt: data.updated_at ?? null, note: data.note ?? null }
   }
   const trips = mockTrips(from, to, mode)
-  return { route: { id: `mock-${from}-${to}-${mode}`, mode, from, to, from_station: label(from), to_station: label(to), transfer: null }, trips, isMock: true }
+  return { route: { id: `mock-${from}-${to}-${mode}`, mode, from, to, from_station: label(from), to_station: label(to), transfer: null }, trips, isMock: true, updatedAt: null, note: null }
 }
 
 /** ลิงก์ไปเว็บจองจริงที่กรอกข้อมูลให้แล้ว */
