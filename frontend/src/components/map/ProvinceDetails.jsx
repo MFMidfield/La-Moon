@@ -1,4 +1,5 @@
 import { motion, useReducedMotion } from 'framer-motion'
+import { Dices } from 'lucide-react'
 import ScrambleText from '../plan/ScrambleText'
 import { MOODS, REGIONS } from '../../data/options'
 import { PROVINCE_INFO } from '../../data/provinceInfo'
@@ -14,12 +15,12 @@ export function ProvinceSummary({ province, count, ready, plan }) {
     <div aria-live="polite">
       <div className="flex items-center justify-between gap-2">
         <h2 id="current-province-title" className="m-0 min-w-0 text-xl font-semibold">
-          {isRandom ? <ScrambleText key={`${province.id}-${plan.rollVersion}`} text={province.label} play={plan.scrambleReady} /> : province.label}
+          {isRandom && plan.scrambleReady ? <ScrambleText key={plan.rollId} text={province.label} play={plan.scrambleEnabled} revealKey="map-title" /> : province.label}
         </h2>
         <span className="shrink-0 rounded-full px-3 py-1 text-xs text-brown" style={{ backgroundColor: region.color }}>ภาค{region.label}</span>
       </div>
       <div className="mt-1 flex flex-wrap items-center gap-1.5 text-xs leading-5 text-muted">
-        {isRandom && <span className="rounded-full bg-peach px-2 text-brown">🎲 สุ่มให้แล้ว</span>}
+        {isRandom && <span className="inline-flex items-center gap-1 rounded-full bg-peach px-2 text-brown"><Dices size={13} strokeWidth={2} aria-hidden="true" />สุ่มให้แล้ว</span>}
         <span>{ready ? `${count} ที่เที่ยว${count ? '' : ' · เร็วๆ นี้ ยังไม่มีที่เที่ยว'}` : 'กำลังโหลดที่เที่ยว…'}</span>
       </div>
     </div>
@@ -47,12 +48,15 @@ export function ProvinceExtra({ province, places }) {
 export function ProvinceCta({ province, count, ready, plan }) {
   const reduced = useReducedMotion()
   const isRandom = plan?.randomId === province.id
+  const transition = reduced ? { duration: 0 } : { type: 'spring', duration: 0.25, bounce: 0.12 }
   return (
     <div className="flex flex-col gap-1.5">
-      <button type="button" disabled={!ready || count < 1 || plan?.rolling} onClick={() => plan?.onSelect(province.id)} className="flex h-14 shrink-0 cursor-pointer items-center justify-center rounded-full bg-brown text-base font-semibold text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brown disabled:cursor-default disabled:opacity-40">{isRandom ? 'ไปต่อ' : `เลือก${province.label}`}</button>
-      {isRandom && <button type="button" onClick={() => plan.onReroll()} disabled={plan.rolling} className="flex min-h-11 cursor-pointer items-center justify-center gap-1.5 rounded-full bg-cream px-4 text-sm font-semibold text-brown disabled:opacity-50"><motion.span aria-hidden="true" animate={plan.rolling && !reduced ? { rotate: [0, -20, 20, 360] } : { rotate: 0 }} transition={{ duration: 0.65 }}>🎲</motion.span>{plan.rolling ? 'กำลังสุ่ม…' : 'สุ่มใหม่'}</button>}
+      <div className="flex gap-2">
+        {isRandom && <motion.button type="button" onClick={() => plan.onReroll()} disabled={plan.rolling} whileTap={reduced || plan.rolling ? undefined : { scale: 0.96 }} transition={transition} className="flex h-14 min-w-0 flex-1 cursor-pointer items-center justify-center gap-1.5 rounded-full border border-[#D9CFC5] bg-white px-3 text-sm font-semibold text-brown transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brown disabled:opacity-50"><motion.span aria-hidden="true" animate={plan.rolling && !reduced ? { rotate: [0, -20, 20, 360] } : { rotate: 0 }} transition={{ duration: reduced ? 0 : 0.65 }}><Dices size={20} strokeWidth={2} /></motion.span>{plan.rolling ? 'กำลังสุ่ม…' : 'สุ่มใหม่'}</motion.button>}
+        <motion.button type="button" disabled={!ready || count < 1 || plan?.rolling} onClick={() => plan?.onSelect(province.id)} whileTap={reduced || !ready || count < 1 || plan?.rolling ? undefined : { scale: 0.96 }} transition={transition} className="flex h-14 min-w-0 flex-1 cursor-pointer items-center justify-center rounded-full bg-brown px-3 text-base font-semibold text-white transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brown disabled:cursor-default disabled:opacity-40">{isRandom ? 'ไปต่อ' : `เลือก${province.label}`}</motion.button>
+      </div>
       {isRandom && plan?.randomError && <p role="alert" className="m-0 text-center text-xs leading-relaxed text-muted">{plan.randomError}</p>}
-      {isRandom && plan?.needMore > 0 && <button type="button" disabled={plan.rolling} onClick={plan.onRaiseBudget} className="min-h-11 cursor-pointer rounded-full border border-[#D9CFC5] bg-white px-3 text-sm font-semibold text-brown">เพิ่มงบแล้วสุ่มใหม่</button>}
+      {isRandom && plan?.needMore > 0 && <motion.button type="button" disabled={plan.rolling} onClick={plan.onRaiseBudget} whileTap={reduced || plan.rolling ? undefined : { scale: 0.96 }} transition={transition} className="min-h-11 cursor-pointer rounded-full border border-[#D9CFC5] bg-white px-3 text-sm font-semibold text-brown transition-colors duration-200">เพิ่มงบแล้วสุ่มใหม่</motion.button>}
     </div>
   )
 }

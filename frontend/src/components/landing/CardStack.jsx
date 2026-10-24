@@ -1,3 +1,4 @@
+import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { animate, motion, useMotionValue, useReducedMotion, useTransform } from 'framer-motion'
 import { Moon, Sparkle } from '../icons'
@@ -244,17 +245,13 @@ export default function CardStack() {
 
       <div className="absolute inset-x-0 bottom-0 flex items-center justify-center gap-[18px]">
         <motion.div className="flex items-center gap-1.5 text-[13px] text-muted" style={{ scale: skipScale }}>
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6E625A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <path d="M19 12H5M11 6l-6 6 6 6" />
-          </svg>
+          <ArrowLeft size={18} strokeWidth={2} aria-hidden="true" />
           ซ้าย ข้าม
         </motion.div>
         <div className="h-1.5 w-1.5 rounded-full bg-[#D9CFC5]" />
         <motion.div className="flex items-center gap-1.5 text-[13px] font-semibold text-brown" style={{ scale: likeScale }}>
           ขวา อยากไป
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5A2E14" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <path d="M5 12h14M13 6l6 6-6 6" />
-          </svg>
+          <ArrowRight size={18} strokeWidth={2} aria-hidden="true" />
         </motion.div>
       </div>
     </div>

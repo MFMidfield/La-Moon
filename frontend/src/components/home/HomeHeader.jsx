@@ -1,3 +1,4 @@
+import { LogOut } from 'lucide-react'
 import { useCallback, useState } from 'react'
 import { Logo } from '../icons'
 import BottomSheet from '../BottomSheet'
@@ -65,9 +66,7 @@ export default function HomeHeader({ profile, onSignOut }) {
             disabled={signingOut}
             className="flex h-14 cursor-pointer items-center justify-center gap-2 rounded-full border-[1.5px] border-[#D9CFC5] bg-white text-base font-semibold text-ink disabled:cursor-not-allowed disabled:opacity-50"
           >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1F1A17" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9" />
-            </svg>
+            <LogOut size={20} strokeWidth={2} aria-hidden="true" />
             {signingOut ? 'กำลังออก…' : 'ออกจากระบบ'}
           </button>
           {error && (

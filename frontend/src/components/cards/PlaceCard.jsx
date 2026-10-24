@@ -1,3 +1,4 @@
+import { MapPin } from 'lucide-react'
 import { useState } from 'react'
 import { HOLO_RARITIES, RARITY } from '../../data/rarity'
 import { Sparkle } from '../icons'
@@ -15,10 +16,7 @@ export function FlatMountain({ className = '' }) {
 
 function PinIcon() {
   return (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6E625A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="shrink-0">
-      <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" />
-      <circle cx="12" cy="10" r="3" />
-    </svg>
+    <MapPin size={16} strokeWidth={2} className="shrink-0 text-muted" aria-hidden="true" />
   )
 }
 

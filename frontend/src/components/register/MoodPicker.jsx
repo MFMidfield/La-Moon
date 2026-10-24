@@ -1,3 +1,4 @@
+import { X } from 'lucide-react'
 import { useState } from 'react'
 import { MOODS } from '../../data/options'
 import ToggleChip from '../ToggleChip'
@@ -45,9 +46,7 @@ export default function MoodPicker({ value, onChange, custom, onCustomChange }) 
               onClick={() => onCustomChange(custom.filter((v) => v !== mood))}
               className="flex h-6 w-6 cursor-pointer items-center justify-center rounded-full bg-white/20"
             >
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="3" strokeLinecap="round" aria-hidden="true">
-                <path d="M18 6L6 18M6 6l12 12" />
-              </svg>
+              <X size={12} strokeWidth={2} aria-hidden="true" />
             </button>
           </span>
         ))}

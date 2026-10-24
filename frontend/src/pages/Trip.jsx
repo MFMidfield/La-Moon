@@ -1,3 +1,4 @@
+import { Sun } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { MotionConfig } from 'framer-motion'
@@ -101,7 +102,7 @@ function TripEditor({ draft, updateDraft, liked, pool, sourceKey }) {
         <DayPlan days={plan.days} spare={plan.spare} capacities={capacitiesFor(draft)} startDate={draft.startDate} onMove={move} onSwap={swap} canSwap={plan.spare.length > 0} />
         {combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
         <TripBudget input={input} onApply={applyAlternative} />
-        {warnings.length > 0 && <div className="rounded-[24px] bg-[#FBE3D2] p-4"><h2 className="m-0 text-sm font-semibold">☀ ก่อนออกเดินทาง</h2>{warnings.map(warning => <p key={warning.placeId} className="mb-0 mt-2 text-xs leading-relaxed text-[#4A3A30]">{warning.message}</p>)}</div>}
+        {warnings.length > 0 && <div className="rounded-[24px] bg-[#FBE3D2] p-4"><h2 className="m-0 flex items-center gap-2 text-sm font-semibold"><Sun size={18} strokeWidth={2} aria-hidden="true" />ก่อนออกเดินทาง</h2>{warnings.map(warning => <p key={warning.placeId} className="mb-0 mt-2 text-xs leading-relaxed text-[#4A3A30]">{warning.message}</p>)}</div>}
         <p role="status" aria-live="polite" className="m-0 min-h-5 text-center text-xs text-muted">{notice}</p>
       </div>
       <div className="sticky bottom-0 mt-4 bg-cream px-4 pb-6 pt-3">

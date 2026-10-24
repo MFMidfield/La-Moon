@@ -6,7 +6,7 @@ const PEEK_HEIGHT = 184
 
 export default function ProvinceSheet({ province, count, places, ready, height, plan }) {
   const isRandom = plan?.randomId === province.id
-  const peekHeight = PEEK_HEIGHT + (isRandom ? 52 + (plan?.randomError ? 42 : 0) + (plan?.needMore > 0 ? 48 : 0) : 0)
+  const peekHeight = PEEK_HEIGHT + (isRandom ? (plan?.randomError ? 42 : 0) + (plan?.needMore > 0 ? 48 : 0) : 0)
   // ดึงขยายได้ถึง 3/4 ของจอ
   const expandedHeight = Math.max(peekHeight + 80, Math.round(height * 0.75))
   const travel = expandedHeight - peekHeight

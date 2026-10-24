@@ -1,3 +1,4 @@
+import { Camera } from 'lucide-react'
 import { useState } from 'react'
 
 const ACCEPTED_TYPES = ['image/jpeg', 'image/png', 'image/webp']
@@ -35,10 +36,7 @@ export default function ProfileCard({ avatarUrl, onAvatarChange, name, onNameCha
             </div>
           )}
           <span className="absolute -bottom-0.5 -right-0.5 flex h-6 w-6 items-center justify-center rounded-full border-2 border-white bg-brown">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z" />
-              <circle cx="12" cy="13" r="3" />
-            </svg>
+            <Camera size={12} strokeWidth={2} className="text-white" aria-hidden="true" />
           </span>
         </label>
         <div className="flex min-w-0 flex-1 flex-col gap-1.5">

@@ -1,3 +1,4 @@
+import { ChevronRight } from 'lucide-react'
 import SlideLink from '../SlideLink'
 import { Sparkle } from '../icons'
 
@@ -19,9 +20,7 @@ export default function PersonalityChip({ title }) {
         <span className="text-[#4A3A30]">บุคลิกการเที่ยว: </span>
         <span className="font-semibold text-brown">{title}</span>
       </span>
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6E625A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-        <path d="M9 18l6-6-6-6" />
-      </svg>
+      <ChevronRight size={18} strokeWidth={2} className="shrink-0 text-muted" aria-hidden="true" />
     </SlideLink>
   )
 }
