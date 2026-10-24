@@ -12,12 +12,14 @@ import { travelerCount, tripLength, useTripDraft } from '../context/TripDraftCon
 import { getPlacesByIds } from '../lib/api/places'
 import { listStays } from '../lib/api/stays'
 import { budgetTier } from '../lib/trip/budget'
+import { sortForMoods } from '../lib/trip/luxury'
 
-// เรียง: ระดับที่พักตรงงบก่อน แล้วใกล้ที่เที่ยวที่ถูกใจก่อน ; ใส่ distanceKm ให้การ์ดโชว์
-function orderStays(list, tier, center) {
-  return list
+// เรียง: ระดับที่พักตรงงบก่อน แล้วใกล้ที่เที่ยวที่ถูกใจก่อน ; มู้ด luxury = ที่พักพรีเมียมขึ้นก่อน (เรียงซ้ำแบบ stable) ; ใส่ distanceKm ให้การ์ดโชว์
+function orderStays(list, tier, center, moods) {
+  const ordered = list
     .map((s) => ({ ...s, distanceKm: distanceTo(center, s) }))
     .sort((a, b) => Number(b.tier === tier) - Number(a.tier === tier) || byDistance(a.distanceKm, b.distanceKm))
+  return sortForMoods(ordered, moods)
 }
 
 function StaySession({ draft, updateDraft, province, provinceLabel }) {
@@ -26,7 +28,8 @@ function StaySession({ draft, updateDraft, province, provinceLabel }) {
   const likedKey = draft.likedIds.join(',')
   const { days } = tripLength(draft)
   const tier = budgetTier(draft.budget, travelerCount(draft), days)
-  const sessionKey = `${province}|${tier}|${likedKey}`
+  const moodKey = draft.moods.join(',')
+  const sessionKey = `${province}|${tier}|${likedKey}|${moodKey}`
   const [attempt, setAttempt] = useState(0)
   const [result, setResult] = useState(null)
 
@@ -41,7 +44,7 @@ function StaySession({ draft, updateDraft, province, provinceLabel }) {
       }),
     ])
       .then(([stays, liked]) => {
-        if (!cancelled) setResult({ attempt, stays: orderStays(stays, tier, centroid(liked)) })
+        if (!cancelled) setResult({ attempt, stays: orderStays(stays, tier, centroid(liked), moodKey.split(',').filter(Boolean)) })
       })
       .catch((err) => {
         console.error('load stays failed', err)
@@ -50,7 +53,7 @@ function StaySession({ draft, updateDraft, province, provinceLabel }) {
     return () => {
       cancelled = true
     }
-  }, [province, tier, likedKey, attempt])
+  }, [province, tier, likedKey, moodKey, attempt])
 
   const current = result?.attempt === attempt ? result : null
   const stays = current?.stays ?? null

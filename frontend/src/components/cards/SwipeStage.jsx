@@ -60,7 +60,7 @@ function initRounds(items, saved) {
  * เต็มจอ h-dvh ไม่เลื่อน: header + (hint/ตัวนับ) + กองการ์ด (ยืดตามที่เหลือ) + ปุ่ม + footer
  *
  * items: การ์ดทั้งชุด (มี .id) หรือ null = กำลังโหลด ; fallback: node แทนกอง (error / ว่าง)
- * renderCard(item) → เนื้อการ์ด ; holoOf / labelOf ; noun = หน่วยนับ ("ใบ")
+ * renderCard(item, rs) → เนื้อการ์ด (rs = สถานะปัดปัจจุบัน เช่น rs.liked = id ที่ถูกใจแล้ว) ; holoOf / labelOf ; noun = หน่วยนับ ("ใบ")
  * initialState / onStateChange(rs): เก็บ-คืนสถานะปัด (สถานะตามรูปแบบ swipeRounds)
  * onDecide(item, 'right'|'left', round): ตัดสินใจจริง (ปัดขึ้นในรอบ 1 ยังไม่นับ)
  * onDone(likedIds): ปัดครบทุกรอบ หรือกดสรุปก่อน ; finishLabel(likedCount) → ข้อความลิงก์สรุปก่อน ; footer = node แทนลิงก์นั้น
@@ -219,7 +219,7 @@ export default function SwipeStage({
           dragX={dragX}
           dragY={dragY}
           onSwiped={handleSwiped}
-          renderCard={renderCard}
+          renderCard={(item) => renderCard(item, rs)}
           canSave={saveAllowed}
           holoOf={holoOf}
           labelOf={labelOf}
