@@ -19,13 +19,13 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | path | หน้าที่ |
 |------|--------|
 | frontend/ | Vite React app |
-| frontend/src/pages/ | หน้าแต่ละ route (ตอนนี้ placeholder) |
+| frontend/src/pages/ | หน้าแต่ละ route |
 | frontend/src/components/SlideLink.jsx | Link ที่เปลี่ยนหน้าแบบเลื่อน (View Transitions) — ไปหน้าถัดไปเลื่อนขวา→ซ้าย, prop `back` เลื่อนสวนทาง; CSS อยู่ใน index.css | เพิ่มลิงก์ระหว่างหน้า |
 | frontend/src/components/AppHeader.jsx | header ในแอป: ปุ่มกลับ (backTo/onBack) + crumb + title + step pill | |
 | frontend/src/components/BottomSheet.jsx | sheet ล่าง/dialog กลางจอ (Esc, backdrop, scroll lock) | |
 | frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
 | frontend/src/components/cards/ | การ์ด Swipe: SwipeDeck (ลาก/บินออก/ย้อน), PlaceCard, StatBars (ชิล ลุย ถ่ายรูป กิน คุ้ม), HoloOverlay, DeckFrame, SwipeControls, DeckStates | |
-| frontend/src/components/map/ | แผนที่ (Codex): CountryMap, ProvinceMap, ProvinceSearch, geometry (d3-geo), useMapData, MapStatus; GeoJSON 77 จังหวัด `src/data/geo/thailand.json` (164 KB, lazy load) | |
+| frontend/src/components/map/ | แผนที่ (Codex): ContinuousMap, createMapCamera (d3-zoom), CountryMap, PlacePins, ProvinceSheet, ProvinceSearch, geometry (d3-geo), useMapData, MapStatus; GeoJSON 77 จังหวัด `src/data/geo/thailand.json` (164 KB, lazy load) | |
 | frontend/src/components/home/ | หน้า Home: HomeHeader, PersonalityChip, StartBox, TripList, WishProvinces, Sticker, useLoad (hook โหลดครั้งเดียว) | |
 | frontend/src/components/personality/ | หน้าบุคลิก: PersonalityCard, PersonalityArt (7 ฉาก), ShareActions, EmptyState | |
 | frontend/src/components/trip/ | สรุปทริป: TripSummary, ComboCard, PlaceRow, PlaceThumb, BookingSheet (mock Agoda/Booking/Klook), TripStates | |
@@ -70,8 +70,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | `/map/:province/trip` | สรุปทริปจากการปัด รับ state { likedIds, moods, budget } → บันทึก → /trips/:id (lane D เสร็จ) | private |
 | `/trips/:id` | ดูทริปที่บันทึก + ลบ (lane D เสร็จ) | private |
 | `/personality` | บุคลิกการเที่ยวจาก swipes ขวาทั้งหมด + แชร์ (lane A เสร็จ) | private |
-| `/map` | แผนที่ไทย: ค้นหา, filter ภาค, จังหวัดไม่มีข้อมูล = หมอก, สุ่มจังหวัด (lane E เสร็จ) | private |
-| `/map/:province` | ซูมจังหวัด + หมุดสถานที่ + การ์ดจังหวัด → mood (lane E เสร็จ) | private |
+| `/map/:province?` | แผนที่เดียว (route เดียว ไม่ remount): pan/pinch/wheel zoom (d3-zoom), แตะจังหวัด = บินซูม + URL replace, ซูมเข้า = เป้ากลางจอ highlight realtime, หมุดทุกที่, sheet ดึงขยาย → mood; หมอก = ยังไม่มีข้อมูล | private |
 | `/map/:province/mood` | เลือก mood | private |
 | `/map/:province/swipe` | ปัดการ์ด (?moods=&budget=) ลาก/ปุ่ม/คีย์บอร์ด, ย้อนได้, holo rare+ → trip state { likedIds, moods, budget } (lane C เสร็จ) | private |
 - "register แล้ว" = มีแถวใน `profiles` (id = auth.users.id)
@@ -152,3 +151,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | merge lane E (Codex): หน้า Map + Province |
 | 2026-10-24 | backup แล้ว import places 28 ที่ + คอลัมน์ใหม่ (name_en, price_label, coords_uncertain, popularity, best_time, opening_hours, booking_hint, image_license, image_page_url); แตก lane C (Swipe) + lane F (รูป Unsplash) |
 | 2026-10-24 | merge lane C: หน้า Swipe + การ์ด holo — flow ครบ Landing → Trip |
+| 2026-10-24 | รวม /map + /map/:province เป็น route เดียว, ลง d3-zoom/selection/transition, listAllPlaces; merge lane E2 (Codex): แผนที่ต่อเนื่อง pan/zoom + highlight realtime + sheet ดึงขยาย, ลบ Province.jsx |
