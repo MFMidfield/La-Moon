@@ -4,7 +4,7 @@
 
 ## 1. Supabase project
 1. supabase.com → New project (region Singapore) → จด `Project URL` และ `anon public key` (Settings → API)
-2. SQL Editor → วางทั้งไฟล์ `backend/supabase/backups/deploy-remote.sql` (gitignore — สร้างจาก local ด้วย snippet + `pg_dump` ข้อมูล places) → Run
+2. SQL Editor → วางทั้งไฟล์ (หรือ CLI: `cd backend && npx supabase db query --linked --project-ref <ref> -f supabase/backups/deploy-remote.sql` — login ใน Terminal จริงก่อน) `backend/supabase/backups/deploy-remote.sql` (gitignore — สร้างจาก local ด้วย snippet + `pg_dump` ข้อมูล places) → Run
    - สร้าง profiles / places / trips / swipes + RLS + bucket `avatars` + policies + ข้อมูลสถานที่ 178 ที่
    - ตรวจ: `select count(*) from places;` ต้องได้ 178
 3. Authentication → URL Configuration
@@ -29,7 +29,7 @@
 ไม่ทำก็ได้ — ระบบจับคำแทนอัตโนมัติ
 1. ลง Supabase CLI → `supabase link --project-ref <ref>`
 2. `supabase secrets set GEMINI_API_KEY=...`
-3. `supabase functions deploy mood-reader` (ถ้าเรียกแล้ว 401 ใส่ `--no-verify-jwt`)
+3. `npx supabase functions deploy mood-reader --project-ref <ref> --use-api` (ถ้าเรียกแล้ว 401 ใส่ `--no-verify-jwt`)
 
 ## 5. Agoda Partners
 1. partners.agoda.com → สมัคร affiliate → Website = `https://<โดเมน vercel>` (ชี้หน้า `/about` ถ้าถามหน้านโยบาย/ติดต่อ)
