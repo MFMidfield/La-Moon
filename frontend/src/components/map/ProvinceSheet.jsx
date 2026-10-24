@@ -5,8 +5,8 @@ import { ProvinceCta, ProvinceExtra, ProvinceSummary } from './ProvinceDetails'
 const PEEK_HEIGHT = 184
 
 export default function ProvinceSheet({ province, count, places, ready, height }) {
-  // ดึงขยายได้ถึงครึ่งจอ
-  const expandedHeight = Math.max(PEEK_HEIGHT + 80, Math.round(height * 0.5))
+  // ดึงขยายได้ถึง 3/4 ของจอ
+  const expandedHeight = Math.max(PEEK_HEIGHT + 80, Math.round(height * 0.75))
   const travel = expandedHeight - PEEK_HEIGHT
   const [expanded, setExpanded] = useState(false)
   const y = useMotionValue(travel)
