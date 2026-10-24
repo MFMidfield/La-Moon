@@ -26,6 +26,7 @@ import usePlanTransit from '../components/trip/usePlanTransit'
 import MealSwapSheet from '../components/trip/MealSwapSheet'
 import { buildFoodStay, budgetMeals, overrideKey, placeKey, serializeFood } from '../components/trip/mealPlan'
 import { scheduleTrip } from '../components/trip/dayTimes'
+import { applyLegsTransport, buildLegs, legBounds, legsTransportAmount, serializeLegs } from '../components/trip/travelLegs'
 import { alternativePatch, hydratePlan, moveCard, resizePlan, serializePlan } from '../components/trip/itinerary'
 
 function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestaurants, restaurantPool, likedStays, sourceKey }) {
@@ -58,8 +59,14 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
   )
   const viewDays = useMemo(() => plan.days.map((day, d) => ({ ...day, meals: food.days[d].meals, stay: food.days[d].stay })), [plan.days, food])
   const input = { ...draft, ...length, people, places, stays: food.stays, meals: budgetMeals(food) }
-  const schedule = useMemo(() => scheduleTrip(viewDays, { overrides: timeOverrides }), [viewDays, timeOverrides])
-  const estimate = estimateTrip(input)
+  const legs = useMemo(
+    () => buildLegs({ tripType: draft.tripType, transportTo: draft.transportTo, origin: draft.origin, province: draft.province, booking: draft.transportBooking, carDepart: draft.carDepart }),
+    [draft.tripType, draft.transportTo, draft.origin, draft.province, draft.transportBooking, draft.carDepart],
+  )
+  const bounds = useMemo(() => legBounds(legs, viewDays.length), [legs, viewDays.length])
+  const schedule = useMemo(() => scheduleTrip(viewDays, { overrides: timeOverrides, bounds }), [viewDays, timeOverrides, bounds])
+  const legTransport = legsTransportAmount(legs, people)
+  const estimate = applyLegsTransport(estimateTrip(input), legTransport, people)
   const warnings = seasonWarnings(places, draft.startDate, draft.endDate)
 
   useEffect(() => {
@@ -141,7 +148,7 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
         start_date: draft.startDate, end_date: draft.endDate, nights: length.nights,
         trip_type: draft.tripType, travelers: draft.travelers, budget: draft.budget,
         origin: draft.origin, transport_to: draft.transportTo, transport_local: draft.transportLocal,
-        pace: draft.pace, estimate, is_random: draft.mode === 'random',
+        pace: draft.pace, estimate: legs ? { ...estimate, transportBooking: serializeLegs(legs, draft) } : estimate, is_random: draft.mode === 'random',
       })
       slideNavigate(navigate, `/trips/${trip.id}`, { replace: true })
     } catch {
@@ -155,9 +162,9 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
       <div className="flex flex-col gap-5 px-4 pt-3">
         <TripOverview trip={draft} {...length} people={people} />
         <div className="flex items-center justify-between px-1"><h1 className="m-0 text-2xl font-bold">ทริปในแบบของคุณ</h1><span className="rounded-full bg-white px-3 py-1.5 text-xs text-brown">{places.length} ที่</span></div>
-        <DayPlan days={viewDays} spare={plan.spare} canBook={draft.tripType !== 'daytrip'} startDate={draft.startDate} onMove={move} onCycleSpare={cycleSpare} onSwap={swap} canSwap={plan.spare.length > 0} transit={transit} timeOverrides={timeOverrides} onTimeChange={changeTime} onResetTimes={resetDayTimes} onEditMeal={food.hasFood ? (d, meal) => setMealSheet({ open: true, d, meal }) : undefined} />
+        <DayPlan days={viewDays} spare={plan.spare} canBook={draft.tripType !== 'daytrip'} startDate={draft.startDate} legs={legs} people={people} onMove={move} onCycleSpare={cycleSpare} onSwap={swap} canSwap={plan.spare.length > 0} transit={transit} timeOverrides={timeOverrides} onTimeChange={changeTime} onResetTimes={resetDayTimes} onEditMeal={food.hasFood ? (d, meal) => setMealSheet({ open: true, d, meal }) : undefined} />
         {combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
-        <TripBudget input={input} onApply={applyAlternative} transit={draft.transportLocal === 'transit' ? transit : null} />
+        <TripBudget input={input} legTransport={legTransport} people={people} onApply={applyAlternative} transit={draft.transportLocal === 'transit' ? transit : null} />
         {warnings.length > 0 && <div className="rounded-[24px] bg-[#FBE3D2] p-4"><h2 className="m-0 flex items-center gap-2 text-sm font-semibold"><Sun size={18} strokeWidth={2} aria-hidden="true" />ก่อนออกเดินทาง</h2>{warnings.map(warning => <p key={warning.placeId} className="mb-0 mt-2 text-xs leading-relaxed text-[#4A3A30]">{warning.message}</p>)}</div>}
         <p role="status" aria-live="polite" className="m-0 min-h-5 text-center text-xs text-muted">{notice}</p>
       </div>

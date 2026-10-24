@@ -4,6 +4,7 @@ import { formatBaht } from '../../lib/trip/budget'
 import { mealLabel } from '../../lib/trip/meals'
 import { mid } from './mealPlan'
 import TimeChip from './TimeChip'
+import { LegFlag } from './TravelLegRow'
 
 const BADGE = 'inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px]'
 
@@ -13,7 +14,7 @@ export function MockBadge() {
 
 // แถวมื้ออาหารในแผนรายวัน — onEdit ว่าง = อ่านอย่างเดียว
 // time = { start, end } (ไม่มี = มื้อนี้ไม่กินเวลา เช่น ข้ามมื้อ); onEditTime ว่าง = แสดงเวลาอย่างเดียว
-export default function MealRow({ slot, stayName, onEdit, time, customTime = false, onEditTime }) {
+export default function MealRow({ slot, stayName, onEdit, time, customTime = false, onEditTime, lateSkip = false, flag }) {
   const reduced = useReducedMotion()
   const Icon = slot.meal === 'breakfast' ? Coffee : Utensils
   const restaurant = slot.restaurant
@@ -30,7 +31,9 @@ export default function MealRow({ slot, stayName, onEdit, time, customTime = fal
           {time && <TimeChip start={time.start} end={time.end} label={`มื้อ${mealLabel(slot.meal)}`} custom={customTime} onClick={onEditTime} />}
         </div>
         <motion.div key={shownKey} initial={reduced ? false : { opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} transition={reduced ? { duration: 0 } : { duration: 0.2 }}>
-          {slot.atStay ? (
+          {lateSkip ? (
+            <p className="m-0 text-sm leading-snug text-muted">ถึงปลายทางหลังเวลามื้อนี้ ระบบข้ามให้</p>
+          ) : slot.atStay ? (
             <>
               <p className="m-0 text-sm font-semibold leading-snug">{stayName ? `ที่ ${stayName}` : 'ที่ที่พัก'}</p>
               <div className="mt-1 flex flex-wrap items-center gap-1"><span className={`${BADGE} bg-[#E7EFDC] text-[#3F5A2E]`}>อาหารเช้าที่ที่พัก</span><span className="text-[11px] text-muted">รวมในค่าที่พัก</span></div>
@@ -48,6 +51,7 @@ export default function MealRow({ slot, stayName, onEdit, time, customTime = fal
             <p className="m-0 text-sm leading-snug text-muted">{slot.skipped ? 'ข้ามมื้อนี้' : 'ยังไม่มีร้านแนะนำสำหรับมื้อนี้'}</p>
           )}
         </motion.div>
+        {flag && <div className="mt-1"><LegFlag kind={flag} /></div>}
       </div>
       {onEdit && (
         <motion.button {...feedback} type="button" onClick={onEdit} aria-label={`${editLabel} มื้อ${mealLabel(slot.meal)}`} className="flex min-h-11 shrink-0 items-center gap-1 rounded-full px-3 text-xs font-semibold text-brown transition-colors duration-200 hover:bg-cream motion-reduce:transition-none">

@@ -8,8 +8,11 @@ import MealRow from './MealRow'
 import StayRow from './StayRow'
 import SpareDeck from './SpareDeck'
 import TimeChip from './TimeChip'
+import TravelLegRow, { LegFlag } from './TravelLegRow'
+import { legBounds } from './travelLegs'
 import { dayRows, mealKey, placeKey } from './mealPlan'
 import { formatTravel, scheduleTrip, stepTime, timeKey } from './dayTimes'
+import { toHHMM } from '../../lib/trip/schedule'
 import { RARITY } from '../../data/rarity'
 import { mealLabel } from '../../lib/trip/meals'
 import { addDays, dayNarrative, thaiDate } from './itinerary'
@@ -18,7 +21,7 @@ import TransitRoute, { TransitDayTotal } from './TransitRoute'
 
 const NO_OVERRIDES = {}
 
-function PlanCard({ item, index, editable, time, customTime, onEditTime, onSelect, onRemove, onSwap, onBook, canBook, onDrop, onHover, canSwap }) {
+function PlanCard({ item, index, editable, time, customTime, flag, onEditTime, onSelect, onRemove, onSwap, onBook, canBook, onDrop, onHover, canSwap }) {
   const controls = useDragControls()
   const reduced = useReducedMotion()
   const feedback = { whileTap: reduced ? undefined : { scale: 0.96 }, transition: reduced ? { duration: 0 } : { type: 'spring', stiffness: 450, damping: 28 } }
@@ -42,6 +45,7 @@ function PlanCard({ item, index, editable, time, customTime, onEditTime, onSelec
       className={`rounded-[24px] border bg-white p-3 ${dragging ? 'border-orange' : 'border-transparent'}`}
     >
       {time && <div className="mb-2"><TimeChip start={time.start} end={time.end} label={place.name} custom={customTime} onClick={onEditTime} /></div>}
+      {flag && <div className="mb-2"><LegFlag kind={flag} /></div>}
       <div className="flex items-start gap-2.5">
         <motion.button {...feedback} type="button" onClick={() => { if (Date.now() - lastDrag.current > 250) (editable ? onSelect(place.id) : canBook && onBook(place)) }} aria-label={editable ? `ย้าย ${place.name}` : `ดูการจองใกล้ ${place.name}`} className="flex min-w-0 flex-1 items-center gap-3 text-left">
           <PlaceThumb src={place.image_url} />
@@ -117,7 +121,7 @@ function dropTarget(event, info) {
  * อ่านอย่างเดียว (ไม่มี onMove): ใช้ start ที่บันทึกใน items/meals ถ้ามี ไม่มีก็คำนวณใหม่
  */
 // canBook = false (ทริปวันเดียว) → ไม่มีปุ่มจองที่พักใกล้สถานที่
-export default function DayPlan({ days, spare = [], canBook = true, startDate, onMove, onCycleSpare, onSwap, canSwap = false, transit, onEditMeal, timeOverrides = NO_OVERRIDES, onTimeChange, onResetTimes }) {
+export default function DayPlan({ days, spare = [], canBook = true, startDate, legs = null, people = 1, onMove, onCycleSpare, onSwap, canSwap = false, transit, onEditMeal, timeOverrides = NO_OVERRIDES, onTimeChange, onResetTimes }) {
   const reduced = useReducedMotion()
   const feedback = { whileTap: reduced ? undefined : { scale: 0.96 }, transition: reduced ? { duration: 0 } : { type: 'spring', stiffness: 450, damping: 28 } }
   const editable = Boolean(onMove)
@@ -128,7 +132,14 @@ export default function DayPlan({ days, spare = [], canBook = true, startDate, o
   const closeMove = useCallback(() => setSelected(null), [])
   const closeBooking = useCallback(() => setBooking(null), [])
   const closeTime = useCallback(() => setTimeEdit(null), [])
-  const schedule = useMemo(() => scheduleTrip(days, { overrides: timeOverrides, saved: !editable }), [days, timeOverrides, editable])
+  const bounds = useMemo(() => legBounds(legs, days.length), [legs, days.length])
+  const schedule = useMemo(() => scheduleTrip(days, { overrides: timeOverrides, saved: !editable, bounds }), [days, timeOverrides, editable, bounds])
+  // ทริปที่บันทึกแล้วและไม่มีเที่ยวเลย (ทริปเก่า) ไม่ต้องแสดงแถวเดินทาง
+  const showLegs = Boolean(legs) && (editable || legs.mode === 'car' || Boolean(legs.out) || Boolean(legs.back))
+  const firstDay = bounds.findIndex(bound => bound.start != null)
+  const outHint = !legs?.out ? null : bounds[firstDay]?.late ? 'มาถึงดึก ไม่มีเวลาเที่ยวในวันนี้' : bounds[firstDay]?.start != null ? `${firstDay > 0 ? `เริ่มเที่ยววันที่ ${firstDay + 1}` : 'เริ่มเที่ยว'}ประมาณ ${toHHMM(bounds[firstDay].start)}` : null
+  const lastBound = bounds[bounds.length - 1]
+  const backHint = lastBound?.end != null ? `ควรจบการเที่ยวก่อน ${toHHMM(Math.max(0, lastBound.end))}` : null
   const allItems = [...days.flatMap(day => day.items), ...spare.map(place => ({ place }))]
   const selectedPlace = allItems.find(item => item.place.id === selected)?.place
   const source = days.findIndex(day => day.items.some(item => item.place.id === selected))
@@ -182,29 +193,35 @@ export default function DayPlan({ days, spare = [], canBook = true, startDate, o
           const rows = dayRows(day.items, day.meals ?? [], { hideEmpty: !onEditMeal })
           const times = schedule[d]?.times ?? {}
           const span = schedule[d]?.span
+          const closed = schedule[d]?.closed
+          const skipped = schedule[d]?.skipped ?? {}
+          const overrun = schedule[d]?.overrun ?? {}
+          const flagFor = key => (skipped[key] ? 'arrival' : overrun[key])
           const hasCustom = canEditTime && Object.keys(timeOverrides).some(key => key.startsWith(`${d}:`))
           const timeProps = (key, label) => ({ time: times[key], customTime: canEditTime && Boolean(timeOverrides[timeKey(d, key)]), onEditTime: canEditTime ? () => openTime(d, key, label) : undefined })
           return (
             <section key={d} data-plan-zone={d} aria-label={`วันที่ ${d + 1}`} className={`rounded-[28px] border-2 p-3 transition-colors ${hovered === String(d) ? 'border-orange bg-peach/50' : 'border-transparent bg-[#EDE5DD]/50'}`}>
               <div className="flex items-center justify-between gap-2 px-1"><h2 className="m-0 text-lg font-bold">วันที่ {d + 1}{startDate ? ` · ${thaiDate(addDays(startDate, d), { weekday: 'short', day: 'numeric', month: 'short' })}` : ''}</h2><span className="shrink-0 text-xs text-muted">{day.items.length} ที่</span></div>
               <div className={`mb-2 mt-1 flex items-center justify-between gap-2 px-1 ${canEditTime ? 'min-h-11' : ''}`}>
-                <p className="m-0 min-w-0 text-xs leading-relaxed text-muted">{span ? <span className="font-semibold tabular-nums text-brown">{span.start}–{span.end} · </span> : null}{dayNarrative(day.items)}</p>
+                <p className="m-0 min-w-0 text-xs leading-relaxed text-muted">{closed ? 'เดินทางข้ามคืน ถึงปลายทางวันถัดไป ไม่มีเวลาเที่ยววันนี้' : <>{span ? <span className="font-semibold tabular-nums text-brown">{span.start}–{span.end} · </span> : null}{dayNarrative(day.items)}</>}</p>
                 {hasCustom && <motion.button {...feedback} type="button" onClick={() => onResetTimes?.(d)} className="min-h-11 shrink-0 cursor-pointer rounded-full px-3 text-xs font-semibold text-brown transition-colors hover:bg-white motion-reduce:transition-none">รีเซ็ตเวลาอัตโนมัติ</motion.button>}
               </div>
               <div className="flex flex-col gap-2">
+                {showLegs && d === 0 && <TravelLegRow direction="out" leg={legs.out} mode={legs.mode} editable={editable} date={startDate} people={people} hint={outHint} />}
                 {rows.map(row => {
                   if (row.kind === 'meal') {
                     const key = mealKey(row.slot.meal)
                     const travel = times[key]?.travelBefore
-                    return <div key={`meal-${row.slot.meal}`}>{travel > 0 && <TravelLine minutes={travel} />}<MealRow slot={row.slot} stayName={days[d - 1]?.stay?.name} onEdit={onEditMeal ? () => onEditMeal(d, row.slot.meal) : undefined} {...timeProps(key, `มื้อ${mealLabel(row.slot.meal)}`)} /></div>
+                    return <div key={`meal-${row.slot.meal}`}>{travel > 0 && <TravelLine minutes={travel} />}<MealRow slot={row.slot} stayName={days[d - 1]?.stay?.name} lateSkip={Boolean(skipped[key])} flag={overrun[key]} onEdit={onEditMeal ? () => onEditMeal(d, row.slot.meal) : undefined} {...timeProps(key, `มื้อ${mealLabel(row.slot.meal)}`)} /></div>
                   }
                   const { item, index: i } = row
                   const key = placeKey(item.place.id)
                   const travel = times[key]?.travelBefore
-                  return <div key={item.place.id}>{travel > 0 && <TravelLine minutes={travel} />}{i > 0 && transit?.days?.[d]?.routes[i - 1] && <TransitRoute route={transit.days[d].routes[i - 1]} fromName={day.items[i - 1].place.name} toName={item.place.name} />}<PlanCard item={item} index={i} {...cardProps} {...timeProps(key, item.place.name)} /></div>
+                  return <div key={item.place.id}>{travel > 0 && <TravelLine minutes={travel} />}{i > 0 && transit?.days?.[d]?.routes[i - 1] && <TransitRoute route={transit.days[d].routes[i - 1]} fromName={day.items[i - 1].place.name} toName={item.place.name} />}<PlanCard item={item} index={i} flag={flagFor(key)} {...cardProps} {...timeProps(key, item.place.name)} /></div>
                 })}
                 {editable && !day.items.length && spare.length > 0 && <div className="flex min-h-14 items-center justify-center rounded-[22px] border border-dashed border-[#C9BDB2] px-4 py-3 text-sm text-muted">ลากการ์ดสำรองมาวางที่นี่</div>}
                 {day.stay && <StayRow stay={day.stay} onBook={stay => setBooking({ name: stay.name, isStay: true })} />}
+                {showLegs && d === days.length - 1 && <TravelLegRow direction="back" leg={legs.back} mode={legs.mode} editable={editable} date={legs.back?.date ?? null} people={people} hint={backHint} />}
               </div>
               {transit?.days?.[d] && <TransitDayTotal total={transit.days[d].total} hasRoutes={transit.days[d].routes.length > 0} />}
             </section>
