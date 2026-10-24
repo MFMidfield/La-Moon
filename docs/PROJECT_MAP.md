@@ -152,3 +152,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | backup แล้ว import places 28 ที่ + คอลัมน์ใหม่ (name_en, price_label, coords_uncertain, popularity, best_time, opening_hours, booking_hint, image_license, image_page_url); แตก lane C (Swipe) + lane F (รูป Unsplash) |
 | 2026-10-24 | merge lane C: หน้า Swipe + การ์ด holo — flow ครบ Landing → Trip |
 | 2026-10-24 | รวม /map + /map/:province เป็น route เดียว, ลง d3-zoom/selection/transition, listAllPlaces; merge lane E2 (Codex): แผนที่ต่อเนื่อง pan/zoom + highlight realtime + sheet ดึงขยาย, ลบ Province.jsx |
+| 2026-10-24 | แก้บัคแผนที่: ProvinceSheet เป็น overlay (แผนที่ไม่ resize/กระโดด), เข้า-ออกแบบเลื่อน, หน่วง 250ms ก่อนซ่อนกันกระพริบตอนเป้าหลุดจังหวัด, ซ่อนปุ่มสุ่ม/ป้ายตอน sheet โผล่ |

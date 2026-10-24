@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from 'react'
-import { useReducedMotion } from 'framer-motion'
+import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import CountryMap from './CountryMap'
 import PlacePins from './PlacePins'
@@ -8,6 +8,8 @@ import createMapCamera from './createMapCamera'
 import { FEATURE_BY_ID, MAP_HEIGHT, MAP_WIDTH, PATH_BY_ID, PROVINCE_BY_ID, projectPlaces } from './geometry'
 
 const EMPTY_PLACES = []
+// เป้าหลุดจังหวัดแป๊บเดียว (รอยต่อ/ขอบทะเล) ยังไม่ซ่อน sheet กันกระพริบ
+const SHEET_HIDE_DELAY = 250
 
 export default function ContinuousMap({ counts, places, ready, region, query, command, onChoose, onCountry, randomEnabled, onRandom }) {
   const svg = useRef(null)
@@ -18,6 +20,7 @@ export default function ContinuousMap({ counts, places, ready, region, query, co
   const [view, setView] = useState({ id: null, zoomed: false, pinsVisible: false, ready: false })
   const [height, setHeight] = useState(640)
   const [pin, setPin] = useState(null)
+  const [sheetId, setSheetId] = useState(null)
   const { province: routeId } = useParams()
   const location = useLocation()
   const navigate = useNavigate()
@@ -66,13 +69,19 @@ export default function ContinuousMap({ counts, places, ready, region, query, co
     else camera.current?.reset()
   }, [command])
 
+  useEffect(() => {
+    const timer = setTimeout(() => setSheetId(view.id), view.id ? 0 : SHEET_HIDE_DELAY)
+    return () => clearTimeout(timer)
+  }, [view.id])
+
   const choosePin = useCallback(value => setPin(value), [])
   const province = view.id ? PROVINCE_BY_ID[view.id] : null
+  const sheetProvince = sheetId ? PROVINCE_BY_ID[sheetId] : null
   const activePin = view.pinsVisible ? pin : null
   const buttonClass = 'flex size-11 cursor-pointer items-center justify-center rounded-full bg-cream text-ink focus-visible:outline-2 focus-visible:outline-brown'
 
   return (
-    <div ref={container} className="flex min-h-0 grow flex-col overflow-hidden">
+    <div ref={container} className="relative flex min-h-0 grow flex-col overflow-hidden">
       <div className="relative min-h-0 grow overflow-hidden bg-white">
         <svg
           ref={svg}
@@ -97,10 +106,26 @@ export default function ContinuousMap({ counts, places, ready, region, query, co
         </div>
         {activePin && <div role="status" className="absolute left-3 top-3 flex max-w-[calc(100%-100px)] items-center gap-2 rounded-2xl bg-brown py-2 pl-3 text-sm text-white"><span>{activePin.name}</span><button type="button" aria-label="ปิดชื่อที่เที่ยว" onClick={() => setPin(null)} className="flex size-11 shrink-0 cursor-pointer items-center justify-center rounded-full">×</button></div>}
         {!province && <p role="status" className="pointer-events-none absolute inset-x-3 bottom-[68px] m-0 text-center"><span className="inline-block rounded-full bg-cream px-3 py-2 text-xs text-muted">{view.zoomed ? 'เลื่อนแผนที่ให้จังหวัดอยู่ตรงเป้า' : 'แตะจังหวัดหรือซูมเข้าไปสำรวจ'}</span></p>}
-        <span className="pointer-events-none absolute bottom-5 left-3 rounded-full bg-white/80 px-2 py-1 text-[10px] text-muted">สีอ่อน = เร็วๆ นี้</span>
-        <button type="button" disabled={!randomEnabled} onClick={onRandom} className="absolute bottom-3 right-3 min-h-11 cursor-pointer rounded-full bg-cream px-4 text-sm font-medium focus-visible:outline-2 focus-visible:outline-brown disabled:cursor-default disabled:opacity-40">สุ่มจังหวัด</button>
+        <div className={`transition-opacity duration-200 ${sheetProvince ? 'pointer-events-none opacity-0' : 'opacity-100'}`} aria-hidden={Boolean(sheetProvince)}>
+          <span className="pointer-events-none absolute bottom-5 left-3 rounded-full bg-white/80 px-2 py-1 text-[10px] text-muted">สีอ่อน = เร็วๆ นี้</span>
+          <button type="button" disabled={!randomEnabled} tabIndex={sheetProvince ? -1 : undefined} onClick={onRandom} className="absolute bottom-3 right-3 min-h-11 cursor-pointer rounded-full bg-cream px-4 text-sm font-medium focus-visible:outline-2 focus-visible:outline-brown disabled:cursor-default disabled:opacity-40">สุ่มจังหวัด</button>
+        </div>
       </div>
-      {province && <ProvinceSheet province={province} count={counts[province.id] ?? 0} places={placesByProvince.get(province.id) ?? EMPTY_PLACES} ready={ready} height={height} />}
+      {/* sheet ทับขอบล่างของแผนที่ — แผนที่สูงคงที่ ไม่ resize ตอน sheet เข้า/ออก/ดึง */}
+      <AnimatePresence>
+        {sheetProvince && (
+          <motion.div
+            key="province-sheet"
+            className="absolute inset-x-0 bottom-0 z-10"
+            initial={{ y: '100%' }}
+            animate={{ y: 0 }}
+            exit={{ y: '100%' }}
+            transition={reducedMotion ? { duration: 0 } : { type: 'spring', stiffness: 320, damping: 34 }}
+          >
+            <ProvinceSheet province={sheetProvince} count={counts[sheetProvince.id] ?? 0} places={placesByProvince.get(sheetProvince.id) ?? EMPTY_PLACES} ready={ready} height={height} />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   )
 }

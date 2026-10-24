@@ -34,7 +34,7 @@ export default function ProvinceSheet({ province, count, places, ready, height }
   }
 
   return (
-    <motion.div style={{ height: sheetHeight }} className="relative z-10 shrink-0 overflow-hidden bg-cream">
+    <motion.div style={{ height: sheetHeight }} className="relative overflow-hidden">
       <motion.section
         aria-labelledby="current-province-title"
         drag="y"
@@ -49,7 +49,7 @@ export default function ProvinceSheet({ province, count, places, ready, height }
           clickTimer.current = setTimeout(() => { dragged.current = false }, 0)
         }}
         style={{ y, height: expandedHeight }}
-        className="absolute inset-x-0 bottom-0 flex flex-col rounded-t-[32px] bg-white"
+        className="absolute inset-x-0 bottom-0 flex flex-col rounded-t-[32px] border border-b-0 border-[#EDE5DD] bg-white"
       >
         <div className="flex h-[184px] shrink-0 flex-col px-4 pb-4">
           <button
