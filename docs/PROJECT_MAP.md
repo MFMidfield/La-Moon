@@ -37,7 +37,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/map/ | แผนที่ (Codex): ContinuousMap, createMapCamera (d3-zoom), CountryMap, PlacePins, ProvinceSheet (มือถือ), ProvinceDetails (ชิ้นข้อมูลจังหวัดใช้ร่วม sheet/แผงข้าง), useIsDesktop, ProvinceSearch, geometry (d3-geo), useMapData, MapStatus; GeoJSON 77 จังหวัด `src/data/geo/thailand.json` (164 KB, lazy load) | |
 | frontend/src/components/home/ | หน้า Home: HomeHeader, PersonalityChip, StartBox, TripList, WishProvinces, Sticker, useLoad (hook โหลดครั้งเดียว) | |
 | frontend/src/components/personality/ | หน้าบุคลิก: PersonalityCard, PersonalityArt (7 ฉาก), ShareActions, EmptyState | |
-| frontend/src/components/trip/ | แผนรายวัน: DayPlan (ลากการ์ดข้ามวัน/กองสำรอง, แตะย้าย fallback), TripBudget, TripOverview, itinerary.js (hydrate/serialize/moveCard); สรุปทริปเดิม: TripSummary, ComboCard, PlaceRow, PlaceThumb, BookingSheet (mock Agoda/Booking/Klook), TripStates | |
+| frontend/src/components/trip/ | แผนรายวัน: DayPlan (ลากการ์ดข้ามวัน/กองสำรอง, แตะย้าย fallback), TripBudget, TripOverview, itinerary.js (hydrate/serialize/moveCard); สรุปทริปเดิม: TripSummary, ComboCard, PlaceRow, PlaceThumb, BookingSheet (Agoda ลิงก์จริงเมื่อมี VITE_AGODA_CID ค้นด้วย name_en/จังหวัด, Booking/Klook mock), TripStates | |
 | frontend/src/components/mood/ | หน้า Mood: AiMoodBox, MoodTile, MoodIcon, BudgetPicker | |
 | backend/supabase/functions/mood-reader/ | Edge Function Gemini: POST {text} → {moods, reason}; secret GEMINI_API_KEY (+ GEMINI_MODEL) — ไม่มี key ตอบ 503 แล้ว frontend จับคำแทน | แก้ prompt AI |
 | frontend/src/lib/api/ | ทุกการเรียก supabase ต่อ feature: places, swipes, trips, mood (AI + fallback คำ) — หน้าไหนห้ามเรียก supabase ตรง | เพิ่ม query |
@@ -56,7 +56,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/landing/ | ส่วนประกอบหน้า Landing (Header, Hero, CardStack, Steps, Showcase, CtaBanner, Footer) |
 | frontend/src/components/login/ | ส่วนประกอบหน้า Login (LoginArt, GoogleButton) |
 | frontend/src/components/register/ | ส่วนประกอบหน้า Register (ProfileCard อัปโหลดรูป, MoodPicker + อื่นๆ, ProvincePicker, ToggleChip, TermsCheckbox, TermsModal) |
-| frontend/src/data/ | ข้อมูลคงที่ใช้ร่วม (options.js: MOODS, REGIONS, PROVINCES 77 จังหวัด, POPULAR_PROVINCES; personalities.js 7 แบบ) |
+| frontend/src/data/ | ข้อมูลคงที่ใช้ร่วม (options.js: MOODS, REGIONS, PROVINCES 77 จังหวัด, POPULAR_PROVINCES; personalities.js 7 แบบ; legal.js ข้อตกลง/นโยบาย/อีเมลติดต่อ ใช้ทั้ง TermsModal และ /about) |
 | frontend/src/routes/ | route guard |
 | frontend/src/context/ | React context (auth) |
 | frontend/src/lib/ | client ภายนอก (supabase) |
@@ -82,6 +82,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | path | หน้า | guard |
 |------|------|-------|
 | `/` | Landing | public only |
+| `/about` | เกี่ยวกับ/ติดต่อ/ลิงก์พันธมิตร/ข้อตกลง/ความเป็นส่วนตัว (anchor #about #contact #affiliate #terms #privacy) สำหรับยื่น Agoda Partners | public ทุกคน |
 | `/login` | Login Google | public only |
 | `/register` | ตั้งค่าโปรไฟล์ครั้งแรก | login แล้ว + ยังไม่มี profile |
 | `/welcome` | ต้อนรับหลัง register → ปุ่มไป from ?? /home | private |
@@ -121,7 +122,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - ตัวอย่างสถานที่บน Landing ใช้ภาคใต้ (ตามจังหวัด seed)
 - ค่าใน DB เก็บเป็น id อังกฤษ (mood `beach`..., ภาค `north`..., จังหวัด `krabi`/`chiang-mai`) ดู `src/data/options.js`
 - Register: ไม่มีปุ่มย้อนกลับ, เลือกแค่จังหวัด (ยอดนิยม + ค้นหา), มู้ดอื่นๆ พิมพ์เองได้ ≤5 คำ ≤20 ตัว, ปุ่มกดได้เมื่อ ชื่อไม่ว่าง + มู้ด ≥1 + ยอมรับข้อตกลง
-- เนื้อหาข้อตกลง/นโยบายใน TermsModal เป็น mockup
+- เนื้อหาข้อตกลง/นโยบายอยู่ที่ data/legal.js (ร่างโดย Claude ยังไม่ผ่านนักกฎหมาย)
 - ห้ามใช้ emoji ใน UI — ใช้ไอคอน lucide-react / SVG
 - โฟกัสทริปวันเดียวก่อน; ไม่มีจังหวะเที่ยว — แผนใช้เฉพาะที่ปัดขวา (planLikedOnly) ไม่เติม; FEATURES.intercityTransport / bkkTransit ปิดชั่วคราว (data/travel.js)
 - P1 อยู่ในคลิป; admin ไว้ทีหลัง (ช่วงนี้ใช้ Studio); agent ใช้ Opus; รูปสถานที่ Unsplash
@@ -146,7 +147,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 - [x] รูปสถานที่ 26/28 (Wikimedia 20 + Unsplash 6) — ไม่มีรูป: san-chao-market, laem-homestay (การ์ดใช้ภาพประกอบ)
 - [x] Codex รอบ 2: เส้นทางรถไฟฟ้า/เรือ ใน /plan/trip + /trips/:id (TransitRoute, usePlanTransit), โหมด 'transit' ใน 6 จังหวัด BKK_TRANSIT_PROVINCES
 - [x] import 150 ที่ (รวม 178 ใน 11 จังหวัด, มีรูป 116) — ข้อมูลเพิ่ม ~150 ที่ (กทม. 50, ปริมณฑล 5 จ. 40, ใต้ 5 จ.เดิม +60) + ระบบราง/เรือ กทม. — deep research กทม. 50 ที่เสร็จแล้วใน `AI/data/deep-research-bkk.md`; ปริมณฑล/ใต้/transit และรอบ 2 logic เส้นทาง + UI ยังรอทำ
-- [ ] Deploy: ทำตาม docs/DEPLOY.md (SQL รวม backend/supabase/backups/deploy-remote.sql)
+- [ ] Deploy: ทำตาม docs/DEPLOY.md (SQL รวม backend/supabase/backups/deploy-remote.sql) — push branch `dev` แล้ว
+- [ ] สมัคร Agoda Partners ด้วยโดเมน vercel.app → ได้ CID ใส่ VITE_AGODA_CID → เทียบรูปลิงก์กับ dashboard
 - [ ] Gemini API key: ใส่ `backend/supabase/functions/.env` (GEMINI_API_KEY) แล้ว `supabase functions serve mood-reader`; ถ้า 401 ตั้ง `[functions.mood-reader] verify_jwt = false`
 - [x] แตก lane A–E แล้ว merge ครบ (A Home/บุคลิก, B Mood/AI, C Swipe, D Trip, E Map — Codex)
 - [ ] เนื้อหาข้อตกลง/นโยบายจริง (ตอนนี้ mockup)
@@ -206,3 +208,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | ทริปค้างคืน: การ์ดไปยังไง 4 แบบ, เที่ยวในพื้นที่ตามพาหนะ (รถส่วนตัว → รถส่วนตัวเท่านั้น), หน้า /plan/transport เลือกเที่ยว + ไปจองจริง, แผนมีแถวเดินทางไป-กลับ + เวลาวันแรก/วันสุดท้ายตามเที่ยว, งบจากราคาเที่ยว |
 | 2026-10-24 | ใส่ตารางเที่ยวจริง กทม.↔ใต้ (agent ค้น), getTrips รวมหลาย route + สถานีต่อเที่ยว, รองรับเที่ยวไม่มีเวลาถึง |
 | 2026-10-24 | ตารางเครื่องบินเหลือเฉพาะ low cost (AirAsia/Lion/Nok/Vietjet) — ตัดเส้นสมุย (มีแต่ Bangkok Airways) |
+| 2026-10-24 | เตรียม deploy + Agoda: push branch dev, หน้า /about (public), footer Landing ลิงก์จริง, data/legal.js, BookingSheet Agoda ลิงก์จริงผ่าน VITE_AGODA_CID |

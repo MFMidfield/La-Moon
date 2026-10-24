@@ -22,6 +22,7 @@ const TransportPick = lazy(() => import('./pages/TransportPick'))
 const TripDetails = lazy(() => import('./pages/TripDetails'))
 const TripDetail = lazy(() => import('./pages/TripDetail'))
 const Personality = lazy(() => import('./pages/Personality'))
+const About = lazy(() => import('./pages/About'))
 
 export default function App() {
   return (
@@ -30,6 +31,8 @@ export default function App() {
         <TripDraftProvider>
           <Suspense fallback={<FullPageLoader />}>
           <Routes>
+            <Route path="/about" element={<About />} />
+
             <Route element={<PublicOnlyRoute />}>
               <Route path="/" element={<Landing />} />
               <Route path="/login" element={<Login />} />
