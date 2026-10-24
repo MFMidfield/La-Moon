@@ -24,6 +24,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/AppHeader.jsx | header ในแอป: ปุ่มกลับ (backTo/onBack) + crumb + title + step pill | |
 | frontend/src/components/BottomSheet.jsx | sheet ล่าง/dialog กลางจอ (Esc, backdrop, scroll lock) | |
 | frontend/src/components/ToggleChip.jsx | chip +/✓ ไม่ขยับ layout | |
+| frontend/src/components/trip/ | สรุปทริป: TripSummary, ComboCard, PlaceRow, PlaceThumb, BookingSheet (mock Agoda/Booking/Klook), TripStates | |
 | frontend/src/components/mood/ | หน้า Mood: AiMoodBox, MoodTile, MoodIcon, BudgetPicker | |
 | backend/supabase/functions/mood-reader/ | Edge Function Gemini: POST {text} → {moods, reason}; secret GEMINI_API_KEY (+ GEMINI_MODEL) — ไม่มี key ตอบ 503 แล้ว frontend จับคำแทน | แก้ prompt AI |
 | frontend/src/lib/api/ | ทุกการเรียก supabase ต่อ feature: places, swipes, trips, mood (AI + fallback คำ) — หน้าไหนห้ามเรียก supabase ตรง | เพิ่ม query |
@@ -62,8 +63,8 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | `/welcome` | ต้อนรับหลัง register → ปุ่มไป from ?? /home | private |
 | `/home` | หน้าหลักหลัง login (placeholder — lane A) | private |
 | `/map/:province/mood` | เลือกมู้ด ≤3 + AI + งบ (default 2) → `/swipe?moods=&budget=` (lane B เสร็จ) | private |
-| `/map/:province/trip` | สรุปทริปจากการปัด รับ state { likedIds, moods, budget } (placeholder — lane D) | private |
-| `/trips/:id` | ดูทริปที่บันทึก (placeholder — lane D) | private |
+| `/map/:province/trip` | สรุปทริปจากการปัด รับ state { likedIds, moods, budget } → บันทึก → /trips/:id (lane D เสร็จ) | private |
+| `/trips/:id` | ดูทริปที่บันทึก + ลบ (lane D เสร็จ) | private |
 | `/personality` | บุคลิกการเที่ยวจาก swipes ขวาทั้งหมด (placeholder — lane A) | private |
 | `/map` | แผนที่ไทย | private |
 | `/map/:province` | ซูมจังหวัด | private |
@@ -140,3 +141,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | ของกลางก่อนแตก lane: AppHeader, BottomSheet, ToggleChip กลาง, lib/api (places/swipes/trips/mood), lib/trip (plan/combos/personality/geo), data/personalities, route + placeholder Trip/TripDetail/Personality; schema places/trips/swipes ลง snippet (ยังไม่รัน — auto mode ไม่อนุญาต) |
 | 2026-10-24 | backup แล้วสร้าง places/trips/swipes + RLS, seed ตัวอย่าง 8 ที่ |
 | 2026-10-24 | merge lane B: หน้า Mood + Edge Function mood-reader; gitignore .claude/worktrees |
+| 2026-10-24 | merge lane D: หน้าสรุปทริป + ทริปที่บันทึก (ลบได้, จอง mock) |
