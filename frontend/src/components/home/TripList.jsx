@@ -1,3 +1,4 @@
+import { ChevronRight } from 'lucide-react'
 import SlideLink from '../SlideLink'
 import { Moon } from '../icons'
 import { MOODS, PROVINCES } from '../../data/options'
@@ -24,9 +25,7 @@ function TripRow({ trip }) {
         {trip.start_date && <span className="mt-0.5 text-[13px] text-brown">{thaiDate(trip.start_date)}{trip.end_date && trip.end_date !== trip.start_date ? ` – ${thaiDate(trip.end_date)}` : ''}</span>}
         <span className="truncate text-[13px] text-muted">{meta}</span>
       </span>
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6E625A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-        <path d="M9 18l6-6-6-6" />
-      </svg>
+      <ChevronRight size={18} strokeWidth={2} className="shrink-0 text-muted" aria-hidden="true" />
     </SlideLink>
   )
 }

@@ -1,8 +1,11 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { geoContains } from 'd3-geo'
+import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
+import { Check, ChevronDown, LocateFixed } from 'lucide-react'
 import { PROVINCES } from '../../data/options'
 
 export default function OriginPicker({ value, onChange }) {
+  const reduced = useReducedMotion()
   const id = useId()
   const [search, setSearch] = useState('')
   const [open, setOpen] = useState(false)
@@ -51,17 +54,17 @@ export default function OriginPicker({ value, onChange }) {
   return (
     <div className="flex flex-col gap-2.5">
       <label id={`${id}-label`} className="text-sm font-medium text-[#4A3A30]">คุณอยู่จังหวัดไหน?</label>
-      <button type="button" onClick={locate} disabled={loading} className="min-h-11 cursor-pointer rounded-full border border-[#D9CFC5] bg-white px-4 text-sm font-semibold text-brown disabled:opacity-50">
-        📍 {loading ? 'กำลังหาตำแหน่ง…' : 'ใช้ตำแหน่งปัจจุบัน'}
-      </button>
-      <button type="button" aria-expanded={open} aria-controls={`${id}-list`} aria-labelledby={`${id}-label ${id}-value`} onClick={() => setOpen(!open)} className="flex min-h-12 items-center justify-between rounded-[20px] bg-cream px-4 text-left text-sm">
-        <span id={`${id}-value`}>{selected?.label ?? 'เลือกจังหวัดต้นทาง'}</span><span aria-hidden="true">⌄</span>
-      </button>
+      <motion.button type="button" onClick={locate} disabled={loading} whileTap={reduced || loading ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className="flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-full border border-[#D9CFC5] bg-white px-4 text-sm font-semibold text-brown transition-colors duration-200 motion-reduce:transition-none disabled:opacity-50">
+        <LocateFixed size={18} strokeWidth={2} aria-hidden="true" />{loading ? 'กำลังหาตำแหน่ง…' : 'ใช้ตำแหน่งปัจจุบัน'}
+      </motion.button>
+      <motion.button type="button" aria-expanded={open} aria-controls={`${id}-list`} aria-labelledby={`${id}-label ${id}-value`} onClick={() => setOpen(!open)} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className="flex min-h-12 items-center justify-between rounded-[20px] bg-cream px-4 text-left text-sm transition-colors duration-200 motion-reduce:transition-none">
+        <span id={`${id}-value`}>{selected?.label ?? 'เลือกจังหวัดต้นทาง'}</span><motion.span aria-hidden="true" animate={{ rotate: open ? 180 : 0 }} transition={{ duration: reduced ? 0 : 0.2 }}><ChevronDown size={18} strokeWidth={2} /></motion.span>
+      </motion.button>
       {open && (
         <div className="rounded-[22px] border border-[#EDE5DD] p-2">
           <input autoFocus value={search} onChange={e => setSearch(e.target.value)} aria-label="ค้นหาจังหวัดต้นทาง" placeholder="ค้นหาจังหวัด…" className="h-11 w-full rounded-full bg-cream px-4 text-base outline-none focus:ring-2 focus:ring-peach" />
           <div id={`${id}-list`} role="group" aria-label="จังหวัดต้นทาง" className="mt-1 max-h-52 overflow-y-auto overscroll-contain">
-            {matches.map(p => <button key={p.id} type="button" aria-pressed={value === p.id} onClick={() => choose(p.id)} className={`flex min-h-11 w-full items-center justify-between rounded-[16px] px-4 text-left text-sm ${value === p.id ? 'bg-peach font-semibold' : 'hover:bg-cream'}`}>{p.label}<span aria-hidden="true">{value === p.id ? '✓' : ''}</span></button>)}
+            {matches.map(p => <motion.button key={p.id} type="button" aria-pressed={value === p.id} onClick={() => choose(p.id)} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className={`flex min-h-11 w-full items-center justify-between rounded-[16px] px-4 text-left text-sm font-medium transition-colors duration-200 motion-reduce:transition-none ${value === p.id ? 'bg-peach' : 'hover:bg-cream'}`}>{p.label}<span aria-hidden="true" className="h-5 w-5 shrink-0"><AnimatePresence initial={false}>{value === p.id && <motion.span className="flex h-5 w-5 items-center justify-center rounded-full bg-brown text-white" initial={reduced ? false : { scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: reduced ? 1 : 0.6, opacity: 0 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }}><Check size={13} strokeWidth={2} /></motion.span>}</AnimatePresence></span></motion.button>)}
             {!matches.length && <p className="p-3 text-sm text-muted">ไม่พบจังหวัดนี้</p>}
           </div>
         </div>

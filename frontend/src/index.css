@@ -17,6 +17,15 @@ body {
   font-family: var(--font-sans);
 }
 
+.plan-sticky-bar::before {
+  content: '';
+  position: absolute;
+  inset: -24px 0 auto;
+  height: 24px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, var(--color-cream));
+}
+
 /* page slide (SlideLink sets html[data-nav]) */
 ::view-transition-old(root),
 ::view-transition-new(root) {

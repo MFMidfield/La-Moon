@@ -1,9 +1,11 @@
-import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { useReducedMotion } from 'framer-motion'
-import { useNavigate, useParams } from 'react-router-dom'
+import { lazy, Suspense, useCallback, useEffect, useId, useMemo, useRef, useState } from 'react'
+import { AnimatePresence, LayoutGroup, motion, useReducedMotion } from 'framer-motion'
+import { Check, ChevronLeft } from 'lucide-react'
+import { useNavigate, useNavigationType, useParams } from 'react-router-dom'
 import SlideLink, { slideNavigate } from '../components/SlideLink'
 import { Logo, Moon, Sparkle } from '../components/icons'
 import { ProvinceCta, ProvinceExtra, ProvinceSummary } from '../components/map/ProvinceDetails'
+import { createRollReveal } from '../components/plan/rollReveal'
 import useIsDesktop from '../components/map/useIsDesktop'
 import ProvinceSearch from '../components/map/ProvinceSearch'
 import MapStatus from '../components/map/MapStatus'
@@ -20,19 +22,26 @@ const EMPTY_PLACES = []
 // มือถือ: ความสูงโดยประมาณของแถบค้นหา + chip ที่ลอยทับ (ปุ่มบนแผนที่เริ่มใต้ระยะนี้)
 const TOP_INSET = 136
 
-const BACK_ICON = (
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1F1A17" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6" /></svg>
-)
+const BACK_ICON = <ChevronLeft size={20} strokeWidth={2} aria-hidden="true" />
 
 function RegionChips({ region, onChoose, wrap }) {
+  const reducedMotion = useReducedMotion()
+  const controlId = useId()
+  const transition = reducedMotion ? { duration: 0 } : { type: 'spring', duration: 0.25, bounce: 0.12 }
   return (
+    <LayoutGroup id={controlId}>
     <div role="group" aria-label="กรองตามภาค" className={wrap ? 'flex flex-wrap gap-2' : 'no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 pb-1'}>
       {[{ id: '', label: 'ทั้งหมด' }, ...REGIONS].map(item => (
-        <button key={item.id} type="button" aria-pressed={region === item.id} onClick={() => onChoose(item.id)} className={`flex min-h-11 shrink-0 cursor-pointer items-center gap-1.5 rounded-full px-4 text-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brown ${region === item.id ? 'bg-brown font-semibold text-white' : 'bg-white text-ink'}`}>
+        <motion.button key={item.id} type="button" aria-pressed={region === item.id} onClick={() => onChoose(item.id)} whileTap={reducedMotion ? undefined : { scale: 0.96 }} transition={transition} className={`relative isolate flex min-h-11 shrink-0 cursor-pointer items-center gap-1.5 rounded-full bg-white px-4 text-sm font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brown ${region === item.id ? 'text-white' : 'text-ink'}`}>
+          {region === item.id && <motion.span aria-hidden="true" layoutId="region-selection" className="absolute inset-0 -z-10 rounded-full bg-brown" transition={transition} />}
           {item.color && <span aria-hidden="true" className="size-3 rounded-full" style={{ backgroundColor: item.color }} />}{item.label}
-        </button>
+          <span aria-hidden="true" className="flex size-4 shrink-0 items-center justify-center">
+            <AnimatePresence initial={false}>{region === item.id && <motion.span key="check" initial={reducedMotion ? false : { scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: reducedMotion ? 1 : 0.6, opacity: 0 }} transition={transition}><Check size={14} strokeWidth={2} /></motion.span>}</AnimatePresence>
+          </span>
+        </motion.button>
       ))}
     </div>
+    </LayoutGroup>
   )
 }
 
@@ -45,6 +54,8 @@ export default function Map() {
   const navigate = useNavigate()
   const { province: routeId } = useParams()
   const { draft, updateDraft } = useTripDraft()
+  const navigationType = useNavigationType()
+  const [entryRollId] = useState(draft.rollId)
   const reducedMotion = useReducedMotion()
   const activeRequest = useRef(0)
   useEffect(() => () => { activeRequest.current += 1 }, [])
@@ -54,7 +65,6 @@ export default function Map() {
   const [currentId, setCurrentId] = useState(null)
   const [settledId, setSettledId] = useState(null)
   const [rolling, setRolling] = useState(false)
-  const [rollVersion, setRollVersion] = useState(0)
   const [randomError, setRandomError] = useState('')
   const [needMore, setNeedMore] = useState(null)
   const isDesktop = useIsDesktop()
@@ -65,10 +75,11 @@ export default function Map() {
   const current = currentId ? PROVINCES.find(province => province.id === currentId) : null
   const currentPlaces = useMemo(() => places.filter(place => place.province === currentId), [places, currentId])
   const chooseProvince = useCallback(id => {
+    updateDraft({ rollId: null, revealed: [] })
     setQuery('')
     setRegion('')
     setCommand({ type: 'province', id })
-  }, [])
+  }, [updateDraft])
   const showCountry = useCallback(() => {
     setQuery('')
     setRegion('')
@@ -83,7 +94,9 @@ export default function Map() {
 
   function selectProvince(id) {
     const keepRandom = draft.mode === 'random' && id === draft.province && routeId === draft.province
-    updateDraft(keepRandom ? { province: id } : { province: id, mode: 'pick', deck: null, likedIds: [], swipeKey: null, swipeHistory: [], itineraryKey: null, itinerary: null })
+    updateDraft(current => keepRandom
+      ? { province: id, revealed: [...new Set([...(current.revealed ?? []), 'map-title'])] }
+      : { province: id, mode: 'pick', rollId: null, revealed: [], deck: null, likedIds: [], swipeKey: null, swipeHistory: [], itineraryKey: null, itinerary: null })
     slideNavigate(navigate, draft.moods.length ? '/plan/details' : '/plan/mood')
   }
 
@@ -101,7 +114,8 @@ export default function Map() {
       const pool = status === 'done' ? places : await listAllPlaces()
       const today = new Date()
       today.setHours(12, 0, 0, 0)
-      const { patch, needMore: extra } = randomizeTrip({ draft: nextDraft, places: pool, today })
+      const locked = nextDraft.locked.filter(key => key !== 'dates')
+      const { patch, needMore: extra } = randomizeTrip({ draft: { ...nextDraft, locked }, places: pool, today })
       if (!reducedMotion) await new Promise(resolve => setTimeout(resolve, 650))
       if (request !== activeRequest.current) return
       if (!patch) {
@@ -109,9 +123,8 @@ export default function Map() {
         setRandomError(extra ? `งบไม่พอสำหรับทริปนี้ เพิ่มอีก ${formatBaht(extra)}` : 'ยังไม่มีที่เที่ยวตรงมู้ดนี้ ลองเปลี่ยนมู้ดกัน')
         return
       }
-      updateDraft({ ...patch, swipeKey: null, swipeHistory: [], itineraryKey: null, itinerary: null, ...(nextDraft.budget !== draft.budget ? { budget: nextDraft.budget } : {}) })
+      updateDraft({ ...patch, locked, ...createRollReveal(), swipeKey: null, swipeHistory: [], itineraryKey: null, itinerary: null, ...(nextDraft.budget !== draft.budget ? { budget: nextDraft.budget } : {}) })
       setSettledId(null)
-      setRollVersion(version => version + 1)
       setCommand({ type: 'province', id: patch.province })
       navigate(`/map/${patch.province}`, { replace: true })
     } catch {
@@ -125,11 +138,12 @@ export default function Map() {
   const plan = {
     randomId: draft.mode === 'random' && routeId === draft.province && currentId === draft.province ? draft.province : null,
     scrambleReady: settledId === draft.province,
+    scrambleEnabled: navigationType !== 'POP' || draft.rollId !== entryRollId,
     onSelect: selectProvince,
     onReroll: reroll,
     onRaiseBudget: () => reroll({ ...draft, budget: { ...draft.budget, max: draft.budget.max + (needMore ?? 0) } }),
     rolling,
-    rollVersion,
+    rollId: draft.rollId,
     randomError,
     needMore,
   }

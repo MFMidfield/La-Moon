@@ -1,8 +1,11 @@
 import { useState } from 'react'
+import { motion, useReducedMotion } from 'framer-motion'
+import { Search } from 'lucide-react'
 import { PROVINCES } from '../../data/options'
 
 export default function ProvinceSearch({ query, onQueryChange, counts, ready, onChoose }) {
   const [open, setOpen] = useState(false)
+  const reducedMotion = useReducedMotion()
   const matches = query.trim() ? PROVINCES.filter(province => province.label.includes(query.trim())) : []
 
   function handleKeyDown(event) {
@@ -20,9 +23,7 @@ export default function ProvinceSearch({ query, onQueryChange, counts, ready, on
   return (
     <div className="relative z-20" onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false) }}>
       <label className="flex h-12 items-center gap-2.5 rounded-full bg-white px-[18px] focus-within:ring-2 focus-within:ring-brown">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className="shrink-0 text-muted" aria-hidden="true">
-          <circle cx="11" cy="11" r="7" /><path d="m21 21-4.3-4.3" />
-        </svg>
+        <Search size={20} strokeWidth={2} className="shrink-0 text-muted" aria-hidden="true" />
         <input
           type="search"
           value={query}
@@ -45,15 +46,17 @@ export default function ProvinceSearch({ query, onQueryChange, counts, ready, on
               const available = ready && counts[province.id] > 0
               return (
                 <li key={province.id}>
-                  <button
+                  <motion.button
                     type="button"
                     disabled={!ready}
+                    whileTap={reducedMotion || !ready ? undefined : { scale: 0.96 }}
+                    transition={reducedMotion ? { duration: 0 } : { type: 'spring', duration: 0.25, bounce: 0.12 }}
                     onClick={() => { setOpen(false); onChoose(province.id) }}
-                    className="flex min-h-11 w-full cursor-pointer items-center justify-between gap-3 rounded-full px-3 text-left text-sm hover:bg-cream focus-visible:outline-2 focus-visible:outline-brown disabled:cursor-default disabled:text-muted"
+                    className="flex min-h-11 w-full cursor-pointer items-center justify-between gap-3 rounded-full px-3 text-left text-sm transition-colors duration-200 hover:bg-cream focus-visible:outline-2 focus-visible:outline-brown disabled:cursor-default disabled:text-muted"
                   >
                     <span>{province.label}</span>
                     <span className="shrink-0 text-xs text-muted">{available ? `${counts[province.id]} ที่เที่ยว` : ready ? 'เร็วๆ นี้' : 'รอข้อมูล'}</span>
-                  </button>
+                  </motion.button>
                 </li>
               )
             })}

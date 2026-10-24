@@ -1,3 +1,4 @@
+import { Share2 } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import SlideLink from '../SlideLink'
 
@@ -45,9 +46,7 @@ export default function ShareActions({ title }) {
           onClick={handleShare}
           className="flex h-14 flex-1 cursor-pointer items-center justify-center gap-2 rounded-full bg-brown text-base font-semibold text-white"
         >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7M16 6l-4-4-4 4M12 2v13" />
-          </svg>
+          <Share2 size={18} strokeWidth={2} aria-hidden="true" />
           แชร์
         </button>
         <SlideLink

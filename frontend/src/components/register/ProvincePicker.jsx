@@ -1,3 +1,4 @@
+import { Search } from 'lucide-react'
 import { useState } from 'react'
 import { POPULAR_PROVINCES, PROVINCES } from '../../data/options'
 import ToggleChip from '../ToggleChip'
@@ -42,10 +43,7 @@ export default function ProvincePicker({ value, onChange }) {
 
       <div className="relative">
         <label className="flex h-[46px] items-center gap-2.5 rounded-full bg-cream px-4 focus-within:ring-2 focus-within:ring-orange">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6E625A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <circle cx="11" cy="11" r="7" />
-            <path d="M21 21l-4.3-4.3" />
-          </svg>
+          <Search size={18} strokeWidth={2} className="shrink-0 text-muted" aria-hidden="true" />
           <input
             type="text"
             value={query}

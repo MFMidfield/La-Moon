@@ -1,6 +1,7 @@
+import { ChevronRight } from 'lucide-react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
-import { MotionConfig, useMotionValue } from 'framer-motion'
+import { motion, MotionConfig, useMotionValue, useReducedMotion } from 'framer-motion'
 import AppHeader from '../components/AppHeader'
 import SlideLink, { slideNavigate } from '../components/SlideLink'
 import SwipeDeck from '../components/cards/SwipeDeck'
@@ -25,6 +26,7 @@ function preload(url) {
 }
 
 function SwipeSession({ draft, updateDraft, province, provinceLabel, moods }) {
+  const reduced = useReducedMotion()
   const navigate = useNavigate()
   const deckRef = useRef(null)
   const dragX = useMotionValue(0)
@@ -120,9 +122,9 @@ function SwipeSession({ draft, updateDraft, province, provinceLabel, moods }) {
   if (current?.error) {
     body = (
       <DeckMessage title="โหลดที่เที่ยวไม่สำเร็จ" body="เช็กอินเทอร์เน็ตแล้วลองใหม่อีกครั้ง">
-        <button type="button" onClick={() => setAttempt((a) => a + 1)} className={PRIMARY_BUTTON}>
+        <motion.button type="button" whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} onClick={() => setAttempt((a) => a + 1)} className={PRIMARY_BUTTON}>
           ลองใหม่
-        </button>
+        </motion.button>
       </DeckMessage>
     )
   } else if (places && !total) {
@@ -136,8 +138,8 @@ function SwipeSession({ draft, updateDraft, province, provinceLabel, moods }) {
   } else if (places && index >= total) {
     body = (
       <DeckMessage title="เลือกการ์ดครบแล้ว" body={`ถูกใจ ${likedIds.length} ที่ พร้อมจัดทริปให้คุณ`}>
-        <button type="button" onClick={() => finish(history)} className={PRIMARY_BUTTON}>สรุปทริปเลย</button>
-        <button type="button" onClick={undo} className="mt-2 h-11 w-full rounded-full bg-white text-sm font-semibold text-brown">ย้อนการ์ดก่อนหน้า</button>
+        <motion.button type="button" whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} onClick={() => finish(history)} className={PRIMARY_BUTTON}>สรุปทริปเลย</motion.button>
+        <motion.button type="button" whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} onClick={undo} className="mt-2 h-11 w-full rounded-full bg-white text-sm font-semibold text-brown transition-colors duration-200 motion-reduce:transition-none">ย้อนการ์ดก่อนหน้า</motion.button>
       </DeckMessage>
     )
   } else {
@@ -154,33 +156,37 @@ function SwipeSession({ draft, updateDraft, province, provinceLabel, moods }) {
           moodTotal={moods.length}
         />
 
-        <SwipeControls
-          dragX={dragX}
-          onSkip={() => swipe(-1)}
-          onUndo={undo}
-          onLike={() => swipe(1)}
-          canUndo={history.length > 0}
-          disabled={!places || index >= total}
-        />
+        <div className="fixed inset-x-0 bottom-0 z-20 mx-auto w-full max-w-[560px] bg-cream pb-[calc(0.75rem+env(safe-area-inset-bottom))]">
+          <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 -top-6 h-6 bg-[linear-gradient(to_top,var(--color-cream),transparent)]" />
+          <SwipeControls
+            dragX={dragX}
+            onSkip={() => swipe(-1)}
+            onUndo={undo}
+            onLike={() => swipe(1)}
+            canUndo={history.length > 0}
+            disabled={!places || index >= total}
+          />
 
-        <div className="flex h-11 shrink-0 items-center justify-center">
-          <button
-            type="button"
-            onClick={() => !deckRef.current?.busy() && finish(history)}
-            disabled={!places || !total}
-            className="h-11 cursor-pointer px-4 text-sm font-semibold text-brown disabled:opacity-30"
-          >
-            สรุปทริปเลย{likedIds.length ? ` · ถูกใจ ${likedIds.length} ที่` : ''} ›
-          </button>
+          <div className="flex h-11 shrink-0 items-center justify-center">
+            <motion.button
+              whileTap={reduced ? undefined : { scale: 0.96 }}
+              transition={reduced ? { duration: 0 } : { type: 'spring', stiffness: 450, damping: 28 }}
+              type="button"
+              onClick={() => !deckRef.current?.busy() && finish(history)}
+              disabled={!places || !total}
+              className="flex h-11 cursor-pointer items-center gap-1 px-4 text-sm font-semibold text-brown transition-colors duration-200 disabled:opacity-30"
+            >
+              สรุปทริปเลย{likedIds.length ? ` · ถูกใจ ${likedIds.length} ที่` : ''} <ChevronRight size={17} strokeWidth={2} aria-hidden="true" />
+            </motion.button>
+          </div>
         </div>
-        <div className="h-4 shrink-0" />
       </>
     )
   }
 
   return (
     <div className="min-h-svh overflow-x-clip bg-cream">
-      <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col text-ink">
+      <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col pb-[calc(11rem+env(safe-area-inset-bottom))] text-ink">
         <AppHeader
           crumb={`${provinceLabel} · ${moodLabels}`}
           title="เลือกที่เที่ยว"

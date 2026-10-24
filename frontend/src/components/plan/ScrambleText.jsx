@@ -1,18 +1,34 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useReducedMotion } from 'framer-motion'
+import { useTripDraft } from '../../context/TripDraftContext'
+import { isCurrentRoll } from './rollReveal'
 
 const segmenter = new Intl.Segmenter('th', { granularity: 'grapheme' })
 const thai = [...'กขคฆงจฉชซญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ']
 const latin = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789']
 
-export default function ScrambleText({ text, delay = 0, duration = 700, play = true, className = '' }) {
+export default function ScrambleText({ text, revealKey, delay = 0, duration = 700, play = true, className = '' }) {
+  const { draft, updateDraft } = useTripDraft()
   const reduced = useReducedMotion()
   const value = String(text ?? '')
   const clusters = useMemo(() => [...segmenter.segment(value)].map(({ segment }) => segment), [value])
   const [frame, setFrame] = useState(null)
+  // Claiming the reveal updates the draft; keep this mount's playback unchanged.
+  const [reveal] = useState(() => {
+    const eligible = Boolean(revealKey && isCurrentRoll(draft.rollId) && !draft.revealed?.includes(revealKey))
+    return { value, clusters, delay, duration, rollId: draft.rollId, revealKey, eligible, animate: eligible && play && !reduced }
+  })
 
   useEffect(() => {
-    if (!play || reduced) return
+    if (!reveal.eligible) return
+    updateDraft(current => current.rollId === reveal.rollId && !current.revealed?.includes(reveal.revealKey)
+      ? { revealed: [...(current.revealed ?? []), reveal.revealKey] }
+      : {})
+  }, [reveal, updateDraft])
+
+  useEffect(() => {
+    if (!reveal.animate) return
+    const { value, clusters, delay, duration } = reveal
     let raf
     let start
     let last = -1
@@ -33,9 +49,9 @@ export default function ScrambleText({ text, delay = 0, duration = 700, play = t
     }
     raf = requestAnimationFrame(tick)
     return () => cancelAnimationFrame(raf)
-  }, [value, clusters, delay, duration, play, reduced])
+  }, [reveal])
 
-  const chars = play && !reduced && frame?.value === value ? frame.chars : clusters
+  const chars = play && !reduced && draft.rollId === reveal.rollId && frame?.value === value ? frame.chars : clusters
   return (
     <span aria-label={value} className={className}>
       <span aria-hidden="true">

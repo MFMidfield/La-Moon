@@ -1,6 +1,7 @@
+import { Heart, Undo2, X } from 'lucide-react'
 import { motion, useReducedMotion, useTransform } from 'framer-motion'
 
-const TAP = { scale: 0.88 }
+const TAP = { scale: 0.966 }
 const SPRING = { type: 'spring', stiffness: 500, damping: 22 }
 
 // ปุ่มใต้กองการ์ด: ข้าม · ย้อนการ์ด · อยากไป — ปุ่มขยายตามทิศที่ลาก (dragX)
@@ -15,16 +16,14 @@ export default function SwipeControls({ dragX, onSkip, onUndo, onLike, canUndo, 
         <motion.button
           type="button"
           aria-label="ข้าม"
-          title="ข้าม (←)"
+          title="ข้าม (ปุ่มลูกศรซ้าย)"
           onClick={onSkip}
           disabled={disabled}
           whileTap={disabled || reduce ? undefined : TAP}
           transition={reduce ? { duration: 0 } : SPRING}
           className="flex h-[60px] w-[60px] cursor-pointer items-center justify-center rounded-full bg-white disabled:cursor-not-allowed disabled:opacity-40"
         >
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1F1A17" strokeWidth="2.2" strokeLinecap="round" aria-hidden="true">
-            <path d="M18 6L6 18M6 6l12 12" />
-          </svg>
+          <X size={24} strokeWidth={2} className="text-ink" aria-hidden="true" />
         </motion.button>
       </motion.div>
 
@@ -34,30 +33,25 @@ export default function SwipeControls({ dragX, onSkip, onUndo, onLike, canUndo, 
         title="ย้อนการ์ด (Z)"
         onClick={onUndo}
         disabled={disabled || !canUndo}
-        whileTap={disabled || !canUndo || reduce ? undefined : { rotate: -40, scale: 0.9 }}
+        whileTap={disabled || !canUndo || reduce ? undefined : { rotate: -40, scale: 0.96 }}
         transition={reduce ? { duration: 0 } : SPRING}
         className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full disabled:cursor-not-allowed disabled:opacity-35"
       >
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6E625A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-          <path d="M3 7v6h6" />
-          <path d="M21 17a9 9 0 0 0-15-6.7L3 13" />
-        </svg>
+        <Undo2 size={20} strokeWidth={2} className="text-muted" aria-hidden="true" />
       </motion.button>
 
       <motion.div style={{ scale: reduce ? 1 : likeScale }}>
         <motion.button
           type="button"
           aria-label="อยากไป"
-          title="อยากไป (→)"
+          title="อยากไป (ปุ่มลูกศรขวา)"
           onClick={onLike}
           disabled={disabled}
           whileTap={disabled || reduce ? undefined : TAP}
           transition={reduce ? { duration: 0 } : SPRING}
           className="flex h-[68px] w-[68px] cursor-pointer items-center justify-center rounded-full bg-brown disabled:cursor-not-allowed disabled:opacity-40"
         >
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7z" />
-          </svg>
+          <Heart size={28} strokeWidth={2} className="text-white" aria-hidden="true" />
         </motion.button>
       </motion.div>
     </div>

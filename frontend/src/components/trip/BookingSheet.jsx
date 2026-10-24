@@ -1,3 +1,4 @@
+import { X } from 'lucide-react'
 import BottomSheet from '../BottomSheet'
 
 // mock สำหรับ pitch — ยังไม่มีลิงก์พันธมิตรจริง
@@ -20,9 +21,7 @@ export default function BookingSheet({ open, place, onClose }) {
           onClick={onClose}
           className="flex h-11 w-11 shrink-0 cursor-pointer items-center justify-center rounded-full bg-cream"
         >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F1A17" strokeWidth="2.2" strokeLinecap="round" aria-hidden="true">
-            <path d="M18 6L6 18M6 6l12 12" />
-          </svg>
+          <X size={18} strokeWidth={2} aria-hidden="true" />
         </button>
       </div>
 

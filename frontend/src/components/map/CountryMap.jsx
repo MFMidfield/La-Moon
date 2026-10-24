@@ -22,7 +22,7 @@ function CountryMap({ counts, region, query, onChoose }) {
             onKeyDown={available ? event => {
               if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); event.stopPropagation(); onChoose(id) }
             } : undefined}
-            className={available ? 'cursor-pointer outline-none focus-visible:stroke-brown focus-visible:stroke-[2.5]' : 'cursor-default'}
+            className={`transition-colors duration-200 ${available ? 'cursor-pointer outline-none focus-visible:stroke-brown focus-visible:stroke-[2.5]' : 'cursor-default'}`}
           >
             <title>{`${province.label} · ${available ? `${counts[id]} ที่เที่ยว` : 'เร็วๆ นี้'}`}</title>
           </path>

@@ -1,3 +1,6 @@
+import { useId } from 'react'
+import { motion, useReducedMotion } from 'framer-motion'
+import { X } from 'lucide-react'
 import BottomSheet from '../BottomSheet'
 
 // TODO: เนื้อหา mockup — รอข้อความจริงจากทีม
@@ -25,6 +28,9 @@ const DOCS = {
 }
 
 export default function TermsModal({ doc, onDocChange, onClose, onAccept }) {
+  const reduced = useReducedMotion()
+  const feedback = { whileTap: reduced ? undefined : { scale: 0.96 }, transition: reduced ? { duration: 0 } : { type: 'spring', stiffness: 450, damping: 28 } }
+  const pillId = useId()
   // จำ doc ล่าสุดไว้ใช้ตอน sheet กำลังปิด (doc เป็น null แล้ว)
   const current = DOCS[doc] ?? DOCS.terms
 
@@ -34,32 +40,31 @@ export default function TermsModal({ doc, onDocChange, onClose, onAccept }) {
         <h2 id="terms-title" className="m-0 text-xl font-bold">
           ข้อตกลงและนโยบาย
         </h2>
-        <button
+        <motion.button {...feedback}
           type="button"
           aria-label="ปิด"
           onClick={onClose}
           className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-cream"
         >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F1A17" strokeWidth="2.2" strokeLinecap="round" aria-hidden="true">
-            <path d="M18 6L6 18M6 6l12 12" />
-          </svg>
-        </button>
+          <X size={18} strokeWidth={2} aria-hidden="true" />
+        </motion.button>
       </div>
 
       <div className="mx-[22px] mt-3 flex rounded-full bg-cream p-1" role="tablist">
         {Object.entries(DOCS).map(([key, d]) => (
-          <button
+          <motion.button {...feedback}
             key={key}
             type="button"
             role="tab"
             aria-selected={doc === key}
             onClick={() => onDocChange(key)}
-            className={`h-10 flex-1 cursor-pointer rounded-full text-sm font-semibold transition-colors ${
-              doc === key ? 'bg-brown text-white' : 'text-ink'
+            className={`relative isolate h-10 flex-1 cursor-pointer rounded-full text-sm font-semibold transition-colors duration-200 ${
+              doc === key ? 'text-white' : 'text-ink'
             }`}
           >
+            {doc === key && <motion.span layoutId={reduced ? undefined : pillId} className="absolute inset-0 -z-10 rounded-full bg-brown" transition={reduced ? { duration: 0 } : { type: 'spring', stiffness: 450, damping: 32 }} />}
             {d.tab}
-          </button>
+          </motion.button>
         ))}
       </div>
 
@@ -76,20 +81,20 @@ export default function TermsModal({ doc, onDocChange, onClose, onAccept }) {
       </div>
 
       <div className="flex gap-2.5 border-t border-[#EDE5DD] px-4 pb-6 pt-4 lg:pb-5">
-        <button
+        <motion.button {...feedback}
           type="button"
           onClick={onClose}
           className="h-[54px] flex-1 cursor-pointer rounded-full border-[1.5px] border-[#D9CFC5] bg-white text-base font-semibold text-ink"
         >
           ปิด
-        </button>
-        <button
+        </motion.button>
+        <motion.button {...feedback}
           type="button"
           onClick={onAccept}
           className="h-[54px] flex-[2] cursor-pointer rounded-full bg-brown text-base font-semibold text-white"
         >
           ยอมรับ
-        </button>
+        </motion.button>
       </div>
     </BottomSheet>
   )

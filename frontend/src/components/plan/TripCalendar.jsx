@@ -1,5 +1,6 @@
 import { useId, useState } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const WEEKDAYS = ['อา.', 'จ.', 'อ.', 'พ.', 'พฤ.', 'ศ.', 'ส.']
 const localIso = date => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
@@ -29,9 +30,9 @@ export default function TripCalendar({ startDate, endDate, tripType, onChange })
   return (
     <div>
       <div className="mb-2 flex items-center justify-between gap-2">
-        <button type="button" disabled={!canGoBack} onClick={() => setMonth(new Date(year, index - 1, 1))} aria-label="เดือนก่อนหน้า" className="flex h-11 w-11 items-center justify-center rounded-full bg-cream text-xl text-brown disabled:opacity-25">‹</button>
+        <motion.button type="button" disabled={!canGoBack} onClick={() => setMonth(new Date(year, index - 1, 1))} aria-label="เดือนก่อนหน้า" whileTap={reduced || !canGoBack ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className="flex h-11 w-11 items-center justify-center rounded-full bg-cream text-brown transition-colors duration-200 motion-reduce:transition-none disabled:opacity-25"><ChevronLeft size={20} strokeWidth={2} aria-hidden="true" /></motion.button>
         <h3 id={labelId} aria-live="polite" className="m-0 text-sm font-semibold">{month.toLocaleDateString('th-TH', { month: 'long', year: 'numeric' })}</h3>
-        <button type="button" onClick={() => setMonth(new Date(year, index + 1, 1))} aria-label="เดือนถัดไป" className="flex h-11 w-11 items-center justify-center rounded-full bg-cream text-xl text-brown">›</button>
+        <motion.button type="button" onClick={() => setMonth(new Date(year, index + 1, 1))} aria-label="เดือนถัดไป" whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className="flex h-11 w-11 items-center justify-center rounded-full bg-cream text-brown transition-colors duration-200 motion-reduce:transition-none"><ChevronRight size={20} strokeWidth={2} aria-hidden="true" /></motion.button>
       </div>
       <div aria-hidden="true" className="grid grid-cols-7 text-center text-xs text-muted">
         {WEEKDAYS.map(day => <span key={day} className="py-2">{day}</span>)}
@@ -45,9 +46,10 @@ export default function TripCalendar({ startDate, endDate, tripType, onChange })
             const endpoint = value === startDate || value === endDate
             const inside = startDate && endDate && value > startDate && value < endDate
             return (
-              <button key={value} type="button" disabled={value < today} onClick={() => selectDate(value)} aria-label={`${date.toLocaleDateString('th-TH', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}${value === startDate ? ' วันเริ่มเดินทาง' : value === endDate ? ' วันกลับ' : ''}`} aria-pressed={endpoint || Boolean(inside)} aria-current={value === today ? 'date' : undefined} className={`relative my-0.5 flex min-h-11 min-w-0 items-center justify-center rounded-full text-sm transition-colors disabled:cursor-not-allowed disabled:opacity-25 ${endpoint ? 'bg-peach font-bold text-brown ring-1 ring-inset ring-[#D9A27E]' : inside ? 'bg-[#FBE3D2] text-brown' : 'text-ink hover:bg-cream'} ${value === today && !endpoint && !inside ? 'font-bold underline decoration-[#D9A27E] underline-offset-4' : ''}`}>
-                {i + 1}
-              </button>
+              <motion.button key={value} type="button" disabled={value < today} onClick={() => selectDate(value)} aria-label={`${date.toLocaleDateString('th-TH', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}${value === startDate ? ' วันเริ่มเดินทาง' : value === endDate ? ' วันกลับ' : ''}`} aria-pressed={endpoint || Boolean(inside)} aria-current={value === today ? 'date' : undefined} whileTap={reduced || value < today ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className={`relative isolate my-0.5 flex min-h-11 min-w-0 items-center justify-center rounded-full text-sm font-medium transition-colors duration-200 motion-reduce:transition-none disabled:cursor-not-allowed disabled:opacity-25 ${endpoint || inside ? 'text-brown' : 'text-ink hover:bg-cream'} ${inside ? 'bg-[#FBE3D2]' : 'bg-transparent'} ${value === today && !endpoint && !inside ? 'underline decoration-[#D9A27E] underline-offset-4' : ''}`}>
+                <AnimatePresence initial={false}>{endpoint && <motion.span aria-hidden="true" className="absolute inset-0 -z-10 rounded-full bg-peach ring-1 ring-inset ring-[#D9A27E]" initial={reduced ? false : { scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: reduced ? 1 : 0.6, opacity: 0 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2, bounce: 0.12 }} />}</AnimatePresence>
+                <span>{i + 1}</span>
+              </motion.button>
             )
           })}
         </motion.div>

@@ -1,3 +1,4 @@
+import { ChevronRight } from 'lucide-react'
 import { useCallback, useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import AppHeader from '../components/AppHeader'
@@ -116,7 +117,7 @@ export default function TripDetail() {
 
         <div className="flex flex-col items-center gap-1 px-4 pb-7 pt-8">
           <SlideLink to="/personality" className={TEXT_LINK}>
-            ดูบุคลิกการเที่ยวของคุณ ›
+            ดูบุคลิกการเที่ยวของคุณ <ChevronRight size={18} strokeWidth={2} aria-hidden="true" />
           </SlideLink>
           <button
             type="button"

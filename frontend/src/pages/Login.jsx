@@ -1,3 +1,4 @@
+import { ChevronLeft } from 'lucide-react'
 import { useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import SlideLink from '../components/SlideLink'
@@ -32,9 +33,7 @@ export default function Login() {
             aria-label="ย้อนกลับ"
             className="flex h-11 w-11 items-center justify-center rounded-full bg-white"
           >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1F1A17" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M15 18l-6-6 6-6" />
-            </svg>
+            <ChevronLeft size={20} strokeWidth={2} className="text-ink" aria-hidden="true" />
           </SlideLink>
         </div>
         <LoginArt />

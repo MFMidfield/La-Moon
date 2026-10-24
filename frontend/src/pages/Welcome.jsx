@@ -1,3 +1,4 @@
+import { Check } from 'lucide-react'
 import { motion, useReducedMotion } from 'framer-motion'
 import { useLocation } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
@@ -114,9 +115,7 @@ export default function Welcome() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.6 + i * 0.08 }}
                 >
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                    <path d="M20 6L9 17l-5-5" />
-                  </svg>
+                  <Check size={14} strokeWidth={2} aria-hidden="true" />
                   {mood}
                 </motion.span>
               ))}

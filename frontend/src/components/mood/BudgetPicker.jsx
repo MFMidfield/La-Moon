@@ -1,4 +1,6 @@
 import { useId } from 'react'
+import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
+import { Check } from 'lucide-react'
 import { BUDGET_PRESETS, BUDGET_RANGE } from '../../data/travel'
 import { formatBaht } from '../../lib/trip/budget'
 
@@ -6,6 +8,7 @@ const thumbClass = 'pointer-events-none absolute inset-0 m-0 h-11 w-full appeara
 
 export default function BudgetPicker({ value, onChange }) {
   const id = useId()
+  const reduced = useReducedMotion()
   const ceiling = Math.max(BUDGET_RANGE.max, value.max)
   const percent = n => (n - BUDGET_RANGE.min) / (ceiling - BUDGET_RANGE.min) * 100
 
@@ -14,7 +17,10 @@ export default function BudgetPicker({ value, onChange }) {
       <h2 id={id} className="m-0 text-base font-semibold">งบประมาณ</h2>
       <div className="grid grid-cols-2 gap-1 rounded-full bg-cream p-1" aria-label="รูปแบบงบประมาณ">
         {[['person', 'ต่อคน'], ['total', 'รวมทั้งทริป']].map(([per, label]) => (
-          <button key={per} type="button" aria-pressed={value.per === per} onClick={() => onChange({ ...value, per })} className={`h-11 cursor-pointer rounded-full text-sm font-medium ${value.per === per ? 'bg-peach text-brown' : 'text-muted'}`}>{label}</button>
+          <motion.button key={per} type="button" aria-pressed={value.per === per} onClick={() => onChange({ ...value, per })} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: 0.22, bounce: 0.15 }} className={`relative isolate h-11 min-w-0 cursor-pointer rounded-full text-sm font-medium transition-colors duration-200 ${value.per === per ? 'text-brown' : 'text-muted'}`}>
+            {value.per === per && <motion.span layoutId={reduced ? undefined : `budget-per-${id}`} initial={false} transition={{ type: 'spring', duration: reduced ? 0 : 0.25, bounce: 0.15 }} className="absolute inset-0 -z-10 rounded-full bg-peach" />}
+            {label}
+          </motion.button>
         ))}
       </div>
       <p className="m-0 text-[23px] font-bold tracking-tight text-brown" aria-live="polite">
@@ -42,7 +48,12 @@ export default function BudgetPicker({ value, onChange }) {
       <div className="grid grid-cols-3 gap-2">
         {BUDGET_PRESETS.map(preset => {
           const active = value.min === preset.min && value.max === preset.max
-          return <button key={preset.id} type="button" aria-pressed={active} onClick={() => onChange({ min: preset.min, max: preset.max, per: value.per })} className={`h-11 cursor-pointer rounded-full text-sm font-medium ${active ? 'bg-peach text-brown' : 'bg-cream text-[#4A3A30]'}`}>{preset.label}</button>
+          return <motion.button key={preset.id} type="button" aria-pressed={active} onClick={() => onChange({ min: preset.min, max: preset.max, per: value.per })} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: 0.22, bounce: 0.15 }} className={`relative h-11 min-w-0 cursor-pointer rounded-full pl-2 pr-6 text-sm font-medium transition-colors duration-200 ${active ? 'bg-peach text-brown' : 'bg-cream text-[#4A3A30]'}`}>
+            {preset.label}
+            <AnimatePresence initial={false}>
+              {active && <motion.span initial={reduced ? false : { scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: reduced ? 1 : 0.6, opacity: 0 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2, bounce: 0.15 }} className="absolute right-1.5 top-1/2 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-brown text-white"><Check size={11} strokeWidth={2.2} aria-hidden="true" /></motion.span>}
+            </AnimatePresence>
+          </motion.button>
         })}
       </div>
     </section>
