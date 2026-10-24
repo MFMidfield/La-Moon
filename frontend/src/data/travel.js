@@ -9,7 +9,10 @@ export const TRANSPORT_TO = [
 ]
 
 // เที่ยวในพื้นที่ (ราคา/วัน ทั้งกลุ่ม ยกเว้น perPerson)
+export const BKK_TRANSIT_PROVINCES = ['bangkok', 'nonthaburi', 'pathum-thani', 'samut-prakan', 'nakhon-pathom', 'samut-sakhon']
+
 export const TRANSPORT_LOCAL = [
+  { id: 'transit', label: 'รถไฟฟ้า/เรือ', costPerDay: 120, perPerson: true },
   { id: 'rental_car', label: 'เช่ารถ', costPerDay: 1200 },
   { id: 'motorbike', label: 'เช่ามอเตอร์ไซค์', costPerDay: 300 },
   { id: 'public', label: 'รถสาธารณะ/แท็กซี่', costPerDay: 400, perPerson: true },
