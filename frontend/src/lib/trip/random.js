@@ -40,7 +40,7 @@ export function randomizeTrip({ draft, places, today = new Date(), tries = 40 })
     const end = new Date(start)
     end.setDate(end.getDate() + nights)
     const pace = locked.has('pace') ? draft.pace : pick(PACES).id
-    const transportLocal = locked.has('transportLocal') && draft.transportLocal ? draft.transportLocal : (travel.sameProvince ? 'own_car' : pick(['rental_car', 'motorbike', 'public', 'tour']))
+    const transportLocal = locked.has('transportLocal') && draft.transportLocal ? draft.transportLocal : pick(['rental_car', 'motorbike', 'public', 'tour'])
     const deckPool = shuffle(matching.filter((p) => p.province === province))
     const perDay = PACES.find((p) => p.id === pace).perDay
     const deck = deckPool.slice(0, Math.max(perDay * (nights + 1) + 2, 5))
