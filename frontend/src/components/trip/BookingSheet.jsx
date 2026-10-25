@@ -1,6 +1,7 @@
 import { X } from 'lucide-react'
 import BottomSheet from '../BottomSheet'
 
+// sheet จองที่พัก (StayRow / รายการสิ่งที่ต้องจอง)
 // Agoda ใช้ลิงก์จริงเมื่อตั้ง VITE_AGODA_CID — ที่เหลือยังเป็น mock สำหรับ pitch
 const AGODA_CID = import.meta.env.VITE_AGODA_CID
 
@@ -23,7 +24,7 @@ export default function BookingSheet({ open, place, title, onClose }) {
     <BottomSheet open={open} onClose={onClose} labelledBy="booking-title">
       <div className="flex items-center justify-between gap-3 px-[22px] pt-4">
         <h2 id="booking-title" className="m-0 min-w-0 text-xl font-bold">
-          {title ?? `จองที่พักใกล้ ${place?.name}`}
+          {title ?? `จองที่พัก ${place?.name}`}
         </h2>
         <button
           type="button"

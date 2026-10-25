@@ -70,10 +70,13 @@ function DetailsForm() {
   const supportsTransit = BKK_TRANSIT_PROVINCES.includes(province)
   const localAll = TRANSPORT_LOCAL.filter(mode => mode.id !== 'transit' || supportsTransit)
   const driving = transportTo === 'car'
-  const localOptions = overnight
-    ? driving ? localAll.filter(mode => mode.id === 'own_car') : localAll.filter(mode => mode.id !== 'own_car')
-    : travel.sameProvince && origin ? [...localAll.filter(mode => mode.id === 'own_car'), ...localAll.filter(mode => mode.id !== 'own_car')] : localAll
-  const fallbackLocal = driving || (!overnight && travel.sameProvince && origin) ? 'own_car' : supportsTransit ? 'transit' : 'public'
+  const inOwnProvince = travel.sameProvince && Boolean(origin)
+  // รถส่วนตัวขึ้นก่อนเมื่อเที่ยวในจังหวัดตัวเอง (ทั้งวันเดียวและค้างคืน); ขับมาเอง → รถส่วนตัวอย่างเดียว; ค้างคืนข้ามจังหวัดไม่มีรถส่วนตัว
+  const ownCarFirst = [...localAll.filter(mode => mode.id === 'own_car'), ...localAll.filter(mode => mode.id !== 'own_car')]
+  const localOptions = driving
+    ? localAll.filter(mode => mode.id === 'own_car')
+    : inOwnProvince ? ownCarFirst : overnight ? localAll.filter(mode => mode.id !== 'own_car') : localAll
+  const fallbackLocal = driving || inOwnProvince ? 'own_car' : supportsTransit ? 'transit' : 'public'
   const transportLocal = localOptions.find(mode => mode.id === draft.transportLocal)?.id ?? fallbackLocal
   const { days, nights } = tripLength(draft)
   const people = travelerCount(draft)

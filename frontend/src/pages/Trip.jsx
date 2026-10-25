@@ -18,6 +18,8 @@ import { findCombos } from '../lib/trip/combos'
 import { computePersonality } from '../lib/trip/personality'
 import { TripLoading, TripMessage } from '../components/trip/TripStates'
 import { PRIMARY_BUTTON } from '../components/trip/styles'
+import BookingSaveSheet from '../components/trip/BookingSaveSheet'
+import { buildBookingItems, serializeBooking } from '../components/trip/bookingItems'
 import TripOverview from '../components/trip/TripOverview'
 import DayPlan from '../components/trip/DayPlan'
 import TripBudget from '../components/trip/TripBudget'
@@ -46,6 +48,8 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
   const [mealSheet, setMealSheet] = useState({ open: false, d: 0, meal: 'lunch' })
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState('')
+  const [booked, setBooked] = useState({})
+  const [bookingOpen, setBookingOpen] = useState(false)
   const [notice, setNotice] = useState('')
   const transit = usePlanTransit(draft.province, plan.days)
   const length = tripLength(draft)
@@ -68,11 +72,14 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
   const legTransport = legsTransportAmount(legs, people)
   const estimate = applyLegsTransport(estimateTrip(input), legTransport, people)
   const warnings = seasonWarnings(places, draft.startDate, draft.endDate)
+  const bookingItems = buildBookingItems({ legs, days: viewDays, startDate: draft.startDate, endDate: draft.endDate, people })
 
   useEffect(() => {
     updateDraft({ itinerary: { ...serializePlan(plan), mealOverrides: overrides, timeOverrides }, itineraryKey: sourceKey })
   }, [plan, overrides, timeOverrides, sourceKey, updateDraft])
 
+  const closeBooking = useCallback(() => setBookingOpen(false), [])
+  const toggleBooked = useCallback(key => setBooked(previous => ({ ...previous, [key]: !previous[key] })), [])
   const closeMealSheet = useCallback(() => setMealSheet(previous => ({ ...previous, open: false })), [])
 
   function changeMeal(value) {
@@ -148,7 +155,7 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
         start_date: draft.startDate, end_date: draft.endDate, nights: length.nights,
         trip_type: draft.tripType, travelers: draft.travelers, budget: draft.budget,
         origin: draft.origin, transport_to: draft.transportTo, transport_local: draft.transportLocal,
-        pace: draft.pace, estimate: legs ? { ...estimate, transportBooking: serializeLegs(legs, draft) } : estimate, is_random: draft.mode === 'random',
+        pace: draft.pace, estimate: { ...estimate, ...(legs ? { transportBooking: serializeLegs(legs, draft) } : {}), ...(bookingItems.length ? { booking: serializeBooking(bookingItems, booked) } : {}) }, is_random: draft.mode === 'random',
       })
       slideNavigate(navigate, `/trips/${trip.id}`, { replace: true })
     } catch {
@@ -157,12 +164,19 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
     }
   }
 
+  // มีของให้จอง (เที่ยวไป-กลับ/ที่พัก) → เปิดเช็กลิสต์ก่อนบันทึก; ไม่มี → บันทึกเลย
+  function requestSave() {
+    if (saving) return
+    if (bookingItems.length) setBookingOpen(true)
+    else save()
+  }
+
   return (
     <>
       <div className="flex flex-col gap-5 px-4 pt-3">
         <TripOverview trip={draft} {...length} people={people} />
         <div className="flex items-center justify-between px-1"><h1 className="m-0 text-2xl font-bold">ทริปในแบบของคุณ</h1><span className="rounded-full bg-white px-3 py-1.5 text-xs text-brown">{places.length} ที่</span></div>
-        <DayPlan days={viewDays} spare={plan.spare} canBook={draft.tripType !== 'daytrip'} startDate={draft.startDate} legs={legs} people={people} onMove={move} onCycleSpare={cycleSpare} onSwap={swap} canSwap={plan.spare.length > 0} transit={transit} timeOverrides={timeOverrides} onTimeChange={changeTime} onResetTimes={resetDayTimes} onEditMeal={food.hasFood ? (d, meal) => setMealSheet({ open: true, d, meal }) : undefined} />
+        <DayPlan days={viewDays} spare={plan.spare} startDate={draft.startDate} legs={legs} people={people} onMove={move} onCycleSpare={cycleSpare} onSwap={swap} canSwap={plan.spare.length > 0} transit={transit} timeOverrides={timeOverrides} onTimeChange={changeTime} onResetTimes={resetDayTimes} onEditMeal={food.hasFood ? (d, meal) => setMealSheet({ open: true, d, meal }) : undefined} />
         {combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
         <TripBudget input={input} legTransport={legTransport} people={people} onApply={applyAlternative} transit={draft.transportLocal === 'transit' ? transit : null} />
         {warnings.length > 0 && <div className="rounded-[24px] bg-[#FBE3D2] p-4"><h2 className="m-0 flex items-center gap-2 text-sm font-semibold"><Sun size={18} strokeWidth={2} aria-hidden="true" />ก่อนออกเดินทาง</h2>{warnings.map(warning => <p key={warning.placeId} className="mb-0 mt-2 text-xs leading-relaxed text-[#4A3A30]">{warning.message}</p>)}</div>}
@@ -170,8 +184,9 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
       </div>
       <div className="sticky bottom-0 mt-4 bg-cream px-4 pb-6 pt-3">
         {saveError && <p role="alert" className="mb-3 mt-0 text-center text-sm text-[#9B432A]">{saveError}</p>}
-        <button type="button" onClick={save} disabled={saving || !places.length} className={PRIMARY_BUTTON}>{saving ? 'กำลังบันทึก…' : 'บันทึกทริป'}</button>
+        <button type="button" onClick={requestSave} disabled={saving || !places.length} className={PRIMARY_BUTTON}>{saving ? 'กำลังบันทึก…' : 'บันทึกทริป'}</button>
       </div>
+      <BookingSaveSheet open={bookingOpen} items={bookingItems} booked={booked} onToggle={toggleBooked} onSave={save} saving={saving} error={saveError} onClose={closeBooking} />
       <MealSwapSheet open={mealSheet.open} d={mealSheet.d} meal={mealSheet.meal} dayLabel={`วันที่ ${mealSheet.d + 1}`} food={food} pool={restaurantPool} liked={likedRestaurants} overridden={overrideKey(mealSheet.d, mealSheet.meal) in overrides} onChange={changeMeal} onNotice={setNotice} onClose={closeMealSheet} />
     </>
   )
