@@ -1,4 +1,4 @@
-import { useEffect, useId, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Navigate, useNavigate, useNavigationType } from 'react-router-dom'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { ArrowRight, Bike, BusFront, CalendarDays, Car, CarFront, CarTaxiFront, Check, ChevronRight, Coins, Dices, Luggage, MapPin, Plane, Sailboat, Sun, Ticket, TrainFront } from 'lucide-react'
@@ -32,14 +32,22 @@ function SelectionCheck({ selected, reduced }) {
   return <AnimatePresence initial={false}>{selected && <motion.span aria-hidden="true" initial={reduced ? false : { scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: reduced ? 1 : 0.6, opacity: 0 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2, bounce: 0.2 }} className="flex h-5 w-5 items-center justify-center rounded-full bg-brown text-white"><Check size={13} strokeWidth={2} /></motion.span>}</AnimatePresence>
 }
 
+// แถบเลือก 2 ช่อง: พื้นพีชเลื่อนแนวนอนในรางของตัวเอง (ไม่ใช้ layoutId — การ์ดด้านบนเปลี่ยนความสูงแล้วแถบไม่ลอยข้ามจอ)
 function DetailsSegments({ label, value, options, onChange, reduced }) {
-  const id = useId()
-  return <div role="group" aria-label={label} className="mb-4 grid grid-cols-2 gap-1 rounded-full bg-cream p-1">
-    {options.map(option => <motion.button key={option.id} type="button" onClick={() => onChange(option.id)} aria-pressed={value === option.id} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className={`relative isolate min-h-11 min-w-0 rounded-full px-2 text-sm font-semibold transition-colors duration-200 motion-reduce:transition-none ${value === option.id ? 'text-brown' : 'text-[#4A3A30]'}`}>
-      {value === option.id && <motion.span aria-hidden="true" layoutId={reduced ? undefined : `${id}-selected`} className="absolute inset-0 -z-10 rounded-full bg-peach" transition={{ type: 'spring', duration: reduced ? 0 : 0.25, bounce: 0.12 }} />}
+  const index = Math.max(0, options.findIndex(option => option.id === value))
+  return <div role="group" aria-label={label} className="relative isolate mb-4 grid grid-cols-2 gap-1 rounded-full bg-cream p-1">
+    <motion.span aria-hidden="true" className="absolute inset-y-1 left-1 -z-10 w-[calc(50%-6px)] rounded-full bg-peach" initial={false} animate={{ x: index === 0 ? '0%' : 'calc(100% + 4px)' }} transition={reduced ? { duration: 0 } : { type: 'spring', duration: 0.3, bounce: 0.12 }} />
+    {options.map(option => <motion.button key={option.id} type="button" onClick={() => onChange(option.id)} aria-pressed={value === option.id} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className={`min-h-11 min-w-0 rounded-full px-2 text-sm font-semibold transition-colors duration-200 motion-reduce:transition-none ${value === option.id ? 'text-brown' : 'text-[#4A3A30]'}`}>
       <span className="block">{option.label}</span>
     </motion.button>)}
   </div>
+}
+
+// การ์ดที่โผล่/หายตามรูปแบบทริป: ยืด-หดความสูงแทนการกระโดด (marginTop ชดเชย gap-3 ของรายการ)
+function Collapse({ show, reduced, children }) {
+  return <AnimatePresence initial={false}>
+    {show && <motion.div key="content" className="overflow-hidden" initial={reduced ? false : { height: 0, opacity: 0, marginTop: -12 }} animate={{ height: 'auto', opacity: 1, marginTop: 0 }} exit={reduced ? { opacity: 0, transition: { duration: 0 } } : { height: 0, opacity: 0, marginTop: -12 }} transition={{ type: 'spring', duration: 0.35, bounce: 0 }}>{children}</motion.div>}
+  </AnimatePresence>
 }
 
 function DetailsForm() {
@@ -202,7 +210,7 @@ function DetailsForm() {
             {originNotice && <p role="status" className="mb-0 mt-2 text-xs text-muted">{originNotice}</p>}
           </DetailCard>
 
-          {showIntercity && <DetailCard title="ไปยังไง" icon={<Luggage size={19} strokeWidth={2} />}>
+          <Collapse show={showIntercity} reduced={reduced}><DetailCard title="ไปยังไง" icon={<Luggage size={19} strokeWidth={2} />}>
             {!origin ? <p className="m-0 flex items-center gap-2 rounded-[20px] bg-cream px-4 py-3 text-sm text-[#4A3A30]"><MapPin size={18} strokeWidth={2} aria-hidden="true" className="shrink-0 text-brown" />เลือกต้นทางก่อน แล้วจะแสดงวิธีเดินทาง</p> : travel.sameProvince ? <span className="inline-flex min-h-10 items-center rounded-full bg-peach px-4 text-sm font-semibold text-brown">{valueText('เที่ยวในจังหวัด', 2)}</span> : <>
               {random && transportLabel && <p className="mb-3 mt-0 text-sm font-semibold text-brown">{valueText(transportLabel, 2)}</p>}
               <div className="grid grid-cols-2 gap-2">
@@ -242,7 +250,7 @@ function DetailsForm() {
                 </motion.button>}
               </div>}
             </>}
-          </DetailCard>}
+          </DetailCard></Collapse>
 
           <DetailCard title="เที่ยวในพื้นที่" icon={<Bike size={19} strokeWidth={2} />}>
             {random && <p className="mb-3 mt-0 text-sm font-semibold text-brown">{valueText(localLabel, 3)}</p>}

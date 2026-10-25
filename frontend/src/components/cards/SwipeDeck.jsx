@@ -3,7 +3,6 @@ import { animate, motion, useMotionValue, useReducedMotion, useTransform } from 
 import { HOLO_RARITIES } from '../../data/rarity'
 import DeckFrame from './DeckFrame'
 import { SkeletonCard } from './DeckStates'
-import HoloOverlay from './HoloOverlay'
 
 const SWIPE_POWER = 110
 const SAVE_POWER = 90
@@ -23,7 +22,6 @@ function DeckCard({ ref, isFront, enter, dragX, dragY, nextScale, onSwiped, canS
   const likeOpacity = useTransform(x, [24, 100], [0, 1])
   const skipOpacity = useTransform(x, [-100, -24], [1, 0])
   const saveOpacity = useTransform(y, [-100, -24], [1, 0])
-  const glareX = useTransform([px, x], ([p, v]) => clamp(p + v / 4, -20, 120))
   const tiltY = useTransform([px, x], ([p, v]) => clamp((p - 50) / 7 + v / 30, -10, 10))
   const tiltX = useTransform(py, [0, 100], [6, -6])
   const flying = useRef(false)
@@ -140,7 +138,6 @@ function DeckCard({ ref, isFront, enter, dragX, dragY, nextScale, onSwiped, canS
       aria-hidden={isFront ? undefined : true}
     >
       {children}
-      {holo && <HoloOverlay rarity={rarity} glareX={glareX} glareY={py} active={isFront} />}
       {isFront && (
         <>
           <motion.span
