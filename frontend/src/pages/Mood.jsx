@@ -111,23 +111,23 @@ export default function Mood() {
   return (
     <MotionConfig reducedMotion="user">
       <div inert={open ? true : undefined} aria-hidden={open ? true : undefined} className="min-h-svh bg-cream text-ink">
-        <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col lg:pt-4">
+        <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col lg:max-w-[1120px] lg:pt-4">
           <AppHeader title="วางทริป" step="1 / 4" backTo="/home" />
           <div className="flex flex-col gap-1 px-[22px] pb-1 pt-3">
             <h1 className="m-0 text-[28px] font-semibold">ทริปนี้อยากได้ฟีลไหน?</h1>
             <p className="m-0 text-sm text-muted">เลือกได้สูงสุด {MAX_MOODS} มู้ด <span className="ml-1 rounded-full bg-white px-2.5 py-0.5 text-xs text-brown">{draft.moods.length} / {MAX_MOODS}</span></p>
           </div>
-          <div className="flex flex-col gap-3.5 px-4 pb-[calc(7rem+env(safe-area-inset-bottom))] pt-4">
-            <AiMoodBox onPick={ids => updateDraft({ moods: ids.slice(0, MAX_MOODS), deck: null, likedIds: [], swipeKey: null, swipeHistory: [], itineraryKey: null, itinerary: null })} />
-            <div className="grid grid-cols-2 gap-2.5">
+          <div className="flex flex-col gap-3.5 px-4 pb-[calc(7rem+env(safe-area-inset-bottom))] pt-4 lg:grid lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)] lg:items-start lg:gap-4 lg:px-[22px]">
+            <div className="lg:col-span-2"><AiMoodBox onPick={ids => updateDraft({ moods: ids.slice(0, MAX_MOODS), deck: null, likedIds: [], swipeKey: null, swipeHistory: [], itineraryKey: null, itinerary: null })} /></div>
+            <div className="grid grid-cols-2 gap-2.5 lg:col-span-2 lg:grid-cols-4 lg:gap-3">
               {MOODS.map(mood => <MoodTile key={mood.id} mood={mood} selected={draft.moods.includes(mood.id)} disabled={full && !draft.moods.includes(mood.id)} onClick={() => toggle(mood.id)} />)}
             </div>
             <BudgetPicker value={draft.budget} onChange={budget => updateDraft({ budget })} />
             <TravelersPicker value={draft.travelers} onChange={travelers => updateDraft({ travelers })} />
           </div>
           <div className="grow" />
-          <div className={`sticky bottom-0 z-30 isolate bg-cream px-4 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-4 before:pointer-events-none before:absolute before:inset-x-0 before:-top-6 before:h-6 before:bg-linear-to-t before:from-cream before:to-transparent ${open ? 'invisible' : ''}`}>
-            <motion.button type="button" disabled={!draft.moods.length || open} whileTap={tap} transition={spring} className={primaryClass} onClick={() => { setPhase('choose'); setError(''); setOpen(true) }}>ต่อไป <ArrowRight size={20} strokeWidth={2} aria-hidden="true" /></motion.button>
+          <div className={`sticky bottom-0 z-30 isolate bg-cream lg:flex lg:justify-center px-4 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-4 before:pointer-events-none before:absolute before:inset-x-0 before:-top-6 before:h-6 before:bg-linear-to-t before:from-cream before:to-transparent ${open ? 'invisible' : ''}`}>
+            <motion.button type="button" disabled={!draft.moods.length || open} whileTap={tap} transition={spring} className={`${primaryClass} lg:max-w-[420px]`} onClick={() => { setPhase('choose'); setError(''); setOpen(true) }}>ต่อไป <ArrowRight size={20} strokeWidth={2} aria-hidden="true" /></motion.button>
           </div>
         </div>
       </div>

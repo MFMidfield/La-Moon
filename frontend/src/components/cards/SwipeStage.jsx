@@ -15,6 +15,7 @@ import { DeckMessage } from './DeckStates'
 import RoundIntro from './RoundIntro'
 import SwipeControls from './SwipeControls'
 import SwipeDeck from './SwipeDeck'
+import { LikedPanel, ProgressPanel } from './SwipeSidePanels'
 import { PRIMARY_BUTTON } from './swipeHelpers'
 
 // ลิงก์ข้อความใต้ปุ่ม (สรุปเลย / ข้ามขั้นนี้)
@@ -177,12 +178,16 @@ export default function SwipeStage({
 
   let body
   if (fallback) {
-    body = <div className="flex min-h-0 flex-1 flex-col overflow-y-auto">{fallback}</div>
+    body = <div className="flex min-h-0 flex-1 flex-col overflow-y-auto lg:col-start-2 lg:row-start-3">{fallback}</div>
   } else if (interlude) {
-    body = <RoundIntro count={rs.saved.length} noun={noun} onStart={beginRound2} />
+    body = (
+      <div className="flex min-h-0 flex-1 flex-col lg:col-start-2 lg:row-start-3">
+        <RoundIntro count={rs.saved.length} noun={noun} onStart={beginRound2} />
+      </div>
+    )
   } else if (finished) {
     body = (
-      <div className="flex min-h-0 flex-1 flex-col overflow-y-auto">
+      <div className="flex min-h-0 flex-1 flex-col overflow-y-auto lg:col-start-2 lg:row-start-3">
       <DeckMessage title={doneTitle} body={doneBody?.(rs.liked.length)}>
         <motion.button
           type="button"
@@ -209,7 +214,7 @@ export default function SwipeStage({
     )
   } else {
     body = (
-      <div className="min-h-0 flex-1 pt-2.5">
+      <div className="min-h-0 flex-1 pt-2.5 lg:col-start-2 lg:row-start-3">
         <SwipeDeck
           ref={deckRef}
           items={queueItems}
@@ -231,15 +236,20 @@ export default function SwipeStage({
   }
 
   let counter = 'กำลังเตรียมการ์ด…'
-  if (rs && total) counter = `${rs.round === 2 ? 'รอบสอง · ' : ''}${Math.min(rs.index + 1, total)} / ${total} ${noun}`
+  let position = ''
+  if (rs && total) {
+    position = `${Math.min(rs.index + 1, total)} / ${total} ${noun}`
+    counter = `${rs.round === 2 ? 'รอบสอง · ' : ''}${position}`
+  }
+  const likedItems = rs ? rs.liked.map((id) => byId[id]).filter(Boolean) : []
 
   return (
     <MotionConfig reducedMotion="user">
       <div className="h-dvh overflow-hidden bg-cream">
-        <div className="mx-auto flex h-full w-full max-w-[560px] flex-col text-ink">
-          {header}
+        <div className="mx-auto flex h-full w-full max-w-[560px] flex-col text-ink lg:grid lg:max-w-[1120px] lg:grid-cols-[minmax(0,1fr)_clamp(340px,calc((100dvh_-_206px)_*_0.64_+_32px),460px)_minmax(0,1fr)] lg:grid-rows-[auto_auto_minmax(0,1fr)_auto] lg:gap-x-8">
+          <div className="shrink-0 lg:col-span-full lg:row-start-1">{header}</div>
 
-          <div className="flex shrink-0 items-center justify-between gap-2 px-[22px] py-2 text-xs text-muted">
+          <div className="flex shrink-0 items-center justify-between gap-2 px-[22px] py-2 text-xs text-muted lg:hidden">
             <span className="min-w-0 truncate">{hint}</span>
             <span className="flex shrink-0 items-center gap-2">
               {rs && rs.round === 1 && rs.saved.length > 0 && (
@@ -254,8 +264,19 @@ export default function SwipeStage({
 
           {body}
 
+          {!fallback && rs && (
+            <>
+              <aside className="hidden lg:col-start-1 lg:row-span-3 lg:row-start-2 lg:flex lg:h-0 lg:min-h-full lg:flex-col lg:gap-3 lg:pt-5">
+                <ProgressPanel hint={hint} counter={position || counter} index={rs.index} total={total} round={rs.round} savedCount={rs.saved.length} />
+              </aside>
+              <aside className="hidden lg:col-start-3 lg:row-span-3 lg:row-start-2 lg:flex lg:h-0 lg:min-h-full lg:flex-col lg:gap-4 lg:pb-4 lg:pt-5">
+                <LikedPanel liked={likedItems} noun={noun} labelOf={labelOf} canSave={saveAllowed} />
+              </aside>
+            </>
+          )}
+
           {swiping && (
-            <div className="shrink-0 pb-[calc(0.25rem+env(safe-area-inset-bottom))]">
+            <div className="shrink-0 pb-[calc(0.25rem+env(safe-area-inset-bottom))] lg:col-start-2 lg:row-start-4">
               <SwipeControls
                 dragX={dragX}
                 dragY={dragY}
