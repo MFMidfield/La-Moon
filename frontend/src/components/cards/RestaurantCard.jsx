@@ -22,7 +22,7 @@ export default function RestaurantCard({ restaurant: r }) {
 
   return (
     <div className="flex h-full flex-col">
-      <CardImage src={r.image_url} alt={r.name} fallback={<FlatBadge icon={kind.icon} />}>
+      <CardImage src={r.image_url} alt={r.name} fallback={<FlatBadge icon={kind.icon} />} credit={r.image_credit} license={r.image_license} pageUrl={r.image_page_url}>
         {r.is_mock && <MockBadge />}
       </CardImage>
 
@@ -48,7 +48,7 @@ export default function RestaurantCard({ restaurant: r }) {
             ~฿{fmtRange(r.price_per_person)}
             <span className="font-normal text-muted">/คน</span>
           </span>
-          <Rating score={r.rating.score} outOf={r.rating.out_of} count={r.rating.count} />
+          {r.rating && <Rating score={r.rating.score} outOf={r.rating.out_of} count={r.rating.count} />}
         </div>
 
         {r.opening_hours && (

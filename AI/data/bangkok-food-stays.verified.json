@@ -1,0 +1,1049 @@
+{
+  "generated_at": "2026-10-25",
+  "province": "bangkok",
+  "researcher": "LaMoon source verification",
+  "note": "Verified restaurants and stays only; source places are out of scope. Prices are planning estimates, not live quotes. Unconfirmed ratings and booking URLs removed. Excluded records are audit only and are not exported to the app.",
+  "restaurants": [
+    {
+      "id": "jay-fai",
+      "province": "bangkok",
+      "name_th": "เจ๊ไฝ",
+      "name_en": "Jay Fai",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes_th": [
+        "ไข่เจียวปู",
+        "ราดหน้าทะเล"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "สำราญราษฎร์ เขตพระนคร",
+      "lat": 13.752606,
+      "lng": 100.504769,
+      "coords_source": "https://commons.wikimedia.org/wiki/File:Jay_Fai,_bangkok_20180406.jpg",
+      "description_th": "ร้านอาหารสตรีทฟู้ดระดับมิชลิน 1 ดาวชื่อดังโลกริมถนนมหาไชย",
+      "price_per_person_thb": {
+        "min": 600,
+        "max": 2000
+      },
+      "opening_hours": "09:00-19:30",
+      "closed_days": "วันอาทิตย์-อังคาร",
+      "awards": [
+        "MICHELIN 1 ดาว"
+      ],
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.instagram.com/jayfaibangkok/",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bangkok_street_food_-_Jay_Fai.jpg/1280px-Bangkok_street_food_-_Jay_Fai.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Bangkok_street_food_-_Jay_Fai.jpg",
+      "image_author": "Streets of Food",
+      "image_license": "CC BY 2.0",
+      "official_image_url": null,
+      "sources": [
+        "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jay-fai",
+        "https://www.tourismthailand.org/Restaurant/jay-fai",
+        "https://www.thailandtravel.or.jp/jay-fai-restaurant/",
+        "https://commons.wikimedia.org/wiki/File:Bangkok_street_food_-_Jay_Fai.jpg",
+        "https://commons.wikimedia.org/wiki/File:Jay_Fai,_bangkok_20180406.jpg"
+      ],
+      "uncertain_fields": [
+        "price_per_person_thb"
+      ],
+      "verify_note": "Verified identity/address and Wed–Sat hours against MICHELIN; corrected closed days to Sunday–Tuesday, crab-omelette typo and replaced unsupported 2026-labelled award with one-star distinction without an unverified year. Coordinates come from geotagged Commons photo explicitly of Jay Fai, consistent with 327 Maha Chai Road. Price is a planning estimate, widened to allow costly crab dishes; not a verified per-person menu quote. Removed fabricated MICHELIN numerical rating.",
+      "image_credit": "Streets of Food / Wikimedia Commons",
+      "image_verification": {
+        "kind": "exact",
+        "description": "File page explicitly identifies Raan Jay Fai in Bangkok and credits Streets of Food.",
+        "author_license_verified_on": "https://commons.wikimedia.org/wiki/File:Bangkok_street_food_-_Jay_Fai.jpg",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "checked_at": "2026-10-25",
+        "head_status": 200,
+        "content_type": "image/jpeg"
+      },
+      "image_exact": true,
+      "image_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "image_note": "File page explicitly identifies Raan Jay Fai in Bangkok and credits Streets of Food.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    },
+    {
+      "id": "thipsamai-pad-thai",
+      "province": "bangkok",
+      "name_th": "ทิพย์สมัย ผัดไทยประตูผี",
+      "name_en": "Thipsamai Pad Thai (Pratoopee)",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "ผัดไทย"
+      ],
+      "signature_dishes_th": [
+        "ผัดไทยมันกุ้งห่อไข่",
+        "น้ำส้มคั้นสด"
+      ],
+      "meals": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "area_th": "ประตูผี สำราญราษฎร์ เขตพระนคร",
+      "lat": 13.7528325,
+      "lng": 100.5047875,
+      "coords_source": "https://goo.gl/maps/vXBm4TvH3BT2",
+      "description_th": "ร้านผัดไทยประตูผีบนถนนมหาไชย มีผัดไทยมันกุ้งห่อไข่เป็นเมนูเด่น",
+      "price_per_person_thb": {
+        "min": 75,
+        "max": 150
+      },
+      "opening_hours": "09:00-24:00",
+      "closed_days": "วันอังคาร",
+      "awards": [],
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://thipsamai.com",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Thipsamai_%28September_2016%29.jpeg/1280px-Thipsamai_%28September_2016%29.jpeg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Thipsamai_(September_2016).jpeg",
+      "image_author": "LWYang from USA",
+      "image_license": "CC BY 2.0",
+      "official_image_url": null,
+      "sources": [
+        "https://thipsamai.com/",
+        "https://thipsamai.com/contact-us/",
+        "https://goo.gl/maps/vXBm4TvH3BT2",
+        "https://commons.wikimedia.org/wiki/File:Thipsamai_(September_2016).jpeg"
+      ],
+      "uncertain_fields": [
+        "price_per_person_thb"
+      ],
+      "verify_note": "Official contact page confirms Pratoopee branch, Thai/English name, 313–315 Maha Chai Road, hours09:00–midnight and Tuesday closure; added lunch eligibility. Google Maps pin from official contact link resolves13.7528325,100.5047875. Removed unsupported Bib Gourmand2026 and numerical rating. Retained original THB75–150/person as unconfirmed estimate, not current menu price. Removed unsupported80-year restaurant claim (official says Thipsamai name since1966; longer experience refers to family recipe).",
+      "image_credit": "LWYang from USA / Wikimedia Commons",
+      "image_verification": {
+        "kind": "exact",
+        "description": "File title and description explicitly identify Thipsamai, the pad thai restaurant in Bangkok.",
+        "author_license_verified_on": "https://commons.wikimedia.org/wiki/File:Thipsamai_(September_2016).jpeg",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "checked_at": "2026-10-25",
+        "head_status": 200,
+        "content_type": "image/jpeg"
+      },
+      "image_exact": true,
+      "image_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "image_note": "File title and description explicitly identify Thipsamai, the pad thai restaurant in Bangkok.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    },
+    {
+      "id": "somboon-seafood-ban-thad-thong",
+      "province": "bangkok",
+      "name_th": "สมบูรณ์โภชนา บรรทัดทอง",
+      "name_en": "Somboon Seafood (Bantadthong)",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "จีน-ไทย"
+      ],
+      "signature_dishes_th": [
+        "ปูผัดผงกะหรี่",
+        "ต้มยำกุ้ง"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "บรรทัดทอง วังใหม่ เขตปทุมวัน",
+      "lat": 13.745208,
+      "lng": 100.523898,
+      "coords_source": "https://maps.app.goo.gl/PrRhT6YyPhUJqEd19",
+      "description_th": "ต้นตำรับปูผัดผงกะหรี่อันลือชื่อขวัญใจนักท่องเที่ยวทั่วโลก",
+      "price_per_person_thb": {
+        "min": 300,
+        "max": 600
+      },
+      "opening_hours": "11:00-22:00 (รับรายการสุดท้าย 21:30)",
+      "closed_days": null,
+      "awards": [],
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.somboonseafood.com",
+      "image_url": "https://images.unsplash.com/photo-1716959669858-11d415bdead6?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com/photos/a-bowl-of-soup-with-a-spoon-in-it-JTTxGQaFZKw",
+      "image_author": "You Le",
+      "image_license": "ภาพประกอบ · Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.somboonseafood.com/en/location",
+        "https://www.somboonseafood.com/en/about",
+        "https://maps.app.goo.gl/PrRhT6YyPhUJqEd19",
+        "https://unsplash.com/photos/a-bowl-of-soup-with-a-spoon-in-it-JTTxGQaFZKw"
+      ],
+      "uncertain_fields": [
+        "price_per_person_thb",
+        "closed_days"
+      ],
+      "verify_note": "Official site confirms Bantadthong branch at895/6–21 Soi Chulalongkorn8, original fried curry crab, and11:00–22:00 opening with21:30 last order. Corrected coordinates from official Google Maps link; source pin was about700m south. Removed unverified Wongnai award2026 and rating. THB300–600/person remains a planning estimate, no current priced menu confirmed. Official page gives hours but no explicit regular closure policy; closed_days:null is unknown, not a guarantee of daily opening.",
+      "image_credit": "You Le / Unsplash",
+      "image_verification": {
+        "kind": "illustrative",
+        "description": "Illustrative Thai crab curry with betel leaf, photographed at The Rice by Larnkhao, Satun, Thailand, per description/location. Not Somboon or its yellow curry crab. Free Unsplash License, not Unsplash+.",
+        "author_license_verified_on": "https://unsplash.com/photos/a-bowl-of-soup-with-a-spoon-in-it-JTTxGQaFZKw",
+        "license_url": "https://unsplash.com/license",
+        "checked_at": "2026-10-25",
+        "head_status": 200,
+        "content_type": "image/jpeg"
+      },
+      "image_exact": false,
+      "image_license_url": "https://unsplash.com/license",
+      "image_note": "Illustrative Thai crab curry with betel leaf, photographed at The Rice by Larnkhao, Satun, Thailand, per description/location. Not Somboon or its yellow curry crab. Free Unsplash License, not Unsplash+.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    },
+    {
+      "id": "here-hai",
+      "province": "bangkok",
+      "name_th": "เฮียให้ ข้าวผัดโคตรปู",
+      "name_en": "Here Hai (Vadhana)",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "ข้าวผัดปูแกะ",
+        "กั้งผัดพริกสด"
+      ],
+      "meals": [
+        "lunch"
+      ],
+      "area_th": "เอกมัย คลองตันเหนือ เขตวัฒนา",
+      "lat": 13.7302655,
+      "lng": 100.586342,
+      "coords_source": "https://maps.app.goo.gl/yXRweJzjzutmnWNT9",
+      "description_th": "ร้านข้าวผัดปูแน่นๆ ระดับ Bib Gourmand ย่านเอกมัย",
+      "price_per_person_thb": {
+        "min": 225,
+        "max": 450
+      },
+      "opening_hours": "10:00-15:00, 16:00-17:30",
+      "closed_days": "วันจันทร์",
+      "awards": [
+        "MICHELIN Bib Gourmand"
+      ],
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.facebook.com/herehaifoods/",
+      "image_url": "https://images.pexels.com/photos/31029445/pexels-photo-31029445.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "image_page_url": "https://www.pexels.com/photo/authentic-thai-fried-rice-on-rustic-table-31029445/",
+      "image_author": "Ali Kazal",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "official_image_url": null,
+      "sources": [
+        "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/here-hai",
+        "https://guide.michelin.com/pl/en/bangkok-region/restaurants/bib-gourmand",
+        "https://maps.app.goo.gl/yXRweJzjzutmnWNT9",
+        "https://www.pexels.com/photo/authentic-thai-fried-rice-on-rustic-table-31029445/"
+      ],
+      "uncertain_fields": [
+        "price_per_person_thb"
+      ],
+      "verify_note": "MICHELIN confirms112/1 Sukhumvit63, split sessions10:00–15:00/16:00–17:30 and Monday closure; removed dinner eligibility because app dinner starts18:00. Corrected pin via named Google Maps listing (13.7302655,100.586342), original about350m west. Confirmed Bib Gourmand listing but removed unsupported2026 year and fabricated MICHELIN rating. THB225–450/person kept as unconfirmed sharing-meal estimate. Replaced wrong Facebook handle with herehaifoods, consistent with business listing.",
+      "image_credit": "Ali Kazal / Pexels",
+      "image_verification": {
+        "kind": "illustrative",
+        "description": "Illustrative Thai fried rice photographed in Phuket, Thailand, per photo description; not Here Hai and not verified as crab fried rice.",
+        "author_license_verified_on": "https://www.pexels.com/photo/authentic-thai-fried-rice-on-rustic-table-31029445/",
+        "license_url": "https://www.pexels.com/license/",
+        "checked_at": "2026-10-25",
+        "head_status": 200,
+        "content_type": "image/jpeg"
+      },
+      "image_exact": false,
+      "image_license_url": "https://www.pexels.com/license/",
+      "image_note": "Illustrative Thai fried rice photographed in Phuket, Thailand, per photo description; not Here Hai and not verified as crab fried rice.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    },
+    {
+      "id": "jeh-o-chula",
+      "province": "bangkok",
+      "name_th": "เจ๊โอว",
+      "name_en": "Jeh O Chula",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ไทย",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes_th": [
+        "มาม่าโอ้โห",
+        "หมูกรอบ"
+      ],
+      "meals": [
+        "dinner",
+        "snack"
+      ],
+      "area_th": "จรัสเมือง รองเมือง เขตปทุมวัน",
+      "lat": 13.7424996,
+      "lng": 100.5225179,
+      "coords_source": "https://maps.app.goo.gl/5vwqYLm8VfqEfiZ39",
+      "description_th": "ร้านต้มยำมาม่าหน้าแน่นในตำนานย่านจุฬาฯ ที่คนต่อคิวแน่นทุกคืน",
+      "price_per_person_thb": {
+        "min": 125,
+        "max": 250
+      },
+      "opening_hours": "16:30-24:00",
+      "closed_days": null,
+      "awards": [
+        "MICHELIN Bib Gourmand 2025"
+      ],
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.facebook.com/RanCeXow/",
+      "image_url": "https://images.pexels.com/photos/12561892/pexels-photo-12561892.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "image_page_url": "https://www.pexels.com/photo/tom-yum-soup-in-white-ceramic-bowl-12561892/",
+      "image_author": "Augustinus Martinus Noppé",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "official_image_url": null,
+      "sources": [
+        "https://guide.michelin.com/th/en/article/dining-out/5-must-try-bib-gourmand-restaurants-in-bangkok-from-the-michelin-guide-thailand-2025",
+        "https://www.aacsb.edu/-/media/documents/events/aacsb-guidebook_.pdf?hash=3B3D6A9CE13C18FD9D910CAF50803037&rev=1e144447b58f4c46bbc6888264bb8384",
+        "https://maps.app.goo.gl/5vwqYLm8VfqEfiZ39",
+        "https://www.pexels.com/photo/tom-yum-soup-in-white-ceramic-bowl-12561892/"
+      ],
+      "uncertain_fields": [
+        "price_per_person_thb",
+        "opening_hours",
+        "closed_days"
+      ],
+      "verify_note": "MICHELIN2025 article establishes name, Bib Gourmand and tom-yum instant noodles/crispy pork; changed nonsense dish names. No2026 award asserted. Google Maps listing confirms113 Soi Charat Mueang and pin13.7424996,100.5225179, about200m northeast of source. Retained16:30–midnight daily schedule documented in AACSB guide, but current owner-issued schedule not obtained; hours and closure remain uncertain. PriceTHB125–250/person is an unconfirmed shared-meal estimate. Replaced unsubstantiated Facebook handle with linked address in AACSB guide. Removed fabricated MICHELIN rating.",
+      "image_credit": "Augustinus Martinus Noppé / Pexels",
+      "image_verification": {
+        "kind": "illustrative",
+        "description": "Illustrative Thai tom yum soup photographed in Thailand per photo page; not Jeh O and not its Mama noodle dish.",
+        "author_license_verified_on": "https://www.pexels.com/photo/tom-yum-soup-in-white-ceramic-bowl-12561892/",
+        "license_url": "https://www.pexels.com/license/",
+        "checked_at": "2026-10-25",
+        "head_status": 200,
+        "content_type": "image/jpeg"
+      },
+      "image_exact": false,
+      "image_license_url": "https://www.pexels.com/license/",
+      "image_note": "Illustrative Thai tom yum soup photographed in Thailand per photo page; not Jeh O and not its Mama noodle dish.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    },
+    {
+      "id": "wattana-panich",
+      "province": "bangkok",
+      "name_th": "วัฒนาพานิช ก๋วยเตี๋ยวเนื้อ",
+      "name_en": "Wattana Panich",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ไทย-จีน",
+        "ก๋วยเตี๋ยวเนื้อ"
+      ],
+      "signature_dishes_th": [
+        "เกาเหลาเนื้อตุ๋น",
+        "ก๋วยเตี๋ยวเนื้อรวม"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "เอกมัย คลองตันเหนือ เขตวัฒนา",
+      "lat": 13.7341699,
+      "lng": 100.5876494,
+      "coords_source": "https://goo.gl/maps/DAgFgUCK8vv",
+      "description_th": "ร้านเนื้อตุ๋นน้ำซุปเคี่ยวข้ามปีอันเป็นเอกลักษณ์ย่านเอกมัย",
+      "price_per_person_thb": {
+        "min": 75,
+        "max": 150
+      },
+      "opening_hours": "09:00-19:30",
+      "closed_days": null,
+      "awards": [],
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.facebook.com/pages/Wattana-Panich/210308925676506",
+      "image_url": "https://images.pexels.com/photos/35283658/pexels-photo-35283658.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "image_page_url": "https://www.pexels.com/photo/traditional-thai-noodle-dish-in-rich-broth-35283658/",
+      "image_author": "นิรมล บุญเทพ",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.thailandtravel.or.jp/wattana_panich/",
+        "https://goo.gl/maps/DAgFgUCK8vv",
+        "https://www.wongnai.com/restaurants/wattanapanich",
+        "https://www.pexels.com/photo/traditional-thai-noodle-dish-in-rich-broth-35283658/"
+      ],
+      "uncertain_fields": [
+        "price_per_person_thb",
+        "opening_hours",
+        "closed_days"
+      ],
+      "verify_note": "Tourism Authority of Thailand page confirms Wattana Panich,336–338 Ekkamai and09:00–19:30. Its linked Google Maps listing gives13.7341699,100.5876494; fixed original pin about340m west. Retained original75–150/person but current numerical range not verified (owner-labelled Wongnai listing says101–250 category); retained hours because first-party tourism page supports them, but current opening/closed-days conflict with owner-labelled Wongnai(10–19, last Monday monthly closed), so flagged both. Removed unverified halal claim (no certification), Wongnai2026 award and rating.",
+      "image_credit": "นิรมล บุญเทพ / Pexels",
+      "image_verification": {
+        "kind": "illustrative",
+        "description": "Illustrative traditional Thai noodle soup in rich dark broth, photographed in Thailand per photo page. Not Wattana Panich; meat type not confirmed and no claim this is beef. No freely licensed exact-place photo established.",
+        "author_license_verified_on": "https://www.pexels.com/photo/traditional-thai-noodle-dish-in-rich-broth-35283658/",
+        "license_url": "https://www.pexels.com/license/",
+        "checked_at": "2026-10-25",
+        "head_status": 200,
+        "content_type": "image/jpeg"
+      },
+      "image_exact": false,
+      "image_license_url": "https://www.pexels.com/license/",
+      "image_note": "Illustrative traditional Thai noodle soup in rich dark broth, photographed in Thailand per photo page. Not Wattana Panich; meat type not confirmed and no claim this is beef. No freely licensed exact-place photo established.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    },
+    {
+      "id": "mont-nomsod-sao-chingcha",
+      "province": "bangkok",
+      "name_th": "มนต์ นมสด เสาชิงช้า",
+      "name_en": "Mont Nomsod Sao Chingcha",
+      "kind": "bakery",
+      "cuisine_th": [
+        "เบเกอรี่",
+        "เครื่องดื่ม"
+      ],
+      "signature_dishes_th": [
+        "ขนมปังสังขยาใบเตย",
+        "นมสดเย็น"
+      ],
+      "meals": [
+        "snack",
+        "dinner"
+      ],
+      "area_th": "ถนนดินสอ เสาชิงช้า เขตพระนคร",
+      "lat": 13.7541542,
+      "lng": 100.501137,
+      "coords_source": "https://goo.gl/maps/Gi6jvAMpGsam7Kn19",
+      "description_th": "ร้านขนมปังปิ้งและนมสดโบราณชื่อดังตรงข้ามศาลาว่าการกรุงเทพฯ",
+      "price_per_person_thb": {
+        "min": 40,
+        "max": 80
+      },
+      "opening_hours": "13:00-22:00",
+      "closed_days": null,
+      "awards": [],
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.mont-nomsod.com",
+      "image_url": "https://images.pexels.com/photos/35751487/pexels-photo-35751487.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "image_page_url": "https://www.pexels.com/photo/rustic-breakfast-with-milk-and-toast-35751487/",
+      "image_author": "Ana Dolidze",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.visitthailand.or.kr/1/tourdata/2024bangkok.pdf",
+        "https://goo.gl/maps/Gi6jvAMpGsam7Kn19",
+        "https://www.corner.inc/place/pz7embLfx7hi",
+        "https://www.pexels.com/photo/rustic-breakfast-with-milk-and-toast-35751487/"
+      ],
+      "uncertain_fields": [
+        "price_per_person_thb",
+        "closed_days",
+        "website"
+      ],
+      "verify_note": "Tourism Authority of Thailand Korean guide confirms Mont Nomsod at160/1–3 Dinso Road and13:00–22:00. Named Google Maps link resolves13.7541542,100.501137; source coordinate was about145m west, within tolerance but replaced with listing pin. Removed unverifiable vegetarian label, Wongnai2026 award and rating. THB40–80/person kept as unconfirmed snack estimate. Website retained from original/TAT guide but TLS certificate failed, so usability uncertain; regular closures not explicitly confirmed.",
+      "image_credit": "Ana Dolidze / Pexels",
+      "image_verification": {
+        "kind": "illustrative",
+        "description": "Illustrative toast and milk by dish type; not Mont Nomsod. Commons File:Mont nomsod.jpg identifies brand only, not Sao Chingcha branch, so not used.",
+        "author_license_verified_on": "https://www.pexels.com/photo/rustic-breakfast-with-milk-and-toast-35751487/",
+        "license_url": "https://www.pexels.com/license/",
+        "checked_at": "2026-10-25",
+        "head_status": 200,
+        "content_type": "image/jpeg"
+      },
+      "image_exact": false,
+      "image_license_url": "https://www.pexels.com/license/",
+      "image_note": "Illustrative toast and milk by dish type; not Mont Nomsod. Commons File:Mont nomsod.jpg identifies brand only, not Sao Chingcha branch, so not used.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    },
+    {
+      "id": "rongros",
+      "province": "bangkok",
+      "name_th": "โรงรส",
+      "name_en": "Rongros",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "แตงโมหน้าปลาแห้ง",
+        "แกงเขียวหวานเนื้อ"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "ท่าเตียน พระบรมมหาราชวัง เขตพระนคร",
+      "lat": 13.74432,
+      "lng": 100.49163,
+      "coords_source": "https://commons.wikimedia.org/wiki/File:Lunch_at_Rongros,_Bangkok_(Jan_2021)_-_img_01.jpg",
+      "description_th": "ร้านอาหารไทยริมแม่น้ำเจ้าพระยาชมวิวพระปรางค์วัดอรุณตระการตา",
+      "price_per_person_thb": {
+        "min": 250,
+        "max": 500
+      },
+      "opening_hours": "11:00-15:00, 17:00-22:00",
+      "closed_days": null,
+      "awards": [
+        "MICHELIN Selected (ไม่ระบุปี)"
+      ],
+      "dietary": [],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "website": "https://www.facebook.com/rongrosbkk",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Lunch_at_Rongros%2C_Bangkok_%28Jan_2021%29_-_img_01.jpg/1280px-Lunch_at_Rongros%2C_Bangkok_%28Jan_2021%29_-_img_01.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Lunch_at_Rongros,_Bangkok_(Jan_2021)_-_img_01.jpg",
+      "image_author": "Chainwit.",
+      "image_license": "CC BY-SA 4.0",
+      "official_image_url": null,
+      "sources": [
+        "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/rongros",
+        "https://commons.wikimedia.org/wiki/File:Lunch_at_Rongros,_Bangkok_(Jan_2021)_-_img_01.jpg"
+      ],
+      "uncertain_fields": [
+        "price_per_person_thb"
+      ],
+      "verify_note": "MICHELIN confirms Rongros at392/16 Maha Rat Road, Thai cuisine, green curry with ribeye and split sessions11–15/17–22 daily. Removed unsupported Southern Thai categorisation and beach mood, kept food/photo. Coordinates from exact-restaurant geotagged Commons photo13.744320,100.491630, consistent with Michelin address and source within50m. MICHELIN listing verified; removed unproven2026 year and fake numerical rating. THB250–500/person kept as unconfirmed shared-meal estimate; no exact current menu quote confirmed.",
+      "image_credit": "Chainwit. / Wikimedia Commons",
+      "image_verification": {
+        "kind": "exact",
+        "description": "Geotagged photograph explicitly taken during lunch at Rongros in Bangkok.",
+        "author_license_verified_on": "https://commons.wikimedia.org/wiki/File:Lunch_at_Rongros,_Bangkok_(Jan_2021)_-_img_01.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "checked_at": "2026-10-25",
+        "head_status": 200,
+        "content_type": "image/jpeg"
+      },
+      "image_exact": true,
+      "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_note": "Geotagged photograph explicitly taken during lunch at Rongros in Bangkok.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    }
+  ],
+  "stays": [
+    {
+      "id": "mandarin-oriental-bangkok",
+      "province": "bangkok",
+      "name_th": "โรงแรมแมนดาริน โอเรียนเต็ล กรุงเทพฯ",
+      "name_en": "Mandarin Oriental, Bangkok",
+      "type": "hotel",
+      "area_th": "บางรัก · ริมแม่น้ำเจ้าพระยา",
+      "lat": 13.72361,
+      "lng": 100.51444,
+      "coords_source": "https://en.wikipedia.org/wiki/Mandarin_Oriental,_Bangkok",
+      "description_th": "โรงแรมหรูริมแม่น้ำเจ้าพระยาย่านบางรัก เปิดตั้งแต่ปี พ.ศ. 2419 มีสระว่ายน้ำและสปา",
+      "price_per_night_thb": {
+        "min": 26953.3,
+        "max": 30484.3
+      },
+      "price_checked_on": "2026-10-25",
+      "price_source": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/stay",
+      "tier": "comfy",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "moods": [
+        "luxury",
+        "quiet",
+        "photo"
+      ],
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "website": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Mandarin_Oriental_Bangkok_Authors_Wing_-_01.jpg/1280px-Mandarin_Oriental_Bangkok_Authors_Wing_-_01.jpg",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Mandarin_Oriental_Bangkok_Authors_Wing_-_01.jpg",
+      "image_author": "Chainwit.",
+      "image_license": "CC BY-SA 4.0",
+      "official_image_url": null,
+      "sources": [
+        "https://www.mandarinoriental.com/th/bangkok/chao-phraya-river",
+        "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/stay",
+        "https://en.wikipedia.org/wiki/Mandarin_Oriental,_Bangkok",
+        "https://guide.michelin.com/th/en/article/travel/all-the-key-hotels-thailand-michelin-guide",
+        "https://commons.wikimedia.org/wiki/File:Mandarin_Oriental_Bangkok_Authors_Wing_-_01.jpg",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "uncertain_fields": [
+        "price_per_night_thb",
+        "price_per_night_thb.taxes_and_fees"
+      ],
+      "price_basis": "Public average rates for Deluxe Premier, Chao Phraya and Deluxe Balcony standard guestrooms: THB26953.30 /28718.80 /30484.30 per room/night on official site; not a universal minimum/maximum or date-specific quote. Taxes/inclusions not explicitly confirmed. No breakfast inclusion assumed.",
+      "awards": [
+        "3 MICHELIN Keys (2026)"
+      ],
+      "verify_note": "ยืนยันชื่อและย่านจากเว็บไซต์โรงแรมและ Wikipedia; ขยับพิกัดให้ตรงอาคารริมแม่น้ำ เปลี่ยนเช็กอิน 14:00 เป็น 15:00; ตัด beach เพราะเป็นโรงแรมริมแม่น้ำ ไม่ใช่ชายหาด และเพิ่ม luxury; แก้ราคาเดิม12000–14000เป็นค่าเฉลี่ยห้องมาตรฐานที่เว็บทางการเผยแพร่26953.30–30484.30บาท; ตัดคะแนน/จำนวนรีวิว250ที่ยืนยันไม่ได้; รูปจริง Authors Wing จาก Commons; ไม่ใส่ breakfast เพราะอัตราที่แสดงไม่ได้ยืนยันรวมอาหารเช้า",
+      "image_credit": "Chainwit. / Wikimedia Commons",
+      "image_exact": true,
+      "image_note": "Exact hotel: file description identifies Mandarin Oriental Bangkok Authors Wing, with GPS 13.723533,100.513908. Exterior photograph, not a claim about current guestrooms.",
+      "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_search_note": "Exact photograph located by search: site:commons.wikimedia.org Mandarin Oriental Bangkok File; file title, description and GPS identify property.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    },
+    {
+      "id": "siam-kempinski-hotel-bangkok",
+      "province": "bangkok",
+      "name_th": "โรงแรมสยามเคมปินสกี้ กรุงเทพฯ",
+      "name_en": "Siam Kempinski Hotel Bangkok",
+      "type": "hotel",
+      "area_th": "สยาม · เขตปทุมวัน",
+      "lat": 13.748514,
+      "lng": 100.534829,
+      "coords_source": "https://www.kempinski.com/en/siam-hotel/overview/hotel-information/location",
+      "description_th": "โรงแรมหรูย่านสยาม มีสวนและสระว่ายน้ำ เชื่อมสยามพารากอนด้วยทางเดินชั้นสอง",
+      "price_per_night_thb": {
+        "min": 8500,
+        "max": 10500
+      },
+      "price_checked_on": "2026-10-25",
+      "price_source": "https://www.agoda.com/siam-kempinski-hotel-bangkok/hotel/bangkok-th.html",
+      "tier": "comfy",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking",
+        "near_transit"
+      ],
+      "moods": [
+        "luxury",
+        "quiet",
+        "photo"
+      ],
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "website": "https://www.kempinski.com/en/siam-hotel",
+      "image_url": "https://images.unsplash.com/photo-1639647564912-651e29b8e6ad?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com/photos/a-swimming-pool-with-lounge-chairs-and-trees-in-the-background-XYIWp9_48H8",
+      "image_author": "note thanun",
+      "image_license": "ภาพประกอบ · Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.kempinski.com/en/siam-hotel/overview/hotel-information/location",
+        "https://www.kempinski.com/en/siam-hotel/overview/hotel-information/prepare-your-stay",
+        "https://www.kempinski.com/en/siam-hotel/overview/offers/advance-booking-offer",
+        "https://www.agoda.com/siam-kempinski-hotel-bangkok/hotel/bangkok-th.html",
+        "https://unsplash.com/photos/a-swimming-pool-with-lounge-chairs-and-trees-in-the-background-XYIWp9_48H8",
+        "https://unsplash.com/license"
+      ],
+      "uncertain_fields": [
+        "price_per_night_thb",
+        "price_per_night_thb.taxes_and_fees"
+      ],
+      "price_basis": "Original THB8500–10500 per room/night retained as unconfirmed planning estimate. Official offer has percentage discount, no absolute THB quote; Agoda listing average displayed in USD only. No exchange-rate conversion or invented THB quote. Breakfast available at surcharge unless selected package includes it.",
+      "awards": [],
+      "verify_note": "ยืนยันชื่อและที่อยู่991/9พระราม1จากเว็บทางการ; แก้พิกัดเป็น geo ในข้อมูลเว็บไซต์ทางการ13.748514,100.534829; แก้เช็กอินเป็น15:00; เพิ่ม luxury; คงช่วงราคา8500–10500เป็นประมาณการที่ยังไม่ยืนยัน จึงใส่uncertain_fields; ตัดratingและจำนวนรีวิว250ที่ไม่ตรงรายการปัจจุบัน; ตัดbreakfastเพราะไม่ได้รวมทุกอัตรา รวมทั้งworkspace/familyที่ไม่อยู่ในชุดแอป; ภาพประกอบสระว่ายน้ำกรุงเทพฯจากUnsplash",
+      "image_credit": "note thanun / Unsplash",
+      "image_exact": false,
+      "image_note": "Illustrative Bangkok hotel swimming pool; photo page identifies Bangkok, Thailand but not Siam Kempinski. Not represented as an image of this property.",
+      "image_license_url": "https://unsplash.com/license",
+      "image_search_note": "Searched exact hotel name on Wikimedia Commons and Unsplash. No usable licensed property-interior/exterior photograph established. Siam Kempinski Commons result was opera performers, Standard Unsplash result a woman/car, Hua Chang/Lub d yielded no exact property photo. Selected explicitly labelled Thai stock rather than a different hotel claimed as this one.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    },
+    {
+      "id": "the-standard-bangkok-mahanakhon",
+      "province": "bangkok",
+      "name_th": "เดอะ สแตนดาร์ด แบงค็อก มหานคร",
+      "name_en": "The Standard, Bangkok Mahanakhon",
+      "type": "hotel",
+      "area_th": "สีลม · เขตบางรัก",
+      "lat": 13.72361,
+      "lng": 100.52833,
+      "coords_source": "https://en.wikipedia.org/wiki/King_Power_Mahanakhon",
+      "description_th": "โรงแรมดีไซน์ในอาคารคิง เพาเวอร์ มหานคร ย่านสีลม ห้องพักอยู่ชั้น 8–18 มีสระว่ายน้ำและร้านอาหาร",
+      "price_per_night_thb": {
+        "min": 6900,
+        "max": 8500
+      },
+      "price_checked_on": "2026-10-25",
+      "price_source": "https://www.standardhotels.com/bangkok/specials/lock-it-in-room-promotion",
+      "tier": "comfy",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking",
+        "near_transit"
+      ],
+      "moods": [
+        "luxury",
+        "photo",
+        "food"
+      ],
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "website": "https://www.standardhotels.com/bangkok/properties/bangkok/",
+      "image_url": "https://images.unsplash.com/photo-1754567371234-c832f2d299b5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com/photos/rooftop-pool-overlooking-a-modern-cityscape-with-skyscrapers-bBn-2dwNly0",
+      "image_author": "bartosz wojciechowski",
+      "image_license": "ภาพประกอบ · Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.standardhotels.com/bangkok/properties/bangkok/",
+        "https://www.standardhotels.com/bangkok/properties/bangkok/faqs",
+        "https://www.standardhotels.com/bangkok/specials/lock-it-in-room-promotion",
+        "https://www.hyatt.com/the-standard/en-US/bkksb-the-standard-bangkok",
+        "https://en.wikipedia.org/wiki/King_Power_Mahanakhon",
+        "https://unsplash.com/photos/rooftop-pool-overlooking-a-modern-cityscape-with-skyscrapers-bBn-2dwNly0",
+        "https://unsplash.com/license"
+      ],
+      "uncertain_fields": [
+        "price_per_night_thb",
+        "price_per_night_thb.taxes_and_fees",
+        "price_per_night_thb.max"
+      ],
+      "price_basis": "Official ongoing advance-purchase LOCKIT promotion starts THB6900 per room/night with breakfast, 7 days advance and non-refundable. Upper THB8500 retained original estimate, unconfirmed. This range is not a universal room rate; taxes/inclusions outside this specific promotion unconfirmed. Breakfast not assumed for every booking.",
+      "awards": [
+        "Condé Nast Traveler Hot List 2023",
+        "50 Best Discovery 2024"
+      ],
+      "verify_note": "เติมcommaในชื่ออังกฤษให้ตรงแบรนด์และยืนยันที่อยู่114ถนนนราธิวาสฯ; แก้พิกัดไปอาคารKingPowerMahanakhonจริงซึ่งเดิมคลาดไปทางเหนือราว230เมตร; แก้เช็กอินเป็น15:00จากFAQโรงแรม; เปลี่ยนราคาเริ่มต้น6500เป็น6900ตามโปรทางการ แต่max8500ยังยืนยันไม่ได้; ไม่เหมาว่าbreakfastรวมทุกราคา; ตัดrating250รีวิว; ระบุห้องพักชั้น8–18ตามFAQเพื่อไม่สื่อว่าอยู่บนยอดตึก; ภาพประกอบสระบนดาดฟ้าในสาทรจากUnsplash",
+      "image_credit": "bartosz wojciechowski / Unsplash",
+      "image_exact": false,
+      "image_note": "Illustrative rooftop swimming pool in Sathorn, Bangkok, Thailand, per photo page. Exact property is not identified; not represented as this hotel.",
+      "image_license_url": "https://unsplash.com/license",
+      "image_search_note": "Searched exact hotel name on Wikimedia Commons and Unsplash. No usable licensed property-interior/exterior photograph established. Siam Kempinski Commons result was opera performers, Standard Unsplash result a woman/car, Hua Chang/Lub d yielded no exact property photo. Selected explicitly labelled Thai stock rather than a different hotel claimed as this one.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    },
+    {
+      "id": "hua-chang-heritage-hotel",
+      "province": "bangkok",
+      "name_th": "โรงแรมหัวช้าง เฮอริเทจ",
+      "name_en": "Hua Chang Heritage Hotel",
+      "type": "boutique",
+      "area_th": "สะพานหัวช้าง · เขตปทุมวัน",
+      "lat": 13.7487888,
+      "lng": 100.5307151,
+      "coords_source": "https://www.google.com/maps/place/Hua+Chang+Heritage+Hotel/@13.7487888,100.5285264,17z/data=!3m1!4b1!4m8!3m7!1s0x30e2991328f94051:0x14dced4ecbc602d1!5m2!4m1!1i2!8m2!3d13.7487888!4d100.5307151",
+      "description_th": "โรงแรมบูทีคสไตล์ไทยร่วมสมัยใกล้สะพานหัวช้าง ถนนพญาไท เดินถึงสยามและ BTS ราชเทวีได้ มีสระว่ายน้ำ",
+      "price_per_night_thb": {
+        "min": 2800,
+        "max": 4800
+      },
+      "price_checked_on": "2026-10-25",
+      "price_source": "https://www.booking.com/hotel/th/hua-chang-heritage.en-gb.html",
+      "tier": "mid",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking",
+        "near_transit"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.huachangheritagehotel.com",
+      "image_url": "https://images.pexels.com/photos/5883725/pexels-photo-5883725.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "image_page_url": "https://www.pexels.com/photo/modern-hotel-bedroom-interior-5883725/",
+      "image_author": "thiha soe",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.huachangheritagehotel.com/contact.php",
+        "https://www.huachangheritagehotel.com/location.php",
+        "https://www.huachangheritagehotel.com/download/2019-HCH-Factsheet-Final-Purple.pdf",
+        "https://www.booking.com/hotel/th/hua-chang-heritage.en-gb.html",
+        "https://goo.gl/maps/Lm9UbZEA7UFsY8eA9",
+        "https://www.google.com/maps/place/Hua+Chang+Heritage+Hotel/@13.7487888,100.5285264,17z/data=!3m1!4b1!4m8!3m7!1s0x30e2991328f94051:0x14dced4ecbc602d1!5m2!4m1!1i2!8m2!3d13.7487888!4d100.5307151",
+        "https://www.pexels.com/photo/modern-hotel-bedroom-interior-5883725/",
+        "https://www.pexels.com/license/",
+        "https://www.agoda.com/th-th/hua-chang-heritage-hotel/hotel/bangkok-th.html"
+      ],
+      "uncertain_fields": [
+        "price_per_night_thb",
+        "price_per_night_thb.taxes_and_fees"
+      ],
+      "price_basis": "Original THB2800–4800 per room/night retained as unconfirmed planning estimate. Booking listing confirms hotel/room type but snippets quote date-dependent USD only; no invented conversion. Breakfast package-dependent, not assumed included.",
+      "awards": [],
+      "verify_note": "ยืนยันชื่อ/ที่อยู่400ถนนพญาไทจากเว็บโรงแรม; ขยับพิกัดตามGoogleMapsที่เว็บโรงแรมลิงก์โดยตรง; เช็กอิน14:00/เอาต์12:00ตรงfactsheetทางการและBooking; ตัดtempleเพราะไม่มีเหตุผลว่าเป็นที่พักเชิงวัด; ราคาเดิม2800–4800ยังยืนยันเป็นTHBไม่ได้จึงเก็บเป็นประมาณการไม่ใช่ราคาเสนอ; ไม่รวมbreakfastอัตโนมัติ; ตัดratingและรีวิว250เดิม; ภาพประกอบห้องโรงแรมในกรุงเทพฯจากPexels",
+      "image_credit": "thiha soe / Pexels",
+      "image_exact": false,
+      "image_note": "Illustrative contemporary hotel bedroom photographed in Bangkok, Bangkok, Thailand per Pexels location and description; not identified as Hua Chang Heritage.",
+      "image_license_url": "https://www.pexels.com/license/",
+      "image_search_note": "Searched exact hotel name on Wikimedia Commons and Unsplash. No usable licensed property-interior/exterior photograph established. Siam Kempinski Commons result was opera performers, Standard Unsplash result a woman/car, Hua Chang/Lub d yielded no exact property photo. Selected explicitly labelled Thai stock rather than a different hotel claimed as this one.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    },
+    {
+      "id": "lub-d-bangkok-siam",
+      "province": "bangkok",
+      "name_th": "หลับดี กรุงเทพฯ สยาม",
+      "name_en": "Lub d Bangkok Siam",
+      "type": "hostel",
+      "area_th": "สนามกีฬาแห่งชาติ · เขตปทุมวัน",
+      "lat": 13.7468712,
+      "lng": 100.52869,
+      "coords_source": "https://www.google.com/maps/place/Lub%2Bd%2BBangkok%2BSiam/@13.7468712,100.52869,17z/data=!4m10!3m9!1s0x30e29932a4e57d73:0x8b6cd47e3b1b5e8a!5m3!1s2025-07-28!4m1!1i2!8m2!3d13.7468712!4d100.52869",
+      "description_th": "โฮสเทลใกล้ BTS สนามกีฬาแห่งชาติ มีทั้งห้องส่วนตัวและห้องรวม ราคาที่แสดงเป็นห้องส่วนตัวสำหรับ 2 คนต่อคืน",
+      "price_per_night_thb": {
+        "min": 1635,
+        "max": 2239
+      },
+      "price_checked_on": "2026-10-25",
+      "price_source": "https://lubd.com/destination/bangkok-siam/",
+      "tier": "mid",
+      "amenities": [
+        "free_wifi",
+        "near_transit"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://lubd.com/destination/bangkok-siam/",
+      "image_url": "https://images.pexels.com/photos/27313198/pexels-photo-27313198/free-photo-of-airbnb-in-bangkok.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "image_page_url": "https://www.pexels.com/photo/airbnb-in-bangkok-27313198/",
+      "image_author": "Raymond Aquila",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "official_image_url": null,
+      "sources": [
+        "https://lubd.com/destination/bangkok-siam/",
+        "https://lubd.com/th/จุดหมายปลายทาง/กรุงเทพ-ประเทศไทย/ติดต่อ/",
+        "https://www.booking.com/hotel/th/lub-d-bangkok-siam-square.en-gb.html",
+        "https://www.google.com/maps/place/Lub%2Bd%2BBangkok%2BSiam/@13.7468712,100.52869,17z/data=!4m10!3m9!1s0x30e29932a4e57d73:0x8b6cd47e3b1b5e8a!5m3!1s2025-07-28!4m1!1i2!8m2!3d13.7468712!4d100.52869",
+        "https://www.pexels.com/photo/airbnb-in-bangkok-27313198/",
+        "https://www.pexels.com/license/"
+      ],
+      "uncertain_fields": [
+        "price_per_night_thb",
+        "price_per_night_thb.taxes_and_fees"
+      ],
+      "price_basis": "Official page retrieved2026-10-25 shows private ensuite rooms for2adults: Compact1635,Sidekick1721,Upgrade1935,Duo2239 THB from-prices/night. Use private-room subset1635–2239, NOT381/375THB dorm-bed rates and not whole4-bed dorm. Earlier indexed snippets show other from-prices, so dates/taxes/fees need confirmation. No breakfast inclusion assumed.",
+      "awards": [],
+      "verify_note": "แก้ชื่อไทยลูบดีเป็นหลับดีตามเว็บไซต์ภาษาไทยของแบรนด์; ยืนยัน925/9พระราม1วังใหม่ปทุมวัน; พิกัดจากGoogleMapsที่เว็บทางการลิงก์โดยตรง; เช็กอิน14:00/เอาต์12:00ตรงเว็บ; แก้ช่วง750–2750ที่ปนราคาต่อเตียงเป็นห้องส่วนตัว2คน1635–2239ตามfrom-pricesที่หน้าเว็บปัจจุบัน; เว้นworkspaceซึ่งไม่ใช่amenityที่แอปรองรับ; ตัดratingเดิม; ภาพประกอบห้องส่วนตัวกรุงเทพฯจากPexels; ปรับ tier เป็น mid ตามราคาห้องส่วนตัวที่เริ่มเกิน 1,200 บาท แทน saver ของราคาเตียงรวม",
+      "image_credit": "Raymond Aquila / Pexels",
+      "image_exact": false,
+      "image_note": "Illustrative simple private bedroom in Bangkok, Bangkok, Thailand, per photo page. Fits private-room rate basis; this is not a photograph of Lub d or its dormitories.",
+      "image_license_url": "https://www.pexels.com/license/",
+      "image_search_note": "Searched exact hotel name on Wikimedia Commons and Unsplash. No usable licensed property-interior/exterior photograph established. Siam Kempinski Commons result was opera performers, Standard Unsplash result a woman/car, Hua Chang/Lub d yielded no exact property photo. Selected explicitly labelled Thai stock rather than a different hotel claimed as this one.",
+      "image_head_check": {
+        "method": "HEAD (curl -I -L; User-Agent Mozilla/5.0)",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "checked_on": "2026-10-25"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "id": "guay-jub-wang-lang",
+      "province": "bangkok",
+      "name_th": "ศิริราช โภชนา (ก๋วยจั๊บวังหลัง)",
+      "name_en": "Guay Jub Wang Lang",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ไทย-จีน",
+        "ก๋วยจั๊บ"
+      ],
+      "signature_dishes_th": [
+        "ก๋วยจั๊บน้ำใสหมูกรอบ",
+        "หมูกรอบทอดน้ำปลา"
+      ],
+      "meals": [
+        "breakfast",
+        "lunch"
+      ],
+      "area_th": "เขตบางกอกน้อย",
+      "lat": 13.7567,
+      "lng": 100.4856,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านก๋วยจั๊บน้ำใสหมูกรอบสุดเด็ดในตลาดวังหลังรสชาติพริกไทยเข้มข้น",
+      "price_per_person_thb": {
+        "min": 35,
+        "max": 70
+      },
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "awards": [],
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "sources": [
+        "https://www.bkmagazine.com/food/street-food/restaurants-article-wang-lang-eats/"
+      ],
+      "uncertain_fields": [
+        "identity",
+        "name_th",
+        "name_en",
+        "lat",
+        "lng",
+        "price_per_person_thb",
+        "opening_hours",
+        "closed_days",
+        "website"
+      ],
+      "excluded": true,
+      "verify_note": "Could not establish a real restaurant named ศิริราช โภชนา (ก๋วยจั๊บวังหลัง)/Guay Jub Wang Lang. Searches return differently named Khun Daeng Vietnamese-noodle business, which is not this claimed crispy-pork clear-broth shop; no substitution made."
+    },
+    {
+      "id": "talat-noi-tea-house",
+      "province": "bangkok",
+      "name_th": "โรงชา ตลาดน้อย",
+      "name_en": "Talat Noi Tea House",
+      "kind": "cafe",
+      "cuisine_th": [
+        "คาเฟ่",
+        "ชา"
+      ],
+      "signature_dishes_th": [
+        "ชาจีนชงสด",
+        "กุยช่ายทอดทรงเครื่อง"
+      ],
+      "meals": [
+        "breakfast",
+        "snack"
+      ],
+      "area_th": "เขตสัมพันธวงศ์",
+      "lat": 13.7356,
+      "lng": 100.5123,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงชาและคาเฟ่โบราณในบ้านจีนโบราณย่านตลาดน้อยบรรยากาศคลาสสิก",
+      "price_per_person_thb": {
+        "min": 60,
+        "max": 120
+      },
+      "opening_hours": "09:00-18:00",
+      "closed_days": "วันจันทร์",
+      "awards": [],
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "website": "https://www.facebook.com/talatnoitea",
+      "sources": [
+        "https://www.chaidim.com/blogs/chaidims-blog/chaidim-tea-house-a-sanctuary-of-tea-and-tranquility-in-talat-noi"
+      ],
+      "uncertain_fields": [
+        "identity",
+        "name_th",
+        "name_en",
+        "lat",
+        "lng",
+        "price_per_person_thb",
+        "opening_hours",
+        "closed_days",
+        "website"
+      ],
+      "excluded": true,
+      "verify_note": "Could not establish a real business named โรงชา ตลาดน้อย/Talat Noi Tea House or the supplied Facebook handle. Searches identify other businesses (Chaidim Tea House and Citizen Tea Canteen), not this claimed shop; no substitution made."
+    },
+    {
+      "id": "luxe-boutique-hotel-silom",
+      "province": "bangkok",
+      "name_th": "ลักซ์ บูทีค โฮเทล สีลม",
+      "name_en": "Luxe Boutique Hotel Silom",
+      "excluded": true,
+      "verify_note": "ไม่พบหลักฐานยืนยันโรงแรมชื่อนี้ในสีลมจากการค้นชื่ออังกฤษตรงตัว ชื่อไทย และชื่อ+Booking/Agoda; ชื่อคล้ายโรงแรมอื่นไม่ใช่หลักฐานว่าเป็นแห่งเดียวกัน จึงตัดออกแทนการเดาชื่อใหม่ ไม่อ้างว่าปิดถาวร",
+      "reason": "Identity not established; may be fabricated or conflated. Do not substitute a similarly named property.",
+      "searched_queries": [
+        "\"Luxe Boutique Hotel Silom\"",
+        "\"Luxe Boutique Hotel\" \"Silom\"",
+        "\"ลักซ์ บูทีค\" \"สีลม\"",
+        "\"Luxe Boutique Hotel Silom\" Booking Agoda"
+      ],
+      "sources": [],
+      "uncertain_fields": [
+        "existence",
+        "name_th",
+        "name_en",
+        "area_th",
+        "lat",
+        "lng",
+        "price_per_night_thb",
+        "check_in",
+        "check_out",
+        "amenities",
+        "website",
+        "image_url"
+      ],
+      "original_website_unverified": "https://www.luxeboutiquehotel.com"
+    }
+  ]
+}

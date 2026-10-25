@@ -5,15 +5,16 @@ import { fmtCount } from './swipeHelpers'
 // ชิ้นส่วนที่การ์ดร้านอาหาร/ที่พักใช้ร่วมกัน
 
 // พื้นที่รูป: รูปจริง → ถ้าไม่มี/โหลดไม่ขึ้น ใช้ภาพประกอบ (fallback) ; ยืด/หดตามที่เหลือในการ์ด
-export function CardImage({ src, alt, fallback, children }) {
+export function CardImage({ src, alt, fallback, credit, license, pageUrl, children }) {
   const [broken, setBroken] = useState(false)
   const showImage = src && !broken
+  const creditText = credit ? `ภาพ: ${credit}${license ? ` · ${license}` : ''}` : ''
   return (
     <div className="relative min-h-[72px] min-w-0 grow overflow-hidden rounded-3xl bg-peach">
       {showImage ? (
         <img
           src={src}
-          alt={alt}
+          alt={license?.startsWith('ภาพประกอบ') ? `ภาพประกอบ: ${alt}` : alt}
           loading="lazy"
           referrerPolicy="no-referrer"
           draggable={false}
@@ -24,6 +25,11 @@ export function CardImage({ src, alt, fallback, children }) {
         fallback
       )}
       {children}
+      {showImage && creditText && (
+        <span className="absolute bottom-2.5 left-2.5 max-w-[calc(100%-20px)] truncate rounded-full bg-ink/55 px-2.5 py-0.5 text-[10px] leading-4 text-white" title={creditText}>
+          {pageUrl ? <a href={pageUrl} target="_blank" rel="noopener noreferrer" className="text-inherit">{creditText}</a> : creditText}
+        </span>
+      )}
     </div>
   )
 }
@@ -53,7 +59,7 @@ export function Rating({ score, outOf, count }) {
         {score}
         {outOf === 5 ? '' : `/${outOf}`}
       </span>
-      <span className="font-normal text-muted">({fmtCount(count)})</span>
+      {count != null && <span className="font-normal text-muted">({fmtCount(count)})</span>}
     </span>
   )
 }
