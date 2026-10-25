@@ -43,13 +43,13 @@ function StayFinalBody({ draft, updateDraft, stays, places }) {
 
   return (
     <>
-      <div className="flex flex-col gap-5 px-4 pt-2">
+      <div className="flex flex-col gap-5 px-4 pt-2 lg:gap-7 lg:px-6 lg:pt-4">
         <div className="px-1">
-          <h1 className="m-0 text-2xl font-bold">จะพักแบบไหนดี?</h1>
+          <h1 className="m-0 text-2xl font-bold lg:text-[28px]">จะพักแบบไหนดี?</h1>
           <p className="m-0 mt-1.5 text-sm leading-relaxed text-[#4A3A30]">คุณชอบที่พักไว้ {stays.length} ที่ · ทริปนี้ {nights} คืน</p>
         </div>
 
-        <div role="radiogroup" aria-label="รูปแบบการพัก" className="flex flex-col gap-3">
+        <div role="radiogroup" aria-label="รูปแบบการพัก" className="flex flex-col gap-3 lg:grid lg:grid-cols-2 lg:gap-4">
           <StayModeTile mode="multi" selected={mode === 'multi'} onSelect={() => setMode('multi')} />
           <StayModeTile mode="single" selected={mode === 'single'} onSelect={() => setMode('single')} />
         </div>
@@ -62,7 +62,7 @@ function StayFinalBody({ draft, updateDraft, stays, places }) {
             {mode === 'single' && (
               <motion.div key="single" {...panelMotion}>
                 <p className="m-0 px-1 pb-2 text-[13px] text-[#4A3A30]">เลือกที่พักที่จะพักตลอดทริป</p>
-                <div role="radiogroup" aria-label="ที่พัก" className="flex flex-col gap-2">
+                <div role="radiogroup" aria-label="ที่พัก" className="flex flex-col gap-2 lg:grid lg:grid-cols-2 lg:gap-3 xl:grid-cols-3">
                   {stays.map((stay) => <StayOption key={stay.id} stay={stay} selected={chosen === stay.id} onSelect={() => setChosen(stay.id)} />)}
                 </div>
               </motion.div>
@@ -75,8 +75,8 @@ function StayFinalBody({ draft, updateDraft, stays, places }) {
       </div>
 
       <div className="grow" />
-      <div className="sticky bottom-0 mt-4 bg-cream px-4 pb-6 pt-3">
-        <button type="button" onClick={next} disabled={!valid} className={PRIMARY_BUTTON}>ไปดูแผนเที่ยว</button>
+      <div className="sticky bottom-0 mt-4 bg-cream px-4 pb-6 pt-3 lg:flex lg:justify-center">
+        <button type="button" onClick={next} disabled={!valid} className={`${PRIMARY_BUTTON} lg:max-w-[420px]`}>ไปดูแผนเที่ยว</button>
       </div>
     </>
   )
@@ -105,7 +105,7 @@ export default function StayFinal() {
   if (draft.likedStayIds.length < 2 || tripLength(draft).nights < 1) return <Navigate to="/plan/trip" replace />
   return (
     <MotionConfig reducedMotion="user">
-      <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink">
+      <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink lg:max-w-[1120px]">
         <AppHeader title="เลือกที่พัก" step="6 / 6" backTo="/plan/stay" />
         <StayFinalSession draft={draft} updateDraft={updateDraft} />
       </div>
