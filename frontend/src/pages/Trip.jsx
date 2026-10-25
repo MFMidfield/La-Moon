@@ -179,16 +179,24 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
 
   return (
     <>
-      <div className="flex flex-col gap-5 px-4 pt-3">
-        <TripOverview trip={draft} {...length} people={people} />
-        <div className="flex items-center justify-between px-1"><h1 className="m-0 text-2xl font-bold">ทริปในแบบของคุณ</h1><span className="rounded-full bg-white px-3 py-1.5 text-xs text-brown">{places.length} ที่</span></div>
-        <DayPlan days={viewDays} spare={plan.spare} startDate={draft.startDate} legs={legs} people={people} onMove={move} onCycleSpare={cycleSpare} onSwap={swap} canSwap={plan.spare.length > 0} transit={transit} timeOverrides={timeOverrides} onTimeChange={changeTime} onResetTimes={resetDayTimes} onEditMeal={food.hasFood ? (d, meal) => setMealSheet({ open: true, d, meal }) : undefined} />
-        {combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
-        <TripBudget input={input} legTransport={legTransport} people={people} onApply={applyAlternative} transit={draft.transportLocal === 'transit' ? transit : null} />
-        {warnings.length > 0 && <div className="rounded-[24px] bg-[#FBE3D2] p-4"><h2 className="m-0 flex items-center gap-2 text-sm font-semibold"><Sun size={18} strokeWidth={2} aria-hidden="true" />ก่อนออกเดินทาง</h2>{warnings.map(warning => <p key={warning.placeId} className="mb-0 mt-2 text-xs leading-relaxed text-[#4A3A30]">{warning.message}</p>)}</div>}
-        <p role="status" aria-live="polite" className="m-0 min-h-5 text-center text-xs text-muted">{notice}</p>
+      <div className="flex flex-col gap-5 px-4 pt-3 lg:grid lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start lg:gap-x-8 lg:pb-10">
+        <div className="order-2 flex flex-col gap-5 lg:col-start-1 lg:row-start-1">
+          <div className="flex items-center justify-between px-1"><h1 className="m-0 text-2xl font-bold">ทริปในแบบของคุณ</h1><span className="rounded-full bg-white px-3 py-1.5 text-xs text-brown">{places.length} ที่</span></div>
+          <DayPlan days={viewDays} spare={plan.spare} startDate={draft.startDate} legs={legs} people={people} onMove={move} onCycleSpare={cycleSpare} onSwap={swap} canSwap={plan.spare.length > 0} transit={transit} timeOverrides={timeOverrides} onTimeChange={changeTime} onResetTimes={resetDayTimes} onEditMeal={food.hasFood ? (d, meal) => setMealSheet({ open: true, d, meal }) : undefined} />
+          {combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
+        </div>
+        <div className="contents lg:sticky lg:top-6 lg:col-start-2 lg:row-start-1 lg:flex lg:max-h-[calc(100svh-3rem)] lg:flex-col lg:gap-5 lg:self-start lg:overflow-y-auto lg:overscroll-contain">
+          <div className="order-1"><TripOverview trip={draft} {...length} people={people} /></div>
+          <div className="order-3"><TripBudget input={input} legTransport={legTransport} people={people} onApply={applyAlternative} transit={draft.transportLocal === 'transit' ? transit : null} /></div>
+          {warnings.length > 0 && <div className="order-4 rounded-[24px] bg-[#FBE3D2] p-4"><h2 className="m-0 flex items-center gap-2 text-sm font-semibold"><Sun size={18} strokeWidth={2} aria-hidden="true" />ก่อนออกเดินทาง</h2>{warnings.map(warning => <p key={warning.placeId} className="mb-0 mt-2 text-xs leading-relaxed text-[#4A3A30]">{warning.message}</p>)}</div>}
+          <p role="status" aria-live="polite" className="order-5 m-0 min-h-5 text-center text-xs text-muted">{notice}</p>
+          <div className="order-6 hidden lg:block">
+            {saveError && <p role="alert" className="mb-3 mt-0 text-center text-sm text-[#9B432A]">{saveError}</p>}
+            <button type="button" onClick={requestSave} disabled={saving || !places.length} className={PRIMARY_BUTTON}>{saving ? 'กำลังบันทึก…' : 'บันทึกทริป'}</button>
+          </div>
+        </div>
       </div>
-      <div className="sticky bottom-0 mt-4 bg-cream px-4 pb-6 pt-3">
+      <div className="sticky bottom-0 mt-4 bg-cream px-4 pb-6 pt-3 lg:hidden">
         {saveError && <p role="alert" className="mb-3 mt-0 text-center text-sm text-[#9B432A]">{saveError}</p>}
         <button type="button" onClick={requestSave} disabled={saving || !places.length} className={PRIMARY_BUTTON}>{saving ? 'กำลังบันทึก…' : 'บันทึกทริป'}</button>
       </div>
@@ -236,7 +244,7 @@ function TripSession({ draft, updateDraft }) {
   const current = result?.key === requestKey ? result : null
   const label = PROVINCES.find(p => p.id === province)?.label ?? province
   return (
-    <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink">
+    <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink lg:max-w-[1120px] lg:pt-4">
       <AppHeader crumb={label} title="แผนทริปของคุณ" backTo="/plan/swipe" />
       {!current ? <TripLoading label="กำลังจัดทริป…" /> : current.error ? <TripMessage title="โหลดที่เที่ยวไม่สำเร็จ" body="เช็กอินเทอร์เน็ตแล้วลองอีกครั้ง"><button type="button" onClick={() => setAttempt(value => value + 1)} className={PRIMARY_BUTTON}>ลองใหม่</button></TripMessage> : !current.liked.length ? <TripMessage title="ยังไม่ได้เลือกที่เที่ยว" body="ปัดขวาที่ที่อยากไปอย่างน้อย 1 ที่ แล้วระบบจะจัดแผนให้"><SlideLink to="/plan/swipe" back className={PRIMARY_BUTTON}>กลับไปปัดการ์ด</SlideLink></TripMessage> : <TripEditor key={requestKey} draft={draft} updateDraft={updateDraft} liked={current.liked} spareCandidates={current.spareCandidates} likedRestaurants={current.likedRestaurants} restaurantPool={current.restaurantPool} likedStays={current.likedStays} sourceKey={sourceKey} />}
     </div>
