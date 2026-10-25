@@ -75,8 +75,8 @@ const SCENES = {
 
 export default function PersonalityArt({ mood, color }) {
   return (
-    <div className="mx-auto h-[148px] w-[148px] shrink-0 overflow-hidden rounded-full border-4 border-white" aria-hidden="true">
-      <svg width="140" height="140" viewBox="0 0 140 140">
+    <div className="mx-auto h-[148px] w-[148px] shrink-0 overflow-hidden rounded-full border-4 border-white lg:h-[220px] lg:w-[220px] lg:border-[6px]" aria-hidden="true">
+      <svg width="140" height="140" viewBox="0 0 140 140" className="h-full w-full">
         <rect width="140" height="140" fill={color} />
         {SCENES[mood] ?? SCENES.mountain}
       </svg>

@@ -2,14 +2,14 @@ import { ChevronLeft } from 'lucide-react'
 import SlideLink from './SlideLink'
 
 // header ในแอป 64px: ปุ่มกลับ + (breadcrumb เล็ก) ชื่อหน้า + ป้ายขั้น "1 / 3"
-export default function AppHeader({ title, crumb, step, backTo, onBack, right }) {
+export default function AppHeader({ title, crumb, step, backTo, onBack, right, className = '' }) {
   const backIcon = (
     <ChevronLeft size={20} strokeWidth={2} aria-hidden="true" />
   )
   const backClass = 'flex h-11 w-11 shrink-0 cursor-pointer items-center justify-center rounded-full bg-white'
 
   return (
-    <header className="flex h-16 shrink-0 items-center gap-2.5 px-4">
+    <header className={`flex h-16 shrink-0 items-center gap-2.5 px-4 lg:mx-auto lg:w-full lg:max-w-[1120px] ${className}`}>
       {backTo && (
         <SlideLink to={backTo} back aria-label="ย้อนกลับ" className={backClass}>
           {backIcon}

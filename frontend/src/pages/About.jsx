@@ -7,8 +7,8 @@ import { CONTACT_EMAIL, LEGAL_DOCS, LEGAL_UPDATED } from '../data/legal'
 
 function Section({ id, title, children }) {
   return (
-    <section id={id} className="flex scroll-mt-4 flex-col gap-3 rounded-[28px] bg-white p-[22px]">
-      <h2 className="m-0 text-[22px] font-bold">{title}</h2>
+    <section id={id} className="flex scroll-mt-4 flex-col gap-3 rounded-[28px] bg-white p-[22px] lg:scroll-mt-6 lg:gap-4 lg:rounded-[32px] lg:p-8">
+      <h2 className="m-0 text-[22px] font-bold lg:text-2xl">{title}</h2>
       {children}
     </section>
   )
@@ -17,10 +17,10 @@ function Section({ id, title, children }) {
 function DocList({ sections }) {
   return sections.map(([title, body], i) => (
     <div key={title} className="flex flex-col gap-1">
-      <h3 className="m-0 text-[15px] font-semibold">
+      <h3 className="m-0 text-[15px] font-semibold lg:text-base">
         {i + 1}. {title}
       </h3>
-      <p className="m-0 text-sm leading-[1.6] text-[#4A3A30]">{body}</p>
+      <p className="m-0 text-sm leading-[1.6] text-[#4A3A30] lg:text-[15px] lg:leading-[1.7]">{body}</p>
     </div>
   ))
 }
@@ -41,16 +41,16 @@ export default function About() {
 
   return (
     <div className="min-h-svh bg-cream text-ink">
-      <div className="mx-auto max-w-[560px]">
+      <div className="mx-auto max-w-[560px] lg:max-w-[720px] lg:pt-4">
         <AppHeader crumb="LaMoon" title="เกี่ยวกับเรา" onBack={goBack} />
 
-        <main className="flex flex-col gap-3.5 px-4 pb-10 pt-2">
+        <main className="flex flex-col gap-3.5 px-4 pb-10 pt-2 lg:gap-5 lg:pb-16 lg:pt-4">
           <Section id="about" title="LaMoon คืออะไร">
-            <p className="m-0 text-[15px] leading-[1.6] text-[#4A3A30]">
+            <p className="m-0 text-[15px] leading-[1.6] text-[#4A3A30] lg:text-base lg:leading-[1.7]">
               LaMoon ช่วยวางแผนเที่ยวไทยจากมู้ดของคุณ บอกมู้ด งบ และจำนวนคน แล้วเลือกหรือสุ่มจังหวัดบนแผนที่
               ปัดการ์ดสถานที่ที่อยากไป ระบบจัดแผนรายวันพร้อมประมาณงบและการเดินทางให้อัตโนมัติ
             </p>
-            <p className="m-0 text-[15px] leading-[1.6] text-[#4A3A30]">
+            <p className="m-0 text-[15px] leading-[1.6] text-[#4A3A30] lg:text-base lg:leading-[1.7]">
               เริ่มจากสถานที่จริงในภาคใต้และกรุงเทพฯ และกำลังขยายไปทั่วประเทศ
             </p>
           </Section>
@@ -68,7 +68,7 @@ export default function About() {
           </Section>
 
           <Section id="affiliate" title="ลิงก์พันธมิตร">
-            <p className="m-0 text-sm leading-[1.6] text-[#4A3A30]">
+            <p className="m-0 text-sm leading-[1.6] text-[#4A3A30] lg:text-[15px] lg:leading-[1.7]">
               บางลิงก์จองที่พักใน LaMoon เป็นลิงก์พันธมิตร (affiliate) เช่น Agoda เมื่อคุณจองผ่านลิงก์
               LaMoon อาจได้รับค่าคอมมิชชันจากผู้ให้บริการ โดยคุณไม่ต้องจ่ายเพิ่ม ราคาและเงื่อนไขการจองเป็นของผู้ให้บริการนั้นๆ
             </p>

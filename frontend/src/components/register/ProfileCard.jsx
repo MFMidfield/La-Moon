@@ -24,7 +24,7 @@ export default function ProfileCard({ avatarUrl, onAvatarChange, name, onNameCha
   }
 
   return (
-    <div className="flex flex-col gap-2 rounded-[28px] bg-white p-[18px]">
+    <div className="flex flex-col gap-2 rounded-[28px] bg-white p-[18px] lg:p-6">
       <div className="flex items-center gap-3.5">
         <label className="relative h-16 w-16 shrink-0 cursor-pointer" aria-label="เปลี่ยนรูปโปรไฟล์">
           <input type="file" accept={ACCEPTED_TYPES.join(',')} onChange={handleFile} className="sr-only" />

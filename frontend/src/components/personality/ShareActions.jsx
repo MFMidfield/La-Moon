@@ -39,7 +39,7 @@ export default function ShareActions({ title }) {
   }
 
   return (
-    <div className="flex flex-col gap-2 px-4 pb-7 pt-5">
+    <div className="flex flex-col gap-2 px-4 pb-7 pt-5 lg:mx-auto lg:w-full lg:max-w-[480px] lg:px-0 lg:pb-0 lg:pt-8">
       <div className="flex gap-2.5">
         <button
           type="button"

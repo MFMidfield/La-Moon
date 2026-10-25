@@ -32,7 +32,7 @@ export default function Personality() {
 
   let body
   if (status === 'loading') {
-    body = <div className="mx-4 h-[520px] animate-pulse rounded-[36px] bg-peach/60" aria-hidden="true" />
+    body = <div className="mx-4 h-[520px] animate-pulse rounded-[36px] bg-peach/60 lg:mx-0 lg:h-[460px]" aria-hidden="true" />
   } else if (status === 'error') {
     body = (
       <p role="alert" className="m-0 px-[22px] pt-4 text-center text-sm text-[#C0392B]">
@@ -52,9 +52,9 @@ export default function Personality() {
 
   return (
     <div className="min-h-svh bg-cream text-ink">
-      <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col lg:min-h-0 lg:pt-6">
-        <AppHeader title="บุคลิกการเที่ยว" backTo="/home" />
-        <div className="flex grow flex-col pt-2">{body}</div>
+      <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col lg:min-h-0 lg:max-w-[1120px] lg:px-8 lg:pb-12 lg:pt-6">
+        <AppHeader title="บุคลิกการเที่ยว" backTo="/home" className="lg:px-0" />
+        <div className="flex grow flex-col pt-2 lg:pt-4">{body}</div>
       </div>
     </div>
   )

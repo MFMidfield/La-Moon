@@ -37,13 +37,13 @@ export default function TripList({ status, trips }) {
     body = [0, 1].map((i) => <div key={i} className="h-[68px] animate-pulse motion-reduce:animate-none rounded-[24px] bg-white/70" aria-hidden="true" />)
   } else if (status === 'error') {
     body = (
-      <p role="alert" className="m-0 px-1.5 text-[13px] text-[#C0392B]">
+      <p role="alert" className="m-0 px-1.5 text-[13px] text-[#C0392B] lg:col-span-2">
         โหลดทริปไม่สำเร็จ ลองรีเฟรชหน้าอีกครั้ง
       </p>
     )
   } else if (!trips.length) {
     body = (
-      <div className="rounded-[24px] bg-white px-5 py-5 text-center text-sm leading-[1.6] text-[#4A3A30]">
+      <div className="rounded-[24px] bg-white px-5 py-5 text-center text-sm leading-[1.6] text-[#4A3A30] lg:col-span-2 lg:py-10">
         ยังไม่มีทริปเลย ลองเริ่มวางทริปแล้วปัดการ์ด
         <br />
         ทริปแรกของคุณจะมาอยู่ตรงนี้
@@ -54,9 +54,9 @@ export default function TripList({ status, trips }) {
   }
 
   return (
-    <section className="mt-8">
-      <h2 className="m-0 px-[22px] text-[22px] font-bold">ทริปของฉัน</h2>
-      <div className="mx-4 mt-3 flex flex-col gap-2.5">{body}</div>
+    <section className="mt-8 lg:col-start-1 lg:row-span-2 lg:row-start-3 lg:mt-5">
+      <h2 className="m-0 px-[22px] text-[22px] font-bold lg:px-0">ทริปของฉัน</h2>
+      <div className="mx-4 mt-3 flex flex-col gap-2.5 lg:mx-0 lg:mt-4 lg:grid lg:grid-cols-2 lg:gap-4">{body}</div>
     </section>
   )
 }

@@ -46,8 +46,8 @@ function WelcomeArt({ avatarUrl, name }) {
   const reduce = useReducedMotion()
 
   return (
-    <div className="relative mx-4 mt-6 h-[300px] shrink-0 overflow-hidden rounded-[36px] bg-peach">
-      <div className="absolute left-1/2 top-0 h-[300px] w-[358px] -translate-x-1/2">
+    <div className="relative mx-4 mt-6 h-[300px] shrink-0 overflow-hidden rounded-[36px] bg-peach lg:mt-0 lg:h-[360px] lg:rounded-[40px]">
+      <div className="absolute left-1/2 top-0 h-[300px] w-[358px] -translate-x-1/2 lg:top-6 lg:origin-top lg:scale-110">
         <Burst className="left-6 top-[22px]" from={[140, 110]} delay={0.5} loop={SWAY} reduce={reduce}>
           <Moon size={36} fill="#5A2E14" className="-rotate-15" />
         </Burst>
@@ -95,13 +95,13 @@ export default function Welcome() {
   ]
 
   return (
-    <div className="flex min-h-svh flex-col bg-cream text-ink">
-      <div className="mx-auto flex w-full max-w-[440px] grow flex-col lg:grow-0 lg:py-16">
+    <div className="flex min-h-svh flex-col bg-cream text-ink lg:justify-center">
+      <div className="mx-auto flex w-full max-w-[440px] grow flex-col lg:max-w-[640px] lg:grow-0 lg:py-12">
         <WelcomeArt avatarUrl={profile.avatar_url} name={profile.display_name} />
 
-        <div className="flex flex-col items-center gap-2 px-[22px] pt-7 text-center">
+        <div className="flex flex-col items-center gap-2 px-[22px] pt-7 text-center lg:pt-9">
           <div className="text-base text-[#4A3A30]">สวัสดี {profile.display_name}</div>
-          <h1 className="m-0 text-[28px] font-bold leading-[1.25]">ยินดีต้อนรับสู่ LaMoon</h1>
+          <h1 className="m-0 text-[28px] font-bold leading-[1.25] lg:text-4xl">ยินดีต้อนรับสู่ LaMoon</h1>
           <p className="m-0 text-[15px] leading-[1.6] text-[#4A3A30]">
             โปรไฟล์พร้อมแล้ว เราจะคัดการ์ดตามมู้ดที่คุณชอบ
           </p>
@@ -125,11 +125,11 @@ export default function Welcome() {
 
         <div className="grow lg:hidden" />
 
-        <div className="px-4 pb-7 pt-8 lg:pb-0">
+        <div className="px-4 pb-7 pt-8 lg:pb-0 lg:pt-10">
           <SlideLink
             to={location.state?.from ?? '/home'}
             replace
-            className="flex h-14 items-center justify-center rounded-full bg-brown text-base font-semibold text-white"
+            className="flex h-14 items-center justify-center rounded-full bg-brown text-base font-semibold text-white lg:mx-auto lg:w-80"
           >
             เริ่มปัดการ์ดเลย
           </SlideLink>

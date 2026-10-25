@@ -20,8 +20,10 @@ export default function Hero() {
         </p>
       </div>
 
-      <div className="mt-[26px] lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:mt-0">
-        <CardStack />
+      <div className="mt-[26px] lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:mt-0 lg:flex lg:h-[560px] lg:items-center lg:justify-center">
+        <div className="lg:w-[390px] lg:shrink-0 lg:origin-center lg:scale-[1.17]">
+          <CardStack />
+        </div>
       </div>
 
       <div className="flex flex-col gap-2.5 px-[22px] pt-7 lg:w-80 lg:self-start lg:px-0">
