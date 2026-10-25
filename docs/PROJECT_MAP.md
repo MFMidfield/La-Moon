@@ -42,6 +42,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | backend/supabase/functions/mood-reader/ | Edge Function Gemini: POST {text} → {moods, reason}; secret GEMINI_API_KEY (+ GEMINI_MODEL) — ไม่มี key ตอบ 503 แล้ว frontend จับคำแทน | แก้ prompt AI |
 | frontend/src/lib/api/ | ทุกการเรียก supabase ต่อ feature: places, swipes, trips, mood (AI + fallback คำ) — หน้าไหนห้ามเรียก supabase ตรง | เพิ่ม query |
 | frontend/src/lib/trip/ | logic ล้วน: plan (planDays เดิม + planTrip/dayCapacities/assignSlots แผนรายวันใหม่), travel (ระยะ/ตัวเลือกพาหนะ ด้วยสูตร), budget (estimateTrip, cheaperAlternatives, formatBaht), random (randomizeTrip), season (เตือนฤดู/คืนเพ็ญ), combos, personality, geo | |
+| frontend/src/data/moodWords.js + lib/api/mood.js | เดามู้ดจากคำ (ตัด AI แล้ว): คำหลัก 3/คำรอง 1, คำยาวกินคำสั้น, คำปฏิเสธหักคะแนน, พิมพ์ผิด 1 ตัว, ตัวซ้ำ ('ทะเลลลล') — เพิ่มคำที่ data/moodWords.js | เพิ่มคำมู้ด |
 | frontend/src/lib/trip/luxury.js | มู้ด luxury (หรูหรา) = ดันของพรีเมียมขึ้นก่อน (premiumScore/sortForMoods) ไม่ใช้กรอง | |
 | frontend/src/lib/trip/schedule.js | เวลาจริงในแผน: scheduleDay (เริ่ม 09:00 + visit/มื้อ + เดินทาง 30 กม./ชม.) + overrides เวลาเริ่ม | ปรับสูตรเวลา |
 | frontend/src/lib/trip/swipeRounds.js | กติกาปัดทุกหมวด: ขวา/ซ้าย/ขึ้น(เก็บไว้ก่อน) → รอบ 2 เฉพาะที่เก็บ (ปัดขึ้นไม่ได้) | |
@@ -210,3 +211,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | ตารางเครื่องบินเหลือเฉพาะ low cost (AirAsia/Lion/Nok/Vietjet) — ตัดเส้นสมุย (มีแต่ Bangkok Airways) |
 | 2026-10-24 | เตรียม deploy + Agoda: push branch dev, หน้า /about (public), footer Landing ลิงก์จริง, data/legal.js, BookingSheet Agoda ลิงก์จริงผ่าน VITE_AGODA_CID |
 | 2026-10-24 | Supabase cloud: รัน deploy-remote.sql ผ่าน `supabase db query --linked` (cloud ว่างก่อนรัน), verify 4 ตาราง/68 คอลัมน์/178 places/12 policies/RLS ครบ, deploy mood-reader (verify_jwt) |
+| 2026-10-25 | ตัด AI อ่านมู้ด → ระบบเดามู้ดจากคำ (moodWords.js) ปุ่ม 'ช่วยเลือกมู้ดให้'; สั่ง Codex หารูป 62 ที่ + agent ทำหน้าสิ่งที่ต้องจอง |

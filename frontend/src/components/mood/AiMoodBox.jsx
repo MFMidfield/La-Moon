@@ -5,7 +5,7 @@ import { Sparkle } from '../icons'
 
 const MAX_LENGTH = 300
 
-// เล่าความรู้สึก → AI (หรือจับคำ) เลือกมู้ดให้ ส่งผลผ่าน onPick(moods)
+// เล่าความรู้สึก → เดามู้ดจากคำ (ไม่ใช้ AI) ส่งผลผ่าน onPick(moods)
 export default function AiMoodBox({ onPick }) {
   const reduced = useReducedMotion()
   const [text, setText] = useState('')
@@ -56,7 +56,7 @@ export default function AiMoodBox({ onPick }) {
           className="flex h-11 shrink-0 cursor-pointer items-center gap-1.5 rounded-full border-[1.5px] border-[#D9CFC5] bg-white px-4 text-[15px] font-semibold text-ink transition-colors duration-200 disabled:cursor-not-allowed disabled:opacity-40"
         >
           <Sparkle size={16} fill="#E8793A" />
-          {loading ? 'กำลังอ่านมู้ด…' : 'ให้ AI เลือกมู้ด'}
+          {loading ? 'กำลังอ่านมู้ด…' : 'ช่วยเลือกมู้ดให้'}
         </motion.button>
         <span className="text-xs text-muted">
           {text.length}/{MAX_LENGTH}
@@ -66,7 +66,7 @@ export default function AiMoodBox({ onPick }) {
       {result && (
         <div aria-live="polite" className="flex items-start gap-2 rounded-[20px] bg-[#FBE3D2] px-3.5 py-3">
           <span className="mt-0.5 shrink-0 rounded-full bg-white px-2 py-0.5 text-[11px] font-semibold text-brown">
-            {result.source === 'ai' ? 'AI' : 'เดาจากคำ'}
+            จากที่เล่า
           </span>
           <p className="m-0 text-sm leading-[1.6] text-[#4A3A30]">{result.reason}</p>
         </div>
