@@ -37,7 +37,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/components/map/ | แผนที่ (Codex): ContinuousMap, createMapCamera (d3-zoom), CountryMap, PlacePins, ProvinceSheet (มือถือ), ProvinceDetails (ชิ้นข้อมูลจังหวัดใช้ร่วม sheet/แผงข้าง), useIsDesktop, ProvinceSearch, geometry (d3-geo), useMapData, MapStatus; GeoJSON 77 จังหวัด `src/data/geo/thailand.json` (164 KB, lazy load) | |
 | frontend/src/components/home/ | หน้า Home: HomeHeader, PersonalityChip, StartBox, TripList, WishProvinces, Sticker, useLoad (hook โหลดครั้งเดียว) | |
 | frontend/src/components/personality/ | หน้าบุคลิก: PersonalityCard, PersonalityArt (7 ฉาก), ShareActions, EmptyState | |
-| frontend/src/components/trip/ | แผนรายวัน: DayPlan (ลากการ์ดข้ามวัน/กองสำรอง, แตะย้าย fallback), TripBudget, TripOverview, itinerary.js (hydrate/serialize/moveCard); สรุปทริปเดิม: TripSummary, ComboCard, PlaceRow, PlaceThumb, BookingSheet (Agoda ลิงก์จริงเมื่อมี VITE_AGODA_CID ค้นด้วย name_en/จังหวัด, Booking/Klook mock), TripStates | |
+| frontend/src/components/trip/ | แผนรายวัน: DayPlan (ลากการ์ดข้ามวัน/กองสำรอง, แตะย้าย fallback), TripBudget, TripOverview, itinerary.js (hydrate/serialize/moveCard); ComboCard, PlaceThumb, BookingSheet (จองที่พักเท่านั้น — Agoda ลิงก์จริงเมื่อมี VITE_AGODA_CID ค้นด้วย name_en/จังหวัด, Booking/Klook mock), bookingItems.js (รายการสิ่งที่ต้องจอง + serialize/savedBooked), BookingList (รายการ/BookingCard/progress), BookingSaveSheet (เช็กลิสต์ก่อนบันทึกทริป), TripStates | |
 | frontend/src/components/mood/ | หน้า Mood: AiMoodBox, MoodTile, MoodIcon, BudgetPicker | |
 | backend/supabase/functions/mood-reader/ | Edge Function Gemini: POST {text} → {moods, reason}; secret GEMINI_API_KEY (+ GEMINI_MODEL) — ไม่มี key ตอบ 503 แล้ว frontend จับคำแทน | แก้ prompt AI |
 | frontend/src/lib/api/ | ทุกการเรียก supabase ต่อ feature: places, swipes, trips, mood (AI + fallback คำ) — หน้าไหนห้ามเรียก supabase ตรง | เพิ่ม query |
@@ -205,10 +205,11 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | ของกลางรอบปรับ flow: มู้ด luxury, รถส่วนตัว (own_car คิดค่าน้ำมันตามระยะ), FEATURES ปิดการเดินทางข้ามจังหวัด/รถไฟฟ้า, planLikedOnly, schedule.js เวลาจริง, geo.nearestOf |
 | 2026-10-24 | merge agent A+B: มู้ดหรูหรา (Gem), หน้า 3 ไม่มีล็อก/จังหวะ, รถส่วนตัว, วันพรุ่งนี้สำหรับทริปวันเดียวในจังหวัด, ป้ายระยะห่างบนการ์ดปัด, แผนใช้เฉพาะที่ชอบ + เวลาจริงแก้ได้ + กองสำรองแบบซ้อน |
 | 2026-10-24 | แก้กองการ์ดสำรองว่าง: spare = ที่ปัดข้าม (swipeState.skipped) ก่อน + ที่เที่ยวอื่นที่ตรงมู้ด เรียงใกล้แผน (ไม่เติมลงวันเอง) |
-| 2026-10-24 | ทริปวันเดียว: ซ่อนปุ่ม "จองใกล้ที่นี่" ในแผน/กองสำรอง/ทริปที่บันทึก (DayPlan canBook) |
+| 2026-10-24 | ทริปวันเดียว: ซ่อนปุ่ม "จองใกล้ที่นี่" (เลิกใช้แล้ว — ลบปุ่มนี้ทั้งหมด 2026-10-25) |
 | 2026-10-24 | ทริปค้างคืน: การ์ดไปยังไง 4 แบบ, เที่ยวในพื้นที่ตามพาหนะ (รถส่วนตัว → รถส่วนตัวเท่านั้น), หน้า /plan/transport เลือกเที่ยว + ไปจองจริง, แผนมีแถวเดินทางไป-กลับ + เวลาวันแรก/วันสุดท้ายตามเที่ยว, งบจากราคาเที่ยว |
 | 2026-10-24 | ใส่ตารางเที่ยวจริง กทม.↔ใต้ (agent ค้น), getTrips รวมหลาย route + สถานีต่อเที่ยว, รองรับเที่ยวไม่มีเวลาถึง |
 | 2026-10-24 | ตารางเครื่องบินเหลือเฉพาะ low cost (AirAsia/Lion/Nok/Vietjet) — ตัดเส้นสมุย (มีแต่ Bangkok Airways) |
 | 2026-10-24 | เตรียม deploy + Agoda: push branch dev, หน้า /about (public), footer Landing ลิงก์จริง, data/legal.js, BookingSheet Agoda ลิงก์จริงผ่าน VITE_AGODA_CID |
 | 2026-10-24 | Supabase cloud: รัน deploy-remote.sql ผ่าน `supabase db query --linked` (cloud ว่างก่อนรัน), verify 4 ตาราง/68 คอลัมน์/178 places/12 policies/RLS ครบ, deploy mood-reader (verify_jwt) |
 | 2026-10-25 | ตัด AI อ่านมู้ด → ระบบเดามู้ดจากคำ (moodWords.js) ปุ่ม 'ช่วยเลือกมู้ดให้'; สั่ง Codex หารูป 62 ที่ + agent ทำหน้าสิ่งที่ต้องจอง |
+| 2026-10-25 | เช็กลิสต์ "สิ่งที่ต้องจองก่อนเดินทาง" ก่อนบันทึก (เที่ยวไป-กลับ + ที่พักรวมคืนติดกัน, ติ๊กจองแล้ว เก็บใน trips.estimate.booking.items ไม่ต้องแก้ DB) + การ์ดในหน้าทริป (อ่านอย่างเดียว); ลบ "จองใกล้ที่นี่" ทุกจุด + ลบ TripSummary/PlaceRow; ค้างคืนในจังหวัดตัวเอง รถส่วนตัวขึ้นก่อน+default |
