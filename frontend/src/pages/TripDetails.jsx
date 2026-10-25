@@ -209,12 +209,14 @@ function DetailsForm() {
   const transportLabel = travel.sameProvince && origin ? 'เที่ยวในจังหวัด' : TRANSPORT_TO.find(t => t.id === transportTo)?.label
   const localLabel = TRANSPORT_LOCAL.find(t => t.id === transportLocal)?.label
 
+  const continueButton = <motion.button type="button" disabled={!canContinue} whileTap={reduced || !canContinue ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} onClick={() => { updateDraft({ origin, transportTo, transportLocal }); slideNavigate(navigate, '/plan/swipe') }} className="flex h-14 w-full items-center justify-center gap-2 rounded-full bg-brown text-base font-semibold text-white transition-colors duration-200 motion-reduce:transition-none disabled:cursor-not-allowed disabled:opacity-40">ไปปัดการ์ด <ArrowRight aria-hidden="true" size={18} strokeWidth={2} /></motion.button>
+
   return (
     <div className="min-h-svh bg-cream text-ink">
-      <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col lg:pt-4">
+      <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col lg:max-w-[1120px] lg:pt-4">
         <AppHeader crumb={provinceLabel} title="รายละเอียดทริป" step="3 / 4" backTo={`/map/${province}`} right={random ? <motion.button type="button" disabled={rolling || !origin} onClick={reroll} aria-label="สุ่มรายละเอียดทริปใหม่" whileTap={reduced ? undefined : { scale: 0.96 }} animate={reduced ? undefined : { rotate: rolling ? 180 : 0 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.25 }} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white text-brown transition-colors duration-200 motion-reduce:transition-none disabled:opacity-40"><Dices size={22} strokeWidth={2} aria-hidden="true" /></motion.button> : undefined} />
-        <main className="flex flex-col gap-3 px-4 pb-[calc(112px+env(safe-area-inset-bottom))] pt-3">
-          <div className="px-1 pb-1">
+        <main className="flex flex-col gap-3 px-4 pb-[calc(112px+env(safe-area-inset-bottom))] pt-3 lg:grid lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start lg:gap-x-8 lg:pb-10">
+          <div className="px-1 pb-1 lg:col-span-2">
             <div className="mb-1 flex flex-wrap items-center gap-2">
               {random && <span className="inline-flex items-center gap-1.5 rounded-full bg-[#FBE3D2] px-2.5 py-1 text-xs font-semibold text-brown"><Dices size={14} strokeWidth={2} aria-hidden="true" />ทริปที่สุ่มได้</span>}
               <h1 className="m-0 text-[26px] font-bold">{valueText(provinceLabel, 0)}</h1>
@@ -223,6 +225,7 @@ function DetailsForm() {
             {randomError && <p role="alert" className="mb-0 mt-3 rounded-[20px] bg-[#FBE3D2] p-3 text-sm text-brown">{randomError}</p>}
           </div>
 
+          <div className="contents lg:col-start-1 lg:row-start-2 lg:flex lg:flex-col lg:gap-3">
           <DetailCard title="ต้นทาง" icon={<MapPin size={19} strokeWidth={2} />}>
             {random && origin && <p className="mb-3 mt-0 text-sm font-semibold text-brown">{valueText(PROVINCES.find(p => p.id === origin)?.label ?? origin, 1)}</p>}
             <OriginPicker value={origin} onChange={changeOrigin} />
@@ -282,6 +285,9 @@ function DetailsForm() {
             {driving && <p className="mb-0 mt-2 text-[11px] text-muted">ขับรถไปเอง ใช้รถคันเดิมเที่ยวต่อในพื้นที่</p>}
           </DetailCard>
 
+          </div>
+
+          <div className="contents lg:col-start-2 lg:row-start-2 lg:flex lg:flex-col lg:gap-3">
           <DetailCard title="วันเดินทาง" icon={<CalendarDays size={19} strokeWidth={2} />}>
             <DetailsSegments label="รูปแบบวันเดินทาง" value={draft.tripType} options={[{ id: 'daytrip', label: 'ไปกลับวันเดียว' }, { id: 'overnight', label: 'ค้างคืน' }]} onChange={changeType} reduced={reduced} groupRef={typeRef} />
             <div className="mb-3 flex items-center justify-between gap-2 rounded-[20px] bg-cream px-4 py-3">
@@ -305,10 +311,12 @@ function DetailsForm() {
 
           {currentPlaces?.error && <div role="status" className="rounded-[22px] bg-white p-4 text-sm text-muted">ยังโหลดข้อมูลฤดูกาลไม่ได้ <button type="button" onClick={() => setAttempt(value => value + 1)} className="min-h-11 px-2 font-semibold text-brown underline underline-offset-4">ลองใหม่</button></div>}
           {warnings.length > 0 && <aside aria-label="ข้อควรรู้ก่อนเดินทาง" className="flex flex-col gap-2 rounded-[24px] bg-[#FBE3D2] p-4"><h2 className="m-0 flex items-center gap-2 text-sm font-semibold text-brown"><Sun size={18} strokeWidth={2} aria-hidden="true" />ก่อนออกเดินทาง</h2>{warnings.map(warning => <p key={warning.placeId} className="m-0 text-xs leading-relaxed text-[#4A3A30]">{warning.message}</p>)}</aside>}
+          <div className="hidden lg:sticky lg:bottom-6 lg:z-10 lg:block">{continueButton}</div>
+          </div>
         </main>
 
-        <div className="plan-sticky-bar sticky bottom-0 z-10 mt-auto bg-cream px-4 pb-[max(20px,env(safe-area-inset-bottom))] pt-3">
-          <motion.button type="button" disabled={!canContinue} whileTap={reduced || !canContinue ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} onClick={() => { updateDraft({ origin, transportTo, transportLocal }); slideNavigate(navigate, '/plan/swipe') }} className="flex h-14 w-full items-center justify-center gap-2 rounded-full bg-brown text-base font-semibold text-white transition-colors duration-200 motion-reduce:transition-none disabled:cursor-not-allowed disabled:opacity-40">ไปปัดการ์ด <ArrowRight aria-hidden="true" size={18} strokeWidth={2} /></motion.button>
+        <div className="plan-sticky-bar sticky bottom-0 z-10 mt-auto bg-cream px-4 pb-[max(20px,env(safe-area-inset-bottom))] pt-3 lg:hidden">
+          {continueButton}
         </div>
       </div>
     </div>

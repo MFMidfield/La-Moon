@@ -137,12 +137,18 @@ export default function TripDetail() {
           {moodLabels.length > 0 && ` · ${moodLabels.join(', ')}`}
         </p>
 
-        <div className="flex flex-col gap-5 px-4 pt-4">
-          {(trip.start_date || trip.travelers || typeof trip.budget === 'object') && <TripOverview trip={trip} days={current.days.length || 1} nights={trip.nights ?? Math.max(0, current.days.length - 1)} people={Math.max(1, (trip.travelers?.adults ?? 1) + (trip.travelers?.children ?? 0))} />}
-          {bookingItems.length > 0 && <BookingCard items={bookingItems} booked={booked} />}
-          {current.days.length > 0 && <DayPlan days={current.days} startDate={trip.start_date} legs={legs} people={people} transit={transit} />}
-          {current.combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
-          {trip.estimate && <TripBudget estimate={trip.estimate} transit={trip.transport_local === 'transit' ? transit : null} />}
+        <div className="flex flex-col gap-5 px-4 pt-4 lg:grid lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start lg:gap-x-8">
+          {(current.days.length > 0 || current.combos.length > 0) && (
+            <div className="order-3 flex flex-col gap-5 lg:col-start-1 lg:row-start-1">
+              {current.days.length > 0 && <DayPlan days={current.days} startDate={trip.start_date} legs={legs} people={people} transit={transit} />}
+              {current.combos.map(combo => <ComboCard key={combo.id} combo={combo} />)}
+            </div>
+          )}
+          <div className="contents lg:sticky lg:top-6 lg:col-start-2 lg:row-start-1 lg:flex lg:max-h-[calc(100svh-3rem)] lg:flex-col lg:gap-5 lg:self-start lg:overflow-y-auto lg:overscroll-contain">
+            {(trip.start_date || trip.travelers || typeof trip.budget === 'object') && <div className="order-1"><TripOverview trip={trip} days={current.days.length || 1} nights={trip.nights ?? Math.max(0, current.days.length - 1)} people={Math.max(1, (trip.travelers?.adults ?? 1) + (trip.travelers?.children ?? 0))} /></div>}
+            {bookingItems.length > 0 && <div className="order-2"><BookingCard items={bookingItems} booked={booked} /></div>}
+            {trip.estimate && <div className="order-4"><TripBudget estimate={trip.estimate} transit={trip.transport_local === 'transit' ? transit : null} /></div>}
+          </div>
         </div>
         {current.days.length === 0 && (
           <p className="m-0 px-[22px] pt-6 text-[15px] text-muted">สถานที่ในทริปนี้ถูกนำออกจากระบบแล้ว</p>
@@ -200,7 +206,7 @@ export default function TripDetail() {
 
   return (
     <MotionConfig reducedMotion="user">
-    <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink">
+    <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink lg:max-w-[1120px] lg:pt-4">
       <AppHeader title={trip ? `ทริป${provinceLabel}` : 'ทริปของฉัน'} crumb={crumb} backTo="/home" />
       {body}
     </div>

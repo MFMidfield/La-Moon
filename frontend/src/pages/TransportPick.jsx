@@ -98,7 +98,7 @@ function PickForm({ origin, province, mode }) {
 
   return (
     <div className="min-h-svh bg-cream text-ink">
-      <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col lg:pt-4">
+      <div className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col lg:max-w-[1120px] lg:pt-4">
         <AppHeader title="เลือกเที่ยวไป-กลับ" crumb={`${labelOf(origin)} ⇄ ${labelOf(province)}`} backTo={returnTo} />
         <main className="flex flex-col gap-3 px-4 pb-[calc(150px+env(safe-area-inset-bottom))] pt-3">
           <Tabs value={tab} onChange={setTab} dates={dates} picked={{ out: Boolean(booking.out), back: Boolean(booking.back) }} reduced={reduced} />
@@ -111,14 +111,16 @@ function PickForm({ origin, province, mode }) {
             </div>
           ) : (
             <motion.div key={tab} initial={reduced ? false : { opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: reduced ? 0 : 0.2 }} className="flex flex-col gap-3">
+              <div className="contents lg:grid lg:grid-cols-2 lg:gap-3">
               {data.trips.length === 0 ? (
-                <div className="rounded-[24px] bg-white p-5 text-center">
+                <div className="rounded-[24px] bg-white p-5 text-center lg:col-span-2">
                   <p className="m-0 text-base font-semibold">ยังไม่มีเที่ยวในวันนี้</p>
                   <p className="mb-0 mt-1 text-sm text-muted">ลองเปลี่ยนวันเดินทาง หรือดูเที่ยวล่าสุดที่เว็บจองได้เลย</p>
                 </div>
               ) : data.trips.map((trip) => (
                 <TripOption key={`${trip.code}-${trip.depart}`} trip={trip} route={data.route} selected={isSelected(trip)} onSelect={() => select(trip)} />
               ))}
+              </div>
 
               <p className="m-0 flex items-start gap-1.5 px-1 text-xs leading-relaxed text-muted">
                 <Info size={14} strokeWidth={2} aria-hidden="true" className="mt-0.5 shrink-0" />
@@ -133,7 +135,7 @@ function PickForm({ origin, province, mode }) {
                 rel="noopener noreferrer"
                 whileTap={reduced ? undefined : { scale: 0.96 }}
                 transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }}
-                className="flex h-12 w-full items-center justify-center gap-2 rounded-full border-[1.5px] border-[#D9CFC5] bg-white text-sm font-semibold text-ink"
+                className="flex h-12 w-full items-center justify-center gap-2 rounded-full border-[1.5px] border-[#D9CFC5] bg-white text-sm font-semibold text-ink lg:mx-auto lg:w-80"
               >
                 ไปจองจริง <ExternalLink size={16} strokeWidth={2} aria-hidden="true" />
               </motion.a>
@@ -141,9 +143,9 @@ function PickForm({ origin, province, mode }) {
           )}
         </main>
 
-        <div className="plan-sticky-bar sticky bottom-0 z-10 mt-auto bg-cream px-4 pb-[max(12px,env(safe-area-inset-bottom))] pt-3">
-          <motion.button type="button" disabled={!bothPicked} onClick={done} whileTap={reduced || !bothPicked ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className="flex h-14 w-full items-center justify-center rounded-full bg-brown text-base font-semibold text-white transition-colors duration-200 motion-reduce:transition-none disabled:cursor-not-allowed disabled:opacity-40">ใช้เที่ยวนี้</motion.button>
-          <button type="button" onClick={done} className="mt-1 flex min-h-11 w-full items-center justify-center text-sm font-semibold text-brown">เลือกทีหลัง</button>
+        <div className="plan-sticky-bar sticky bottom-0 z-10 mt-auto bg-cream px-4 pb-[max(12px,env(safe-area-inset-bottom))] pt-3 lg:flex lg:flex-col lg:items-center">
+          <motion.button type="button" disabled={!bothPicked} onClick={done} whileTap={reduced || !bothPicked ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className="flex h-14 w-full items-center justify-center rounded-full bg-brown text-base lg:w-80 font-semibold text-white transition-colors duration-200 motion-reduce:transition-none disabled:cursor-not-allowed disabled:opacity-40">ใช้เที่ยวนี้</motion.button>
+          <button type="button" onClick={done} className="mt-1 flex min-h-11 w-full items-center justify-center text-sm font-semibold text-brown lg:w-80">เลือกทีหลัง</button>
         </div>
       </div>
     </div>
