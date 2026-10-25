@@ -33,14 +33,32 @@ function SelectionCheck({ selected, reduced }) {
 }
 
 // แถบเลือก 2 ช่อง: พื้นพีชเลื่อนแนวนอนในรางของตัวเอง (ไม่ใช้ layoutId — การ์ดด้านบนเปลี่ยนความสูงแล้วแถบไม่ลอยข้ามจอ)
-function DetailsSegments({ label, value, options, onChange, reduced }) {
+function DetailsSegments({ label, value, options, onChange, reduced, groupRef }) {
   const index = Math.max(0, options.findIndex(option => option.id === value))
-  return <div role="group" aria-label={label} className="relative isolate mb-4 grid grid-cols-2 gap-1 rounded-full bg-cream p-1">
+  return <div ref={groupRef} role="group" aria-label={label} className="relative isolate mb-4 grid grid-cols-2 gap-1 rounded-full bg-cream p-1">
     <motion.span aria-hidden="true" className="absolute inset-y-1 left-1 -z-10 w-[calc(50%-6px)] rounded-full bg-peach" initial={false} animate={{ x: index === 0 ? '0%' : 'calc(100% + 4px)' }} transition={reduced ? { duration: 0 } : { type: 'spring', duration: 0.3, bounce: 0.12 }} />
     {options.map(option => <motion.button key={option.id} type="button" onClick={() => onChange(option.id)} aria-pressed={value === option.id} whileTap={reduced ? undefined : { scale: 0.96 }} transition={{ type: 'spring', duration: reduced ? 0 : 0.2 }} className={`min-h-11 min-w-0 rounded-full px-2 text-sm font-semibold transition-colors duration-200 motion-reduce:transition-none ${value === option.id ? 'text-brown' : 'text-[#4A3A30]'}`}>
       <span className="block">{option.label}</span>
     </motion.button>)}
   </div>
+}
+
+// สลับวันเดียว/ค้างคืนแล้วการ์ด "ไปยังไง" ด้านบนยืด-หด → เลื่อนหน้าชดเชยทุกเฟรมให้ el อยู่ที่เดิมบนจอ
+// (ปิด scroll anchoring ของ browser ระหว่างนั้น กันชดเชยซ้ำ; Safari ไม่มี anchoring เลยต้องทำเอง)
+const HOLD_MS = 600
+function holdInPlace(el) {
+  if (!el) return
+  const root = document.documentElement
+  const top = el.getBoundingClientRect().top
+  const until = performance.now() + HOLD_MS
+  root.style.overflowAnchor = 'none'
+  function frame(now) {
+    const delta = el.getBoundingClientRect().top - top
+    if (Math.abs(delta) >= 1) window.scrollBy(0, delta)
+    if (now < until && el.isConnected) requestAnimationFrame(frame)
+    else root.style.overflowAnchor = ''
+  }
+  requestAnimationFrame(frame)
 }
 
 // การ์ดที่โผล่/หายตามรูปแบบทริป: ยืด-หดความสูงแทนการกระโดด (marginTop ชดเชย gap-3 ของรายการ)
@@ -65,6 +83,7 @@ function DetailsForm() {
   const [randomError, setRandomError] = useState('')
   const defaulted = useRef(false)
   const saveSequence = useRef(0)
+  const typeRef = useRef(null)
   const origin = draft.origin ?? profile?.home_province ?? null
   const province = draft.province
   const provinceLabel = PROVINCES.find(p => p.id === province)?.label ?? province
@@ -150,6 +169,7 @@ function DetailsForm() {
   }
 
   function changeType(type) {
+    holdInPlace(typeRef.current)
     if (type === 'daytrip' && !draft.startDate && travel.sameProvince) return updateDraft({ tripType: type, startDate: tomorrowIso(), endDate: tomorrowIso() })
     updateDraft({ tripType: type, endDate: !draft.startDate ? null : type === 'daytrip' ? draft.startDate : draft.endDate && draft.endDate > draft.startDate ? draft.endDate : addDate(draft.startDate, 1) })
   }
@@ -263,7 +283,7 @@ function DetailsForm() {
           </DetailCard>
 
           <DetailCard title="วันเดินทาง" icon={<CalendarDays size={19} strokeWidth={2} />}>
-            <DetailsSegments label="รูปแบบวันเดินทาง" value={draft.tripType} options={[{ id: 'daytrip', label: 'ไปกลับวันเดียว' }, { id: 'overnight', label: 'ค้างคืน' }]} onChange={changeType} reduced={reduced} />
+            <DetailsSegments label="รูปแบบวันเดินทาง" value={draft.tripType} options={[{ id: 'daytrip', label: 'ไปกลับวันเดียว' }, { id: 'overnight', label: 'ค้างคืน' }]} onChange={changeType} reduced={reduced} groupRef={typeRef} />
             <div className="mb-3 flex items-center justify-between gap-2 rounded-[20px] bg-cream px-4 py-3">
               <span className="text-sm font-medium">{valueText(`${shortDate(draft.startDate)}${draft.tripType === 'overnight' ? ` – ${shortDate(draft.endDate)}` : ''}`, 4)}</span>
               {datesValid && <span className="shrink-0 text-xs text-brown">{valueText(`${days} วัน ${nights} คืน`, 5)}</span>}
