@@ -1,0 +1,401 @@
+{
+  "food_seafood": [
+    {
+      "image_url": "https://images.pexels.com/photos/18502881/pexels-photo-18502881.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/18502881/",
+      "image_credit": "Adisak Thangthong / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "steamed cockles on a plate, Thai street food"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/33939170/pexels-photo-33939170.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/33939170/",
+      "image_credit": "Nana LLJ / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "seafood market stall in Phuket with fish and shellfish on ice"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/37279451/pexels-photo-37279451.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/37279451/",
+      "image_credit": "Liuuu / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "flat lay of Thai seafood dishes on wooden table"
+    }
+  ],
+  "food_noodle": [
+    {
+      "image_url": "https://images.pexels.com/photos/12178095/pexels-photo-12178095.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/12178095/",
+      "image_credit": "Markus Winkler / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "noodle soup bowl with chopsticks on wooden table"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/38941394/pexels-photo-38941394.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/38941394/",
+      "image_credit": "Archudio / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "Thai beef noodle soup in blue bowl"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/7361022/pexels-photo-7361022.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/7361022/",
+      "image_credit": "Likeboss Lertpongsaporn / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "khao soi in ceramic bowl"
+    }
+  ],
+  "food_rice_porridge": [
+    {
+      "image_url": "https://images.pexels.com/photos/38790905/pexels-photo-38790905.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/38790905/",
+      "image_credit": "Archudio / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "Thai chicken congee with toppings"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/33171278/pexels-photo-33171278.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/33171278/",
+      "image_credit": "Anya Dunes / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "chicken rice porridge with egg and green onion"
+    }
+  ],
+  "food_stir_fry": [
+    {
+      "image_url": "https://images.pexels.com/photos/34714660/pexels-photo-34714660.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/34714660/",
+      "image_credit": "Undo Kim / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "Thai basil stir-fry with rice and fried egg"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/12824413/pexels-photo-12824413.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/12824413/",
+      "image_credit": "Manit Seekhao / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "Thai basil chicken with rice and fried egg"
+    }
+  ],
+  "food_southern": [
+    {
+      "image_url": "https://images.pexels.com/photos/15797984/pexels-photo-15797984.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/15797984/",
+      "image_credit": "Eaksit Sangdee / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "Thai panaeng curry with pork among shared plates"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/31029754/pexels-photo-31029754.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/31029754/",
+      "image_credit": "Sai Kuen Leung / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "Thai green curry with vegetables in black bowl"
+    }
+  ],
+  "food_dimsum_breakfast": [
+    {
+      "image_url": "https://images.pexels.com/photos/27104070/pexels-photo-27104070.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/27104070/",
+      "image_credit": "The Journey of Frames / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "dim sum in steamer at a street market"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/38954055/pexels-photo-38954055.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/38954055/",
+      "image_credit": "Shakir1317 / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "roti canai with curry sauce"
+    }
+  ],
+  "food_thai_dessert": [
+    {
+      "image_url": "https://images.pexels.com/photos/32278418/pexels-photo-32278418.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/32278418/",
+      "image_credit": "Absoluteabhi / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "mango sticky rice with orchid"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/14593262/pexels-photo-14593262.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/14593262/",
+      "image_credit": "Luke Hayden / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "traditional sweets in paper cups at market"
+    }
+  ],
+  "food_cafe": [
+    {
+      "image_url": "https://images.pexels.com/photos/6612572/pexels-photo-6612572.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/6612572/",
+      "image_credit": "Pavel Danilyuk / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "cozy coffee shop with espresso machine"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/27706147/",
+      "image_credit": "Dinaziz2462 / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "warm cafe interior with rustic decor"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/2079448/pexels-photo-2079448.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/2079448/",
+      "image_credit": "Emrecan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "coffee shop with books and wooden walls"
+    }
+  ],
+  "food_bakery": [
+    {
+      "image_url": "https://images.pexels.com/photos/7405059/pexels-photo-7405059.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/7405059/",
+      "image_credit": "Furkan Tumer / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "breads and pastries in glass display counter"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/15009979/pexels-photo-15009979.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/15009979/",
+      "image_credit": "Vovkapanda / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "assorted bread on shelves in a bakery"
+    }
+  ],
+  "food_street_stall": [
+    {
+      "image_url": "https://images.pexels.com/photos/12265850/pexels-photo-12265850.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/12265850/",
+      "image_credit": "Markus Winkler / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "street food cart in Bangkok"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/38429596/pexels-photo-38429596.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/38429596/",
+      "image_credit": "Dale / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "street food cart in Bangkok with seating"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/30982066/pexels-photo-30982066.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/30982066/",
+      "image_credit": "Johntask / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "Bangkok street market with Thai food stalls"
+    }
+  ],
+  "food_market": [
+    {
+      "image_url": "https://images.pexels.com/photos/28600264/pexels-photo-28600264.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/28600264/",
+      "image_credit": "Jean Papillon / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "fresh produce market in Chiang Mai"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/28654108/pexels-photo-28654108.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/28654108/",
+      "image_credit": "Inna YN / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "Bangkok market with tropical fruit"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/28560925/pexels-photo-28560925.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/28560925/",
+      "image_credit": "Gije / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "aerial view of Bangkok night market"
+    }
+  ],
+  "food_fine_dining_thai": [
+    {
+      "image_url": "https://images.pexels.com/photos/12561888/pexels-photo-12561888.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/12561888/",
+      "image_credit": "Captured by Augustine / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "plated pad thai with orchid garnish"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/12866498/pexels-photo-12866498.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/12866498/",
+      "image_credit": "Captured by Augustine / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "coconut soup with seafood served in coconut shell"
+    }
+  ],
+  "food_fusion": [
+    {
+      "image_url": "https://images.pexels.com/photos/37279452/pexels-photo-37279452.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/37279452/",
+      "image_credit": "Liuuu / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "Asian fusion dish with seafood and vegetables"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/37082719/pexels-photo-37082719.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/37082719/",
+      "image_credit": "JentStyle Photo / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "Thai-style seafood pasta with herbs"
+    }
+  ],
+  "stay_guesthouse": [
+    {
+      "image_url": "https://images.pexels.com/photos/1103808/pexels-photo-1103808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/1103808/",
+      "image_credit": "Carmen Cobo / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "bedroom overlooking a garden"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/14595935/pexels-photo-14595935.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/14595935/",
+      "image_credit": "Bilakis / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "open balcony door with outdoor seating"
+    }
+  ],
+  "stay_hostel": [
+    {
+      "image_url": "https://images.pexels.com/photos/5137986/pexels-photo-5137986.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/5137986/",
+      "image_credit": "cottonbro studio / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "dorm bunk beds with curtains and storage"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/35165103/pexels-photo-35165103.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/35165103/",
+      "image_credit": "Kader Namuslu / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "rustic dorm with wooden bunk beds"
+    }
+  ],
+  "stay_hotel_city": [
+    {
+      "image_url": "https://images.pexels.com/photos/37835990/pexels-photo-37835990.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/37835990/",
+      "image_credit": "Ariyan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "hotel room overlooking Bangkok skyline"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/37836001/pexels-photo-37836001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/37836001/",
+      "image_credit": "Ariyan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "hotel room at twilight with Bangkok skyline"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/19810875/pexels-photo-19810875.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/19810875/",
+      "image_credit": "Wutthichai Charoenburi / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "rooftop pool with skyline and river view"
+    }
+  ],
+  "stay_boutique": [
+    {
+      "image_url": "https://images.pexels.com/photos/37098094/pexels-photo-37098094.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/37098094/",
+      "image_credit": "Sasi Tha / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "warm modern bedroom with soft lighting"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/39592435/pexels-photo-39592435.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/39592435/",
+      "image_credit": "Zenji / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "boutique hotel facade with tropical plants and lanterns"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/6606354/pexels-photo-6606354.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/6606354/",
+      "image_credit": "Belle Shang / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "industrial-style bedroom in Bangkok"
+    }
+  ],
+  "stay_resort_beach": [
+    {
+      "image_url": "https://images.pexels.com/photos/4089908/pexels-photo-4089908.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/4089908/",
+      "image_credit": "Dushenkovsky / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "resort on the Phuket coastline"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/31387456/pexels-photo-31387456.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/31387456/",
+      "image_credit": "Vince / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "tropical beach resort with palm trees and loungers"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/3355777/pexels-photo-3355777.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/3355777/",
+      "image_credit": "Quang Nguyen Vinh / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "beach resort with palms, umbrellas and loungers"
+    }
+  ],
+  "stay_resort_garden": [
+    {
+      "image_url": "https://images.pexels.com/photos/37610710/pexels-photo-37610710.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/37610710/",
+      "image_credit": "Cihad Yildiz / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "tropical resort with pools and palm trees"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/13584138/pexels-photo-13584138.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/13584138/",
+      "image_credit": "Kien Le / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "round pool with loungers and palm trees"
+    }
+  ],
+  "stay_villa_pool": [
+    {
+      "image_url": "https://images.pexels.com/photos/36418268/pexels-photo-36418268.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/36418268/",
+      "image_credit": "Mark Direen / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "villa pool in lush tropical garden"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/2480608/pexels-photo-2480608.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/2480608/",
+      "image_credit": "Betchtyblades / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "wooden villa with private pool and gardens"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/33709939/pexels-photo-33709939.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/33709939/",
+      "image_credit": "Yose Antonius / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "villa with private pool and tropical design"
+    }
+  ],
+  "stay_homestay": [
+    {
+      "image_url": "https://images.pexels.com/photos/33399672/pexels-photo-33399672.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/33399672/",
+      "image_credit": "Valeria Drozdova / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "traditional Thai stilt house by riverside"
+    },
+    {
+      "image_url": "https://images.pexels.com/photos/2416472/pexels-photo-2416472.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_page_url": "https://www.pexels.com/photo/2416472/",
+      "image_credit": "Richhunterrice / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "shows": "traditional Thai wooden house in tropical garden"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-// ข้อมูลตัวอย่าง (ชื่อสมมุติ) — ใช้จนกว่าจะได้ข้อมูลจริงจาก deep research; is_mock = true
+// ข้อมูลตัวอย่าง (ชื่อสมมุติ) is_mock = true — รูปเป็นภาพประกอบตามประเภท (Pexels/Unsplash, AI/data/food-stay-image-pool.json)
 export const MOCK_STAYS = [
  {
   "id": "mock-stay-bangkok-1",
@@ -28,9 +28,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/1103808/pexels-photo-1103808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/1103808/",
+  "image_credit": "Carmen Cobo / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-bangkok-2",
@@ -60,9 +63,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/5137986/pexels-photo-5137986.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/5137986/",
+  "image_credit": "cottonbro studio / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-bangkok-3",
@@ -94,9 +100,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37835990/pexels-photo-37835990.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37835990/",
+  "image_credit": "Ariyan / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-bangkok-4",
@@ -128,9 +137,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37098094/pexels-photo-37098094.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37098094/",
+  "image_credit": "Sasi Tha / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-bangkok-5",
@@ -163,9 +175,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37610710/pexels-photo-37610710.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37610710/",
+  "image_credit": "Cihad Yildiz / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-bangkok-6",
@@ -198,9 +213,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/36418268/pexels-photo-36418268.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/36418268/",
+  "image_credit": "Mark Direen / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nonthaburi-1",
@@ -229,9 +247,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/14595935/pexels-photo-14595935.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/14595935/",
+  "image_credit": "Bilakis / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nonthaburi-2",
@@ -260,9 +281,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/35165103/pexels-photo-35165103.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/35165103/",
+  "image_credit": "Kader Namuslu / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nonthaburi-3",
@@ -293,9 +317,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37836001/pexels-photo-37836001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37836001/",
+  "image_credit": "Ariyan / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nonthaburi-4",
@@ -326,9 +353,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/39592435/pexels-photo-39592435.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/39592435/",
+  "image_credit": "Zenji / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nonthaburi-5",
@@ -360,9 +390,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/13584138/pexels-photo-13584138.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/13584138/",
+  "image_credit": "Kien Le / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nonthaburi-6",
@@ -394,9 +427,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/2480608/pexels-photo-2480608.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/2480608/",
+  "image_credit": "Betchtyblades / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-pathum-thani-1",
@@ -425,9 +461,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/1103808/pexels-photo-1103808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/1103808/",
+  "image_credit": "Carmen Cobo / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-pathum-thani-2",
@@ -456,9 +495,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/5137986/pexels-photo-5137986.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/5137986/",
+  "image_credit": "cottonbro studio / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-pathum-thani-3",
@@ -489,9 +531,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/19810875/pexels-photo-19810875.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/19810875/",
+  "image_credit": "Wutthichai Charoenburi / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-pathum-thani-4",
@@ -522,9 +567,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/6606354/pexels-photo-6606354.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/6606354/",
+  "image_credit": "Belle Shang / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-pathum-thani-5",
@@ -556,9 +604,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37610710/pexels-photo-37610710.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37610710/",
+  "image_credit": "Cihad Yildiz / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-pathum-thani-6",
@@ -590,9 +641,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/33709939/pexels-photo-33709939.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/33709939/",
+  "image_credit": "Yose Antonius / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-samut-prakan-1",
@@ -621,9 +675,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/14595935/pexels-photo-14595935.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/14595935/",
+  "image_credit": "Bilakis / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-samut-prakan-2",
@@ -652,9 +709,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/35165103/pexels-photo-35165103.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/35165103/",
+  "image_credit": "Kader Namuslu / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-samut-prakan-3",
@@ -686,9 +746,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37835990/pexels-photo-37835990.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37835990/",
+  "image_credit": "Ariyan / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-samut-prakan-4",
@@ -720,9 +783,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37098094/pexels-photo-37098094.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37098094/",
+  "image_credit": "Sasi Tha / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-samut-prakan-5",
@@ -755,9 +821,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/13584138/pexels-photo-13584138.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/13584138/",
+  "image_credit": "Kien Le / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-samut-prakan-6",
@@ -790,9 +859,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/36418268/pexels-photo-36418268.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/36418268/",
+  "image_credit": "Mark Direen / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nakhon-pathom-1",
@@ -821,9 +893,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/1103808/pexels-photo-1103808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/1103808/",
+  "image_credit": "Carmen Cobo / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nakhon-pathom-2",
@@ -852,9 +927,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/5137986/pexels-photo-5137986.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/5137986/",
+  "image_credit": "cottonbro studio / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nakhon-pathom-3",
@@ -885,9 +963,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37836001/pexels-photo-37836001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37836001/",
+  "image_credit": "Ariyan / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nakhon-pathom-4",
@@ -918,9 +999,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/39592435/pexels-photo-39592435.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/39592435/",
+  "image_credit": "Zenji / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nakhon-pathom-5",
@@ -952,9 +1036,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37610710/pexels-photo-37610710.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37610710/",
+  "image_credit": "Cihad Yildiz / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nakhon-pathom-6",
@@ -986,9 +1073,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/2480608/pexels-photo-2480608.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/2480608/",
+  "image_credit": "Betchtyblades / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-samut-sakhon-1",
@@ -1017,9 +1107,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/14595935/pexels-photo-14595935.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/14595935/",
+  "image_credit": "Bilakis / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-samut-sakhon-2",
@@ -1048,9 +1141,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/35165103/pexels-photo-35165103.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/35165103/",
+  "image_credit": "Kader Namuslu / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-samut-sakhon-3",
@@ -1082,9 +1178,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/19810875/pexels-photo-19810875.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/19810875/",
+  "image_credit": "Wutthichai Charoenburi / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-samut-sakhon-4",
@@ -1116,9 +1215,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/6606354/pexels-photo-6606354.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/6606354/",
+  "image_credit": "Belle Shang / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-samut-sakhon-5",
@@ -1151,9 +1253,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/13584138/pexels-photo-13584138.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/13584138/",
+  "image_credit": "Kien Le / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-samut-sakhon-6",
@@ -1186,9 +1291,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/33709939/pexels-photo-33709939.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/33709939/",
+  "image_credit": "Yose Antonius / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-krabi-1",
@@ -1217,9 +1325,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/1103808/pexels-photo-1103808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/1103808/",
+  "image_credit": "Carmen Cobo / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-krabi-2",
@@ -1248,9 +1359,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/5137986/pexels-photo-5137986.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/5137986/",
+  "image_credit": "cottonbro studio / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-krabi-3",
@@ -1282,9 +1396,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37835990/pexels-photo-37835990.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37835990/",
+  "image_credit": "Ariyan / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-krabi-4",
@@ -1316,9 +1433,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37098094/pexels-photo-37098094.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37098094/",
+  "image_credit": "Sasi Tha / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-krabi-5",
@@ -1351,9 +1471,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/4089908/pexels-photo-4089908.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/4089908/",
+  "image_credit": "Dushenkovsky / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-krabi-6",
@@ -1386,9 +1509,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/36418268/pexels-photo-36418268.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/36418268/",
+  "image_credit": "Mark Direen / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-phang-nga-1",
@@ -1417,9 +1543,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/14595935/pexels-photo-14595935.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/14595935/",
+  "image_credit": "Bilakis / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-phang-nga-2",
@@ -1448,9 +1577,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/35165103/pexels-photo-35165103.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/35165103/",
+  "image_credit": "Kader Namuslu / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-phang-nga-3",
@@ -1482,9 +1614,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37836001/pexels-photo-37836001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37836001/",
+  "image_credit": "Ariyan / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-phang-nga-4",
@@ -1516,9 +1651,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/39592435/pexels-photo-39592435.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/39592435/",
+  "image_credit": "Zenji / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-phang-nga-5",
@@ -1551,9 +1689,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/31387456/pexels-photo-31387456.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/31387456/",
+  "image_credit": "Vince / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-phang-nga-6",
@@ -1586,9 +1727,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/2480608/pexels-photo-2480608.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/2480608/",
+  "image_credit": "Betchtyblades / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-phuket-1",
@@ -1617,9 +1761,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/1103808/pexels-photo-1103808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/1103808/",
+  "image_credit": "Carmen Cobo / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-phuket-2",
@@ -1648,9 +1795,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/5137986/pexels-photo-5137986.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/5137986/",
+  "image_credit": "cottonbro studio / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-phuket-3",
@@ -1682,9 +1832,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/19810875/pexels-photo-19810875.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/19810875/",
+  "image_credit": "Wutthichai Charoenburi / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-phuket-4",
@@ -1716,9 +1869,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/6606354/pexels-photo-6606354.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/6606354/",
+  "image_credit": "Belle Shang / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-phuket-5",
@@ -1751,9 +1907,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/3355777/pexels-photo-3355777.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/3355777/",
+  "image_credit": "Quang Nguyen Vinh / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-phuket-6",
@@ -1786,9 +1945,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/33709939/pexels-photo-33709939.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/33709939/",
+  "image_credit": "Yose Antonius / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-surat-thani-1",
@@ -1817,9 +1979,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/14595935/pexels-photo-14595935.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/14595935/",
+  "image_credit": "Bilakis / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-surat-thani-2",
@@ -1848,9 +2013,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/35165103/pexels-photo-35165103.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/35165103/",
+  "image_credit": "Kader Namuslu / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-surat-thani-3",
@@ -1882,9 +2050,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37835990/pexels-photo-37835990.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37835990/",
+  "image_credit": "Ariyan / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-surat-thani-4",
@@ -1916,9 +2087,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37098094/pexels-photo-37098094.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37098094/",
+  "image_credit": "Sasi Tha / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-surat-thani-5",
@@ -1951,9 +2125,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/4089908/pexels-photo-4089908.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/4089908/",
+  "image_credit": "Dushenkovsky / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-surat-thani-6",
@@ -1986,9 +2163,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/36418268/pexels-photo-36418268.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/36418268/",
+  "image_credit": "Mark Direen / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nakhon-si-thammarat-1",
@@ -2017,9 +2197,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/1103808/pexels-photo-1103808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/1103808/",
+  "image_credit": "Carmen Cobo / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nakhon-si-thammarat-2",
@@ -2048,9 +2231,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/5137986/pexels-photo-5137986.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/5137986/",
+  "image_credit": "cottonbro studio / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nakhon-si-thammarat-3",
@@ -2082,9 +2268,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/37836001/pexels-photo-37836001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/37836001/",
+  "image_credit": "Ariyan / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nakhon-si-thammarat-4",
@@ -2116,9 +2305,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/39592435/pexels-photo-39592435.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/39592435/",
+  "image_credit": "Zenji / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nakhon-si-thammarat-5",
@@ -2151,9 +2343,12 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/31387456/pexels-photo-31387456.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/31387456/",
+  "image_credit": "Vince / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  },
  {
   "id": "mock-stay-nakhon-si-thammarat-6",
@@ -2186,8 +2381,11 @@ export const MOCK_STAYS = [
   ],
   "check_in": "14:00",
   "check_out": "12:00",
-  "image_url": null,
   "booking_url": null,
-  "is_mock": true
+  "is_mock": true,
+  "image_url": "https://images.pexels.com/photos/2480608/pexels-photo-2480608.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "image_page_url": "https://www.pexels.com/photo/2480608/",
+  "image_credit": "Betchtyblades / Pexels",
+  "image_license": "ภาพประกอบ · Pexels License"
  }
 ]
