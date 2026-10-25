@@ -214,4 +214,5 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | Supabase cloud: รัน deploy-remote.sql ผ่าน `supabase db query --linked` (cloud ว่างก่อนรัน), verify 4 ตาราง/68 คอลัมน์/178 places/12 policies/RLS ครบ, deploy mood-reader (verify_jwt) |
 | 2026-10-25 | ตัด AI อ่านมู้ด → ระบบเดามู้ดจากคำ (moodWords.js) ปุ่ม 'ช่วยเลือกมู้ดให้'; สั่ง Codex หารูป 62 ที่ + agent ทำหน้าสิ่งที่ต้องจอง |
 | 2026-10-25 | เช็กลิสต์ "สิ่งที่ต้องจองก่อนเดินทาง" ก่อนบันทึก (เที่ยวไป-กลับ + ที่พักรวมคืนติดกัน, ติ๊กจองแล้ว เก็บใน trips.estimate.booking.items ไม่ต้องแก้ DB) + การ์ดในหน้าทริป (อ่านอย่างเดียว); ลบ "จองใกล้ที่นี่" ทุกจุด + ลบ TripSummary/PlaceRow; ค้างคืนในจังหวัดตัวเอง รถส่วนตัวขึ้นก่อน+default |
+| 2026-10-25 | รูปสถานที่: Codex หารูป Wikimedia ให้ 62 ที่ที่ไม่มีรูป (AI/data/images-missing.json) ใส่ DB local+cloud 33 ที่ (29 ตรง + 4 ใกล้เคียง) — เหลือไม่มีรูป 29/178 ใช้รูปสำรอง; backup ใน backend/supabase/backups/ |
 | 2026-10-25 | แก้ slide เปลี่ยนหน้ากระตุก (ถ่ายภาพได้ loader เพราะ chunk ยังไม่โหลด): ย้าย lazy pages ไป routes/pages.jsx, slideNavigate รอ preloadPage ก่อน startViewTransition |

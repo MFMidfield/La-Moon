@@ -1,0 +1,560 @@
+[
+  {
+    "id": "asiatique-the-riverfront",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Asiatique_The_Riverfront_08.jpg/1280px-Asiatique_The_Riverfront_08.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Asiatique_The_Riverfront_08.jpg",
+    "image_credit": "Boonlert / Wikimedia Commons",
+    "image_license": "CC0",
+    "note": "Asiatique riverside shopping complex; file title, description and Asiatique categories identify it; camera GPS 13.704711, 100.501889 is within the riverside complex. Commons imageinfo verified author and licence; image URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "benjakitti-park",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Benjakitti_Park%2C_Bangkok_2.jpg/1280px-Benjakitti_Park%2C_Bangkok_2.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Benjakitti_Park,_Bangkok_2.jpg",
+    "image_credit": "Slyronit / Wikimedia Commons",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Benjakitti Park path; title and description identify the park; GPS 13.728703, 100.557800 is near the supplied location. Commons imageinfo verified author and licence; image URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "erawan-shrine",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/People_praying_at_Erawan_Shrine_2018.jpg/1280px-People_praying_at_Erawan_Shrine_2018.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:People_praying_at_Erawan_Shrine_2018.jpg",
+    "image_credit": "Chainwit. / Wikimedia Commons",
+    "image_license": "CC BY-SA 4.0",
+    "note": "People praying at Erawan Shrine, Bangkok; file description and Erawan Shrine category explicitly identify the shrine. Commons imageinfo verified author and licence; image URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "grand-postal-building-bangkok",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/20131108_Thailand_4905_Bangkok_(Grand_Postal_Building)_(11329972653).jpg/1280px-20131108_Thailand_4905_Bangkok_(Grand_Postal_Building)_(11329972653).jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:20131108_Thailand_4905_Bangkok_(Grand_Postal_Building)_(11329972653).jpg",
+    "image_credit": "Dan Lundberg / Wikimedia Commons",
+    "image_license": "CC BY-SA 2.0",
+    "note": "The General Post Office building on Charoen Krung Road, Bangkok; title and description identify the Grand Postal Building; camera GPS 13.727691, 100.515986 is near the supplied site. Commons imageinfo verified author and licence; 1280px thumbnail URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "iconsiam",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Iconsiam_Skyscrapers.jpg/1280px-Iconsiam_Skyscrapers.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Iconsiam_Skyscrapers.jpg",
+    "image_credit": "Chainwit. / Wikimedia Commons",
+    "image_license": "CC BY-SA 4.0",
+    "note": "ICONSIAM complex viewed from across the river; title, description and Iconsiam category identify the site; camera GPS 13.727072, 100.514886 is on the opposite riverbank. Commons imageinfo verified author and licence; image URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "khaosan-road",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Khaosan_Road_Bangkok.jpg/1280px-Khaosan_Road_Bangkok.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Khaosan_Road_Bangkok.jpg",
+    "image_credit": "Khaosaming / Wikimedia Commons",
+    "image_license": "CC BY-SA 3.0",
+    "note": "Khaosan Road, Bangkok; title, description and Khaosan Road category explicitly identify the street. Commons imageinfo verified author and licence; image URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "king-power-mahanakhon",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/MahaNakhon_by_kylehase.jpg/1280px-MahaNakhon_by_kylehase.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:MahaNakhon_by_kylehase.jpg",
+    "image_credit": "Kyle Hasegawa / Wikimedia Commons",
+    "image_license": "CC BY 2.0",
+    "note": "MahaNakhon skyscraper in Bangkok; file description identifies the building; camera GPS 13.724731, 100.528078 is immediately north of the supplied building location. Commons imageinfo verified author and licence; image URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "kudi-chin",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Kudi_Chin_community_-_2017-02-25_(002).jpg/1280px-Kudi_Chin_community_-_2017-02-25_(002).jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Kudi_Chin_community_-_2017-02-25_(002).jpg",
+    "image_credit": "Iudexvivorum / Wikimedia Commons",
+    "image_license": "CC0",
+    "note": "Mural in Kudi Chin community, Thon Buri District, Bangkok; file title, description and Kudi Chin Community category identify the location. Commons imageinfo verified author and licence; image URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "nang-loeng-market",
+    "match": "area",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Wat_Sommanat%2C_Pom_Prap_Sattru_Phai%2C_Bangkok_10100%2C_Thailand_-_panoramio_(1).jpg/1280px-Wat_Sommanat%2C_Pom_Prap_Sattru_Phai%2C_Bangkok_10100%2C_Thailand_-_panoramio_(1).jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Sommanat,_Pom_Prap_Sattru_Phai,_Bangkok_10100,_Thailand_-_panoramio_(1).jpg",
+    "image_credit": "mohigan / Wikimedia Commons",
+    "image_license": "CC BY-SA 3.0",
+    "note": "Street-food scene in the immediate Nang Loeng Market area; camera GPS 13.759710, 100.512439 is about 35 m from the supplied coordinates. The file is used on the Nang Loeng Market Wikipedia page, but its own description names the subdistrict rather than the market. Commons imageinfo verified author and licence; image URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "national-museum-of-royal-barges",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Museum_of_Royal_Barges_in_Bangkok_Noi_District%2C_Bangkok%2C_Thailand.jpg/1280px-National_Museum_of_Royal_Barges_in_Bangkok_Noi_District%2C_Bangkok%2C_Thailand.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Royal_Barges_in_Bangkok_Noi_District,_Bangkok,_Thailand.jpg",
+    "image_credit": "Globe-trotter / Wikimedia Commons",
+    "image_license": "CC BY-SA 3.0",
+    "note": "Royal barges displayed inside the National Museum of Royal Barges; title and description identify the museum, and Commons categories identify its collections. Commons imageinfo verified author and licence; image URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "nong-bon-water-sports-center",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable freely licensed photograph of the water-sports center verified. Commons searches returned Nong Bon district material and unrelated sites rather than an identifiable photo of this center."
+  },
+  {
+    "id": "or-tor-kor-market",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/72_-_gac.jpg/1280px-72_-_gac.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:72_-_gac.jpg",
+    "image_credit": "Susan Slater / Wikimedia Commons",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Close-up of gac fruit sold at Or Tor Kor Market; the full Commons file page explicitly says the photo was taken at Or Tor Kor Market, Bangkok. This is a produce detail rather than a view of the market building. Commons imageinfo verified author and licence; image URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "pak-khlong-talat",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Pak_Khlong_Talat_in_Phra_Nakhon_District%2C_Bangkok%2C_Thailand.jpg/1280px-Pak_Khlong_Talat_in_Phra_Nakhon_District%2C_Bangkok%2C_Thailand.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Pak_Khlong_Talat_in_Phra_Nakhon_District,_Bangkok,_Thailand.jpg",
+    "image_credit": "Globe-trotter / Wikimedia Commons",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Pak Khlong Talat flower market in Phra Nakhon, Bangkok; file title, description and Pak Khlong Talat category explicitly identify the market. Commons imageinfo verified author and licence; image URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "queen-saovabha-memorial-institute",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Queen_Saovabha_Memorial_Institute_main_building.jpg/1280px-Queen_Saovabha_Memorial_Institute_main_building.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Queen_Saovabha_Memorial_Institute_main_building.jpg",
+    "image_credit": "Paul_012 / Wikimedia Commons",
+    "image_license": "CC BY-SA 3.0",
+    "note": "Main building of Queen Saovabha Memorial Institute, Thai Red Cross Society; file title, bilingual description and institute category explicitly identify it. Commons imageinfo verified author and licence; image URL HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "queen-sirikit-park-bangkok",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Queen_Sirikit_Park_1.jpg/1280px-Queen_Sirikit_Park_1.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Queen_Sirikit_Park_1.jpg",
+    "image_credit": "Christophe95",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Queen Sirikit Park in Bangkok; file description and category identify the Chatuchak park. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "rajadamnern-stadium",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rajadamnern_Stadium.jpg/1280px-Rajadamnern_Stadium.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Rajadamnern_Stadium.jpg",
+    "image_credit": "DiverDave",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Rajadamnern Stadium on Ratchadamnoen Avenue in Pom Prap Sattru Phai, Bangkok; identified explicitly in the file description. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "sam-phraeng",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%E0%B9%81%E0%B8%9E%E0%B8%A3%E0%B9%88%E0%B8%87%E0%B8%A0%E0%B8%B9%E0%B8%98%E0%B8%A3_Phraeng_Phuthon_(October_2021)_img_01.jpg/1280px-%E0%B9%81%E0%B8%9E%E0%B8%A3%E0%B9%88%E0%B8%87%E0%B8%A0%E0%B8%B9%E0%B8%98%E0%B8%A3_Phraeng_Phuthon_(October_2021)_img_01.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B9%81%E0%B8%9E%E0%B8%A3%E0%B9%88%E0%B8%87%E0%B8%A0%E0%B8%B9%E0%B8%98%E0%B8%A3_Phraeng_Phuthon_(October_2021)_img_01.jpg",
+    "image_credit": "Chainwit.",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Phraeng Phuthon streetscape, one of the three historic neighbourhoods comprising Sam Phraeng; exact within the requested district. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "santichaiprakarn-park",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Bangkok_-_Santichaiprakarn_Throne_Hall_at_golden_hour_Jan_2024.jpg/1280px-Bangkok_-_Santichaiprakarn_Throne_Hall_at_golden_hour_Jan_2024.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Bangkok_-_Santichaiprakarn_Throne_Hall_at_golden_hour_Jan_2024.jpg",
+    "image_credit": "Dominic Nelson",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Santichaiprakarn Park throne-hall pavilion at golden hour; file description explicitly identifies the park. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "song-wat-road",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%A7%E0%B8%B2%E0%B8%94.jpg/1280px-%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%A7%E0%B8%B2%E0%B8%94.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%A7%E0%B8%B2%E0%B8%94.jpg",
+    "image_credit": "Phoebus 28",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Song Wat Road streetscape in Bangkok Chinatown; title, Thai caption and category identify the road. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "suan-luang-rama-ix",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87_%E0%B8%A3.9_Suan_Luang_Rama_IX_Park_(1).jpg/1280px-%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87_%E0%B8%A3.9_Suan_Luang_Rama_IX_Park_(1).jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87_%E0%B8%A3.9_Suan_Luang_Rama_IX_Park_(1).jpg",
+    "image_credit": "กสิณธร ราชโอรส",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Suan Luang Rama IX Park, Bangkok; Thai/English file title and Suan Luang Rama 9 Park category identify the park, although the description field is blank. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "taling-chan-floating-market",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Taling_Chan_Floating_Market_in_Taling_Chan_District%2C_Bangkok%2C_Thailand.jpg/1280px-Taling_Chan_Floating_Market_in_Taling_Chan_District%2C_Bangkok%2C_Thailand.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Taling_Chan_Floating_Market_in_Taling_Chan_District,_Bangkok,_Thailand.jpg",
+    "image_credit": "Globe-trotter",
+    "image_license": "CC BY-SA 3.0",
+    "note": "Taling Chan Floating Market, Bangkok; market scene identified explicitly by file title, description and category. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "wat-paknam-bhasicharoen",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Wat_Paknam_Bhasicharoen_large_Buddha.jpg/1280px-Wat_Paknam_Bhasicharoen_large_Buddha.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Paknam_Bhasicharoen_large_Buddha.jpg",
+    "image_credit": "Suikotei",
+    "image_license": "CC BY-SA 4.0",
+    "note": "The large Buddha at Wat Paknam Bhasicharoen; title and statue category identify the temple landmark. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "wat-pho",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Wat_Pho_Bangkok_Thailand.jpg/1280px-Wat_Pho_Bangkok_Thailand.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Pho_Bangkok_Thailand.jpg",
+    "image_credit": "KOSIN SUKHUM",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Wat Pho temple complex, Bangkok; title and Wat Pho category identify the temple. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "wat-ratchabophit",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bangkok-_Gothic_interior_of_Ubosot%2C_Wat_Ratchabophit_(2025)_-_img_01.jpg/1280px-Bangkok-_Gothic_interior_of_Ubosot%2C_Wat_Ratchabophit_(2025)_-_img_01.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Bangkok-_Gothic_interior_of_Ubosot,_Wat_Ratchabophit_(2025)_-_img_01.jpg",
+    "image_credit": "Chainwit.",
+    "image_license": "CC BY 4.0",
+    "note": "Gothic interior of the ordination hall (ubosot), Wat Ratchabophit, Bangkok; explicitly identified by the file description. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "wat-suthat",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Wat_Suthat_Thep_Wararam_Ratchaworamahawihan_2025_by_Don_Ramey_Logan.jpg/1280px-Wat_Suthat_Thep_Wararam_Ratchaworamahawihan_2025_by_Don_Ramey_Logan.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Suthat_Thep_Wararam_Ratchaworamahawihan_2025_by_Don_Ramey_Logan.jpg",
+    "image_credit": "Don Ramey Logan",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Aerial view of Wat Suthat from the north, with the Giant Swing at the bottom; file description explicitly identifies the temple. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "wat-suwannaram-bangkok",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Wat_Suwannaram_(I).jpg/1280px-Wat_Suwannaram_(I).jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Suwannaram_(I).jpg",
+    "image_credit": "Supanut Arunoprayote",
+    "image_license": "CC BY 4.0",
+    "note": "Wat Suwannaram, Bangkok; file description and GPS 13.763652, 100.476813 identify the temple near the supplied point. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "yaowarat-road",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/2016_Bangkok%2C_Dystrykt_Samphanthawong%2C_Ulica_Yaowarat_(02).jpg/1280px-2016_Bangkok%2C_Dystrykt_Samphanthawong%2C_Ulica_Yaowarat_(02).jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:2016_Bangkok,_Dystrykt_Samphanthawong,_Ulica_Yaowarat_(02).jpg",
+    "image_credit": "Marcin Konsek",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Yaowarat Road, Samphanthawong District, Bangkok; explicitly identified by file description. Metadata verified via Commons imageinfo API; 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "ban-koh-klang-community",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable photo with a verified allowed licence and matching location found in Commons/Unsplash searches; Commons geosearch within 1 km of 8.055605, 98.931432 returned no files. Commons Ko Klang (1–4) photos were rejected: their GPS is near Ko Lanta (7.4964, 99.1195), a different island roughly 65 km away."
+  },
+  {
+    "id": "ban-thung-yi-pheng-community",
+    "match": "area",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mangroven_in_koh_lanta-_krabi_thailand_-_panoramio.jpg/1280px-Mangroven_in_koh_lanta-_krabi_thailand_-_panoramio.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Mangroven_in_koh_lanta-_krabi_thailand_-_panoramio.jpg",
+    "image_credit": "Dirk Enthoven",
+    "image_license": "CC BY 3.0",
+    "note": "Mangroves in the immediate Thung Yi Pheng area of Ko Lanta. File-page GPS 7.592418, 99.068167 is approximately 455 m north of the supplied village point; the file does not name or show the community itself, so this is an area match. Commons file page confirms author/licence and Panoramio licence review. 1280px thumbnail HEAD HTTP 200."
+  },
+  {
+    "id": "wat-khlong-thom-museum",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable museum or immediate-area photo with a verified allowed licence found in Commons/Unsplash searches. Commons geosearch within 1 km of the supplied museum point returned no files; unrelated Khlong Thom Bangkok and Krabi hot-springs photographs were excluded."
+  },
+  {
+    "id": "lam-phaya-floating-market",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable market or immediate-area photo with a verified allowed licence found in Commons/Unsplash searches. A Commons public-domain scan of a manuscript held at the Wat Lam Phaya museum was excluded because it does not show the market or its immediate area. Commons geosearch within 1 km of the supplied point returned no files."
+  },
+  {
+    "id": "ban-than-khun-nakhon-si-thammarat",
+    "match": "area",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Wat_phra_mahathat_woramahawihan_nakhon_si_thammarat.jpg/1280px-Wat_phra_mahathat_woramahawihan_nakhon_si_thammarat.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Wat_phra_mahathat_woramahawihan_nakhon_si_thammarat.jpg",
+    "image_credit": "KOSIN SUKHUM / Wikimedia Commons",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Hae Pha Khuen That procession at nearby Wat Phra Mahathat; camera GPS 8.411390, 99.966670 is about 220 m northwest of the supplied house coordinates. This shows the immediate historic temple area, not Ban Than Khun itself. Commons file page confirms the subject, KOSIN SUKHUM and CC BY-SA 4.0; 1280px image HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "khao-sun-viewpoint",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable photograph verified on Commons or Unsplash. Searches for Khao Sun and เขาศูนย์ did not identify this viewpoint; geosearch verification was limited by Commons API 429 responses."
+  },
+  {
+    "id": "khao-wang-thong-cave",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable free-licensed photograph of this Khanom cave verified. Search results did not establish the requested cave; Commons geosearch returned 429, so a location match could not be confirmed."
+  },
+  {
+    "id": "laem-homestay",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable Commons or non-premium Unsplash photograph verified. The name is ambiguous and no district or coordinates were supplied; photos of other Ban Laem locations cannot establish this homestay."
+  },
+  {
+    "id": "ligor-floating-market",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable photograph of Ligor Floating Market verified. Commons results for Ligor show other Nakhon Si Thammarat subjects rather than this market; geosearch returned 429."
+  },
+  {
+    "id": "pak-phanang-retro-market",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable free-licensed photo of the retro market verified. Commons district photos found were of Khanap Nak or Laem Talumphuk rather than the immediate market area; geosearch returned 429."
+  },
+  {
+    "id": "suchart-supsin-shadow-puppet-museum",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/A_collection_of_Nang_shadow_puppets_of_Thailand.jpg/1280px-A_collection_of_Nang_shadow_puppets_of_Thailand.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:A_collection_of_Nang_shadow_puppets_of_Thailand.jpg",
+    "image_credit": "Kent Wang / Wikimedia Commons",
+    "image_license": "CC BY-SA 2.0",
+    "note": "A collection of Nang shadow puppets at Suchart Subsin Shadow Puppetry Museum. The Commons file page explicitly identifies the museum in its source credit and verifies Kent Wang and CC BY-SA 2.0; 1280px image HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "chaloem-kanchanaphisek-park",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%89%E0%B8%A5%E0%B8%B4%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81_-_panoramio.jpg/1280px-%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%89%E0%B8%A5%E0%B8%B4%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81_-_panoramio.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:อุทยานเฉลิมกาญจนาภิเษก_-_panoramio.jpg",
+    "image_credit": "::::=UT=:::: / Wikimedia Commons",
+    "image_license": "CC BY-SA 3.0",
+    "note": "Thai pavilion at Chaloem Golden Jubilee (Kanchanaphisek) Park in Nonthaburi. Commons title, park category and camera GPS 13.849789, 100.482971 identify the park near the supplied coordinates. File page verifies ::::=UT=:::: and CC BY-SA 3.0; 1280px image HEAD returned 200 on 2026-10-25."
+  },
+  {
+    "id": "wat-sangkhathan",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable photograph of this temple verified. Commons namesake results included a temple in Germany; geotagged files near the supplied coordinates depict Wat Khian or Wat Sala Ri, which are different temples and were excluded."
+  },
+  {
+    "id": "wat-takian-floating-market",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable free-licensed photograph verified. Commons searches for Wat Takian and the market name produced no identifiable market photo, and a 600 m geosearch returned no files."
+  },
+  {
+    "id": "talad-thai",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable Commons or non-premium Unsplash photograph of the market verified. Commons results mentioning ตลาดไท were bus-route photos and do not establish that they show the market."
+  },
+  {
+    "id": "wat-panyanantaram",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable Commons or non-premium Unsplash photograph of this Khlong Luang temple verified. Search results did not supply a verified free-licensed image; Commons API 429 responses limited geosearch."
+  },
+  {
+    "id": "ban-nam-khem-tsunami-memorial",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable photo of the coastal memorial verified. The Commons boat photograph is described as being at Ban Nam Khem Tsunami Museum, a different site; nearby geotagged photo shows a house, not the memorial."
+  },
+  {
+    "id": "bang-phat-village",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable freely licensed photo verified on the allowed sources; Commons search and 500 m geosearch produced no usable match."
+  },
+  {
+    "id": "little-amazon-takua-pa",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "Commons has a geotagged macaque close to Little Amazon, but the photograph is an animal close-up and does not establish a view of the attraction. No suitable location photo verified."
+  },
+  {
+    "id": "phang-nga-city-museum",
+    "match": "area",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Phang-nga_2014_December_-_panoramio_(30).jpg/1280px-Phang-nga_2014_December_-_panoramio_(30).jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Phang-nga_2014_December_-_panoramio_(30).jpg",
+    "image_credit": "Roma Neus / Wikimedia Commons",
+    "image_license": "CC BY 3.0",
+    "note": "Fountain/roundabout and limestone outcrop in the museum’s immediate surroundings; Commons camera GPS 8.443852,98.521352 is about 82 m from the supplied point. The museum itself is not identified in the photo. Licence/author verified through Commons imageinfo; 1280px image HEAD returned 200."
+  },
+  {
+    "id": "takua-pa-old-town",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable old-town photograph verified. The candidate at GPS 8.869554, 98.348026 is near the supplied point but depicts modern Takua Pa, not the historic old town. Published visitor-location checks place the old town around 8.8288, 98.3648, over 4 km south of the supplied point; location conflict left unresolved rather than using a misleading area image. Location cross-check: https://www.thailandee.com/en/visit-thailand/takuapa-old-town-khao-lak-682 ."
+  },
+  {
+    "id": "ban-tha-chat-chai-community",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "Nearby geotagged Commons photo shows a generic landscaped roadside path rather than an identifiable view of the community. No suitable community photo verified."
+  },
+  {
+    "id": "bang-pae-waterfall",
+    "match": "area",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Phuket%2C_2016_march_-_panoramio_-_Roma_Neus_(13).jpg/1280px-Phuket%2C_2016_march_-_panoramio_-_Roma_Neus_(13).jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Phuket,_2016_march_-_panoramio_-_Roma_Neus_(13).jpg",
+    "image_credit": "Roma Neus / Wikimedia Commons",
+    "image_license": "CC BY 3.0",
+    "note": "Rocky stream and forest path near Bang Pae Waterfall; camera GPS 8.038502,98.390275 is about 393 m from the supplied point. The main waterfall is not visible; area match only. Commons imageinfo verified author/licence; 1280px image HEAD returned 200."
+  },
+  {
+    "id": "chillva-market",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Chillva_Market_Stage.jpg/1280px-Chillva_Market_Stage.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Chillva_Market_Stage.jpg",
+    "image_credit": "JULIANISME / Wikimedia Commons",
+    "image_license": "CC BY-SA 4.0",
+    "note": "Central stage with visible CHILLVA MARKET signage; Commons title/description and GPS 7.907211,98.373581 (about 44 m from supplied point) confirm the market. Commons file page/imageinfo verified author/licence; 1280px image HEAD returned 200."
+  },
+  {
+    "id": "khao-khad-views-tower",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "Commons exact tower photos by Rom870 (CC BY 3.0) were verified, with GPS within 21 m, but originals are only 640 px wide; imageinfo returns an unscaled original rather than the required 1280px thumbnail. Nearby Cape Panwa photo is also only 1024 px wide."
+  },
+  {
+    "id": "naka-weekend-market",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable photo verified. Closest geotagged candidate examined shows shopping-centre Christmas decorations, not identifiable Naka market stalls; the indexed performance still is only 847 px wide and its licence review is pending."
+  },
+  {
+    "id": "don-kai-di-benjarong-village",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "Commons photos of porcelain shops/crafts at the village by Voyages etc... (CC BY 2.0) were verified, with GPS about 37 m away, but are small Instagram images; imageinfo returns unscaled originals rather than the required 1280px thumbnails."
+  },
+  {
+    "id": "samut-sakhon-city-pillar-shrine",
+    "match": "exact",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87(City_pillar_shine)_-_panoramio.jpg/1280px-%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87(City_pillar_shine)_-_panoramio.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87(City_pillar_shine)_-_panoramio.jpg",
+    "image_credit": "::::=UT=:::: / Wikimedia Commons",
+    "image_license": "CC BY-SA 3.0",
+    "note": "Entrance pavilion of the city pillar shrine, identified in the Commons file title/description; GPS 13.544937,100.274234 is about 42 m from the supplied point. Author/licence verified through Commons imageinfo; 1280px image HEAD returned 200."
+  },
+  {
+    "id": "wat-lak-si-rat-samoson",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable photo of this Samut Sakhon temple verified on the allowed sources. Search results for Wat Lak Si in Bangkok refer to a different temple; Commons 500 m geosearch was empty."
+  },
+  {
+    "id": "chaiya-national-museum",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable photo of Chaiya National Museum verified. Indexed Chaiya artefact photos are from Bangkok National Museum, not this museum; Commons 500 m geosearch was empty."
+  },
+  {
+    "id": "hin-phat-viewpoint",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable freely licensed photograph verified on the allowed sources; name searches and Commons 500 m geosearch produced no usable match."
+  },
+  {
+    "id": "phum-riang-village",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable village photograph verified on the allowed sources; Commons name searches found maps/biographical references and 500 m geosearch was empty."
+  },
+  {
+    "id": "sala-athit-garden",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable freely licensed photo verified on the allowed sources; name searches and Commons 500 m geosearch produced no usable match."
+  },
+  {
+    "id": "san-chao-market",
+    "match": "area",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Surat_Thani_Market_Hall_Ahoerstemeier_6.jpg/1280px-Surat_Thani_Market_Hall_Ahoerstemeier_6.jpg",
+    "image_page_url": "https://commons.wikimedia.org/wiki/File:Surat_Thani_Market_Hall_Ahoerstemeier_6.jpg",
+    "image_credit": "Ahoerstemeier / Wikimedia Commons",
+    "image_license": "CC BY 4.0",
+    "note": "Interior stalls in Surat Thani Market Hall, GPS 9.141389,99.323611, about 66 m from supplied San Chao Market point. Adjacent market hall, not verified as the San Chao night-market stalls. Commons imageinfo verified author/licence; 1280px image HEAD returned 200."
+  },
+  {
+    "id": "wat-khao-phang-hanging-bridge",
+    "match": "null",
+    "image_url": null,
+    "image_page_url": null,
+    "image_credit": null,
+    "image_license": null,
+    "note": "No suitable photo of this Surat Thani hanging bridge verified; Commons 500 m geosearch was empty. Search hits for Khao Phang Waterfall are in Kanchanaburi and do not match."
+  }
+]
