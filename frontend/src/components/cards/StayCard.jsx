@@ -36,7 +36,7 @@ export default function StayCard({ stay: s }) {
 
   return (
     <div className="flex h-full flex-col">
-      <CardImage src={s.image_url} alt={s.name} fallback={<FlatBadge icon={BedDouble} />}>
+      <CardImage src={s.image_url} alt={s.name} fallback={<FlatBadge icon={BedDouble} />} credit={s.image_credit} license={s.image_license} pageUrl={s.image_page_url}>
         {s.is_mock && <MockBadge />}
         <span
           className="absolute right-3.5 top-3.5 rounded-full px-3 py-[3px] text-xs font-semibold"
@@ -55,7 +55,7 @@ export default function StayCard({ stay: s }) {
             ~฿{fmtRange(s.price_per_night)}
             <span className="font-normal text-muted">/คืน</span>
           </span>
-          <Rating score={s.rating.score} outOf={s.rating.out_of} count={s.rating.count} />
+          {s.rating && <Rating score={s.rating.score} outOf={s.rating.out_of} count={s.rating.count} />}
         </div>
 
         <div className="flex h-[26px] gap-1.5 overflow-hidden">
