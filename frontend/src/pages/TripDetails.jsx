@@ -113,7 +113,9 @@ function DetailsForm() {
     if (!defaulted.current) {
       defaulted.current = true
       if (!random && !draft.startDate) patch.tripType = travel.dayTripSuggested ? 'daytrip' : 'overnight'
-      if (travel.sameProvince && (patch.tripType ?? draft.tripType) === 'daytrip') Object.assign(patch, { startDate: tomorrowIso(), endDate: tomorrowIso() })
+      // ค่าเริ่มต้น "พรุ่งนี้" เฉพาะยังไม่มีวัน/วันผ่านไปแล้ว — กลับมาหน้านี้วันที่เลือกไว้ต้องอยู่
+      const noDate = !draft.startDate || draft.startDate < localIso(new Date())
+      if (noDate && travel.sameProvince && (patch.tripType ?? draft.tripType) === 'daytrip') Object.assign(patch, { startDate: tomorrowIso(), endDate: tomorrowIso() })
     }
     if (Object.keys(patch).length) updateDraft(patch)
   }, [origin, draft.origin, draft.transportTo, draft.transportLocal, draft.startDate, draft.tripType, random, travel.dayTripSuggested, travel.sameProvince, transportTo, transportLocal, booking.out, booking.back, validOut, validBack, updateDraft])

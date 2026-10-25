@@ -21,6 +21,13 @@ import TransitRoute, { TransitDayTotal } from './TransitRoute'
 
 const NO_OVERRIDES = {}
 
+// คืนติดกันที่นอนที่พักเดียวกัน นับจากคืน d
+function stayNights(days, d) {
+  let n = 1
+  while (days[d + n]?.stay?.id === days[d].stay.id) n += 1
+  return n
+}
+
 function PlanCard({ item, index, editable, time, customTime, flag, onEditTime, onSelect, onRemove, onSwap, onDrop, onHover, canSwap }) {
   const controls = useDragControls()
   const reduced = useReducedMotion()
@@ -228,7 +235,7 @@ export default function DayPlan({ days, spare = [], startDate, legs = null, peop
                   return <div key={item.place.id}>{travel > 0 && <TravelLine minutes={travel} />}{i > 0 && transit?.days?.[d]?.routes[i - 1] && <TransitRoute route={transit.days[d].routes[i - 1]} fromName={day.items[i - 1].place.name} toName={item.place.name} />}<PlanCard item={item} index={i} flag={flagFor(key)} {...cardProps} {...timeProps(key, item.place.name)} /></div>
                 })}
                 {editable && !day.items.length && spare.length > 0 && <div className="flex min-h-14 items-center justify-center rounded-[22px] border border-dashed border-[#C9BDB2] px-4 py-3 text-sm text-muted">ลากการ์ดสำรองมาวางที่นี่</div>}
-                {day.stay && <StayRow stay={day.stay} onBook={stay => setBooking({ name: stay.name, isStay: true })} />}
+                {day.stay && <StayRow stay={day.stay} onBook={stay => setBooking({ stay, checkIn: startDate ? addDays(startDate, d) : null, nights: stayNights(days, d) })} />}
                 {showLegs && d === days.length - 1 && <TravelLegRow direction="back" leg={legs.back} mode={legs.mode} editable={editable} date={legs.back?.date ?? null} people={people} hint={backHint} />}
               </div>
               {transit?.days?.[d] && <TransitDayTotal total={transit.days[d].total} hasRoutes={transit.days[d].routes.length > 0} />}
@@ -250,7 +257,7 @@ export default function DayPlan({ days, spare = [], startDate, legs = null, peop
       <BottomSheet open={Boolean(timeEdit)} onClose={closeTime} labelledBy="time-edit-title">
         {timeEdit && <TimeSheet key={`${timeEdit.d}:${timeEdit.key}`} edit={timeEdit} dayLabel={`วันที่ ${timeEdit.d + 1}`} onApply={applyTime} onAuto={autoTime} onClose={closeTime} />}
       </BottomSheet>
-      <BookingSheet open={Boolean(booking)} place={booking} title={booking?.isStay ? `จองที่พัก ${booking.name}` : undefined} onClose={closeBooking} />
+      <BookingSheet open={Boolean(booking)} stay={booking?.stay} checkIn={booking?.checkIn} nights={booking?.nights} people={people} onClose={closeBooking} />
     </>
   )
 }

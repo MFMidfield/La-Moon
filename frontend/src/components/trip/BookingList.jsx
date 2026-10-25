@@ -54,7 +54,7 @@ function BookingRow({ item, done, onToggle, onBookStay, feedback }) {
           <span className={`flex min-h-11 items-center gap-2 text-xs font-semibold ${done ? 'text-brown' : 'text-muted'}`}><CheckPop selected={done} />{done ? 'จองแล้ว' : 'ยังไม่ได้จอง'}</span>
         )}
         {item.kind === 'stay' && !item.stay.booking_url ? (
-          <motion.button {...feedback} type="button" aria-label={bookLabel} onClick={() => onBookStay(item.stay)} className={`${PILL} cursor-pointer bg-white text-brown`}>{bookBody}</motion.button>
+          <motion.button {...feedback} type="button" aria-label={bookLabel} onClick={onBookStay} className={`${PILL} cursor-pointer bg-white text-brown`}>{bookBody}</motion.button>
         ) : (
           <motion.a {...feedback} href={item.kind === 'stay' ? item.stay.booking_url : item.url} target="_blank" rel="noopener noreferrer sponsored" aria-label={bookLabel} className={`${PILL} bg-white text-brown`}>{bookBody}</motion.a>
         )}
@@ -76,9 +76,9 @@ export default function BookingList({ items, booked, onToggle, onStayOpenChange 
   return (
     <>
       <ul className="m-0 flex list-none flex-col gap-2.5 p-0">
-        {items.map(item => <BookingRow key={item.key} item={item} done={Boolean(booked[item.key])} onToggle={onToggle} onBookStay={open} feedback={feedback} />)}
+        {items.map(item => <BookingRow key={item.key} item={item} done={Boolean(booked[item.key])} onToggle={onToggle} onBookStay={() => open(item)} feedback={feedback} />)}
       </ul>
-      <BookingSheet open={Boolean(stay)} place={stay ? { name: stay.name, isStay: true } : null} title={stay ? `จองที่พัก ${stay.name}` : undefined} onClose={close} />
+      <BookingSheet open={Boolean(stay)} stay={stay?.stay} checkIn={stay?.checkIn} nights={stay?.nights} people={stay?.people} onClose={close} />
     </>
   )
 }

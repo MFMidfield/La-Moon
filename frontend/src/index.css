@@ -68,6 +68,31 @@ html[data-nav='back']::view-transition-new(root) {
   }
 }
 
+/* แถบโหลดบางๆ ตอนรอหน้าถัดไป (slideNavigate ตั้ง html[data-loading] เมื่อโหลดเกิน 150ms) */
+html[data-loading]::after {
+  content: '';
+  position: fixed;
+  inset: 0 auto auto 0;
+  z-index: 100;
+  width: 40%;
+  height: 3px;
+  border-radius: 0 3px 3px 0;
+  background: var(--color-brown);
+  pointer-events: none;
+  animation: nav-loading 0.9s cubic-bezier(0.32, 0.72, 0, 1) infinite;
+}
+@keyframes nav-loading {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(260%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  html[data-loading]::after {
+    width: 100%;
+    opacity: 0.5;
+    animation: none;
+  }
+}
+
 /* ซ่อน scrollbar แต่ยังเลื่อนได้ (แถว chip แนวนอน) */
 @utility no-scrollbar {
   scrollbar-width: none;

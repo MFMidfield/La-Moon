@@ -55,12 +55,26 @@ export async function getTrips({ origin, province, mode, direction = 'out', date
   return { route: { id: `mock-${from}-${to}-${mode}`, mode, from, to, from_station: label(from), to_station: label(to), transfer: null }, trips, isMock: true, updatedAt: null, note: null }
 }
 
-/** ลิงก์ไปเว็บจองจริงที่กรอกข้อมูลให้แล้ว */
-export function bookingUrl({ mode, from, to, date, people = 1 }) {
+const iata = (station) => station?.match(/\(([A-Z]{3})\)/g)?.map((code) => code.slice(1, 4)) ?? []
+// สถานีรถไฟที่ลงจริง (กระบี่/ภูเก็ต/พังงา ลงพุนพิน สุราษฎร์ฯ แล้วต่อรถ) → slug เมืองบน 12Go
+const trainCity = (station, province) => (station?.includes('สุราษฎร์') ? 'surat-thani' : station?.includes('นครศรี') ? 'nakhon-si-thammarat' : province)
+
+/**
+ * ลิงก์ไปเว็บจองจริงที่กรอกข้อมูลให้แล้ว
+ * - plane: Google Flights ค้นสนามบินปลายทางจริง (ภูเก็ต HKT สำหรับพังงา) วันนั้น จำนวนคน
+ * - train / bus: 12Go (รวมตั๋ว รฟท. และรถทัวร์ บขส./เอกชน) วันนั้น จำนวนคน — รถไฟใช้สถานีที่ลงจริง
+ */
+export function bookingUrl({ mode, from, to, date, people = 1, fromStation, toStation }) {
   const fromName = PROVINCES.find((p) => p.id === from)?.label ?? from
   const toName = PROVINCES.find((p) => p.id === to)?.label ?? to
-  if (mode === 'plane') return `https://www.google.com/travel/flights?q=${encodeURIComponent(`Flights from ${from} to ${to} on ${date ?? ''} ${people} adults`)}&hl=th`
-  if (mode === 'train') return 'https://dticket.railway.co.th/DTicketPublicWeb/home/Home'
-  if (mode === 'bus') return `https://12go.asia/th/travel/${from}/${to}?date=${date ?? ''}&people=${people}`
+  if (mode === 'plane') {
+    const place = (station, id) => (id === 'bangkok' ? 'Bangkok' : iata(station)[0] ?? id)
+    const q = `Flights from ${place(fromStation, from)} to ${place(toStation, to)} on ${date ?? ''} one way ${people} adults`
+    return `https://www.google.com/travel/flights?q=${encodeURIComponent(q)}&hl=th&curr=THB`
+  }
+  if (mode === 'train' || mode === 'bus') {
+    const [a, b] = mode === 'train' ? [trainCity(fromStation, from), trainCity(toStation, to)] : [from, to]
+    return `https://12go.asia/th/travel/${a}/${b}?${new URLSearchParams({ ...(date ? { date } : {}), people: String(people) })}`
+  }
   return `https://www.google.com/maps/dir/${encodeURIComponent(fromName)}/${encodeURIComponent(toName)}`
 }

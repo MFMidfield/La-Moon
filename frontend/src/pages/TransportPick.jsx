@@ -128,7 +128,7 @@ function PickForm({ origin, province, mode }) {
               </p>
 
               <motion.a
-                href={bookingUrl({ mode, from, to, date: dates[tab], people })}
+                href={bookingUrl({ mode, from, to, date: dates[tab], people, fromStation: data.route.from_station, toStation: data.route.to_station })}
                 target="_blank"
                 rel="noopener noreferrer"
                 whileTap={reduced ? undefined : { scale: 0.96 }}

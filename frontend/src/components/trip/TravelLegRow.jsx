@@ -62,7 +62,7 @@ export default function TravelLegRow({ direction, leg, mode, editable = false, d
   const Icon = ICONS[leg?.mode ?? mode] ?? Plane
   const title = direction === 'out' ? 'เดินทางไป' : 'เดินทางกลับ'
   const pick = () => slideNavigate(navigate, '/plan/transport', { state: { from: 'trip', direction } })
-  const url = leg ? bookingUrl({ mode: leg.mode, from: leg.from, to: leg.to, date: leg.date ?? date, people }) : null
+  const url = leg ? bookingUrl({ mode: leg.mode, from: leg.from, to: leg.to, date: leg.date ?? date, people, fromStation: leg.from_station, toStation: leg.to_station }) : null
   const isCar = leg?.mode === 'car'
 
   return (

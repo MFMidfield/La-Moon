@@ -30,7 +30,7 @@ export function buildBookingItems({ legs, days, startDate, endDate, people = 1 }
         sub: [operator, times].filter(Boolean).join(' · '),
         dateText: date ? thaiDate(date, { weekday: 'short', day: 'numeric', month: 'short' }) : '',
         amount: leg.price_thb ? mid(leg.price_thb) * people : null,
-        url: bookingUrl({ mode: leg.mode, from: leg.from, to: leg.to, date, people }),
+        url: bookingUrl({ mode: leg.mode, from: leg.from, to: leg.to, date, people, fromStation: leg.from_station, toStation: leg.to_station }),
       })
     }
   }
@@ -55,6 +55,9 @@ export function buildBookingItems({ legs, days, startDate, endDate, people = 1 }
       dateText,
       amount: mid(stay.price_per_night) * nights * rooms,
       stay,
+      checkIn: startDate ? addDays(startDate, d) : null,
+      nights,
+      people,
     })
     d = last + 1
   }
