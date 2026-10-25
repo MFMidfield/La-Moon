@@ -2,15 +2,20 @@ import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { animate, motion, useMotionValue, useReducedMotion, useTransform } from 'framer-motion'
 import { Moon, Sparkle } from '../icons'
+import { LANDING_DECK, LANDING_SIDE } from '../../data/landingPlaces'
 
-const DECK = [
-  { name: 'เขาสก', meta: 'สุราษฎร์ธานี · ทะเลสาบ · ป่าดิบ', tone: '#F9D9C2' },
-  { name: 'เกาะพีพี', meta: 'กระบี่ · ทะเลใส · ดำน้ำ', tone: '#FBE3D2' },
-  { name: 'คีรีวง', meta: 'นครศรีธรรมราช · หมู่บ้าน · เงียบๆ', tone: '#E7EFDC' },
-  { name: 'เสม็ดนางชี', meta: 'พังงา · ทะเลหมอก · จุดชมวิว', tone: '#F6E3B8' },
-  { name: 'ทะเลแหวก', meta: 'กระบี่ · สันทราย · ทะเล', tone: '#EADDD3' },
-  { name: 'อ่าวพังงา', meta: 'พังงา · พายเรือ · เขาหินปูน', tone: '#FBE3D2' },
-]
+// รูปสถานที่จริง: สีพื้นระหว่างโหลด/โหลดไม่ขึ้น + เครดิตตัวเล็ก (รูป CC ต้องให้เครดิต)
+function PlacePhoto({ place, className = '' }) {
+  const [broken, setBroken] = useState(false)
+  return (
+    <div className={`relative overflow-hidden rounded-3xl ${className}`} style={{ background: place.tone }}>
+      {!broken && <img src={place.image} alt={place.name} loading="lazy" decoding="async" draggable={false} referrerPolicy="no-referrer" onError={() => setBroken(true)} className="absolute inset-0 h-full w-full select-none object-cover" />}
+      {!broken && <span className="absolute bottom-2 left-2 max-w-[calc(100%-16px)] truncate rounded-full bg-ink/55 px-2 py-0.5 text-[9px] leading-4 text-white">ภาพ: {place.credit}</span>}
+    </div>
+  )
+}
+
+const DECK = LANDING_DECK
 
 const SWIPE_OUT = 480
 const RESUME_DELAY = 4000
@@ -37,7 +42,7 @@ function Decor({ className, delay, loop, reduce, children }) {
 const TWINKLE = { scale: [1, 0.6, 1], opacity: [1, 0.5, 1] }
 const SWAY = { rotate: [0, 10, 0] }
 
-function SideCard({ name, province, tone, side, floatDelay, reduce, children }) {
+function SideCard({ place, side, floatDelay, reduce, children }) {
   return (
     <motion.div
       className="absolute left-1/2 top-[30px] -ml-[125px] h-[360px] w-[250px]"
@@ -50,10 +55,10 @@ function SideCard({ name, province, tone, side, floatDelay, reduce, children }) 
         animate={reduce ? undefined : { y: [0, -8, 0] }}
         transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut', delay: floatDelay }}
       >
-        <div className="h-[250px] rounded-3xl" style={{ background: tone }} />
+        <PlacePhoto place={place} className="h-[250px]" />
         <div className="px-2 pt-2.5">
-          <div className="text-[17px] font-semibold">{name}</div>
-          <div className="text-[13px] text-muted">{province}</div>
+          <div className="truncate text-[17px] font-semibold">{place.name}</div>
+          <div className="text-[13px] text-muted">{place.province}</div>
         </div>
         {children}
       </motion.div>
@@ -64,23 +69,15 @@ function SideCard({ name, province, tone, side, floatDelay, reduce, children }) 
 function CardFace({ place }) {
   return (
     <>
-      <div
-        className="relative flex h-[270px] items-end justify-center overflow-hidden rounded-3xl"
-        style={{ background: place.tone }}
-      >
-        <svg width="240" height="160" viewBox="0 0 240 160" aria-hidden="true">
-          <circle cx="180" cy="40" r="20" fill="#F4A36C" />
-          <path d="M0 160 L70 70 L110 115 L160 55 L240 160 Z" fill="#D9A27E" />
-          <path d="M110 115 L160 55 L195 98" fill="#C88A63" />
-          <path d="M0 150 Q60 136 120 148 T240 146 L240 160 L0 160Z" fill="#FFFFFF" opacity="0.6" />
-        </svg>
+      <div className="relative h-[270px]">
+        <PlacePhoto place={place} className="h-full" />
         <span className="absolute left-3.5 top-3.5 rounded-full bg-brown px-3 py-[3px] text-xs font-semibold text-white">
           แนะนำ
         </span>
       </div>
       <div className="flex flex-col gap-1.5 px-2 pt-3">
         <div className="flex items-center justify-between">
-          <div className="text-xl font-semibold">{place.name}</div>
+          <div className="min-w-0 truncate text-xl font-semibold">{place.name}</div>
           <span className="rounded-full bg-[#E7EFDC] px-2 py-0.5 text-[11px] text-[#3F5A2E]">ตรงมู้ด</span>
         </div>
         <div className="text-[13px] text-muted">{place.meta}</div>
@@ -209,12 +206,12 @@ export default function CardStack() {
         <Moon size={32} fill="#5A2E14" className="rotate-20" />
       </Decor>
 
-      <SideCard name="เกาะสมุย" province="สุราษฎร์ธานี" tone="#E7EFDC" side={-1} floatDelay={0} reduce={reduce}>
+      <SideCard place={LANDING_SIDE[0]} side={-1} floatDelay={0} reduce={reduce}>
         <span className="absolute right-[18px] top-5 rotate-10 rounded-full border-2 border-muted bg-white px-3 py-0.5 text-sm font-bold text-muted">
           ข้าม
         </span>
       </SideCard>
-      <SideCard name="ย่านเมืองเก่า" province="ภูเก็ต" tone="#F6E3B8" side={1} floatDelay={1.2} reduce={reduce}>
+      <SideCard place={LANDING_SIDE[1]} side={1} floatDelay={1.2} reduce={reduce}>
         <span className="absolute left-[18px] top-5 -rotate-10 rounded-full bg-orange px-3 py-1 text-sm font-bold text-white">
           อยากไป
         </span>
