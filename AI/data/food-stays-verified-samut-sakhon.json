@@ -1,0 +1,120 @@
+{
+  "province": "samut-sakhon",
+  "restaurants": [],
+  "stays": [
+    {
+      "id": "grand-inter-hotel-mahachai",
+      "province": "samut-sakhon",
+      "name_en": "Grand Inter Hotel",
+      "lat": 13.5693,
+      "lng": 100.3395,
+      "image_url": "https://images.pexels.com/photos/37835990/pexels-photo-37835990.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Ariyan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37835990/",
+      "website": null,
+      "name": "โรงแรม แกรนด์ อินเตอร์ โฮเทล",
+      "area": "โคกขาม / เมืองสมุทรสาคร",
+      "description": "โรงแรม 3.5 ดาว 79 ห้องที่โคกขาม มีร้านอาหาร ฟิตเนส และที่จอดรถฟรี อยู่ห่างเซ็นทรัลพลาซา มหาชัยประมาณ 10 กม.",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "name"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "type": "hotel",
+      "tier": "saver",
+      "amenities": [
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 700,
+        "max": 1000
+      },
+      "verify_note": "Listed on Expedia/Hotels.com/Trip.com near Khok Kham (not central Mahachai); coordinates from a geocoder; price converted from USD 22-26 and similar listings; breakfast removed as not confirmed.",
+      "sources": [
+        "https://www.expedia.com/es/Samut-Sakhon-Hoteles-Grand-Inter-Hotel.h26744025.Informacion-Hotel",
+        "https://ie.hotels.com/ho856808800/grand-inter-hotel-samut-sakhon-thailand",
+        "https://www.en.kayak.co.th/Samut-Sakhon-Hotels-Grand-Inter-Hotel.898982.ksp"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "thap-thim-seafood-samut-sakhon",
+      "reason": "No Thap Thim Seafood found in Samut Sakhon."
+    },
+    {
+      "id": "khun-tui-seafood-mueang-samut-sakhon",
+      "reason": "No Khun Toi Seafood found in Mahachai."
+    },
+    {
+      "id": "item-samut-sakhon",
+      "reason": "Garbled id; Krua Baan Aree Seafood at Khok Kham not found."
+    },
+    {
+      "id": "phanthai-seafood-mahachai",
+      "reason": "Krua Phanthai Seafood not found; only Seafood Baan Phanthai (Wongnai) exists, a different shop."
+    },
+    {
+      "id": "lod-chong-singapore-mahachai",
+      "reason": "No Lod Chong Singapore at Mahachai market found (only Lod Chong Wat Chet at Mahachai)."
+    },
+    {
+      "id": "ban-phaeo-noodle-coconut",
+      "reason": "No ancient tom yum noodle shop at Ban Phaeo found."
+    },
+    {
+      "id": "por-krua-thae-seafood-kalong",
+      "reason": "No Por Krua Thae Seafood at Ka Long found."
+    },
+    {
+      "id": "coconut-lane-cafe-ban-phaeo",
+      "reason": "No Coconut Lane cafe in Ban Phaeo found."
+    },
+    {
+      "id": "krua-chao-baen-krathum-baen",
+      "reason": "No Krua Chao Baan in Krathum Baen found."
+    },
+    {
+      "id": "roti-sai-mai-mahachai-station",
+      "reason": "No roti sai mai stall at Mahachai station found."
+    },
+    {
+      "id": "pae-prapai-noodle-tha-chalom",
+      "reason": "No Pa Prapai noodle shop at Tha Chalom found."
+    },
+    {
+      "id": "after-noon-tea-and-cafe-krathum-baen",
+      "reason": "Garbled id/name; no Baan Mai Rim Nam cafe in Krathum Baen found."
+    },
+    {
+      "id": "loft-mania-residence-samut-sakhon",
+      "reason": "No Loft Mania Residence found in Samut Sakhon listings."
+    },
+    {
+      "id": "thong-chen-resort-ban-phaeo",
+      "reason": "No resort in Ban Phaeo; Thongchen Residence is in Mahachai (different place)."
+    },
+    {
+      "id": "nonna-residence-krathum-baen",
+      "reason": "No Nonna Residence found in Krathum Baen."
+    },
+    {
+      "id": "ta-wan-resort-phanthai-norasing",
+      "reason": "No Tawan Resort found at Phanthai Norasing."
+    },
+    {
+      "id": "sakhon-grand-residence",
+      "reason": "No Sakhon Grand Residence found."
+    }
+  ],
+  "not_checked": []
+}

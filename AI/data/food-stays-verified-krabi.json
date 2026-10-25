@@ -1,0 +1,155 @@
+{
+  "province": "krabi",
+  "restaurants": [],
+  "stays": [
+    {
+      "id": "tubkaek-sunset-resort",
+      "province": "krabi",
+      "name_en": "Tup Kaek Sunset Beach Resort",
+      "lat": 8.09035,
+      "lng": 98.74745,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Tup_Kaek_Sunset_Beach_Resort%5ESpa_-_panoramio.jpg/1280px-Tup_Kaek_Sunset_Beach_Resort%5ESpa_-_panoramio.jpg",
+      "image_credit": "::::=UT=:::: / Wikimedia Commons",
+      "image_license": "CC BY-SA 3.0",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Tup_Kaek_Sunset_Beach_Resort%5ESpa_-_panoramio.jpg",
+      "website": null,
+      "name": "ทับแขก ซันเซ็ท บีช รีสอร์ท",
+      "area": "หาดทับแขก หนองทะเล อำเภอเมืองกระบี่",
+      "description": "รีสอร์ทติดชายหาดทับแขกบรรยากาศเงียบสงบวิวพระอาทิตย์ตกสวยงาม",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "type": "resort",
+      "tier": "comfy",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking",
+        "beach_access"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 2500,
+        "max": 6000
+      },
+      "verify_note": "Real Tup Kaek Sunset Beach Resort (name and coordinates fixed, 3.8 km off); breakfast is a paid extra so it is removed from amenities; rates vary widely by date; exact Commons photo.",
+      "sources": [
+        "https://uk.trip.com/hotels/krabi-hotel-detail-710715/tup-kaek-sunset-beach-resort",
+        "https://www.kayak.com/Krabi-Hotels-Tup-Kaek-Sunset-Beach-Resort.120011.ksp",
+        "https://commons.wikimedia.org/wiki/File:Tup_Kaek_Sunset_Beach_Resort%5ESpa_-_panoramio.jpg"
+      ]
+    },
+    {
+      "id": "bluestotel-ao-nang",
+      "province": "krabi",
+      "name_en": "BlueSotel Krabi Ao Nang Beach",
+      "lat": 8.0326,
+      "lng": 98.82667,
+      "image_url": "https://images.pexels.com/photos/37836001/pexels-photo-37836001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Ariyan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37836001/",
+      "website": null,
+      "name": "บลูโซเทล กระบี่ อ่าวนาง บีช",
+      "area": "อ่าวนาง อำเภอเมืองกระบี่",
+      "description": "โรงแรมใกล้หาดอ่าวนางมีสระว่ายน้ำและห้องพักพร้อมระเบียง",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "amenities"
+      ],
+      "moods": [
+        "beach"
+      ],
+      "type": "hotel",
+      "tier": "mid",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "15:00",
+      "check_out": "11:00",
+      "price_per_night": {
+        "min": 1200,
+        "max": 2800
+      },
+      "verify_note": "Real hotel (spelled BlueSotel, 778 Moo 2 Ao Nang); breakfast is a paid extra so removed, parking reports conflict; price is a planning estimate.",
+      "sources": [
+        "https://hero.booking.com/hotel/th/bluesotel-krabi.en-gb.html",
+        "https://uk.hotels.com/ho552012/bluesotel-krabi-ao-nang-beach-krabi-thailand/",
+        "https://www.kayak.sg/Krabi-Hotels-Bluesotel-Krabi.2416563.ksp"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "ruenthip-seafood",
+      "reason": "only an unrelated Krabi Town \"Ruenthip/Ruanthip Bistro\" riverside listing was found; no Ao Nang seafood place of this name or location could be confirmed"
+    },
+    {
+      "id": "ko-joi-khanom-jeen",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "klua-wan-cafe",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "krua-cha-om",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "chok-dee-noodle",
+      "reason": "only a Bangkok Chok Dee wonton stall exists; no Krabi shop found"
+    },
+    {
+      "id": "cafe-de-lanta",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "bang-yao-seafood",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "roti-chao-kao",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "puma-thip-fish-congee",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "lanta-sunset-restaurant",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "lanta-panta-beach-resort",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "krabi-mercure-hotel",
+      "reason": "no Mercure in Krabi Town; the only Mercure-branded hotel is Grand Mercure Krabi Ao Nang (a different property and area)"
+    },
+    {
+      "id": "the-lanta-villa",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "cozy-hostel-krabi",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    }
+  ],
+  "not_checked": []
+}

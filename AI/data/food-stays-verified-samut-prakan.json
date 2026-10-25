@@ -1,0 +1,356 @@
+{
+  "province": "samut-prakan",
+  "restaurants": [
+    {
+      "id": "sailom-bangpu-restaurant",
+      "province": "samut-prakan",
+      "name_en": "Sailom Bangpu",
+      "lat": 13.5384,
+      "lng": 100.613,
+      "image_url": "https://images.pexels.com/photos/18502881/pexels-photo-18502881.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Adisak Thangthong / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/18502881/",
+      "website": "https://www.facebook.com/SailomBangpu",
+      "name": "สายลม บางปู (ร้านอาหารซีฟู้ด)",
+      "area": "บางปู เมืองสมุทรปราการ",
+      "description": "ร้านอาหารซีฟู้ดริมทะเลที่บางปู ลมเย็น เป็นจุดนั่งชมพระอาทิตย์ตกยอดนิยม มีโซนคาเฟ่และของฝากอยู่ใกล้กัน",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person",
+        "signature_dishes",
+        "closed_days",
+        "opening_hours"
+      ],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "opening_hours": "11:00-21:00",
+      "closed_days": null,
+      "cuisine": [
+        "ซีฟู้ด",
+        "ไทย"
+      ],
+      "signature_dishes": [
+        "เครปกล้วยหอม",
+        "ต้มยำโป๊ะแตกทะเล",
+        "ปลากะพงทอดน้ำปลา"
+      ],
+      "price_per_person": {
+        "min": 300,
+        "max": 600
+      },
+      "verify_note": "Exists and open per Trip.com (11:00-21:00, Mueang Samut Prakan); coordinates moved ~1 km to the OSM point for Sailom Bang Pu; price and dishes are estimates.",
+      "sources": [
+        "https://au.trip.com/restaurant/thailand/samut%20prakan/detail/Sailom%20Bangpoo%20Restaurant-17047304",
+        "https://www.trvlogue.com/en/samut-prakan-muang-boran-food",
+        "https://www.wongnai.com/reviews/358c6bd32e874dcea50c7c075e1c22a1",
+        "https://www.openstreetmap.org/search?query=Sailom%20Bang%20Pu"
+      ]
+    },
+    {
+      "id": "bangkok-tree-house-restaurant",
+      "province": "samut-prakan",
+      "name_en": "Bangkok Tree House Restaurant & Cafe",
+      "lat": 13.6805,
+      "lng": 100.5851,
+      "image_url": "https://images.pexels.com/photos/2079448/pexels-photo-2079448.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Emrecan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/2079448/",
+      "website": "http://www.bangkoktreehouse.com",
+      "name": "ร้านอาหารและคาเฟ่ บางกอก ทรี เฮ้าส์",
+      "area": "บางน้ำผึ้ง พระประแดง (บางกระเจ้า)",
+      "description": "ร้านอาหารและคาเฟ่ของที่พักบางกอก ทรี เฮ้าส์ ในป่าชายเลนบางกระเจ้า เน้นวัตถุดิบออร์แกนิก เข้าถึงด้วยการเดินหรือเรือ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person",
+        "signature_dishes",
+        "closed_days"
+      ],
+      "moods": [
+        "food",
+        "quiet",
+        "photo"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "snack"
+      ],
+      "opening_hours": "11:30-18:00",
+      "closed_days": null,
+      "cuisine": [
+        "ฟิวชั่น",
+        "ออร์แกนิก"
+      ],
+      "signature_dishes": [],
+      "price_per_person": {
+        "min": 250,
+        "max": 500
+      },
+      "verify_note": "Official site lists restaurant 11:30-18:00 and cafe 09:00-18:00 daily; coordinates moved ~750 m to the OSM point; price and menu not confirmed.",
+      "sources": [
+        "http://www.bangkoktreehouse.com",
+        "https://sp.booking.com/hotel/th/bangkok-tree-house.html",
+        "https://commons.wikimedia.org/wiki/File:Bangkok_Tree_house_-_panoramio.jpg"
+      ]
+    },
+    {
+      "id": "hidden-woods-bang-krachao",
+      "province": "samut-prakan",
+      "name_en": "Hiddenwoods Cafe Bang Krachao",
+      "lat": 13.67494,
+      "lng": 100.58084,
+      "image_url": "https://images.pexels.com/photos/6612572/pexels-photo-6612572.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Pavel Danilyuk / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/6612572/",
+      "website": "https://www.facebook.com/hiddenwoodsbangkok",
+      "name": "ฮิดเดนวูดส์ คาเฟ่ บางกระเจ้า",
+      "area": "บางน้ำผึ้ง พระประแดง (บางกระเจ้า)",
+      "description": "คาเฟ่ริมแม่น้ำเจ้าพระยาในป่าบางกระเจ้า มีสะพานไม้ ลานนั่งริมน้ำ และให้เช่าสกูตเตอร์ไฟฟ้าสำรวจเกาะ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "opening_hours",
+        "closed_days",
+        "price_per_person",
+        "signature_dishes"
+      ],
+      "moods": [
+        "food",
+        "quiet",
+        "photo"
+      ],
+      "kind": "cafe",
+      "meals": [
+        "snack",
+        "lunch"
+      ],
+      "opening_hours": "10:30-18:00",
+      "closed_days": null,
+      "cuisine": [
+        "กาแฟ",
+        "เบเกอรี่",
+        "ไทย-ตะวันตก"
+      ],
+      "signature_dishes": [
+        "กาแฟสเปเชียลตี้",
+        "เรดเวลเวตบราวนี่"
+      ],
+      "price_per_person": {
+        "min": 120,
+        "max": 280
+      },
+      "verify_note": "Exists (Visit Thailand Today, updated Oct 2026: Mon-Fri 10:30-18:00, Sat-Sun to 18:30); coordinates moved ~1.8 km to the cafe; older BK listing says Thu-Sun only so closed days are uncertain.",
+      "sources": [
+        "https://www.visitthailandtoday.com/restaurants/bangkok/hiddenwoods-cafe-bang-kachao",
+        "https://wanderlog.com/place/details/3904591",
+        "https://www.bkmagazine.com/restaurant/hiddenwoods/"
+      ]
+    },
+    {
+      "id": "boon-tong-kee-mega-bangna",
+      "province": "samut-prakan",
+      "name_en": "Boon Tong Kee Mega Bangna",
+      "lat": 13.6475,
+      "lng": 100.681,
+      "image_url": "https://images.pexels.com/photos/34714660/pexels-photo-34714660.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Undo Kim / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/34714660/",
+      "website": "https://www.boontongkeethailand.com",
+      "name": "บุญตงกี่ เมกาบางนา",
+      "area": "เมกาบางนา บางพลี",
+      "description": "สาขาเมกาบางนา ชั้น 2 โซนด้านนอก ร้านข้าวมันไก่สิงคโปร์ เมนูเด่นคือไก่ต้นตำรับและข้าวมันไก่",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "closed_days"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "opening_hours": "10:00-21:30",
+      "closed_days": null,
+      "cuisine": [
+        "ข้าวมันไก่สิงคโปร์",
+        "จีน"
+      ],
+      "signature_dishes": [
+        "ไก่ต้นตำรับ",
+        "ข้าวมันไก่สิงคโปร์",
+        "เต้าหู้ทอด"
+      ],
+      "price_per_person": {
+        "min": 100,
+        "max": 250
+      },
+      "verify_note": "Mega Bangna branch listed on Wongnai (10:00-21:30 daily, 39 Moo 6 Bang Na-Trat, level 2); price lowered to the Wongnai 101-250 THB tier.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/1281446Hf-boon-tong-kee-%E0%B9%80%E0%B8%A1%E0%B8%81%E0%B8%B2-%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B8%B2",
+        "https://www.wongnai.com/chains/boon-tong-kee"
+      ]
+    }
+  ],
+  "stays": [
+    {
+      "id": "bangkok-tree-house",
+      "province": "samut-prakan",
+      "name_en": "Bangkok Tree House",
+      "lat": 13.6805,
+      "lng": 100.5851,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Bangkok_Tree_house_-_panoramio.jpg/1280px-Bangkok_Tree_house_-_panoramio.jpg",
+      "image_credit": "mohigan / Wikimedia Commons",
+      "image_license": "CC BY-SA 3.0",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Bangkok_Tree_house_-_panoramio.jpg",
+      "website": "http://www.bangkoktreehouse.com",
+      "name": "บางกอก ทรี เฮ้าส์",
+      "area": "บางน้ำผึ้ง / พระประแดง (บางกระเจ้า)",
+      "description": "ที่พักบูทีค 12 ห้องริมแม่น้ำเจ้าพระยาท่ามกลางป่าชายเลนบางกระเจ้า รถเข้าไม่ถึง ต้องจอดที่วัดแล้วเดินหรือนั่งเรือ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "amenities"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "type": "boutique",
+      "tier": "mid",
+      "amenities": [
+        "free_wifi"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 2500,
+        "max": 3500
+      },
+      "verify_note": "Official site and Trip.com confirm it is open (check-in 14:00/out 12:00); coordinates moved ~750 m; price from Expedia/Trip.com (about NZD 154) and a 3,000++ review; Commons photo geotagged at the property.",
+      "sources": [
+        "http://www.bangkoktreehouse.com",
+        "https://nz.trip.com/hotels/phra-pradaeng-district-hotel-detail-700969/bangkok-tree-house",
+        "https://commons.wikimedia.org/wiki/File:Bangkok_Tree_house_-_panoramio.jpg"
+      ]
+    },
+    {
+      "id": "le-meridien-suvarnabhumi-golf-resort",
+      "province": "samut-prakan",
+      "name_en": "Hilton Bangkok Suvarnabhumi Golf Resort & Spa",
+      "lat": 13.6569,
+      "lng": 100.7063,
+      "image_url": "https://images.pexels.com/photos/13584138/pexels-photo-13584138.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Kien Le / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/13584138/",
+      "website": null,
+      "name": "ฮิลตัน กรุงเทพ สุวรรณภูมิ กอล์ฟ รีสอร์ท แอนด์ สปา",
+      "area": "บางพลีใหญ่ / บางนา-ตราด",
+      "description": "รีสอร์ต 5 ดาว 223 ห้อง (เดิมเลอ เมอริเดียน) ติดสนามกอล์ฟซัมมิท วินด์มิลล์ มีสระว่ายน้ำ สปา และคิดส์คลับ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "website"
+      ],
+      "moods": [
+        "luxury",
+        "quiet"
+      ],
+      "type": "resort",
+      "tier": "comfy",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 3500,
+        "max": 6500
+      },
+      "verify_note": "Rebranded from Le Meridien to Hilton in Jan 2026 (Golf Industry Asia); Trip.com gives address, check-in 15:00 and no included breakfast (THB 883 extra); coordinates moved ~2.6 km; price converted from USD/AUD listings.",
+      "sources": [
+        "https://www.golfindustry.asia/hilton-debuts-first-south-east-asia-golf-resort-near-suvarnabhumi-airport/",
+        "https://au.trip.com/hotels/bang-phli-hotel-detail-1457576/hilton-bangkok-suvarnabhumi-golf-resort-spa/",
+        "https://www.kayak.com/Bang-Phli-Hotels-Le-Meridien-Suvarnabhumi-Bangkok-Golf-Resort-Spa.2139757.ksp"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "rabang-mai-bangpu",
+      "reason": "No restaurant named Rabiang Mai found on Wongnai/Google results for Bang Pu."
+    },
+    {
+      "id": "mon-khlong-dan-seafood",
+      "reason": "No Mon Khlong Dan seafood restaurant found; Wongnai Khlong Dan listings show other shops only."
+    },
+    {
+      "id": "pae-lee-coffee-100-years",
+      "reason": "No Pae Lee coffee shop found at Khlong Suan 100 Years Market."
+    },
+    {
+      "id": "ban-me-phrik-khlong-suan",
+      "reason": "No shop of this name found at Khlong Suan market."
+    },
+    {
+      "id": "morn-ban-sakhla-seafood",
+      "reason": "Pa Sunthon sells kung yiad (dried boiled shrimp) at Ban Sakhla per Khaosod but dine-in restaurant, address and hours not confirmed."
+    },
+    {
+      "id": "sanphawut-seafood-bangna",
+      "reason": "Id/name mismatch and no Baan Khun Mam seafood at Pak Nam found."
+    },
+    {
+      "id": "khanom-chin-nam-ya-mae-buap",
+      "reason": "No Mae Buap khanom chin at Bang Phli ancient market found."
+    },
+    {
+      "id": "chok-chai-steamed-duck-bang-phli",
+      "reason": "No Chok Chai stewed duck shop in Bang Phli/Theparak found."
+    },
+    {
+      "id": "d-rivala-hotel-bangna",
+      "reason": "No D-Rivala hotel found in Bangna/Bang Phli listings."
+    },
+    {
+      "id": "rim-khlong-resort-bangpu",
+      "reason": "No Rim Khlong Resort found; closest real property is Rimkhobfa Urban Resort (different name)."
+    },
+    {
+      "id": "amantara-hotel-and-residence-phra-pradaeng",
+      "reason": "No Amantara hotel found in Phra Pradaeng."
+    },
+    {
+      "id": "micro-stay-suvarnabhumi",
+      "reason": "No Micro Stay Suvarnabhumi found."
+    }
+  ],
+  "not_checked": []
+}

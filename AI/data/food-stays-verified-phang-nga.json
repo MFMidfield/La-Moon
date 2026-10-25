@@ -1,0 +1,68 @@
+{
+  "province": "phang-nga",
+  "restaurants": [],
+  "stays": [
+    {
+      "id": "khaolak-orchid-beach-resort",
+      "province": "phang-nga",
+      "name_en": "Khaolak Orchid Beach Resort",
+      "lat": 8.686234,
+      "lng": 98.240967,
+      "image_url": "https://images.pexels.com/photos/3355777/pexels-photo-3355777.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Quang Nguyen Vinh / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/3355777/",
+      "website": null,
+      "name": "เขาหลัก ออร์คิด บีช รีสอร์ท",
+      "area": "คึกคัก ตะกั่วป่า เขาหลัก",
+      "description": "รีสอร์ตติดชายหาดย่านคึกคัก เขาหลัก มีที่จอดรถและวายฟายฟรี",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "amenities"
+      ],
+      "moods": [
+        "beach"
+      ],
+      "type": "resort",
+      "tier": "mid",
+      "amenities": [
+        "free_wifi",
+        "parking",
+        "beach_access"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 1400,
+        "max": 3500
+      },
+      "verify_note": "Real resort at 61 Moo 3 Khuk Khak (area and coordinates fixed); pool and breakfast not confirmed so omitted; rates are a planning estimate from aggregator snapshots.",
+      "sources": [
+        "https://thaiholidayguide.com/accommodation/khaolak-orchid-beach-resort",
+        "https://www.kayak.com/Phangnga-Hotels-Khaolak-Orchid-Beach-Resort.725745.ksp"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "crai-crai-restaurant",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "talay-thong-seafood",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "takua-pa-morning-market-food",
+      "reason": "Takua Pa has a daily indoor fresh market in the new town and a Sunday evening old-town street market; the \"06:00-11:00 morning market in the old town\" record matches neither, no reliable hours or location found"
+    },
+    {
+      "id": "fanrai-guesthouse",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    }
+  ],
+  "not_checked": []
+}
