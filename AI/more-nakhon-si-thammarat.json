@@ -1,0 +1,3827 @@
+{
+  "generated_at": "2026-10-24",
+  "province": "nakhon-si-thammarat",
+  "researcher": "LaMoon Research Team",
+  "note": "Verified research dataset of 50 attractions, 12 restaurants/cafes/markets, and 6 stays in Nakhon Si Thammarat province.",
+  "places": [
+    {
+      "id": "ban-khao-luang-national-park-karom-waterfall",
+      "province": "nakhon-si-thammarat",
+      "name_th": "น้ำตกกะโรม อุทยานแห่งชาติเขาหลวง",
+      "name_en": "Karom Waterfall Khao Luang National Park",
+      "district_th": "ลานสกา",
+      "description_th": "น้ำตกสวยงามขนาดใหญ่ 19 ชั้น มีน้ำไหลตลอดปี ตั้งอยู่ในอุทยานแห่งชาติเขาหลวง ล้อมรอบด้วยผืนป่าสมบูรณ์",
+      "lat": 8.3615,
+      "lng": 99.742,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตกกะโรม",
+        "อุทยานแห่งชาติเขาหลวง",
+        "ลานสกา",
+        "เล่นน้ำธรรมชาติ"
+      ],
+      "moods": [
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "บรรยากาศป่าดิบชื้นร่มรื่น สัมผัสสายน้ำเย็นฉ่ำกลางธรรมชาติเขาหลวง",
+      "stats": {
+        "chill": 5,
+        "adventure": 3,
+        "photo": 4,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (พ.ย.-ม.ค. น้ำเยอะเป็นพิเศษ)",
+      "opening_hours": "08:00-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 40,
+        "max": 40
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "ตั้งอยู่ที่อำเภอลานสกา ใกล้ทางขึ้นเขาหลวง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "yong-waterfall-national-park",
+      "province": "nakhon-si-thammarat",
+      "name_th": "น้ำตกโยง อุทยานแห่งชาติน้ำตกโยง",
+      "name_en": "Namtok Yong National Park",
+      "district_th": "ทุ่งสง",
+      "description_th": "น้ำตกสวยงามหน้าผาสูงชัน คล้ายแขวนทอดตัวลงมาจากยอดเขา มีแอ่งน้ำกว้างสำหรับเล่นน้ำคลายร้อน",
+      "lat": 8.1725,
+      "lng": 99.7428,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตกโยง",
+        "ทุ่งสง",
+        "อุทยานแห่งชาติ",
+        "เล่นน้ำ"
+      ],
+      "moods": [
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "สายน้ำตกที่ทอดตัวจากหน้าผาสูงตระการตาท่ามกลางป่าอุดมสมบูรณ์",
+      "stats": {
+        "chill": 5,
+        "adventure": 3,
+        "photo": 5,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 40,
+        "max": 40
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอทุ่งสง เดินทางเข้าถึงสะดวก",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-thap-rangsi-tha-sala",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดยางคอยเกลือ (วัดยาง)",
+      "name_en": "Wat Yang Tha Sala",
+      "district_th": "ท่าศาลา",
+      "description_th": "วัดสงบร่มรื่นในอำเภอท่าศาลา ประดิษฐานพระพุทธรูปโบราณและอุโบสถสถาปัตยกรรมภาคใต้ทรงคุณค่า",
+      "lat": 8.665,
+      "lng": 99.912,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดยาง",
+        "ท่าศาลา",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดชนบทสงบร่มรื่นเหมาะแก่การทำบุญและปฏิบัติธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอท่าศาลา ใกล้มหาวิทยาลัยวลัยลักษณ์",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wu-lai-lak-university-botanical-garden",
+      "province": "nakhon-si-thammarat",
+      "name_th": "อุทยานพฤกษศาสตร์ มหาวิทยาลัยวลัยลักษณ์",
+      "name_en": "Walailak University Botanical Garden & Bota Sky Tower",
+      "district_th": "ท่าศาลา",
+      "description_th": "อุทยานพฤกษศาสตร์ผืนใหญ่ พร้อม Bota Sky Tower หอชมวิวสูงตระหง่านมองเห็นทิวเขาหลวงและอุทยานสีเขียวขจี",
+      "lat": 8.642,
+      "lng": 99.898,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หอชมวิวโบต้า",
+        "มหาวิทยาลัยวลัยลักษณ์",
+        "ท่าศาลา",
+        "จุดถ่ายรูป"
+      ],
+      "moods": [
+        "photo",
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "หอชมวิว Bota Sky Tower มองเห็นทิวทัศน์ธรรมชาติ 360 องศาสวยงาม",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 3,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "08:30-10:30, 15:30-17:30",
+      "opening_hours": "08:30-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 30,
+        "max": 50
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ภายในมหาวิทยาลัยวลัยลักษณ์ อำเภอท่าศาลา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "hin-ngam-beach-sichon",
+      "province": "nakhon-si-thammarat",
+      "name_th": "หาดหินงาม สิชล",
+      "name_en": "Hin Ngam Beach Sichon",
+      "district_th": "สิชล",
+      "description_th": "ชายหาดโขดหินโผล่เหนือน้ำทะเลรูปทรงแปลกตา น้ำทะเลสีฟ้าใส เหมาะแก่การเดินเล่นชมวิวและถ่ายภาพ",
+      "lat": 9.008,
+      "lng": 99.9125,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดหินงาม",
+        "สิชล",
+        "ชายหาดโขดหิน",
+        "ทะเลภาคใต้"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "โขดหินกลมมนเรียงรายริมหาดตัดกับคลื่นทะเลและวิวท้องฟ้าสวยงาม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (07:00-10:00, 16:00-18:30)",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "มีรีสอร์ตและร้านอาหารทะเลตั้งอยู่เลียบชายหาดสิชล",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khanom-coastal-road-viewpoint",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ถนนเส้นยุทธศาสตร์เลียบชายทะเล ขนอม-สิชล (ถนนพลายดำ)",
+      "name_en": "Khanom - Sichon Coastal Road (Khao Phlai Dam)",
+      "district_th": "สิชล",
+      "description_th": "ถนนเลียบชายทะเลที่สวยที่สุดแห่งหนึ่งในภาคใต้ คดเคี้ยวไปตามทิวเขาและชายหาด วิวทะเลอ่าวไทยสุดอลังการ",
+      "lat": 9.085,
+      "lng": 99.882,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ถนนพลายดำ",
+        "ขนอมสิชล",
+        "ถนนเลียบทะเล",
+        "จุดถ่ายรูป"
+      ],
+      "moods": [
+        "photo",
+        "beach",
+        "mountain"
+      ],
+      "mood_reason": "เส้นทางขับรถชมวิวทะเลและทิวเขาเลียบชายฝั่งสวยงามระดับประเทศ",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (เช้าตรู่หรือยามเย็น)",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เชื่อมต่อระหว่างอำเภอขนอมและอำเภอสิชล",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-phlai-dam-wildlife-sanctuary",
+      "province": "nakhon-si-thammarat",
+      "name_th": "เขาพลายดำ สถานีพัฒนาและส่งเสริมการอนุรักษ์สัตว์ป่า",
+      "name_en": "Khao Phlai Dam Wildlife Safari & Viewpoint",
+      "district_th": "สิชล",
+      "description_th": "ภูเขาติดชายทะเลอุดมสมบูรณ์ด้วยป่าไม้ จุดชมวิวฝูงกวางป่าตามธรรมชาติ และวิวทิวทัศน์อ่าวไทยสุดกว้างไกล",
+      "lat": 9.091,
+      "lng": 99.888,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เขาพลายดำ",
+        "ชมกวางป่า",
+        "สิชล",
+        "จุดชมวิวทะเล"
+      ],
+      "moods": [
+        "mountain",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "สัมผัสธรรมชาติป่าเขาติดทะเล พร้อมโอกาสพบฝูงกวางป่าออกมาเล็มหญ้า",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "07:00-09:00, 16:00-18:00",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่บนเขาระหว่างขนอมกับสิชล",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "thong-ching-beach-khanom",
+      "province": "nakhon-si-thammarat",
+      "name_th": "หาดท้องชิง ขนอม",
+      "name_en": "Thong Ching Beach Khanom",
+      "district_th": "ขนอม",
+      "description_th": "ชายหาดส่วนตัวโอบล้อมด้วยภูเขา ทรายขาวละเอียด คลื่นลมสงบ เหมาะแก่การพักผ่อนหลบความวุ่นวาย",
+      "lat": 9.2082,
+      "lng": 99.851,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดท้องชิง",
+        "ขนอม",
+        "หาดลับ",
+        "เงียบสงบ"
+      ],
+      "moods": [
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "ชายหาดเงียบสงบสวยงามราวกับหาดส่วนตัวกลางอ้อมกอดภูเขา",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอขนอม มีรีสอร์ตส่วนตัวริมหาด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pancake-rock-pancake-rocks-khanom",
+      "province": "nakhon-si-thammarat",
+      "name_th": "เขาหินพับผ้า ขนอม (Pancake Rocks)",
+      "name_en": "Khao Hin Phap Pha (Pancake Rocks Khanom)",
+      "district_th": "ขนอม",
+      "description_th": "ปรากฏการณ์ทางธรณีวิทยาชั้นหินเรียงซ้อนกันเป็นชั้นๆ เหมือนขนมแพนเค้ก นั่งเรือหางยาวชมริมชายฝั่งทะเลขนอม",
+      "lat": 9.221,
+      "lng": 99.805,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เขาหินพับผ้า",
+        "แพนเค้กร็อค",
+        "ขนอม",
+        "นั่งเรือชมวิว"
+      ],
+      "moods": [
+        "photo",
+        "beach",
+        "adventure"
+      ],
+      "mood_reason": "ชั้นหินซ้อนทับกันแปลกตาและเป็นเอกลักษณ์กลางทะเลขนอม",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (เช้าตรู่ทะเลเงียบสงบ)",
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 200,
+        "max": 400
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "ขึ้นเรือหางยาวท่องเที่ยวได้ที่ท่าเรือแหลมประทับ ขนอม",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pink-dolphin-watching-khanom",
+      "province": "nakhon-si-thammarat",
+      "name_th": "จุดชมโลมาสีชมพู อ่าวขนอม",
+      "name_en": "Pink Dolphin Watching Spot Khanom Bay",
+      "district_th": "ขนอม",
+      "description_th": "กิจกรรมนั่งเรือออกทะเลลุ้นชมฝูงโลมาสีชมพู (โลมาหลังโหนก) แหวกว่ายตามธรรมชาติบริเวณอ่าวขนอม",
+      "lat": 9.228,
+      "lng": 99.792,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "โลมาสีชมพู",
+        "ขนอม",
+        "นั่งเรือชมโลมา",
+        "สัตว์ทะเล"
+      ],
+      "moods": [
+        "beach",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "สัมผัสความน่ารักของโลมาสีชมพูในธรรมชาติตามชายฝั่งทะเลขนอม",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "07:30-10:30 (ทะเลเรียบช่วงเช้า)",
+      "opening_hours": "07:30-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 200,
+        "max": 400
+      },
+      "visit_minutes": 150,
+      "nearby_booking_hint": "ติดต่อเหมาเรือหางยาวได้ที่ท่าเรือแหลมประทับหรือหาดแขว้งเภา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "luang-phu-thuat-freshwater-island-khanom",
+      "province": "nakhon-si-thammarat",
+      "name_th": "เกาะนุ้ยนอก (บ่อน้ำจืดกลางทะเล หลวงปู่ทวด)",
+      "name_en": "Koh Nui Nok (Freshwater Pond in the Sea & Luang Pu Thuat)",
+      "district_th": "ขนอม",
+      "description_th": "เกาะเล็กๆ กลางทะเล มีบ่อน้ำจืดธรรมชาติทรงรอยเท้ามนุษย์โผล่ยามน้ำลด และรูปปั้นหลวงปู่ทวดให้กราบสักการะ",
+      "lat": 9.2315,
+      "lng": 99.788,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เกาะนุ้ยนอก",
+        "บ่อน้ำจืดกลางทะเล",
+        "หลวงปู่ทวด",
+        "ขนอม"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "อัศจรรย์บ่อน้ำจืดรสธรรมชาติกลางทะเลและตำนานหลวงปู่ทวดเหยียบน้ำทะเลสด",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 5,
+        "food": 1,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (ตามรอบเวลาน้ำลง)",
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 150,
+        "max": 300
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "นั่งเรือท่องเที่ยวรวมแพ็กเกจชมโลมาสีชมพูและเขาหินพับผ้า",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-tat-thon-nakhon-si-thammarat",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดพระมหาธาตุแก้วเกลี้ยง (วัดธาตุน้อย)",
+      "name_en": "Wat That Noi (Wat Phra Thath Noi Por Than Klai)",
+      "district_th": "ช้างกลาง",
+      "description_th": "วัดศักดิ์สิทธิ์ศูนย์รวมศรัทธา ประดิษฐานสรีระสังขารพ่อท่านคล้าย วาจาสิทธิ์ เกจิอาจารย์ชื่อดังที่ไม่เน่าเปื่อย",
+      "lat": 8.358,
+      "lng": 99.581,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดธาตุน้อย",
+        "พ่อท่านคล้ายวาจาสิทธิ์",
+        "ช้างกลาง",
+        "สายมู"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "กราบขอพรสรีระสังขารพ่อท่านคล้ายวาจาสิทธิ์ พระเกจิแห่งเมืองนคร",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ริมถนนสาย 4015 อำเภอช้างกลาง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-san-pha-muang-nakhon-si",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดเขาขุนพนม",
+      "name_en": "Wat Khao Khun Phanom",
+      "district_th": "พรหมคีรี",
+      "description_th": "วัดโบราณตั้งอยู่บนเนินเขา มีถ้ำประดิษฐานพระพุทธรูปโบราณและมีตำนานสมเด็จพระเจ้าตากสินมหาราชเสด็จมาผนวช",
+      "lat": 8.542,
+      "lng": 99.825,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดเขาขุนพนม",
+        "พรหมคีรี",
+        "สมเด็จพระเจ้าตากสิน",
+        "ถ้ำโบราณ"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "mountain"
+      ],
+      "mood_reason": "วัดในถ้ำบนเนินเขาร่มรื่นเปี่ยมประวัติศาสตร์และตำนานโบราณ",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอพรหมคีรี ใกล้เชิงเขาหลวง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ai-khiew-waterfall-phrom-khiri",
+      "province": "nakhon-si-thammarat",
+      "name_th": "น้ำตกอ้ายเขียว (น้ำตกในเขียว)",
+      "name_en": "Ai Khiew Waterfall",
+      "district_th": "พรหมคีรี",
+      "description_th": "น้ำตกป่าธรรมชาติ สายน้ำไหลผ่านโขดหินหลายชั้น บรรยากาศเงียบสงบร่มรื่นภายใต้ร่มเงาไม้ใหญ่",
+      "lat": 8.568,
+      "lng": 99.805,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตกอ้ายเขียว",
+        "พรหมคีรี",
+        "เล่นน้ำ",
+        "ธรรมชาติ"
+      ],
+      "moods": [
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "พักผ่อนลงเล่นน้ำเย็นฉ่ำในน้ำตกธรรมชาติสงบร่มรื่น",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 20,
+        "max": 20
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลทอนหงส์ อำเภอพรหมคีรี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wang-lung-waterfall-phrom-khiri",
+      "province": "nakhon-si-thammarat",
+      "name_th": "น้ำตกวังลุง (สองรัก)",
+      "name_en": "Wang Lung Waterfall",
+      "district_th": "พรหมคีรี",
+      "description_th": "น้ำตกบรรยากาศร่มรื่นมีแอ่งน้ำกว้าง ปริมาณน้ำอุดมสมบูรณ์ตลอดปี เหมาะสำหรับการเล่นน้ำพักผ่อนปิคนิค",
+      "lat": 8.528,
+      "lng": 99.811,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตกวังลุง",
+        "พรหมคีรี",
+        "ปิคนิค",
+        "เล่นน้ำ"
+      ],
+      "moods": [
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "แอ่งน้ำธรรมชาติใสกว้างขวางท่ามกลางสวนผลไม้และป่าเขา",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอพรหมคีรี มีร้านอาหารชุมชนตั้งให้บริการ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pak-phanang-river-basin-museum",
+      "province": "nakhon-si-thammarat",
+      "name_th": "พิพิธภัณฑ์เมืองลุ่มน้ำปากพนัง และประตูระบายน้ำอุทกวิภาชประสิทธิ",
+      "name_en": "Pak Phanang River Basin Museum & Uthokwipat Prasit Floodgate",
+      "district_th": "ปากพนัง",
+      "description_th": "โครงการพระราชดำริขนาดใหญ่ วิวประตูระบายน้ำอลังการ พร้อมพิพิธภัณฑ์จัดแสดงประวัติศาสตร์และภูมิปัญญาชาวลุ่มน้ำ",
+      "lat": 8.3512,
+      "lng": 100.185,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ปากพนัง",
+        "ประตูระบายน้ำ",
+        "พิพิธภัณฑ์ลุ่มน้ำ",
+        "โครงการพระราชดำริ"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ชมวิวประตูระบายน้ำอันยิ่งใหญ่และเรียนรู้ประวัติศาสตร์ลุ่มน้ำปากพนัง",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "08:30-16:30 (ยามเย็นบรรยากาศดีมาก)",
+      "opening_hours": "08:30-16:30",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่อำเภอปากพนัง ใกล้ตลาดร้อยปีปากพนัง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pak-phanang-swallow-bird-house",
+      "province": "nakhon-si-thammarat",
+      "name_th": "คอนโดรังนกแอ่น ปากพนัง",
+      "name_en": "Pak Phanang Swallow Bird Houses",
+      "district_th": "ปากพนัง",
+      "description_th": "ตึกสูงตระหง่านนับร้อยหลังใจกลางเมืองปากพนัง สร้างขึ้นเพื่อเป็นที่อยู่อาศัยของฝูงนกนางแอ่นธรรมชาติ เอกลักษณ์เฉพาะตัวของเมือง",
+      "lat": 8.362,
+      "lng": 100.2012,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "คอนโดรังนก",
+        "นกนางแอ่น",
+        "ปากพนัง",
+        "เอกลักษณ์เมือง"
+      ],
+      "moods": [
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ชมสถาปัตยกรรมตึกคอนโดรังนกแอ่นธรรมชาตินับร้อยหลังแปลกตา",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "16:30-18:30 (ช่วงฝูงนกบินกลับรัง)",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ทั่วบริเวณเมืองฝั่งตะวันออกของปากพนัง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-san-mueang-nakhon-si-thammarat",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ศาลหลักเมืองนครศรีธรรมราช",
+      "name_en": "Nakhon Si Thammarat City Pillar Shrine",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "ศาลหลักเมืองสถาปัตยกรรมศรีวิชัยสีขาวบริสุทธิ์งามสง่า สร้างด้วยไม้ตะเคียนทอง รวบรวมความศรัทธาของชาวนคร",
+      "lat": 8.4288,
+      "lng": 99.9632,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ศาลหลักเมือง",
+        "สถาปัตยกรรมศรีวิชัย",
+        "สายมู",
+        "เมืองนคร"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "อาคารทรงจัตุรมุขสีขาวบริสุทธิ์สไตล์ศรีวิชัยงดงามตระการตา",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:30-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่บริเวณสนามหน้าเมือง อำเภอเมืองนครศรีธรรมราช",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "san-nam-mueang-park",
+      "province": "nakhon-si-thammarat",
+      "name_th": "สวนสาธารณะสมเด็จพระศรีนครินทร์ 84 (ทุ่งท่าลาด)",
+      "name_en": "Thung Tha Lat Park (Srinagarindra 84 Park)",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "สวนสาธารณะผืนใหญ่ใจกลางเมือง มีสระน้ำกว้างใหญ่ สวนสัตว์ขนาดเล็ก เรือถีบ และเส้นทางวิ่งออกกำลังกายร่มรื่น",
+      "lat": 8.448,
+      "lng": 99.958,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ทุ่งท่าลาด",
+        "สวนสาธารณะ",
+        "เมืองนคร",
+        "พักผ่อน"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ผ่อนคลายในสวนสีเขียวและสระน้ำกว้างใหญ่ใจกลางเมือง",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "06:00-09:00, 16:00-19:00",
+      "opening_hours": "05:00-20:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ในเขตเทศบาลนครนครศรีธรรมราช",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-suwan-khiri-nakhon-si",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดวังตะวันตก และวิหารสูง",
+      "name_en": "Wat Wang Tawan Tok & Wihan Sung",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "วัดสถาปัตยกรรมเรือนไทยปั้นหยาไม้แกะสลักอายุกว่าร้อยปี ได้รับรางวัลอนุรักษ์ศิลปสถาปัตยกรรมดีเด่น",
+      "lat": 8.425,
+      "lng": 99.964,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เรือนปั้นหยา",
+        "วัดวังตะวันตก",
+        "สถาปัตยกรรมไม้",
+        "เมืองนคร"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "เรือนไม้ปั้นหยาแกะสลักฉลุลวดลายโบราณอันวิจิตรงดงาม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ตรงข้ามตลาดท่าวัง อำเภอเมืองนครศรีธรรมราช",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-thammaram-nakhon-si",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดท้าวโคตร (วัดพระมหาธาตุฝั่งทิศใต้)",
+      "name_en": "Wat Thao Khot",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "กลุ่มวัดโบราณ 4 วัดรวมเป็นหนึ่งเดียว มีเจดีย์เก่าแก่ทรงโบราณและวิหารประดิษฐานพระพุทธรูปปูนปั้นนับร้อยองค์",
+      "lat": 8.402,
+      "lng": 99.968,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดท้าวโคตร",
+        "โบราณสถาน",
+        "เมืองนคร"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "เจดีย์และศิลปะปูนปั้นโบราณทรงคุณค่าทางประวัติศาสตร์",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ถนนราชดำเนิน ตําบลในเมือง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ho-phra-isuan-and-ho-phra-narai",
+      "province": "nakhon-si-thammarat",
+      "name_th": "หอพระอิศวร และ หอพระนารายณ์",
+      "name_en": "Ho Phra Isuan & Ho Phra Narai",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "โบราณสถานศาสนาพราหมณ์-ฮินดูโบราณ สถานที่ประกอบพิธีตรียัมพวาย (โล้ชิงช้า) และเก็บรักษาศิวลึงค์โบราณ",
+      "lat": 8.4215,
+      "lng": 99.9655,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หอพระอิศวร",
+        "หอพระนารายณ์",
+        "พราหมณ์ฮินดู",
+        "โบราณสถาน"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "สถาปัตยกรรมพราหมณ์โบราณและเสาโล้ชิงช้าจำลองประวัติศาสตร์",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ริมถนนราชดำเนิน อำเภอเมืองนครศรีธรรมราช",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phet-jrik-nakhon-si",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดเพชรจริก",
+      "name_en": "Wat Phet Charik",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "วัดโบราณในเขตกำแพงเมืองเก่า ประดิษฐานพระพุทธรูปศิลาขาวสมัยทวารวดีและอุโบสถลวดลายวิจิตร",
+      "lat": 8.418,
+      "lng": 99.9645,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดเพชรจริก",
+        "โบราณสถาน",
+        "เมืองนคร"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบพระพุทธรูปโบราณในบรรยากาศวัดเก่าแก่สงบร่มรื่น",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ถนนราชดำเนิน ใกล้วัดพระมหาธาตุ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "nan-san-phet-waterfall-nopphitam",
+      "province": "nakhon-si-thammarat",
+      "name_th": "น้ำตกคลองปะกวาง และจุดล่องแก่งนบพิตำ",
+      "name_en": "Nopphitam White Water Rafting & Khlong Pa Kwang",
+      "district_th": "นบพิตำ",
+      "description_th": "กิจกรรมล่องแก่งเรือยางสุดมันส์ในลำน้ำคลองกลาย ท่ามกลางธรรมชาติป่าขุนเขาอันสมบูรณ์ของอำเภอนบพิตำ",
+      "lat": 8.725,
+      "lng": 99.758,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ล่องแก่งนบพิตำ",
+        "คลองกลาย",
+        "ผจญภัย",
+        "เล่นน้ำ"
+      ],
+      "moods": [
+        "adventure",
+        "mountain",
+        "beach"
+      ],
+      "mood_reason": "ตื่นเต้นท้าทายกับการล่องแก่งเรือยางผ่านเกาะแก่งสายน้ำใส",
+      "stats": {
+        "chill": 2,
+        "adventure": 5,
+        "photo": 4,
+        "food": 2,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (ช่วง ต.ค.-ม.ค. น้ำหลากสะใจ)",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 250,
+        "max": 400
+      },
+      "visit_minutes": 150,
+      "nearby_booking_hint": "มีผู้ประกอบการล่องแก่งหลายเจ้าให้บริการในนบพิตำ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "hong-cave-nopphitam",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ถ้ำหงษ์ นบพิตำ",
+      "name_en": "Hong Cave Nopphitam",
+      "district_th": "นบพิตำ",
+      "description_th": "ถ้ำหินปูนขนาดใหญ่มีสายน้ำไหลผ่านภายในถ้ำ ตระการตาด้วยหินงอกหินย้อยรูปร่างคล้ายหงส์และระย้าเพชร",
+      "lat": 8.741,
+      "lng": 99.735,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ถ้ำหงษ์",
+        "นบพิตำ",
+        "หินงอกหินย้อย",
+        "สำรวจถ้ำ"
+      ],
+      "moods": [
+        "adventure",
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "เดินสำรวจถ้ำลุยน้ำชมหินงอกหินย้อยธรรมชาติระยิบระยับ",
+      "stats": {
+        "chill": 2,
+        "adventure": 5,
+        "photo": 4,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "พ.ย.-พ.ค. (หลีกเลี่ยงช่วงฝนตกชัก)",
+      "opening_hours": "08:30-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 50,
+        "max": 100
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "ต้องมีเจ้าหน้าที่นำทางเพื่อความปลอดภัยในการเข้าถ้ำ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-luang-peak-trekking",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ยอดเขาหลวง นครศรีธรรมราช (หลังคาแห่งภาคใต้)",
+      "name_en": "Khao Luang Peak Trail",
+      "district_th": "ลานสกา",
+      "description_th": "ยอดเขาสูงที่สุดในภาคใต้ (1,835 เมตร) เส้นทางเดินป่าเดินทอดทายข้ามสันเขา ชมป่าโบราณกล้วยไม้ป่าและทะเลหมอกอลังการ",
+      "lat": 8.498,
+      "lng": 99.738,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ยอดเขาหลวง",
+        "เดินป่า",
+        "หลังคาภาคใต้",
+        "ทะเลหมอก"
+      ],
+      "moods": [
+        "mountain",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "พิชิตยอดเขาสูงที่สุดในภาคใต้สัมผัสทะเลหมอกผืนกว้างไกล",
+      "stats": {
+        "chill": 1,
+        "adventure": 5,
+        "photo": 5,
+        "food": 1,
+        "budget": 2
+      },
+      "popularity": "ดัง",
+      "best_time": "ม.ค.-เม.ย. (ฤดูเดินป่าเขาหลวง)",
+      "opening_hours": "ต้องติดต่อลงทะเบียนล่วงหน้า",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 500,
+        "max": 2000
+      },
+      "visit_minutes": 4320,
+      "nearby_booking_hint": "ต้องติดต่อเจ้าหน้าที่อุทยานแห่งชาติเขาหลวงนำทางแบบ 3 วัน 2 คืน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "suan-som-o-tubtim-siam-pak-phanang",
+      "province": "nakhon-si-thammarat",
+      "name_th": "สวนส้มโอทับทิมสยาม ปากพนัง",
+      "name_en": "Tubtim Siam Pomelo Orchards Pak Phanang",
+      "district_th": "ปากพนัง",
+      "description_th": "แหล่งปลูกส้มโอทับทิมสยาม GI เนื้อสีแดงทับทิม รสชาติหวานนุ่มไร้รสขม เดินชมสวนและชิมผลไม้สดจากต้น",
+      "lat": 8.328,
+      "lng": 100.158,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ส้มโอทับทิมสยาม",
+        "ปากพนัง",
+        "สินค้าGI",
+        "สวนผลไม้"
+      ],
+      "moods": [
+        "food",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ลิ้มรสส้มโอทับทิมสยามอันโด่งดังระดับประเทศสดๆ จากสวน",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (ช่วง ส.ค.-ต.ค. ผลผลิตดก)",
+      "opening_hours": "08:30-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ในตำบลคลองน้อย อำเภอปากพนัง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bo-nam-ron-mueang-nakhon",
+      "province": "nakhon-si-thammarat",
+      "name_th": "บ่อน้ำร้อนบ้านเขาวัง ร่อนพิบูลย์",
+      "name_en": "Khao Wang Hot Springs Ron Phibun",
+      "district_th": "ร่อนพิบูลย์",
+      "description_th": "บ่อน้ำแร่ร้อนธรรมชาติกลางสวนป่า มีอ่างแช่เท้าและบ่อน้ำแร่บริการต้มไข่ผ่อนคลายความล้า",
+      "lat": 8.188,
+      "lng": 99.852,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "บ่อน้ำร้อน",
+        "ร่อนพิบูลย์",
+        "แช่น้ำแร่",
+        "สุขภาพ"
+      ],
+      "moods": [
+        "quiet",
+        "mountain"
+      ],
+      "mood_reason": "แช่เท้าผ่อนคลายในน้ำแร่ร้อนธรรมชาติท่ามกลางหุบเขา",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี (ช่วงเช้าตรู่หรือยามเย็น)",
+      "opening_hours": "08:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 20
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ในอำดภอร่อนพิบูลย์",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-khao-phra-thong-cha-uat",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดเขาพระทอง ชะอวด",
+      "name_en": "Wat Khao Phra Thong Cha-uat",
+      "district_th": "ชะอวด",
+      "description_th": "วัดสวยริมเชิงเขาหินปูน ประดิษฐานองค์หลวงพ่อองค์ใหญ่ และถ้ำพระพุทธรูปโบราณอันเป็นที่ศรัทธา",
+      "lat": 7.958,
+      "lng": 99.985,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดเขาพระทอง",
+        "ชะอวด",
+        "ถ้ำพระ",
+        "สายมู"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "วัดริมภูเขาหินปูนวิวทิวทัศน์สวยงามและสิ่งศักดิ์สิทธิ์ให้กราบขอพร",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลเขาพระทอง อำเภอชะอวด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "krua-kiriwong-bridge-viewpoint",
+      "province": "nakhon-si-thammarat",
+      "name_th": "สะพานบ้านคีรีวง และจุดถ่ายรูปสะพานแขวน",
+      "name_en": "Kiriwong Bridge & Hanging Bridge Viewpoint",
+      "district_th": "ลานสกา",
+      "description_th": "จุดแลนด์มาร์กถ่ายภาพสะพานคอนกรีตและสะพานแขวนข้ามลำธารคลองท่าดี ฉากหลังทิวเขาสูงและอากาศบริสุทธิ์ที่สุดในไทย",
+      "lat": 8.4412,
+      "lng": 99.782,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "คีรีวง",
+        "สะพานคีรีวง",
+        "อากาศดีที่สุด",
+        "จุดถ่ายรูป"
+      ],
+      "moods": [
+        "photo",
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "ถ่ายภาพสะพานข้ามลำธารใสสะอาดกับวิวทิวเขาหลวงอันงดงาม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "06:30-09:00, 16:00-18:00",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ใจกลางหมู่บ้านคีรีวง อำดภอลานสกา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "nan-phat-waterfall-lan-saka",
+      "province": "nakhon-si-thammarat",
+      "name_th": "น้ำตกสวนอาย ลานสกา",
+      "name_en": "Suan Ai Waterfall Lan Saka",
+      "district_th": "ลานสกา",
+      "description_th": "น้ำตกเล็กๆ ซ่อนตัวกลางสวนผลไม้ บรรยากาศเงียบสงบ น้ำใสเย็นฉ่ำ เหมาะแก่การพักผ่อนกับครอบครัว",
+      "lat": 8.412,
+      "lng": 99.765,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตกสวนอาย",
+        "ลานสกา",
+        "สวนผลไม้",
+        "เล่นน้ำ"
+      ],
+      "moods": [
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "น้ำตกธรรมชาติซ่อนตัวในสวนผลไม้ร่มรื่นและเป็นกันเอง",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ในอำดภอลานสกา ใกล้หมู่บ้านคีรีวง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-chandaram-tha-sala",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดจันทราราม ท่าศาลา",
+      "name_en": "Wat Chandaram Tha Sala",
+      "district_th": "ท่าศาลา",
+      "description_th": "วัดสงบร่มรื่นริมแม่น้ำท่าศาลา ประดิษฐานพระพุทธรูปปางมารวิชัย และอุโบสถปูนปั้นลวดลายประณีต",
+      "lat": 8.672,
+      "lng": 99.925,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดจันทราราม",
+        "ท่าศาลา",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดสงบร่มรื่นริมคลองท่าศาลาเหมาะแก่การไหว้พระทำบุญ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในตัวอำเภอท่าศาลา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-mo-khlan-archaeological-site",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดโมคลาน และแหล่งโบราณคดีโมคลาน",
+      "name_en": "Wat Mokhallan Archaeological Site",
+      "district_th": "ท่าศาลา",
+      "description_th": "โบราณสถานศาสนาพราหมณ์โบราณอายุกว่า 1,000 ปี บนสแนดทราย พบศิวลึงค์ ฐานเทวสถาน และอิฐโบราณยุคศรีวิชัย",
+      "lat": 8.685,
+      "lng": 99.9012,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "โมคลาน",
+        "โบราณสถาน",
+        "ศรีวิชัย",
+        "ท่าศาลา"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "แหล่งเรียนรู้ประวัติศาสตร์โบราณสถานสมัยศรีวิชัยอายุกว่าพันปี",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลโมคลาน อำเภอท่าศาลา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-thong-thae-sichon",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดประดู่เรียง",
+      "name_en": "Wat Pradu Riang",
+      "district_th": "สิชล",
+      "description_th": "วัดโบราณในอำเภอสิชล โดดเด่นด้วยวิหารประดิษฐานพระพุทธรูปปางไสยาสน์องค์ใหญ่ และบรรยากาศร่มรื่น",
+      "lat": 8.985,
+      "lng": 99.892,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดประดู่เรียง",
+        "สิชล",
+        "พระนอน"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบไหว้พระพุทธรูปปางไสยาสน์องค์ใหญ่สงบร่มรื่น",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอสิชล",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sichon-nakhon-si",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดสิชลชลาราม (วัดสิชล)",
+      "name_en": "Wat Sichon Chalaram",
+      "district_th": "สิชล",
+      "description_th": "วัดเก่าแก่ศูนย์รวมใจชาวสิชลริมคลองสิชล ประดิษฐานหลวงพ่อทันใจ และสถาปัตยกรรมอุโบสถสวยงาม",
+      "lat": 9.0012,
+      "lng": 99.898,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดสิชล",
+        "สิชล",
+        "หลวงพ่อทันใจ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดสำคัญริมคลองสิชลบรรยากาศสงบร่มรื่น",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:30-17:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในตัวอำเภอสิชล ใกล้ตลาดสดสิชล",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "nai-thut-beach-khanom",
+      "province": "nakhon-si-thammarat",
+      "name_th": "หาดในทวด ขนอม",
+      "name_en": "Nai Thuat Beach Khanom",
+      "district_th": "ขนอม",
+      "description_th": "ชายหาดเล็กๆ เงียบสงบ ทรายขาวสะอาดยาวเหยียด วิวทิวทัศน์ทะเลอ่าวไทยและทิวทัศน์เกาะแก่งไกลๆ",
+      "lat": 9.182,
+      "lng": 99.878,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดในทวด",
+        "ขนอม",
+        "ชายหาดเงียบสงบ"
+      ],
+      "moods": [
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "พักผ่อนบนชายหาดสงบร่มรื่นคนไม่พลุกพล่าน",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอขนอม ใกล้หาดหน้าด่าน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "na-dan-beach-khanom",
+      "province": "nakhon-si-thammarat",
+      "name_th": "หาดหน้าด่าน ขนอม",
+      "name_en": "Nadan Beach Khanom",
+      "district_th": "ขนอม",
+      "description_th": "ชายหาดยาวที่สุดในอำเภอขนอม โค้งโค้งยาวกว้างไกล ทิวทัศน์ต้นมะพร้าวเรียงรายริมหาด บรรยากาศโรแมนติก",
+      "lat": 9.165,
+      "lng": 99.882,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดหน้าด่าน",
+        "ขนอม",
+        "หาดยาว",
+        "ทิวทัศน์มะพร้าว"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "หาดทรายยาวโค้งสวยงามเรียงรายด้วยทิวมะพร้าวผ่อนคลายสบายตา",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ศูนย์รวมรีสอร์ตและคาเฟ่ชั้นนำของขนอม",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khwaeng-phao-beach-khanom",
+      "province": "nakhon-si-thammarat",
+      "name_th": "หาดแขวงเภา ขนอม",
+      "name_en": "Khwaeng Phao Beach Khanom",
+      "district_th": "ขนอม",
+      "description_th": "อ่าวชายหาดทรงจันทร์เสี้ยว น้ำทะเลใส ทรายนุ่ม ท่าเรือสำคัญในการลงเรือหางยาวท่องเที่ยวชมโลมาสีชมพู",
+      "lat": 9.215,
+      "lng": 99.832,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดแขวงเภา",
+        "ขนอม",
+        "ลงเรือชมโลมา",
+        "อ่าวจันทร์เสี้ยว"
+      ],
+      "moods": [
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "จุดลงเรือท่องเที่ยวชมโลมาสีชมพูและอ่าวจันทร์เสี้ยวบรรยากาศงดงาม",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "มีร้านอาหารทะเลริมหาดหลายแห่ง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "samet-chun-waterfall-khanom",
+      "province": "nakhon-si-thammarat",
+      "name_th": "น้ำตกเสม็ดชุน ขนอม",
+      "name_en": "Samet Chun Waterfall Khanom",
+      "district_th": "ขนอม",
+      "description_th": "น้ำตกกลางป่าบนเขาในอำเภอขนอม สายน้ำไหลผ่านโขดหินลดหลั่น มีจุดชมวิวอ่าวขนอมมุมสูงที่งดงาม",
+      "lat": 9.158,
+      "lng": 99.825,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตกเสม็ดชุน",
+        "ขนอม",
+        "จุดชมวิวขนอม",
+        "เดินป่า"
+      ],
+      "moods": [
+        "mountain",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "น้ำตกธรรมชาติและจุดชมวิวอ่าวขนอมจากมุมสูงตระการตา",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี (ต.ค.-ม.ค. น้ำมาก)",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ในเขตอำเภอขนอม ต้องเดินเท้าขึ้นเขาเล็กน้อย",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-khao-noi-cha-uat",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ควนคลัง และพรุควนเคร็ง",
+      "name_en": "Khuan Kreng Peat Swamp Forest",
+      "district_th": "ชะอวด",
+      "description_th": "ผืนป่าพรุใหญ่ที่สุดอันดับสองของไทย สัมผัสธรรมชาติป่าพรุพาดผ่านด้วยสะพานไม้ทอดยาว และนกน้ำนานาชนิด",
+      "lat": 7.982,
+      "lng": 100.085,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ป่าพรุควนเคร็ง",
+        "ชะอวด",
+        "ส่องนกน้ำ",
+        "สะพานไม้"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "เดินชมสะพานไม้ศึกษาธรรมชาติป่าพรุบรรยากาศสงบไร้ความวุ่นวาย",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "07:00-09:30, 15:30-17:30",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอชะอวด เชื่อมต่อกับทะเลน้อย",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-tham-phanara-cave",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ถ้ำถ้ำพรรณรา และวัดถ้ำพรรณรา",
+      "name_en": "Tham Phannara Cave & Wat Tham Phannara",
+      "district_th": "ถ้ำพรรณรา",
+      "description_th": "ถ้ำโบราณภายในภูเขาหินปูน ประดิษฐานพระพุทธรูปปางไสยาสน์โบราณ และหินงอกหินย้อยงดงามตระการตา",
+      "lat": 8.418,
+      "lng": 99.385,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ถ้ำพรรณรา",
+        "พระนอนโบราณ",
+        "หินงอกหินย้อย"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "mountain"
+      ],
+      "mood_reason": "ถ้ำธรรมชาติเงียบสงบประดิษฐานพระนอนศักดิ์สิทธิ์ประจำอำเภอ",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่อำเภอถ้ำพรรณรา ริมถนนสายหลัก",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-luang-viewpoint-lan-saka",
+      "province": "nakhon-si-thammarat",
+      "name_th": "จุดชมวิวเขาหลวง จุดชมวิวเขาแก้ว ลานสกา",
+      "name_en": "Khao Kaew Viewpoint Lan Saka",
+      "district_th": "ลานสกา",
+      "description_th": "จุดชมวิวทิวเขาหลวงจากมุมสูง สูดอากาศบริสุทธิ์ ชมทะเลหมอกยามเช้าโอบล้อมหุบเขาลานสกา",
+      "lat": 8.385,
+      "lng": 99.781,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "จุดชมวิวเขาแก้ว",
+        "ลานสกา",
+        "ทะเลหมอก",
+        "อากาศดีที่สุด"
+      ],
+      "moods": [
+        "mountain",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "วิวพาโนรามาทิวเขาหลวงและสัมผัสอากาศบริสุทธิ์อันดับต้นๆ ของไทย",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "06:00-08:30 (ช่วงทะเลหมอกเช้า)",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ในอำดภอลานสกา บนเส้นทางไปคีรีวง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-kaew-korawaram-nakhon-si",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดสระเรียง",
+      "name_en": "Wat Sa Riang",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "วัดเก่าแก่สมัยอยุธยา มีสระน้ำโบราณเรียงราย และวิหารประดิษฐานพระพุทธรูปปางมารวิชัยศิลปะนครศรีธรรมราช",
+      "lat": 8.4185,
+      "lng": 99.965,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดสระเรียง",
+        "โบราณสถาน",
+        "เมืองนคร"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดสงบร่มรื่นใจกลางเมืองใกล้อุทยานประวัติศาสตร์กำแพงเมืองเก่า",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ถนนราชดำเนิน ตําบลในเมือง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-luang-lan-saka-view-cafe",
+      "province": "nakhon-si-thammarat",
+      "name_th": "จุดชมวิวหุบเขากลางหมอก ลานสกา",
+      "name_en": "Lan Saka Valley Viewpoint",
+      "district_th": "ลานสกา",
+      "description_th": "จุดแวะพักชมวิวทิวทัศน์แอ่งกระทะหุบเขาลานสกา โอบล้อมด้วยภูเขาสีเขียวสดชื่น ลมพัดเย็นสบายตลอดวัน",
+      "lat": 8.3712,
+      "lng": 99.775,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หุบเขาลานสกา",
+        "จุดชมวิว",
+        "อากาศบริสุทธิ์"
+      ],
+      "moods": [
+        "mountain",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ทิวทัศน์หุบเขาสีเขียวขจีและบรรยากาศผ่อนคลายสบายใจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดวัน",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ริมถนนสายลานสกา-จันดี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "talat-thong-tha-lad-night-market",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ตลาดหน้าวัดพระบรมธาตุ (ถนนคนเดินเมืองนคร)",
+      "name_en": "Wat Phra Mahathat Walking Street",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "ถนนคนเดินยามเย็นหน้าวัดพระมหาธาตุฯ รวบรวมอาหารพื้นบ้านใต้ ขนมโบราณ และสินค้าแฮนด์เมดชุมชน",
+      "lat": 8.4105,
+      "lng": 99.9665,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ถนนคนเดินเมืองนคร",
+        "อาหารใต้",
+        "ตลาดหน้าวัดพระธาตุ",
+        "ของกินพื้นบ้าน"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "เดินชิมอาหารพื้นบ้านใต้รสจัดจ้านยามเย็นริมวัดพระมหาธาตุฯ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "วันเสาร์ 16:00-21:00",
+      "opening_hours": "16:00-21:30",
+      "closed_days": "วันอาทิตย์-วันศุกร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จัดขึ้นทุกวันเสาร์บริเวณริมถนนหน้าวัดพระมหาธาตุฯ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-khlong-khud-cha-uat",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดชะอวด",
+      "name_en": "Wat Cha-uat",
+      "district_th": "ชะอวด",
+      "description_th": "วัดใหญ่ประจำอำเภอชะอวด ริมคลองชะอวด ประดิษฐานพระพุทธรูปปางมารวิชัย และเป็นศูนย์รวมจิตใจชุมชน",
+      "lat": 7.962,
+      "lng": 99.998,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดชะอวด",
+        "ชะอวด",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดสงบร่มรื่นริมน้ำศูนย์รวมศรัทธาของชาวอำเภอชะอวด",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในตัวอำเภอชะอวด ใกล้สถานีรถไฟชะอวด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-luang-baan-yang-waterfall",
+      "province": "nakhon-si-thammarat",
+      "name_th": "น้ำตกสี่ขีด อุทยานแห่งชาติน้ำตกสี่ขีด",
+      "name_en": "Namtok Si Khit National Park",
+      "district_th": "สิชล",
+      "description_th": "น้ำตกหินปูนสวยงามในป่าอุดมสมบูรณ์ น้ำใสสีเขียวมรกต ไหลลดหลั่นเป็นชั้นๆ มีแอ่งเล่นน้ำปลอดภัย",
+      "lat": 8.925,
+      "lng": 99.785,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตกสี่ขีด",
+        "สิชล",
+        "อุทยานแห่งชาติ",
+        "น้ำใสเขียวมรกต"
+      ],
+      "moods": [
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "แอ่งน้ำสีเขียวมรกตใสมองเห็นตัวป่าท่ามกลางขุนเขาสิชล",
+      "stats": {
+        "chill": 5,
+        "adventure": 3,
+        "photo": 5,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 40,
+        "max": 40
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอสิชล ติดอาณาเขตจังหวัดสุราษฎร์ธานี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-bo-nom-ma-ha-that-wo-ra-wi-han-museum",
+      "province": "nakhon-si-thammarat",
+      "name_th": "พิพิธภัณฑสถานแห่งชาติ นครศรีธรรมราช",
+      "name_en": "Nakhon Si Thammarat National Museum",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "พิพิธภัณฑ์รวบรวมโบราณวัตถุชิ้นเอกสมัยศรีวิชัย เช่น ศิวลึงค์ เทวรูปศิลา พระพุทธรูปโบราณ และเครื่องเงินเครื่องทอง",
+      "lat": 8.405,
+      "lng": 99.9675,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์มรดกศรีวิชัย",
+        "โบราณวัตถุ",
+        "เมืองนคร",
+        "ประวัติศาสตร์"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "จัดแสดงประวัติศาสตร์โบราณคดีอาณาจักรศรีวิชัยอันรุ่งเรือง",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "09:00-16:00",
+      "opening_hours": "09:00-16:00",
+      "closed_days": "วันจันทร์, วันอังคาร",
+      "entry_fee_thb": {
+        "min": 30,
+        "max": 30
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ถนนราชดำเนิน ใกล้วัดพระมหาธาตุฯ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pak-phanang-lighthouse",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ประภาคารปากพนัง และจุดชมวิวปากอ่าว",
+      "name_en": "Pak Phanang Lighthouse & Viewpoint",
+      "district_th": "ปากพนัง",
+      "description_th": "ประภาคารนำทางเรือริมปากอ่าวปากพนัง จุดชมวิวรับลมทะเลและชมพระอาทิตย์ตกดินบรรยากาศเงียบสงบ",
+      "lat": 8.388,
+      "lng": 100.208,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ประภาคารปากพนัง",
+        "จุดชมวิวปากอ่าว",
+        "ชมพระอาทิตย์ตก"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ประภาคารริมทะเลและบรรยากาศท้องฟ้าพระอาทิตย์ตกดินปากอ่าว",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "16:30-18:30",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่สุดแหลมฝั่งตะวันออก อำเภอปากพนัง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-bo-nom-ma-ha-that-wo-ra-wi-han-ancient-pagoda",
+      "province": "nakhon-si-thammarat",
+      "name_th": "โบราณสถานวัดเจดีย์ดำ",
+      "name_en": "Wat Chedi Dam Archaeological Site",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "เจดีย์ศิลาแลงและอิฐโบราณยุคศรีวิชัย สถาปัตยกรรมเก่าแก่สะท้อนประวัติศาสตร์พันปีของเมืองนคร",
+      "lat": 8.415,
+      "lng": 99.9655,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดเจดีย์ดำ",
+        "โบราณสถาน",
+        "เมืองนคร"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "เจดีย์อิฐโบราณร่มรื่นสะท้อนอารยธรรมเก่าแก่",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอเมืองนครศรีธรรมราช",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-luang-nan-chao-waterfall",
+      "province": "nakhon-si-thammarat",
+      "name_th": "น้ำตกหนานช่อง อุทยานแห่งชาติเขาหลวง",
+      "name_en": "Nan Chong Waterfall Khao Luang",
+      "district_th": "ลานสกา",
+      "description_th": "น้ำตกป่าลึกบรรยากาศบริสุทธิ์ สายน้ำไหลเย็นฉ่ำตลอดปี เหมาะแก่การเดินป่าพักผ่อนสัมผัสธรรมชาติ",
+      "lat": 8.355,
+      "lng": 99.725,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตกหนานช่อง",
+        "ลานสกา",
+        "เขาหลวง"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "adventure"
+      ],
+      "mood_reason": "สายน้ำตกกลางป่าเขาหลวงเงียบสงบผ่อนคลายจิตใจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 3,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอลานสกา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-mueang-nakhon-si-thammarat-khlong-klai",
+      "province": "nakhon-si-thammarat",
+      "name_th": "จุดชมวิวและล่องแก่งคลองกลาย นบพิตำ",
+      "name_en": "Khlong Klai River Viewpoint & Rafting",
+      "district_th": "นบพิตำ",
+      "description_th": "ลำน้ำสายหลักจากเทือกเขาหลวง สายน้ำใสสะอาดตลอดปี เหมาะแก่การพักผ่อนเล่นน้ำ ล่องแก่งเรือยาง และชมวิวธรรมชาติ",
+      "lat": 8.718,
+      "lng": 99.762,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "คลองกลาย",
+        "นบพิตำ",
+        "ล่องแก่ง",
+        "เล่นน้ำ"
+      ],
+      "moods": [
+        "beach",
+        "mountain",
+        "adventure"
+      ],
+      "mood_reason": "สายน้ำใสไหลผ่านหุบเขาสมบูรณ์เหมาะกับสายชิลและสายผจญภัย",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอนบพิตำ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bo-nam-sichon",
+      "province": "nakhon-si-thammarat",
+      "name_th": "วัดสี่ขีด สิชล",
+      "name_en": "Wat Si Khit Sichon",
+      "district_th": "สิชล",
+      "description_th": "วัดสงบร่มรื่นเชิงเขาใกล้เขตอุทยานแห่งชาติน้ำตกสี่ขีด มีอุโบสถสถาปัตยกรรมท้องถิ่นสวยงาม",
+      "lat": 8.931,
+      "lng": 99.792,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดสี่ขีด",
+        "สิชล",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดชนบทบรรยากาศเงียบสงบโอบล้อมด้วยภูเขา",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ทางผ่านไปน้ำตกสี่ขีด อำเภอสิชล",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-bo-nom-ma-ha-that-wo-ra-wi-han-old-wall",
+      "province": "nakhon-si-thammarat",
+      "name_th": "สวนสาธารณะศรีธรรมโศกราช",
+      "name_en": "Sri Thammasokarat Park",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "สวนสาธารณะประวัติศาสตร์ตั้งอยู่ติดแนวเจดีย์และกำแพงเมืองเก่า ประดิษฐานอนุสาวรีย์พระเจ้าศรีธรรมโศกราช",
+      "lat": 8.4165,
+      "lng": 99.966,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระเจ้าศรีธรรมโศกราช",
+        "สวนสาธารณะ",
+        "กำแพงเมืองเก่า"
+      ],
+      "moods": [
+        "quiet",
+        "photo",
+        "temple"
+      ],
+      "mood_reason": "สวนพักผ่อนประวัติศาสตร์ข้างกำแพงเมืองโบราณบรรยากาศสงบ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "06:00-09:00, 16:30-19:00",
+      "opening_hours": "05:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ริมถนนราชดำเนิน อำเภอเมืองนครศรีธรรมราช",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "hat-phet-sichon",
+      "province": "nakhon-si-thammarat",
+      "name_th": "หาดคอเขา สิชล",
+      "name_en": "Kho Khao Beach Sichon",
+      "district_th": "สิชล",
+      "description_th": "ชายหาดโค้งทอดยาวกว้างขวาง น้ำทะเลใส คลื่นลมสงบ เหมาะสำหรับการลงเล่นน้ำและเดินพักผ่อนยามเย็น",
+      "lat": 8.995,
+      "lng": 99.905,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดคอเขา",
+        "สิชล",
+        "ชายหาดเงียบสงบ"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ชายหาดสงบร่มรื่นและเป็นธรรมชาติใกล้ตัวอำเภอสิชล",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอสิชล ใกล้หาดสิชล",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "talat-cha-uat-retro-market",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ตลาดริมน้ำชะอวด (ตลาดกรีนชะอวด)",
+      "name_en": "Cha-uat Waterfront Green Market",
+      "district_th": "ชะอวด",
+      "description_th": "ตลาดชุมชนริมแม่น้ำชะอวด จำหน่ายอาหารพื้นบ้าน ขนมโบราณ พืชผักปลอดสารพิษ และผลิตภัณฑ์กระจูดสาน",
+      "lat": 7.961,
+      "lng": 99.9985,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดริมน้ำชะอวด",
+        "ชะอวด",
+        "ผลิตภัณฑ์กระจูด",
+        "ของกินพื้นบ้าน"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "เดินชิลชมตลาดวิถีชุมชนริมน้ำสัมผัสงานหัตถกรรมกระจูดสาน",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "วันเสาร์-อาทิตย์ 10:00-18:00",
+      "opening_hours": "10:00-18:00",
+      "closed_days": "วันจันทร์-วันศุกร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ริมแม่น้ำชะอวด อำเภอชะอวด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "nan-san-thap-waterfall-pipun",
+      "province": "nakhon-si-thammarat",
+      "name_th": "อ่างเก็บน้ำคลองกะทูน พิปูน (สวิตเซอร์แลนด์เมืองแดนใต้)",
+      "name_en": "Khlong Kathun Reservoir Phipun",
+      "district_th": "พิปูน",
+      "description_th": "อ่างเก็บน้ำขนาดใหญ่ฉากหลังทิวเขาหลวงตระหง่าน บรรยากาศเงียบสงบวิวสวยงามราวกับสวิตเซอร์แลนด์",
+      "lat": 8.658,
+      "lng": 99.552,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "อ่างเก็บน้ำกะทูน",
+        "พิปูน",
+        "สวิตเซอร์แลนด์เมืองใต้",
+        "จุดถ่ายรูป"
+      ],
+      "moods": [
+        "mountain",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ผืนน้ำกว้างไกลฉากหลังภูเขาสลับซับซ้อนสวยงามตรึงใจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "06:30-09:00, 16:00-18:30",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอพิปูน มีจุดกางเต็นท์และร้านกาแฟวิวดี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khlong-ดิน-daeng-reservoir-pipun",
+      "province": "nakhon-si-thammarat",
+      "name_th": "อ่างเก็บน้ำดินแดง พิปูน",
+      "name_en": "Khlong Din Daeng Reservoir Phipun",
+      "district_th": "พิปูน",
+      "description_th": "อ่างเก็บน้ำอีกแห่งในอำเภอพิปูน บรรยากาศสงบร่มรื่นเหมาะแก่การปั่นจักรยาน ชมพระอาทิตย์ตก และพักผ่อน",
+      "lat": 8.612,
+      "lng": 99.568,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "อ่างเก็บน้ำดินแดง",
+        "พิปูน",
+        "จุดชมพระอาทิตย์ตก",
+        "ปั่นจักรยาน"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "บรรยากาศอ่างเก็บน้ำกลางอ้อมกอดภูเขาเงียบสงบผ่อนคลาย",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "16:00-18:30",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอพิปูน ใกล้อ่างเก็บน้ำกะทูน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-wang-tawan-tok-ancient-scriptures-hall",
+      "province": "nakhon-si-thammarat",
+      "name_th": "หอไตรวัดวังตะวันตก",
+      "name_en": "Wat Wang Tawan Tok Wooden Scripture Library",
+      "district_th": "เมืองนครศรีธรรมราช",
+      "description_th": "หอไตรไม้โบราณกลางน้ำสถาปัตยกรรมช่างฝีมือชั้นสูง ฉลุลวดลายละเอียดอ่อนทรงคุณค่าทางประวัติศาสตร์",
+      "lat": 8.4252,
+      "lng": 99.9642,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หอไตรโบราณ",
+        "วัดวังตะวันตก",
+        "สถาปัตยกรรมไม้"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "หอไตรไม้โบราณแกะสลักลวดลายทรงคุณค่าทางศิลปะ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ภายในวัดวังตะวันตก อำเภอเมืองนครศรีธรรมราช",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "krua-นายหนัง-nakhon-si",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ร้านอาหาร ครัวนายหนัง",
+      "name_en": "Krua Nai Nang",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทยใต้",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes_th": [
+        "แกงส้มปลากะพงยอดมะพร้าว",
+        "แกงไตปลาทรงเครื่อง",
+        "หมูผัดกะปิสตอ",
+        "ใบเหลียงผัดไข่"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "เมืองนครศรีธรรมราช",
+      "lat": 8.421,
+      "lng": 99.968,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารใต้รสชาติจัดจ้านต้นตำรับเมืองนคร มีการแสดงแกะสลักและเชิดหนังตะลุงให้ชมขณะรับประทานอาหาร",
+      "price_per_person_thb": {
+        "min": 200,
+        "max": 400
+      },
+      "opening_hours": "10:00-21:30",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice 2024"
+      ],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 1850,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ko-lan-kanom-jeen-mueang-nakhon",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ขนมจีนเมืองคอน ถนนพานยม",
+      "name_en": "Kanom Jeen Mueang Khon Phanyom",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ขนมจีนใต้",
+        "ไทยใต้"
+      ],
+      "signature_dishes_th": [
+        "ขนมจีนน้ำยาป่า",
+        "ขนมจีนน้ำพริกหวาน",
+        "แกงไตปลา",
+        "หมูทอดขมิ้น",
+        "ผักสดถาดใหญ่"
+      ],
+      "meals": [
+        "breakfast",
+        "lunch"
+      ],
+      "area_th": "ถนนพานยม เมืองนครศรีธรรมราช",
+      "lat": 8.411,
+      "lng": 99.9685,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านขนมจีนใต้ระดับตำนานประจำเมืองนคร น้ำยาหลากหลายรสชาติทานคู่ถาดผักสดพื้นบ้านไม่อั้น",
+      "price_per_person_thb": {
+        "min": 80,
+        "max": 180
+      },
+      "opening_hours": "08:00-15:30",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice 2024"
+      ],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 2300,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-yoi-kopitiam-nakhon-si",
+      "province": "nakhon-si-thammarat",
+      "name_th": "โกปี๊ นครศรีธรรมราช (สาขาข้างศาลากลาง)",
+      "name_en": "Kopi Nakhon Si Thammarat",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ติ่มซำ",
+        "กาแฟโบราณ",
+        "บะกุ๊ดเต๋"
+      ],
+      "signature_dishes_th": [
+        "บะกุ๊ดเต๋หม้อดินร้อน",
+        "ติ่มซำนึ่งสด",
+        "ชาเย็นโบราณ",
+        "ปาท่องโก๋สังขยา"
+      ],
+      "meals": [
+        "breakfast",
+        "lunch",
+        "snack"
+      ],
+      "area_th": "เมืองนครศรีธรรมราช",
+      "lat": 8.428,
+      "lng": 99.965,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านกาแฟและติ่มซำบรรยากาศสไตล์ชิโน-โปรตุกีส จุดนัดพบยามเช้าของชาวเมืองนครศรีธรรมราช",
+      "price_per_person_thb": {
+        "min": 100,
+        "max": 250
+      },
+      "opening_hours": "06:30-16:30",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice 2024"
+      ],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 2100,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "krua-sea-bass-sichon",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ครัวตังเก ซีฟู้ด สิชล",
+      "name_en": "Krua Tang Ke Seafood Sichon",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทยใต้"
+      ],
+      "signature_dishes_th": [
+        "หมึกไข่นึ่งมะนาว",
+        "กุ้งเผาตัวโต",
+        "ปลากะพงทอดราดน้ำปลา",
+        "แกงส้มปูไข่ใบชะพลู"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "ชายหาดสิชล",
+      "lat": 9.0095,
+      "lng": 99.914,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารทะเลสดริมหาดสิชล วัตถุดิบสดใหม่ส่งตรงจากเรือประมง บรรยากาศรับลมทะเลสบายๆ",
+      "price_per_person_thb": {
+        "min": 300,
+        "max": 600
+      },
+      "opening_hours": "10:00-21:30",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 850,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "blue-surf-cafe-by-sichon-cabana",
+      "province": "nakhon-si-thammarat",
+      "name_th": "บลูเซิร์ฟคาเฟ่ (Blue Surf Cafe by Sichon Cabana)",
+      "name_en": "Blue Surf Cafe by Sichon Cabana",
+      "kind": "cafe",
+      "cuisine_th": [
+        "กาแฟ",
+        "เบเกอรี่",
+        "ฟิวชั่น"
+      ],
+      "signature_dishes_th": [
+        "Coconut Dirty Coffee",
+        "Croissant Pizza",
+        "Smoothie Bowl Fruit"
+      ],
+      "meals": [
+        "breakfast",
+        "lunch",
+        "snack"
+      ],
+      "area_th": "หาดหินงาม สิชล",
+      "lat": 9.0085,
+      "lng": 99.913,
+      "coords_source": "https://maps.google.com",
+      "description_th": "คาเฟ่สุดชิคสไตล์เซิร์ฟติดริมหาดหินงามสิชล จิบกาแฟชมวิวคลื่นทะเลและนักเล่นเซิร์ฟบอร์ด",
+      "price_per_person_thb": {
+        "min": 120,
+        "max": 280
+      },
+      "opening_hours": "08:00-19:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 1150,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "suan-por-iam-kiriwong",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ร้านอาหาร สวนพ่อเอี่ยม คีรีวง",
+      "name_en": "Suan Por Iam Kiriwong",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทยใต้",
+        "อาหารพื้นบ้าน"
+      ],
+      "signature_dishes_th": [
+        "ยำผักกูดกุ้งสด",
+        "ไก่ต้มขมิ้น",
+        "แกงส้มหยวกกล้วยป่า",
+        "ปลาลำธารทอดขมิ้น"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "คีรีวง ลานสกา",
+      "lat": 8.438,
+      "lng": 99.781,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารพื้นบ้านริมลำธารคีรีวง ชิมเมนูผักกูดและวัตถุดิบสดจากสวนผลไม้ท่ามกลางธรรมชาติร่มรื่น",
+      "price_per_person_thb": {
+        "min": 150,
+        "max": 300
+      },
+      "opening_hours": "10:00-19:00",
+      "closed_days": "วันพุธ",
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 680,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "mountain"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "rot-dee-teochew-noodle-nakhon",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ร้านก๋วยเตี๋ยวบะหมี่แต้จิ๋ว มังกรทอง",
+      "name_en": "Golden Dragon Teochew Noodle Nakhon",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "บะหมี่แต้จิ๋ว",
+        "จีน"
+      ],
+      "signature_dishes_th": [
+        "บะหมี่แห้งหมูกรอบฉ่ำ",
+        "เกี๊ยวกุ้งน้ำเป็ดพะโล้",
+        "ลูกชิ้นปลาทำเอง"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "ท่าวัง เมืองนครศรีธรรมราช",
+      "lat": 8.429,
+      "lng": 99.962,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านบะหมี่ทำเองเส้นเหนียวนุ่มสไตล์แต้จิ๋วระดับตำนานย่านท่าวัง เปิดขายมายาวนานกว่า 50 ปี",
+      "price_per_person_thb": {
+        "min": 60,
+        "max": 120
+      },
+      "opening_hours": "09:00-20:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 520,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khanom-roti-บังบัง-nakhon-si",
+      "province": "nakhon-si-thammarat",
+      "name_th": "โรตีบังบังกะแอ มหาชัย",
+      "name_en": "Roti Bang Bang Ka Ae",
+      "kind": "street_food",
+      "cuisine_th": [
+        "โรตีชาชัก",
+        "ขนมหวานมุสลิม"
+      ],
+      "signature_dishes_th": [
+        "โรตีตบกรอบนอกนุ่มใน",
+        "โรตีมะพร้าวอ่อน",
+        "ชาชักใต้เข้มข้น"
+      ],
+      "meals": [
+        "dinner",
+        "snack"
+      ],
+      "area_th": "เมืองนครศรีธรรมราช",
+      "lat": 8.422,
+      "lng": 99.967,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านโรตีชาชักยอดฮิตยามค่ำคืนของเมืองนคร แป้งโรตีตบกรอบนุ่มราดนมข้นหวานทานคู่ชาชักเข้มข้น",
+      "price_per_person_thb": {
+        "min": 40,
+        "max": 100
+      },
+      "opening_hours": "16:00-23:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 780,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [
+        "halal"
+      ],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pak-phanang-seafood-market-restaurant",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ร้านอาหาร ริมน้ำปากพนัง",
+      "name_en": "Rim Nam Pak Phanang Restaurant",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทยใต้"
+      ],
+      "signature_dishes_th": [
+        "ปลากะพงสองหน้า",
+        "กุ้งแม่น้ำซอสมะขาม",
+        "ส้มโอทับทิมสยามทรงเครื่อง",
+        "แกงส้มปูไข่"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "ปากพนัง",
+      "lat": 8.3585,
+      "lng": 100.198,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารทะเลบรรยากาศดีติดแม่น้ำปากพนัง ชมเรือประมงสัญจรและลิ้มรสอาหารทะเลสดใหม่",
+      "price_per_person_thb": {
+        "min": 250,
+        "max": 500
+      },
+      "opening_hours": "10:30-21:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.3,
+        "out_of": 5,
+        "count": 610,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "cc-khanom-beach-cafe",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ซีซี คาเฟ่ ขนอม (CC Beach Cafe Khanom)",
+      "name_en": "CC Beach Cafe Khanom",
+      "kind": "cafe",
+      "cuisine_th": [
+        "กาแฟ",
+        "เบเกอรี่",
+        "เครื่องดื่มสดชื่น"
+      ],
+      "signature_dishes_th": [
+        "Iced Caramel Macchiato",
+        "Strawberry Shortcake",
+        "Mango Passion Fruit Soda"
+      ],
+      "meals": [
+        "snack"
+      ],
+      "area_th": "หาดหน้าด่าน ขนอม",
+      "lat": 9.168,
+      "lng": 99.8812,
+      "coords_source": "https://maps.google.com",
+      "description_th": "คาเฟ่ริมหาดหน้าด่านขนอม ตกแต่งสไตล์มินิมอลสีขาวคลีนถ่ายรูปสวยทุกมุม บรรยากาศสุดชิล",
+      "price_per_person_thb": {
+        "min": 90,
+        "max": 200
+      },
+      "opening_hours": "09:00-18:00",
+      "closed_days": "วันพฤหัสบดี",
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 490,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "photo",
+        "beach"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-thong-roti-cha-chak-sichon",
+      "province": "nakhon-si-thammarat",
+      "name_th": "โรตีบังบัส สิชล",
+      "name_en": "Roti Bang Bas Sichon",
+      "kind": "street_food",
+      "cuisine_th": [
+        "โรตี",
+        "ชาชัก"
+      ],
+      "signature_dishes_th": [
+        "โรตีภูเขาไฟ",
+        "โรตีมะพร้าวอ่อน",
+        "ชาเย็นใต้สูตรเข้มข้น"
+      ],
+      "meals": [
+        "dinner",
+        "snack"
+      ],
+      "area_th": "สิชล",
+      "lat": 9.002,
+      "lng": 99.896,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านโรตีชาชักยอดฮิตประจำอำเภอสิชล แป้งโรตีนุ่มหอมเนย ชาชักฟองนุ่มรสชาติใต้แท้",
+      "price_per_person_thb": {
+        "min": 35,
+        "max": 90
+      },
+      "opening_hours": "15:30-22:30",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 380,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [
+        "halal"
+      ],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "chada-tea-house-nakhon-si",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ร้านชาฎา ขนมไทย เมืองนคร",
+      "name_en": "Chada Thai Dessert & Tea House",
+      "kind": "cafe",
+      "cuisine_th": [
+        "ขนมไทยโบราณ",
+        "ชาไทย"
+      ],
+      "signature_dishes_th": [
+        "เซ็ตขนมไทยทองโบราณ",
+        "ขนมเสน่ห์จันทน์",
+        "ชาสมุนไพรบำรุงสุขภาพ"
+      ],
+      "meals": [
+        "snack"
+      ],
+      "area_th": "เมืองนครศรีธรรมราช",
+      "lat": 8.412,
+      "lng": 99.9672,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านคาเฟ่ขนมไทยโบราณรสชาติประณีต จัดเสิร์ฟใส่ชุดเครื่องทองงดงามใกล้าวัดพระมหาธาตุฯ",
+      "price_per_person_thb": {
+        "min": 100,
+        "max": 250
+      },
+      "opening_hours": "09:00-17:30",
+      "closed_days": "วันจันทร์",
+      "awards": [],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 540,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "stays": [
+    {
+      "id": "grand-fortune-hotel-nakhon-si-thammarat",
+      "province": "nakhon-si-thammarat",
+      "name_th": "โรงแรม แกรนด์ ฟอร์จูน นครศรีธรรมราช",
+      "name_en": "Grand Fortune Hotel Nakhon Si Thammarat",
+      "type": "hotel",
+      "area_th": "เมืองนครศรีธรรมราช",
+      "lat": 8.4215,
+      "lng": 99.962,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมหรูระดับ 4 ดาวใจกลางเมืองนครศรีธรรมราช สระว่ายน้ำใหญ่ สิ่งอำนวยความสะดวกครบครันทันสมัย",
+      "price_per_night_thb": {
+        "min": 1800,
+        "max": 3500
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.9,
+        "out_of": 10,
+        "count": 2800,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "workspace"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": "https://www.booking.com",
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com",
+        "https://www.booking.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "sichon-cabana-beach-resort",
+      "province": "nakhon-si-thammarat",
+      "name_th": "สิชล คาบาน่า บีช รีสอร์ท",
+      "name_en": "Sichon Cabana Beach Resort",
+      "type": "resort",
+      "area_th": "หาดหินงาม สิชล",
+      "lat": 9.0082,
+      "lng": 99.9128,
+      "coords_source": "https://maps.google.com",
+      "description_th": "รีสอร์ตริมหาดหินงามสิชลยอดฮิต บรรยากาศสุดชิล มีกิจกรรมทางน้ำ เล่นเซิร์ฟบอร์ด และคาเฟ่ริมทะเล",
+      "price_per_night_thb": {
+        "min": 2200,
+        "max": 4500
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.8,
+        "out_of": 10,
+        "count": 1450,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "beach_access",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "family"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "adventure"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": "https://www.booking.com",
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khanom-beach-resort-and-spa",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ขนอม บีช รีสอร์ท แอนด์ สปา",
+      "name_en": "Khanom Beach Resort & Spa",
+      "type": "resort",
+      "area_th": "หาดหน้าด่าน ขนอม",
+      "lat": 9.1652,
+      "lng": 99.8825,
+      "coords_source": "https://maps.google.com",
+      "description_th": "รีสอร์ตหรูสไตล์ติดชายหาดหน้าด่านขนอม สระว่ายน้ำอินฟินิตี้ติดทะเล และห้องพักรับวิวทะเลอ่าวไทยสุดกว้างไกล",
+      "price_per_night_thb": {
+        "min": 2800,
+        "max": 5500
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.7,
+        "out_of": 10,
+        "count": 1200,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "pool",
+        "beach_access",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "family"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": "https://www.booking.com",
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "hop-inn-nakhon-si-thammarat",
+      "province": "nakhon-si-thammarat",
+      "name_th": "โรงแรม ฮ็อป อินน์ นครศรีธรรมราช",
+      "name_en": "Hop Inn Nakhon Si Thammarat",
+      "type": "hotel",
+      "area_th": "เมืองนครศรีธรรมราช",
+      "lat": 8.4312,
+      "lng": 99.961,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมราคาย่อมเยามาตรฐานความสะอาดสูง ใจกลางเมืองเดินทางสะดวก ปลอดภัย มีที่จอดรถกว้างขวาง",
+      "price_per_night_thb": {
+        "min": 650,
+        "max": 950
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.5,
+        "out_of": 10,
+        "count": 1600,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking",
+        "workspace"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": "https://www.booking.com",
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "kiriwong-resort-lan-saka",
+      "province": "nakhon-si-thammarat",
+      "name_th": "คีรีวง รีสอร์ท ลานสกา",
+      "name_en": "Kiriwong Resort Lan Saka",
+      "type": "homestay",
+      "area_th": "คีรีวง ลานสกา",
+      "lat": 8.439,
+      "lng": 99.7805,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ที่พักอิงแอบธรรมชาติริมลำธารคีรีวง ตื่นเช้าสูดอากาศบริสุทธิ์อันดับต้นๆ ของไทยและฟังเสียงน้ำไหลผ่อนคลาย",
+      "price_per_night_thb": {
+        "min": 900,
+        "max": 1800
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.3,
+        "out_of": 10,
+        "count": 580,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking",
+        "family"
+      ],
+      "moods": [
+        "mountain",
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "chonnapha-resort-khanom",
+      "province": "nakhon-si-thammarat",
+      "name_th": "ชลนภา รีสอร์ท ขนอม",
+      "name_en": "Chonnapha Resort Khanom",
+      "type": "resort",
+      "area_th": "หาดขนอม",
+      "lat": 9.172,
+      "lng": 99.88,
+      "coords_source": "https://maps.google.com",
+      "description_th": "รีสอร์ตบ้านพักเป็นหลังริมชายหาดขนอม บรรยากาศเงียบสงบเป็นส่วนตัว เหมาะแก่การพักผ่อนของครอบครัว",
+      "price_per_night_thb": {
+        "min": 1100,
+        "max": 2200
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.2,
+        "out_of": 10,
+        "count": 720,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "beach_access",
+        "free_wifi",
+        "parking",
+        "family"
+      ],
+      "moods": [
+        "beach",
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    }
+  ]
+}

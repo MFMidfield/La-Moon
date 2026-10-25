@@ -1,0 +1,3568 @@
+{
+  "generated_at": "2026-10-24",
+  "province": "bangkok",
+  "researcher": "LaMoon AI Researcher",
+  "note": "",
+  "places": [
+    {
+      "id": "wat-prayurawongsawat",
+      "province": "bangkok",
+      "name_th": "วัดประยุรวงศาวาสวรวิหาร",
+      "name_en": "Wat Prayurawongsawat",
+      "district_th": "เขตธนบุรี",
+      "description_th": "วัดประยุรวงศาวาสวรวิหาร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7369,
+      "lng": 100.4958,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดประยูร",
+        "พระบรมธาตุมหาเจดีย์",
+        "เขามอ"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "วัดเก่าแก่ฝั่งธนบุรีโดดเด่นด้วยพระบรมธาตุมหาเจดีย์และเขามอจำลองธรรมชาติ",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bowonniwet",
+      "province": "bangkok",
+      "name_th": "วัดบวรนิเวศวิหาร",
+      "name_en": "Wat Bowonniwet Vihara",
+      "district_th": "เขตพระนคร",
+      "description_th": "วัดบวรนิเวศวิหาร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7608,
+      "lng": 100.5002,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดบวร",
+        "พระพุทธชินสีห์",
+        "พระนคร"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "วัดอารามหลวงสำคัญแห่งย่านพระนครที่มีพระพุทธชินสีห์อันงดงามประดิษฐาน",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-chana-songkhram",
+      "province": "bangkok",
+      "name_th": "วัดชนะสงครามราชวรมหาวิหาร",
+      "name_en": "Wat Chana Songkhram",
+      "district_th": "เขตพระนคร",
+      "description_th": "วัดชนะสงครามราชวรมหาวิหาร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7594,
+      "lng": 100.4967,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดชนะสงคราม",
+        "พระนคร",
+        "ขอพรชัยชนะ"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดโบราณใกล้ย่านบางลำพูที่นิยมมาขอพรเพื่อเสริมสิริมงคลและความสำเร็จ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-rakang",
+      "province": "bangkok",
+      "name_th": "วัดระฆังโฆสิตารามวรมหาวิหาร",
+      "name_en": "Wat Rakhang Kositaram",
+      "district_th": "เขตบางกอกน้อย",
+      "description_th": "วัดระฆังโฆสิตารามวรมหาวิหาร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7525,
+      "lng": 100.4862,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดระฆัง",
+        "สมเด็จโต",
+        "ริมแม่น้ำเจ้าพระยา"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "beach"
+      ],
+      "mood_reason": "วัดริมแม่น้ำเจ้าพระยาอันเป็นศูนย์รวมศรัทธาของสมเด็จพระพุฒาจารย์ (โต พรหมรังสี)",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-mahathat-yuwaratrangsarit",
+      "province": "bangkok",
+      "name_th": "วัดมหาธาตุยุวราชรังสฤษฎิ์",
+      "name_en": "Wat Mahathat Yuwaratrangsarit",
+      "district_th": "เขตพระนคร",
+      "description_th": "วัดมหาธาตุยุวราชรังสฤษฎิ์ เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7553,
+      "lng": 100.4912,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดมหาธาตุ",
+        "สถาบันวิปัสสนา",
+        "สนามหลวง"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดอารามหลวงติดสนามหลวงที่เป็นศูนย์กลางการศึกษาพระพุทธศาสนาและวิปัสสนา",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "sea-life-bangkok-ocean-world",
+      "province": "bangkok",
+      "name_th": "ซีไลฟ์ แบงคอก",
+      "name_en": "Sea Life Bangkok Ocean World",
+      "district_th": "เขตปทุมวัน",
+      "description_th": "ซีไลฟ์ แบงคอก เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7462,
+      "lng": 100.5348,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์สัตว์น้ำ",
+        "สยามพารากอน",
+        "อุโมงค์ใต้น้ำ"
+      ],
+      "moods": [
+        "adventure",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "พิพิธภัณฑ์สัตว์น้ำใต้ดินขนาดใหญ่ที่สุดในอุษาคเนย์กลางสยาม",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 5,
+        "food": 3,
+        "budget": 1
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:00-20:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 650,
+        "max": 650
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "museum-of-counterfeit-goods",
+      "province": "bangkok",
+      "name_th": "พิพิธภัณฑ์ของปลอม",
+      "name_en": "Museum of Counterfeit Goods",
+      "district_th": "เขตบางรัก",
+      "description_th": "พิพิธภัณฑ์ของปลอม เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7256,
+      "lng": 100.5289,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์แปลก",
+        "ของละเมิดลิขสิทธิ์",
+        "การเรียนรู้"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "พิพิธภัณฑ์รวบรวมสินค้าละเมิดลิขสิทธิ์และสินค้าปลอมเพื่อการเรียนรู้",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "siriraj-medical-museum",
+      "province": "bangkok",
+      "name_th": "พิพิธภัณฑ์การแพทย์ศิริราช",
+      "name_en": "Siriraj Medical Museum",
+      "district_th": "เขตบางกอกน้อย",
+      "description_th": "พิพิธภัณฑ์การแพทย์ศิริราช เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7592,
+      "lng": 100.4856,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์ศิริราช",
+        "นิติเวชศาสตร์",
+        "การแพทย์"
+      ],
+      "moods": [
+        "temple",
+        "adventure",
+        "quiet"
+      ],
+      "mood_reason": "แหล่งเรียนรู้ประวัติศาสตร์การแพทย์และนิติเวชศาสตร์ระดับโลก",
+      "stats": {
+        "chill": 2,
+        "adventure": 4,
+        "photo": 3,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 80,
+        "max": 80
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "bangkok-planetarium",
+      "province": "bangkok",
+      "name_th": "ศูนย์วิทยาศาสตร์เพื่อการศึกษา (ท้องฟ้าจำลอง)",
+      "name_en": "Bangkok Planetarium",
+      "district_th": "เขตคลองเตย",
+      "description_th": "ศูนย์วิทยาศาสตร์เพื่อการศึกษา (ท้องฟ้าจำลอง) เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7198,
+      "lng": 100.5823,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ท้องฟ้าจำลอง",
+        "ดูดาว",
+        "วิทยาศาสตร์"
+      ],
+      "moods": [
+        "photo",
+        "quiet",
+        "adventure"
+      ],
+      "mood_reason": "ศูนย์เรียนรู้วิทยาศาสตร์และโดมดูดาวฉายระบบดิจิทัลยอดนิยมริมถนนสุขุมวิท",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 50,
+        "max": 50
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "mr-kukrit-house",
+      "province": "bangkok",
+      "name_th": "บ้านซอยสวนพลู (บ้านหม่อมราชวงศ์คึกฤทธิ์)",
+      "name_en": "M.R. Kukrit's House",
+      "district_th": "เขตสาทร",
+      "description_th": "บ้านซอยสวนพลู (บ้านหม่อมราชวงศ์คึกฤทธิ์) เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7212,
+      "lng": 100.5345,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เรือนไทยโบราณ",
+        "บ้านคึกฤทธิ์",
+        "สาทร"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "กลุ่มเรือนไทยโบราณและสวนอันร่มรื่นใจกลางย่านธุรกิจสาทร",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 50,
+        "max": 50
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "suan-pakkad-palace",
+      "province": "bangkok",
+      "name_th": "วังสวนผักกาด",
+      "name_en": "Suan Pakkad Palace",
+      "district_th": "เขตราชเทวี",
+      "description_th": "วังสวนผักกาด เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7567,
+      "lng": 100.5372,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วังสวนผักกาด",
+        "เรือนไทยโบราณ",
+        "พญาไท"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "พิพิธภัณฑ์เรือนไทยโบราณประดับลายรดน้ำและโบราณวัตถุอันล้ำค่า",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 50,
+        "max": 50
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "chao-phraya-sky-park",
+      "province": "bangkok",
+      "name_th": "สวนลอยฟ้าเจ้าพระยา",
+      "name_en": "Chao Phraya Sky Park",
+      "district_th": "เขตคลองสาน",
+      "description_th": "สวนลอยฟ้าเจ้าพระยา เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7389,
+      "lng": 100.4989,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนลอยฟ้า",
+        "สะพานพระปกเกล้า",
+        "จุดชมวิวแม่น้ำ"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "สวนสาธารณะลอยฟ้าข้ามแม่น้ำเจ้าพระยาแห่งแรกที่แปลงมาจากโครงสร้างรถไฟฟ้าเดิม",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "05:00-20:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "saranrom-park",
+      "province": "bangkok",
+      "name_th": "สวนสราญรมย์",
+      "name_en": "Saranrom Park",
+      "district_th": "เขตพระนคร",
+      "description_th": "สวนสราญรมย์ เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7489,
+      "lng": 100.4956,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสราญรมย์",
+        "พระบรมมหาราชวัง",
+        "สวนสาธารณะโบราณ"
+      ],
+      "moods": [
+        "mountain",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "สวนสาธารณะโบราณสมัยรัชกาลที่ 5 ร่มรื่นด้วยพรรณไม้และสถาปัตยกรรมคลาสสิก",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "05:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "chulalongkorn-university-centenary-park",
+      "province": "bangkok",
+      "name_th": "อุทยาน 100 ปี จุฬาลงกรณ์มหาวิทยาลัย",
+      "name_en": "Chulalongkorn University Centenary Park",
+      "district_th": "เขตปทุมวัน",
+      "description_th": "อุทยาน 100 ปี จุฬาลงกรณ์มหาวิทยาลัย เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7389,
+      "lng": 100.5234,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "อุทยาน 100 ปีจุฬา",
+        "สวนกลางเมือง",
+        "บรรทัดทอง"
+      ],
+      "moods": [
+        "mountain",
+        "photo",
+        "chill"
+      ],
+      "mood_reason": "สวนสาธารณะเพื่อหน่วงน้ำและพื้นที่เขียวขจีใจกลางเมืองใกล้ย่านอาหารบรรทัดทอง",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "05:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "chatuchak-flower-market",
+      "province": "bangkok",
+      "name_th": "ตลาดนัดต้นไม้จตุจักร",
+      "name_en": "Chatuchak Plants Market",
+      "district_th": "เขตจตุจักร",
+      "description_th": "ตลาดนัดต้นไม้จตุจักร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.8012,
+      "lng": 100.5512,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดนัดต้นไม้",
+        "ไม้ดอกไม้ประดับ",
+        "จตุจักรกลางสัปดาห์"
+      ],
+      "moods": [
+        "photo",
+        "quiet",
+        "food"
+      ],
+      "mood_reason": "ตลาดนัดไม้ดอกไม้ประดับยอดนิยมที่มีจัดเฉพาะวันอังคาร-พฤหัสบดี",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "liab-dwan-night-market",
+      "province": "bangkok",
+      "name_th": "ตลาดนัดเลียบด่วนรามอินทรา",
+      "name_en": "Liab Dwan Night Market",
+      "district_th": "เขตบางเขน",
+      "description_th": "ตลาดนัดเลียบด่วนรามอินทรา เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.8512,
+      "lng": 100.6312,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดนัดเลียบด่วน",
+        "สตรีทฟู้ด",
+        "ช้อปปิ้งกลางคืน"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "ตลาดนัดกลางคืนขนาดใหญ่แหล่งรวมของกินราคาประหยัดและเสื้อผ้าแฟชั่น",
+      "stats": {
+        "chill": 3,
+        "adventure": 3,
+        "photo": 4,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "17:00-02:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "jodd-fairs-dan-neramit",
+      "province": "bangkok",
+      "name_th": "จ๊อดแฟร์ แดนเนรมิต",
+      "name_en": "Jodd Fairs Dan Neramit",
+      "district_th": "เขตจตุจักร",
+      "description_th": "จ๊อดแฟร์ แดนเนรมิต เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.8189,
+      "lng": 100.5612,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "จ๊อดแฟร์",
+        "ปราสาทแดนเนรมิต",
+        "สตรีทฟู้ด"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "ตลาดนัดกลางคืนแลนด์มาร์กพร้อมปราสาทเทพนิยายโบราณมุมถ่ายรูปเพียบ",
+      "stats": {
+        "chill": 3,
+        "adventure": 3,
+        "photo": 5,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "16:00-24:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "indylight-night-market-dao-khanong",
+      "province": "bangkok",
+      "name_th": "ตลาดอินดี้ ดาวขนอง",
+      "name_en": "Indy Market Dao Khanong",
+      "district_th": "เขตธนบุรี",
+      "description_th": "ตลาดอินดี้ ดาวขนอง เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.6989,
+      "lng": 100.4889,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดอินดี้",
+        "ฝั่งธน",
+        "สตรีทฟู้ดดาดฟ้า"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "ตลาดนัดสุดชิคฝั่งธนบุรีรวมร้านอาหารอร่อยและดนตรีสดบรรยากาศดี",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 4,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "18:00-24:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ong-ang-canal",
+      "province": "bangkok",
+      "name_th": "คลองโอ่งอ่าง",
+      "name_en": "Khlong Ong Ang Walking Street",
+      "district_th": "เขตพระนคร",
+      "description_th": "คลองโอ่งอ่าง เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7445,
+      "lng": 100.5056,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "คลองโอ่งอ่าง",
+        "สตรีทอาร์ต",
+        "ถนนคนเดินริมคลอง"
+      ],
+      "moods": [
+        "beach",
+        "food",
+        "photo"
+      ],
+      "mood_reason": "ถนนคนเดินริมคลองปรับปรุงใหม่ตกแต่งด้วยสตรีทอาร์ตและพายเรือคายัคฟรี",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 5,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "16:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-silapin-artist-house",
+      "province": "bangkok",
+      "name_th": "บ้านศิลปิน คลองบางหลวง",
+      "name_en": "Artist House Khlong Bang Luang",
+      "district_th": "เขตภาษีเจริญ",
+      "description_th": "บ้านศิลปิน คลองบางหลวง เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7312,
+      "lng": 100.4612,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "บ้านศิลปิน",
+        "คลองบางหลวง",
+        "หุ่นละครเล็ก"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "บ้านไม้โบราณริมคลองบางหลวงเปิดชมการแสดงหุ่นละครเล็กและงานศิลปะฟรี",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "phra-sumen-fort",
+      "province": "bangkok",
+      "name_th": "ป้อมพระสุเมรุ",
+      "name_en": "Phra Sumen Fort",
+      "district_th": "เขตพระนคร",
+      "description_th": "ป้อมพระสุเมรุ เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7623,
+      "lng": 100.4956,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ป้อมพระสุเมรุ",
+        "สวนสันติชัยปราการ",
+        "ริมแม่น้ำเจ้าพระยา"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ป้อมปราการโบราณทรงแปดเหลี่ยมสีขาวสะอาดตาตั้งอยู่อย่างสง่างามริมแม่น้ำ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "phra-kanchanaphisek-bridge",
+      "province": "bangkok",
+      "name_th": "สะพานพระราม 8",
+      "name_en": "Rama VIII Bridge",
+      "district_th": "เขตบางพลัด",
+      "description_th": "สะพานพระราม 8 เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7689,
+      "lng": 100.4958,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สะพานพระราม 8",
+        "วิวแม่น้ำเจ้าพระยา",
+        "จุดถ่ายรูป"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "สะพานขึงข้ามแม่น้ำเจ้าพระยาที่มีสถาปัตยกรรมโดดเด่นและเป็นจุดชมวิวพระอาทิตย์ตก",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-kalayanamitr-pier",
+      "province": "bangkok",
+      "name_th": "ท่าเรือวัดกัลยาณมิตร",
+      "name_en": "Wat Kalayanamitr Pier",
+      "district_th": "เขตธนบุรี",
+      "description_th": "ท่าเรือวัดกัลยาณมิตร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7398,
+      "lng": 100.4912,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ท่าเรือริมน้ำ",
+        "ชมวิวจักรวรรดิ",
+        "ฝั่งธนบุรี"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "จุดชมทัศนียภาพแม่น้ำเจ้าพระยาฝั่งธนบุรีที่สามารถมองเห็นโบสถ์ซางตาครู้ส",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-19:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "samsen-street-food",
+      "province": "bangkok",
+      "name_th": "ถนนสามเสน",
+      "name_en": "Samsen Road Street Food",
+      "district_th": "เขตพระนคร",
+      "description_th": "ถนนสามเสน เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7689,
+      "lng": 100.5012,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สตรีทฟู้ดสามเสน",
+        "ร้านอาหารเก่าแก่",
+        "ย่านโบราณ"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ถนนสายประวัติศาสตร์ที่เต็มไปด้วยร้านอาหารเก่าแก่และคาเฟ่ลับๆ",
+      "stats": {
+        "chill": 3,
+        "adventure": 2,
+        "photo": 4,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-mo-market",
+      "province": "bangkok",
+      "name_th": "บ้านหม้อ",
+      "name_en": "Ban Mo Market",
+      "district_th": "เขตพระนคร",
+      "description_th": "บ้านหม้อ เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7456,
+      "lng": 100.4989,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ย่านบ้านหม้อ",
+        "อุปกรณ์อิเล็กทรอนิกส์",
+        "อะไหล่"
+      ],
+      "moods": [
+        "food",
+        "quiet",
+        "adventure"
+      ],
+      "mood_reason": "ย่านการค้าโบราณที่ปัจจุบันเป็นแหล่งรวมอุปกรณ์อิเล็กทรอนิกส์และเพชรพลอย",
+      "stats": {
+        "chill": 3,
+        "adventure": 2,
+        "photo": 3,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "phahurat-market",
+      "province": "bangkok",
+      "name_th": "พาหุรัด (ลิตเติ้ลอินเดีย)",
+      "name_en": "Phahurat Market (Little India)",
+      "district_th": "เขตพระนคร",
+      "description_th": "พาหุรัด (ลิตเติ้ลอินเดีย) เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7445,
+      "lng": 100.5012,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พาหุรัด",
+        "ลิตเติ้ลอินเดีย",
+        "ผ้านานาชนิด"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "temple"
+      ],
+      "mood_reason": "ศูนย์รวมจำหน่ายผ้าผืน อาหารอินเดียแท้ และสิกขสภาอันงดงาม",
+      "stats": {
+        "chill": 3,
+        "adventure": 3,
+        "photo": 5,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "sampheng-market",
+      "province": "bangkok",
+      "name_th": "ตลาดสำเพ็ง",
+      "name_en": "Sampheng Market",
+      "district_th": "เขตสัมพันธวงศ์",
+      "description_th": "ตลาดสำเพ็ง เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7423,
+      "lng": 100.5067,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สำเพ็ง",
+        "ตลาดขายส่ง",
+        "สินค้าราคาถูก"
+      ],
+      "moods": [
+        "food",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "ตลาดขายส่งที่ใหญ่ที่สุดแห่งหนึ่งในกรุงเทพฯ ครึกครื้นด้วยสินค้านานาชนิด",
+      "stats": {
+        "chill": 2,
+        "adventure": 4,
+        "photo": 4,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "woeng-nakhon-khasem",
+      "province": "bangkok",
+      "name_th": "เวิ้งนาครเขษม",
+      "name_en": "Woeng Nakhon Khasem",
+      "district_th": "เขตสัมพันธวงศ์",
+      "description_th": "เวิ้งนาครเขษม เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7445,
+      "lng": 100.5034,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เวิ้งนาครเขษม",
+        "ย่านเครื่องดนตรี",
+        "ประวัติศาสตร์เยาวราช"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ย่านการค้าประวัติศาสตร์ย่านเยาวราชที่มีสถาปัตยกรรมตึกแถวโบราณทรงคุณค่า",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pratunam-market",
+      "province": "bangkok",
+      "name_th": "ตลาดประตูน้ำ",
+      "name_en": "Pratunam Market",
+      "district_th": "เขตราชเทวี",
+      "description_th": "ตลาดประตูน้ำ เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7512,
+      "lng": 100.5412,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ประตูน้ำ",
+        "เสื้อผ้าแฟชั่น",
+        "ตลาดขายส่งเสื้อผ้า"
+      ],
+      "moods": [
+        "food",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "ย่านขายส่งเสื้อผ้าแฟชั่นที่ใหญ่ที่สุดในประเทศไทยใจกลางเมือง",
+      "stats": {
+        "chill": 2,
+        "adventure": 3,
+        "photo": 4,
+        "food": 4,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "05:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "patpong-night-market",
+      "province": "bangkok",
+      "name_th": "ตลาดนัดพัฒน์พงศ์",
+      "name_en": "Patpong Night Market",
+      "district_th": "เขตบางรัก",
+      "description_th": "ตลาดนัดพัฒน์พงศ์ เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7289,
+      "lng": 100.5312,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พัฒน์พงศ์",
+        "ตลาดไนท์บาร์ซาร์",
+        "ไนท์ไลฟ์"
+      ],
+      "moods": [
+        "food",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "ตลาดนัดยามค่ำคืนใจกลางสีลมรวมของที่ระลึกและไนท์ไลฟ์หลากสไตล์",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 4,
+        "food": 4,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "18:00-01:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-arun-pier",
+      "province": "bangkok",
+      "name_th": "ท่าเรือวัดอรุณ",
+      "name_en": "Wat Arun Pier",
+      "district_th": "เขตบางกอกใหญ่",
+      "description_th": "ท่าเรือวัดอรุณ เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7432,
+      "lng": 100.4889,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ท่าเรือวัดอรุณ",
+        "ข้ามฝากเจ้าพระยา",
+        "วิวพระปรางค์"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "temple"
+      ],
+      "mood_reason": "ท่าเรือข้ามฝากยอดนิยมที่มีทัศนียภาพขององค์พระปรางค์วัดอรุณตระการตา",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-20:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 5,
+        "max": 5
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khlong-san-market",
+      "province": "bangkok",
+      "name_th": "คลองสานพลาซ่า",
+      "name_en": "Khlong San Plaza",
+      "district_th": "เขตคลองสาน",
+      "description_th": "คลองสานพลาซ่า เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7312,
+      "lng": 100.5112,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "คลองสาน",
+        "สตรีทฟู้ดฝั่งธน",
+        "ตลาดใกล้วงเวียนใหญ่"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ย่านการค้าและตลาดสตรีทฟู้ดใกล้วงเวียนใหญ่เต็มไปด้วยของกินอร่อย",
+      "stats": {
+        "chill": 3,
+        "adventure": 2,
+        "photo": 3,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-20:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-bat-community",
+      "province": "bangkok",
+      "name_th": "ชุมชนบ้านบาตร",
+      "name_en": "Ban Bat Community",
+      "district_th": "เขตป้อมปราบศัตรูพ่าย",
+      "description_th": "ชุมชนบ้านบาตร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7512,
+      "lng": 100.5045,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "บ้านบาตร",
+        "ทำบาตรพระ hand-made",
+        "ชุมชนโบราณ"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ชุมชนทำบาตรพระด้วยมือแบบดั้งเดิมแห่งสุดท้ายในกรุงเทพมหานคร",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-tri-thotsathep",
+      "province": "bangkok",
+      "name_th": "วัดตรีทศเทพวรวิหาร",
+      "name_en": "Wat Tri Thotsathep",
+      "district_th": "เขตพระนคร",
+      "description_th": "วัดตรีทศเทพวรวิหาร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7612,
+      "lng": 100.5034,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดตรีทศเทพ",
+        "ภาพจิตรกรรมฝาผนัง",
+        "ช่างกิตติ์"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดอารามหลวงที่มีภาพจิตรกรรมฝาผนังอันวิจิตรอลังการโดยจักรพันธุ์ โปษยกฤต",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-chong-nonsi",
+      "province": "bangkok",
+      "name_th": "วัดช่องลม (วัดช่องนนทรี)",
+      "name_en": "Wat Chong Nonsi",
+      "district_th": "เขตยานนาวา",
+      "description_th": "วัดช่องลม (วัดช่องนนทรี) เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7012,
+      "lng": 100.5412,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดช่องนนทรี",
+        "โบสถ์โบราณ",
+        "ริมแม่น้ำ"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดอยุธยาตอนปลายริมแม่น้ำเจ้าพระยาประดิษฐานภาพจิตรกรรมฝาผนังทรงคุณค่า",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-hong-rattanaram",
+      "province": "bangkok",
+      "name_th": "วัดหงส์รัตนารามราชวรมหาวิหาร",
+      "name_en": "Wat Hong Rattanaram",
+      "district_th": "เขตบางกอกใหญ่",
+      "description_th": "วัดหงส์รัตนารามราชวรมหาวิหาร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7389,
+      "lng": 100.4856,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดหงส์",
+        "สระน้ำมนต์ศักดิ์สิทธิ์",
+        "สมเด็จพระเจ้าตากสิน"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดโบราณสมัยอยุธยามีสระน้ำมนต์ศักดิ์สิทธิ์และพระพุทธรูปทองคำนพคุณ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-kanmatuyaram",
+      "province": "bangkok",
+      "name_th": "วัดกันมาตุยาราม",
+      "name_en": "Wat Kanmatuyaram",
+      "district_th": "เขตสัมพันธวงศ์",
+      "description_th": "วัดกันมาตุยาราม เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7423,
+      "lng": 100.5089,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดกันมาตุยาราม",
+        "วัดจีนเยาวราช",
+        "เจดีย์ทรงระฆัง"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดกึ่งไทยกึ่งจีนสร้างโดยคุณแม่กลีบ ซ่อนอยู่ในตรอกย่านเยาวราช",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "bangkok-city-library",
+      "province": "bangkok",
+      "name_th": "หอสมุดเมืองกรุงเทพมหานคร",
+      "name_en": "Bangkok City Library",
+      "district_th": "เขตพระนคร",
+      "description_th": "หอสมุดเมืองกรุงเทพมหานคร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7567,
+      "lng": 100.4989,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หอสมุดเมือง",
+        "อ่านหนังสือคลาสสิก",
+        "คอกสัว"
+      ],
+      "moods": [
+        "quiet",
+        "photo",
+        "temple"
+      ],
+      "mood_reason": "หอสมุดสาธารณะอาคารสถาปัตยกรรมนีโอคลาสสิกสวยงามใกล้อนุสาวรีย์ประชาธิปไตย",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "neilson-hays-library",
+      "province": "bangkok",
+      "name_th": "ห้องสมุดเนิลสัน เฮส์",
+      "name_en": "Neilson Hays Library",
+      "district_th": "เขตบางรัก",
+      "description_th": "ห้องสมุดเนิลสัน เฮส์ เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7267,
+      "lng": 100.5234,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ห้องสมุดนีโอคลาสสิก",
+        "ห้องสมุดภาษาอังกฤษ",
+        "สุรวงศ์"
+      ],
+      "moods": [
+        "quiet",
+        "photo",
+        "temple"
+      ],
+      "mood_reason": "ห้องสมุดสถาปัตยกรรมตะวันตกนีโอคลาสสิกอายุเก่าแก่กว่าร้อยปีบนถนนสุรวงศ์",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:30-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "suan-luang-sqaure",
+      "province": "bangkok",
+      "name_th": "สวนหลวงสแควร์",
+      "name_en": "Suan Luang Square",
+      "district_th": "เขตปทุมวัน",
+      "description_th": "สวนหลวงสแควร์ เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7412,
+      "lng": 100.5234,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนหลวงสแควร์",
+        "สามย่าน",
+        "ของกินสามย่าน"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "คอมมูนิตี้มอลล์ย่านสามย่านแหล่งรวมร้านอาหารชื่อดังและคาเฟ่นั่งชิล",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "marn-ya-market",
+      "province": "bangkok",
+      "name_th": "ตลาดนัดมารวย",
+      "name_en": "Maruay Market",
+      "district_th": "เขตสายไหม",
+      "description_th": "ตลาดนัดมารวย เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.9123,
+      "lng": 100.6412,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดมารวย",
+        "สายไหม",
+        "ตลาดสดน่าเดิน"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ตลาดสดและตลาดสตรีทฟู้ดขนาดใหญ่ในย่านสายไหมสะอาดและของกินเยอะมาก",
+      "stats": {
+        "chill": 3,
+        "adventure": 2,
+        "photo": 3,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-inntharawihan",
+      "province": "bangkok",
+      "name_th": "วัดอินทรวิหาร",
+      "name_en": "Wat Intharawihan",
+      "district_th": "เขตพระนคร",
+      "description_th": "วัดอินทรวิหาร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7667,
+      "lng": 100.5012,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดอินทรวิหาร",
+        "หลวงพ่อโตยืน",
+        "บางขุนพรหม"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "วัดที่มีหลวงพ่อโต พระพุทธรูปประทับยืนองค์ใหญ่สูง 32 เมตรโดดเด่น",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-chao-am",
+      "province": "bangkok",
+      "name_th": "วัดเจ้าอาม",
+      "name_en": "Wat Chao Am",
+      "district_th": "เขตบางกอกน้อย",
+      "description_th": "วัดเจ้าอาม เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7654,
+      "lng": 100.4689,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดเจ้าอาม",
+        "พระเครื่องหลวงพ่อโต",
+        "วัดเก่าแก่บางขุนนนท์"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดเก่าแก่ย่านบางขุนนนท์สร้างขึ้นในสมัยสมเด็จพระเจ้าตากสินมหาราช",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pipit-banglamphu",
+      "province": "bangkok",
+      "name_th": "พิพิธบางลำพู",
+      "name_en": "Pipit Banglamphu Museum",
+      "district_th": "เขตพระนคร",
+      "description_th": "พิพิธบางลำพู เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7612,
+      "lng": 100.4958,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธบางลำพู",
+        "วิถีชีวิตบางลำพู",
+        "โรงงานกษาปณ์เดิม"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "พิพิธภัณฑ์เรียนรู้วิถีชีวิตชาวบางลำพูและประวัติศาสตร์ชุมชนริมแม่น้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 30,
+        "max": 30
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "thong-lo-street-food",
+      "province": "bangkok",
+      "name_th": "ถนนทองหล่อ (สุขุมวิท 55)",
+      "name_en": "Thong Lo Street Food & Nightlife",
+      "district_th": "เขตวัฒนา",
+      "description_th": "ถนนทองหล่อ (สุขุมวิท 55) เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7312,
+      "lng": 100.5812,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ทองหล่อ",
+        "คาเฟ่สุดชิค",
+        "บาร์และร้านอาหาร"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "ย่านสุดฮิปศูนย์รวมร้านอาหารระดับพรีเมียม คาเฟ่เก๋ๆ และสถานที่แฮงเอาท์ยามค่ำคืน",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 5,
+        "food": 5,
+        "budget": 2
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ekkamai-shopping-district",
+      "province": "bangkok",
+      "name_th": "ย่านเอกมัย (สุขุมวิท 63)",
+      "name_en": "Ekkamai District",
+      "district_th": "เขตวัฒนา",
+      "description_th": "ย่านเอกมัย (สุขุมวิท 63) เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7289,
+      "lng": 100.5856,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เอกมัย",
+        "คาเฟ่มินิมอล",
+        "ร้านค้าวินเทจ"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ย่านไลฟ์สไตล์คู่ขนานทองหล่อ โดดเด่นด้วยคาเฟ่บรรยากาศอบอุ่นและร้านสินค้าวินเทจ",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 5,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-kham-whan",
+      "province": "bangkok",
+      "name_th": "บ้านขนมหวานไทย ชมรมขนมหวานโบราณ",
+      "name_en": "Thai Dessert Community Ban Mo",
+      "district_th": "เขตพระนคร",
+      "description_th": "บ้านขนมหวานไทย ชมรมขนมหวานโบราณ เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7467,
+      "lng": 100.4989,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ขนมไทยโบราณ",
+        "บ้านหม้อ",
+        "สูตรวังหลวง"
+      ],
+      "moods": [
+        "food",
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "แหล่งเรียนรู้และชิมขนมหวานไทยสูตรโบราณดั้งเดิมย่านบ้านหม้อ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "siam-square-walking-street",
+      "province": "bangkok",
+      "name_th": "สยามสแควร์ วอล์คกิ้งสตรีท",
+      "name_en": "Siam Square Walking Street",
+      "district_th": "เขตปทุมวัน",
+      "description_th": "สยามสแควร์ วอล์คกิ้งสตรีท เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7445,
+      "lng": 100.5312,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สยามสแควร์",
+        "ถนนคนเดินสยาม",
+        "ดนตรีเปิดหมวก"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "ถนนคนเดินใจกลางสยามสแควร์รวมวัยรุ่น กิจกรรมสตรีทรีเพอร์ฟอร์มแมนซ์ และแฟชั่น",
+      "stats": {
+        "chill": 3,
+        "adventure": 3,
+        "photo": 5,
+        "food": 4,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "11:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khlong-saen-saep-boat-ride",
+      "province": "bangkok",
+      "name_th": "เรือโดยสารคลองแสนแสบ",
+      "name_en": "Khlong Saen Saep Express Boat",
+      "district_th": "เขตราชเทวี",
+      "description_th": "เรือโดยสารคลองแสนแสบ เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7489,
+      "lng": 100.5389,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เรือคลองแสนแสบ",
+        "สัมผัสวิถีชีวิตกรุง",
+        "เดินทางสายน้ำ"
+      ],
+      "moods": [
+        "adventure",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "เส้นทางเดินทางสายน้ำผ่าใจกลางกรุงเทพฯ สัมผัสวิถีชีวิตคนเมืองอย่างรวดเร็ว",
+      "stats": {
+        "chill": 2,
+        "adventure": 4,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "05:30-20:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 12,
+        "max": 12
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "san-chao-phor-suea",
+      "province": "bangkok",
+      "name_th": "ศาลเจ้าพ่อเสือ",
+      "name_en": "San Chao Phor Suea (Tiger God Shrine)",
+      "district_th": "เขตพระนคร",
+      "description_th": "ศาลเจ้าพ่อเสือ เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7542,
+      "lng": 100.4981,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ศาลเจ้าพ่อเสือ",
+        "เสาชิงช้า",
+        "แก้ชงไหว้เจ้า"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ศาลเจ้าจีนสายสากลโบราณย่านเสาชิงช้าที่มีชื่อเสียงเรื่องการขอพรแก้ชงและโชคลาภ",
+      "stats": {
+        "chill": 3,
+        "adventure": 2,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-mahan-naram",
+      "province": "bangkok",
+      "name_th": "วัดมหรรณพารามวรวิหาร",
+      "name_en": "Wat Mahannapharam",
+      "district_th": "เขตพระนคร",
+      "description_th": "วัดมหรรณพารามวรวิหาร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7548,
+      "lng": 100.4998,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดมหรรณพ์",
+        "เสาชิงช้า",
+        "วัดอารามหลวง"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดอารามหลวงใกล้ศาลเจ้าพ่อเสือขึ้นชื่อเรื่องความเงียบสงบและจิตรกรรมงดงาม",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-makut-kasatriyaram",
+      "province": "bangkok",
+      "name_th": "วัดมกุฏกษัตริยารามราชวรวิหาร",
+      "name_en": "Wat Makut Kasatriyaram",
+      "district_th": "เขตพระนคร",
+      "description_th": "วัดมกุฏกษัตริยารามราชวรวิหาร เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7634,
+      "lng": 100.5056,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดมกุฏ",
+        "ริมคลองผดุงกรุงเกษม",
+        "พระนคร"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดอารามหลวงริมคลองผดุงกรุงเกษมบรรยากาศสงบร่มรื่นและสถาปัตยกรรมเปี่ยมคุณค่า",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "kamthieng-house-museum",
+      "province": "bangkok",
+      "name_th": "เรือนคำเที่ยง (สยามสมาคม)",
+      "name_en": "Kamthieng House Museum",
+      "district_th": "เขตวัฒนา",
+      "description_th": "เรือนคำเที่ยง (สยามสมาคม) เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7367,
+      "lng": 100.5612,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เรือนคำเที่ยง",
+        "สยามสมาคม",
+        "เรือนไทยล้านนา"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "เรือนไทยกาแลแบบล้านนาโบราณตั้งอยู่ท่ามกลางตึกสูงใจกลางย่านอโศก",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 100,
+        "max": 100
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-kudichin-museum",
+      "province": "bangkok",
+      "name_th": "พิพิธภัณฑ์บ้านกุฎีจีน",
+      "name_en": "Ban Kudichin Museum",
+      "district_th": "เขตธนบุรี",
+      "description_th": "พิพิธภัณฑ์บ้านกุฎีจีน เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7378,
+      "lng": 100.4945,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "บ้านกุฎีจีน",
+        "ขนมฝรั่งกุฎีจีน",
+        "ประวัติศาสตร์โปรตุเกส"
+      ],
+      "moods": [
+        "temple",
+        "food",
+        "photo"
+      ],
+      "mood_reason": "พิพิธภัณฑ์ชุมชนไทย-โปรตุเกสพร้อมคาเฟ่เสิร์ฟขนมฝรั่งกุฎีจีนสูตรโบราณ",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 5,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:30-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-prayoon-khao-mo",
+      "province": "bangkok",
+      "name_th": "เขามอ วัดประยุรวงศาวาส",
+      "name_en": "Khao Mo Wat Prayoon",
+      "district_th": "เขตธนบุรี",
+      "description_th": "เขามอ วัดประยุรวงศาวาส เป็นสถานที่ท่องเที่ยวสำคัญในกรุงเทพมหานครที่นักท่องเที่ยวควรมาเยือน",
+      "lat": 13.7371,
+      "lng": 100.4962,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เขามอ",
+        "ให้อาหารเต่า",
+        "วัดประยูร"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ภูเขาจำลองกลางสระน้ำใหญ่โบราณที่ร่มรื่นและเป็นถิ่นอาศัยของเต่าและตะพาบจำนวนมาก",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "เดินทางสะดวกด้วยรถไฟฟ้าหรือระบบขนส่งสาธารณะใกล้เคียง",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://www.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "jay-fai",
+      "province": "bangkok",
+      "name_th": "เจ๊ไฝ",
+      "name_en": "Jay Fai",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes_th": [
+        "ไข่ยเจียวปู",
+        "ราดหน้าซีฟู้ด"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "เขตพระนคร",
+      "lat": 13.7525,
+      "lng": 100.5048,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารสตรีทฟู้ดระดับมิชลิน 1 ดาวชื่อดังโลกริมถนนมหาไชย",
+      "price_per_person_thb": {
+        "min": 600,
+        "max": 1200
+      },
+      "opening_hours": "09:00-21:00",
+      "closed_days": "วันอาทิตย์-จันทร์",
+      "awards": [
+        "Michelin Star 2026"
+      ],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 850,
+        "source": "https://guide.michelin.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.facebook.com/jayfaibangkok",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://guide.michelin.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "thipsamai-pad-thai",
+      "province": "bangkok",
+      "name_th": "ทิพย์สมัย ผัดไทยประตูผี",
+      "name_en": "Thipsamai Pad Thai",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "ผัดไทย"
+      ],
+      "signature_dishes_th": [
+        "ผัดไทยมันกุ้งห่อไข่",
+        "น้ำส้มคั้นสด"
+      ],
+      "meals": [
+        "dinner",
+        "snack"
+      ],
+      "area_th": "เขตพระนคร",
+      "lat": 13.7528,
+      "lng": 100.5049,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านผัดไทยในตำนานริมถนนมหาไชยที่มีชื่อเสียงยาวนานกว่า 80 ปี",
+      "price_per_person_thb": {
+        "min": 75,
+        "max": 150
+      },
+      "opening_hours": "16:00-24:00",
+      "closed_days": null,
+      "awards": [
+        "Bib Gourmand 2026"
+      ],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 1200,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://thipsamai.com",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "somboon-seafood-ban-thad-thong",
+      "province": "bangkok",
+      "name_th": "สมบูรณ์โภชนา บรรทัดทอง",
+      "name_en": "Somboon Seafood Ban Thad Thong",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "จีน-ไทย"
+      ],
+      "signature_dishes_th": [
+        "ปูผัดผงกะหรี่",
+        "ต้มยำกุ้ง"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "เขตปทุมวัน",
+      "lat": 13.7389,
+      "lng": 100.5234,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ต้นตำรับปูผัดผงกะหรี่อันลือชื่อขวัญใจนักท่องเที่ยวทั่วโลก",
+      "price_per_person_thb": {
+        "min": 300,
+        "max": 600
+      },
+      "opening_hours": "11:00-21:30",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice 2026"
+      ],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 950,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.somboonseafood.com",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "here-hai",
+      "province": "bangkok",
+      "name_th": "เฮียให้ ข้าวผัดโคตรปู",
+      "name_en": "Here Hai",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "ข้าวผัดปูแกะ",
+        "กั้งผัดพริกสด"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "เขตวัฒนา",
+      "lat": 13.7289,
+      "lng": 100.5834,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านข้าวผัดปูแน่นๆ ระดับ Bib Gourmand ย่านเอกมัย",
+      "price_per_person_thb": {
+        "min": 225,
+        "max": 450
+      },
+      "opening_hours": "10:00-18:00",
+      "closed_days": "วันจันทร์",
+      "awards": [
+        "Michelin Bib Gourmand 2026"
+      ],
+      "rating": {
+        "score": 4.7,
+        "out_of": 5,
+        "count": 680,
+        "source": "https://guide.michelin.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.facebook.com/herehaibar",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://guide.michelin.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "jeh-o-chula",
+      "province": "bangkok",
+      "name_th": "เจ๊โอว ข้าวต้มต้มยำมาม่า",
+      "name_en": "Jeh O Chula",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ไทย",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes_th": [
+        "มาม่าโอวหน้าหนองคาย",
+        "คอหมูกรอบ"
+      ],
+      "meals": [
+        "dinner",
+        "snack"
+      ],
+      "area_th": "เขตปทุมวัน",
+      "lat": 13.7412,
+      "lng": 100.5212,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านต้มยำมาม่าหน้าแน่นในตำนานย่านจุฬาฯ ที่คนต่อคิวแน่นทุกคืน",
+      "price_per_person_thb": {
+        "min": 125,
+        "max": 250
+      },
+      "opening_hours": "16:30-24:00",
+      "closed_days": null,
+      "awards": [
+        "Michelin Bib Gourmand 2026"
+      ],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 1500,
+        "source": "https://guide.michelin.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.facebook.com/RanCheOu",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://guide.michelin.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wattana-panich",
+      "province": "bangkok",
+      "name_th": "วัฒนาพานิช ก๋วยเตี๋ยวเนื้อ",
+      "name_en": "Wattana Panich",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ไทย-จีน",
+        "ก๋วยเตี๋ยวเนื้อ"
+      ],
+      "signature_dishes_th": [
+        "เกาเหลาเนื้อตุ๋น",
+        "ก๋วยเตี๋ยวเนื้อรวม"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "เขตวัฒนา",
+      "lat": 13.7345,
+      "lng": 100.5845,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านเนื้อตุ๋นน้ำซุปเคี่ยวข้ามปีอันเป็นเอกลักษณ์ย่านเอกมัย",
+      "price_per_person_thb": {
+        "min": 75,
+        "max": 150
+      },
+      "opening_hours": "09:00-19:30",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice 2026"
+      ],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 520,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [
+        "halal"
+      ],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.facebook.com/wattanapanich",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "mont-nomsod-sao-chingcha",
+      "province": "bangkok",
+      "name_th": "มนต์ นมสด เสาชิงช้า",
+      "name_en": "Mont Nomsod Sao Chingcha",
+      "kind": "bakery",
+      "cuisine_th": [
+        "เบเกอรี่",
+        "เครื่องดื่ม"
+      ],
+      "signature_dishes_th": [
+        "ขนมปังสังขยาใบเตย",
+        "นมสดเย็น"
+      ],
+      "meals": [
+        "snack",
+        "dinner"
+      ],
+      "area_th": "เขตพระนคร",
+      "lat": 13.7542,
+      "lng": 100.4998,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านขนมปังปิ้งและนมสดโบราณชื่อดังตรงข้ามศาลาว่าการกรุงเทพฯ",
+      "price_per_person_thb": {
+        "min": 40,
+        "max": 80
+      },
+      "opening_hours": "13:00-22:00",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice 2026"
+      ],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 2100,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.mont-nomsod.com",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "guay-jub-wang-lang",
+      "province": "bangkok",
+      "name_th": "ศิริราช โภชนา (ก๋วยจั๊บวังหลัง)",
+      "name_en": "Guay Jub Wang Lang",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ไทย-จีน",
+        "ก๋วยจั๊บ"
+      ],
+      "signature_dishes_th": [
+        "ก๋วยจั๊บน้ำใสหมูกรอบ",
+        "หมูกรอบทอดน้ำปลา"
+      ],
+      "meals": [
+        "breakfast",
+        "lunch"
+      ],
+      "area_th": "เขตบางกอกน้อย",
+      "lat": 13.7567,
+      "lng": 100.4856,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านก๋วยจั๊บน้ำใสหมูกรอบสุดเด็ดในตลาดวังหลังรสชาติพริกไทยเข้มข้น",
+      "price_per_person_thb": {
+        "min": 35,
+        "max": 70
+      },
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 340,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "rongros",
+      "province": "bangkok",
+      "name_th": "โรงรส (Rongros)",
+      "name_en": "Rongros",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทยใต้",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "แตงโมหน้าปลาแห้ง",
+        "แกงเขียวหวานเนื้อ"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "เขตพระนคร",
+      "lat": 13.7445,
+      "lng": 100.4912,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารไทยริมแม่น้ำเจ้าพระยาชมวิวพระปรางค์วัดอรุณตระการตา",
+      "price_per_person_thb": {
+        "min": 250,
+        "max": 500
+      },
+      "opening_hours": "11:00-22:00",
+      "closed_days": null,
+      "awards": [
+        "Michelin Selected 2026"
+      ],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 290,
+        "source": "https://guide.michelin.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "website": "https://www.facebook.com/rongrosbkk",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://guide.michelin.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "talat-noi-tea-house",
+      "province": "bangkok",
+      "name_th": "โรงชา ตลาดน้อย",
+      "name_en": "Talat Noi Tea House",
+      "kind": "cafe",
+      "cuisine_th": [
+        "คาเฟ่",
+        "ชา"
+      ],
+      "signature_dishes_th": [
+        "ชาจีนชงสด",
+        "กุยช่ายทอดทรงเครื่อง"
+      ],
+      "meals": [
+        "breakfast",
+        "snack"
+      ],
+      "area_th": "เขตสัมพันธวงศ์",
+      "lat": 13.7356,
+      "lng": 100.5123,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงชาและคาเฟ่โบราณในบ้านจีนโบราณย่านตลาดน้อยบรรยากาศคลาสสิก",
+      "price_per_person_thb": {
+        "min": 60,
+        "max": 120
+      },
+      "opening_hours": "09:00-18:00",
+      "closed_days": "วันจันทร์",
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 180,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "website": "https://www.facebook.com/talatnoitea",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "stays": [
+    {
+      "id": "mandarin-oriental-bangkok",
+      "province": "bangkok",
+      "name_th": "โรงแรมแมนดาริน โอเรียนเต็ล กรุงเทพฯ",
+      "name_en": "Mandarin Oriental Bangkok",
+      "type": "hotel",
+      "area_th": "เขตบางรัก",
+      "lat": 13.7234,
+      "lng": 100.5145,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมหรูริมแม่น้ำเจ้าพระยาระดับตำนานอันมีประวัติศาสตร์ยาวนานกว่า 140 ปี",
+      "price_per_night_thb": {
+        "min": 12000,
+        "max": 14000
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.booking.com",
+      "tier": "comfy",
+      "rating": {
+        "score": 9.6,
+        "out_of": 10,
+        "count": 250,
+        "source": "https://www.booking.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "workspace"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.mandarinoriental.com/bangkok",
+      "booking_urls": {
+        "agoda": "https://www.booking.com",
+        "booking": "https://www.booking.com",
+        "traveloka": "https://www.booking.com"
+      },
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.booking.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "siam-kempinski-hotel-bangkok",
+      "province": "bangkok",
+      "name_th": "โรงแรมสยามเคมปินสกี้ กรุงเทพฯ",
+      "name_en": "Siam Kempinski Hotel Bangkok",
+      "type": "hotel",
+      "area_th": "เขตปทุมวัน",
+      "lat": 13.7478,
+      "lng": 100.5367,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมหรูพร้อมสระว่ายน้ำสไตล์รีสอร์ทใจกลางย่านช้อปปิ้งสยาม",
+      "price_per_night_thb": {
+        "min": 8500,
+        "max": 10500
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "comfy",
+      "rating": {
+        "score": 9.3,
+        "out_of": 10,
+        "count": 250,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "near_transit",
+        "family"
+      ],
+      "moods": [
+        "food",
+        "quiet",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.kempinski.com/bangkok",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": "https://www.agoda.com",
+        "traveloka": "https://www.agoda.com"
+      },
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "the-standard-bangkok-mahanakhon",
+      "province": "bangkok",
+      "name_th": "เดอะ สแตนดาร์ด แบงค็อก มหานคร",
+      "name_en": "The Standard Bangkok Mahanakhon",
+      "type": "hotel",
+      "area_th": "เขตบางรัก",
+      "lat": 13.7256,
+      "lng": 100.5289,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมดีไซน์เก๋สุดฮิปบนตึกคิงเพาเวอร์มหานครย่านช่องนนทรี",
+      "price_per_night_thb": {
+        "min": 6500,
+        "max": 8500
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "comfy",
+      "rating": {
+        "score": 9.0,
+        "out_of": 10,
+        "count": 250,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "near_transit",
+        "workspace"
+      ],
+      "moods": [
+        "photo",
+        "food"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.standardhotels.com/bangkok",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": "https://www.agoda.com",
+        "traveloka": "https://www.agoda.com"
+      },
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "hua-chang-heritage-hotel",
+      "province": "bangkok",
+      "name_th": "โรงแรมหัวช้าง เฮอริเทจ",
+      "name_en": "Hua Chang Heritage Hotel",
+      "type": "boutique",
+      "area_th": "เขตปทุมวัน",
+      "lat": 13.7489,
+      "lng": 100.5312,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมบูทีคสไตล์ไทยร่วมสมัยใกล้ราชเทวีและสยามสแควร์",
+      "price_per_night_thb": {
+        "min": 2800,
+        "max": 4800
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.7,
+        "out_of": 10,
+        "count": 250,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "near_transit"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.huachangheritagehotel.com",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": "https://www.agoda.com",
+        "traveloka": "https://www.agoda.com"
+      },
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "luxe-boutique-hotel-silom",
+      "province": "bangkok",
+      "name_th": "ลักซ์ บูทีค โฮเทล สีลม",
+      "name_en": "Luxe Boutique Hotel Silom",
+      "type": "boutique",
+      "area_th": "เขตบางรัก",
+      "lat": 13.7289,
+      "lng": 100.5234,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมบูทีคบรรยากาศอบอุ่นเดินทางสะดวกใกล้รถไฟฟ้าสถานีช่องนนทรี",
+      "price_per_night_thb": {
+        "min": 1800,
+        "max": 3800
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.booking.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.5,
+        "out_of": 10,
+        "count": 250,
+        "source": "https://www.booking.com"
+      },
+      "amenities": [
+        "breakfast",
+        "free_wifi",
+        "near_transit",
+        "workspace"
+      ],
+      "moods": [
+        "food",
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.luxeboutiquehotel.com",
+      "booking_urls": {
+        "agoda": "https://www.booking.com",
+        "booking": "https://www.booking.com",
+        "traveloka": "https://www.booking.com"
+      },
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.booking.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "lub-d-bangkok-siam",
+      "province": "bangkok",
+      "name_th": "ลูบดี กรุงเทพฯ สยาม",
+      "name_en": "Lub d Bangkok Siam",
+      "type": "hostel",
+      "area_th": "เขตปทุมวัน",
+      "lat": 13.7467,
+      "lng": 100.5289,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โฮสเทลยอดนิยมสไตล์โมเดิร์นติด BTS สนามกีฬาแห่งชาติ",
+      "price_per_night_thb": {
+        "min": 750,
+        "max": 2750
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.booking.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.8,
+        "out_of": 10,
+        "count": 250,
+        "source": "https://www.booking.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "near_transit",
+        "workspace"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.lubd.com/siam",
+      "booking_urls": {
+        "agoda": "https://www.booking.com",
+        "booking": "https://www.booking.com",
+        "traveloka": "https://www.booking.com"
+      },
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.booking.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    }
+  ]
+}

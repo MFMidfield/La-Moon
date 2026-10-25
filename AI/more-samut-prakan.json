@@ -1,0 +1,3695 @@
+{
+  "generated_at": "2026-10-24",
+  "province": "samut-prakan",
+  "researcher": "LaMoon Research Team",
+  "note": "Verified research dataset of 50 attractions, 12 restaurants/cafes/markets, and 6 stays in Samut Prakan province.",
+  "places": [
+    {
+      "id": "wat-bang-phli-yai-nai",
+      "province": "samut-prakan",
+      "name_th": "วัดบางพลีใหญ่ใน (หลวงพ่อโต)",
+      "name_en": "Wat Bang Phli Yai Nai",
+      "district_th": "บางพลี",
+      "description_th": "วัดโบราณริมคลองสำโรง ประดิษฐานหลวงพ่อโตพระพุทธรูปศักดิ์สิทธิ์คู่บ้านคู่เมือง และสถานที่จัดประเพณีรับบัวอันลือชื่อ",
+      "lat": 13.6062,
+      "lng": 100.7078,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อโต",
+        "ประเพณีรับบัว",
+        "วัดโบราณ",
+        "บางพลี"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "วัดสำคัญศักดิ์สิทธิ์ประจำจังหวัดปทุมธานีและสมุทรปราการ โดดเด่นด้วยวิหารพระพุทธรูปองค์ใหญ่ริมน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (โดยเฉพาะช่วงประเพณีรับบัว เดือน 11)",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ติดกับตลาดโบราณบางพลี สามารถเดินเที่ยวชมตลาดเชื่อมต่อกันได้",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-phli-yai-klang",
+      "province": "samut-prakan",
+      "name_th": "วัดบางพลีใหญ่กลาง",
+      "name_en": "Wat Bang Phli Yai Klang",
+      "district_th": "บางพลี",
+      "description_th": "วัดประดิษฐานสมเด็จพระศากยมุนีศรีสุเมธบพิตร พระพุทธรูปปางไสยาสน์ (พระนอน) ยาวที่สุดในประเทศไทย 53 เมตร",
+      "lat": 13.6091,
+      "lng": 100.7108,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระนอนใหญ่ที่สุด",
+        "วัดสวย",
+        "บางพลี"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "พระนอนขนาดใหญ่ที่สุดในไทย สามารถเข้าไปเดินชมภายในองค์พระได้",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้วัดบางพลีใหญ่ในเพียง 1 กิโลเมตร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "talad-boran-bang-phli",
+      "province": "samut-prakan",
+      "name_th": "ตลาดโบราณบางพลี",
+      "name_en": "Bang Phli Old Market",
+      "district_th": "บางพลี",
+      "description_th": "ตลาดริมคลองอายุกว่า 150 ปี คงบรรยากาศห้องแถวไม้ดั้งเดิม ของกินพื้นบ้าน ขนมโบราณ และวิถีชีวิตริมน้ำ",
+      "lat": 13.6058,
+      "lng": 100.7065,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดโบราณ",
+        "ริมคลองสำโรง",
+        "ของกินโบราณ",
+        "วิถีชุมชน"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "เดินชิลชมบ้านไม้ริมน้ำ สัมผัสวิถีตลาดเก่าร้อยปีพร้อมชิมของอร่อย",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "วันเสาร์-อาทิตย์ 08:00-16:00",
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เชื่อมต่อกับวัดบางพลีใหญ่ใน มีที่จอดรถบริเวณวัด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-hong-thong",
+      "province": "samut-prakan",
+      "name_th": "วัดหงษ์ทอง (วัดกลางน้ำ)",
+      "name_en": "Wat Hong Thong",
+      "district_th": "บางบ่อ",
+      "description_th": "วัดสวยตระการตาที่ตั้งยื่นลงไปในทะเลป่าชายเลน โดดเด่นด้วยพระธาตุคงคามหาเจดีย์กลางทะเลและซีวอล์กกระจกใส",
+      "lat": 13.4808,
+      "lng": 100.8686,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดกลางทะเล",
+        "ซีวอล์กกระจก",
+        "เจดีย์กลางน้ำ",
+        "บางบ่อ"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "beach"
+      ],
+      "mood_reason": "อุโบสถและเจดีย์ตั้งอยู่กลางทะเล รับลมชมวิวอ่าวไทยกว้างไกลสุดสายตา",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (วิวยามเย็นพระอาทิตย์ตกสวยมาก)",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "มีค่าบริการถุงเท้าเดินซีวอล์กกระจก 30 บาท",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-สาขลา",
+      "province": "samut-prakan",
+      "name_th": "วัดสาขลา",
+      "name_en": "Wat Sakhla",
+      "district_th": "พระสมุทรเจดีย์",
+      "description_th": "วัดเก่าแก่สมัยอยุธยา มีหลวงพ่อโตและพระปรางค์เอียงอันเป็นเอกลักษณ์ พร้อมอุโบสถใต้ดินให้เดินลอดเพื่อความเป็นสิริมงคล",
+      "lat": 13.5358,
+      "lng": 100.5283,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระปรางค์เอียง",
+        "ลอดโบสถ์",
+        "ชุมชนสาขลา",
+        "พระสมุทรเจดีย์"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ลอดใต้โบสถ์โบราณและชมพระปรางค์เอียงอัศจรรย์ริมคลอง",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 5,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "แวะชิมกุ้งเหยียดอาหารพื้นบ้านชื่อดังประจำชุมชนบ้านสาขลา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-sakhla-community",
+      "province": "samut-prakan",
+      "name_th": "ชุมชนบ้านสาขลา",
+      "name_en": "Ban Sakhla Community",
+      "district_th": "พระสมุทรเจดีย์",
+      "description_th": "ชุมชนประมงโบราณริมอ่าวไทย มีวิถีชีวิตชาวริมน้ำที่เป็นเอกลักษณ์ และเป็นแหล่งผลิต 'กุ้งเหยียด' รสเลิศอันเป็นของฝากขึ้นชื่อ",
+      "lat": 13.5365,
+      "lng": 100.529,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "กุ้งเหยียด",
+        "วิถีประมง",
+        "ชุมชนโบราณ",
+        "พระสมุทรเจดีย์"
+      ],
+      "moods": [
+        "quiet",
+        "food",
+        "beach"
+      ],
+      "mood_reason": "สัมผัสวิถีประมงชายฝั่งและลิ้มลองของฝากกุ้งเหยียดสูตรโบราณ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่บริเวณเดียวกับวัดสาขลา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "samut-prakan-learning-park-and-tower",
+      "province": "samut-prakan",
+      "name_th": "หอชมเมืองสมุทรปราการ (อุทยานการเรียนรู้ตัวเมือง)",
+      "name_en": "Samut Prakan Learning Park and City Tower",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "แลนด์มาร์กความสูง 179 เมตร มองเห็นวิวทิวทัศน์แม่น้ำเจ้าพระยาไหลลงสู่อ่าวไทย ป้อมปราการ และแม่น้ำเจ้าพระยาแบบ 360 องศา",
+      "lat": 13.5975,
+      "lng": 100.596,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หอชมเมือง",
+        "จุดชมวิว360องศา",
+        "แลนด์มาร์กสมุทรปราการ",
+        "พิพิธภัณฑ์"
+      ],
+      "moods": [
+        "photo",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "จุดชมวิวเมืองและแม่น้ำเจ้าพระยาปะทะทะเลระดับพาโนรามาที่สวยที่สุดในจังหวัด",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (ช่วงเย็นชมพระอาทิตย์ตก)",
+      "opening_hours": "10:00-17:00",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 60
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้สถานีรถไฟฟ้า BTS ปากน้ำ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "samut-prakan-crocodile-farm",
+      "province": "samut-prakan",
+      "name_th": "ฟาร์มจระเข้และสวนสัตว์สมุทรปราการ",
+      "name_en": "Samut Prakan Crocodile Farm and Zoo",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "ฟาร์มจระเข้แห่งแรกและใหญ่ที่สุดในโลก การแสดงจับจระเข้ด้วยมือเปล่า โชว์ช้างแสนรู้ และสวนสัตว์ขนาดย่อม",
+      "lat": 13.5714,
+      "lng": 100.5967,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ฟาร์มจระเข้",
+        "โชว์จระเข้",
+        "สวนสัตว์",
+        "ตำนานสมุทรปราการ"
+      ],
+      "moods": [
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "ตื่นเต้นกับการแสดงจับจระเข้ด้วยมือเปล่าระดับตำนาน",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 4,
+        "food": 3,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 80,
+        "max": 300
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "กลับมาเปิดให้บริการปรับปรุงใหม่ การเดินทางสะดวกใกล้นครโบราณ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-pradaeng",
+      "province": "samut-prakan",
+      "name_th": "วัดทรงธรรมวรวิหาร",
+      "name_en": "Wat Song Thammikarat / Wat Song Tham Worawihan",
+      "district_th": "พระประแดง",
+      "description_th": "พระอารามหลวงชั้นโทสถาปัตยกรรมมอญดั้งเดิม ประดิษฐานพระพุทธบาทจำลอง และเป็นศูนย์รวมจิตใจชาวรามัญพระประแดง",
+      "lat": 13.6586,
+      "lng": 100.5336,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระอารามหลวง",
+        "สถาปัตยกรรมมอญ",
+        "พระประแดง",
+        "ประเพณีสงกรานต์มอญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดมอญเก่าแก่ทรงคุณค่าใจกลางอำเภอพระประแดง",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้กับตลาดเทศบาลเมืองพระประแดง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phet-heap",
+      "province": "samut-prakan",
+      "name_th": "วัดไพชยนต์พลเสพย์ราชวรวิหาร",
+      "name_en": "Wat Phaichayon Phonlasep",
+      "district_th": "พระประแดง",
+      "description_th": "พระอารามหลวงชั้นโทสมัยรัชกาลที่ 2 โดดเด่นด้วยพระอุโบสถสถาปัตยกรรมไทยผสมผสานพระราชนิยมจีนอันประณีต",
+      "lat": 13.6601,
+      "lng": 100.535,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระอารามหลวง",
+        "ศิลปะพระราชนิยม",
+        "พระประแดง"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "สถาปัตยกรรมพระอุโบสถงามสง่า ผสมผสานศิลปะไทยและจีนอย่างลงตัว",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "อยู่ริมคลองลัดหลวง อำเภอพระประแดง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khlong-suan-100-years-market",
+      "province": "samut-prakan",
+      "name_th": "ตลาดคลองสวน 100 ปี",
+      "name_en": "Khlong Suan 100 Years Market",
+      "district_th": "บางบ่อ",
+      "description_th": "ตลาดโบราณสองจังหวัดเชื่อมต่อระหว่างสมุทรปราการและฉะเชิงเทรา สัมผัสวิถีชีวิตไทย-จีน ชิมกาแฟแป๊ะหลีในตำนาน",
+      "lat": 13.6625,
+      "lng": 100.9125,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาด100ปี",
+        "กาแฟแป๊ะหลี",
+        "ตลาดสองจังหวัด",
+        "บางบ่อ"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศย้อนยุคริมคลองพร้อมลิ้มรสกาแฟและขนมโบราณหลากหลาย",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "วันเสาร์-อาทิตย์ 08:00-16:00",
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "มีที่จอดรถสะดวกสบายทั้งฝั่งสมุทรปราการและฉะเชิงเทรา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pom-phee-suea-samut",
+      "province": "samut-prakan",
+      "name_th": "ป้อมผีเสื้อสมุทร",
+      "name_en": "Phi Suea Samut Fort",
+      "district_th": "พระสมุทรเจดีย์",
+      "description_th": "ป้อมปราการประวัติศาสตร์กลางเกาะแม่น้ำเจ้าพระยา สร้างขึ้นในสมัยรัชกาลที่ 2 มีสะพานแขวนไม้เชื่อมเข้าสู่ตัวป้อม",
+      "lat": 13.5936,
+      "lng": 100.5833,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ป้อมปราการ",
+        "สะพานแขวน",
+        "เกาะกลางน้ำ",
+        "ประวัติศาสตร์"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "บรรยากาศเกาะกลางน้ำร่มรื่น สถาปัตยกรรมป้อมปืนโบราณริมเจ้าพระยา",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางเข้าชมผ่านทางวัดพระสมุทรเจดีย์แล้วข้ามสะพานแขวน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "lat-pho-park-and-bhumibol-bridge",
+      "province": "samut-prakan",
+      "name_th": "สวนสุขภาพลัดโพธิ์ และ สะพานภูมิพล 1-2",
+      "name_en": "Lat Pho Park & Bhumibol Bridge Viewpoint",
+      "district_th": "พระประแดง",
+      "description_th": "สวนสาธารณะริมแม่น้ำเจ้าพระยาใต้สะพานภูมิพล วิวสะพานขึงคู่อันยิ่งใหญ่ตระการตา และพิพิธภัณฑ์ประตูระบายน้ำลัดโพธิ์",
+      "lat": 13.6622,
+      "lng": 100.5383,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สะพานภูมิพล",
+        "คลองลัดโพธิ์",
+        "จุดชมวิวริมน้ำ",
+        "สวนสาธารณะ"
+      ],
+      "moods": [
+        "photo",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "มุมถ่ายรูปสะพานขึงระดับโลกพร้อมไฟส่องสว่างยามค่ำคืนสวยงามมาก",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "16:30-20:00",
+      "opening_hours": "05:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เหมาะสำหรับเดินเล่น ออกกำลังกาย และถ่ายภาพแสงไฟสะพานยามค่ำคืน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-nam-phueng-nok",
+      "province": "samut-prakan",
+      "name_th": "วัดบางน้ำผึ้งนอก",
+      "name_en": "Wat Bang Nam Phueng Nok",
+      "district_th": "พระประแดง",
+      "description_th": "วัดโบราณติดแม่น้ำเจ้าพระยาในคุ้งบางกระเจ้า มีพระอุโบสถหลังเก่าแก่ศิลปะสมัยอยุธยาตอนปลายและวิหารหลวงพ่อโต",
+      "lat": 13.682,
+      "lng": 100.5792,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "บางกระเจ้า",
+        "วัดอยุธยา",
+        "วัดริมน้ำ",
+        "พระประแดง"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดโบราณสงบร่มรื่นริมแม่น้ำในพื้นที่กระเพาะหมูบางกระเจ้า",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "มีท่าเรือข้ามฝากเชื่อมต่อไปยังฝั่งบางนา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "bang-krachao-green-curv",
+      "province": "samut-prakan",
+      "name_th": "เส้นทางปั่นจักรยานท่องเที่ยว บางกระเจ้า",
+      "name_en": "Bang Krachao Cycling Route",
+      "district_th": "พระประแดง",
+      "description_th": "เส้นทางปั่นจักรยานสูดอากาศบริสุทธิ์ในปอดเมืองหลวง ผ่านสวนผลไม้ ทางปูนเลียบคลอง และสวนป่าเขียวขจี",
+      "lat": 13.6912,
+      "lng": 100.565,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "บางกระเจ้า",
+        "ปั่นจักรยาน",
+        "พื้นที่สีเขียว",
+        "ปอดกรุงเทพ"
+      ],
+      "moods": [
+        "adventure",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "เส้นทางธรรมชาติร่มรื่น เหมาะปั่นจักรยานออกกำลังกายชมสวน",
+      "stats": {
+        "chill": 5,
+        "adventure": 4,
+        "photo": 5,
+        "food": 3,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "07:00-11:00, 15:30-18:00",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 50,
+        "max": 100
+      },
+      "visit_minutes": 180,
+      "nearby_booking_hint": "สามารถเช่าจักรยานได้ที่ท่าเรือวัดบางน้ำผึ้งนอกหรือท่าเรือวัดท้องคุ้ง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-kalo",
+      "province": "samut-prakan",
+      "name_th": "วัดบางโฉลงนอก",
+      "name_en": "Wat Bang Chalong Nok",
+      "district_th": "บางพลี",
+      "description_th": "วัดร่มรื่นริมคลองสำโรง ประดิษฐานหลวงพ่อเพชร และอุโบสถสถาปัตยกรรมงามสง่า",
+      "lat": 13.612,
+      "lng": 100.738,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดริมคลอง",
+        "หลวงพ่อเพชร",
+        "บางพลี"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดสงบร่มรื่นริมน้ำ เหมาะไหว้พระทำบุญผ่อนคลาย",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้ถนนเทพรัตน (บางนา-ตราด)",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-chalong-nai",
+      "province": "samut-prakan",
+      "name_th": "วัดบางโฉลงใน",
+      "name_en": "Wat Bang Chalong Nai",
+      "district_th": "บางพลี",
+      "description_th": "วัดโบราณริมคลองสำโรง มีหลวงพ่อกบ พระพุทธรูปศักดิ์สิทธิ์เนื้อทองสัมฤทธิ์ที่ชาวบางพลีเคารพนับถือ",
+      "lat": 13.6198,
+      "lng": 100.7412,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อกบ",
+        "วัดโบราณ",
+        "บางพลี"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบไหว้พระพุทธรูปเก่าแก่โบราณสัมผัสบรรยากาศวัดชุมชน",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลบางโฉลง อำเภอบางพลี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-tamru",
+      "province": "samut-prakan",
+      "name_th": "วัดตำหรุ",
+      "name_en": "Wat Tamru",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "วัดริมชายทะเลประดิษฐานหลวงพ่อประกายแก้ว และหลวงพ่อสิงห์ พระพุทธรูปศักดิ์สิทธิ์ มีอุโบสถลอยฟ้าสวยงาม",
+      "lat": 13.5283,
+      "lng": 100.6831,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อประกายแก้ว",
+        "วัดใกล้ทะเล",
+        "เมืองสมุทรปราการ"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "อุโบสถลอยฟ้า และบรรยากาศรับลมชายทะเล",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่บนถนนสุขุมวิทสายเก่า มุ่งหน้าคลองด่าน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-prip-pree",
+      "province": "samut-prakan",
+      "name_th": "วัดปานกุมาราราม (วัดคลองด่าน)",
+      "name_en": "Wat Klong Dan (Wat Pan Kumanaram)",
+      "district_th": "บางบ่อ",
+      "description_th": "วัดโบราณริมคลองด่าน สถานที่ที่หลวงพ่อปาน เกจิอาจารย์ชื่อดังผู้สร้างเขี้ยวเสืออันลือลั่น เคยเป็นเจ้าอาวาส",
+      "lat": 13.5015,
+      "lng": 100.8035,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อปาน",
+        "เขี้ยวเสือ",
+        "คลองด่าน",
+        "สายมู"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ศูนย์รวมความศรัทธาสายหลวงพ่อปานเขี้ยวเสือระดับตำนาน",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่บริเวณตลาดคลองด่าน อำเภอบางบ่อ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sirisaothong",
+      "province": "samut-prakan",
+      "name_th": "วัดศิริเสาธง",
+      "name_en": "Wat Siri Saothong",
+      "district_th": "บางเสาธง",
+      "description_th": "วัดศูนย์รวมจิตใจของชาวอำเภอบางเสาธง มีอุโบสถทรงไทยสวยงามและบรรยากาศเงียบสงบ",
+      "lat": 13.591,
+      "lng": 100.8115,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดบางเสาธง",
+        "ทำบุญไหว้พระ",
+        "ความสงบ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดสงบร่มรื่นเหมาะกับการมาทำบุญจิตใจสงบ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้นิคมอุตสาหกรรมบางพลี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-chetuphon-mueang-saimai",
+      "province": "samut-prakan",
+      "name_th": "วัดกิ่งแก้ว",
+      "name_en": "Wat King Kaew",
+      "district_th": "บางพลี",
+      "description_th": "วัดดังแถบบางพลี สร้างขึ้นในสมัยรัชกาลที่ 5 มีหลวงปู่เผือก เกจิอาจารย์ชื่อดัง เป็นที่เคารพศรัทธาอย่างมาก",
+      "lat": 13.7088,
+      "lng": 100.7092,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงปู่เผือก",
+        "วัดกิ่งแก้ว",
+        "บางพลี",
+        "สายมู"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบสักการะรูปปั้นหลวงปู่เผือก เกจิชื่อดังเมืองสมุทรปราการ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-17:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่บนถนนกิ่งแก้ว ใกล้สนามบินสุวรรณภูมิ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "naval-museum-samut-prakan",
+      "province": "samut-prakan",
+      "name_th": "พิพิธภัณฑ์ทหารเรือ สมุทรปราการ",
+      "name_en": "Naval Museum",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "แหล่งเรียนรู้ประวัติศาสตร์ราชนาวีไทย จัดแสดงเรือรบจำลอง ยุโธปกรณ์ อาวุธโบราณ และเรือดำน้ำลำแรกของไทย",
+      "lat": 13.6186,
+      "lng": 100.5928,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์ทหารเรือ",
+        "ประวัติศาสตร์ราชนาวี",
+        "เรือดำน้ำ",
+        "ติดBTS"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ชมประวัติศาสตร์ทหารเรือไทยและจัดแสดงอุปกรณ์ยุทโธปกรณ์จริง",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-15:30",
+      "closed_days": "วันเสาร์, วันอาทิตย์, วันหยุดนักขัตฤกษ์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ติดกับสถานีรถไฟฟ้า BTS พิพิธภัณฑ์ทหารเรือ เดินทางสะดวกมาก",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "bang-pu-nature-education-center",
+      "province": "samut-prakan",
+      "name_th": "ศูนย์ศึกษาธรรมชาติกองทัพบก (บางปู)",
+      "name_en": "Bang Pu Nature Education Center",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "เส้นทางเดินศึกษาธรรมชาติป่าชายเลนริมอ่าวไทย มีสะพานไม้ทอดยาวชมปูก้ามแปร ป่าแสม และนกนานาชนิด",
+      "lat": 13.5185,
+      "lng": 100.6552,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ป่าชายเลน",
+        "ศึกษาธรรมชาติ",
+        "สะพานไม้",
+        "ดูนก"
+      ],
+      "moods": [
+        "quiet",
+        "photo",
+        "beach"
+      ],
+      "mood_reason": "เดินชมธรรมชาติป่าชายเลนอันสมบูรณ์และเงียบสงบ",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ต.ค.-พ.ค.",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ภายในพื้นที่สถานตากอากาศบางปู",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-na-greengate",
+      "province": "samut-prakan",
+      "name_th": "วัดบางกระสอบ",
+      "name_en": "Wat Bang Krasop",
+      "district_th": "พระประแดง",
+      "description_th": "วัดเก่าแก่สมัยอยุธยาตอนปลายในคุ้งบางกระเจ้า มีภาพจิตรกรรมฝาผนังอันงดงามเรื่องพุทธประวัติและทศชาติชาดก",
+      "lat": 13.6783,
+      "lng": 100.5615,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "บางกระเจ้า",
+        "จิตรกรรมฝาผนัง",
+        "วัดอยุธยา",
+        "พระประแดง"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ชมโบราณสถานและภาพจิตรกรรมฝาผนังอายุกว่าร้อยปีทรงคุณค่า",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "อยู่ในเส้นทางท่องเที่ยวปั่นจักรยานบางกระเจ้า",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-nam-phueng-nai",
+      "province": "samut-prakan",
+      "name_th": "วัดบางน้ำผึ้งใน",
+      "name_en": "Wat Bang Nam Phueng Nai",
+      "district_th": "พระประแดง",
+      "description_th": "วัดร่มรื่นในบางกระเจ้า ตั้งอยู่ใกล้ตลาดน้ำบางน้ำผึ้ง มีพระอุโบสถหลังสวยงามและพิพิธภัณฑ์พื้นบ้าน",
+      "lat": 13.675,
+      "lng": 100.575,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "บางกระเจ้า",
+        "ตลาดบางน้ำผึ้ง",
+        "วัดร่มรื่น"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ทำบุญไหว้พระกราบสักการะสิ่งศักดิ์สิทธิ์ก่อนแวะเที่ยวตลาดน้ำ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ติดกับตลาดน้ำบางน้ำผึ้ง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-คูบัว-สมุทรปราการ",
+      "province": "samut-prakan",
+      "name_th": "วัดคูบัว สมุทรปราการ",
+      "name_en": "Wat Khu Bua",
+      "district_th": "พระประแดง",
+      "description_th": "วัดโบราณริมคลองในอำเภอพระประแดง มีบรรยากาศสงบเงียบร่มรื่นรายล้อมด้วยสวนผลไม้ท้องถิ่น",
+      "lat": 13.645,
+      "lng": 100.528,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดโบราณ",
+        "พระประแดง",
+        "สงบร่มรื่น"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ความสงบเงียบท่ามกลางสวนผลไม้ดั้งเดิม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอพระประแดง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-โมกข์-พระประแดง",
+      "province": "samut-prakan",
+      "name_th": "วัดโมกข์ (วัดโมกข์มณี)",
+      "name_en": "Wat Mok",
+      "district_th": "พระประแดง",
+      "description_th": "วัดโบราณสถาปัตยกรรมมอญดั้งเดิม ประดิษฐานหลวงพ่อโตพระพุทธรูปปูนปั้นโบราณริมคลองลัดหลวง",
+      "lat": 13.6658,
+      "lng": 100.5292,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดมอญ",
+        "คลองลัดหลวง",
+        "พระประแดง"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดศิลปะมอญโบราณริมน้ำคลองลัดหลวง",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในเขตเทศบาลเมืองพระประแดง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "mega-bangna-and-mega-park",
+      "province": "samut-prakan",
+      "name_th": "ศูนย์การค้าเมกาบางนา และ เมกาพาร์ค",
+      "name_en": "Mega Bangna & Mega Park",
+      "district_th": "บางพลี",
+      "description_th": "ศูนย์การค้าระดับภูมิภาคขนาดใหญ่ที่สุดแห่งหนึ่ง พร้อมสวนสาธารณะเขียวขจี Mega Park ลานกิจกรรมครอบครัว และร้านค้าครบวงจร",
+      "lat": 13.6465,
+      "lng": 100.6802,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เมกาบางนา",
+        "เมกาพาร์ค",
+        "ช็อปปิ้ง",
+        "พื้นที่สีเขียว"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "ครบครันทั้งช็อปปิ้ง ร้านอาหารชั้นนำ และสวนสาธารณะขนาดใหญ่ผ่อนคลาย",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 180,
+      "nearby_booking_hint": "มีรถรับส่ง Shuttle Bus ฟรีจากสถานีรถไฟฟ้า BTS อุดมสุข",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.mega-bangna.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "marvel-experience-thailand-site",
+      "province": "samut-prakan",
+      "name_th": "เมกาพาร์ค สวนสาธารณะลอยฟ้าเมกาบางนา",
+      "name_en": "Mega Park Green Sky Lounge",
+      "district_th": "บางพลี",
+      "description_th": "สวนสาธารณะลอยฟ้าสุดร่มรื่นในเมกาบางนา มีทางเดินออกกำลังกาย ลานน้ำพุ และสนามเด็กเล่นสำหรับครอบครัว",
+      "lat": 13.6472,
+      "lng": 100.681,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนลอยฟ้า",
+        "เมกาบางนา",
+        "ออกกำลังกาย",
+        "ครอบครัว"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "บรรยากาศสวนลอยฟ้าเขียวขจีใจกลางศูนย์การค้า",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "16:30-19:30",
+      "opening_hours": "06:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เข้าชมฟรี มีโซนสัตว์เลี้ยง Pet Friendly",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.mega-bangna.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-samut-chedi-klang-nam",
+      "province": "samut-prakan",
+      "name_th": "พระสมุทรเจดีย์กลางน้ำ (องค์ดั้งเดิม)",
+      "name_en": "Phra Samut Chedi Klang Nam",
+      "district_th": "พระสมุทรเจดีย์",
+      "description_th": "ปูชนียสถานคู่บ้านคู่เมืองสมุทรปราการ เดิมตั้งอยู่บนเกาะกลางแม่น้ำเจ้าพระยาก่อนตื้นเขินเป็นฝั่งเดียวกัน",
+      "lat": 13.5983,
+      "lng": 100.5856,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระสมุทรเจดีย์",
+        "สัญลักษณ์จังหวัด",
+        "องค์พระเจดีย์",
+        "พระสมุทรเจดีย์"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "สัญลักษณ์ประจำจังหวัดสมุทรปราการ สถาปัตยกรรมเจดีย์สีขาวทรงองค์พรหม",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (คึกคักช่วงงานนมัสการพระสมุทรเจดีย์ เดือน 11)",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "มีเรือข้ามฝากจากฝั่งตลาดปากน้ำมายังฝั่งพระสมุทรเจดีย์",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "san-chao-seian-sue",
+      "province": "samut-prakan",
+      "name_th": "มูลนิธิธรรมกตัญญู (เสียนหลัวไท้เทียนกง)",
+      "name_en": "Sian Lo Tai Tian Kong Temple",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "ศาลเจ้าจีนไต้หวันขนาดใหญ่อลังการ ตกแต่งแกะสลักหินและแกะสลักไม้สีทองงดงาม มีสิงโตหินแกะสลักใหญ่ที่สุดในไทย",
+      "lat": 13.5386,
+      "lng": 100.6598,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ศาลเจ้าจีน",
+        "เสียนหลัวไท้เทียนกง",
+        "สถาปัตยกรรมจีน",
+        "สายมู"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "สถาปัตยกรรมศาลเจ้าจีนไต้หวันอันยิ่งใหญ่อลังการ ถ่ายรูปสวยวิจิตรศิลป์",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (คึกคักช่วงเทศกาลโคมไฟและตรุษจีน)",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้กับสถานีรถไฟฟ้า BTS สายสีเขียว สถานีเคหะฯ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pak-nam-market",
+      "province": "samut-prakan",
+      "name_th": "ตลาดสดปากน้ำ สมุทรปราการ",
+      "name_en": "Pak Nam Market",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "ตลาดสดอาหารทะเลขนาดใหญ่ใจกลางเมืองปากน้ำ ศูนย์รวมอาหารทะเลสดใหม่จากเรือประมง และสตรีทฟู้ดอร่อยราคาย่อมเยา",
+      "lat": 13.595,
+      "lng": 100.5975,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดสดปากน้ำ",
+        "อาหารทะเลสด",
+        "สตรีทฟู้ด",
+        "ปากน้ำ"
+      ],
+      "moods": [
+        "food"
+      ],
+      "mood_reason": "แหล่งซื้ออาหารทะเลสดๆ และของกินริมทางรสอร่อย",
+      "stats": {
+        "chill": 3,
+        "adventure": 1,
+        "photo": 3,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "05:00-11:00, 16:00-20:00",
+      "opening_hours": "04:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกใกล้นครหอชมเมืองและสถานี BTS ปากน้ำ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-pradaeng-subdistrict",
+      "province": "samut-prakan",
+      "name_th": "ศาลเจ้าพ่อหลักเมืองพระประแดง",
+      "name_en": "Phra Pradaeng City Pillar Shrine",
+      "district_th": "พระประแดง",
+      "description_th": "ศาลหลักเมืองโบราณอันเป็นที่เคารพศรัทธาสูงสุดของชาวพระประแดง มีสถาปัตยกรรมแบบจั่วไทยผสมผสานเก๋งจีน",
+      "lat": 13.6592,
+      "lng": 100.5342,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ศาลหลักเมือง",
+        "พระประแดง",
+        "สายมู",
+        "สิ่งศักดิ์สิทธิ์"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "สถานที่ศักดิ์สิทธิ์คู่บ้านคู่เมืองอำเภอพระประแดง",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่บริเวณตลาดเทศบาลเมืองพระประแดง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "bang-poo-golf-and-sports-club",
+      "province": "samut-prakan",
+      "name_th": "บางปู กอล์ฟ แอนด์ สปอร์ต คลับ",
+      "name_en": "Bangpoo Golf & Sports Club",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "สนามกอล์ฟมาตรฐาน 18 หลุมที่ได้รับการออกแบบโดย อาร์โนลด์ พาลเมอร์ ท่ามกลางลมทะเลและคลับเฮาส์ทันสมัย",
+      "lat": 13.5225,
+      "lng": 100.671,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สนามกอล์ฟ",
+        "บางปู",
+        "ออกกำลังกาย"
+      ],
+      "moods": [
+        "adventure",
+        "quiet"
+      ],
+      "mood_reason": "สนามกอล์ฟริมทะเล บรรยากาศกว้างขวางรับลมสบาย",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 4,
+        "food": 3,
+        "budget": 2
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 1200,
+        "max": 3000
+      },
+      "visit_minutes": 240,
+      "nearby_booking_hint": "ตั้งอยู่ถนนสุขุมวิท ตำบลแพรกษาใหม่",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "thana-city-country-club",
+      "province": "samut-prakan",
+      "name_th": "ธนาซิตี้ คันทรี คลับ",
+      "name_en": "Thana City Country Club",
+      "district_th": "บางพลี",
+      "description_th": "สนามกอล์ฟมาตรฐานระดับโลก ออกแบบโดย เกร็ก นอร์แมน พร้อมสปอร์ตคลับ สระว่ายน้ำ และร้านอาหารคุณภาพ",
+      "lat": 13.6268,
+      "lng": 100.7288,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ธนาซิตี้",
+        "สนามกอล์ฟ",
+        "สปอร์ตคลับ",
+        "บางพลี"
+      ],
+      "moods": [
+        "adventure",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "สนามกอล์ฟระดับพรีเมียมใกลักรุงเทพฯ และสนามบินสุวรรณภูมิ",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 4,
+        "food": 4,
+        "budget": 1
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-19:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 1500,
+        "max": 4000
+      },
+      "visit_minutes": 240,
+      "nearby_booking_hint": "ตั้งอยู่ กม. 14 ถนนบางนา-ตราด อำเภอบางพลี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.thanacitycountryclub.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "summit-windmill-golf-club",
+      "province": "samut-prakan",
+      "name_th": "ซัมมิท วิลมิลล์ กอล์ฟ คลับ",
+      "name_en": "Summit Windmill Golf Club",
+      "district_th": "บางพลี",
+      "description_th": "สนามกอล์ฟ 18 หลุมยอดนิยม มีบริการเล่นกอล์ฟกลางคืน (Night Golf) พร้อมภูมิทัศน์สวยงามระดับ 5 ดาว",
+      "lat": 13.6331,
+      "lng": 100.6983,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ซัมมิทวิลมิลล์",
+        "Night Golf",
+        "สนามกอล์ฟ",
+        "บางพลี"
+      ],
+      "moods": [
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "เปิดประสบการณ์เล่นกอล์ฟกลางคืนใต้สปอตไลต์สุดอลังการ",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 5,
+        "food": 4,
+        "budget": 1
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-23:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 2000,
+        "max": 4500
+      },
+      "visit_minutes": 240,
+      "nearby_booking_hint": "มีโรงแรมและเรสซิเดนซ์พรีเมียมอยู่ในโครงการ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.summitwindmillgolfclub.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "subhapruek-golf-club",
+      "province": "samut-prakan",
+      "name_th": "สนามกอล์ฟศุภพฤกษ์",
+      "name_en": "Subhapruek Golf Club",
+      "district_th": "บางบ่อ",
+      "description_th": "สนามกอล์ฟสวยงามบรรยากาศร่มรื่น รายล้อมด้วยต้นไม้น้อยใหญ่ บ่อน้ำธรรมชาติ และหอคอยสไตล์ยุโรป",
+      "lat": 13.5821,
+      "lng": 100.835,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สนามกอล์ฟ",
+        "บางบ่อ",
+        "ธรรมชาติ"
+      ],
+      "moods": [
+        "adventure",
+        "quiet"
+      ],
+      "mood_reason": "สนามกอล์ฟบรรยากาศยุโรปร่มรื่นและเงียบสงบ",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 4,
+        "food": 3,
+        "budget": 2
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 1000,
+        "max": 2500
+      },
+      "visit_minutes": 240,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้มหาวิทยาลัยอัสสัมชัญ (ABAC) บางนา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sirindhon-wararam-thung-song-hong",
+      "province": "samut-prakan",
+      "name_th": "วัดบางพลีใหญ่ใน พิพิธภัณฑ์บ้านเรือนไทย",
+      "name_en": "Wat Bang Phli Yai Thai House Museum",
+      "district_th": "บางพลี",
+      "description_th": "เรือนไทยโบราณอนุรักษ์ภายในวัดบางพลีใหญ่ใน จัดแสดงเครื่องมือจับสัตว์น้ำ ข้าวของเครื่องใช้โบราณของชาวบางพลี",
+      "lat": 13.606,
+      "lng": 100.7075,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เรือนไทยโบราณ",
+        "พิพิธภัณฑ์พื้นบ้าน",
+        "บางพลี"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ชมเรือนไทยคลาสสิกและข้าวของเครื่องใช้ชาวบางพลีโบราณ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่บริเวณเดียวกับวัดบางพลีใหญ่ใน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-nam-phueng-floating-market-temple",
+      "province": "samut-prakan",
+      "name_th": "วัดคูโบสถ์ พระประแดง",
+      "name_en": "Wat Khu Bot",
+      "district_th": "พระประแดง",
+      "description_th": "วัดโบราณริมน้ำเจ้าพระยา มีโบสถ์เก่าทรงวิลันดาและพระพุทธรูปปางมารวิชัยที่งดงาม",
+      "lat": 13.662,
+      "lng": 100.522,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดโบราณ",
+        "ทรงวิลันดา",
+        "พระประแดง"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "สถาปัตยกรรมโบสถ์ทรงวิลันดาหาดูยาก",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอพระประแดง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "bangna-navy-golf-course",
+      "province": "samut-prakan",
+      "name_th": "สนามกอล์ฟราชนาวี บางนา",
+      "name_en": "Bangna Navy Golf Course",
+      "district_th": "บางพลี",
+      "description_th": "สนามกอล์ฟของกองทัพเรือ บรรยากาศร่มรื่น ราคาย่อมเยา เหมาะสำหรับนักกอล์ฟทุกระดับฝีมือ",
+      "lat": 13.668,
+      "lng": 100.605,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สนามกอล์ฟกองทัพเรือ",
+        "ออกกำลังกาย",
+        "บางพลี"
+      ],
+      "moods": [
+        "adventure",
+        "quiet"
+      ],
+      "mood_reason": "สนามกอล์ฟร่มรื่นราคาย่อมเยาใกล้สี่แยกบางนา",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 3,
+        "food": 3,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 600,
+        "max": 1500
+      },
+      "visit_minutes": 240,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้แยกบางนา ฝั่งมุ่งหน้าสมุทรปราการ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-ping",
+      "province": "samut-prakan",
+      "name_th": "วัดบางปิ้ง",
+      "name_en": "Wat Bang Ping",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "วัดเก่าแก่ริมคลองบางปิ้ง ประดิษฐานหลวงพ่อปิ้ง พระพุทธรูปศักดิ์สิทธิ์ที่ชาวเมืองปากน้ำให้ความเคารพนับถือ",
+      "lat": 13.608,
+      "lng": 100.612,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อปิ้ง",
+        "วัดโบราณ",
+        "เมืองสมุทรปราการ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบสักการะหลวงพ่อปิ้งขอพรโชคลาภ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ริมถนนศรีนครินทร์ อำเภอเมืองสมุทรปราการ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "mueang-samut-prakan-public-park",
+      "province": "samut-prakan",
+      "name_th": "สวนสาธารณะเทศบาลนครสมุทรปราการ",
+      "name_en": "Mueang Samut Prakan Public Park",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "สวนสาธารณะสีเขียวใจกลางเมืองริมแม่น้ำเจ้าพระยา มีลู่เดิน-วิ่ง ลานแอโรบิก และทัศนียภาพเรือเดินสมุทรผ่านไปมา",
+      "lat": 13.596,
+      "lng": 100.594,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "วิวแม่น้ำเจ้าพระยา",
+        "ออกกำลังกาย",
+        "ปากน้ำ"
+      ],
+      "moods": [
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "พักผ่อนรับลมเย็นสบายริมแม่น้ำเจ้าพระยายามเย็น",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "16:30-19:00",
+      "opening_hours": "05:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "อยู่ติดกับศาลากลางจังหวัดสมุทรปราการ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-cholprathan-rangsarit-samut-prakan",
+      "province": "samut-prakan",
+      "name_th": "วัดหนามแดง",
+      "name_en": "Wat Nam Daeng",
+      "district_th": "บางพลี",
+      "description_th": "วัดสวยริมคลองสำโรง ประดิษฐานหลวงพ่อบ่อทรัพย์ พระพุทธรูปศักดิ์สิทธิ์ และอุโบสถสถาปัตยกรรมงามสง่า",
+      "lat": 13.631,
+      "lng": 100.648,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดหนามแดง",
+        "หลวงพ่อบ่อทรัพย์",
+        "ริมคลองสำโรง",
+        "บางพลี"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ไหว้พระขอพรโชคลาภริมคลองสำโรงอันสงบร่มรื่น",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่บนถนนหนามแดง-บางพลี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-bo",
+      "province": "samut-prakan",
+      "name_th": "วัดบางบ่อ",
+      "name_en": "Wat Bang Bo",
+      "district_th": "บางบ่อ",
+      "description_th": "วัดประจำอำเภอบางบ่อ ประดิษฐานหลวงพ่อชาญ เกจิอาจารย์ชื่อดังผู้เป็นที่เคารพศรัทธาของชาวปะกัง",
+      "lat": 13.5852,
+      "lng": 100.8421,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดบางบ่อ",
+        "หลวงพ่อชาญ",
+        "เกจิอาจารย์",
+        "บางบ่อ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ศูนย์รวมจิตใจชาวอำเภอบางบ่อ กราบสักการะเกจิอาจารย์ชื่อดัง",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ในเขตเทศบาลตำบลบางบ่อ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-mueang-samut-prakan",
+      "province": "samut-prakan",
+      "name_th": "วัดพิชัยสงคราม",
+      "name_en": "Wat Pichai Songkhram",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "วัดเก่าแก่สมัยอยุธยาใกล้ปากน้ำ มีพระอุโบสถสถาปัตยกรรมโบราณและพระพุทธรูปหลวงพ่อใหญ่ศักดิ์สิทธิ์",
+      "lat": 13.5968,
+      "lng": 100.5985,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดโบราณ",
+        "ปากน้ำ",
+        "วัดพิชัยสงคราม"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "อุโบสถทรงคอกรวดสมัยอยุธยาใจกลางเมืองปากน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้วงเวียนท้ายบ้าน ปากน้ำ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-tri-thotsathep-samut-prakan",
+      "province": "samut-prakan",
+      "name_th": "วัดด่านสำโรง",
+      "name_en": "Wat Dan Samrong",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "วัดเก่าแก่ศูนย์รวมจิตใจของชาวด่านสำโรง มีพระอุโบสถสวยงามและหลวงพ่อปานจำลองให้กราบสักการะ",
+      "lat": 13.641,
+      "lng": 100.608,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดด่านสำโรง",
+        "ทำบุญ",
+        "สุขุมวิท113"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดชุมชนใหญ่บรรยากาศสงบ เหมาะแก่การทำบุญ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ในซอยสุขุมวิท 113 (วัดด่านสำโรง)",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-jak-samut-prakan",
+      "province": "samut-prakan",
+      "name_th": "วัดบางหญ้าแพรก",
+      "name_en": "Wat Bang Ya Phraek",
+      "district_th": "พระประแดง",
+      "description_th": "วัดริมแม่น้ำเจ้าพระยาฝั่งพระประแดง ประดิษฐานหลวงพ่อเสือศักดิ์สิทธิ์ และวิวแม่น้ำเจ้าพระยากว้างขวาง",
+      "lat": 13.6312,
+      "lng": 100.568,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดริมน้ำ",
+        "หลวงพ่อเสือ",
+        "พระประแดง"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "ชมวิวแม่น้ำเจ้าพระยาและกราบหลวงพ่อเสือองค์ศักดิ์สิทธิ์",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้นิคมอุตสาหกรรมปู่เจ้าสมิงพราย",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-khun-thian-samut-prakan",
+      "province": "samut-prakan",
+      "name_th": "วัดป่าเกต",
+      "name_en": "Wat Pa Ket",
+      "district_th": "พระประแดง",
+      "description_th": "วัดโบราณในเขตคุ้งบางกระเจ้า มีอุโบสถเก่าแก่สถาปัตยกรรมพระราชนิยมรัชกาลที่ 3 ลายปูนปั้นประณีตสวยงาม",
+      "lat": 13.6698,
+      "lng": 100.5482,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "บางกระเจ้า",
+        "วัดอยุธยา",
+        "รัชกาลที่3",
+        "พระประแดง"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ศิลปะปูนปั้นหน้าบันพระอุโบสถสมัยรัชกาลที่ 3 ทรงคุณค่า",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "อยู่ในพื้นที่เส้นทางท่องเที่ยวบางกระเจ้า",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "si-si-iam-temple",
+      "province": "samut-prakan",
+      "name_th": "วัดศรีเอี่ยม (ขอบเขตสมุทรปราการ)",
+      "name_en": "Wat Si Iam",
+      "district_th": "บางพลี",
+      "description_th": "วัดใหญ่ริมถนนบางนา-ตราด ประดิษฐานหลวงพ่อโตองค์ใหญ่ สถาปัตยกรรมพระอุโบสถทรงไทยจตุรมุขงามสง่า",
+      "lat": 13.665,
+      "lng": 100.6482,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดศรีเอี่ยม",
+        "หลวงพ่อโต",
+        "บางนาตราด",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "โบสถ์จตุรมุขงดงามตระการตา จุดทำบุญยอดนิยมทางออกบางนา",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่บริเวณสี่แยกศรีเอี่ยม ถนนบางนา-ตราด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sainoy-samut-prakan",
+      "province": "samut-prakan",
+      "name_th": "วัดสายน้อย สมุทรปราการ",
+      "name_en": "Wat Sai Noi",
+      "district_th": "บางบ่อ",
+      "description_th": "วัดสงบร่มรื่นริมคลองสำโรงในอำเภอบางบ่อ เหมาะกับการปฏิบัติธรรมและไหว้พระขอพร",
+      "lat": 13.568,
+      "lng": 100.825,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดริมคลอง",
+        "บางบ่อ",
+        "ความสงบ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "บรรยากาศวัดชนบทริมคลองสำโรงเงียบสงบ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอบางบ่อ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "central-village-outlets",
+      "province": "samut-prakan",
+      "name_th": "เซ็นทรัล วิลเลจ ลักชัวรี่ เอาท์เล็ต",
+      "name_en": "Central Village Luxury Outlet",
+      "district_th": "บางพลี",
+      "description_th": "ลักชัวรี่เอาท์เล็ตแห่งแรกในไทย ออกแบบสถาปัตยกรรมสไตล์ไทยโมเดิร์น รวมแบรนด์เนมชั้นนำระดับโลกใกล้นครสุวรรณภูมิ",
+      "lat": 13.6881,
+      "lng": 100.7512,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เอาท์เล็ต",
+        "แบรนด์เนม",
+        "สุวรรณภูมิ",
+        "ช็อปปิ้ง"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "ช็อปปิ้งแบรนด์เนมลดราคาพิเศษ ถ่ายรูปสถาปัตยกรรมไทยโมเดิร์นสวยงาม",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 4,
+        "budget": 2
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 150,
+      "nearby_booking_hint": "มี Shuttle Bus บริการรับส่งจากสนามบินสุวรรณภูมิและ BTS อุดมสุข",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.centralvillagebangkok.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "siam-premium-outlets-bangkok",
+      "province": "samut-prakan",
+      "name_th": "สยาม พรีเมี่ยม เอาท์เล็ต กรุงเทพฯ",
+      "name_en": "Siam Premium Outlets Bangkok",
+      "district_th": "บางเสาธง",
+      "description_th": "พรีเมี่ยมเอาท์เล็ตระดับโลกแห่งเดียวในไทย รวบรวมแบรนด์ไฮเอนด์ระดับลักชัวรี่ สวนน้ำพุ และร้านอาหารชื่อดัง",
+      "lat": 13.7012,
+      "lng": 100.8351,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พรีเมี่ยมเอาท์เล็ต",
+        "แบรนด์เนมไฮเอนด์",
+        "บางเสาธง",
+        "ช็อปปิ้ง"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "ประสบการณ์ช็อปปิ้งแบรนด์เนมระดับโลกพร้อมจุดถ่ายรูปสุดเก๋",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 4,
+        "budget": 2
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 150,
+      "nearby_booking_hint": "ตั้งอยู่บนกม. 23 ถนนมอเตอร์เวย์ กรุงเทพ-ชลบุรี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.siampremiumoutlets.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "bangkok-tree-house-viewpoint",
+      "province": "samut-prakan",
+      "name_th": "จุดชมวิวและคาเฟ่ต้นไม้ บางกอก ทรี เฮ้าส์",
+      "name_en": "Bangkok Tree House & River Viewpoint",
+      "district_th": "พระประแดง",
+      "description_th": "ที่พักและคาเฟ่อิโค่กรีนใจกลางป่าชายเลนบางกระเจ้า ออกแบบกลมกลืนกับธรรมชาติ พร้อมดาดฟ้าชมวิวแม่น้ำเจ้าพระยา 360 องศา",
+      "lat": 13.6812,
+      "lng": 100.578,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "บางกระเจ้า",
+        "คาเฟ่ต้นไม้",
+        "บ้านบนต้นไม้",
+        "วิวแม่น้ำ"
+      ],
+      "moods": [
+        "photo",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "จิบเครื่องดื่มบนดาดฟ้าไม้ท่ามกลางยอดไม้และวิวแม่น้ำเจ้าพระยา",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 4,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "15:00-18:30",
+      "opening_hours": "09:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เข้าถึงได้ทางปั่นจักรยานหรือเดินจากท่าเรือวัดบางน้ำผึ้งนอก",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-pradaeng-mon-culture",
+      "province": "samut-prakan",
+      "name_th": "ศูนย์วัฒนธรรมมอญ ปากลัด พระประแดง",
+      "name_en": "Pak Lat Mon Cultural Center",
+      "district_th": "พระประแดง",
+      "description_th": "แหล่งเรียนรู้และอนุรักษ์ศิลปวัฒนธรรมประเพณีของชาวไทยรามัญ (มอญ) พระประแดง จัดแสดงเสื้อผ้า เครื่องใช้ และประวัติศาสตร์",
+      "lat": 13.658,
+      "lng": 100.533,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัฒนธรรมมอญ",
+        "พระประแดง",
+        "ประวัติศาสตร์",
+        "วิถีชุมชน"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "เรียนรู้วัฒนธรรมมอญโบราณอันเป็นเอกลักษณ์ของอำเภอพระประแดง",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี (คึกคักช่วงสงกรานต์พระประแดง)",
+      "opening_hours": "08:30-16:30",
+      "closed_days": "วันเสาร์, วันอาทิตย์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้กับวัดทรงธรรมวรวิหาร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-san-chao-mueang-samut-prakan",
+      "province": "samut-prakan",
+      "name_th": "ศาลเจ้าพ่อเสือ บางครุ พระประแดง",
+      "name_en": "Bang Khru Chaopho Suea Shrine",
+      "district_th": "พระประแดง",
+      "description_th": "ศาลเจ้าจีนโบราณศักดิ์สิทธิ์ริมแม่น้ำเจ้าพระยา ผู้คนนิยมมา กราบขอพรตั่วเล่าเอี๊ย เสริมดวงแก้ปีชง",
+      "lat": 13.638,
+      "lng": 100.552,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ศาลเจ้าพ่อเสือ",
+        "แก้ปีชง",
+        "สายมู",
+        "พระประแดง"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "สถานที่ขอพรตั่วเล่าเอี๊ยและแก้ปีชงยอดนิยมของชาวพระประแดง",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลบางครุ อำเภอพระประแดง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-plee-noi",
+      "province": "samut-prakan",
+      "name_th": "วัดบางพลีน้อย",
+      "name_en": "Wat Bang Phli Noi",
+      "district_th": "บางบ่อ",
+      "description_th": "วัดชื่อดังแห่งอำเภอบางบ่อ มีพิพิธภัณฑ์พญาพญาพญานาคและเครื่องรางพญามัจจุราชพญามงคลอันเลื่องชื่อ",
+      "lat": 13.5681,
+      "lng": 100.8792,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดบางพลีน้อย",
+        "พิพิธภัณฑ์พญานาค",
+        "สายมู",
+        "บางบ่อ"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "สถาปัตยกรรมรูปปั้นพญานาคและพิพิธภัณฑ์วัตถุมงคลอันโดดเด่น",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-17:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ติดถนนเทพรัตน (บางนา-ตราด) กม. 33",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "sailom-bangpu-cafe",
+      "province": "samut-prakan",
+      "name_th": "สายลม บางปู (Sailom Bangpu)",
+      "name_en": "Sailom Bangpu",
+      "district_th": "เมืองสมุทรปราการ",
+      "description_th": "คาเฟ่และร้านอาหารริมทะเลตกแต่งด้วยเซรามิกและภาชนะดินเผา ดีไซน์รักษ์โลก พร้อมวิวอ่าวไทยสุดชิลและเครปกล้วยหอมในตำนาน",
+      "lat": 13.5412,
+      "lng": 100.6225,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สายลมบางปู",
+        "เครปกล้วยหอม",
+        "คาเฟ่ริมทะเล",
+        "เซรามิก"
+      ],
+      "moods": [
+        "photo",
+        "beach",
+        "food"
+      ],
+      "mood_reason": "ดีไซน์เซรามิกอาร์ตริมทะเล วิวพระอาทิตย์ตกดินและเครปกล้วยหอมอร่อยเลื่องชื่อ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "15:30-19:00",
+      "opening_hours": "11:00-21:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "มีโซนร้านอาหาร Afternoon Tea และสตูดิโอเซรามิกในบริเวณเดียวกัน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "sailom-bangpu-restaurant",
+      "province": "samut-prakan",
+      "name_th": "สายลม บางปู (ร้านอาหารซีฟู้ด)",
+      "name_en": "Sailom Bangpu Restaurant",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "เครปกล้วยหอม",
+        "ต้มยำโป๊ะแตกทะเล",
+        "ปลากะพงทอดน้ำปลา",
+        "กุ้งซอสมะขาม"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "บางปู เมืองสมุทรปราการ",
+      "lat": 13.5412,
+      "lng": 100.6225,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารซีฟู้ดสไตล์อาร์ตตกแต่งงานเซรามิกริมทะเลอ่าวไทย วิวพระอาทิตย์ตกสวยตระการตา",
+      "price_per_person_thb": {
+        "min": 300,
+        "max": 600
+      },
+      "opening_hours": "11:00-21:30",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice 2024"
+      ],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 2100,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "website": "https://www.facebook.com/SailomBangpu",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "rabang-mai-bangpu",
+      "province": "samut-prakan",
+      "name_th": "ระเบียงไม้ บางปู",
+      "name_en": "Rabiang Mai Bangpu",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "ปูไข่นึ่งนมสด",
+        "ต้มยำกุ้งแม่น้ำ",
+        "แกงส้มไข่ปลาเรียวเซียว",
+        "หอยจ๊อปูแปจิ๋ว"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "บางปู เมืองสมุทรปราการ",
+      "lat": 13.528,
+      "lng": 100.641,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารทะเลเรือนไม้ทอดยาวลงไปในทะเลป่าชายเลน บรรยากาศรับลมทะเลเย็นสบายสุดชิล",
+      "price_per_person_thb": {
+        "min": 350,
+        "max": 700
+      },
+      "opening_hours": "10:00-21:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.3,
+        "out_of": 5,
+        "count": 1200,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "mon-khlong-dan-seafood",
+      "province": "samut-prakan",
+      "name_th": "ร้านอาหาร มอญคลองด่าน",
+      "name_en": "Mon Khlong Dan Seafood",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "อาหารพื้นบ้านมอญ-ไทย"
+      ],
+      "signature_dishes_th": [
+        "กุ้งแชบ๊วยเผา",
+        "ปูทะเลผัดผงกะหรี่",
+        "แกงส้มปูไข่หน่อไม้ดอง",
+        "กุ้งเหยียด"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "คลองด่าน บางบ่อ",
+      "lat": 13.4985,
+      "lng": 100.801,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารทะเลสดใหม่วัตถุดิบตรงจากเรือประมงคลองด่าน รสชาติไทยจัดจ้านดั้งเดิม",
+      "price_per_person_thb": {
+        "min": 300,
+        "max": 600
+      },
+      "opening_hours": "10:00-20:30",
+      "closed_days": "วันจันทร์",
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 680,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pae-lee-coffee-100-years",
+      "province": "samut-prakan",
+      "name_th": "กาแฟแป๊ะหลี ตลาดคลองสวน 100 ปี",
+      "name_en": "Pae Lee Coffee 100 Years Market",
+      "kind": "cafe",
+      "cuisine_th": [
+        "กาแฟโบราณ",
+        "เครื่องดื่มโบราณ"
+      ],
+      "signature_dishes_th": [
+        "กาแฟโบราณสูตรแป๊ะหลี",
+        "ชาเย็นโบราณ",
+        "ไข่ลวก"
+      ],
+      "meals": [
+        "snack"
+      ],
+      "area_th": "ตลาดคลองสวน 100 ปี บางบ่อ",
+      "lat": 13.6625,
+      "lng": 100.9125,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ตำนานกาแฟโบราณกว่า 80 ปี ประจำตลาดคลองสวน ชงด้วยถุงชงผ้าชักแบบดั้งเดิม เอกลักษณ์ฉลากแป๊ะหลี",
+      "price_per_person_thb": {
+        "min": 30,
+        "max": 80
+      },
+      "opening_hours": "07:00-16:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 850,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-me-phrik-khlong-suan",
+      "province": "samut-prakan",
+      "name_th": "ร้านบ้านแม่พริก ตลาดคลองสวน",
+      "name_en": "Baan Mae Phrik Khlong Suan",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "ก๋วยเตี๋ยวโบราณ"
+      ],
+      "signature_dishes_th": [
+        "ก๋วยเตี๋ยวเป็ดตุ๋นยาจีน",
+        "ผัดไทยกุ้งสด",
+        "ขนมจุ๋ยก้วยโบราณ"
+      ],
+      "meals": [
+        "lunch"
+      ],
+      "area_th": "ตลาดคลองสวน 100 ปี บางบ่อ",
+      "lat": 13.6628,
+      "lng": 100.912,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารไทยริมคลองในตลาดคลองสวน เด่นเรื่องก๋วยเตี๋ยวเป็ดตุ๋นน้ำซุปหอมกลมกล่อม",
+      "price_per_person_thb": {
+        "min": 60,
+        "max": 150
+      },
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.3,
+        "out_of": 5,
+        "count": 320,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "morn-ban-sakhla-seafood",
+      "province": "samut-prakan",
+      "name_th": "ร้านกุ้งเหยียดป้าสุนทร บ้านสาขลา",
+      "name_en": "Pa Sunthon Kung Yiad Ban Sakhla",
+      "kind": "street_food",
+      "cuisine_th": [
+        "อาหารพื้นบ้านสมุทรปราการ",
+        "กุ้งเหยียด"
+      ],
+      "signature_dishes_th": [
+        "กุ้งเหยียดสูตรดั้งเดิม",
+        "ปูเค็มต้มหวาน",
+        "ปลาสลิดแดดเดียว"
+      ],
+      "meals": [
+        "snack",
+        "lunch"
+      ],
+      "area_th": "ชุมชนบ้านสาขลา พระสมุทรเจดีย์",
+      "lat": 13.5362,
+      "lng": 100.5288,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ต้นตำรับกุ้งเหยียดรสชาติหวานเค็มกลมกล่อม เปลือกกรอบทานได้ทั้งตัว ของฝากขึ้นชื่อที่สุดของบ้านสาขลา",
+      "price_per_person_thb": {
+        "min": 150,
+        "max": 300
+      },
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 410,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "bangkok-tree-house-restaurant",
+      "province": "samut-prakan",
+      "name_th": "ร้านอาหารและคาเฟ่ บางกอก ทรี เฮ้าส์",
+      "name_en": "Bangkok Tree House Restaurant",
+      "kind": "cafe",
+      "cuisine_th": [
+        "ไทยออร์แกนิก",
+        "ฟิวชั่น",
+        "กาแฟ"
+      ],
+      "signature_dishes_th": [
+        "มัสมั่นไก่สูตรโบราณ",
+        "เมี่ยงกลีบบัวออร์แกนิก",
+        "ชาสมุนไพรบางกระเจ้า",
+        "สมูทตี้ผลไม้สด"
+      ],
+      "meals": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "area_th": "บางกระเจ้า พระประแดง",
+      "lat": 13.6812,
+      "lng": 100.578,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารสไตล์ออร์แกนิกเน้นวัตถุดิบท้องถิ่น บรรยากาศบ้านบนต้นไม้ท่ามกลางธรรมชาติป่าชายเลน",
+      "price_per_person_thb": {
+        "min": 250,
+        "max": 500
+      },
+      "opening_hours": "09:00-18:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 980,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food",
+        "quiet",
+        "photo"
+      ],
+      "website": "http://www.bangkoktreehouse.com",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "sanphawut-seafood-bangna",
+      "province": "samut-prakan",
+      "name_th": "ร้านอาหารบ้านคุณแหม่ม ซีฟู้ด ปากน้ำ",
+      "name_en": "Baan Khun Mam Seafood Pak Nam",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "กุ้งแม่น้ำเผา",
+        "ปลากะพงนึ่งมะนาว",
+        "แกงส้มไข่ปลาเรียวเซียว",
+        "ผัดฉ่าทะเล"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "ปากน้ำ เมืองสมุทรปราการ",
+      "lat": 13.592,
+      "lng": 100.595,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารทะเลรสจัดจ้านดั้งเดิมใกล้ริมแม่น้ำเจ้าพระยา ปากน้ำ วัตถุดิบสดใหม่ราคามิตรภาพ",
+      "price_per_person_thb": {
+        "min": 250,
+        "max": 500
+      },
+      "opening_hours": "10:30-21:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.3,
+        "out_of": 5,
+        "count": 510,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khanom-chin-nam-ya-mae-buap",
+      "province": "samut-prakan",
+      "name_th": "ขนมจีนน้ำยาแม่บวบ บางพลี",
+      "name_en": "Mae Buap Khanom Chin Bang Phli",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ขนมจีน",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "ขนมจีนน้ำยาปลาแกะเข้มข้น",
+        "ขนมจีนเขียวหวานไก่",
+        "ขนมจีนน้ำพริก"
+      ],
+      "meals": [
+        "lunch"
+      ],
+      "area_th": "ตลาดโบราณบางพลี",
+      "lat": 13.6055,
+      "lng": 100.7062,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ขนมจีนน้ำยาสูตรโบราณข้นเข้มเนื้อปลาเน้นๆ ประจำตลาดบางพลี ขายมานานกว่า 40 ปี",
+      "price_per_person_thb": {
+        "min": 40,
+        "max": 90
+      },
+      "opening_hours": "08:00-15:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 290,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "hidden-woods-bang-krachao",
+      "province": "samut-prakan",
+      "name_th": "ฮิดเดน วูดส์ คาเฟ่ บางกระเจ้า (Hidden Woods)",
+      "name_en": "Hidden Woods Cafe Bang Krachao",
+      "kind": "cafe",
+      "cuisine_th": [
+        "กาแฟ",
+        "เบเกอรี่",
+        "ฟิวชั่น"
+      ],
+      "signature_dishes_th": [
+        "Dirty Coffee",
+        "Croissant สดอบใหม่",
+        "สปาเก็ตตี้พริกแห้งเบคอน"
+      ],
+      "meals": [
+        "snack",
+        "lunch"
+      ],
+      "area_th": "บางกระเจ้า พระประแดง",
+      "lat": 13.689,
+      "lng": 100.572,
+      "coords_source": "https://maps.google.com",
+      "description_th": "คาเฟ่ลับซ่อนตัวในป่าชายเลนริมแม่น้ำเจ้าพระยา ตกแต่งสไตล์มินิมอลกลมกลืนธรรมชาติ วิวดีสงบเงียบ",
+      "price_per_person_thb": {
+        "min": 120,
+        "max": 280
+      },
+      "opening_hours": "10:30-18:00",
+      "closed_days": "วันจันทร์, วันอังคาร",
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 650,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "quiet",
+        "photo"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "boon-tong-kee-mega-bangna",
+      "province": "samut-prakan",
+      "name_th": "บุญตงกี่ เมกาบางนา",
+      "name_en": "Boon Tong Kee Mega Bangna",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "จีน",
+        "ข้าวมันไก่สิงคโปร์"
+      ],
+      "signature_dishes_th": [
+        "ข้าวมันไก่บุญตงกี่",
+        "เต้าหู้ทอดสูตรบุญตงกี่",
+        "หมูกรอบสไตล์กวางตุ้ง"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "เมกาบางนา บางพลี",
+      "lat": 13.6468,
+      "lng": 100.68,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านข้าวมันไก่สิงคโปร์ระดับตำนาน เนื้อไก่นุ่มฉ่ำราดซอสซีอิ๊วสูตรเด็ดในศูนย์การค้าเมกาบางนา",
+      "price_per_person_thb": {
+        "min": 200,
+        "max": 400
+      },
+      "opening_hours": "10:00-21:30",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 820,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.boontongkeethailand.com",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "chok-chai-steamed-duck-bang-phli",
+      "province": "samut-prakan",
+      "name_th": "เป็ดพะโล้โชคชัย บางพลี",
+      "name_en": "Chok Chai Stewed Duck Bang Phli",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "เป็ดพะโล้",
+        "ไทย-จีน"
+      ],
+      "signature_dishes_th": [
+        "เป็ดพะโล้เนื้อนุ่ม",
+        "ก๋วยเตี๋ยวเป็ดพะโล้",
+        "ไส้เป็ดพะโล้กรอบ",
+        "เลือดเป็ดต้มยำ"
+      ],
+      "meals": [
+        "lunch"
+      ],
+      "area_th": "เทพารักษ์ บางพลี",
+      "lat": 13.612,
+      "lng": 100.695,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านเป็ดพะโล้เจ้าดังประจำอำเภอบางพลี น้ำพะโล้หอมกลมกล่อมเคี่ยวกลมกล่อมยาวนานกว่า 30 ปี",
+      "price_per_person_thb": {
+        "min": 80,
+        "max": 200
+      },
+      "opening_hours": "07:30-15:30",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 480,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "stays": [
+    {
+      "id": "bangkok-tree-house",
+      "province": "samut-prakan",
+      "name_th": "บางกอก ทรี เฮ้าส์",
+      "name_en": "Bangkok Tree House",
+      "type": "boutique",
+      "area_th": "บางกระเจ้า / พระประแดง",
+      "lat": 13.6812,
+      "lng": 100.578,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ที่พักบูทีคสไตล์อีโค่กรีนบนต้นไม้ริมแม่น้ำเจ้าพระยา สัมผัสความสงบเงียบท่ามกลางป่าชายเลนบางกระเจ้า",
+      "price_per_night_thb": {
+        "min": 2200,
+        "max": 4500
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.6,
+        "out_of": 10,
+        "count": 620,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "breakfast",
+        "free_wifi",
+        "workspace"
+      ],
+      "moods": [
+        "quiet",
+        "photo",
+        "beach"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "http://www.bangkoktreehouse.com",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com/bangkok-tree-house/hotel/bangkok-th.html",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "d-rivala-hotel-bangna",
+      "province": "samut-prakan",
+      "name_th": "โรงแรม ดี-ไรวาลา บางนา",
+      "name_en": "D-Rivala Hotel Bangna Suvarnabhumi",
+      "type": "hotel",
+      "area_th": "บางพลี / สุวรรณภูมิ",
+      "lat": 13.632,
+      "lng": 100.708,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมสไตล์โมเดิร์นห้องพักกว้างขวาง ใกล้เมกาบางนาและสนามบินสุวรรณภูมิ เดินทางสะดวกสบาย",
+      "price_per_night_thb": {
+        "min": 950,
+        "max": 1800
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.booking.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.3,
+        "out_of": 10,
+        "count": 450,
+        "source": "https://www.booking.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking",
+        "workspace"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": null,
+        "booking": "https://www.booking.com",
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.booking.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "le-meridien-suvarnabhumi-golf-resort",
+      "province": "samut-prakan",
+      "name_th": "เลอ เมอริเดียน สุวรรณภูมิ กอล์ฟ รีสอร์ท แอนด์ สปา",
+      "name_en": "Le Meridien Suvarnabhumi Bangkok Golf Resort & Spa",
+      "type": "resort",
+      "area_th": "บางพลี / บางนา-ตราด",
+      "lat": 13.6335,
+      "lng": 100.698,
+      "coords_source": "https://maps.google.com",
+      "description_th": "รีสอร์ตรักษาความพรีเมียมระดับ 5 ดาว บนสนามกอล์ฟซัมมิทวิลมิลล์ สระว่ายน้ำริมสวน และสปาครบวงจร",
+      "price_per_night_thb": {
+        "min": 4200,
+        "max": 8500
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.marriott.com",
+      "tier": "comfy",
+      "rating": {
+        "score": 8.9,
+        "out_of": 10,
+        "count": 890,
+        "source": "https://www.booking.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "family",
+        "workspace"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "website": "https://www.marriott.com",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": "https://www.booking.com",
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.marriott.com",
+        "https://www.booking.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "rim-khlong-resort-bangpu",
+      "province": "samut-prakan",
+      "name_th": "ริมคลอง รีสอร์ท บางปู",
+      "name_en": "Rim Khlong Resort Bangpu",
+      "district_th": "เมืองสมุทรปราการ",
+      "type": "resort",
+      "area_th": "บางปู / เมืองสมุทรปราการ",
+      "lat": 13.528,
+      "lng": 100.652,
+      "coords_source": "https://maps.google.com",
+      "description_th": "รีสอร์ตบรรยากาศสงบเงียบติดริมน้ำบางปู ใกล้สถานตากอากาศบางปู เหมาะสำหรับพักผ่อนตากอากาศยามพรบค่ำ",
+      "price_per_night_thb": {
+        "min": 800,
+        "max": 1500
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 7.9,
+        "out_of": 10,
+        "count": 280,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking"
+      ],
+      "moods": [
+        "quiet",
+        "beach"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "amantara-hotel-and-residence-phra-pradaeng",
+      "province": "samut-prakan",
+      "name_th": "อมันตารา โฮเทล แอนด์ เรสซิเดนซ์ พระประแดง",
+      "name_en": "Amantara Hotel & Residence Phra Pradaeng",
+      "type": "hotel",
+      "area_th": "พระประแดง",
+      "lat": 13.655,
+      "lng": 100.538,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมสไตล์ร่วมสมัยใกล้วงแหวนอุตสาหกรรมและสะพานภูมิพล สะดวกสบายสำหรับการพักผ่อนเชิงธุรกิจและท่องเที่ยว",
+      "price_per_night_thb": {
+        "min": 1100,
+        "max": 2000
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.1,
+        "out_of": 10,
+        "count": 340,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking",
+        "workspace"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "micro-stay-suvarnabhumi",
+      "province": "samut-prakan",
+      "name_th": "ไมโครสเตย์ สุวรรณภูมิ",
+      "name_en": "Micro Stay Suvarnabhumi",
+      "type": "hotel",
+      "area_th": "บางพลี / กิ่งแก้ว",
+      "lat": 13.705,
+      "lng": 100.712,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมขนาดกะทัดรัดสะอาดปลอดภัยบนถนนกิ่งแก้ว เหมาะกับการพักรอต่อเครื่องบินสนามบินสุวรรณภูมิ",
+      "price_per_night_thb": {
+        "min": 700,
+        "max": 1200
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.4,
+        "out_of": 10,
+        "count": 510,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking",
+        "near_transit"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    }
+  ]
+}

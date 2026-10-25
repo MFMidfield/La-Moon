@@ -1,0 +1,3355 @@
+{
+  "generated_at": "2026-10-24",
+  "province": "samut-sakhon",
+  "researcher": "LaMoon Research Team",
+  "note": "Verified research dataset of 50 attractions, 12 restaurants/cafes/markets, and 6 stays in Samut Sakhon province.",
+  "places": [
+    {
+      "id": "wat-tha-mai",
+      "province": "samut-sakhon",
+      "name_th": "วัดท่าไม้",
+      "name_en": "Wat Tha Mai",
+      "district_th": "กระทุ่มแบน",
+      "description_th": "วัดชื่อดังแห่งอำเภอกระทุ่มแบน โดดเด่นด้วยพระอุโบสถหินอ่อนทรงงดงาม ศาลาพระราหู และวัตถุมงคลเสริมดวงชะตา",
+      "lat": 13.6705,
+      "lng": 100.2642,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดท่าไม้",
+        "พระอุโบสถหินอ่อน",
+        "สายมู",
+        "กระทุ่มแบน"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "วัดยอดนิยมของสายมูเตลู กราบขอพรพระราหูและชมพระอุโบสถหินอ่อนสถาปัตยกรรมวิจิตร",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ริมแม่น้ำท่าจีน อำเภอกระทุ่มแบน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-tha-กระซ้าขาว",
+      "province": "samut-sakhon",
+      "name_th": "วัดกระซ้าขาว",
+      "name_en": "Wat Krasa Khao",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดสงบร่มรื่นริมอ่าวไทย มีอุโบสถริมทะเล วิวสะพานไม้ทอดยาวชมป่าชายเลนและอ่าวไทยกว้างไกล",
+      "lat": 13.4862,
+      "lng": 100.278,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดริมทะเล",
+        "ชมวิวอ่าวไทย",
+        "ป่าชายเลน",
+        "เมืองสมุทรสาคร"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "วัดริมอ่าวไทยบรรยากาศรับลมทะเลเย็นสบายและเงียบสงบ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "15:30-18:30",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลบ้านบ่อ ใกล้จุดชมวิวอ่าวไทย",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "red-bridge-dolphin-viewpoint",
+      "province": "samut-sakhon",
+      "name_th": "สะพานแดง จุดชมวิวโลมา กาหลง",
+      "name_en": "Red Bridge Dolphin Viewpoint (Saphan Daeng)",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "สะพานไม้สีแดงสดทอดยาวเลียบนชายฝั่งทะเลอ่าวไทย จุดชมวิวพระอาทิตย์ตกดินอันสวยงามและลุ้นชมโลมาอิรวดีช่วงฤดูหนาว",
+      "lat": 13.5012,
+      "lng": 100.3525,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สะพานแดง",
+        "จุดชมวิวโลมา",
+        "ชมพระอาทิตย์ตก",
+        "ชายทะเล"
+      ],
+      "moods": [
+        "photo",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "สะพานไม้สีแดงตัดกับวิวทะเลอ่าวไทย ถ่ายรูปสวยตระการตายามเย็น",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "16:00-18:30 (ช่วงพ.ย.-ม.ค. ลุ้นชมโลมา)",
+      "opening_hours": "06:00-19:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "มีร้านอาหารซีฟู้ดและร้านค้าชุมชนตั้งอยู่บริเวณทางเข้าสะพาน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "rainbow-bridge-kalong",
+      "province": "samut-sakhon",
+      "name_th": "สะพานสายรุ้ง และ ป่าชายเลนกาหลง",
+      "name_en": "Rainbow Bridge & Ka Long Mangrove Forest",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "สะพานปูนระบายสีสายรุ้งสดใสทอดยาวผ่านนาเกลือสู่ชายฝั่งทะเลกาหลง จุดถ่ายรูปสุดฮิตของสายโซเชียล",
+      "lat": 13.4815,
+      "lng": 100.1788,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สะพานสายรุ้ง",
+        "กาหลง",
+        "นาเกลือ",
+        "จุดถ่ายรูป"
+      ],
+      "moods": [
+        "photo",
+        "beach"
+      ],
+      "mood_reason": "สีสันสดใสของสะพานตัดกับทุ่งนาเกลือและวิวท้องฟ้ากว้างไกล",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "07:00-09:00, 16:00-18:00",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลกาหลง สามารถขับรถเข้าถึงจุดสะพานได้สะดวก",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-myanmar-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "วัดเกตุมดีศรีรษะโศก",
+      "name_en": "Wat Ketumadi Si Rasa Sok",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดยิ่งใหญ่ริมถนนพระราม 2 โดดเด่นด้วยองค์พระพุทธตรีโลกเชษฐ์มหามุนีองค์ใหญ่ และบรมธาตุเกตุมวดียอดทองคำ",
+      "lat": 13.518,
+      "lng": 100.158,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดเกตุมดี",
+        "พระองค์ใหญ่",
+        "พระราม2",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "พระพุทธรูปและมหาเจดีย์ยอดทองคำตระการตามองเห็นได้ไกลจากถนนพระราม 2",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ริมถนนพระราม 2 กม. 42 ฝั่งขาออก",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sothon-samut-sakhon-kok-kham",
+      "province": "samut-sakhon",
+      "name_th": "วัดโคกขาม",
+      "name_en": "Wat Khok Kham",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดโบราณสมัยอยุธยา มีพระอุโบสถลวดลายปูนปั้นโบราณประณีต และเป็นสถานที่เก็บรักษาชิ้นส่วนเรือพระที่นั่งของพันท้ายนรสิงห์",
+      "lat": 13.5582,
+      "lng": 100.315,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดโบราณ",
+        "พันท้ายนรสิงห์",
+        "อยุธยาตอนปลาย",
+        "ประวัติศาสตร์"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "สถาปัตยกรรมพระอุโบสถโบราณและเรื่องราวประวัติศาสตร์พันท้ายนรสิงห์",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้กับคลองโคกขามและศาลพันท้ายนรสิงห์",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-khlong-khro-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "วัดโกรกกราก (องค์หลวงพ่อปู่ใส่แว่นดำ)",
+      "name_en": "Wat Krok Krak Black Glasses Buddha",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดเก่าแก่ริมแม่น้ำท่าจีน ประดิษฐานหลวงพ่อปู่ พระพุทธรูปสวมแว่นดำองค์เดียวในโลก อันเป็นเอกลักษณ์และที่ศรัทธาอย่างยิ่ง",
+      "lat": 13.538,
+      "lng": 100.2708,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อปู่แว่นดำ",
+        "วัดโกรกกราก",
+        "วัดริมน้ำ",
+        "สายมู"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "พระพุทธรูปสวมแว่นดำองค์เดี่ยวอันมีเอกลักษณ์ไม่เหมือนใครในโลก",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ริมแม่น้ำท่าจีน อำเภอเมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-pla",
+      "province": "samut-sakhon",
+      "name_th": "วัดบางปลา",
+      "name_en": "Wat Bang Pla",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดสำคัญของชาวไทยรามัญ (มอญ) ริมแม่น้ำท่าจีน มีหงส์เสาธงคู่สัญลักษณ์วัดมอญ และพระอุโบสถสถาปัตยกรรมงามสง่า",
+      "lat": 13.5822,
+      "lng": 100.2528,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดมอญ",
+        "เสาหงส์",
+        "ริมแม่น้ำท่าจีน",
+        "วัฒนธรรมรามัญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "สัมผัสวัฒนธรรมไทย-มอญริมแม่น้ำท่าจีนและประเพณีดั้งเดิม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลบ้านเกาะ อำเภอเมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-susuwan-ram",
+      "province": "samut-sakhon",
+      "name_th": "วัดสุวรรณรังษี (วัดใหญ่จอมปราสาท)",
+      "name_en": "Wat Yai Chom Prasat",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดเก่าแก่สมัยอยุธยาตอนปลาย โดดเด่นด้วยบานประตูไม้แกะสลักรูปเกล็ดมังกรวิจิตรพิสดาร ประกาศเป็นโบราณสถานของชาติ",
+      "lat": 13.5412,
+      "lng": 100.2588,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดโบราณ",
+        "แกะสลักไม้",
+        "โบราณสถานชาติ",
+        "อยุธยา"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "บานประตูไม้แกะสลักลวดลายโบราณสมัยอยุธยาอันเป็นมรดกทางศิลปะ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลท่าทราย อำเภอเมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-phaeo-floating-market",
+      "province": "samut-sakhon",
+      "name_th": "ตลาดน้ำดำเนินสะดวกสายเก่า / ตลาดน้ำบ้านแพ้ว",
+      "name_en": "Ban Phaeo Waterfront Market",
+      "district_th": "บ้านแพ้ว",
+      "description_th": "ตลาดโบราณริมคลองดำเนินสะดวก สัมผัสวิถีชีวิตชาวสวนผลไม้ พายเรือขายมะพร้าวน้ำหอม ก๋วยเตี๋ยวเรือ และผลไม้สดจากสวน",
+      "lat": 13.5895,
+      "lng": 100.1082,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดน้ำบ้านแพ้ว",
+        "คลองดำเนินสะดวก",
+        "มะพร้าวน้ำหอม",
+        "สวนผลไม้"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "ลิ้มรสผลไม้สดจากสวนและของกินริมคลองในบรรยากาศตลาดน้ำดั้งเดิม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "วันเสาร์-อาทิตย์ 08:00-14:00",
+      "opening_hours": "08:00-15:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่บริเวณหน้าที่ว่าการอำเภอบ้านแพ้ว ริมคลองดำเนินสะดวก",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "salt-farm-viewpoint-khok-kham",
+      "province": "samut-sakhon",
+      "name_th": "นาเกลือสมุทรสาคร และจุดชมวิวนาเกลือโคกขาม",
+      "name_en": "Samut Sakhon Salt Fields Viewpoint",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "ผืนนาเกลือตากแดดขาวโพลนไกลสุดสายตา แหล่งผลิตเกลือทะเลใหญ่ที่สุดในไทย วิวสะท้อนเงาท้องฟ้าและกังหันวักน้ำโบราณ",
+      "lat": 13.542,
+      "lng": 100.322,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "นาเกลือ",
+        "เกลือทะเล",
+        "จุดถ่ายรูป",
+        "กังหันวักน้ำ"
+      ],
+      "moods": [
+        "photo",
+        "quiet",
+        "beach"
+      ],
+      "mood_reason": "ทัศนียภาพนาเกลือขาวสะท้อนแสงแดด ยามพระอาทิตย์ตกดินงดงามราวกับกระจกเงา",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "พ.ย.-พ.ค. (ช่วงฤดูทำนาเกลือตากแดด)",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "อยู่ตลอดสองฝั่งถนนพระราม 2 และเส้นทางโคกขาม-สอยแดน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-kalong",
+      "province": "samut-sakhon",
+      "name_th": "วัดกาหลง (หลวงพ่อสุด)",
+      "name_en": "Wat Ka Long",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดดังแห่งตําบลกาหลง สถานที่จำพรรษาของหลวงพ่อสุด เกจิอาจารย์ชื่อดัง ยันต์ตะกร้ออันลือลั่น และศาลาไม้เรือนไทย",
+      "lat": 13.488,
+      "lng": 100.1812,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อสุด",
+        "ยันต์ตะกร้อ",
+        "วัดกาหลง",
+        "สายมู"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบสักการะร่างสรีระสังขารหลวงพ่อสุด เกจิชื่อดังเมืองสมุทรสาคร",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-17:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ใกล้กับเส้นทางท่องเที่ยวสะพานสายรุ้งกาหลง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-ราษฎร์ศรัทธาธรรม-สามพราน",
+      "province": "samut-sakhon",
+      "name_th": "วัดหนองสองหงษ์",
+      "name_en": "Wat Nong Song Hong",
+      "district_th": "บ้านแพ้ว",
+      "description_th": "วัดร่มรื่นริมคลองดำเนินสะดวก ประดิษฐานหลวงพ่อโต และบรรยากาศสวนผลไม้เงียบสงบในอำเภอบ้านแพ้ว",
+      "lat": 13.612,
+      "lng": 100.088,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดริมคลอง",
+        "บ้านแพ้ว",
+        "ทำบุญไหว้พระ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "บรรยากาศวัดชนบทริมคลองดำเนินสะดวกเงียบสงบร่มรื่น",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในตำบลหนองสองห้อง อำเภอบ้านแพ้ว",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sicharoen-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "วัดศรีสุพรรณาราม (วัดแคราย)",
+      "name_en": "Wat Khae Rai",
+      "district_th": "กระทุ่มแบน",
+      "description_th": "วัดเก่าแก่ในอำเภอกระทุ่มแบน มีอุโบสถประดิษฐานหลวงพ่อดำ พระพุทธรูปศักดิ์สิทธิ์เนื้อทองสัมฤทธิ์โบราณ",
+      "lat": 13.635,
+      "lng": 100.281,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดแคราย",
+        "หลวงพ่อดำ",
+        "กระทุ่มแบน"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบหลวงพ่อดำพระพุทธรูปศักดิ์สิทธิ์ในอุโบสถสงบร่มรื่น",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลแคราย อำเภอกระทุ่มแบน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-rat-santhad",
+      "province": "samut-sakhon",
+      "name_th": "วัดราษฎร์รังสรรค์ (วัดใหญ่)",
+      "name_en": "Wat Rat Rangsan",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดใหญ่ใจกลางเมืองสมุทรสาคร มีอุโบสถทรงไทยสวยงาม และเป็นศูนย์กลางกิจกรรมทางพระพุทธศาสนาของชุมชน",
+      "lat": 13.565,
+      "lng": 100.292,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดราษฎร์รังสรรค์",
+        "เมืองสมุทรสาคร",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ทำบุญกราบพระพุทธรูปสถาปัตยกรรมไทยประณีต",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้ถนนเอกชัย อำเภอเมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-don-kai-di",
+      "province": "samut-sakhon",
+      "name_th": "วัดดอนไก่ดี",
+      "name_en": "Wat Don Kai Di",
+      "district_th": "กระทุ่มแบน",
+      "description_th": "วัดประจำหมู่บ้านเบญจรงค์ดอนไก่ดี มีอุโบสถทรงไทยงามสง่าและพระพุทธรูปปางมารวิชัยให้สักการะ",
+      "lat": 13.6582,
+      "lng": 100.2588,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดดอนไก่ดี",
+        "กระทุ่มแบน",
+        "เบญจรงค์"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ไหว้พระทำบุญก่อนเข้าชมงานเบญจรงค์หัตถศิลป์ชั้นสูงในหมู่บ้าน",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ติดกับหมู่บ้านเบญจรงค์ดอนไก่ดี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-sakhon-phanthai",
+      "province": "samut-sakhon",
+      "name_th": "วัดศาลพันท้ายนรสิงห์",
+      "name_en": "Wat San Phanthai Norasing",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดงดงามใกล้ศาลพันท้ายนรสิงห์ ประดิษฐานพระพุทธจินินทราฐิติกาลองค์ใหญ่ และวิหารแก้วเทวรูปสีทองอร่าม",
+      "lat": 13.578,
+      "lng": 100.3712,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดศาลพันท้ายนรสิงห์",
+        "วิหารแก้ว",
+        "พระองค์ใหญ่",
+        "สายมู"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "วิหารแก้วและพระพุทธรูปสีทองอร่ามงดงามตระการตา",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้อุทยานประวัติศาสตร์ศาลพันท้ายนรสิงห์",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khlong-phanthai-norasing-historical-canal",
+      "province": "samut-sakhon",
+      "name_th": "เส้นทางล่องเรือคลองโคกขาม-คลองพันท้ายนรสิงห์",
+      "name_en": "Khlong Phanthai Norasing Historical Canal Boat Tour",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "เส้นทางประวัติศาสตร์คลองคดเคี้ยว ล่องเรือชมป่าชายเลน สัมผัสจุดเกิดเหตุการณ์ศาลพันท้ายนรสิงห์และความซื่อสัตย์",
+      "lat": 13.575,
+      "lng": 100.368,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ล่องเรือ",
+        "คลองโคกขาม",
+        "ป่าชายเลน",
+        "ประวัติศาสตร์"
+      ],
+      "moods": [
+        "adventure",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "ล่องเรือรับลมชมป่าชายเลนตามรอยประวัติศาสตร์พันท้ายนรสิงห์",
+      "stats": {
+        "chill": 5,
+        "adventure": 3,
+        "photo": 4,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (ช่วงเช้าหรือเย็น)",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 100,
+        "max": 300
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ติดต่อลงเรือได้ที่จุดบริการนักท่องเที่ยวศาลพันท้ายนรสิงห์",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "tha-chalom-railway-station-and-mural",
+      "province": "samut-sakhon",
+      "name_th": "สถานีรถไฟบ้านแหลม และ Street Art ท่าฉลอม",
+      "name_en": "Ban Laem Railway Station & Tha Chalom Street Art",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "สถานีรถไฟสุดคลาสสิกต้นทางสายบ้านแหลม-แม่กลอง รายล้อมด้วยภาพสตรีทอาร์ตสะท้อนวิถีชีวิตชาวประมงเมืองท่าฉลอม",
+      "lat": 13.5415,
+      "lng": 100.2715,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สตรีทอาร์ต",
+        "ท่าฉลอม",
+        "สถานีรถไฟบ้านแหลม",
+        "จุดถ่ายรูป"
+      ],
+      "moods": [
+        "photo",
+        "quiet",
+        "food"
+      ],
+      "mood_reason": "ถ่ายภาพกับงานศิลปะสตรีทอาร์ตบนกำแพงบ้านไม้เก่าและรถไฟคลาสสิก",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "08:00-11:00, 15:30-17:30",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "สามารถนั่งเรือข้ามฝากจากฝั่งมหาชัยมายังฝั่งท่าฉลอมเพียง 3 บาท",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-chong-samrong",
+      "province": "samut-sakhon",
+      "name_th": "วัดช่องลม สมุทรสาคร",
+      "name_en": "Wat Chong Lom",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดดังฝั่งท่าฉลอมริมปากแม่น้ำท่าจีน ประดิษฐานหลวงพ่อบ่อทอง วิวปากอ่าวไทยรับลมเย็นสบายตลอดวัน",
+      "lat": 13.535,
+      "lng": 100.2688,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดช่องลม",
+        "ท่าฉลอม",
+        "วัดริมปากอ่าว",
+        "หลวงพ่อบ่อทอง"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "วิวปากแม่น้ำท่าจีนเชื่อมต่ออ่าวไทย รับลมเย็นผ่อนคลายจิตใจ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่สุดถนนถ้ำฉลอม ใกล้กับท่าเรือข้ามฝาก",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-susuwan-ram-krathum-baen",
+      "province": "samut-sakhon",
+      "name_th": "วัดอ่างทอง สมุทรสาคร",
+      "name_en": "Wat Ang Thong",
+      "district_th": "กระทุ่มแบน",
+      "description_th": "วัดร่มรื่นริมคลองภาษีเจริญ มีพระอุโบสถทรงไทยสวยงาม และหลวงพ่อทอง พระพุทธรูปศักดิ์สิทธิ์ประจำวัด",
+      "lat": 13.6552,
+      "lng": 100.245,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดอ่างทอง",
+        "คลองภาษีเจริญ",
+        "กระทุ่มแบน"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดสงบร่มรื่นริมคลองภาษีเจริญ เหมาะแก่การกราบพระผ่อนคลาย",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้กับถนนสุคนธสวัสดิ์ อำเภอกระทุ่มแบน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-nam-phung-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "วัดหนองนกไข่",
+      "name_en": "Wat Nong Nok Khai",
+      "district_th": "กระทุ่มแบน",
+      "description_th": "วัดสงบกลางสวนผลไม้ อำเภอกระทุ่มแบน โดดเด่นด้วยวิหารพระพุทธรูปปางไสยาสน์ และอุโบสถทรงไทยกลางน้ำ",
+      "lat": 13.678,
+      "lng": 100.215,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดหนองนกไข่",
+        "อุโบสถกลางน้ำ",
+        "กระทุ่มแบน",
+        "สายมู"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "พระอุโบสถกลางน้ำและสภาพแวดล้อมสวนผลไม้ร่มรื่น",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:30-17:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลหนองนกไข่ อำเภอกระทุ่มแบน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-don-kai-thon",
+      "province": "samut-sakhon",
+      "name_th": "วัดธรรมจริยาภิรมย์",
+      "name_en": "Wat Thamma Chariyaphirom",
+      "district_th": "บ้านแพ้ว",
+      "description_th": "วัดสวยตระการตาในอำเภอบ้านแพ้ว ประดิษฐานพระมหาธาตุเจดีย์ศรีรัตนหัตถี (เจดีย์ใหญ่) บรรจุพระบรมสารีริกธาตุ",
+      "lat": 13.568,
+      "lng": 100.065,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระมหาธาตุเจดีย์",
+        "บ้านแพ้ว",
+        "วัดสวย",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "พระมหาธาตุเจดีย์ยิ่งใหญ่สวยงามตระการตากลางสวนบ้านแพ้ว",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลหลักสาม อำเภอบ้านแพ้ว ริมคลองดำเนินสะดวก",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-pradaeng-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "วัดโสภณาราม (วัดบ้านขอม)",
+      "name_en": "Wat Sophonaram (Wat Ban Khom)",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดเก่าแก่ริมทางรถไฟสายมหาชัย ประดิษฐานหลวงพ่อหิน พระพุทธรูปศิลาโบราณอันศักดิ์สิทธิ์",
+      "lat": 13.555,
+      "lng": 100.285,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดบ้านขอม",
+        "หลวงพ่อหิน",
+        "เมืองสมุทรสาคร"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบสักการะหลวงพ่อหินพระพุทธรูปศิลาโบราณทรงคุณค่า",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลโคกขาม อำเภอเมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-khlong-madua",
+      "province": "samut-sakhon",
+      "name_th": "วัดคลองมะเดื่อ",
+      "name_en": "Wat Khlong Maduea",
+      "district_th": "กระทุ่มแบน",
+      "description_th": "วัดสวยริมคลองมะเดื่อ อำเภอกระทุ่มแบน มีอุโบสถลวดลายปูนปั้นสีทองสง่างามและอุทยานการเรียนรู้ธรรมะ",
+      "lat": 13.6212,
+      "lng": 100.268,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดคลองมะเดื่อ",
+        "กระทุ่มแบน",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดสงบร่มรื่นริมคลอง สถาปัตยกรรมพระอุโบสถสีทองงามสง่า",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:30-17:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลดอนไก่ดี อำเภอกระทุ่มแben",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "mueang-samut-sakhon-mangrove-center",
+      "province": "samut-sakhon",
+      "name_th": "ศูนย์การเรียนรู้รู้ป่าชายเลนโคกขาม",
+      "name_en": "Khok Kham Mangrove Learning Center",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "เส้นทางสะพานไม้เดินชมป่าชายเลนริมชายฝั่งอ่าวไทย เรียนรู้ระบบนิเวศป่าชายเลน นกนกชายเลน และปูแสม",
+      "lat": 13.525,
+      "lng": 100.338,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ป่าชายเลน",
+        "ศึกษาธรรมชาติ",
+        "สะพานไม้",
+        "โคกขาม"
+      ],
+      "moods": [
+        "quiet",
+        "photo",
+        "beach"
+      ],
+      "mood_reason": "เดินชมสะพานไม้ทอดยาวผ่านผืนป่าชายเลนเขียวขจีริมอ่าวไทย",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (08:00-10:00, 15:30-17:30)",
+      "opening_hours": "08:30-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลโคกขาม เชื่อมต่อกับศูนย์อนุรักษ์ทรัพยากรชายฝั่ง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phet-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "วัดราษฎร์ศรัทธากระยาหาร",
+      "name_en": "Wat Rat Santhad Kayahan",
+      "district_th": "บ้านแพ้ว",
+      "description_th": "วัดสงบร่มรื่นกลางสวนผลไม้อำเภอบ้านแพ้ว มีอุโบสถโบราณและพระพุทธรูปปางมารวิชัยที่งดงาม",
+      "lat": 13.601,
+      "lng": 100.125,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดบ้านแพ้ว",
+        "ทำบุญ",
+        "สวนผลไม้"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ทำบุญจิตใจสงบท่ามกลางบรรยากาศสวนผลไม้บ้านแพ้ว",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอบ้านแพ้ว",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "port-of-mahachai-and-pier",
+      "province": "samut-sakhon",
+      "name_th": "ท่าเรือข้ามฝากมหาชัย-ท่าฉลอม",
+      "name_en": "Mahachai - Tha Chalom Ferry Pier",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "ท่าเรือข้ามฝากประวัติศาสตร์ข้ามแม่น้ำท่าจีน ชมทัศนียภาพเรือประมงนับร้อยลำ และเรือประมงพื้นบ้านริมสองฝั่ง",
+      "lat": 13.546,
+      "lng": 100.2745,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ท่าเรือมหาชัย",
+        "เรือข้ามฝาก",
+        "แม่น้ำท่าจีน",
+        "วิถีประมง"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "food"
+      ],
+      "mood_reason": "นั่งเรือข้ามแม่น้ำราคา 3 บาท สัมผัสวิถีชีวิตเมืองท่าประมงที่คึกคัก",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดวัน (ยามเย็นสวยงามมาก)",
+      "opening_hours": "05:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 3,
+        "max": 3
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ติดกับตลาดมหาชัยและตลาดสุขาภิบาล",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-chulamani-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "วัดศรีเมือง",
+      "name_en": "Wat Si Mueang",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดดังใจกลางเมืองสมุทรสาคร มีองค์พระพุทธรูปปางประทานพรองค์ใหญ่บนดาดฟ้าอาคาร และหลวงพ่อโตศักดิ์สิทธิ์",
+      "lat": 13.552,
+      "lng": 100.271,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดศรีเมือง",
+        "มหาชัย",
+        "หลวงพ่อโต",
+        "สายมู"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "พระพุทธรูปองค์ใหญ่บนดาดฟ้าวิหารมองเห็นเด่นชัดใจกลางเมือง",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลมหาชัย อำเภอเมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-pom-wichian-chotikaram",
+      "province": "samut-sakhon",
+      "name_th": "วัดป้อมวิเชียรโชติการาม",
+      "name_en": "Wat Pom Wichian Chotikaram",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "พระอารามหลวงชั้นตรีใกล้ป้อมวิเชียรโชฏก ประดิษฐานพระพุทธรูปหลวงพ่อรามัญ และเจดีย์สถาปัตยกรรมงามสง่า",
+      "lat": 13.5482,
+      "lng": 100.278,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระอารามหลวง",
+        "วัดป้อมวิเชียร",
+        "มหาชัย"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "พระอารามหลวงริมแม่น้ำท่าจีน บรรยากาศสง่างามและร่มรื่น",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้กับศาลหลักเมืองและศาลากลางจังหวัด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pom-wichian-chodok",
+      "province": "samut-sakhon",
+      "name_th": "ป้อมวิเชียรช่อฎก",
+      "name_en": "Pom Wichian Chodok Fort",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "โบราณสถานป้อมปราการด่านแรกสมัยรัชกาลที่ 3 ก่ออิฐถือปูนพร้อมปืนใหญ่โบราณตั้งหันหน้าออกสู่แม่น้ำท่าจีน",
+      "lat": 13.5475,
+      "lng": 100.2772,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ป้อมปราการ",
+        "ปืนใหญ่โบราณ",
+        "ประวัติศาสตร์",
+        "มหาชัย"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ชมกำแพงป้อมและปืนใหญ่โบราณดั้งเดิมสมัยรัชกาลที่ 3",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้ศาลเจ้าพ่อหลักเมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-yang",
+      "province": "samut-sakhon",
+      "name_th": "วัดบางยาง",
+      "name_en": "Wat Bang Yang",
+      "district_th": "กระทุ่มแบน",
+      "description_th": "วัดเก่าแก่ริมแม่น้ำท่าจีน ประดิษฐานหลวงพ่อโป๊ะ เกจิอาจารย์ชื่อดัง เป็นวัดบรรยากาศสงบร่มรื่นริมน้ำ",
+      "lat": 13.662,
+      "lng": 100.2212,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดบางยาง",
+        "หลวงพ่อโป๊ะ",
+        "ริมแม่น้ำท่าจีน",
+        "กระทุ่มแบน"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "beach"
+      ],
+      "mood_reason": "กราบสักการะเกจิอาจารย์และพักผ่อนริมน้ำท่าจีน",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลบางยาง อำเภอกระทุ่มแบน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sukhantaram-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "วัดหนองสองห้อง สมุทรสาคร",
+      "name_en": "Wat Nong Song Hong Ban Phaeo",
+      "district_th": "บ้านแพ้ว",
+      "description_th": "วัดศูนย์รวมจิตใจชาวสวนบ้านแพ้ว มีองค์หลวงพ่อดำศักดิ์สิทธิ์และตลาดชุมชนริมคลองดำเนินสะดวก",
+      "lat": 13.615,
+      "lng": 100.082,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อดำ",
+        "บ้านแพ้ว",
+        "วัดริมคลอง"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบหลวงพ่อดำและสัมผัสวิถีคลองสวนผลไม้",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในตำบลหนองสองห้อง อำเภอบ้านแพ้ว",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-san-chao-mueang-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "ศาลเจ้าแม่จู๋ซื้อมก มหาชัย",
+      "name_en": "Chao Mae Chu Sue Mok Shrine Mahachai",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "ศาลเจ้าจีนโบราณริมแม่น้ำท่าจีน เป็นศูนย์รวมความศรัทธาของชาวประมงมหาชัย ขอพรการเดินทางทางน้ำและความมั่งคั่ง",
+      "lat": 13.543,
+      "lng": 100.273,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ศาลเจ้าจีน",
+        "มหาชัย",
+        "ชาวประมง",
+        "สายมู"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ศาลเจ้าสถาปัตยกรรมจีนโบราณริมน้ำมหาชัย",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-17:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้กับท่าเรือข้ามฝากมหาชัย",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-tha-chin",
+      "province": "samut-sakhon",
+      "name_th": "วัดสวนส้ม สมุทรสาคร",
+      "name_en": "Wat Suan Som",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดสวยร่มรื่นในตำบลสวนส้ม มีพระอุโบสถทรงไทยหลังงาม และอุทยานการเรียนรู้สวนผลไม้พื้นบ้าน",
+      "lat": 13.6012,
+      "lng": 100.215,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดสวนส้ม",
+        "ทำบุญ",
+        "เมืองสมุทรสาคร"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "บรรยากาศวัดสงบร่มรื่นรายล้อมด้วยธรรมชาติสวนส้มดั้งเดิม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลสวนส้ม อำเภอเมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sirisombat",
+      "province": "samut-sakhon",
+      "name_th": "วัดยกกระบัตร",
+      "name_en": "Wat Yokkrabat",
+      "district_th": "บ้านแพ้ว",
+      "description_th": "วัดชื่อดังแห่งตําบลยกกระบัตร มีหล่อรูปปั้นหลวงปู่สาย เกจิชื่อดัง และวิหารพระพุทธรูปปางมารวิชัย",
+      "lat": 13.528,
+      "lng": 100.088,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดยกกระบัตร",
+        "หลวงปู่สาย",
+        "บ้านแพ้ว"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบหลวงปู่สาย เกจิอาจารย์อันเป็นที่ศรัทธาของชาวบ้านแพ้ว",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:30-17:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลยกกระบัตร อำเภอบ้านแพ้ว",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "porntip-benjarong-factory",
+      "province": "samut-sakhon",
+      "name_th": "ศูนย์เรียนรู้และโรงงานเบญจรงค์พรทิพย์",
+      "name_en": "Porntip Benjarong Learning Center",
+      "district_th": "กระทุ่มแบน",
+      "description_th": "แหล่งเรียนรู้กระบวนการเขียนลายเบญจรงค์หัตถศิลป์ไทยระดับสูง ชมการสาธิตการวาดลายลงน้ำทอง และเลือกซื้อของฝากประณีต",
+      "lat": 13.655,
+      "lng": 100.2612,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เครื่องเบญจรงค์",
+        "หัตถกรรมไทย",
+        "ดอนไก่ดี",
+        "กระทุ่มแบน"
+      ],
+      "moods": [
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ชมช่างฝีมือลงลายน้ำทองลงบนเครื่องเบญจรงค์สุดประณีต",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "09:00-16:00",
+      "opening_hours": "08:30-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ในหมู่บ้านเบญจรงค์ดอนไก่ดี อำเภอกระทุ่มแบน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-phli-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "วัดศรีเพชรพัฒนา",
+      "name_en": "Wat Si Phet Pattana",
+      "district_th": "บ้านแพ้ว",
+      "description_th": "วัดพัฒนาสงบร่มรื่นในอำเภอบ้านแพ้ว ประดิษฐานพระพุทธรูปปางมารวิชัย และอุโบสถสถาปัตยกรรมร่วมสมัย",
+      "lat": 13.582,
+      "lng": 100.055,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดบ้านแพ้ว",
+        "ทำบุญ",
+        "ความสงบ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ความสงบเงียบผ่อนคลายจิตใจในสวนบ้านแพ้ว",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอบ้านแพ้ว",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-phaeo-coconut-farms",
+      "province": "samut-sakhon",
+      "name_th": "สวนมะพร้าวน้ำหอมและสวนผลไม้บ้านแพ้ว",
+      "name_en": "Ban Phaeo Aromatic Coconut Orchards",
+      "district_th": "บ้านแพ้ว",
+      "description_th": "แหล่งปลูกมะพร้าวน้ำหอม GI ดินดีรสชาติหวานหอมที่สุดในไทย นั่งเรือร่องสวนชิมมะพร้าวสดและผลไม้นานาชนิด",
+      "lat": 13.595,
+      "lng": 100.095,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "มะพร้าวน้ำหอม",
+        "สินค้าGI",
+        "บ้านแพ้ว",
+        "สวนผลไม้"
+      ],
+      "moods": [
+        "food",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ชิมมะพร้าวน้ำหอมสดๆ จากต้นในร่องสวนบรรยากาศร่มรื่น",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "มีสวนท่องเที่ยวเกษตรหลายแห่งเปิดให้เข้าชมในอำเภอบ้านแพ้ว",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-kalong-bird-sanctuary",
+      "province": "samut-sakhon",
+      "name_th": "จุดชมช้างน้ำและนกชายเลน นาเกลือโคกขาม",
+      "name_en": "Khok Kham Shorebird Watching Spot",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "แหล่งส่องนกอพยพและนกชายเลนหายากระดับโลก เช่น นกชายเลนปากช้อน นกต่อน และนกทะเลหลากชนิดบริเวณนาเกลือ",
+      "lat": 13.5312,
+      "lng": 100.318,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ส่องนก",
+        "นกชายเลนปากช้อน",
+        "โคกขาม",
+        "ธรรมชาตินาเกลือ"
+      ],
+      "moods": [
+        "quiet",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "ส่องนกชายเลนอพยพหายากระดับโลกในพื้นที่นาเกลือธรรมชาติ",
+      "stats": {
+        "chill": 5,
+        "adventure": 3,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "พ.ย.-ม.ค. (ช่วงนกอพยพย้ายถิ่น)",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่บริเวณชมรมอนุรักษ์นกโคกขาม",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-tha-sukhon",
+      "province": "samut-sakhon",
+      "name_th": "วัดบางกระเจ้า สมุทรสาคร",
+      "name_en": "Wat Bang Kra Chao",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดเก่าแก่ริมแม่น้ำท่าจีน มีพระอุโบสถเก่าแก่ และหลวงพ่อเพชร พระพุทธรูปศักดิ์สิทธิ์เนื้อหินแกะสลัก",
+      "lat": 13.521,
+      "lng": 100.245,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดบางกระเจ้า",
+        "หลวงพ่อเพชร",
+        "เมืองสมุทรสาคร"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ไหว้พระหลวงพ่อเพชรศักดิ์สิทธิ์ริมแม่น้ำท่าจีน",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลบางกระเจ้า อำเภอเมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-khlong-tan",
+      "province": "samut-sakhon",
+      "name_th": "วัดคลองตันราษฎร์บำรุง",
+      "name_en": "Wat Khlong Tan Rat Bamrung",
+      "district_th": "บ้านแพ้ว",
+      "description_th": "วัดสวยริมคลองตัน อำเภอบ้านแพ้ว ประดิษฐานหลวงพ่อทันใจ และวิหารพระพุทธรูปปางเปิดโลกสีทองสง่า",
+      "lat": 13.628,
+      "lng": 100.1512,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อทันใจ",
+        "บ้านแพ้ว",
+        "วัดสวยริมคลอง"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "กราบขอพรหลวงพ่อทันใจองค์ศักดิ์สิทธิ์ริมคลองตัน",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลเกษตรพัฒนา อำเภอบ้านแพ้ว",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sutthi-thawat-thachalom",
+      "province": "samut-sakhon",
+      "name_th": "วัดสุทธิวาตาราม (วัดช่องลม ท่าฉลอม)",
+      "name_en": "Wat Sutthiwataram (Wat Chong Lom)",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "พระอารามหลวงชั้นตรีอันสวยงามริมแม่น้ำท่าจีน มีพระอุโบสถที่มีนกนางแอ่นมาทํารังตามธรรมชาติ และรูปปั้นพระบรมรูปรัชกาลที่ 5",
+      "lat": 13.5358,
+      "lng": 100.269,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระอารามหลวง",
+        "วัดช่องลม",
+        "นกนางแอ่น",
+        "ท่าฉลอม"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "beach"
+      ],
+      "mood_reason": "สถาปัตยกรรมพระอารามหลวงงามสง่าและฝูงนกนางแอ่นทำรังในอุโบสถ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่สุดถนนถ้ำฉลอม เมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sri-suthi-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "วัดน่วมวัฒนาราม",
+      "name_en": "Wat Nuam Watthanaram",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดสงบร่มรื่นริมคลองในตำบลภูดอน มีพระอุโบสถทรงไทยประณีต และอุทยานการเรียนรู้ศีลธรรม",
+      "lat": 13.568,
+      "lng": 100.212,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดน่วมวัฒนาราม",
+        "ทำบุญ",
+        "เมืองสมุทรสาคร"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดชนบทสงบร่มรื่นเหมาะแก่การทำบุญและปฏิบัติธรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอเมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-phaeo-canal-walk",
+      "province": "samut-sakhon",
+      "name_th": "ทางเดินเลียบคลองดำเนินสะดวก บ้านแพ้ว",
+      "name_en": "Khlong Damnoen Saduak Canal Walk Ban Phaeo",
+      "district_th": "บ้านแพ้ว",
+      "description_th": "เส้นทางเดินสะพานปูนเลียบคลองดำเนินสะดวก สัมผัสวิถีชีวิตบ้านสวนริมน้ำเรือสัญจร และความสงบร่มรื่น",
+      "lat": 13.591,
+      "lng": 100.105,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "คลองดำเนินสะดวก",
+        "บ้านแพ้ว",
+        "วิถีริมน้ำ",
+        "เดินชิล"
+      ],
+      "moods": [
+        "quiet",
+        "photo",
+        "beach"
+      ],
+      "mood_reason": "เดินเล่นชมวิถีชีวิตบ้านเรือนไม้ริมคลองสายประวัติศาสตร์",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "07:00-09:30, 16:00-18:00",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เชื่อมต่อกับตลาดน้ำบ้านแพ้วและวัดหลักสี่ราษฎร์สโมสร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sirindhon-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "วัดราษฎร์ศรัทธาธรรม (วัดบางพลี)",
+      "name_en": "Wat Rat Santhad Thamm",
+      "district_th": "บ้านแพ้ว",
+      "description_th": "วัดโบราณริมคลองในอำเภอบ้านแพ้ว มีอุโบสถเก่าแก่และศาลาการเปรียญไม้ทรงไทยดั้งเดิม",
+      "lat": 13.571,
+      "lng": 100.048,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดโบราณ",
+        "บ้านแพ้ว",
+        "วัดริมน้ำ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ศาลาไม้ดั้งเดิมและบรรยากาศวัดชนบทสงบร่มรื่น",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอบ้านแพ้ว",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-ธาตุขุนนนท์",
+      "province": "samut-sakhon",
+      "name_th": "วัดบัลลังก์ สมุทรสาคร",
+      "name_en": "Wat Ballang",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดสงบร่มรื่นประดิษฐานพระพุทธรูปปางมารวิชัย และอุโบสถลวดลายปูนปั้นสีขาวบริสุทธิ์",
+      "lat": 13.581,
+      "lng": 100.185,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดบัลลังก์",
+        "ทำบุญ",
+        "เมืองสมุทรสาคร"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "อุโบสถสีขาวบริสุทธิ์บรรยากาศสงบเหมาะแก่การสวดมนต์ทำสมาธิ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "ตั้งอยู่ตำบลหนองสองห้อง อำเภอเมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "central-mahachai-shopping-center",
+      "province": "samut-sakhon",
+      "name_th": "ศูนย์การค้าเซ็นทรัล มหาชัย",
+      "name_en": "Central Mahachai Shopping Center",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "ศูนย์การค้าไลฟ์สไตล์ขนาดใหญ่ที่สุดในสมุทรสาคร ออกแบบสถาปัตยกรรมธีมเรือประมงและเกลือทะเล รวบรวมร้านค้า ร้านอาหาร และโรงภาพยนตร์ครบครัน",
+      "lat": 13.5682,
+      "lng": 100.2835,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เซ็นทรัลมหาชัย",
+        "ช็อปปิ้ง",
+        "ไลฟ์สไตล์",
+        "มหาชัย"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "ศูนย์การค้าทันสมัยครบวงจรจุดนัดพบและช็อปปิ้งหลักของจังหวัด",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:00-21:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "ตั้งอยู่ริมถนนพระราม 2 อำเภอเมืองสมุทรสาคร",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.centralpattana.co.th"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "phanthai-norasing-water-park",
+      "province": "samut-sakhon",
+      "name_th": "สวนน้ำพันท้ายนรสิงห์ (Phanthai Water Park)",
+      "name_en": "Phanthai Norasing Water Park",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "สวนน้ำและสไลเดอร์ขนาดใหญ่ใกล้ศาลพันท้ายนรสิงห์ พร้อมเครื่องเล่นทางน้ำ ไดโนเสาร์จำลอง และกิจกรรมคลายร้อนสำหรับครอบครัว",
+      "lat": 13.581,
+      "lng": 100.3685,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนน้ำพันท้าย",
+        "สไลเดอร์",
+        "ครอบครัว",
+        "เครื่องเล่นทางน้ำ"
+      ],
+      "moods": [
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "สนุกสนานกับสไลเดอร์ยักษ์และสวนน้ำคลายร้อนครบวงจร",
+      "stats": {
+        "chill": 3,
+        "adventure": 5,
+        "photo": 4,
+        "food": 3,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (โดยเฉพาะช่วงฤดูร้อน)",
+      "opening_hours": "11:00-18:00",
+      "closed_days": "วันพุธ",
+      "entry_fee_thb": {
+        "min": 150,
+        "max": 300
+      },
+      "visit_minutes": 180,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้อุทยานประวัติศาสตร์ศาลพันท้ายนรสิงห์",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-myanmar-samut-sakhon-tha-chalom",
+      "province": "samut-sakhon",
+      "name_th": "วัดแหลมสุวรรณาราม (วัดบ้านแหลม ท่าฉลอม)",
+      "name_en": "Wat Laem Suwannaram",
+      "district_th": "เมืองสมุทรสาคร",
+      "description_th": "วัดไม้โบราณริมแม่น้ำท่าจีนฝั่งท่าฉลอม โดดเด่นด้วยพระอุโบสถทำด้วยไม้ทั้งหลัง และหลวงพ่อแสง พระพุทธรูปศักดิ์สิทธิ์",
+      "lat": 13.541,
+      "lng": 100.2725,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "โบสถ์ไม้",
+        "ท่าฉลอม",
+        "หลวงพ่อแสง",
+        "วัดโบราณ"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "พระอุโบสถไม้แกะสลักโบราณทรงคุณค่าหาดูยากริมน้ำ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้สถานีรถไฟบ้านแหลม ท่าฉลอม",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "thap-thim-seafood-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "ร้านอาหาร ทับทิม ซีฟู้ด",
+      "name_en": "Thap Thim Seafood",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "ปลากะพงทอดน้ำปลา",
+        "ต้มยำกุ้งแม่น้ำน้ำข้น",
+        "ปูไข่นึ่งนมสด",
+        "หอยเชลล์ผัดเนยกระเทียม"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "เมืองสมุทรสาคร",
+      "lat": 13.5385,
+      "lng": 100.279,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารทะเลชื่อดังริมแม่น้ำท่าจีน วัตถุดิบสดใหม่ส่งตรงจากเรือประมง รสชาติไทยจัดจ้าน",
+      "price_per_person_thb": {
+        "min": 300,
+        "max": 600
+      },
+      "opening_hours": "10:00-21:30",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice 2024"
+      ],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 1450,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khun-tui-seafood-mueang-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "ร้านอาหาร คุณต๋อย ซีฟู้ด มหาชัย",
+      "name_en": "Khun Toi Seafood Mahachai",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "ปูหลนผักสด",
+        "แกงส้มไข่ปลาเรียวเซียว",
+        "กุ้งผัดพริกเกลือ",
+        "หมึกผัดไข่เค็ม"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "มหาชัย เมืองสมุทรสาคร",
+      "lat": 13.548,
+      "lng": 100.2812,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารทะเลบรรยากาศเป็นกันเองใกล้ตัวเมืองมหาชัย โดดเด่นด้วยอาหารทะเลสดราคามิตรภาพ",
+      "price_per_person_thb": {
+        "min": 250,
+        "max": 500
+      },
+      "opening_hours": "10:30-21:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.3,
+        "out_of": 5,
+        "count": 890,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ครัวบ้านอารีย์-ซีฟู้ด-โคกขาม",
+      "province": "samut-sakhon",
+      "name_th": "ครัวบ้านอารีย์ ซีฟู้ด โคกขาม",
+      "name_en": "Krua Baan Aree Seafood Khok Kham",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "ปูทะเลผัดผงกะหรี่",
+        "กุ้งแชบ๊วยอบวุ้นเส้น",
+        "ปลากะพงสองใจ",
+        "แกงคั่วปูใบชะคราม"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "โคกขาม เมืองสมุทรสาคร",
+      "lat": 13.5512,
+      "lng": 100.328,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารทะเลรสเด็ดใกล้อุทยานพันท้ายนรสิงห์ นำเสนอเมนูชูวัตถุดิบท้องถิ่นอย่างใบชะครามสด",
+      "price_per_person_thb": {
+        "min": 250,
+        "max": 550
+      },
+      "opening_hours": "10:00-21:00",
+      "closed_days": "วันจันทร์",
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 620,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "phanthai-seafood-mahachai",
+      "province": "samut-sakhon",
+      "name_th": "ครัวพันท้ายซีฟู้ด",
+      "name_en": "Krua Phanthai Seafood",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "แกงส้มปูไข่ใบชะคราม",
+        "ปลากะพงทอดราดน้ำน้ำปลา",
+        "หมึกไข่นึ่งมะนาว",
+        "หอยพัดผัดฉ่า"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "โคกขาม เมืองสมุทรสาคร",
+      "lat": 13.578,
+      "lng": 100.369,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารทะเลบรรยากาศดีติดริมคลองใกล้อุทยานพันท้ายนรสิงห์ โดดเด่นแกงส้มปูไข่ใบชะคราม",
+      "price_per_person_thb": {
+        "min": 300,
+        "max": 600
+      },
+      "opening_hours": "10:00-21:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 1100,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "lod-chong-singapore-mahachai",
+      "province": "samut-sakhon",
+      "name_th": "ลอดช่องสิงคโปร์ มหาชัย (เจ้าเก่า)",
+      "name_en": "Lod Chong Singapore Mahachai",
+      "kind": "bakery",
+      "cuisine_th": [
+        "ขนมหวานไทย",
+        "เครื่องดื่ม"
+      ],
+      "signature_dishes_th": [
+        "ลอดช่องสิงคโปร์เส้นเหนียวนุ่ม",
+        "ทับทิมกรอบน้ำกะทิสด",
+        "เฉาก๊วยชากังราว"
+      ],
+      "meals": [
+        "snack"
+      ],
+      "area_th": "ตลาดมหาชัย เมืองสมุทรสาคร",
+      "lat": 13.5468,
+      "lng": 100.2755,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านขนมหวานระดับตำนานประจำมหาชัย ลอดช่องเส้นเหนียวนุ่มหอมกะทิมะพร้าวสดอบควันเทียน",
+      "price_per_person_thb": {
+        "min": 30,
+        "max": 70
+      },
+      "opening_hours": "08:30-17:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 720,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-phaeo-noodle-coconut",
+      "province": "samut-sakhon",
+      "name_th": "ก๋วยเตี๋ยวหมูต้มยำโบราณ บ้านแพ้ว",
+      "name_en": "Ban Phaeo Ancient Tom Yum Noodle",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ก๋วยเตี๋ยวต้มยำ",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "กวยเตี๋ยวหมูต้มยำใส่ยอดมะพร้าว",
+        "ก๋วยเตี๋ยวเย็นตาโฟทะเล",
+        "กล้วยแขกทอดกรอบ"
+      ],
+      "meals": [
+        "lunch"
+      ],
+      "area_th": "ริมคลองดำเนินสะดวก บ้านแพ้ว",
+      "lat": 13.5898,
+      "lng": 100.1078,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ก๋วยเตี๋ยวหมูต้มยำโบราณถั่วบดใหม่ใส่ยอดมะพร้าวอ่อนกรอบหวาน เอกลักษณ์ความอร่อยแห่งบ้านแพ้ว",
+      "price_per_person_thb": {
+        "min": 50,
+        "max": 100
+      },
+      "opening_hours": "08:00-15:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 390,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "por-krua-thae-seafood-kalong",
+      "province": "samut-sakhon",
+      "name_th": "ร้านพ่อครัวแท้ ซีฟู้ด กาหลง",
+      "name_en": "Por Krua Thae Seafood Ka Long",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "ปูต้มน้ำปลา",
+        "กุ้งแม่น้ำเผา",
+        "ต้มยำปลาคังหม้อไฟ",
+        "ยำใบชะครามกุ้งสด"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "กาหลง เมืองสมุทรสาคร",
+      "lat": 13.482,
+      "lng": 100.181,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารทะเลพื้นบ้านใกล้สะพานสายรุ้งกาหลง รสชาติจัดจ้านวัตถุดิบสดจากเรือประมงชายฝั่ง",
+      "price_per_person_thb": {
+        "min": 250,
+        "max": 500
+      },
+      "opening_hours": "10:00-20:30",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.3,
+        "out_of": 5,
+        "count": 480,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "coconut-lane-cafe-ban-phaeo",
+      "province": "samut-sakhon",
+      "name_th": "คาเฟ่สวนมะพร้าว Coconut Lane บ้านแพ้ว",
+      "name_en": "Coconut Lane Cafe Ban Phaeo",
+      "kind": "cafe",
+      "cuisine_th": [
+        "กาแฟ",
+        "เบเกอรี่",
+        "เครื่องดื่มมะพร้าว"
+      ],
+      "signature_dishes_th": [
+        "กาแฟอเมริกาโน่มะพร้าวน้ำหอม",
+        "เค้กมะพร้าวลาวา",
+        "พุดดิ้งมะพร้าวสด"
+      ],
+      "meals": [
+        "snack",
+        "lunch"
+      ],
+      "area_th": "บ้านแพ้ว",
+      "lat": 13.598,
+      "lng": 100.092,
+      "coords_source": "https://maps.google.com",
+      "description_th": "คาเฟ่บรรยากาศน่ารักกลางร่องสวนมะพร้าวน้ำหอมบ้านแพ้ว เมนูกาแฟผสานมะพร้าวสดหอมหวานหวานธรรมชาติ",
+      "price_per_person_thb": {
+        "min": 90,
+        "max": 200
+      },
+      "opening_hours": "09:00-18:00",
+      "closed_days": "วันอังคาร",
+      "awards": [],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 520,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "quiet",
+        "photo"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "krua-chao-baen-krathum-baen",
+      "province": "samut-sakhon",
+      "name_th": "ครัวเจ้าบ้าน กระทุ่มแบน",
+      "name_en": "Krua Chao Baan Krathum Baen",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "อาหารพื้นบ้าน"
+      ],
+      "signature_dishes_th": [
+        "ต้มยำไก่บ้านใบมะขามอ่อน",
+        "ปลาช่อนเผาเกลือทรงเครื่อง",
+        "แกงคั่วหอยขม",
+        "ผัดเผ็ดหมูป่า"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "กระทุ่มแบน",
+      "lat": 13.652,
+      "lng": 100.262,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารไทยพื้นบ้านบรรยากาศเรือนไม้ร่มรื่นในกระทุ่มแบน รสชาติเข้มข้นดั้งเดิมแบบไทยแท้",
+      "price_per_person_thb": {
+        "min": 200,
+        "max": 400
+      },
+      "opening_hours": "10:30-21:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 310,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "roti-sai-mai-mahachai-station",
+      "province": "samut-sakhon",
+      "name_th": "โรตีสายไหมมหาชัย หน้าสถานีรถไฟ",
+      "name_en": "Mahachai Station Roti Sai Mai",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ขนมไทย",
+        "โรตีสายไหม"
+      ],
+      "signature_dishes_th": [
+        "โรตีสายไหมแป้งใบเตยสด",
+        "โรตีสายไหมแป้งงาดำ"
+      ],
+      "meals": [
+        "snack"
+      ],
+      "area_th": "สถานีรถไฟมหาชัย",
+      "lat": 13.5462,
+      "lng": 100.2762,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านโรตีสายไหมแป้งสดทำใหม่ร้อนๆ หน้าสถานีรถไฟมหาชัย แป้งนุ่มหอมใบเตยสายไหมหวานกำลังดี",
+      "price_per_person_thb": {
+        "min": 40,
+        "max": 100
+      },
+      "opening_hours": "07:00-16:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 280,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pae-prapai-noodle-tha-chalom",
+      "province": "samut-sakhon",
+      "name_th": "ก๋วยเตี๋ยวต้มยำป้าประไพ ท่าฉลอม",
+      "name_en": "Pa Prapai Tom Yum Noodle Tha Chalom",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ก๋วยเตี๋ยวต้มยำทะเล"
+      ],
+      "signature_dishes_th": [
+        "ก๋วยเตี๋ยวต้มยำกั้งสด",
+        "ก๋วยเตี๋ยวต้มยำกุ้งหมึก",
+        "เย็นตาโฟต้มยำทะเล"
+      ],
+      "meals": [
+        "lunch"
+      ],
+      "area_th": "ท่าฉลอม เมืองสมุทรสาคร",
+      "lat": 13.5418,
+      "lng": 100.2705,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ก๋วยเตี๋ยวต้มยำทะเลเครื่องจัดเต็มทั้งกั้ง กุ้ง และหมึกสดๆ จากเรือประมงท่าฉลอม รสชาติแซ่บลงตัว",
+      "price_per_person_thb": {
+        "min": 60,
+        "max": 150
+      },
+      "opening_hours": "08:30-15:30",
+      "closed_days": "วันจันทร์",
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 420,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "after-noon-tea-and-cafe-krathum-baen",
+      "province": "samut-sakhon",
+      "name_th": "คาเฟ่บ้านไม้ริมน้ำ กระทุ่มแben",
+      "name_en": "Baan Mai Rim Nam Cafe Krathum Baen",
+      "kind": "cafe",
+      "cuisine_th": [
+        "กาแฟ",
+        "เครื่องดื่ม",
+        "เบเกอรี่"
+      ],
+      "signature_dishes_th": [
+        "Matcha Latte",
+        "เค้กส้มหน้านิ่ม",
+        "โทสต์สังขยาใบเตย"
+      ],
+      "meals": [
+        "snack"
+      ],
+      "area_th": "กระทุ่มแบน",
+      "lat": 13.668,
+      "lng": 100.261,
+      "coords_source": "https://maps.google.com",
+      "description_th": "คาเฟ่บ้านไม้คลาสสิกริมแม่น้ำท่าจีน วิวแม่น้ำกว้างขวางบรรยากาศสโลว์ไลฟ์รับลมเย็นชิลๆ",
+      "price_per_person_thb": {
+        "min": 80,
+        "max": 180
+      },
+      "opening_hours": "09:00-18:00",
+      "closed_days": "วันพุธ",
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 350,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "quiet",
+        "photo"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "stays": [
+    {
+      "id": "grand-inter-hotel-mahachai",
+      "province": "samut-sakhon",
+      "name_th": "โรงแรม แกรนด์ อินเตอร์ โฮเทล มหาชัย",
+      "name_en": "Grand Inter Hotel Mahachai",
+      "type": "hotel",
+      "area_th": "มหาชัย / เมืองสมุทรสาคร",
+      "lat": 13.5552,
+      "lng": 100.281,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมระดับมาตรฐานใจกลางเมืองมหาชัย ห้องพักกว้างขวาง สิ่งอำนวยความสะดวกครบครัน และเดินทางสะดวก",
+      "price_per_night_thb": {
+        "min": 1100,
+        "max": 2200
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.2,
+        "out_of": 10,
+        "count": 520,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking",
+        "workspace",
+        "breakfast"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": "https://www.booking.com",
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com",
+        "https://www.booking.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "loft-mania-residence-samut-sakhon",
+      "province": "samut-sakhon",
+      "name_th": "ลอฟท์ มาเนีย เรสซิเดนซ์ สมุทรสาคร",
+      "name_en": "Loft Mania Residence Samut Sakhon",
+      "type": "hotel",
+      "area_th": "เมืองสมุทรสาคร / ถนนพระราม 2",
+      "lat": 13.562,
+      "lng": 100.288,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมสไตล์ลอฟท์ทันสมัย ตกแต่งเท่มีสไตล์ บรรยากาศเงียบสงบใกล้ศูนย์การค้าเซ็นทรัล มหาชัย",
+      "price_per_night_thb": {
+        "min": 980,
+        "max": 1800
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.4,
+        "out_of": 10,
+        "count": 410,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking",
+        "workspace"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "thong-chen-resort-ban-phaeo",
+      "province": "samut-sakhon",
+      "name_th": "ทองเชน รีสอร์ท บ้านแพ้ว",
+      "name_en": "Thong Chen Resort Ban Phaeo",
+      "type": "resort",
+      "area_th": "บ้านแพ้ว",
+      "lat": 13.592,
+      "lng": 100.102,
+      "coords_source": "https://maps.google.com",
+      "description_th": "รีสอร์ตบรรยากาศร่มรื่นริมคลองดำเนินสะดวก รายล้อมด้วยสวนผลไม้และธรรมชาติบ้านสวนเงียบสงบ",
+      "price_per_night_thb": {
+        "min": 850,
+        "max": 1600
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.0,
+        "out_of": 10,
+        "count": 190,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking"
+      ],
+      "moods": [
+        "quiet",
+        "beach"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "nonna-residence-krathum-baen",
+      "province": "samut-sakhon",
+      "name_th": "นนท์นะ เรสซิเดนซ์ กระทุ่มแบน",
+      "name_en": "Nonna Residence Krathum Baen",
+      "type": "hotel",
+      "area_th": "กระทุ่มแบน",
+      "lat": 13.658,
+      "lng": 100.265,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมสไตล์มินิมอลสะอาดบรรยากาศเป็นกันเอง ตั้งอยู่ใกล้หมู่บ้านเบญจรงค์ดอนไก่ดีและวัดท่าไม้",
+      "price_per_night_thb": {
+        "min": 750,
+        "max": 1300
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.1,
+        "out_of": 10,
+        "count": 230,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ta-wan-resort-phanthai-norasing",
+      "province": "samut-sakhon",
+      "name_th": "ตะวัน รีสอร์ท พันท้ายนรสิงห์",
+      "name_en": "Tawan Resort Phanthai Norasing",
+      "type": "resort",
+      "area_th": "โคกขาม / พันท้ายนรสิงห์",
+      "lat": 13.572,
+      "lng": 100.365,
+      "coords_source": "https://maps.google.com",
+      "description_th": "รีสอร์ตบ้านเป็นหลังบรรยากาศธรรมชาติติดริมคลอง บรรยากาศเงียบสงบใกล้อุทยานประวัติศาสตร์พันท้ายนรสิงห์",
+      "price_per_night_thb": {
+        "min": 900,
+        "max": 1700
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.2,
+        "out_of": 10,
+        "count": 180,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking",
+        "family"
+      ],
+      "moods": [
+        "quiet",
+        "beach"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "sakhon-grand-residence",
+      "province": "samut-sakhon",
+      "name_th": "สาคร แกรนด์ เรสซิเดนซ์",
+      "name_en": "Sakhon Grand Residence",
+      "type": "hotel",
+      "area_th": "เมืองสมุทรสาคร",
+      "lat": 13.549,
+      "lng": 100.285,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมสไตล์โมเดิร์นห้องพักขนาดใหญ่ สะอาด ปลอดภัย เหมาะสำหรับการเดินทางติดต่อธุรกิจและการท่องเที่ยว",
+      "price_per_night_thb": {
+        "min": 850,
+        "max": 1500
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.3,
+        "out_of": 10,
+        "count": 380,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking",
+        "workspace"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    }
+  ]
+}
