@@ -31,6 +31,8 @@ import { scheduleTrip } from '../components/trip/dayTimes'
 import { applyLegsTransport, buildLegs, legBounds, legsTransportAmount, serializeLegs } from '../components/trip/travelLegs'
 import { alternativePatch, hydratePlan, moveCard, resizePlan, serializePlan } from '../components/trip/itinerary'
 
+const NO_CHECKS = {}
+
 function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestaurants, restaurantPool, likedStays, sourceKey }) {
   const navigate = useNavigate()
   const [plan, setPlan] = useState(() => {
@@ -48,7 +50,6 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
   const [mealSheet, setMealSheet] = useState({ open: false, d: 0, meal: 'lunch' })
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState('')
-  const [booked, setBooked] = useState({})
   const [bookingOpen, setBookingOpen] = useState(false)
   const [notice, setNotice] = useState('')
   const transit = usePlanTransit(draft.province, plan.days)
@@ -72,14 +73,19 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
   const legTransport = legsTransportAmount(legs, people)
   const estimate = applyLegsTransport(estimateTrip(input), legTransport, people)
   const warnings = seasonWarnings(places, draft.startDate, draft.endDate)
-  const bookingItems = buildBookingItems({ legs, days: viewDays, startDate: draft.startDate, endDate: draft.endDate, people })
+  const bookingItems = buildBookingItems({ legs, days: viewDays, startDate: draft.startDate, endDate: draft.endDate, people, origin: draft.origin, province: draft.province })
+  const booked = draft.bookingChecks ?? NO_CHECKS
 
   useEffect(() => {
     updateDraft({ itinerary: { ...serializePlan(plan), mealOverrides: overrides, timeOverrides }, itineraryKey: sourceKey })
   }, [plan, overrides, timeOverrides, sourceKey, updateDraft])
 
   const closeBooking = useCallback(() => setBookingOpen(false), [])
-  const toggleBooked = useCallback(key => setBooked(previous => ({ ...previous, [key]: !previous[key] })), [])
+  const toggleBooked = useCallback(key => updateDraft(current => ({ bookingChecks: { ...current.bookingChecks, [key]: !current.bookingChecks?.[key] } })), [updateDraft])
+  const pickLeg = useCallback(direction => {
+    setBookingOpen(false)
+    slideNavigate(navigate, '/plan/transport', { state: { from: 'trip', direction } })
+  }, [navigate])
   const closeMealSheet = useCallback(() => setMealSheet(previous => ({ ...previous, open: false })), [])
 
   function changeMeal(value) {
@@ -186,7 +192,7 @@ function TripEditor({ draft, updateDraft, liked, spareCandidates, likedRestauran
         {saveError && <p role="alert" className="mb-3 mt-0 text-center text-sm text-[#9B432A]">{saveError}</p>}
         <button type="button" onClick={requestSave} disabled={saving || !places.length} className={PRIMARY_BUTTON}>{saving ? 'กำลังบันทึก…' : 'บันทึกทริป'}</button>
       </div>
-      <BookingSaveSheet open={bookingOpen} items={bookingItems} booked={booked} onToggle={toggleBooked} onSave={save} saving={saving} error={saveError} onClose={closeBooking} />
+      <BookingSaveSheet open={bookingOpen} items={bookingItems} booked={booked} onToggle={toggleBooked} onPickLeg={pickLeg} onSave={save} saving={saving} error={saveError} onClose={closeBooking} />
       <MealSwapSheet open={mealSheet.open} d={mealSheet.d} meal={mealSheet.meal} dayLabel={`วันที่ ${mealSheet.d + 1}`} food={food} pool={restaurantPool} liked={likedRestaurants} overridden={overrideKey(mealSheet.d, mealSheet.meal) in overrides} onChange={changeMeal} onNotice={setNotice} onClose={closeMealSheet} />
     </>
   )

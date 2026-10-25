@@ -55,9 +55,13 @@ export async function getTrips({ origin, province, mode, direction = 'out', date
   return { route: { id: `mock-${from}-${to}-${mode}`, mode, from, to, from_station: label(from), to_station: label(to), transfer: null }, trips, isMock: true, updatedAt: null, note: null }
 }
 
-const iata = (station) => station?.match(/\(([A-Z]{3})\)/g)?.map((code) => code.slice(1, 4)) ?? []
+/** รหัสสนามบินในชื่อสถานี "สนามบินกระบี่ (KBV)" → ['KBV'] */
+export const iata = (station) => station?.match(/\(([A-Z]{3})\)/g)?.map((code) => code.slice(1, 4)) ?? []
+// ยังไม่ได้เลือกเที่ยว (ไม่รู้สถานี) → สนามบิน/สถานีรถไฟที่ใช้ของแต่ละจังหวัด
+const AIRPORT = { krabi: 'KBV', phuket: 'HKT', 'phang-nga': 'HKT', 'surat-thani': 'URT', 'nakhon-si-thammarat': 'NST' }
+const TRAIN_CITY = { krabi: 'surat-thani', phuket: 'surat-thani', 'phang-nga': 'surat-thani' }
 // สถานีรถไฟที่ลงจริง (กระบี่/ภูเก็ต/พังงา ลงพุนพิน สุราษฎร์ฯ แล้วต่อรถ) → slug เมืองบน 12Go
-const trainCity = (station, province) => (station?.includes('สุราษฎร์') ? 'surat-thani' : station?.includes('นครศรี') ? 'nakhon-si-thammarat' : province)
+const trainCity = (station, province) => (station?.includes('สุราษฎร์') ? 'surat-thani' : station?.includes('นครศรี') ? 'nakhon-si-thammarat' : TRAIN_CITY[province] ?? province)
 
 /**
  * ลิงก์ไปเว็บจองจริงที่กรอกข้อมูลให้แล้ว
@@ -68,7 +72,7 @@ export function bookingUrl({ mode, from, to, date, people = 1, fromStation, toSt
   const fromName = PROVINCES.find((p) => p.id === from)?.label ?? from
   const toName = PROVINCES.find((p) => p.id === to)?.label ?? to
   if (mode === 'plane') {
-    const place = (station, id) => (id === 'bangkok' ? 'Bangkok' : iata(station)[0] ?? id)
+    const place = (station, id) => (id === 'bangkok' ? 'Bangkok' : iata(station)[0] ?? AIRPORT[id] ?? id)
     const q = `Flights from ${place(fromStation, from)} to ${place(toStation, to)} on ${date ?? ''} one way ${people} adults`
     return `https://www.google.com/travel/flights?q=${encodeURIComponent(q)}&hl=th&curr=THB`
   }

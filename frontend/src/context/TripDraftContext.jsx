@@ -17,6 +17,7 @@ const STORAGE_KEY = 'lamoon.tripDraft'
  * stayMode: 'single'|'multi'|null, chosenStayId: ที่พักที่เลือก (โหมด single)
  * transportBooking: { out: Trip|null, back: Trip|null } เที่ยวไป-กลับที่เลือก (Trip จาก lib/trip/schedules.js + routeId)
  * carDepart: 'HH:MM' เวลาออกเดินทางกรณีรถส่วนตัว
+ * bookingChecks: { [bookingItem.key]: true } ติ๊ก "จองแล้ว" ในเช็กลิสต์ก่อนบันทึก
  */
 // eslint-disable-next-line react-refresh/only-export-components
 export const EMPTY_DRAFT = {
@@ -41,6 +42,7 @@ export const EMPTY_DRAFT = {
   chosenStayId: null,
   transportBooking: { out: null, back: null },
   carDepart: '06:00',
+  bookingChecks: {},
 }
 
 function load() {

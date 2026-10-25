@@ -102,7 +102,7 @@ export default function TripDetail() {
     [trip, saved],
   )
   const people = trip ? Math.max(1, (trip.travelers?.adults ?? 1) + (trip.travelers?.children ?? 0)) : 1
-  const bookingItems = trip && current?.days ? buildBookingItems({ legs, days: current.days, startDate: trip.start_date, endDate: trip.end_date, people }) : []
+  const bookingItems = trip && current?.days ? buildBookingItems({ legs, days: current.days, startDate: trip.start_date, endDate: trip.end_date, people, origin: trip.origin, province: trip.province }) : []
   const booked = savedBooked(trip?.estimate)
   const provinceLabel = trip ? (PROVINCES.find((p) => p.id === trip.province)?.label ?? trip.province) : ''
   const crumb = trip
