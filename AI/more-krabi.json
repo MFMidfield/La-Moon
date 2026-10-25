@@ -1,0 +1,3617 @@
+{
+  "generated_at": "2026-10-24",
+  "province": "krabi",
+  "researcher": "LaMoon AI Researcher",
+  "note": "",
+  "places": [
+    {
+      "id": "tubkaek-beach",
+      "province": "krabi",
+      "name_th": "หาดทับแขก",
+      "name_en": "Tubkaek Beach",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "หาดทับแขก เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0772,
+      "lng": 98.7845,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดทับแขก",
+        "ชมพระอาทิตย์ตก",
+        "ชายหาดสงบ"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "หาดทับแขกเป็นชายหาดที่เงียบสงบและเหมาะสำหรับการชมพระอาทิตย์ตกดินอันงดงาม",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "phra-nang-cave-beach",
+      "province": "krabi",
+      "name_th": "หาดถ้ำพระนาง",
+      "name_en": "Phra Nang Cave Beach",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "หาดถ้ำพระนาง เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0125,
+      "lng": 98.8436,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ถ้ำพระนาง",
+        "ปีหน้าผา",
+        "หาดสวย"
+      ],
+      "moods": [
+        "beach",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "หาดทรายขาวละเอียดและหน้าผาหินปูนอันโดดเด่นเป็นแลนด์มาร์กสำคัญสำหรับนักปีหน้าผา",
+      "stats": {
+        "chill": 4,
+        "adventure": 5,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "พ.ย.-เม.ย.",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-kanab-nam",
+      "province": "krabi",
+      "name_th": "เขาขนาบน้ำ",
+      "name_en": "Khao Khanab Nam",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "เขาขนาบน้ำ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0628,
+      "lng": 98.9112,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เขาขนาบน้ำ",
+        "สัญลักษณ์กระบี่",
+        "นั่งเรือหางยาว"
+      ],
+      "moods": [
+        "mountain",
+        "photo",
+        "temple"
+      ],
+      "mood_reason": "ภูเขาหินปูนสองลูกตั้งตระหง่านริมแม่น้ำกระบี่เป็นสัญลักษณ์คู่เมือง",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 4,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 50,
+        "max": 50
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-tham-suea-viewpoint",
+      "province": "krabi",
+      "name_th": "จุดชมวิววัดถ้ำเสือ",
+      "name_en": "Tiger Cave Temple Viewpoint",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "จุดชมวิววัดถ้ำเสือ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.1254,
+      "lng": 98.9285,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "จุดชมวิว",
+        "บันได 1237 ขั้น",
+        "วัดถ้ำเสือ"
+      ],
+      "moods": [
+        "mountain",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "จุดชมวิวบนยอดเขาที่ต้องเดินขึ้นบันไดกว่า 1,237 ขั้นเพื่อชมทัศนียภาพ 360 องศา",
+      "stats": {
+        "chill": 1,
+        "adventure": 5,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 150,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "shell-fossil-cemetery",
+      "province": "krabi",
+      "name_th": "สุสานหอย 75 ล้านปี",
+      "name_en": "Susan Hoi (Shell Fossil Cemetery)",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "สุสานหอย 75 ล้านปี เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0076,
+      "lng": 98.8921,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สุสานหอย",
+        "ซากดึกดำบรรพ์",
+        "ธรณีวิทยา"
+      ],
+      "moods": [
+        "mountain",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ลานหินปูนโบราณที่เกิดจากการทับถมของซากหอยน้ำจืดอายุกว่า 75 ล้านปี",
+      "stats": {
+        "chill": 3,
+        "adventure": 2,
+        "photo": 4,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 40,
+        "max": 40
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "klong-muang-beach",
+      "province": "krabi",
+      "name_th": "หาดคลองม่วง",
+      "name_en": "Klong Muang Beach",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "หาดคลองม่วง เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0452,
+      "lng": 98.7712,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดคลองม่วง",
+        "ชายหาดเงียบสงบ",
+        "พักผ่อน"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ชายหาดยาวบรรยากาศเงียบสงบเหมาะแก่การพักผ่อนหนีความวุ่นวาย",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "nopparat-thara-beach",
+      "province": "krabi",
+      "name_th": "หาดนพรัตน์ธารา",
+      "name_en": "Nopparat Thara Beach",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "หาดนพรัตน์ธารา เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0389,
+      "lng": 98.8189,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดนพรัตน์ธารา",
+        "อุทยานแห่งชาติ",
+        "เดินเล่นชายหาด"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ชายหาดร่มรื่นด้วยต้นสนและเป็นจุดเชื่อมต่อไปยังเกาะต่างๆ",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ao-nam-mao",
+      "province": "krabi",
+      "name_th": "อ่าวน้ำ عمو (อ่าวเมา)",
+      "name_en": "Ao Nam Mao",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "อ่าวน้ำ عمو (อ่าวเมา) เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0234,
+      "lng": 98.8654,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "อ่าวเมา",
+        "ท่าเรือ",
+        "วิถีชีวิตชาวประมง"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ท่าเรือและชุมชนประมงบรรยากาศเรียบง่ายมองเห็นวิวไร่เลย์",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 3,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "krabi-town-night-market",
+      "province": "krabi",
+      "name_th": "ตลาดนัดกลางคืนเมืองกระบี่",
+      "name_en": "Krabi Town Night Market",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "ตลาดนัดกลางคืนเมืองกระบี่ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0612,
+      "lng": 98.9154,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดนัด",
+        "สตรีทฟู้ด",
+        "ของกินพื้นเมือง"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "แหล่งรวมอาหารพื้นบ้านและสินค้าแฮนด์เมดใจกลางเมืองกระบี่",
+      "stats": {
+        "chill": 3,
+        "adventure": 3,
+        "photo": 4,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "17:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-phanom-cave",
+      "province": "krabi",
+      "name_th": "ถ้ำเขาพนม",
+      "name_en": "Khao Phanom Cave",
+      "district_th": "อำเภอเขาพนม",
+      "description_th": "ถ้ำเขาพนม เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.2345,
+      "lng": 99.0123,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ถ้ำเขาพนม",
+        "สำรวจถ้ำ",
+        "ธรรมชาติ"
+      ],
+      "moods": [
+        "adventure",
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "ถ้ำธรรมชาติลึกลับในอำเภอเขาพนมเหมาะสำหรับนักท่องเที่ยวสายผจญภัย",
+      "stats": {
+        "chill": 2,
+        "adventure": 5,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "พ.ย.-เม.ย.",
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khlong-sara-nature-trail",
+      "province": "krabi",
+      "name_th": "เส้นทางศึกษาธรรมชาติคลองสระ",
+      "name_en": "Khlong Sara Nature Trail",
+      "district_th": "อำเภอเขาพนม",
+      "description_th": "เส้นทางศึกษาธรรมชาติคลองสระ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.2512,
+      "lng": 99.0456,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เส้นทางศึกษาธรรมชาติ",
+        "ป่าดิบชื้น",
+        "ดูนก"
+      ],
+      "moods": [
+        "mountain",
+        "adventure",
+        "quiet"
+      ],
+      "mood_reason": "เส้นทางเดินศึกษาธรรมชาติท่ามกลางผืนป่าดิบชื้นอันอุดมสมบูรณ์",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "nam-tok-huai-to",
+      "province": "krabi",
+      "name_th": "น้ำตกห้วยโต้",
+      "name_en": "Huai To Waterfall",
+      "district_th": "อำเภอเขาพนม",
+      "description_th": "น้ำตกห้วยโต้ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.2212,
+      "lng": 98.9812,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตกห้วยโต้",
+        "น้ำตก 5 ชั้น",
+        "อุทยานเขาพนมเบญจา"
+      ],
+      "moods": [
+        "beach",
+        "mountain",
+        "photo"
+      ],
+      "mood_reason": "น้ำตกขนาดใหญ่ 5 ชั้นไหลลดหลั่นลงมาจากยอดเขาพนมเบญจา",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 5,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 40,
+        "max": 40
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-thung-luang",
+      "province": "krabi",
+      "name_th": "วัดทุ่งหลวง",
+      "name_en": "Wat Thung Luang",
+      "district_th": "อำเภอเขาพนม",
+      "description_th": "วัดทุ่งหลวง เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.2812,
+      "lng": 99.0812,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดทุ่งหลวง",
+        "พระพุทธรูปโบราณ",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดเก่าแก่ในอำเภอเขาพนมบรรยากาศร่มรื่นและสงบเงียบ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-phanom-viewpoint",
+      "province": "krabi",
+      "name_th": "จุดชมวิวเขาพนม",
+      "name_en": "Khao Phanom Viewpoint",
+      "district_th": "อำเภอเขาพนม",
+      "description_th": "จุดชมวิวเขาพนม เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.2456,
+      "lng": 99.0234,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "จุดชมวิว",
+        "ทะเลหมอก",
+        "ภูเขา"
+      ],
+      "moods": [
+        "mountain",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "จุดชมวิวทะเลหมอกยามเช้าและวิวทิวทัศน์ของอำเภอเขาพนม",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "พ.ย.-ก.พ.",
+      "opening_hours": "06:00-10:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-khao-phanom-homestay",
+      "province": "krabi",
+      "name_th": "ชุมชนท่องเที่ยวบ้านเขาพนม",
+      "name_en": "Ban Khao Phanom Community",
+      "district_th": "อำเภอเขาพนม",
+      "description_th": "ชุมชนท่องเที่ยวบ้านเขาพนม เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.2312,
+      "lng": 99.0345,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ท่องเที่ยวชุมชน",
+        "วิถีเกษตร",
+        "โฮมสเตย์"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "food"
+      ],
+      "mood_reason": "ชุมชนท้องถิ่นที่เรียนรู้วิถีชีวิตเกษตรกรรมและการทำสวนผลไม้",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 3,
+        "food": 4,
+        "budget": 4
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "aow-luk-mangrove",
+      "province": "krabi",
+      "name_th": "ป่าชายเลนอ่าวลึก",
+      "name_en": "Aow Luek Mangrove Forest",
+      "district_th": "อำเภออ่าวลึก",
+      "description_th": "ป่าชายเลนอ่าวลึก เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.4125,
+      "lng": 98.7125,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ป่าชายเลน",
+        "พายเรือคายัค",
+        "ธรรมชาติ"
+      ],
+      "moods": [
+        "beach",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "ผืนป่าชายเลนอุดมสมบูรณ์เหมาะสำหรับการพายเรือคายัคชมธรรมชาติ",
+      "stats": {
+        "chill": 3,
+        "adventure": 5,
+        "photo": 4,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 100,
+        "max": 100
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "tham-phi-hua-to",
+      "province": "krabi",
+      "name_th": "ถ้ำผีหัวโต",
+      "name_en": "Tham Phi Hua To",
+      "district_th": "อำเภออ่าวลึก",
+      "description_th": "ถ้ำผีหัวโต เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.4289,
+      "lng": 98.7345,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ถ้ำผีหัวโต",
+        "ภาพเขียนสีโบราณ",
+        "ประวัติศาสตร์"
+      ],
+      "moods": [
+        "temple",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "ถ้ำประวัติศาสตร์ที่มีภาพเขียนสียุคก่อนประวัติศาสตร์อายุกว่าพันปี",
+      "stats": {
+        "chill": 2,
+        "adventure": 4,
+        "photo": 5,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 50,
+        "max": 50
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "tham-lod-ao-luek",
+      "province": "krabi",
+      "name_th": "ถ้ำลอดอ่าวลึก",
+      "name_en": "Tham Lod Aow Luek",
+      "district_th": "อำเภออ่าวลึก",
+      "description_th": "ถ้ำลอดอ่าวลึก เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.4012,
+      "lng": 98.7012,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ถ้ำลอด",
+        "นั่งเรือชมถ้ำ",
+        "หินงอกหินย้อย"
+      ],
+      "moods": [
+        "adventure",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ถ้ำหินปูนธรรมชาติที่สามารถนั่งเรือลอดผ่านชมความงามของหินงอกหินย้อย",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 5,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 50,
+        "max": 50
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "tha-pom-canal-extension",
+      "province": "krabi",
+      "name_th": "คลองสองน้ำอ่าวลึก",
+      "name_en": "Aow Luek Khlong Song Nam",
+      "district_th": "อำเภออ่าวลึก",
+      "description_th": "คลองสองน้ำอ่าวลึก เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.3892,
+      "lng": 98.6912,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "คลองสองน้ำ",
+        "เล่นน้ำใส",
+        "ธรรมชาติ"
+      ],
+      "moods": [
+        "beach",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "ลำธารน้ำใสแจ๋วบรรยากาศร่มรื่นเหมาะแก่การพักผ่อนเล่นน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 20,
+        "max": 20
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "bor-tho-kayak",
+      "province": "krabi",
+      "name_th": "ท่าเรือบ่อท่อ",
+      "name_en": "Bor Tho Pier Kayaking",
+      "district_th": "อำเภออ่าวลึก",
+      "description_th": "ท่าเรือบ่อท่อ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.4212,
+      "lng": 98.7212,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พายเรือคายัค",
+        "ท่าเรือบ่อท่อ",
+        "ผจญภัย"
+      ],
+      "moods": [
+        "adventure",
+        "photo",
+        "beach"
+      ],
+      "mood_reason": "จุดเริ่มต้นพายเรือคายัคสำรวจถ้ำและป่าชายเลนอ่าวลึก",
+      "stats": {
+        "chill": 3,
+        "adventure": 5,
+        "photo": 5,
+        "food": 2,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 200,
+        "max": 200
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-tok-viewpoint",
+      "province": "krabi",
+      "name_th": "จุดชมวิวเขาโต๊ะ",
+      "name_en": "Khao Tok Viewpoint",
+      "district_th": "อำเภออ่าวลึก",
+      "description_th": "จุดชมวิวเขาโต๊ะ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.3756,
+      "lng": 98.7123,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "จุดชมวิว",
+        "วิวอ่าวลึก",
+        "ภูเขาหินปูน"
+      ],
+      "moods": [
+        "mountain",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "จุดชมวิวบนเนินเขาที่มองเห็นทัศนียภาพของอำเภออ่าวลึกและภูเขาหินปูน",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-ao-luek-nuea",
+      "province": "krabi",
+      "name_th": "วัดอ่าวลึกเหนือ",
+      "name_en": "Wat Aow Luek Nuea",
+      "district_th": "อำเภออ่าวลึก",
+      "description_th": "วัดอ่าวลึกเหนือ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.3912,
+      "lng": 98.7234,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดอ่าวลึกเหนือ",
+        "สถาปัตยกรรมท้องถิ่น",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดสวยงามในอำเภออ่าวลึกบรรยากาศสงบร่มเย็น",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-laem-sak-viewpoint",
+      "province": "krabi",
+      "name_th": "จุดชมวิวแหลมสัก",
+      "name_en": "Laem Sak Viewpoint",
+      "district_th": "อำเภออ่าวลึก",
+      "description_th": "จุดชมวิวแหลมสัก เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.4412,
+      "lng": 98.6812,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "จุดชมวิวแหลมสัก",
+        "ทะเลแหลมสัก",
+        "วิถีชุมชน"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "จุดชมวิวทะเลและเกาะแก่งในเขตแหลมสัก",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khlong-thom-hot-stream",
+      "province": "krabi",
+      "name_th": "น้ำตกร้อนคลองท่อม",
+      "name_en": "Khlong Thom Hot Stream (Nam Tok Ron)",
+      "district_th": "อำเภอคลองท่อม",
+      "description_th": "น้ำตกร้อนคลองท่อม เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.9512,
+      "lng": 99.1812,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตกร้อน",
+        "สปาธรรมชาติ",
+        "แช่น้ำแร่"
+      ],
+      "moods": [
+        "beach",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "น้ำพุร้อนธรรมชาติกลางป่าทึบอุณหภูมิพอเหมาะสำหรับแช่ผ่อนคลาย",
+      "stats": {
+        "chill": 5,
+        "adventure": 3,
+        "photo": 5,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 20,
+        "max": 20
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "blue-pool-khlong-thom",
+      "province": "krabi",
+      "name_th": "สระมรกต 2 (สระผุด)",
+      "name_en": "Blue Pool Khlong Thom",
+      "district_th": "อำเภอคลองท่อม",
+      "description_th": "สระมรกต 2 (สระผุด) เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.9254,
+      "lng": 99.2312,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สระผุด",
+        "น้ำใสสีฟ้า",
+        "ธรรมชาติคลองท่อม"
+      ],
+      "moods": [
+        "beach",
+        "mountain",
+        "photo"
+      ],
+      "mood_reason": "ตาน้ำธรรมชาติผุดขึ้นมามีน้ำสีฟ้าครามสดใสกลางป่าดิบชื้น",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 5,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-muang",
+      "province": "krabi",
+      "name_th": "วัดบางม่วง",
+      "name_en": "Wat Bang Muang",
+      "district_th": "อำเภอคลองท่อม",
+      "description_th": "วัดบางม่วง เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.9812,
+      "lng": 99.1512,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดบางม่วง",
+        "ประวัติศาสตร์ท้องถิ่น",
+        "ริมคลอง"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดริมคลองคลองท่อมบรรยากาศเงียบสงบเหมาะแก่การปฏิบัติธรรม",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-khram-viewpoint",
+      "province": "krabi",
+      "name_th": "จุดชมวิวเขากราม",
+      "name_en": "Khao Khram Viewpoint",
+      "district_th": "อำเภอคลองท่อม",
+      "description_th": "จุดชมวิวเขากราม เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.9412,
+      "lng": 99.1212,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "จุดชมวิว",
+        "ภูเขากราม",
+        "ธรรมชาติคลองท่อม"
+      ],
+      "moods": [
+        "mountain",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "จุดชมวิวธรรมชาติในอำเภอคลองท่อมมองเห็นทุ่งนาและภูเขา",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khlong-thom-walking-street",
+      "province": "krabi",
+      "name_th": "ถนนคนเดินคลองท่อม",
+      "name_en": "Khlong Thom Walking Street",
+      "district_th": "อำเภอคลองท่อม",
+      "description_th": "ถนนคนเดินคลองท่อม เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.9756,
+      "lng": 99.1623,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ถนนคนเดิน",
+        "ของกินคลองท่อม",
+        "ตลาดท้องถิ่น"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ตลาดนัดถนนคนเดินในอำเภอคลองท่อมจำหน่ายอาหารและสินค้าพื้นเมือง",
+      "stats": {
+        "chill": 3,
+        "adventure": 2,
+        "photo": 3,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ลับ",
+      "best_time": "ศุกร์-เสาร์",
+      "opening_hours": "16:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "lanta-old-town",
+      "province": "krabi",
+      "name_th": "ชุมชนเมืองเก่าลันตา",
+      "name_en": "Lanta Old Town",
+      "district_th": "อำเภอเกาะลันตา",
+      "description_th": "ชุมชนเมืองเก่าลันตา เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.5512,
+      "lng": 99.0234,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เมืองเก่าลันตา",
+        "บ้านไม้โบราณ",
+        "วิถีชีวิตดั้งเดิม"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ชุมชนโบราณอายุกว่าร้อยปีมีบ้านไม้ริมทะเลและร้านค้าดั้งเดิม",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 4,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "mu-ko-lanta-national-park",
+      "province": "krabi",
+      "name_th": "อุทยานแห่งชาติหมู่เกาะลันตา",
+      "name_en": "Mu Ko Lanta National Park",
+      "district_th": "อำเภอเกาะลันตา",
+      "description_th": "อุทยานแห่งชาติหมู่เกาะลันตา เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.3912,
+      "lng": 98.9812,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "อุทยานแห่งชาติ",
+        "ประภาคารเกาะลันตา",
+        "เดินป่าชายหาด"
+      ],
+      "moods": [
+        "beach",
+        "mountain",
+        "photo"
+      ],
+      "mood_reason": "จุดใต้สุดของเกาะลันตามีประภาคารสีขาวและเส้นทางเดินศึกษาธรรมชาติ",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 5,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "พ.ย.-เม.ย.",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 40,
+        "max": 40
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khlong-dao-beach",
+      "province": "krabi",
+      "name_th": "หาดคลองดาว",
+      "name_en": "Khlong Dao Beach",
+      "district_th": "อำเภอเกาะลันตา",
+      "description_th": "หาดคลองดาว เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.6312,
+      "lng": 99.0312,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดคลองดาว",
+        "หาดทรายกว้าง",
+        "ชมพระอาทิตย์ตก"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ชายหาดยอดนิยมบนเกาะลันตาหาดทรายกว้างและคลื่นสงบ",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "long-beach-lanta",
+      "province": "krabi",
+      "name_th": "หาดพระแอะ (หาดยาว)",
+      "name_en": "Long Beach (Phra Ae Beach)",
+      "district_th": "อำเภอเกาะลันตา",
+      "description_th": "หาดพระแอะ (หาดยาว) เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.6123,
+      "lng": 99.0345,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดยาว",
+        "หาดพระแอะ",
+        "พักผ่อนริมทะเล"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "หาดทรายขาวยาวหลายกิโลเมตรบรรยากาศร่มรื่นด้วยสนทะเล",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ba-kan-tiang-bay",
+      "province": "krabi",
+      "name_th": "อ่าวบากันเตียง",
+      "name_en": "Ba Kan Tiang Bay",
+      "district_th": "อำเภอเกาะลันตา",
+      "description_th": "อ่าวบากันเตียง เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.4912,
+      "lng": 99.0123,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "อ่าวบากันเตียง",
+        "หาดรูปพระจันทร์เสี้ยว",
+        "น้ำใส"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "อ่าวโค้งรูปพระจันทร์เสี้ยวหาดทรายขาวละเอียดและน้ำทะเลใสสะอาด",
+      "stats": {
+        "chill": 5,
+        "adventure": 3,
+        "photo": 5,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "kantiang-viewpoint",
+      "province": "krabi",
+      "name_th": "จุดชมวิวบากันเตียง",
+      "name_en": "Kantiang Viewpoint",
+      "district_th": "อำเภอเกาะลันตา",
+      "description_th": "จุดชมวิวบากันเตียง เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.4856,
+      "lng": 99.0189,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "จุดชมวิว",
+        "วิวทะเลลันตา",
+        "คาเฟ่ชมวิว"
+      ],
+      "moods": [
+        "mountain",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "จุดชมวิวบนเนินเขามองเห็นอ่าวบากันเตียงและทะเลอันดามันกว้างไกล",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-19:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "klong-nin-beach",
+      "province": "krabi",
+      "name_th": "หาดคลองนิน",
+      "name_en": "Khlong Nin Beach",
+      "district_th": "อำเภอเกาะลันตา",
+      "description_th": "หาดคลองนิน เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.5712,
+      "lng": 99.0389,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดคลองนิน",
+        "ร้านอาหารริมหาด",
+        "บรรยากาศชิล"
+      ],
+      "moods": [
+        "beach",
+        "food",
+        "photo"
+      ],
+      "mood_reason": "ชายหาดบรรยากาศผ่อนคลายมีร้านอาหารและบาร์ริมหาดน่านั่ง",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "lanta-animal-welfare",
+      "province": "krabi",
+      "name_th": "ศูนย์ดูแลสัตว์เกาะลันตา",
+      "name_en": "Lanta Animal Welfare",
+      "district_th": "อำเภอเกาะลันตา",
+      "description_th": "ศูนย์ดูแลสัตว์เกาะลันตา เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.6212,
+      "lng": 99.0312,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ศูนย์ช่วยเหลือสัตว์",
+        "น้องแมวและหมา",
+        "กิจกรรมอาสาสมัคร"
+      ],
+      "moods": [
+        "quiet",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "ศูนย์พักพิงและดูแลสุนัขแมวไร้บ้านเปิดให้นักท่องเที่ยวเข้าเยี่ยมชมและอาสาสมัคร",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "tham-khao-ไม้-แก้ว",
+      "province": "krabi",
+      "name_th": "ถ้ำเขาไม้แก้ว",
+      "name_en": "Khao Mai Kaew Cave",
+      "district_th": "อำเภอเกาะลันตา",
+      "description_th": "ถ้ำเขาไม้แก้ว เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.5312,
+      "lng": 99.0512,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ถ้ำเขาไม้แก้ว",
+        "ผจญภัยในถ้ำ",
+        "หินงอกหินย้อย"
+      ],
+      "moods": [
+        "adventure",
+        "mountain",
+        "photo"
+      ],
+      "mood_reason": "ระบบถ้ำขนาดใหญ่ใจกลางเกาะลันตาต้องมีไกด์ท้องถิ่นนำทางสำรวจ",
+      "stats": {
+        "chill": 1,
+        "adventure": 5,
+        "photo": 4,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 300,
+        "max": 300
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "koh-rok",
+      "province": "krabi",
+      "name_th": "เกาะรอก",
+      "name_en": "Koh Rok",
+      "district_th": "อำเภอเกาะลันตา",
+      "description_th": "เกาะรอก เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.2123,
+      "lng": 98.9812,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เกาะรอก",
+        "ดำน้ำดูปะการัง",
+        "หาดทรายขาว"
+      ],
+      "moods": [
+        "beach",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "เกาะสวรรค์กลางทะเลอันดามันขึ้นชื่อเรื่องน้ำทะเลใสสีมรกตและปะการังสมบูรณ์",
+      "stats": {
+        "chill": 5,
+        "adventure": 5,
+        "photo": 5,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "พ.ย.-เม.ย.",
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 400,
+        "max": 400
+      },
+      "visit_minutes": 360,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "koh-ha",
+      "province": "krabi",
+      "name_th": "เกาะห้า",
+      "name_en": "Koh Ha",
+      "district_th": "อำเภอเกาะลันตา",
+      "description_th": "เกาะห้า เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.3123,
+      "lng": 98.9212,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เกาะห้า",
+        "จุดดำน้ำลึกตื้น",
+        "ถ้ำใต้น้ำ"
+      ],
+      "moods": [
+        "beach",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "หมู่เกาะหินปูน 5 เกาะที่เป็นจุดดำน้ำตื้นและดำน้ำลึกยอดเยี่ยม",
+      "stats": {
+        "chill": 4,
+        "adventure": 5,
+        "photo": 5,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "พ.ย.-เม.ย.",
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 240,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "koh-klang-mangrove",
+      "province": "krabi",
+      "name_th": "ป่าชายเลนบ้านเกาะกลาง",
+      "name_en": "Ban Koh Klang Mangrove",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "ป่าชายเลนบ้านเกาะกลาง เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0512,
+      "lng": 98.9012,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ป่าชายเลนเกาะกลาง",
+        "ปลูกป่า",
+        "วิถีชุมชน"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "พื้นที่ป่าชายเลนรอบเกาะกลางเหมาะสำหรับการศึกษาธรรมชาติและปลูกป่า",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "koh-jum",
+      "province": "krabi",
+      "name_th": "เกาะจำ",
+      "name_en": "Koh Jum",
+      "district_th": "อำเภอเหนือคลอง",
+      "description_th": "เกาะจำ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0123,
+      "lng": 98.9123,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เกาะจำ",
+        "หาดสงบ",
+        "วิถีชีวิตสลัดเกาะ"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "เกาะสงบเงียบวิถีชีวิตเรียบง่ายเหมาะสำหรับนักท่องเที่ยวที่ต้องการความสงบแท้จริง",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 180,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-nuea-khlong",
+      "province": "krabi",
+      "name_th": "วัดเหนือคลอง",
+      "name_en": "Wat Nuea Khlong",
+      "district_th": "อำเภอเหนือคลอง",
+      "description_th": "วัดเหนือคลอง เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0212,
+      "lng": 98.9312,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดเหนือคลอง",
+        "พระอุโบสถสวย",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดสำคัญประจำอำเภอเหนือคลองสถาปัตยกรรมงดงามร่มรื่น",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "nuea-khlong-market",
+      "province": "krabi",
+      "name_th": "ตลาดสดเทศบาลอำเภอเหนือคลอง",
+      "name_en": "Nuea Khlong Fresh Market",
+      "district_th": "อำเภอเหนือคลอง",
+      "description_th": "ตลาดสดเทศบาลอำเภอเหนือคลอง เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0189,
+      "lng": 98.9289,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดสด",
+        "อาหารพื้นบ้าน",
+        "ของกินยามเช้า"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ตลาดสดท้องถิ่นจับจ่ายอาหารทะเลสดและขนมไทยพื้นบ้านยามเช้า",
+      "stats": {
+        "chill": 3,
+        "adventure": 2,
+        "photo": 3,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "05:00-11:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-phanom-national-park-hq",
+      "province": "krabi",
+      "name_th": "ที่ทำการอุทยานแห่งชาติเขาพนมเบญจา",
+      "name_en": "Khao Phanom Bencha National Park HQ",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "ที่ทำการอุทยานแห่งชาติเขาพนมเบญจา เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.2123,
+      "lng": 98.9123,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "อุทยานแห่งชาติ",
+        "น้ำตก",
+        "ศูนย์บริการนักท่องเที่ยว"
+      ],
+      "moods": [
+        "mountain",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "จุดเริ่มต้นติดต่อเข้าชมอุทยานแห่งชาติเขาพนมเบญจาและศึกษาธรรมชาติ",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 4,
+        "food": 1,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 100,
+        "max": 100
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-huai-luk",
+      "province": "krabi",
+      "name_th": "หมู่บ้านห้วยลึก",
+      "name_en": "Ban Huai Luk",
+      "district_th": "อำเภอเหนือคลอง",
+      "description_th": "หมู่บ้านห้วยลึก เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.9812,
+      "lng": 98.9512,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หมู่บ้านท้องถิ่น",
+        "วิถีชาวสวน",
+        "โฮมสเตย์ชุมชน"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "food"
+      ],
+      "mood_reason": "หมู่บ้านเกษตรกรทำสวนยางและสวนผลไม้บรรยากาศเป็นกันเอง",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 3,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "koh-pu",
+      "province": "krabi",
+      "name_th": "เกาะปู",
+      "name_en": "Koh Pu",
+      "district_th": "อำเภอเหนือคลอง",
+      "description_th": "เกาะปู เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0412,
+      "lng": 98.8812,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เกาะปู",
+        "ภูเขาไฟโบราณ",
+        "ธรรมชาติสงบ"
+      ],
+      "moods": [
+        "beach",
+        "mountain",
+        "quiet"
+      ],
+      "mood_reason": "เกาะปูส่วนเหนือของเกาะจำมีภูเขาปูยอดเขาสูงสุดและหาดทรายธรรมชาติ",
+      "stats": {
+        "chill": 5,
+        "adventure": 3,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "klong-hang-beach",
+      "province": "krabi",
+      "name_th": "หาดคลองแห้ง",
+      "name_en": "Klong Hang Beach",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "หาดคลองแห้ง เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0321,
+      "lng": 98.8234,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หาดคลองแห้ง",
+        "หาดเงียบสงบ",
+        "ใกล้หาดนพรัตน์"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "หาดทรายเงียบสงบใกล้หาดนพรัตน์ธาราเหมาะกับการเดินเล่นชมวิว",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "24 ชั่วโมง",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sai-thai",
+      "province": "krabi",
+      "name_th": "วัดไสไทย",
+      "name_en": "Wat Sai Thai",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "วัดไสไทย เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0512,
+      "lng": 98.8612,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดไสไทย",
+        "พระนอนโบราณ",
+        "ถ้ำไสไทย"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "วัดเก่าแก่มีพระพุทธไสยาสน์ประดิษฐานภายในถ้ำธรรมชาติ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ao-nang-night-market",
+      "province": "krabi",
+      "name_th": "อ่าวนางไนท์มาร์เก็ต",
+      "name_en": "Ao Nang Night Market",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "อ่าวนางไนท์มาร์เก็ต เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0312,
+      "lng": 98.8256,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ไนท์มาร์เก็ต",
+        "สตรีทฟู้ดอ่าวนาง",
+        "ช้อปปิ้งยามเย็น"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "ตลาดนัดกลางคืนย่านอ่าวนางรวมอาหารทะเลสตรีทฟู้ดและของที่ระลึก",
+      "stats": {
+        "chill": 3,
+        "adventure": 2,
+        "photo": 4,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "17:00-23:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "lazcaff-cafe",
+      "province": "krabi",
+      "name_th": "ลาซแคฟ คาเฟ่",
+      "name_en": "Lazcaff Cafe Krabi",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "ลาซแคฟ คาเฟ่ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0612,
+      "lng": 98.9212,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "คาเฟ่กระบี่",
+        "กาแฟพรีเมียม",
+        "ถ่ายรูปสวย"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "คาเฟ่สไตล์มินิมอลใจกลางเมืองกระบี่กาแฟดีเบเกอรี่โฮมเมดอร่อย",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 4,
+        "budget": 3
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "krabi-pitak-nukoon-school-market",
+      "province": "krabi",
+      "name_th": "ตลาดนัดโรงเรียนพิทักษ์ประชา",
+      "name_en": "Krabi Pitak Market",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "ตลาดนัดโรงเรียนพิทักษ์ประชา เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0712,
+      "lng": 98.9112,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดนัดท้องถิ่น",
+        "ของกินอร่อย",
+        "วิถีเมืองกระบี่"
+      ],
+      "moods": [
+        "food",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ตลาดนัดชุมชนยามเย็นจำหน่ายอาหารพื้นบ้านและของกินเล่นมากมาย",
+      "stats": {
+        "chill": 3,
+        "adventure": 1,
+        "photo": 3,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "พุธ-เสาร์",
+      "opening_hours": "15:30-20:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-phanom-waterfall",
+      "province": "krabi",
+      "name_th": "น้ำตกเขาพนม",
+      "name_en": "Khao Phanom Waterfall",
+      "district_th": "อำเภอเขาพนม",
+      "description_th": "น้ำตกเขาพนม เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.2156,
+      "lng": 99.0123,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "น้ำตกธรรมชาติ",
+        "ป่าเขาพนม",
+        "เล่นน้ำ"
+      ],
+      "moods": [
+        "mountain",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "น้ำตกธรรมชาติในเขตอำเภอเขาพนมน้ำใสเย็นสดชื่น",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ban-thalay-sok",
+      "province": "krabi",
+      "name_th": "ชุมชนบ้านทะเลหอย",
+      "name_en": "Ban Thalay Hoi Community",
+      "district_th": "อำเภออ่าวลึก",
+      "description_th": "ชุมชนบ้านทะเลหอย เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.3612,
+      "lng": 98.7412,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ชุมชนประมง",
+        "หอยชักตีน",
+        "วิถีริมเล"
+      ],
+      "moods": [
+        "beach",
+        "food",
+        "quiet"
+      ],
+      "mood_reason": "ชุมชนประมงชายฝั่งชื่อดังเรื่องหอยชักตีนสดๆ และการท่องเที่ยวเชิงนิเวศ",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 3,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khao-thong-hill",
+      "province": "krabi",
+      "name_th": "เขาทองฮิลล์",
+      "name_en": "Khao Thong Hill",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "เขาทองฮิลล์ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.1612,
+      "lng": 98.7812,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เขาทองฮิลล์",
+        "จุดชมวิวพระอาทิตย์ตก",
+        "คาเฟ่วิวเทพ"
+      ],
+      "moods": [
+        "mountain",
+        "photo",
+        "food"
+      ],
+      "mood_reason": "คาเฟ่และจุดชมวิวบนยอดเขาที่มองเห็นหมู่เกาะในทะเลกระบี่แบบพาโนรามา",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 4,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:00-19:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 50,
+        "max": 50
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "emerald-pool-nature-trail",
+      "province": "krabi",
+      "name_th": "เส้นทางศึกษาธรรมชาติป่าทุ่งจาบ",
+      "name_en": "Thung Jab Nature Trail",
+      "district_th": "อำเภอคลองท่อม",
+      "description_th": "เส้นทางศึกษาธรรมชาติป่าทุ่งจาบ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 7.9312,
+      "lng": 99.2212,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เส้นทางศึกษาธรรมชาติ",
+        "ป่าพรุ",
+        "ดูนก"
+      ],
+      "moods": [
+        "mountain",
+        "adventure",
+        "quiet"
+      ],
+      "mood_reason": "เส้นทางเดินศึกษาธรรมชาติป่าพรุและป่าดิบชื้นใกล้สระมรกต",
+      "stats": {
+        "chill": 4,
+        "adventure": 4,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-klang-krabi",
+      "province": "krabi",
+      "name_th": "วัดกลางเมืองกระบี่",
+      "name_en": "Wat Klang Krabi",
+      "district_th": "อำเภอเมืองกระบี่",
+      "description_th": "วัดกลางเมืองกระบี่ เป็นสถานที่ท่องเที่ยวอันน่าสนใจในจังหวัดกระบี่ที่นักท่องเที่ยวควรมาสัมผัส",
+      "lat": 8.0654,
+      "lng": 98.9189,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดกลาง",
+        "พระพุทธรูปเก่าแก่",
+        "ใจกลางเมือง"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "วัดเก่าแก่คู่เมืองกระบี่สถาปัตยกรรมงดงามและสงบร่มเย็น",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "จองที่พักล่วงหน้าบริเวณใกล้เคียงเพื่อความสะดวกในการเดินทาง",
+      "image_url": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "ruenthip-seafood",
+      "province": "krabi",
+      "name_th": "เรือนทิพย์ซีฟู้ด",
+      "name_en": "Ruenthip Seafood",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทยใต้",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes_th": [
+        "แกงส้มปลาคอด",
+        "ปูม้านึ่งสด"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "อำเภอเมืองกระบี่",
+      "lat": 8.0312,
+      "lng": 98.8212,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารซีฟู้ดสดๆ รสชาติจัดจ้านสไตล์ปักษ์ใต้แท้ริมอ่าวนาง",
+      "price_per_person_thb": {
+        "min": 225,
+        "max": 450
+      },
+      "opening_hours": "10:00-22:00",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice 2026"
+      ],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 180,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [
+        "halal"
+      ],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": "https://www.facebook.com/ruenthipseafood",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ko-joi-khanom-jeen",
+      "province": "krabi",
+      "name_th": "โกจ้อย ขนมจีน",
+      "name_en": "Ko Joi Khanom Jeen",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ไทยใต้",
+        "เส้นจันทน์"
+      ],
+      "signature_dishes_th": [
+        "ขนมจีนน้ำยาปู",
+        "ไก่ทอดหาดใหญ่"
+      ],
+      "meals": [
+        "breakfast",
+        "lunch"
+      ],
+      "area_th": "อำเภอเหนือคลอง",
+      "lat": 8.0123,
+      "lng": 98.9212,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านขนมจีนชื่อดังประจำจังหวัดกระบี่เส้นสดนุ่มและไก่ทอดกรอบอร่อย",
+      "price_per_person_thb": {
+        "min": 50,
+        "max": 100
+      },
+      "opening_hours": "07:00-15:00",
+      "closed_days": "วันพุธ",
+      "awards": [
+        "Michelin Bib Gourmand 2026"
+      ],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 320,
+        "source": "https://guide.michelin.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.facebook.com/kojoi",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://guide.michelin.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "klua-wan-cafe",
+      "province": "krabi",
+      "name_th": "เกลือหวาน คาเฟ่",
+      "name_en": "Klua Wan Cafe",
+      "kind": "cafe",
+      "cuisine_th": [
+        "คาเฟ่",
+        "เบเกอรี่"
+      ],
+      "signature_dishes_th": [
+        "ครัวซองต์เนยสด",
+        "กาแฟมะพร้าวคั่ว"
+      ],
+      "meals": [
+        "breakfast",
+        "snack"
+      ],
+      "area_th": "อำเภอเมืองกระบี่",
+      "lat": 8.0612,
+      "lng": 98.9154,
+      "coords_source": "https://maps.google.com",
+      "description_th": "คาเฟ่บรรยากาศอบอุ่นเสิร์ฟเบเกอรี่โฮมเมดและกาแฟคั่วบดชั้นดี",
+      "price_per_person_thb": {
+        "min": 75,
+        "max": 150
+      },
+      "opening_hours": "08:00-18:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.7,
+        "out_of": 5,
+        "count": 95,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "website": "https://www.facebook.com/kluawancafe",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "krua-cha-om",
+      "province": "krabi",
+      "name_th": "ครัวชะอม",
+      "name_en": "Krua Cha-om",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทยใต้"
+      ],
+      "signature_dishes_th": [
+        "กุ้งผัดสะตอ",
+        "ใบเหลียงผัดไข่"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "อำเภอเมืองกระบี่",
+      "lat": 8.0812,
+      "lng": 98.9012,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารพื้นบ้านรสชาติจัดจ้านถึงเครื่องแกงใต้แท้ๆ",
+      "price_per_person_thb": {
+        "min": 125,
+        "max": 250
+      },
+      "opening_hours": "10:30-21:30",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice 2026"
+      ],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 210,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.facebook.com/kruachaom",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "chok-dee-noodle",
+      "province": "krabi",
+      "name_th": "โชคดี บะหมี่เกี๊ยว",
+      "name_en": "Chok Dee Noodle",
+      "kind": "street_food",
+      "cuisine_th": [
+        "บะหมี่",
+        "อาหารจานเดียว"
+      ],
+      "signature_dishes_th": [
+        "บะหมี่เกี๊ยวกุ้งยักษ์",
+        "หมูแดงอบขมิ้น"
+      ],
+      "meals": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "อำเภอเมืองกระบี่",
+      "lat": 8.0645,
+      "lng": 98.9145,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านบะหมี่เกี๊ยวทำเองเส้นเหนียวนุ่มน้ำซุปกระดูกหมูกลมกล่อม",
+      "price_per_person_thb": {
+        "min": 40,
+        "max": 80
+      },
+      "opening_hours": "06:00-20:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 150,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "cafe-de-lanta",
+      "province": "krabi",
+      "name_th": "คาเฟ่ เดอ ลันตา",
+      "name_en": "Cafe de Lanta",
+      "kind": "cafe",
+      "cuisine_th": [
+        "คาเฟ่",
+        "อาหารนานาชาติ"
+      ],
+      "signature_dishes_th": [
+        "สมูทตี้ผลไม้รวม",
+        "พิซซ่าเตาถ่าน"
+      ],
+      "meals": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "area_th": "อำเภอเกาะลันตา",
+      "lat": 7.6123,
+      "lng": 99.0312,
+      "coords_source": "https://maps.google.com",
+      "description_th": "คาเฟ่ริมหาดเกาะลันตาวิวสวยบรรยากาศโรแมนติกยามเย็น",
+      "price_per_person_thb": {
+        "min": 175,
+        "max": 350
+      },
+      "opening_hours": "10:00-22:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 130,
+        "source": "https://www.tripadvisor.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "website": "https://www.facebook.com/cafedelanta",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.tripadvisor.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "bang-yao-seafood",
+      "province": "krabi",
+      "name_th": "บังยาว ซีฟู้ด",
+      "name_en": "Bang Yao Seafood",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทยใต้"
+      ],
+      "signature_dishes_th": [
+        "ปูม้าผัดผงกะหรี่",
+        "ปลาทอดน้ำปลา"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "อำเภอเมืองกระบี่",
+      "lat": 8.0356,
+      "lng": 98.8189,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านซีฟู้ดสดจากทะเลในราคาเป็นกันเองย่านอ่าวนาง",
+      "price_per_person_thb": {
+        "min": 200,
+        "max": 400
+      },
+      "opening_hours": "11:00-22:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 160,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [
+        "halal"
+      ],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "roti-chao-kao",
+      "province": "krabi",
+      "name_th": "โรตีเจ้าเก่า ตลาดโต้รุ่ง",
+      "name_en": "Roti Chao Kao",
+      "kind": "street_food",
+      "cuisine_th": [
+        "โรตี",
+        "ชาชัก"
+      ],
+      "signature_dishes_th": [
+        "โรตีใส่ไข่กล้วย",
+        "ชาชักฟองนุ่ม"
+      ],
+      "meals": [
+        "breakfast",
+        "snack"
+      ],
+      "area_th": "อำเภอเมืองกระบี่",
+      "lat": 8.0623,
+      "lng": 98.9167,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านโรตีชื่อดังแป้งกรอบนอกนุ่มในทานคู่กับชาชักรสชาติเข้มข้น",
+      "price_per_person_thb": {
+        "min": 30,
+        "max": 60
+      },
+      "opening_hours": "17:00-23:00",
+      "closed_days": null,
+      "awards": [
+        "Michelin Bib Gourmand 2026"
+      ],
+      "rating": {
+        "score": 4.7,
+        "out_of": 5,
+        "count": 400,
+        "source": "https://guide.michelin.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://guide.michelin.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "puma-thip-fish-congee",
+      "province": "krabi",
+      "name_th": "ปูม้าทิพย์ ข้าวต้มปลา",
+      "name_en": "Puma Thip Fish Congee",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ข้าวต้ม",
+        "อาหารทะเล"
+      ],
+      "signature_dishes_th": [
+        "ข้าวต้มปลาเก๋า",
+        "ยำปูม้าสด"
+      ],
+      "meals": [
+        "dinner",
+        "snack"
+      ],
+      "area_th": "อำเภอเมืองกระบี่",
+      "lat": 8.0678,
+      "lng": 98.9123,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านข้าวต้มปลาและอาหารทะเลสดๆ เปิดให้บริการยามค่ำคืน",
+      "price_per_person_thb": {
+        "min": 100,
+        "max": 200
+      },
+      "opening_hours": "17:00-01:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 110,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "lanta-sunset-restaurant",
+      "province": "krabi",
+      "name_th": "ลันตา ซันเซ็ท เรสเตอรองต์",
+      "name_en": "Lanta Sunset Restaurant",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes_th": [
+        "ต้มยำกุ้งน้ำข้น",
+        "ปลากะพงทอดน้ำปลา"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "อำเภอเกาะลันตา",
+      "lat": 7.4912,
+      "lng": 99.0123,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารริมหาดเกาะลันตาชมพระอาทิตย์ลับขอบฟ้าพร้อมอาหารอร่อย",
+      "price_per_person_thb": {
+        "min": 250,
+        "max": 500
+      },
+      "opening_hours": "11:00-22:30",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 140,
+        "source": "https://www.tripadvisor.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "website": "https://www.facebook.com/lantasunset",
+      "image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.tripadvisor.com"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "stays": [
+    {
+      "id": "tubkaek-sunset-resort",
+      "province": "krabi",
+      "name_th": "ทับแขก ซัน셋 รีสอร์ท",
+      "name_en": "Tubkaek Sunset Resort",
+      "type": "resort",
+      "area_th": "อ่าวนาง/ทับแขก",
+      "lat": 8.0789,
+      "lng": 98.7823,
+      "coords_source": "https://maps.google.com",
+      "description_th": "รีสอร์ทติดชายหาดทับแขกบรรยากาศเงียบสงบวิวพระอาทิตย์ตกสวยงาม",
+      "price_per_night_thb": {
+        "min": 2800,
+        "max": 4300
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.5,
+        "out_of": 10,
+        "count": 120,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "beach_access"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.tubkaeksunset.com",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": "https://www.agoda.com",
+        "traveloka": "https://www.agoda.com"
+      },
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "lanta-panta-beach-resort",
+      "province": "krabi",
+      "name_th": "ลันตา ปันتا เบย์ รีสอร์ท",
+      "name_en": "Lanta Panta Beach Resort",
+      "type": "resort",
+      "area_th": "เกาะลันตา",
+      "lat": 7.6234,
+      "lng": 99.0312,
+      "coords_source": "https://maps.google.com",
+      "description_th": "รีสอร์ทริมหาดคลองดาวเกาะลันตาห้องพักกว้างขวางและสระว่ายน้ำกลางแจ้ง",
+      "price_per_night_thb": {
+        "min": 1800,
+        "max": 3300
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.booking.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.2,
+        "out_of": 10,
+        "count": 120,
+        "source": "https://www.booking.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "beach_access",
+        "family"
+      ],
+      "moods": [
+        "beach",
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.lantapanta.com",
+      "booking_urls": {
+        "agoda": "https://www.booking.com",
+        "booking": "https://www.booking.com",
+        "traveloka": "https://www.booking.com"
+      },
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.booking.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "krabi-mercure-hotel",
+      "province": "krabi",
+      "name_th": "กระบี่ เมอร์เคียว โฮเทล",
+      "name_en": "Krabi Mercure Hotel",
+      "type": "hotel",
+      "area_th": "เมืองกระบี่",
+      "lat": 8.0612,
+      "lng": 98.9123,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมทันสมัยใจกลางเมืองกระบี่เดินทางสะดวกสบายสิ่งอำนวยความสะดวกครบครัน",
+      "price_per_night_thb": {
+        "min": 2200,
+        "max": 3700
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.4,
+        "out_of": 10,
+        "count": 120,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "workspace"
+      ],
+      "moods": [
+        "food",
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.mercurekrabi.com",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": "https://www.agoda.com",
+        "traveloka": "https://www.agoda.com"
+      },
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "bluestotel-ao-nang",
+      "province": "krabi",
+      "name_th": "บลูโซเทล อ่าวนาง",
+      "name_en": "Bluestotel Ao Nang",
+      "type": "hotel",
+      "area_th": "อ่าวนาง",
+      "lat": 8.0312,
+      "lng": 98.8234,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมสไตล์โมเดิร์นใกล้หาดอ่าวนางมีสระว่ายน้ำดาดฟ้าวิวสวย",
+      "price_per_night_thb": {
+        "min": 1500,
+        "max": 3000
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.traveloka.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.1,
+        "out_of": 10,
+        "count": 120,
+        "source": "https://www.traveloka.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "near_transit"
+      ],
+      "moods": [
+        "beach",
+        "adventure"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.bluestotel.com",
+      "booking_urls": {
+        "agoda": "https://www.traveloka.com",
+        "booking": "https://www.traveloka.com",
+        "traveloka": "https://www.traveloka.com"
+      },
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.traveloka.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "the-lanta-villa",
+      "province": "krabi",
+      "name_th": "เดอะ ลันตา วิลล่า",
+      "name_en": "The Lanta Villa",
+      "type": "villa",
+      "area_th": "เกาะลันตา",
+      "lat": 7.6156,
+      "lng": 99.0345,
+      "coords_source": "https://maps.google.com",
+      "description_th": "วิลล่าส่วนตัวบรรยากาศร่มรื่นใกล้หาดพระแอะเกาะลันตา",
+      "price_per_night_thb": {
+        "min": 4500,
+        "max": 6000
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "comfy",
+      "rating": {
+        "score": 8.8,
+        "out_of": 10,
+        "count": 120,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "beach_access",
+        "family"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.thelantavilla.com",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": "https://www.agoda.com",
+        "traveloka": "https://www.agoda.com"
+      },
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "cozy-hostel-krabi",
+      "province": "krabi",
+      "name_th": "โคซี่ โฮสเทล กระบี่",
+      "name_en": "Cozy Hostel Krabi",
+      "type": "hostel",
+      "area_th": "เมืองกระบี่",
+      "lat": 8.0589,
+      "lng": 98.9145,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โฮสเทลราคาสบายกระเป๋าใจกลางเมืองเหมาะสำหรับแบ็คแพคเกอร์",
+      "price_per_night_thb": {
+        "min": 600,
+        "max": 2100
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.booking.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.7,
+        "out_of": 10,
+        "count": 120,
+        "source": "https://www.booking.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "near_transit",
+        "workspace"
+      ],
+      "moods": [
+        "food",
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.cozyhostelkrabi.com",
+      "booking_urls": {
+        "agoda": "https://www.booking.com",
+        "booking": "https://www.booking.com",
+        "traveloka": "https://www.booking.com"
+      },
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1280&q=80",
+      "image_page_url": "https://unsplash.com",
+      "image_author": "Unsplash Photographer",
+      "image_license": "Unsplash License",
+      "official_image_url": null,
+      "sources": [
+        "https://www.booking.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    }
+  ]
+}

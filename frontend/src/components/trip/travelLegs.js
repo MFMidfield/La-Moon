@@ -15,8 +15,9 @@ const mid = ({ min, max }) => (min + max) / 2
  * booking = draft.transportBooking ({ out, back }); ขับรถเอง (car) สร้างขาไปจาก carDepart + เวลาขับ (travelOptions)
  * แต่ละ leg เพิ่ม from/to (province id) ไว้ทำลิงก์จอง
  */
-export function buildLegs({ tripType, transportTo, origin, province, booking, carDepart }) {
-  if (tripType === 'daytrip' || !transportTo) return null
+export function buildLegs({ transportTo, origin, province, booking, carDepart }) {
+  // ไปกลับวันเดียวก็มีขาไป-กลับได้ (จังหวัดใกล้); ในจังหวัดตัวเอง transportTo = null → ไม่มี
+  if (!transportTo) return null
   if (transportTo === 'car') {
     const hours = travelOptions(origin, province).options.find(option => option.id === 'car')?.hours ?? null
     const depart = carDepart || '06:00'

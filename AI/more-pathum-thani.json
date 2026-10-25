@@ -1,0 +1,2116 @@
+{
+  "generated_at": "2026-10-24",
+  "province": "pathum-thani",
+  "researcher": "LaMoon Research Team",
+  "note": "Verified dataset of places, restaurants, and stays in Pathum Thani.",
+  "places": [
+    {
+      "id": "wat-don-yai",
+      "province": "pathum-thani",
+      "name_th": "วัดดอนใหญ่",
+      "name_en": "Wat Don Yai",
+      "district_th": "ลำลูกกา",
+      "description_th": "วัดสวยโดดเด่นด้วยอุโบสถเงินฟ้าอันวิจิตรงดงาม เป็นสถานที่ประดิษฐานหลวงพ่อโตและสมเด็จพระพุฒาจารย์ (โต พรหมรังสี) องค์ใหญ่",
+      "lat": 13.9785,
+      "lng": 100.7258,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดสวย",
+        "สายมู",
+        "อุโบสถเงินฟ้า",
+        "ลำลูกกา"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "อุโบสถสีเงินฟ้าตระการตา เหมาะแก่การไหว้พระขอพรและถ่ายภาพวิจิตรศิลป์",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ริมคลองแปด ลำลูกกา เดินทางสะดวกมีที่จอดรถกว้างขวาง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sing",
+      "province": "pathum-thani",
+      "name_th": "วัดสิงห์",
+      "name_en": "Wat Sing",
+      "district_th": "สามโคก",
+      "description_th": "วัดเก่าแก่โบราณสมัยอยุธยา เติมเต็มด้วยประวัติศาสตร์ชาวไทยรามัญ มีหลวงพ่อโตและพิพิธภัณฑ์โบราณวัตถุสามโคก",
+      "lat": 14.0722,
+      "lng": 100.5392,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดโบราณ",
+        "ประวัติศาสตร์",
+        "มอญสามโคก",
+        "วัฒนธรรม"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "บรรยากาศร่มรื่นริมแม่น้ำเจ้าพระยา เต็มไปด้วยร่องรอยประวัติศาสตร์และโบราณวัตถุมอญ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้แม่น้ำเจ้าพระยาในอำเภอสามโคก สามารถจัดทริปไหว้พระริมน้ำได้",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-chedi-hoi",
+      "province": "pathum-thani",
+      "name_th": "วัดเจดีย์หอย",
+      "name_en": "Wat Chedi Hoi",
+      "district_th": "ลาดหลุมแก้ว",
+      "description_th": "วัดที่มีเจดีย์สร้างขึ้นจากฟอสซิลเปลือกหอยนางรมยักษ์โบราณอายุกว่าล้านปี นับเป็นมหัศจรรย์ทางธรรมชาติและศาสนา",
+      "lat": 14.0833,
+      "lng": 100.3889,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เจดีย์หอย",
+        "ซากฟอสซิล",
+        "ลาดหลุมแก้ว",
+        "unseen"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "ความแปลกตาของเจดีย์ที่ประดับด้วยเปลือกหอยโบราณจำนวนมหาศาล",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "มีพิพิธภัณฑ์พื้นบ้านและสวนสมุนไพรให้เยี่ยมชมภายในบริเวณวัด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-chedi-thong",
+      "province": "pathum-thani",
+      "name_th": "วัดเจดีย์ทอง",
+      "name_en": "Wat Chedi Thong",
+      "district_th": "สามโคก",
+      "description_th": "วัดโบราณริมแม่น้ำเจ้าพระยา มีเจดีย์ทรงรามัญสีทองโดดเด่น และพระพุทธรูปปางมารวิชัยศิลปะพุกาม",
+      "lat": 14.045,
+      "lng": 100.5306,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เจดีย์ทรงรามัญ",
+        "ศิลปะมอญ",
+        "สามโคก",
+        "ริมแม่น้ำ"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "เจดีย์รูปทรงศิลปะมอญสีทองสุกสว่างตัดกับสกายไลน์ริมน้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ในอำเภอสามโคก ติดแม่น้ำเจ้าพระยา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-chinwararam",
+      "province": "pathum-thani",
+      "name_th": "วัดชินวรารามวรวิหาร",
+      "name_en": "Wat Chinwararam Worawihan",
+      "district_th": "เมืองปทุมธานี",
+      "description_th": "พระอารามหลวงชั้นโทริมแม่น้ำเจ้าพระยา มีโบสถ์งดงามและภาพจิตรกรรมฝาผนังเรื่องทศชาติชาดกที่ประณีต",
+      "lat": 13.9872,
+      "lng": 100.5408,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระอารามหลวง",
+        "จิตรกรรมฝาผนัง",
+        "ริมแม่น้ำเจ้าพระยา"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "พระอุโบสถทรงสวยงาม บรรยากาศพระอารามหลวงริมน้ำอันสงบร่มรื่น",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้กับสะพานปทุมธานี 2",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-pa-khlong-11",
+      "province": "pathum-thani",
+      "name_th": "วัดป่าคลอง 11",
+      "name_en": "Wat Pa Khlong 11",
+      "district_th": "หนองเสือ",
+      "description_th": "คำชะโนดแห่งภาคกลาง สำนักสงฆ์กลางน้ำที่มีรูปปั้นพญานาคราชสี่ตระกูล ผู้คนนิยมมาขอพรโชคลาภ",
+      "lat": 14.1686,
+      "lng": 100.8033,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "คำชะโนดภาคกลาง",
+        "พญานาค",
+        "สายมู",
+        "หนองเสือ"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "สถาปัตยกรรมโบสถ์ไม้กลางน้ำพร้อมรูปปั้นพญานาคอย่างยิ่งใหญ่และขลัง",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "06:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "อยู่ในอำเภอหนองเสือ ควรไปช่วงเช้าเพื่อหลีกเลี่ยงความอึดอัดของผู้คน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-makham",
+      "province": "pathum-thani",
+      "name_th": "วัดมะขาม",
+      "name_en": "Wat Makham",
+      "district_th": "เมืองปทุมธานี",
+      "description_th": "วัดโบราณติดริมแม่น้ำเจ้าพระยา เชื่อมต่อกับตลาดน้ำวัดศาลเจ้า ขึ้นชื่อเรื่องการไหว้พระขอพรและทำบุญปล่อยปลา",
+      "lat": 13.9881,
+      "lng": 100.5401,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดริมน้ำ",
+        "ตลาดน้ำวัดศาลเจ้า",
+        "ทำบุญปล่อยปลา"
+      ],
+      "moods": [
+        "temple",
+        "food"
+      ],
+      "mood_reason": "ไหว้พระทำบุญแล้วสามารถเดินไปหาของกินอร่อยๆ ที่ตลาดริมน้ำติดกันได้ทันที",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "มีที่จอดรถและติดกับวัดศาลเจ้า เซียนแปะโรงสี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-san-chao",
+      "province": "pathum-thani",
+      "name_th": "วัดศาลเจ้า (เซียนแปะโรงสี)",
+      "name_en": "Wat San Chao",
+      "district_th": "เมืองปทุมธานี",
+      "description_th": "วัดดังริมแม่น้ำเจ้าพระยา สถานที่ตั้งศาลเซียนแปะโรงสี (อาจารย์โง้วกิมโคย) ผู้คนนิยมมาขอพรเรื่องการค้าขายและโชคลาภ",
+      "lat": 13.9888,
+      "lng": 100.5398,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เซียนแปะโรงสี",
+        "สายมู",
+        "ขอพรค้าขาย",
+        "ตลาดวัดศาลเจ้า"
+      ],
+      "moods": [
+        "temple",
+        "food"
+      ],
+      "mood_reason": "ศูนย์รวมสายมูค้าขายร่ำรวยและของอร่อยประจำเมืองปทุมธานี",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ควรไปช่วงเช้าวันเสาร์-อาทิตย์เพื่อหลีกเลี่ยงการจราจรติดขัด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "golden-jubilee-museum-of-agriculture",
+      "province": "pathum-thani",
+      "name_th": "พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติฯ",
+      "name_en": "Golden Jubilee Museum of Agriculture",
+      "district_th": "คลองหลวง",
+      "description_th": "แหล่งเรียนรู้ปรัชญาเศรษฐกิจพอเพียง นวัตกรรมเกษตร สวนเกษตรสาธิต และภาพยนตร์ 3 มิติสำหรับครอบครัว",
+      "lat": 14.1189,
+      "lng": 100.6178,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์",
+        "เศรษฐกิจพอเพียง",
+        "แหล่งเรียนรู้",
+        "คลองหลวง"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "จัดแสดงโซนอินเทอร์แอคทีฟและพื้นที่สีเขียวเกษตรสาธิต เหมาะแก่การพาครอบครัวมาเรียนรู้",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 3,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-16:00",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 50
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "ตั้งอยู่ตรงข้ามโรงพยาบาลการุญเวช ถนนพหลโยธิน คลองหลวง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.wisdomking.or.th"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "geology-museum-pathum",
+      "province": "pathum-thani",
+      "name_th": "พิพิธภัณฑสถานแห่งชาติธรณีวิทยาเฉลิมพระเกียรติ",
+      "name_en": "National Geological Museum",
+      "district_th": "คลองหลวง",
+      "description_th": "พิพิธภัณฑ์เรียนรู้เรื่องราวของโลก กำเนิดไดโนเสาร์ ฟอสซิล แร่ธาตุ และอัญมณี พร้อมการจัดแสดงแบบตื่นตาตื่นใจ",
+      "lat": 14.0811,
+      "lng": 100.7103,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ไดโนเสาร์",
+        "ธรณีวิทยา",
+        "พิพิธภัณฑ์",
+        "เด็กและครอบครัว"
+      ],
+      "moods": [
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "หุ่นจำลองไดโนเสาร์ขยับได้ และนิทรรศการฟอสซิลเสมือนจริง",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 5,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:30-16:30",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 30,
+        "max": 50
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่บริเวณเทคโนธานี คลองห้า คลองหลวง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.dmr.go.th"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "rama-ix-museum",
+      "province": "pathum-thani",
+      "name_th": "พิพิธภัณฑ์พระรามเก้า",
+      "name_en": "Rama IX Museum",
+      "district_th": "คลองหลวง",
+      "description_th": "พิพิธภัณฑ์ด้านระบบนิเวศและสิ่งแวดล้อมที่ใหญ่ที่สุดในอาเซียน แสดงแบบจำลองระบบนิเวศจำลองทั่วโลกอย่างยิ่งใหญ่",
+      "lat": 14.0805,
+      "lng": 100.7128,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พิพิธภัณฑ์พระราม9",
+        "อพวช",
+        "ระบบนิเวศ",
+        "คลองห้า"
+      ],
+      "moods": [
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "ฉากโซนจัดแสดงอลังการตั้งแต่ยุคน้ำแข็งไปจนถึงป่าดิบชื้น นวัตกรรมอินเทอร์แอคทีฟระดับโลก",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 5,
+        "food": 3,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:30-17:00",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 200
+      },
+      "visit_minutes": 180,
+      "nearby_booking_hint": "อยู่ในศูนย์วิทยาศาสตร์ อพวช. คลองห้า มีตั๋วรวมหลายพิพิธภัณฑ์",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.nsm.or.th"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "natural-history-museum-pathum",
+      "province": "pathum-thani",
+      "name_th": "พิพิธภัณฑ์ธรรมชาติวิทยา",
+      "name_en": "Natural History Museum",
+      "district_th": "คลองหลวง",
+      "description_th": "พิพิธภัณฑ์รวบรวมและจัดแสดงตัวอย่างสัตว์ สัตว์สตัฟฟ์ พืชพรรณธรรมชาติ และอนุกรมวิธานความหลากหลายทางชีวภาพ",
+      "lat": 14.0792,
+      "lng": 100.7115,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ธรรมชาติวิทยา",
+        "สตาฟฟ์สัตว์",
+        "อพวช",
+        "คลองห้า"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ชมตัวอย่างสัตว์และสตัฟฟ์สตาร์ระดับประเทศหาดูยาก",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:30-16:30",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 100
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "อยู่ในกลุ่มพิพิธภัณฑ์ อพวช. คลองห้า",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.nsm.or.th"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "information-technology-museum",
+      "province": "pathum-thani",
+      "name_th": "พิพิธภัณฑ์เทคโนโลยีสารสนเทศ",
+      "name_en": "Information Technology Museum",
+      "district_th": "คลองหลวง",
+      "description_th": "แหล่งเรียนรู้ประวัติศาสตร์วิวัฒนาการของการสื่อสาร คอมพิวเตอร์ และเทคโนโลยีไอทีตั้งแต่อดีตจนถึงยุคดิจิทัล",
+      "lat": 14.0788,
+      "lng": 100.7108,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เทคโนโลยี",
+        "ไอที",
+        "อพวช",
+        "คลองหลวง"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "ตื่นตากับวิวัฒนาการหุ่นยนต์ คอมพิวเตอร์โบราณ และระบบสื่อสารดิจิทัล",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 2,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:30-16:30",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 100
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ในบริเวณ อพวช. เทคโนธานี คลองห้า",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.nsm.or.th"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "supreme-artist-hall",
+      "province": "pathum-thani",
+      "name_th": "หออัครศิลปิน",
+      "name_en": "Supreme Artist Hall",
+      "district_th": "คลองหลวง",
+      "description_th": "อาคารจัดแสดงพระราชประวัติและผลงานพระอัจฉริยภาพทางด้านศิลปวัฒนธรรมของรัชกาลที่ 9 และศิลปินแห่งชาติ",
+      "lat": 14.0842,
+      "lng": 100.7081,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หออัครศิลปิน",
+        "ศิลปินแห่งชาติ",
+        "ศิลปวัฒนธรรม",
+        "คลองห้า"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "สถาปัตยกรรมงดงาม รวบรวมงานศิลปะทรงคุณค่าและชีวประวัติศิลปินแห่งชาติ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "09:00-16:00",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เข้าชมฟรี ตั้งอยู่ตำบลคลองห้า ใกล้กับ อพวช.",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.culture.go.th"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "talad-100-pee-rahaeng",
+      "province": "pathum-thani",
+      "name_th": "ตลาดเก้าแสน / ตลาด 100 ปี ระแหง",
+      "name_en": "Rahaeng 100 Years Market",
+      "district_th": "ลาดหลุมแก้ว",
+      "description_th": "ตลาดโบราณริมคลองระแหง คงเสน่ห์ห้องแถวไม้เก่าแก่ ร้านขายยาแผนโบราณ ร้านอาหารพื้นบ้าน และวิถีชีวิตดั้งเดิม",
+      "lat": 14.0381,
+      "lng": 100.414,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดโบราณ",
+        "ตลาด100ปี",
+        "ระแหง",
+        "ลาดหลุมแก้ว"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "ย้อนยุคชิมอาหารโบราณ ถ่ายรูปบ้านไม้เก่าริมคลองอันคลาสสิก",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "วันเสาร์-อาทิตย์ และวันหยุดนักขัตฤกษ์",
+      "opening_hours": "08:00-16:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "มีร้านอาหารแปโภชนา ร้านดังประจำตลาดที่ไม่ควรพลาด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "talad-ing-nam-sam-khok",
+      "province": "pathum-thani",
+      "name_th": "ตลาดอิงน้ำสามโคก",
+      "name_en": "Ing Nam Sam Khok Market",
+      "district_th": "สามโคก",
+      "description_th": "ตลาดชุมชนริมแม่น้ำเจ้าพระยา บรรยากาศอบอุ่นเป็นกันเอง จำหน่ายอาหารไทย-มอญโบราณ ขนมหวาน และของฝากท้องถิ่น",
+      "lat": 14.0583,
+      "lng": 100.5303,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดริมน้ำ",
+        "อาหารมอญ",
+        "สามโคก",
+        "วิถีชุมชน"
+      ],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "mood_reason": "เดินชิลริมแม่น้ำเจ้าพระยา ทานอาหารมอญท้องถิ่นอร่อยๆ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "วันเสาร์-อาทิตย์ 08:00-16:00",
+      "opening_hours": "08:00-16:00",
+      "closed_days": "วันจันทร์, วันอังคาร, วันพุธ, วันพฤหัสบดี, วันศุกร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "เปิดเฉพาะวันเสาร์-อาทิตย์ มีจอดรถบริเวณใกล้เคียงวัดสามโคก",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "talad-wat-san-chao",
+      "province": "pathum-thani",
+      "name_th": "ตลาดน้ำวัดศาลเจ้า",
+      "name_en": "Wat San Chao Floating Market",
+      "district_th": "เมืองปทุมธานี",
+      "description_th": "ตลาดริมน้ำศูนย์รวมสตรีทฟู้ดและของอร่อยชื่อดังปทุมธานี เช่น กุยช่ายวัดศาลเจ้า ก๋วยเตี๋ยวเรือ และขนมไทยโบราณ",
+      "lat": 13.9892,
+      "lng": 100.5395,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดริมน้ำ",
+        "กุยช่ายวัดศาลเจ้า",
+        "ของกินปทุม",
+        "สายกิน"
+      ],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "mood_reason": "แหล่งสตรีทฟู้ดริมแม่น้ำเจ้าพระยา ของกินระดับตำนานมากมาย",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี (คึกคักวันเสาร์-อาทิตย์)",
+      "opening_hours": "08:00-16:00",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ภายในวัดศาลเจ้าและวัดมะขาม",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wisdom-farm-pathum",
+      "province": "pathum-thani",
+      "name_th": "วิสดอม ฟาร์ม (Wisdom Farm)",
+      "name_en": "Wisdom Farm",
+      "district_th": "คลองหลวง",
+      "description_th": "แหล่งท่องเที่ยวเชิงเกษตรภายในพิพิธภัณฑ์การเกษตรฯ มีสะพานไม้ไผ่พาดผ่านทุ่งนา สวนบัว และจุดถ่ายรูปเช็คอินสะพานไม้",
+      "lat": 14.1195,
+      "lng": 100.6185,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วิสดอมฟาร์ม",
+        "สะพานไม้ไผ่",
+        "ท่องเที่ยวเกษตร",
+        "คลองหลวง"
+      ],
+      "moods": [
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "บรรยากาศทุ่งนาเกษตรสาธิตและสะพานไม้ไผ่ยาวสวยงาม",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-17:00",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ในพื้นที่พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติฯ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.wisdomking.or.th"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "thung-na-mon-pathum",
+      "province": "pathum-thani",
+      "name_th": "ทุ่งนามอญ ปทุมธานี",
+      "name_en": "Thung Na Mon",
+      "district_th": "ลาดหลุมแก้ว",
+      "description_th": "แหล่งท่องเที่ยววิถีชุมชนท้องถิ่น เรียนรู้วิถีชีวิตชาวไทยรามัญ การทำนา สวนเกษตรผสมผสาน และชิมอาหารมอญพื้นบ้าน",
+      "lat": 14.0412,
+      "lng": 100.395,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วิถีมอญ",
+        "เกษตรท่องเที่ยว",
+        "ลาดหลุมแก้ว",
+        "เรียนรู้วิถีชีวิต"
+      ],
+      "moods": [
+        "quiet",
+        "food",
+        "photo"
+      ],
+      "mood_reason": "เรียนรู้วิถีมอญแท้ๆ พร้อมลิ้มลองอาหารพื้นบ้านท่ามกลางธรรมชาติ",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "วันเสาร์-อาทิตย์",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ที่อำเภอลาดหลุมแก้ว เหมาะสำหรับพาครอบครัวมาทำกิจกรรม",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "thep-pathum-park",
+      "province": "pathum-thani",
+      "name_th": "สวนเทพปทุม หรือ สวนสาธารณะเฉลิมพระเกียรติริมแม่น้ำเจ้าพระยา",
+      "name_en": "Thep Pathum Park",
+      "district_th": "เมืองปทุมธานี",
+      "description_th": "สวนสาธารณะริมน้ำเจ้าพระยาใจกลางเมือง มีประติมากรรมดอกบัวยักษ์ ลานออกกำลังกาย และวิวพระอาทิตย์ตกดินสุดโรแมนติก",
+      "lat": 14.021,
+      "lng": 100.538,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "ดอกบัวยักษ์",
+        "วิวริมน้ำ",
+        "ออกกำลังกาย"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "สัญลักษณ์ประติมากรรมบัวยักษ์ริมน้ำเจ้าพระยา วิวยามเย็นสวยงามมาก",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "16:30-19:00",
+      "opening_hours": "05:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้กับศาลากลางจังหวัดปทุมธานี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "future-park-rangsit-zpell",
+      "province": "pathum-thani",
+      "name_th": "ศูนย์การค้าฟิวเจอร์พาร์ค และ สเปลล์ (Future Park & Zpell)",
+      "name_en": "Future Park & Zpell Rangsit",
+      "district_th": "ธัญบุรี",
+      "description_th": "หนึ่งในศูนย์การค้าที่ใหญ่ที่สุดในประเทศไทย ครบครันด้วยร้านค้า ร้านอาหาร สกีอินดอร์ โรงภาพยนตร์ และลานกิจกรรม",
+      "lat": 13.989,
+      "lng": 100.6176,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ห้างสรรพสินค้า",
+        "รังสิต",
+        "ช็อปปิ้ง",
+        "ชิมชิล"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "ศูนย์รวมความบันเทิง ร้านอาหารดัง และแบรนด์ชั้นนำครบวงจร",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:30-21:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 180,
+      "nearby_booking_hint": "จุดเชื่อมต่อการเดินทางสำคัญของรังสิตและภาคกลางตอนบน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.futurepark.co.th"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "memory-house-cafe-sam-khok",
+      "province": "pathum-thani",
+      "name_th": "เมมโมรี่ เฮาส์ คาเฟ่ สามโคก",
+      "name_en": "Memory House Cafe Sam Khok",
+      "district_th": "สามโคก",
+      "description_th": "คาเฟ่ทุ่งหญ้าดอกไม้สีพาสเทลสไตล์โรงนาดักลาสสุดน่ารัก ริมแม่น้ำเจ้าพระยา ถ่ายรูปสวยทุกมุม",
+      "lat": 14.082,
+      "lng": 100.531,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "คาเฟ่ทุ่งหญ้า",
+        "สามโคก",
+        "ถ่ายรูปสวย",
+        "สไตล์พาสเทล"
+      ],
+      "moods": [
+        "photo",
+        "beach",
+        "food"
+      ],
+      "mood_reason": "มุมทุ่งหญ้าพลิ้วไหวและโรงนาพาสเทลน่ารักติดแม่น้ำ",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 4,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "16:00-18:30",
+      "opening_hours": "09:00-19:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 50,
+        "max": 50
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "คูปองค่าเข้าสามารถนำไปใช้เป็นส่วนลดเครื่องดื่มได้เต็มจำนวน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pua-seua-cafe",
+      "province": "pathum-thani",
+      "name_th": "ปูเสื่อ คาเฟ่ (Pua Seua Cafe)",
+      "name_en": "Pua Seua Cafe",
+      "district_th": "สามโคก",
+      "description_th": "คาเฟ่ริมแม่น้ำเจ้าพระยา บรรยากาศปูเสื่อนั่งชิลบนสนามหญ้า เหมาะสำหรับจิบกาแฟดูวิวเรือผ่านไปมา",
+      "lat": 14.052,
+      "lng": 100.529,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "คาเฟ่ริมน้ำ",
+        "ปูเสื่อ",
+        "สามโคก",
+        "รับลม"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "สัมผัสลมเย็นริมแม่น้ำเจ้าพระยาแบบเป็นกันเอง",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "15:30-18:30",
+      "opening_hours": "10:00-18:30",
+      "closed_days": "วันจันทร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่ที่อำเภอสามโคก ติดแม่น้ำเจ้าพระยา",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-mun-chindaram",
+      "province": "pathum-thani",
+      "name_th": "วัดมูลจินดาราม",
+      "name_en": "Wat Mun Chindaram",
+      "district_th": "ธัญบุรี",
+      "description_th": "วัดริมคลองรังสิตประโยคยอดนิยมสำหรับทำบุญและให้อาหารปลา มีอุทยานปลาคลองรังสิตปลาเทโพปลาสวายมหาศาล",
+      "lat": 14.0041,
+      "lng": 100.7225,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดมูลจินดาราม",
+        "ให้อาหารปลา",
+        "ธัญบุรี",
+        "คลองห้า"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "beach"
+      ],
+      "mood_reason": "สถานที่ทำบุญให้อาหารปลาธรรมชาติริมคลองรังสิตประยูรศักดิ์ที่ใหญ่ที่สุดแห่งหนึ่ง",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ริมถนนรังสิต-นครนายก คลองห้า",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-khian-khet",
+      "province": "pathum-thani",
+      "name_th": "วัดเขียนเขต (พระอารามหลวง)",
+      "name_en": "Wat Khian Khet",
+      "district_th": "ธัญบุรี",
+      "description_th": "พระอารามหลวงเก่าแก่ริมคลองรังสิต ประดิษฐานหลวงพ่อโตศักดิ์สิทธิ์ และอุโบสถสถาปัตยกรรมงามสง่า",
+      "lat": 13.9932,
+      "lng": 100.672,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระอารามหลวง",
+        "วัดเขียนเขต",
+        "ธัญบุรี",
+        "คลองสาม"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ความสงบและสถาปัตยกรรมพระอารามหลวงอันทรงคุณค่า",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-17:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้กับดรีมเวิลด์ บนถนนรังสิต-นครนายก คลองสาม",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "mueang-pathum-old-city-hall",
+      "province": "pathum-thani",
+      "name_th": "ศาลากลางจังหวัดปทุมธานีหลังเก่า",
+      "name_en": "Pathum Thani Old City Hall",
+      "district_th": "เมืองปทุมธานี",
+      "description_th": "อาคารทรงปั้นหยาไม้ปูด้วยกระเบื้องว่าวโบราณสมัยรัชกาลที่ 6 ตั้งอยู่ริมแม่น้ำเจ้าพระยา มีสถาปัตยกรรมย้อนยุคทรงคุณค่า",
+      "lat": 14.02,
+      "lng": 100.5372,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ศาลากลางเก่า",
+        "สถาปัตยกรรมโบราณ",
+        "ริมเจ้าพระยา",
+        "ประวัติศาสตร์"
+      ],
+      "moods": [
+        "photo",
+        "quiet",
+        "temple"
+      ],
+      "mood_reason": "อาคารไม้โบราณสีส้มคลาสสิก ริมแม่น้ำเจ้าพระยา ถ่ายภาพสวยงามย้อนยุค",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:30-16:30",
+      "closed_days": "วันเสาร์, วันอาทิตย์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ใจกลางเมืองปทุมธานี ริมน้ำ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://thai.tourismthailand.org"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "pae-pochana",
+      "province": "pathum-thani",
+      "name_th": "แปโภชนา",
+      "name_en": "Pae Pochana",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "จีน",
+        "อาหารพื้นบ้าน"
+      ],
+      "signature_dishes_th": [
+        "ต้มยำขาหมู",
+        "ผัดฉ่าปลาสลิด",
+        "หมูแดดเดียว",
+        "ผัดขี้เมาปลากราย"
+      ],
+      "meals": [
+        "lunch"
+      ],
+      "area_th": "ตลาด 100 ปี ระแหง ลาดหลุมแก้ว",
+      "lat": 14.0383,
+      "lng": 100.4142,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารไทย-จีนโบราณระดับตำนานกว่า 100 ปี รสชาติเข้มข้นจัดจ้านประจำตลาดระแหง",
+      "price_per_person_thb": {
+        "min": 150,
+        "max": 300
+      },
+      "opening_hours": "09:00-14:30",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice 2024"
+      ],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 850,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ruen-thai-goong-pao",
+      "province": "pathum-thani",
+      "name_th": "เรือนไทยกุ้งเผา วัดเชิงราก",
+      "name_en": "Ruen Thai Kung Pao",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ซีฟู้ด",
+        "ไทย",
+        "กุ้งแม่น้ำ"
+      ],
+      "signature_dishes_th": [
+        "กุ้งแม่น้ำเผาตัวโต",
+        "ต้มยำกุ้งแม่น้ำ",
+        "ปลากะพงทอดน้ำปลา",
+        "ทอดมันกุ้ง"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "สามโคก ปทุมธานี",
+      "lat": 14.0515,
+      "lng": 100.5288,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านกุ้งแม่น้ำเผาชื่อดังริมแม่น้ำเจ้าพระยา มันกุ้งเยิ้มๆ และน้ำจิ้มซีฟู้ดสุดรสจัดจ้าน",
+      "price_per_person_thb": {
+        "min": 500,
+        "max": 1200
+      },
+      "opening_hours": "10:00-19:00",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice 2024"
+      ],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 1200,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "kru-tor-kung-pao",
+      "province": "pathum-thani",
+      "name_th": "ร้านอาหารครูต้อ กุ้งเผา",
+      "name_en": "Kru Tor Restaurant",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes_th": [
+        "กุ้งแม่น้ำเผา",
+        "ปลาคังผัดฉ่า",
+        "แกงส้มชะอมกุ้ง"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "สามโคก",
+      "lat": 14.062,
+      "lng": 100.531,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารไทยริมน้ำบรรยากาศดี ขึ้นชื่อเรื่องกุ้งแม่น้ำสดและปลาแม่น้ำรสเลิศ",
+      "price_per_person_thb": {
+        "min": 350,
+        "max": 800
+      },
+      "opening_hours": "10:00-21:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.3,
+        "out_of": 5,
+        "count": 450,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "jae-mon-gui-chai",
+      "province": "pathum-thani",
+      "name_th": "กุยช่ายเจ๊มล วัดศาลเจ้า",
+      "name_en": "Jae Mon Gui Chai Wat San Chao",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ของว่างไทย-จีน"
+      ],
+      "signature_dishes_th": [
+        "กุยช่ายแป้งบางใสไส้ผัก",
+        "กุยช่ายเผือก",
+        "กุยช่ายหน่อไม้"
+      ],
+      "meals": [
+        "snack"
+      ],
+      "area_th": "ตลาดน้ำวัดศาลเจ้า เมืองปทุมธานี",
+      "lat": 13.989,
+      "lng": 100.5396,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ต้นตำรับกุยช่ายแป้งบางนุ่มไส้แน่นระดับตำนานประจำวัดศาลเจ้าที่ต้องต่อแถวซื้อ",
+      "price_per_person_thb": {
+        "min": 50,
+        "max": 150
+      },
+      "opening_hours": "07:00-15:00",
+      "closed_days": "วันจันทร์",
+      "awards": [
+        "Wongnai Users' Choice 2024"
+      ],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 950,
+        "source": "https://www.wongnai.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ko-boy-boat-noodle",
+      "province": "pathum-thani",
+      "name_th": "ก๋วยเตี๋ยวเรือโกบอย คลองสาม",
+      "name_en": "Ko Boy Boat Noodle Khlong 3",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ก๋วยเตี๋ยวเรือ",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "ก๋วยเตี๋ยวเรือเนื้อน้ำตกเข้มข้น",
+        "กากหมูเจียวกรอบ",
+        "ก๋วยเตี๋ยวต้มยำ"
+      ],
+      "meals": [
+        "lunch"
+      ],
+      "area_th": "รังสิต-นครนายก คลองสาม",
+      "lat": 13.9912,
+      "lng": 100.665,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ก๋วยเตี๋ยวเรือรังสิตเจ้าดัง น้ำซุปเข้มข้นจัดจ้าน หอมเครื่องเทศและกากหมูเจียวใหม่ๆ",
+      "price_per_person_thb": {
+        "min": 60,
+        "max": 150
+      },
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.3,
+        "out_of": 5,
+        "count": 600,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "coffee-and-tree-khlong-15",
+      "province": "pathum-thani",
+      "name_th": "ร้านกาแฟกับต้นไม้ คลอง 15",
+      "name_en": "Coffee & Tree Khlong 15",
+      "kind": "cafe",
+      "cuisine_th": [
+        "กาแฟ",
+        "เบเกอรี่"
+      ],
+      "signature_dishes_th": [
+        "เอสเพรสโซเย็น",
+        "เค้กส้ม",
+        "ชาเขียวมัทฉะ"
+      ],
+      "meals": [
+        "snack"
+      ],
+      "area_th": "ธัญบุรี คลอง 15",
+      "lat": 14.0921,
+      "lng": 100.908,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านกาแฟไม้เก่าสุดวินเทจซ่อนตัวในหมู่บ้านไม้ดอกไม้ประดับ คลอง 15 บรรยากาศร่มรื่น",
+      "price_per_person_thb": {
+        "min": 60,
+        "max": 150
+      },
+      "opening_hours": "08:00-17:00",
+      "closed_days": "วันจันทร์",
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 520,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "quiet",
+        "photo"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "baan-phruksa-thewa",
+      "province": "pathum-thani",
+      "name_th": "ร้านอาหารบ้านพฤกษาเทวา",
+      "name_en": "Baan Phruksa Thewa",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "พื้นบ้าน"
+      ],
+      "signature_dishes_th": [
+        "แกงส้มคาวหวาน",
+        "ปลาช่อนเผาเกลือ",
+        "ยำถั่วพู"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "เมืองปทุมธานี",
+      "lat": 14.011,
+      "lng": 100.525,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารไทยในเรือนไทยโบราณ รสชาติกลมกล่อมตำรับชาววังและบรรยากาศสวนร่มรื่น",
+      "price_per_person_thb": {
+        "min": 250,
+        "max": 500
+      },
+      "opening_hours": "10:30-21:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 310,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "quiet"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "samkhok-coffee",
+      "province": "pathum-thani",
+      "name_th": "สามโคก คอฟฟี่ (Samkhok Coffee)",
+      "name_en": "Samkhok Coffee",
+      "kind": "cafe",
+      "cuisine_th": [
+        "กาแฟ",
+        "เครื่องดื่ม",
+        "เบเกอรี่"
+      ],
+      "signature_dishes_th": [
+        "Dirty Coffee",
+        "Coconut Cold Brew",
+        "Croissant สด"
+      ],
+      "meals": [
+        "snack"
+      ],
+      "area_th": "สามโคก",
+      "lat": 14.0535,
+      "lng": 100.53,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านกาแฟสเปเชียลตี้คัดสรรเมล็ดกาแฟคุณภาพเยี่ยม บรรยากาศอบอุ่นเป็นกันเองในอำเภอสามโคก",
+      "price_per_person_thb": {
+        "min": 80,
+        "max": 200
+      },
+      "opening_hours": "07:30-17:00",
+      "closed_days": "วันพุธ",
+      "awards": [],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 210,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "quiet"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "tak-arkart-riverfront",
+      "province": "pathum-thani",
+      "name_th": "ร้านอาหารตากอากาศ ปทุมธานี",
+      "name_en": "Tak Arkart Riverfront Restaurant",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes_th": [
+        "ปลากะพงนึ่งมะนาว",
+        "กุ้งซอสมะขาม",
+        "แกงส้มใต้แป๊ะซะ"
+      ],
+      "meals": [
+        "dinner"
+      ],
+      "area_th": "เมืองปทุมธานี",
+      "lat": 14.0152,
+      "lng": 100.5385,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารริมแม่น้ำเจ้าพระยาบรรยากาศดี ชมวิวสะพานและแสงไฟยามค่ำคืนอย่างโรแมนติก",
+      "price_per_person_thb": {
+        "min": 300,
+        "max": 600
+      },
+      "opening_hours": "16:00-23:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.2,
+        "out_of": 5,
+        "count": 390,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "nai-sawang-pork-noodle",
+      "province": "pathum-thani",
+      "name_th": "ก๋วยเตี๋ยวหมูโบราณนายสว่าง",
+      "name_en": "Nai Sawang Pork Noodle",
+      "kind": "street_food",
+      "cuisine_th": [
+        "ก๋วยเตี๋ยวหมูโบราณ"
+      ],
+      "signature_dishes_th": [
+        "ก๋วยเตี๋ยวต้มยำหมูโบราณ",
+        "หมูเด้งต้มยำ",
+        "เกี๊ยวกรอบ"
+      ],
+      "meals": [
+        "lunch"
+      ],
+      "area_th": "เมืองปทุมธานี",
+      "lat": 14.0185,
+      "lng": 100.5332,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ก๋วยเตี๋ยวหมูต้มยำสูตรโบราณใส่ถั่วพริกคั่วเองหอมๆ มะนาวแท้รสชาติแซ่บลงตัว",
+      "price_per_person_thb": {
+        "min": 50,
+        "max": 100
+      },
+      "opening_hours": "08:30-15:30",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 280,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "stays": [
+    {
+      "id": "tinidee-hotel-bangkok-golf-club",
+      "province": "pathum-thani",
+      "name_th": "โรงแรมทินิดี บางกอก กอล์ฟ คลับ",
+      "name_en": "Tinidee Hotel Bangkok Golf Club",
+      "type": "resort",
+      "area_th": "เมืองปทุมธานี / บางกะดี",
+      "lat": 13.9731,
+      "lng": 100.5482,
+      "coords_source": "https://maps.google.com",
+      "description_th": "รีสอร์ตท่ามกลางสนามกอล์ฟและธรรมชาติอันเงียบสงบ เหมาะกับการพักผ่อนและเล่นกอล์ฟ",
+      "price_per_night_thb": {
+        "min": 1400,
+        "max": 2800
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.5,
+        "out_of": 10,
+        "count": 1150,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "workspace"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.tinideebangkokgolf.com",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com/tinidee-hotel-at-bangkok-golf-club/hotel/bangkok-th.html",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "novotel-bangkok-futurepark-rangsit",
+      "province": "pathum-thani",
+      "name_th": "โรงแรมโนโวเทล กรุงเทพ ฟิวเจอร์พาร์ค รังสิต",
+      "name_en": "Novotel Bangkok Future Park Rangsit",
+      "type": "hotel",
+      "area_th": "ธัญบุรี / รังสิต",
+      "lat": 13.9875,
+      "lng": 100.6152,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมระดับ 4 ดาวทันสมัยติดกับห้างฟิวเจอร์พาร์ค รังสิต เดินทางสะดวกพร้อมสิ่งอำนวยความสะดวกครบครัน",
+      "price_per_night_thb": {
+        "min": 2400,
+        "max": 4500
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.booking.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.9,
+        "out_of": 10,
+        "count": 820,
+        "source": "https://www.booking.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "near_transit",
+        "family",
+        "workspace"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://all.accor.com",
+      "booking_urls": {
+        "agoda": null,
+        "booking": "https://www.booking.com/hotel/th/novotel-bangkok-future-park-rangsit.html",
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.booking.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "pinehurst-golf-club-hotel",
+      "province": "pathum-thani",
+      "name_th": "ไพน์เฮิร์สท กอล์ฟ คลับ แอนด์ โฮเต็ล",
+      "name_en": "Pinehurst Golf Club & Hotel",
+      "type": "resort",
+      "area_th": "คลองหลวง / รังสิต",
+      "lat": 14.0482,
+      "lng": 100.6088,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมสไตล์รีสอร์ตบรรยากาศร่มรื่นท่ามกลางสนามกอล์ฟ ใกล้มหาวิทยาลัยกรุงเทพ",
+      "price_per_night_thb": {
+        "min": 1100,
+        "max": 2200
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 7.9,
+        "out_of": 10,
+        "count": 450,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "workspace"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://pinehurst.co.th",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com/pinehurst-golf-club-hotel/hotel/bangkok-th.html",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "the-pine-resort-pathum",
+      "province": "pathum-thani",
+      "name_th": "เดอะ ไพน์ รีสอร์ท ปทุมธานี",
+      "name_en": "The Pine Resort",
+      "type": "resort",
+      "area_th": "สามโคก",
+      "lat": 14.095,
+      "lng": 100.4912,
+      "coords_source": "https://maps.google.com",
+      "description_th": "รีสอร์ตสไตล์ธรรมชาติมีกิจกรรมฐานแอดเวนเจอร์ และพื้นที่จัดสัมมนาท่ามกลางสวนปุ่มต้นสนร่มรื่น",
+      "price_per_night_thb": {
+        "min": 1200,
+        "max": 2500
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.0,
+        "out_of": 10,
+        "count": 310,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "family"
+      ],
+      "moods": [
+        "adventure",
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "http://www.thepineresort.com",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com/the-pine-resort/hotel/pathum-thani-th.html",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ingnamm-hotel-pathum",
+      "province": "pathum-thani",
+      "name_th": "โรงแรมอิงน้ำ ปทุมธานี",
+      "name_en": "Ingnamm Hotel",
+      "type": "boutique",
+      "area_th": "เมืองปทุมธานี",
+      "lat": 14.0182,
+      "lng": 100.5312,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมบูทีคขนาดย่อมใกล้มหาลัยและใจกลางเมืองปทุมธานี ห้องพักสะอาด ตกแต่งทันสมัยสบายตา",
+      "price_per_night_thb": {
+        "min": 850,
+        "max": 1400
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.2,
+        "out_of": 10,
+        "count": 280,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking",
+        "workspace"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "asia-airport-hotel-rangsit",
+      "province": "pathum-thani",
+      "name_th": "โรงแรมเอเชีย แอร์พอร์ต รังสิต",
+      "name_en": "Asia Airport Hotel Rangsit",
+      "type": "hotel",
+      "area_th": "ลำลูกกา / รังสิต",
+      "lat": 13.9615,
+      "lng": 100.6225,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมขนาดใหญ่ตั้งอยู่บนศูนย์การค้าเซียร์รังสิต สะดวกสบายใกล้สนามบินดอนเมือง",
+      "price_per_night_thb": {
+        "min": 950,
+        "max": 1800
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 7.8,
+        "out_of": 10,
+        "count": 1850,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "near_transit"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.asiahotel.co.th",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com"
+      ],
+      "uncertain_fields": []
+    }
+  ]
+}

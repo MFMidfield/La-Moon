@@ -1,0 +1,3494 @@
+{
+  "generated_at": "2026-10-24",
+  "province": "nonthaburi",
+  "researcher": "Gemini Deep Research Agent",
+  "note": "Verified 53 new attraction places, 10 restaurants/cafes/markets, and 6 stays in Nonthaburi without duplicates from the existing list.",
+  "places": [
+    {
+      "id": "wat-ku",
+      "province": "nonthaburi",
+      "name_th": "วัดกู้ (วัดพระนางเรือล่ม)",
+      "name_en": "Wat Ku",
+      "district_th": "ปากเกร็ด",
+      "description_th": "วัดเก่าแก่ริมแม่น้ำเจ้าพระยา มีความสำคัญทางประวัติศาสตร์เกี่ยวเนื่องกับสมเด็จพระนางเจ้าสุนันทากุมารีรัตน์",
+      "lat": 13.9234,
+      "lng": 100.5015,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดโบราณ",
+        "ริมแม่น้ำเจ้าพระยา",
+        "ประวัติศาสตร์",
+        "ไหว้พระ"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "บรรยากาศร่มรื่นริมแม่น้ำเจ้าพระยา เหมาะแก่การทำบุญและเรียนรู้ประวัติศาสตร์",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "มีที่จอดรถบริเวณวัดและร้านอาหารริมน้ำใกล้เคียง",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-paramai-yikawat",
+      "province": "nonthaburi",
+      "name_th": "วัดปรมัยยิกาวาสวรวิหาร",
+      "name_en": "Wat Paramai Yikawat",
+      "district_th": "ปากเกร็ด",
+      "description_th": "วัดอารามหลวงศิลปะไทย-มอญ โดดเด่นด้วยเจดีย์มุเตาเอียงอันเป็นสัญลักษณ์สำคัญของเกาะเกร็ด",
+      "lat": 13.9128,
+      "lng": 100.4898,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดรามัญ",
+        "เจดีย์เอียง",
+        "วัฒนธรรมมอญ",
+        "อารามหลวง"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "เจดีย์เอียงริมน้ำศิลปะมอญอันเป็นเอกลักษณ์ถ่ายรูปสวยงามมาก",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "นั่งเรือข้ามฟากจากท่าเรือวัดสว่างอารมณ์หรือวัดปากเกร็ด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-prasat-nonthaburi",
+      "province": "nonthaburi",
+      "name_th": "วัดปราสาท",
+      "name_en": "Wat Prasat",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "วัดเก่าแก่สมัยอยุธยาตอนปลาย มีอุโบสถทรงท้องสำเภาโบราณและภาพจิตรกรรมฝาผนังทรงคุณค่า",
+      "lat": 13.8272,
+      "lng": 100.4528,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดอยุธยา",
+        "อุโบสถโบราณ",
+        "จิตรกรรมฝาผนัง",
+        "สถาปัตยกรรมไทย"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "บรรยากาศเงียบสงบ อนุรักษ์โบราณสถานสมัยอยุธยาไว้อย่างสมบูรณ์",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ในซอยวัดบางกร่าง เข้าถึงได้สะดวกด้วยรถส่วนตัว",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-chomphuwek",
+      "province": "nonthaburi",
+      "name_th": "วัดชมภูเวก",
+      "name_en": "Wat Chomphuwek",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "วัดเก่าแก่ชาวมอญสร้างขึ้นในสมัยอยุธยา ขึ้นชื่อเรื่องภาพจิตรกรรมฝาผนังแม่พระธรณีบีบมวยผมอันงดงาม",
+      "lat": 13.8821,
+      "lng": 100.4932,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "จิตรกรรมฝาผนัง",
+        "ศิลปะมอญ",
+        "วัดเก่าแก่",
+        "แม่พระธรณี"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "มีภาพจิตรกรรมฝาผนังงดงามระดับครูช่างโบราณ เหมาะแก่การชมศิลปกรรมไทย-มอญ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ริมถนนสนามบินน้ำ ใกล้กระทรวงพาณิชย์",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-amphawan-nonthaburi",
+      "province": "nonthaburi",
+      "name_th": "วัดอัมพวัน",
+      "name_en": "Wat Amphawan",
+      "district_th": "บางใหญ่",
+      "description_th": "วัดโบราณสมัยอยุธยาตอนปลาย โดดเด่นด้วยหอไตรกลางน้ำไม้แกะสลักลวดลายสวยงามอ่อนช้อย",
+      "lat": 13.8447,
+      "lng": 100.4136,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หอไตรกลางน้ำ",
+        "สถาปัตยกรรมไม้",
+        "วัดอยุธยา",
+        "บางใหญ่"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "หอไตรกลางน้ำไม้แกะสลักทรงคุณค่าและงดงามท่ามกลางความเงียบสงบ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 40,
+      "nearby_booking_hint": "เดินทางเข้าซอยวัดอัมพวัน อำเภอบางใหญ่",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-saeng-siritham",
+      "province": "nonthaburi",
+      "name_th": "วัดแสงสิริธรรม",
+      "name_en": "Wat Saeng Siritham",
+      "district_th": "ปากเกร็ด",
+      "description_th": "วัดริมแม่น้ำเจ้าพระยา มีตลาดน้ำชุมชนโบราณจำหน่ายอาหารพื้นบ้านและขนมไทยรสชาติโดดเด่น",
+      "lat": 13.9215,
+      "lng": 100.4735,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดน้ำ",
+        "ไหว้พระริมน้ำ",
+        "อาหารพื้นบ้าน",
+        "เกาะเกร็ดฝั่งตรงข้าม"
+      ],
+      "moods": [
+        "temple",
+        "food",
+        "beach"
+      ],
+      "mood_reason": "ผสมผสานการไหว้พระริมน้ำกับการเดินตลาดน้ำชุมชนชาวบ้าน",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "เสาร์-อาทิตย์ 08:00-16:00",
+      "opening_hours": "08:00-16:30",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "มีที่จอดรถสะดวกภายในบริเวณวัด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-khema-phositaram",
+      "province": "nonthaburi",
+      "name_th": "วัดเขมาภิรตารามราชวรวิหาร",
+      "name_en": "Wat Khema Phositaram",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "พระอารามหลวงชั้นโทสมัยอยุธยาตอนต้น โดดเด่นด้วยพระมหาเจดีย์สูงใหญ่และพระพุทธรูปโบราณ",
+      "lat": 13.8163,
+      "lng": 100.5126,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระอารามหลวง",
+        "พระเจดีย์ใหญ่",
+        "วัดโบราณ",
+        "ริมแม่น้ำ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดอารามหลวงริมแม่น้ำบรรยากาศร่มรื่นมีพระเจดีย์สวยงาม",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ริมถนนพิบูลสงคราม ใกล้โรงเรียนวัดเขมาภิรตาราม",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sanam-nuea",
+      "province": "nonthaburi",
+      "name_th": "วัดสนามเหนือ",
+      "name_en": "Wat Sanam Nuea",
+      "district_th": "ปากเกร็ด",
+      "description_th": "วัดที่เป็นจุดลงเรือข้ามฟากสำคัญไปยังเกาะเกร็ด มีพระอุโบสถและพระพุทธรูปศักดิ์สิทธิ์ให้กราบไหว้",
+      "lat": 13.9131,
+      "lng": 100.4912,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ท่าเรือเกาะเกร็ด",
+        "ไหว้พระ",
+        "ริมแม่น้ำ",
+        "ปากเกร็ด"
+      ],
+      "moods": [
+        "temple",
+        "beach"
+      ],
+      "mood_reason": "ศูนย์กลางการเดินทางข้ามฟากไปเกาะเกร็ดพร้อมทำบุญริมแม่น้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 3,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-18:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "มีอาคารจอดรถให้บริการใกล้ท่าเรือ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-phai",
+      "province": "nonthaburi",
+      "name_th": "วัดบางไผ่ พระอารามหลวง",
+      "name_en": "Wat Bang Phai",
+      "district_th": "บางบัวทอง",
+      "description_th": "พระอารามหลวงเก่าแก่แห่งบางบัวทอง โดดเด่นด้วยพระอุโบสถหินอ่อนและโรงเรียนพระปริยัติธรรม",
+      "lat": 13.8785,
+      "lng": 100.4118,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระอารามหลวง",
+        "บางบัวทอง",
+        "อุโบสถหินอ่อน",
+        "ไหว้พระ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดขนาดใหญ่สงบสงบ มีสถาปัตยกรรมอุโบสถหินอ่อนสวยงาม",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ใกล้รถไฟฟ้าสายสีม่วง สถานีบางพลู",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sai-yai",
+      "province": "nonthaburi",
+      "name_th": "วัดไทรใหญ่",
+      "name_en": "Wat Sai Yai",
+      "district_th": "ไทรน้อย",
+      "description_th": "วัดศูนย์รวมจิตใจชาวไทรน้อย เป็นที่ประดิษฐานหลวงพ่อทองคำศักดิ์สิทธิ์และอยู่ติดตลาดน้ำไทรน้อย",
+      "lat": 13.9792,
+      "lng": 100.3126,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อทองคำ",
+        "ไทรน้อย",
+        "วัดริมคลอง",
+        "ตลาดน้ำ"
+      ],
+      "moods": [
+        "temple",
+        "food"
+      ],
+      "mood_reason": "กราบหลวงพ่อทองคำคู่เมืองไทรน้อยและเดินเที่ยวตลาดน้ำริมคลอง",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "เสาร์-อาทิตย์ 08:00-16:00",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "เดินทางสะดวกริมคลองพระพิมล",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "sai-noi-floating-market",
+      "province": "nonthaburi",
+      "name_th": "ตลาดน้ำไทรน้อย",
+      "name_en": "Sai Noi Floating Market",
+      "district_th": "ไทรน้อย",
+      "description_th": "ตลาดน้ำริมคลองพระพิมลราษฎร์สอดคล้องวิถีชีวิตดั้งเดิม เต็มไปด้วยของกินท้องถิ่นและเป็ดพะโล้ขึ้นชื่อ",
+      "lat": 13.9788,
+      "lng": 100.3131,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดน้ำ",
+        "อาหารท้องถิ่น",
+        "คลองพระพิมล",
+        "เป็ดพะโล้"
+      ],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "mood_reason": "ลิ้มลองอาหารริมน้ำบรรยากาศสบายๆ สไตล์ตลาดชุมชนริมคลอง",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 4,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "เสาร์-อาทิตย์ 08:00-16:00",
+      "opening_hours": "08:00-16:00",
+      "closed_days": "จันทร์-ศุกร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "มีที่จอดรถบริการบริเวณวัดไทรใหญ่",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-molee-nonthaburi",
+      "province": "nonthaburi",
+      "name_th": "วัดโมลี",
+      "name_en": "Wat Molee",
+      "district_th": "บางบัวทอง",
+      "description_th": "วัดเก่าแก่สมัยอยุธยาประดิษฐานหลวงพ่อพุทธโมลีอันศักดิ์สิทธิ์ เป็นที่เคารพศรัทธาของชาวบางบัวทอง",
+      "lat": 13.8741,
+      "lng": 100.4192,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดอยุธยา",
+        "หลวงพ่อโมลี",
+        "บางบัวทอง",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "บรรยากาศวัดสงบ ร่มรื่น เหมาะสำหรับพุทธศาสนิกชนมาปฏิบัติธรรมและกราบพระ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 40,
+      "nearby_booking_hint": "ใกล้รถไฟฟ้าสายสีม่วง สถานีบางพลู",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-phraek",
+      "province": "nonthaburi",
+      "name_th": "วัดบางแพรก",
+      "name_en": "Wat Bang Phraek",
+      "district_th": "บางบัวทอง",
+      "description_th": "วัดประดิษฐานหลวงพ่อศิลาขาว พระพุทธรูปหินมงคลเก่าแก่ และเป็นที่สักการะเสือหลวงพ่อสว่าง",
+      "lat": 13.8654,
+      "lng": 100.4281,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อศิลาขาว",
+        "วัดบางบัวทอง",
+        "ไหว้พระขอพร",
+        "ศาลาไม้"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ไหว้พระศิลาขาวโบราณในบรรยากาศวัดชุมชนเงียบสงบ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 35,
+      "nearby_booking_hint": "เข้าทางถนนบางกรวย-ไทรน้อย",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-ton-chueak",
+      "province": "nonthaburi",
+      "name_th": "วัดต้นเชือก",
+      "name_en": "Wat Ton Chueak",
+      "district_th": "บางใหญ่",
+      "description_th": "วัดสวยร่มรื่นริมคลองขุนศรี มีวิหารหลวงพ่อปานและบรรยากาศริมน้ำที่สงบเหมาะแก่การทำบุญปล่อยปลา",
+      "lat": 13.8562,
+      "lng": 100.3421,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดริมคลอง",
+        "ให้อาหารปลา",
+        "บางใหญ่",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "beach"
+      ],
+      "mood_reason": "วัดริมคลองบรรยากาศธรรมชาติ เงียบสงบ เหมาะกับการพักผ่อนหย่อนใจ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 40,
+      "nearby_booking_hint": "ตั้งอยู่ริมถนนทางหลวงชนบท นนทบุรี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phleng-pink-church",
+      "province": "nonthaburi",
+      "name_th": "วัดเพลง (โบสถ์สีชมพู)",
+      "name_en": "Wat Phleng",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "วัดเก่าแก่ที่มีอุโบสถทาสีชมพูอันงดงามแปลกตา และประดิษฐานหลวงพ่อโตพระพุทธรูปศักดิ์สิทธิ์",
+      "lat": 13.8398,
+      "lng": 100.4682,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "โบสถ์สีชมพู",
+        "วัดสวย",
+        "ไหว้พระขอพร",
+        "หลวงพ่อโต"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "เอกลักษณ์โบสถ์สีชมพูถ่ายรูปสวยงามแปลกตาไม่เหมือนใคร",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ริมคลองบางกอกน้อย ฝั่งนนทบุรี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-kra-so",
+      "province": "nonthaburi",
+      "name_th": "วัดบางกระสอ",
+      "name_en": "Wat Bang Kra So",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "วัดโบราณริมแม่น้ำเจ้าพระยา ใกล้สะพานพระนั่งเกล้า เด่นด้วยอุโบสถทรงคลาสสิกและบรรยากาศทำบุญริมน้ำ",
+      "lat": 13.8711,
+      "lng": 100.4789,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดริมน้ำ",
+        "สะพานพระนั่งเกล้า",
+        "ทำบุญสังฆทาน",
+        "เมืองนนทบุรี"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "ทำบุญให้อาหารปลาริมแม่น้ำเจ้าพระยาบรรยากาศร่มรื่น",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 40,
+      "nearby_booking_hint": "ใกล้รถไฟฟ้าสายสีม่วง สถานีสะพานพระนั่งเกล้า",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-intharam-pak-kret",
+      "province": "nonthaburi",
+      "name_th": "วัดอินทาราม ปากเกร็ด",
+      "name_en": "Wat Intharam Pak Kret",
+      "district_th": "ปากเกร็ด",
+      "description_th": "วัดโบราณสมัยอยุธยาตอนปลายริมคลองบางสระบัว โดดเด่นด้วยหลวงพ่อโต และพระพุทธรูปหลวงพ่อโสธรจำลอง",
+      "lat": 13.9312,
+      "lng": 100.4821,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดโบราณ",
+        "ปากเกร็ด",
+        "หลวงพ่อโต",
+        "ริมคลอง"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดริมน้ำสงบเงียบ เหมาะกราบพระและเรียนรู้วิถีชุมชนคลองปากเกร็ด",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 40,
+      "nearby_booking_hint": "เดินทางเข้าทางซอยวัดอินทาราม ปากเกร็ด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-yai",
+      "province": "nonthaburi",
+      "name_th": "วัดบางใหญ่",
+      "name_en": "Wat Bang Yai",
+      "district_th": "บางใหญ่",
+      "description_th": "วัดเก่าแก่ศูนย์รวมใจชาวบางใหญ่ริมคลองบางใหญ่ ประดิษฐานหลวงพ่อบัวขาวพระพุทธรูปปูนปั้นโบราณ",
+      "lat": 13.8329,
+      "lng": 100.3872,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อบัวขาว",
+        "วัดบางใหญ่",
+        "วัดโบราณ",
+        "ริมคลอง"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบไหว้หลวงพ่อบัวขาวศักดิ์สิทธิ์ สัมผัสความสงบของวัดริมคลอง",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 40,
+      "nearby_booking_hint": "ตั้งอยู่ในย่านตลาดเก่าบางใหญ่",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-chalao",
+      "province": "nonthaburi",
+      "name_th": "วัดชะลอ",
+      "name_en": "Wat Chalao",
+      "district_th": "บางกรวย",
+      "description_th": "วัดเก่าแก่สมัยอยุธยา โดดเด่นด้วยอุโบสถบนเรือสุพรรณหงส์จำลองขนาดใหญ่ริมคลองบางกอกน้อย",
+      "lat": 13.8051,
+      "lng": 100.4731,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "โบสถ์เรือสุพรรณหงส์",
+        "บางกรวย",
+        "วัดอยุธยา",
+        "ถ่ายรูปสวย"
+      ],
+      "moods": [
+        "temple",
+        "photo"
+      ],
+      "mood_reason": "สถาปัตยกรรมโบสถ์บนเรือสุพรรณหงส์ตระการตาและมีเอกลักษณ์สูง",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 5,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 50,
+      "nearby_booking_hint": "ตั้งอยู่ถนนบางกรวย-ไทรน้อย อำเภอบางกรวย",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sanam-nok",
+      "province": "nonthaburi",
+      "name_th": "วัดสนามนอก",
+      "name_en": "Wat Sanam Nok",
+      "district_th": "บางกรวย",
+      "description_th": "วัดร่มรื่นริมคลองบางกอกน้อย มีพระนอนองค์ใหญ่และศาลาริมน้ำสำหรับนั่งพักผ่อนทำบุญ",
+      "lat": 13.8012,
+      "lng": 100.4688,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระนอน",
+        "บางกรวย",
+        "วัดริมคลอง",
+        "ให้อาหารปลา"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "beach"
+      ],
+      "mood_reason": "บรรยากาศริมคลองสบายๆ เหมาะแก่การนั่งชิลและทำบุญให้อาหารปลา",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 35,
+      "nearby_booking_hint": "เชื่อมต่อกับถนนเทอดพระเกียรติ บางกรวย",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-kra-krai",
+      "province": "nonthaburi",
+      "name_th": "วัดบางกะไกร",
+      "name_en": "Wat Bang Kra Krai",
+      "district_th": "บางกรวย",
+      "description_th": "วัดโบราณริมคลองบางกอกน้อย บรรยากาศเงียบสงบร่มรื่น มีวิหารและพระพุทธรูปเก่าแก่ให้กราบไหว้",
+      "lat": 13.8115,
+      "lng": 100.4589,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดเก่าแก่",
+        "บางกรวย",
+        "ริมคลองบางกอกน้อย",
+        "สงบ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดชุมชนโบราณริมคลอง ไร้ความวุ่นวาย เหมาะกับการทำสมาธิ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "เข้าทางซอยวัดบางกะไกร ถนนนครอินทร์",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "central-westgate",
+      "province": "nonthaburi",
+      "name_th": "เซ็นทรัล เวสต์เกต และ อิเกีย บางใหญ่",
+      "name_en": "Central WestGate & IKEA Bang Yai",
+      "district_th": "บางใหญ่",
+      "description_th": "ศูนย์การค้าและศูนย์รวมไลฟ์สไตล์ขนาดใหญ่ที่สุดในย่านนนทบุรี ครบครันด้วยร้านค้า ร้านอาหาร และโซนความบันเทิง",
+      "lat": 13.8762,
+      "lng": 100.4114,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ห้างสรรพสินค้า",
+        "ช้อปปิ้ง",
+        "อิเกียบางใหญ่",
+        "จุดนัดพบ"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "mood_reason": "ศูนย์รวมร้านอาหาร เครื่องดื่ม และมุมถ่ายรูปสไตล์เดนิชและโมเดิร์น",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 5,
+        "budget": 2
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 180,
+      "nearby_booking_hint": "เชื่อมต่อตรงกับรถไฟฟ้าสายสีม่วง สถานีตลาดบางใหญ่",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.centralpattana.co.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "impact-muang-thong-thani",
+      "province": "nonthaburi",
+      "name_th": "อิมแพ็ค เมืองทองธานี",
+      "name_en": "Impact Muang Thong Thani",
+      "district_th": "ปากเกร็ด",
+      "description_th": "ศูนย์การประชุม Exhibition และคอนเสิร์ตระดับโลก พร้อมด้วยคอมมูนิตี้มอลล์ Outlet และร้านอาหารหลากหลาย",
+      "lat": 13.9114,
+      "lng": 100.5482,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "งานจัดแสดง",
+        "คอนเสิร์ต",
+        "เมืองทองธานี",
+        "ช้อปปิ้ง"
+      ],
+      "moods": [
+        "adventure",
+        "food"
+      ],
+      "mood_reason": "แหล่งจัดงานอีเวนต์ คอนเสิร์ตใหญ่ และร้านอาหารหลากหลายสไตล์",
+      "stats": {
+        "chill": 3,
+        "adventure": 4,
+        "photo": 4,
+        "food": 5,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "มีโรงแรม Novotel และ ibis Impact อยู่ในบริเวณเดียวกัน",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.impact.co.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "muang-thong-thani-lakefront",
+      "province": "nonthaburi",
+      "name_th": "ทะเลสาบเมืองทองธานี",
+      "name_en": "Muang Thong Thani Lakefront",
+      "district_th": "ปากเกร็ด",
+      "description_th": "พื้นที่พักผ่อนริมทะเลสาบขนาดใหญ่ เหมาะแก่การเดินเล่นชมวิวยามเย็น กิจกรรมโกคาร์ท และรับประทานอาหารริมน้ำ",
+      "lat": 13.9189,
+      "lng": 100.5398,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ทะเลสาบ",
+        "วิวพระอาทิตย์ตก",
+        "ร้านอาหารริมน้ำ",
+        "โกคาร์ท"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "บรรยากาศริมน้ำกว้างขวาง เหมาะนั่งชิลชมแสงยามเย็นและเล่นกิจกรรม",
+      "stats": {
+        "chill": 5,
+        "adventure": 3,
+        "photo": 5,
+        "food": 4,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "16:00-21:00",
+      "opening_hours": "06:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "มีลานจอดรถกว้างขวางรอบทะเลสาบ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "impact-speed-park",
+      "province": "nonthaburi",
+      "name_th": "อิมแพ็ค สปีด พาร์ค",
+      "name_en": "Impact Speed Park",
+      "district_th": "ปากเกร็ด",
+      "description_th": "สนามโกคาร์ทไฟฟ้าและน้ำมันมาตรฐานสากลริมทะเลสาบเมืองทองธานี สนุกตื่นเต้นปลอดภัยสำหรับทุกวัย",
+      "lat": 13.9195,
+      "lng": 100.5385,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "โกคาร์ท",
+        "กิจกรรมผจญภัย",
+        "เมืองทองธานี",
+        "กีฬา"
+      ],
+      "moods": [
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "ขับโกคาร์ทความเร็วสูงริมทะเลสาบเพิ่มความตื่นเต้นท้าทาย",
+      "stats": {
+        "chill": 2,
+        "adventure": 5,
+        "photo": 4,
+        "food": 2,
+        "budget": 2
+      },
+      "popularity": "ดัง",
+      "best_time": "16:00-22:00",
+      "opening_hours": "14:00-22:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 600,
+        "max": 800
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ควรลงทะเบียนล่วงหน้าในวันหยุดสุดสัปดาห์",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.impactspeedpark.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "makut-rommayasaran-park",
+      "province": "nonthaburi",
+      "name_th": "สวนมกุฏรุกขยาราม (สวนอุทยานมกุฏรมยสราญ)",
+      "name_en": "Makut Rommayasaran Park",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "สวนสาธารณะขนาดใหญ่ใจกลางศูนย์ราชการจังหวัดนนทบุรี บรรยากาศร่มรื่นมีสระน้ำขนาดใหญ่และลู่วิ่งออกกำลังกาย",
+      "lat": 13.8611,
+      "lng": 100.5135,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "ออกกำลังกาย",
+        "ศูนย์ราชการนนทบุรี",
+        "สระน้ำ"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "พื้นที่สีเขียวร่มรื่นกลางเมือง เหมาะวิ่งออกกำลังกายและพักผ่อน",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "05:30-08:30, 16:30-19:00",
+      "opening_hours": "05:00-20:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ติดรถไฟฟ้าสายสีม่วง และสายสีชมพู สถานีศูนย์ราชการนนทบุรี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "owl-market-nonthaburi",
+      "province": "nonthaburi",
+      "name_th": "ตลาดนกฮูก (ตลาดเลี่ยงเมืองนนท์)",
+      "name_en": "Owl Market",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "ตลาดนัดกลางคืนขนาดใหญ่ยักษ์ ศูนย์รวมอาหาร Street Food เสื้อผ้า สินค้ามือสอง และวินเทจในราคาย่อมเยา",
+      "lat": 13.8732,
+      "lng": 100.4851,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ตลาดนัดกลางคืน",
+        "สตรีทฟู้ด",
+        "สินค้ามือสอง",
+        "ช้อปปิ้ง"
+      ],
+      "moods": [
+        "food",
+        "adventure",
+        "photo"
+      ],
+      "mood_reason": "ช้อปปิ้งและกินสตรีทฟู้ดหลากสไตล์ยามค่ำคืนในบรรยากาศคึกคัก",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 4,
+        "food": 5,
+        "budget": 4
+      },
+      "popularity": "ดัง",
+      "best_time": "17:00-23:00",
+      "opening_hours": "16:00-24:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "ใกล้รถไฟฟ้าสายสีม่วง สถานีแยกนนทบุรี 1",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "nonthaburi-pier",
+      "province": "nonthaburi",
+      "name_th": "ท่าน้ำนนทบุรี (ท่าน้ำนนท์)",
+      "name_en": "Nonthaburi Pier",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "ศูนย์กลางการเดินทางทางน้ำของนนทบุรี รายล้อมด้วยตลาดสดเก่าแก่ อาคารหอนาฬิกาโบราณ และสตรีทฟู้ดชื่อดัง",
+      "lat": 13.8402,
+      "lng": 100.4915,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ท่าน้ำนนท์",
+        "หอนาฬิกา",
+        "ตลาดสด",
+        "ของกินริมน้ำ"
+      ],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "mood_reason": "ชมวิถีชีวิตริมแม่น้ำเจ้าพระยา ตะลุยกินร้านเก่าแก่รอบหอนาฬิกา",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 5,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "05:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "นั่งเรือด่วนเจ้าพระยามาลงสุดสายที่ท่าน้ำนนท์ได้สะดวก",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "kwan-aman-pottery-museum",
+      "province": "nonthaburi",
+      "name_th": "พิพิธภัณฑ์เครื่องกว้านอามัน (ศูนย์หัตถกรรมเครื่องดินเผาเกาะเกร็ด)",
+      "name_en": "Kwan Aman Pottery Museum",
+      "district_th": "ปากเกร็ด",
+      "description_th": "ศูนย์เรียนรู้หัตถกรรมเครื่องดินเผาปั้นสลักลายโบราณอันเป็นเอกลักษณ์วัฒนธรรมมอญเกาะเกร็ด",
+      "lat": 13.9142,
+      "lng": 100.4881,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เครื่องดินเผา",
+        "วัฒนธรรมมอญ",
+        "เวิร์กชอปปั้นดิน",
+        "เกาะเกร็ด"
+      ],
+      "moods": [
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "ชมช่างปั้นดินเผาโบราณและทดลองปั้นดินเผาด้วยตนเอง",
+      "stats": {
+        "chill": 4,
+        "adventure": 3,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "เสาร์-อาทิตย์ 09:00-17:00",
+      "opening_hours": "09:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "ตั้งอยู่บนเกาะเกร็ด สามารถเดินหรือเช่าจักรยานปั่นมาได้",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sanam-chai",
+      "province": "nonthaburi",
+      "name_th": "วัดสนามชัย",
+      "name_en": "Wat Sanam Chai",
+      "district_th": "ปากเกร็ด",
+      "description_th": "วัดโบราณสมัยอยุธยามีซากเจดีย์เก่าแก่และอุโบสถทรงคลาสสิกริมแม่น้ำเจ้าพระยา ใกล้เกาะเกร็ด",
+      "lat": 13.9181,
+      "lng": 100.4965,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เจดีย์โบราณ",
+        "อยุธยา",
+        "ปากเกร็ด",
+        "ริมแม่น้ำ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "ชมโบราณสถานยุคอยุธยาในบรรยากาศเงียบสงบชวนย้อนอดีต",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 35,
+      "nearby_booking_hint": "อยู่ในซอยติวานนท์-ปากเกร็ด 1",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-pho-bang-o",
+      "province": "nonthaburi",
+      "name_th": "วัดโพธิ์บางโอ",
+      "name_en": "Wat Pho Bang O",
+      "district_th": "บางกรวย",
+      "description_th": "วัดโบราณสมัยอยุธยาตอนปลาย โดดเด่นด้วยงานซุ้มประตูหน้าต่างปูนปั้นฝีมือช่างหลวง และบานประตูไม้แกะสลักงามเลิศ",
+      "lat": 13.8132,
+      "lng": 100.4681,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ปูนปั้นโบราณ",
+        "วัดอยุธยา",
+        "สถาปัตยกรรมไทย",
+        "บางกรวย"
+      ],
+      "moods": [
+        "temple",
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "งานศิลปะปูนปั้นและไม้แกะสลักสมัยอยุธยาสมบูรณ์สวยงามยิ่ง",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 40,
+      "nearby_booking_hint": "ตั้งอยู่ริมคลองบางกอกน้อย อำเภอบางกรวย",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-kra-thong",
+      "province": "nonthaburi",
+      "name_th": "วัดบางกระทิง (วัดบางกะทิง นนทบุรี)",
+      "name_en": "Wat Bang Kra Thong",
+      "district_th": "บางกรวย",
+      "description_th": "วัดโบราณริมคลองในอำเภอบางกรวย สภาพแวดล้อมยังคงความเป็นสวนสวนผลไม้ดั้งเดิมของนนทบุรี",
+      "lat": 13.8201,
+      "lng": 100.4512,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดสวน",
+        "วิถีชีวิตริมคลอง",
+        "บางกรวย",
+        "ความเงียบสงบ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศวัดสวนนนทบุรีแท้ๆ บรรยากาศเงียบสงบร่มรื่น",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 35,
+      "nearby_booking_hint": "เข้าทางถนนนครอินทร์ แยกเข้าสวนนนทบุรี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-plai-klong-khun-si",
+      "province": "nonthaburi",
+      "name_th": "วัดปลายคลองขุนศรี",
+      "name_en": "Wat Plai Klong Khun Si",
+      "district_th": "ไทรน้อย",
+      "description_th": "วัดสงบแถบอำเภอไทรน้อย เป็นศูนย์รวมกิจกรรมทำบุญของชุมชนเกษตรกรรมริมคลองขุนศรี",
+      "lat": 14.0125,
+      "lng": 100.2851,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ไทรน้อย",
+        "วัดชนบท",
+        "คลองขุนศรี",
+        "ธรรมชาติ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "บรรยากาศวัดท้องทุ่งไทรน้อย สงบร่มรื่น รายล้อมด้วยธรรมชาติ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 30,
+      "nearby_booking_hint": "เหมาะสำหรับผู้ใช้รถยนต์ส่วนตัวขับเที่ยวชมทุ่งไทรน้อย",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-rat-niyom",
+      "province": "nonthaburi",
+      "name_th": "วัดราษฎร์นิยม",
+      "name_en": "Wat Rat Niyom",
+      "district_th": "ไทรน้อย",
+      "description_th": "วัดใหญ่ชายขอบจังหวัดนนทบุรี มีพระพุทธรูปองค์ใหญ่กลางแจ้งและพื้นที่ทำบุญกว้างขวาง",
+      "lat": 14.0891,
+      "lng": 100.2982,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดไทรน้อย",
+        "พระองค์ใหญ่",
+        "ทำบุญ",
+        "สถานที่กว้างขวาง"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดมีพื้นที่กว้างขวาง ประดิษฐานพระองค์ใหญ่สะดุดตา",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 1,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 40,
+      "nearby_booking_hint": "ตั้งอยู่บนถนนสาย 346 นนทบุรี-ปทุมธานี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-saphan-sung",
+      "province": "nonthaburi",
+      "name_th": "วัดสะพานสูง",
+      "name_en": "Wat Saphan Sung",
+      "district_th": "ปากเกร็ด",
+      "description_th": "วัดชื่อดังแห่งปากเกร็ด ต้นตำรับพระปิดตาและตะกรุดมหาโซฬสมงคลอันโด่งดังของหลวงปู่เอี่ยม",
+      "lat": 13.9351,
+      "lng": 100.4582,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงปู่เอี่ยม",
+        "พระปิดตา",
+        "วัดเกจิดัง",
+        "ปากเกร็ด"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "สถานที่ศักดิ์สิทธิ์ซึ่งมีผู้ศรัทธาเดินทางมากราบไหว้รูปหล่อหลวงปู่เอี่ยมอย่างไม่ขาดสาย",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 3,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "07:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 45,
+      "nearby_booking_hint": "ตั้งอยู่ในตำบลคลองพระอุดม ปากเกร็ด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phai-lom-koh-kret",
+      "province": "nonthaburi",
+      "name_th": "วัดไผ่ล้อม (เกาะเกร็ด)",
+      "name_en": "Wat Phai Lom",
+      "district_th": "ปากเกร็ด",
+      "description_th": "วัดสมัยอยุธยาบนเกาะเกร็ด โดดเด่นด้วยโบสถ์โบราณและงานศิลปะลายปูนปั้นช่างมอญประณีต",
+      "lat": 13.9135,
+      "lng": 100.4851,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เกาะเกร็ด",
+        "วัดมอญ",
+        "โบสถ์อยุธยา",
+        "ปูนปั้นศิลปะมอญ"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "โบสถ์โบราณหน้าบันปูนปั้นศิลปะมอญสวยงามทรงคุณค่า",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 40,
+      "nearby_booking_hint": "เดินเท้าหรือปั่นจักรยานเที่ยวต่อจากวัดปรมัยยิกาวาส",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-chimphli-sutthawat",
+      "province": "nonthaburi",
+      "name_th": "วัดฉิมพลีสุทธาวาส",
+      "name_en": "Wat Chimphli Sutthawat",
+      "district_th": "ปากเกร็ด",
+      "description_th": "วัดงามขนาดเล็กบนเกาะเกร็ด โบสถ์งดงามตามแบบซุ้มเรือนแก้วสถาปัตยกรรมย่อมุมไม้สิบสองสมัยอยุธยา",
+      "lat": 13.9121,
+      "lng": 100.4879,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เกาะเกร็ด",
+        "ย่อมุมไม้สิบสอง",
+        "โบสถ์อยุธยา",
+        "วัดงาม"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "mood_reason": "สถาปัตยกรรมอุโบสถอยุธยาขนาดเล็กน่ารักอ่อนช้อยงดงาม",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 35,
+      "nearby_booking_hint": "ตั้งอยู่ต้นทางเดินรอบเกาะเกร็ด ฝั่งวัดปรมัยฯ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-phra-nong-bang-yai",
+      "province": "nonthaburi",
+      "name_th": "วัดพระนอน (บางใหญ่)",
+      "name_en": "Wat Phra Nong Bang Yai",
+      "district_th": "บางใหญ่",
+      "description_th": "วัดโบราณประดิษฐานพระพุทธไสยาสน์หินศิลาแลงโบราณอายุกว่าร้อยปี เป็นที่เคารพสักการะของชาวบางใหญ่",
+      "lat": 13.8421,
+      "lng": 100.3885,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระพุทธไสยาสน์",
+        "พระนอน",
+        "บางใหญ่",
+        "วัดโบราณ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบพระนอนองค์ใหญ่โบราณเพื่อความเป็นสิริมงคล",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 40,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้กับตลาดเก่าบางใหญ่",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "khlong-om-non-community",
+      "province": "nonthaburi",
+      "name_th": "ชุมชนท่องเที่ยววิถีคลองอ้อมนนท์",
+      "name_en": "Khlong Om Non Community Tourism",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "เส้นทางท่องเที่ยวทางน้ำสัมผัสวิถีชีวิตชาวสวนนนทบุรี บ้านเรือนไทยโบราณ และวัดเก่าริมคลอง",
+      "lat": 13.8351,
+      "lng": 100.4581,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ท่องเที่ยวชุมชน",
+        "นั่งเรือเที่ยว",
+        "ชาวสวนนนทบุรี",
+        "คลองอ้อมนนท์"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "food"
+      ],
+      "mood_reason": "ล่องเรือสัมผัสวิถีสวนผลไม้ดั้งเดิมและบ้านเรือนไทยริมคลองอ้อมนนท์",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 4,
+        "budget": 4
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "เสาร์-อาทิตย์ 09:00-16:00",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "ติดต่อลงเรือได้ที่วัดโตนด หรือท่าน้ำนนทบุรี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-tanot-bang-kruai",
+      "province": "nonthaburi",
+      "name_th": "วัดโตนด (บางกรวย)",
+      "name_en": "Wat Tanot Bang Kruai",
+      "district_th": "บางกรวย",
+      "description_th": "วัดริมคลองอ้อมนนท์ มีศูนย์การเรียนรู้ชุมชน ตลาดน้ำวัดโตนด และจุดลงเรือท่องเที่ยวคลองอ้อม",
+      "lat": 13.8285,
+      "lng": 100.4632,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดโตนด",
+        "คลองอ้อมนนท์",
+        "ตลาดน้ำชุมชน",
+        "บางกรวย"
+      ],
+      "moods": [
+        "temple",
+        "food",
+        "beach"
+      ],
+      "mood_reason": "ศูนย์กลางท่องเที่ยววิถีคลองชิลๆ มีอาหารและกิจกรรมชุมชน",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 4,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "เสาร์-อาทิตย์ 08:30-16:00",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 60,
+      "nearby_booking_hint": "มีที่จอดรถสะดวกภายในบริเวณวัด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "suan-somdet-phra-srinagarindra-nonthaburi",
+      "province": "nonthaburi",
+      "name_th": "สวนสมเด็จพระศรีนครินทร์ นนทบุรี",
+      "name_en": "Suan Somdet Phra Srinagarindra Nonthaburi",
+      "district_th": "ปากเกร็ด",
+      "description_th": "สวนสาธารณะขนาดใหญ่โอบล้อมหนองน้ำกว้างขวาง ร่มรื่นด้วยต้นไม้น้อยใหญ่ เหมาะปั่นจักรยานและพักผ่อน",
+      "lat": 13.9392,
+      "lng": 100.5432,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนสาธารณะ",
+        "บึงน้ำขนาดใหญ่",
+        "ปั่นจักรยาน",
+        "ปากเกร็ด"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "mood_reason": "บรรยากาศหนองน้ำร่มรื่น สดชื่น เหมาะกับการพักผ่อนยามเย็น",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "06:00-09:00, 16:00-19:00",
+      "opening_hours": "05:00-19:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้กับศรีสมานและทางด่วนบางปะอิน-ปากเกร็ด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.tat.or.th",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "robinson-lifestyle-srisamarn",
+      "province": "nonthaburi",
+      "name_th": "โรบินสันไลฟ์สไตล์ ศรีสมาน",
+      "name_en": "Robinson Lifestyle Srisamarn",
+      "district_th": "ปากเกร็ด",
+      "description_th": "ศูนย์การค้าไลฟ์สไตล์ย่านศรีสมาน ตอบโจทย์ทั้งการช้อปปิ้ง ร้านอาหาร ซูเปอร์มาร์เก็ต และโรงภาพยนตร์",
+      "lat": 13.9381,
+      "lng": 100.5489,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "ศูนย์การค้า",
+        "ศรีสมาน",
+        "ช้อปปิ้ง",
+        "ร้านอาหาร"
+      ],
+      "moods": [
+        "food"
+      ],
+      "mood_reason": "ศูนย์รวมร้านค้าและร้านอาหารติดถนนศรีสมาน สะดวกสบาย",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 4,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "10:00-21:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "อยู่ฝั่งตรงข้ามสวนสมเด็จพระศรีนครินทร์ นนทบุรี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "chitbeer-koh-kret",
+      "province": "nonthaburi",
+      "name_th": "ชิตเบียร์ (Chitbeer)",
+      "name_en": "Chitbeer",
+      "district_th": "ปากเกร็ด",
+      "description_th": "คราฟต์เบียร์บาร์ในตำนานริมแม่น้ำเจ้าพระยาบนเกาะเกร็ด จุดนัดพบยอดนิยมของคนรักคราฟต์เบียร์ไทย",
+      "lat": 13.9145,
+      "lng": 100.4862,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "คราฟต์เบียร์",
+        "เกาะเกร็ด",
+        "ร้านริมน้ำ",
+        "ดนตรีสด"
+      ],
+      "moods": [
+        "food",
+        "beach",
+        "adventure"
+      ],
+      "mood_reason": "จิบเครื่องดื่มคราฟต์ริมแม่น้ำเจ้าพระยาในบรรยากาศเป็นกันเองสุดชิล",
+      "stats": {
+        "chill": 5,
+        "adventure": 3,
+        "photo": 4,
+        "food": 4,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "เสาร์-อาทิตย์ 12:00-21:00",
+      "opening_hours": "12:00-21:00",
+      "closed_days": "จันทร์-ศุกร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 120,
+      "nearby_booking_hint": "เปิดเฉพาะวันเสาร์-อาทิตย์ ควรเดินทางมาช่วงบ่าย",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "rongsi-studio-koh-kret",
+      "province": "nonthaburi",
+      "name_th": "โรงสี สตูดิโอ (Rongsi Studio)",
+      "name_en": "Rongsi Studio",
+      "district_th": "ปากเกร็ด",
+      "description_th": "คาเฟ่และร้านอาหารดีไซน์เท่จากการรีโนเวทโรงสีข้าวเก่าอายุร่วมร้อยปีริมแม่น้ำเจ้าพระยาบนเกาะเกร็ด",
+      "lat": 13.9158,
+      "lng": 100.4811,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "โรงสีเก่า",
+        "คาเฟ่เกาะเกร็ด",
+        "ร้านอาหารริมน้ำ",
+        "มุมถ่ายรูป"
+      ],
+      "moods": [
+        "photo",
+        "food",
+        "beach"
+      ],
+      "mood_reason": "สถาปัตยกรรมโรงสีข้าวเก่าแก่ถ่ายรูปสวยเท่ริมแม่น้ำเจ้าพระยา",
+      "stats": {
+        "chill": 5,
+        "adventure": 2,
+        "photo": 5,
+        "food": 4,
+        "budget": 3
+      },
+      "popularity": "ดัง",
+      "best_time": "10:00-19:00",
+      "opening_hours": "10:00-20:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "มีบริการเรือรับส่งจากท่าเรือวัดปากเกร็ดหรือเดินจากท่าเตียนเกาะเกร็ด",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "suan-yai-prik-organic-farm",
+      "province": "nonthaburi",
+      "name_th": "สวนยายพริก เกษตรอินทรีย์",
+      "name_en": "Suan Yai Prik Organic Farm",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "ศูนย์เรียนรู้และท่องเที่ยวเชิงเกษตรอินทรีย์วิถีชาวสวนนนท์ สัมผัสธรรมชาติ ปลูกผัก และทำกิจกรรมเวิร์กชอป",
+      "lat": 13.8415,
+      "lng": 100.4521,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "เกษตรอินทรีย์",
+        "สวนผลไม้นนทบุรี",
+        "ท่องเที่ยวเรียนรู้",
+        "ธรรมชาติ"
+      ],
+      "moods": [
+        "quiet",
+        "photo",
+        "adventure"
+      ],
+      "mood_reason": "ทำกิจกรรมเกษตรอินทรีย์และพักผ่อนในสวนผลไม้ร่มรื่น",
+      "stats": {
+        "chill": 5,
+        "adventure": 3,
+        "photo": 4,
+        "food": 3,
+        "budget": 4
+      },
+      "popularity": "ลับ",
+      "best_time": "เสาร์-อาทิตย์ 09:00-17:00",
+      "opening_hours": "09:00-17:00",
+      "closed_days": "จันทร์-ศุกร์",
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ควรสอบถามหรือจองรอบเวิร์กชอปล่วงหน้า",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-rak-yai",
+      "province": "nonthaburi",
+      "name_th": "วัดบางรักใหญ่",
+      "name_en": "Wat Bang Rak Yai",
+      "district_th": "บางบัวทอง",
+      "description_th": "วัดโบราณประดิษฐานหลวงพ่อบัวขาวและพระอุโบสถเก่าแก่ บรรยากาศสงบติดริมคลองบางรักใหญ่",
+      "lat": 13.8712,
+      "lng": 100.4351,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดโบราณ",
+        "บางบัวทอง",
+        "หลวงพ่อบัวขาว",
+        "ริมคลอง"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "วัดสงบร่มรื่นริมคลอง เหมาะแก่การไหว้พระทำบุญ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 35,
+      "nearby_booking_hint": "ใกล้สถานีรถไฟฟ้าสายสีม่วง บางรักใหญ่",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-bang-rak-noi",
+      "province": "nonthaburi",
+      "name_th": "วัดบางรักน้อย",
+      "name_en": "Wat Bang Rak Noi",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "วัดริมคลองอ้อมนนท์ รายล้อมด้วยสวนทุเรียนและสวนผลไม้เมืองนนท์ บรรยากาศร่มรื่นเงียบสงบ",
+      "lat": 13.8615,
+      "lng": 100.4523,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "สวนทุเรียนนนท์",
+        "วัดริมคลอง",
+        "คลองอ้อมนนท์",
+        "เมืองนนทบุรี"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "สัมผัสบรรยากาศวัดสวนดั้งเดิมของจังหวัดนนทบุรี",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 35,
+      "nearby_booking_hint": "ใกล้รถไฟฟ้าสายสีม่วง สถานีบางรักน้อยท่าอิฐ",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-khae-nok",
+      "province": "nonthaburi",
+      "name_th": "วัดแคนอก",
+      "name_en": "Wat Khae Nok",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "วัดโบราณริมแม่น้ำเจ้าพระยา ใกล้สะพานพระนั่งเกล้า มีพระอุโบสถประดิษฐานพระพุทธรูปปางมารวิชัยศิลปะรัตนโกสินทร์",
+      "lat": 13.8682,
+      "lng": 100.4771,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดริมแม่น้ำ",
+        "เจ้าพระยา",
+        "พระนั่งเกล้า",
+        "วัดโบราณ"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "ทำบุญให้อาหารปลาริมแม่น้ำเจ้าพระยาพร้อมชมทัศนียภาพสะพานพระนั่งเกล้า",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 35,
+      "nearby_booking_hint": "สามารถเดินทางด้วยรถไฟฟ้า MRT สถานีสะพานพระนั่งเกล้า",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-tai-mueang",
+      "province": "nonthaburi",
+      "name_th": "วัดท้ายเมือง",
+      "name_en": "Wat Tai Mueang",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "วัดโบราณริมแม่น้ำเจ้าพระยาในเขตเมืองนนทบุรี โดดเด่นด้วยวิหารเก่าแก่และจุดชมทัศนียภาพโค้งน้ำเจ้าพระยา",
+      "lat": 13.8512,
+      "lng": 100.4851,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วัดท้ายเมือง",
+        "ริมเจ้าพระยา",
+        "วิวโค้งน้ำ",
+        "วัดอยุธยา"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "ชมวิวโค้งน้ำแม่น้ำเจ้าพระยาบรรยากาศสงบและเป็นธรรมชาติ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 35,
+      "nearby_booking_hint": "ตั้งอยู่ใกล้นนทบุรี ซอยนนทบุรี 19",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sai-ma-tai",
+      "province": "nonthaburi",
+      "name_th": "วัดไทรม้าใต้",
+      "name_en": "Wat Sai Ma Tai",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "วัดโบราณริมแม่น้ำเจ้าพระยา มีจุดทำบุญปล่อยปลาขนาดใหญ่และวังปลาบรรยากาศร่มรื่น",
+      "lat": 13.8598,
+      "lng": 100.4721,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "วังปลา",
+        "วัดริมน้ำ",
+        "ปล่อยปลา",
+        "ไทรม้า"
+      ],
+      "moods": [
+        "temple",
+        "beach",
+        "quiet"
+      ],
+      "mood_reason": "ทำบุญให้อาหารปลาในวังปลาริมแม่น้ำเจ้าพระยา ลมพัดเย็นสบาย",
+      "stats": {
+        "chill": 5,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 40,
+      "nearby_booking_hint": "เข้าทางซอยไทรม้า ถนนรัตนาธิเบศร์",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-sai-ma-nuea",
+      "province": "nonthaburi",
+      "name_th": "วัดไทรม้าเหนือ",
+      "name_en": "Wat Sai Ma Nuea",
+      "district_th": "เมืองนนทบุรี",
+      "description_th": "วัดริมแม่น้ำเจ้าพระยาประดิษฐานหลวงพ่อใหญ่ พระพุทธรูปโบราณศักดิ์สิทธิ์คู่ชุมชนไทรม้า",
+      "lat": 13.8652,
+      "lng": 100.4715,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อใหญ่",
+        "ไทรม้า",
+        "วัดริมแม่น้ำ",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "กราบไหว้หลวงพ่อใหญ่เสริมสิริมงคลริมแม่น้ำเจ้าพระยา",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 3,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "พอรู้จัก",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 35,
+      "nearby_booking_hint": "ตั้งอยู่ซอยไทรม้าใกล้สะพานพระนั่งเกล้า",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-tamnak-nuea",
+      "province": "nonthaburi",
+      "name_th": "วัดตำหนักเหนือ",
+      "name_en": "Wat Tamnak Nuea",
+      "district_th": "ปากเกร็ด",
+      "description_th": "วัดเก่าแก่สมัยสมเด็จพระเจ้าตากสินมหาราช เคยเป็นที่ประทับสมเด็จพระสังฆราช ร่มรื่นริมแม่น้ำเจ้าพระยา",
+      "lat": 13.9015,
+      "lng": 100.5032,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "พระเจ้าตากสิน",
+        "วัดโบราณ",
+        "ปากเกร็ด",
+        "ประวัติศาสตร์"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "mood_reason": "โบราณสถานทางประวัติศาสตร์ในบรรยากาศร่มรื่นริมแม่น้ำ",
+      "stats": {
+        "chill": 4,
+        "adventure": 1,
+        "photo": 4,
+        "food": 2,
+        "budget": 5
+      },
+      "popularity": "ลับ",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 40,
+      "nearby_booking_hint": "เข้าทางถนนสนามบินน้ำ-นนทบุรี",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "wat-suan-kaeo",
+      "province": "nonthaburi",
+      "name_th": "วัดสวนแก้ว",
+      "name_en": "Wat Suan Kaeo",
+      "district_th": "บางใหญ่",
+      "description_th": "วัดพัฒนาที่มีชื่อเสียงของพระราชธรรมนิเทศ (หลวงพ่อพยอม) โดดเด่นด้วยโครงการมูลนิธิสวนแก้ว และตลาดสินค้ามือสองขนาดใหญ่",
+      "lat": 13.8568,
+      "lng": 100.4382,
+      "coords_source": "https://maps.google.com",
+      "coords_uncertain": false,
+      "tags": [
+        "หลวงพ่อพยอม",
+        "มูลนิธิสวนแก้ว",
+        "สินค้ามือสอง",
+        "ทำบุญ"
+      ],
+      "moods": [
+        "temple",
+        "food",
+        "adventure"
+      ],
+      "mood_reason": "ทำบุญ บริจาคสิ่งของ และอุดหนุนสินค้าโครงการมูลนิธิสวนแก้ว",
+      "stats": {
+        "chill": 4,
+        "adventure": 2,
+        "photo": 3,
+        "food": 4,
+        "budget": 5
+      },
+      "popularity": "ดัง",
+      "best_time": "ตลอดปี",
+      "opening_hours": "08:00-17:00",
+      "closed_days": null,
+      "entry_fee_thb": {
+        "min": 0,
+        "max": 0
+      },
+      "visit_minutes": 90,
+      "nearby_booking_hint": "ตั้งอยู่บนถนนบางกรวย-ไทรน้อย บางใหญ่",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "sources": [
+        "https://www.kanlayanamittam.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "river-wine-restaurant",
+      "province": "nonthaburi",
+      "name_th": "ริเวอร์ ไวน์ (River Wine)",
+      "name_en": "River Wine",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "นานาชาติ",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes_th": [
+        "ปลากะพงทอดน้ำปลา",
+        "ขาหมูเยอรมัน",
+        "กุ้งแม่น้ำเผา"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "ปากเกร็ด",
+      "lat": 13.9182,
+      "lng": 100.4912,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารสไตล์โมเดิร์นโรแมนติกริมแม่น้ำเจ้าพระยา ชมวิวสะพานพระราม 4 และพระอาทิตย์ตกงดงาม",
+      "price_per_person_thb": {
+        "min": 500,
+        "max": 1200
+      },
+      "opening_hours": "16:00-23:59",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 1850,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "website": "https://www.facebook.com/RiverWinePakkret",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com",
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "baan-rabiangnam",
+      "province": "nonthaburi",
+      "name_th": "บ้านระเบียงน้ำ",
+      "name_en": "Baan Rabiangnam",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes_th": [
+        "กุ้งแม่น้ำเผา",
+        "ต้มยำกุ้งแม่น้ำ",
+        "แกงคั่วสับปะรดกุ้ง"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "เมืองนนทบุรี",
+      "lat": 13.8835,
+      "lng": 100.4851,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารไทยเรือนไม้คลาสสิกริมแม่น้ำเจ้าพระยา บรรยากาศร่มรื่นริมน้ำพร้อมอาหารไทยรสจัดจ้าน",
+      "price_per_person_thb": {
+        "min": 400,
+        "max": 900
+      },
+      "opening_hours": "11:30-22:00",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice"
+      ],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 2100,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "website": "https://www.facebook.com/baanrabiangnam",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com",
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "song-fang-khlong",
+      "province": "nonthaburi",
+      "name_th": "สองฝั่งคลอง ริเวอร์ไซด์",
+      "name_en": "Song Fang Khlong Riverside",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes_th": [
+        "ปูก้อนผัดพริกเหลือง",
+        "ปลากะพงสองใจ",
+        "ต้มยำโป๊ะแตก"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "ปากเกร็ด",
+      "lat": 13.9112,
+      "lng": 100.5021,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านอาหารไทยริมแม่น้ำเจ้าพระยาบรรยากาศย้อนยุคริมน้ำ พร้อมวิวเกาะเกร็ดตระการตา",
+      "price_per_person_thb": {
+        "min": 350,
+        "max": 800
+      },
+      "opening_hours": "11:00-23:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.3,
+        "out_of": 5,
+        "count": 1400,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "website": "https://www.facebook.com/Songfangkhlong",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "my-castle-cafe",
+      "province": "nonthaburi",
+      "name_th": "ไมเคาส์เซิล คาเฟ่ (My Castle Cafe)",
+      "name_en": "My Castle Cafe",
+      "kind": "cafe",
+      "cuisine_th": [
+        "เบเกอรี่",
+        "เครื่องดื่ม",
+        "อาหารฟิวชั่น"
+      ],
+      "signature_dishes_th": [
+        "เค้กปราสาทพาสเทล",
+        "สปาเกตตีคาโบนารา",
+        "ชานมไข่มุกพรีเมียม"
+      ],
+      "meals": [
+        "lunch",
+        "snack"
+      ],
+      "area_th": "เมืองนนทบุรี",
+      "lat": 13.8805,
+      "lng": 100.4891,
+      "coords_source": "https://maps.google.com",
+      "description_th": "คาเฟ่ธีมปราสาทสีพาสเทลสุดหวาน ตกแต่งด้วยมุมถ่ายรูปดอกไม้สวยงามเหมาะกับสายคอนเทนต์",
+      "price_per_person_thb": {
+        "min": 150,
+        "max": 350
+      },
+      "opening_hours": "11:00-21:30",
+      "closed_days": "พฤหัสบดี",
+      "awards": [],
+      "rating": {
+        "score": 4.4,
+        "out_of": 5,
+        "count": 680,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "website": "https://www.facebook.com/mycastlecafe",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "plern-cafe-and-bistro",
+      "province": "nonthaburi",
+      "name_th": "เพลิน คาเฟ่ แอนด์ บิสโทร (Plern Cafe & Bistro)",
+      "name_en": "Plern Cafe & Bistro",
+      "kind": "cafe",
+      "cuisine_th": [
+        "ไทย",
+        "เบเกอรี่",
+        "กาแฟ"
+      ],
+      "signature_dishes_th": [
+        "กาแฟสกัดเย็น",
+        "พิซซ่าเตาถ่าน",
+        "บิงซูผลไม้สด"
+      ],
+      "meals": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "area_th": "ปากเกร็ด",
+      "lat": 13.9281,
+      "lng": 100.5212,
+      "coords_source": "https://maps.google.com",
+      "description_th": "คาเฟ่สไตล์การ์เดนร่มรื่นกลางสวนเขียวขจี มีสนามหญ้าและมุมนั่งพักผ่อนสไตล์ปิกนิก",
+      "price_per_person_thb": {
+        "min": 200,
+        "max": 450
+      },
+      "opening_hours": "08:00-22:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 920,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "website": "https://www.facebook.com/plerncafebistro",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "นายซ้งเป็ดพะโล้-ไทรน้อย",
+      "province": "nonthaburi",
+      "name_th": "นายซ้งเป็ดพะโล้ ไทรน้อย",
+      "name_en": "Nai Song Stewed Duck Sai Noi",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "จีน"
+      ],
+      "signature_dishes_th": [
+        "เป็ดพะโล้เนื้อนุ่ม",
+        "ก๋วยเตี๋ยวเป็ด",
+        "อะไหล่เป็ดพะโล้"
+      ],
+      "meals": [
+        "breakfast",
+        "lunch"
+      ],
+      "area_th": "ไทรน้อย",
+      "lat": 13.9781,
+      "lng": 100.3129,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านเป็ดพะโล้เจ้าดังประจำตลาดน้ำไทรน้อย น้ำซุปพะโล้หอมเครื่องยาจีน เนื้อเป็ดนุ่มไม่มีกลิ่นคาว",
+      "price_per_person_thb": {
+        "min": 80,
+        "max": 250
+      },
+      "opening_hours": "07:30-15:30",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice"
+      ],
+      "rating": {
+        "score": 4.3,
+        "out_of": 5,
+        "count": 540,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com",
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": [
+        "website"
+      ]
+    },
+    {
+      "id": "som-tum-pa-pao-nonthaburi",
+      "province": "nonthaburi",
+      "name_th": "ส้มตำป้าเป้า ท่าน้ำนนท์",
+      "name_en": "Som Tum Pa Pao Nonthaburi",
+      "kind": "street_food",
+      "cuisine_th": [
+        "อีสาน",
+        "ไทย"
+      ],
+      "signature_dishes_th": [
+        "ส้มตำปูปลาร้า",
+        "ไก่ย่างวิเชียรบุรี",
+        "คอหมูย่าง"
+      ],
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "area_th": "เมืองนนทบุรี",
+      "lat": 13.8408,
+      "lng": 100.4918,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านส้มตำรสแซ่บจัดจ้านตำนานขวัญใจคนท้องถิ่นบริเวณหอนาฬิกาท่าน้ำนนท์",
+      "price_per_person_thb": {
+        "min": 70,
+        "max": 200
+      },
+      "opening_hours": "10:00-19:00",
+      "closed_days": "จันทร์",
+      "awards": [],
+      "rating": {
+        "score": 4.2,
+        "out_of": 5,
+        "count": 410,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": [
+        "website"
+      ]
+    },
+    {
+      "id": "kuay-tiew-phak-wan-nonthaburi",
+      "province": "nonthaburi",
+      "name_th": "ก๋วยเตี๋ยวผักหวาน นนทบุรี",
+      "name_en": "Kuay Tiew Phak Wan Nonthaburi",
+      "kind": "restaurant",
+      "cuisine_th": [
+        "ไทย",
+        "ก๋วยเตี๋ยว"
+      ],
+      "signature_dishes_th": [
+        "ก๋วยเตี๋ยวเนื้อผักหวาน",
+        "ผัดไทยผักหวาน",
+        "ผักหวานทอดกรอบ"
+      ],
+      "meals": [
+        "lunch"
+      ],
+      "area_th": "เมืองนนทบุรี",
+      "lat": 13.8812,
+      "lng": 100.4899,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านก๋วยเตี๋ยวสูตรเด็ดเน้นวัตถุดิบผักหวานสดกรอบ พร้อมเมนูอาหารไทยหลากหลาย",
+      "price_per_person_thb": {
+        "min": 80,
+        "max": 200
+      },
+      "opening_hours": "08:30-17:00",
+      "closed_days": null,
+      "awards": [],
+      "rating": {
+        "score": 4.3,
+        "out_of": 5,
+        "count": 760,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food"
+      ],
+      "website": null,
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": [
+        "website"
+      ]
+    },
+    {
+      "id": "non-bakery",
+      "province": "nonthaburi",
+      "name_th": "นนท์เบเกอรี่",
+      "name_en": "Non Bakery",
+      "kind": "bakery",
+      "cuisine_th": [
+        "เบเกอรี่",
+        "ขนมไทย"
+      ],
+      "signature_dishes_th": [
+        "เอแคลร์นมสด",
+        "เค้กมะพร้าวอ่อน",
+        "ขนมปังเนยสด"
+      ],
+      "meals": [
+        "snack"
+      ],
+      "area_th": "เมืองนนทบุรี",
+      "lat": 13.8411,
+      "lng": 100.4925,
+      "coords_source": "https://maps.google.com",
+      "description_th": "ร้านเบเกอรี่เก่าแก่ชื่อดังใกล้วงเวียนท่าน้ำนนท์ โดดเด่นด้วยขนมอร่อยคุณภาพดีในราคามิตรภาพ",
+      "price_per_person_thb": {
+        "min": 50,
+        "max": 150
+      },
+      "opening_hours": "08:00-20:00",
+      "closed_days": null,
+      "awards": [
+        "Wongnai Users' Choice"
+      ],
+      "rating": {
+        "score": 4.6,
+        "out_of": 5,
+        "count": 1600,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [],
+      "moods": [
+        "food"
+      ],
+      "website": "https://www.facebook.com/nonbakery",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com",
+        "https://www.wongnai.com"
+      ],
+      "uncertain_fields": []
+    },
+    {
+      "id": "ganicco-farm",
+      "province": "nonthaburi",
+      "name_th": "กานิกะ ฟาร์ม (Ganicco Farm)",
+      "name_en": "Ganicco Farm",
+      "kind": "cafe",
+      "cuisine_th": [
+        "เบเกอรี่",
+        "เครื่องดื่ม",
+        "ออร์แกนิก"
+      ],
+      "signature_dishes_th": [
+        "เค้กเมลอนออร์แกนิก",
+        "พาสต้าโฮมเมด",
+        "สมูทตี้ผลไม้สด"
+      ],
+      "meals": [
+        "lunch",
+        "snack"
+      ],
+      "area_th": "เมืองนนทบุรี",
+      "lat": 13.8752,
+      "lng": 100.4581,
+      "coords_source": "https://maps.google.com",
+      "description_th": "คาเฟ่ออร์แกนิกสไตล์มินิมอลเกาหลี รายล้อมด้วยเรือนกระจกปลูกผลไม้และสวนสวยละมุนตา",
+      "price_per_person_thb": {
+        "min": 180,
+        "max": 400
+      },
+      "opening_hours": "08:30-19:00",
+      "closed_days": "อังคาร",
+      "awards": [],
+      "rating": {
+        "score": 4.5,
+        "out_of": 5,
+        "count": 820,
+        "source": "https://maps.google.com"
+      },
+      "dietary": [
+        "vegetarian"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "website": "https://www.facebook.com/ganiccofarm",
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": []
+    }
+  ],
+  "stays": [
+    {
+      "id": "novotel-bangkok-impact",
+      "province": "nonthaburi",
+      "name_th": "โนโวเทล กรุงเทพ อิมแพ็ค",
+      "name_en": "Novotel Bangkok Impact",
+      "type": "hotel",
+      "area_th": "ปากเกร็ด / เมืองทองธานี",
+      "lat": 13.9125,
+      "lng": 100.5478,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมระดับ 4 ดาวมาตรฐานสากลใจกลางเมืองทองธานี เชื่อมต่อตรงสู่ศูนย์การประชุมอิมแพ็ค",
+      "price_per_night_thb": {
+        "min": 2500,
+        "max": 4800
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.booking.com",
+      "tier": "comfy",
+      "rating": {
+        "score": 8.6,
+        "out_of": 10,
+        "count": 2400,
+        "source": "https://www.booking.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "near_transit",
+        "workspace"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.novotelbangkokimpact.com",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com/novotel-bangkok-impact/hotel/bangkok-th.html",
+        "booking": "https://www.booking.com/hotel/th/novotel-bangkok-impact.html",
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.booking.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": [
+        "booking_urls.traveloka"
+      ]
+    },
+    {
+      "id": "ibis-bangkok-impact",
+      "province": "nonthaburi",
+      "name_th": "ไอบิส กรุงเทพ อิมแพ็ค",
+      "name_en": "ibis Bangkok Impact",
+      "type": "hotel",
+      "area_th": "ปากเกร็ด / เมืองทองธานี",
+      "lat": 13.9142,
+      "lng": 100.5491,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมสไตล์โมเดิร์นทันสมัยเน้นความคุ้มค่า ตั้งอยู่ใจกลางเมืองทองธานี สะดวกต่อการร่วมงานอีเวนต์",
+      "price_per_night_thb": {
+        "min": 1300,
+        "max": 2400
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.booking.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.3,
+        "out_of": 10,
+        "count": 3100,
+        "source": "https://www.booking.com"
+      },
+      "amenities": [
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "pet_friendly",
+        "workspace"
+      ],
+      "moods": [
+        "food"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://ibisbangkokimpact.com",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com/ibis-bangkok-impact/hotel/bangkok-th.html",
+        "booking": "https://www.booking.com/hotel/th/ibis-bangkok-impact.html",
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.booking.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": [
+        "booking_urls.traveloka"
+      ]
+    },
+    {
+      "id": "best-western-plus-wanda-grand-hotel",
+      "province": "nonthaburi",
+      "name_th": "เบสท์ เวสเทิร์น พลัส แวนด้า แกรนด์",
+      "name_en": "Best Western Plus Wanda Grand Hotel",
+      "type": "hotel",
+      "area_th": "ปากเกร็ด / แจ้งวัฒนะ",
+      "lat": 13.9021,
+      "lng": 100.5281,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมหรูบนถนนแจ้งวัฒนะ ใกล้ศูนย์ราชการและเซ็นทรัลแจ้งวัฒนะ พร้อมสิ่งอำนวยความสะดวกครบครัน",
+      "price_per_night_thb": {
+        "min": 1600,
+        "max": 3200
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.booking.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.5,
+        "out_of": 10,
+        "count": 1200,
+        "source": "https://www.booking.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "near_transit",
+        "workspace"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.wandagrand.com",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com/best-western-plus-wanda-grand-hotel/hotel/bangkok-th.html",
+        "booking": "https://www.booking.com/hotel/th/best-western-plus-wanda-grand.html",
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.booking.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": [
+        "booking_urls.traveloka"
+      ]
+    },
+    {
+      "id": "bed-by-city-hotel",
+      "province": "nonthaburi",
+      "name_th": "เบด บาย ซิตี้ โฮเทล",
+      "name_en": "Bed by City Hotel",
+      "type": "hotel",
+      "area_th": "เมืองนนทบุรี / งามวงศ์วาน",
+      "lat": 13.8582,
+      "lng": 100.5291,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมสไตล์มินิมอลราคาประหยัดย่านงามวงศ์วาน ใกล้เดอะมอลล์งามวงศ์วาน เดินทางสะดวกสะอาดยอดเยี่ยม",
+      "price_per_night_thb": {
+        "min": 750,
+        "max": 1100
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 8.2,
+        "out_of": 10,
+        "count": 850,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "free_wifi",
+        "parking",
+        "near_transit"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com/bed-by-city-hotel/hotel/bangkok-th.html",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": [
+        "website",
+        "booking_urls.booking",
+        "booking_urls.traveloka"
+      ]
+    },
+    {
+      "id": "buddy-oriental-riverside-hotel",
+      "province": "nonthaburi",
+      "name_th": "บั๊ดดี้ โอเรียนทอล รีเวอร์ไซด์",
+      "name_en": "Buddy Oriental Riverside Hotel",
+      "type": "resort",
+      "area_th": "ปากเกร็ด / สุขาประชาสวรรค์",
+      "lat": 13.9281,
+      "lng": 100.5052,
+      "coords_source": "https://maps.google.com",
+      "description_th": "รีสอร์ตสไตล์ไทยโคโลเนียลสะท้อนเสน่ห์สถาปัตยกรรมคลาสสิกริมแม่น้ำเจ้าพระยา บรรยากาศสงบร่มรื่น",
+      "price_per_night_thb": {
+        "min": 2200,
+        "max": 4500
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.booking.com",
+      "tier": "mid",
+      "rating": {
+        "score": 8.4,
+        "out_of": 10,
+        "count": 980,
+        "source": "https://www.booking.com"
+      },
+      "amenities": [
+        "pool",
+        "breakfast",
+        "free_wifi",
+        "parking",
+        "workspace"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": "https://www.buddyriverside.com",
+      "booking_urls": {
+        "agoda": "https://www.agoda.com/buddy-oriental-riverside-hotel/hotel/bangkok-th.html",
+        "booking": "https://www.booking.com/hotel/th/buddy-oriental-riverside.html",
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.booking.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": [
+        "booking_urls.traveloka"
+      ]
+    },
+    {
+      "id": "nonthaburi-palace-hotel",
+      "province": "nonthaburi",
+      "name_th": "โรงแรม นนทบุรี เพลส",
+      "name_en": "Nonthaburi Palace Hotel",
+      "type": "hotel",
+      "area_th": "เมืองนนทบุรี / นนทบุรี 1",
+      "lat": 13.8482,
+      "lng": 100.4891,
+      "coords_source": "https://maps.google.com",
+      "description_th": "โรงแรมคลาสสิกใจกลางเมืองนนทบุรี ใกล้ท่าน้ำนนท์และพิพิธภัณฑ์จังหวัดนนทบุรี ราคาย่อมเยา",
+      "price_per_night_thb": {
+        "min": 850,
+        "max": 1300
+      },
+      "price_checked_on": "2026-10-24",
+      "price_source": "https://www.agoda.com",
+      "tier": "saver",
+      "rating": {
+        "score": 7.8,
+        "out_of": 10,
+        "count": 620,
+        "source": "https://www.agoda.com"
+      },
+      "amenities": [
+        "breakfast",
+        "free_wifi",
+        "parking"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "website": null,
+      "booking_urls": {
+        "agoda": "https://www.agoda.com/nonthaburi-palace-hotel/hotel/bangkok-th.html",
+        "booking": null,
+        "traveloka": null
+      },
+      "image_url": null,
+      "image_page_url": null,
+      "image_author": null,
+      "image_license": null,
+      "official_image_url": null,
+      "sources": [
+        "https://www.agoda.com",
+        "https://maps.google.com"
+      ],
+      "uncertain_fields": [
+        "website",
+        "booking_urls.booking",
+        "booking_urls.traveloka"
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ import { arrivalText, legTimes, priceMid } from '../components/plan/transportFor
 import { useAuth } from '../context/AuthContext'
 import { tripLength, travelerCount, useTripDraft } from '../context/TripDraftContext'
 import { PROVINCES } from '../data/options'
-import { BKK_TRANSIT_PROVINCES, FEATURES, TRANSPORT_LOCAL, TRANSPORT_TO } from '../data/travel'
+import { BKK_TRANSIT_PROVINCES, DAY_TRIP_MAX_KM, FEATURES, TRANSPORT_LOCAL, TRANSPORT_TO } from '../data/travel'
 import { listPlaces } from '../lib/api/places'
 import { updateHomeProvince } from '../lib/api/profile'
 import { cheaperAlternatives, estimateTrip, formatBaht } from '../lib/trip/budget'
@@ -90,16 +90,20 @@ function DetailsForm() {
   const random = draft.mode === 'random'
   const travel = useMemo(() => travelOptions(origin, province), [origin, province])
   const overnight = draft.tripType === 'overnight'
-  const showIntercity = FEATURES.intercityTransport && overnight
+  // ค้างคืนข้ามจังหวัด หรือไปกลับวันเดียวไปจังหวัดใกล้ (≤ DAY_TRIP_MAX_KM ทางถนน) → การ์ด "ไปยังไง" (ขับรถเอง/รถทัวร์/รถไฟ)
+  const nearby = !travel.sameProvince && travel.km != null && travel.km <= DAY_TRIP_MAX_KM
+  const showIntercity = FEATURES.intercityTransport && (overnight || nearby)
   const transportTo = showIntercity && origin && !travel.sameProvince
     ? travel.options.find(o => o.id === draft.transportTo && o.available)?.id ?? travel.options.find(o => o.available)?.id ?? null
     : null
   const supportsTransit = BKK_TRANSIT_PROVINCES.includes(province)
   const localAll = TRANSPORT_LOCAL.filter(mode => mode.id !== 'transit' || supportsTransit)
   const driving = transportTo === 'car'
-  // รถส่วนตัวขึ้นเฉพาะตอนขับรถไปเอง (มีตัวเลือกเดียว) — ไม่งั้นไม่มีรถส่วนตัว รายการจึงไม่เปลี่ยนตอนสลับวันเดียว/ค้างคืน
-  const localOptions = driving ? localAll.filter(mode => mode.id === 'own_car') : localAll.filter(mode => mode.id !== 'own_car')
-  const fallbackLocal = driving ? 'own_car' : supportsTransit ? 'transit' : 'public'
+  // ขับรถไปเอง → รถส่วนตัวอย่างเดียว; เที่ยวในจังหวัดตัวเอง → รถส่วนตัวขึ้นก่อน (ทั้งวันเดียว/ค้างคืน จำนวนตัวเลือกเท่าเดิม); อื่นๆ ไม่มีรถส่วนตัว
+  const inOwnProvince = travel.sameProvince && Boolean(origin)
+  const withoutCar = localAll.filter(mode => mode.id !== 'own_car')
+  const localOptions = driving ? localAll.filter(mode => mode.id === 'own_car') : inOwnProvince ? [...localAll.filter(mode => mode.id === 'own_car'), ...withoutCar] : withoutCar
+  const fallbackLocal = driving || inOwnProvince ? 'own_car' : supportsTransit ? 'transit' : 'public'
   const transportLocal = localOptions.find(mode => mode.id === draft.transportLocal)?.id ?? fallbackLocal
   const { days, nights } = tripLength(draft)
   const people = travelerCount(draft)

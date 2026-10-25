@@ -7,3 +7,5 @@ node_modules/
 # Codex runs (prompts/logs) and worktrees
 .codex-runs/
 .codex-worktrees/
+.env.local
+.env
