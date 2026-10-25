@@ -1,9 +1,18 @@
-const PLACES = [
-  { name: 'เกาะพีพี', meta: 'กระบี่ · ชิลริมน้ำ', tone: '#FBE3D2' },
-  { name: 'เสม็ดนางชี', meta: 'พังงา · ทะเลหมอก', tone: '#E7EFDC' },
-  { name: 'ย่านเมืองเก่า', meta: 'ภูเก็ต · สายกิน', tone: '#F6E3B8' },
-  { name: 'คีรีวง', meta: 'นครศรีธรรมราช · เงียบๆ', tone: '#EADDD3' },
-]
+import { useState } from 'react'
+import { LANDING_SHOWCASE } from '../../data/landingPlaces'
+
+const PLACES = LANDING_SHOWCASE
+
+// รูปสถานที่จริง + เครดิต; โหลดไม่ขึ้น → สีพื้นเดิม
+function ShowcasePhoto({ place }) {
+  const [broken, setBroken] = useState(false)
+  return (
+    <div className="relative h-[120px] overflow-hidden rounded-[18px] lg:h-[180px]" style={{ background: place.tone }}>
+      {!broken && <img src={place.image} alt={place.name} loading="lazy" decoding="async" referrerPolicy="no-referrer" onError={() => setBroken(true)} className="absolute inset-0 h-full w-full object-cover" />}
+      {!broken && <span className="absolute bottom-1.5 left-1.5 max-w-[calc(100%-12px)] truncate rounded-full bg-ink/55 px-2 py-0.5 text-[9px] leading-4 text-white">ภาพ: {place.credit}</span>}
+    </div>
+  )
+}
 
 function SectionTitle({ title, desc, className = '' }) {
   return (
@@ -54,13 +63,8 @@ export default function Showcase() {
         />
         <div className="grid grid-cols-2 gap-2.5 md:grid-cols-4 lg:gap-4">
           {PLACES.map((place) => (
-            <div key={place.name} className="flex flex-col gap-2 rounded-3xl bg-cream p-2">
-              <div
-                className="flex h-[120px] items-center justify-center rounded-[18px] text-xs text-muted lg:h-[180px]"
-                style={{ background: place.tone }}
-              >
-                [รูป]
-              </div>
+            <div key={place.id} className="flex flex-col gap-2 rounded-3xl bg-cream p-2">
+              <ShowcasePhoto place={place} />
               <div className="px-1.5 pb-1.5">
                 <div className="font-semibold">{place.name}</div>
                 <div className="text-[13px] text-muted">{place.meta}</div>
