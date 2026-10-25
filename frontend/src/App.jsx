@@ -1,28 +1,14 @@
-import { lazy, Suspense } from 'react'
+import { Suspense } from 'react'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import FullPageLoader from './components/FullPageLoader'
 import { AuthProvider } from './context/AuthContext'
 import { TripDraftProvider } from './context/TripDraftContext'
 import PrivateRoute from './routes/PrivateRoute'
 import PublicOnlyRoute from './routes/PublicOnlyRoute'
-// โหลดแยกทีละหน้า
-const Landing = lazy(() => import('./pages/Landing'))
-const Login = lazy(() => import('./pages/Login'))
-const Register = lazy(() => import('./pages/Register'))
-const Welcome = lazy(() => import('./pages/Welcome'))
-const Home = lazy(() => import('./pages/Home'))
-const Map = lazy(() => import('./pages/Map'))
-const Mood = lazy(() => import('./pages/Mood'))
-const Swipe = lazy(() => import('./pages/Swipe'))
-const Trip = lazy(() => import('./pages/Trip'))
-const FoodSwipe = lazy(() => import('./pages/FoodSwipe'))
-const StaySwipe = lazy(() => import('./pages/StaySwipe'))
-const StayFinal = lazy(() => import('./pages/StayFinal'))
-const TransportPick = lazy(() => import('./pages/TransportPick'))
-const TripDetails = lazy(() => import('./pages/TripDetails'))
-const TripDetail = lazy(() => import('./pages/TripDetail'))
-const Personality = lazy(() => import('./pages/Personality'))
-const About = lazy(() => import('./pages/About'))
+import {
+  About, FoodSwipe, Home, Landing, Login, Map, Mood, Personality, Register,
+  StayFinal, StaySwipe, Swipe, TransportPick, Trip, TripDetail, TripDetails, Welcome,
+} from './routes/pages'
 
 export default function App() {
   return (

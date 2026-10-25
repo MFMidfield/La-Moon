@@ -73,6 +73,7 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | frontend/src/context/AuthContext.jsx | session + profile + setProfile + signInWithGoogle/signOut/refreshProfile (`useAuth`) | แก้ logic auth |
 | frontend/src/routes/PrivateRoute.jsx | กันหน้า private: ไม่ login → /login, ไม่มี profile → /register | แก้เงื่อนไขเข้าหน้า |
 | frontend/src/routes/PublicOnlyRoute.jsx | / และ /login — login แล้วเด้งไป /home | |
+| frontend/src/routes/pages.jsx | ประกาศหน้า lazy ทุกหน้า + `preloadPage(to)` (SlideLink โหลดหน้าปลายทางก่อนเริ่ม slide) | เพิ่มหน้าใหม่ต้องเพิ่มทั้งที่นี่ (lazyPage + ตาราง routes) และ App.jsx |
 | frontend/src/lib/supabase.js | supabase client (env `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`) | |
 | frontend/.env.example | template env | เพิ่ม env |
 | frontend/vercel.json | SPA rewrite ทุก path → index.html (กัน 404 ตอน refresh) | |
@@ -213,3 +214,4 @@ Webapp ช่วยเลือกที่เที่ยวตาม mood แ�
 | 2026-10-24 | Supabase cloud: รัน deploy-remote.sql ผ่าน `supabase db query --linked` (cloud ว่างก่อนรัน), verify 4 ตาราง/68 คอลัมน์/178 places/12 policies/RLS ครบ, deploy mood-reader (verify_jwt) |
 | 2026-10-25 | ตัด AI อ่านมู้ด → ระบบเดามู้ดจากคำ (moodWords.js) ปุ่ม 'ช่วยเลือกมู้ดให้'; สั่ง Codex หารูป 62 ที่ + agent ทำหน้าสิ่งที่ต้องจอง |
 | 2026-10-25 | เช็กลิสต์ "สิ่งที่ต้องจองก่อนเดินทาง" ก่อนบันทึก (เที่ยวไป-กลับ + ที่พักรวมคืนติดกัน, ติ๊กจองแล้ว เก็บใน trips.estimate.booking.items ไม่ต้องแก้ DB) + การ์ดในหน้าทริป (อ่านอย่างเดียว); ลบ "จองใกล้ที่นี่" ทุกจุด + ลบ TripSummary/PlaceRow; ค้างคืนในจังหวัดตัวเอง รถส่วนตัวขึ้นก่อน+default |
+| 2026-10-25 | แก้ slide เปลี่ยนหน้ากระตุก (ถ่ายภาพได้ loader เพราะ chunk ยังไม่โหลด): ย้าย lazy pages ไป routes/pages.jsx, slideNavigate รอ preloadPage ก่อน startViewTransition |
