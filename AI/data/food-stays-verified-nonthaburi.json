@@ -1,0 +1,513 @@
+{
+  "province": "nonthaburi",
+  "restaurants": [
+    {
+      "id": "river-wine-restaurant",
+      "province": "nonthaburi",
+      "name_en": "River Wine",
+      "lat": 13.91558,
+      "lng": 100.48816,
+      "image_url": "https://images.pexels.com/photos/18502881/pexels-photo-18502881.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Adisak Thangthong / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/18502881/",
+      "website": null,
+      "name": "ริเวอร์ ไวน์ (River Wine)",
+      "area": "ซอยวัดบางจาก ปากเกร็ด",
+      "description": "ร้านอาหารและไวน์บาร์ริมแม่น้ำเจ้าพระยา ปากเกร็ด มีห้องส่วนตัวและห้องคาราโอเกะ เห็นวิวเกาะเกร็ด",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "opening_hours",
+        "signature_dishes"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "opening_hours": "16:00-23:59",
+      "closed_days": null,
+      "cuisine": [
+        "ไทย",
+        "นานาชาติ",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes": [
+        "ปลากะพงทอดน้ำปลา",
+        "ขาหมูเยอรมัน",
+        "กุ้งแม่น้ำเผา"
+      ],
+      "price_per_person": {
+        "min": 500,
+        "max": 1000
+      },
+      "verify_note": "Wongnai lists River Wine Restaurant and Wine Bar at 91 Soi Wat Bang Chak (Mon-Fri 16:00-23:59, weekends from 11:00, THB 501-1,000); coordinates moved about 430 m.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/riverwine"
+      ]
+    },
+    {
+      "id": "baan-rabiangnam",
+      "province": "nonthaburi",
+      "name_en": "Baan Rabiangnam",
+      "lat": 13.8805,
+      "lng": 100.48329,
+      "image_url": "https://images.pexels.com/photos/33939170/pexels-photo-33939170.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Nana LLJ / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/33939170/",
+      "website": null,
+      "name": "บ้านระเบียงน้ำ",
+      "area": "ซอยนนทบุรี 23 เมืองนนทบุรี",
+      "description": "ร้านอาหารไทยริมแม่น้ำเจ้าพระยา ซอยนนทบุรี 23 โดดเด่นด้วยกุ้งแม่น้ำเผา ห่อหมกทะเล และปลากะพงทอดน้ำปลา",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person",
+        "lat",
+        "lng"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "opening_hours": "10:30-21:30",
+      "closed_days": null,
+      "cuisine": [
+        "ไทย",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes": [
+        "กุ้งแม่น้ำเผา",
+        "ห่อหมกทะเล",
+        "แกงส้มชะอมกุ้ง",
+        "ปลากะพงทอดน้ำปลา"
+      ],
+      "price_per_person": {
+        "min": 300,
+        "max": 700
+      },
+      "verify_note": "Wongnai lists the riverside Baan Rabiang Nam on Soi Nonthaburi 23 (daily 10:30-21:30, THB 251-500); coordinates moved about 380 m; a same-named place in Bang Yai is a different venue.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/10079zZ-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%80%E0%B8%9C%E0%B8%B2-delivery",
+        "https://www.sanook.com/travel/1393641/"
+      ]
+    },
+    {
+      "id": "song-fang-khlong",
+      "province": "nonthaburi",
+      "name_en": "Song Fang Khlong Riverside",
+      "lat": 13.92872,
+      "lng": 100.5018,
+      "image_url": "https://images.pexels.com/photos/37279451/pexels-photo-37279451.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Liuuu / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37279451/",
+      "website": null,
+      "name": "สองฝั่งคลอง ริเวอร์ไซด์",
+      "area": "ซอยสุขาประชาสรร 2 ปากเกร็ด",
+      "description": "ร้านอาหารไทยริมแม่น้ำเจ้าพระยาภายในโรงแรมคาลานัน ริเวอร์ไซด์ (เดิมบั๊ดดี้ โอเรียนทอล) ปากเกร็ด",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "opening_hours",
+        "price_per_person",
+        "signature_dishes",
+        "lat",
+        "lng"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "opening_hours": "17:00-22:00",
+      "closed_days": null,
+      "cuisine": [
+        "ไทย",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes": [
+        "ปูก้อนผัดพริกเหลือง",
+        "ปลากะพงสองใจ",
+        "ต้มยำโป๊ะแตก"
+      ],
+      "price_per_person": {
+        "min": 250,
+        "max": 600
+      },
+      "verify_note": "Wongnai lists Song Fang Khlong riverside Thai restaurant inside the Buddy Oriental/Kalanan Riverside hotel (Mon-Fri 17:00-22:00, weekends from 11:00); coordinates moved about 2 km north.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/3401Rj-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%9D%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87-%E0%B9%81%E0%B8%88%E0%B9%89%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B0"
+      ]
+    },
+    {
+      "id": "non-bakery",
+      "province": "nonthaburi",
+      "name_en": "Non Bakery",
+      "lat": 13.84319,
+      "lng": 100.49395,
+      "image_url": "https://images.pexels.com/photos/7405059/pexels-photo-7405059.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Furkan Tumer / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/7405059/",
+      "website": null,
+      "name": "นนท์เบเกอรี่",
+      "area": "ถนนประชาราษฎร์ ท่าน้ำนนท์ เมืองนนทบุรี",
+      "description": "ร้านเบเกอรี่เก่าแก่หน้าท่าน้ำนนท์ ขายเอแคลร์ ท็อฟฟี่เค้ก และขนมปังหมูสับไข่เค็ม (ซื้อกลับ ไม่มีที่นั่ง)",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "bakery",
+      "meals": [
+        "snack"
+      ],
+      "opening_hours": "08:00-20:00",
+      "closed_days": null,
+      "cuisine": [
+        "เบเกอรี่",
+        "ขนมไทย"
+      ],
+      "signature_dishes": [
+        "เอแคลร์",
+        "ท็อฟฟี่เค้ก",
+        "ขนมปังหมูสับไข่เค็ม"
+      ],
+      "price_per_person": {
+        "min": 40,
+        "max": 100
+      },
+      "verify_note": "Wongnai lists Non Bakery on Pracharat Rd in front of Tha Nam Non pier, daily 08:00-20:00, takeaway only; coordinates adjusted by about 280 m.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/33162NE-%E0%B8%99%E0%B8%99%E0%B8%97%E0%B9%8C%E0%B9%80%E0%B8%9A%E0%B9%80%E0%B8%81%E0%B8%AD%E0%B8%A3%E0%B8%B5%E0%B9%88"
+      ]
+    },
+    {
+      "id": "ganicco-farm",
+      "province": "nonthaburi",
+      "name_en": "Ganicco Farm",
+      "lat": 13.8752,
+      "lng": 100.4581,
+      "image_url": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Dinaziz2462 / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/27706147/",
+      "website": null,
+      "name": "กานิกะ ฟาร์ม (Ganicco Farm)",
+      "area": "สายมา เมืองนนทบุรี",
+      "description": "ฟาร์มคาเฟ่ย่านสายมา นนทบุรี สวนดอกไม้และเรือนกระจก ปลูกผักผลไม้ออร์แกนิกและเมลอน มีเครื่องดื่ม เบเกอรี่ และอาหาร",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "lat",
+        "lng",
+        "price_per_person",
+        "signature_dishes",
+        "opening_hours"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "kind": "cafe",
+      "meals": [
+        "lunch",
+        "snack"
+      ],
+      "opening_hours": "08:30-19:30",
+      "closed_days": "อังคาร",
+      "cuisine": [
+        "เบเกอรี่",
+        "เครื่องดื่ม",
+        "ออร์แกนิก"
+      ],
+      "signature_dishes": [
+        "กาแฟ",
+        "เบเกอรี่",
+        "เมลอนออร์แกนิก"
+      ],
+      "price_per_person": {
+        "min": 180,
+        "max": 400
+      },
+      "verify_note": "Only a Trip.com traveller post confirms the farm cafe in the Sai Ma area (08:30-19:30, closed Tuesday); no map listing or coordinates were found, so this stays low-confidence.",
+      "sources": [
+        "https://uk.trip.com/moments/detail/nonthaburi-province-24553-13783111"
+      ]
+    }
+  ],
+  "stays": [
+    {
+      "id": "novotel-bangkok-impact",
+      "province": "nonthaburi",
+      "name_en": "Novotel Bangkok Impact",
+      "lat": 13.91553,
+      "lng": 100.54839,
+      "image_url": "https://images.pexels.com/photos/37836001/pexels-photo-37836001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Ariyan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37836001/",
+      "website": null,
+      "name": "โนโวเทล กรุงเทพ อิมแพ็ค",
+      "area": "ปากเกร็ด / เมืองทองธานี",
+      "description": "โรงแรมระดับ 4 ดาวข้างศูนย์แสดงสินค้าอิมแพ็ค เมืองทองธานี สระว่ายน้ำในร่ม สปา ห้องออกกำลังกาย อาหารเช้าแยกจ่าย",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night"
+      ],
+      "moods": [
+        "luxury"
+      ],
+      "type": "hotel",
+      "tier": "mid",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 2200,
+        "max": 4000
+      },
+      "verify_note": "Trip.com confirms 94 Popular Rd, check-in 14:00, check-out 12:00, indoor pool, paid THB 530 breakfast; OpenStreetMap places it about 350 m from the old pin.",
+      "sources": [
+        "https://uk.trip.com/hotels/pak-kret-hotel-detail-1497044/hotel",
+        "https://lookup.hotels.com/de10462301/hotels-near-impact-challenger-pak-kret-thailand"
+      ]
+    },
+    {
+      "id": "ibis-bangkok-impact",
+      "province": "nonthaburi",
+      "name_en": "ibis Bangkok Impact",
+      "lat": 13.91615,
+      "lng": 100.55212,
+      "image_url": "https://images.pexels.com/photos/19810875/pexels-photo-19810875.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Wutthichai Charoenburi / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/19810875/",
+      "website": null,
+      "name": "ไอบิส กรุงเทพ อิมแพ็ค",
+      "area": "ปากเกร็ด / เมืองทองธานี",
+      "description": "โรงแรมสไตล์โมเดิร์นเน้นความคุ้มค่า ถนนป๊อปปูล่า เมืองทองธานี ใกล้ศูนย์แสดงสินค้าอิมแพ็ค อาหารเช้าแยกจ่าย",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "amenities",
+        "check_in",
+        "check_out",
+        "price_per_night"
+      ],
+      "moods": [
+        "food"
+      ],
+      "type": "hotel",
+      "tier": "mid",
+      "amenities": [
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 1200,
+        "max": 1900
+      },
+      "verify_note": "OpenStreetMap, Expedia and Kayak confirm ibis at 93 Popular Rd (about USD 42 per night); breakfast is extra; coordinates moved about 400 m.",
+      "sources": [
+        "https://www.expedia.com/Bangkok-Hotels-Ibis-Bangkok-IMPACT.h17101703.Hotel-Information",
+        "https://kayak.sg/Mueang-Nonthaburi-Hotels-ibis-Bangkok-Impact.2681991.ksp"
+      ]
+    },
+    {
+      "id": "best-western-plus-wanda-grand-hotel",
+      "province": "nonthaburi",
+      "name_en": "Best Western Plus Wanda Grand Hotel",
+      "lat": 13.90431,
+      "lng": 100.53092,
+      "image_url": "https://images.pexels.com/photos/37835990/pexels-photo-37835990.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Ariyan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37835990/",
+      "website": null,
+      "name": "เบสท์ เวสเทิร์น พลัส แวนด้า แกรนด์",
+      "area": "ปากเกร็ด / แจ้งวัฒนะ",
+      "description": "โรงแรมบนถนนแจ้งวัฒนะ ปากเกร็ด มีสระว่ายน้ำ ห้องอาหาร และฟิตเนส ใกล้เซ็นทรัลแจ้งวัฒนะ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "amenities",
+        "check_in",
+        "check_out",
+        "price_per_night"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "type": "hotel",
+      "tier": "mid",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 1500,
+        "max": 2300
+      },
+      "verify_note": "OpenStreetMap and Hotels.com confirm 111 Chaengwattana Rd with pool, restaurant and gym (about USD 53-60 per night); coordinates moved about 400 m.",
+      "sources": [
+        "https://uk.hotels.com/ho472262720/best-western-plus-wanda-grand-hotel-pak-kret-thailand",
+        "https://www.travelocity.com/Central-Plaza-Chaengwattana-Hotels.0-l6202183-0.Travel-Guide-Filter-Hotels"
+      ]
+    },
+    {
+      "id": "buddy-oriental-riverside-hotel",
+      "province": "nonthaburi",
+      "name_en": "Kalanan Riverside Resort (formerly Buddy Oriental Riverside)",
+      "lat": 13.9283,
+      "lng": 100.5025,
+      "image_url": "https://images.pexels.com/photos/37610710/pexels-photo-37610710.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Cihad Yildiz / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37610710/",
+      "website": null,
+      "name": "คาลานัน ริเวอร์ไซด์ รีสอร์ท (เดิม บั๊ดดี้ โอเรียนทอล)",
+      "area": "ซอยสุขาประชาสรร 2 ปากเกร็ด",
+      "description": "โรงแรมริมแม่น้ำเจ้าพระยา ปากเกร็ด มีสระว่ายน้ำ สปา และร้านอาหารริมน้ำ (เดิมชื่อ บั๊ดดี้ โอเรียนทอล ริเวอร์ไซด์)",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "tier",
+        "lat",
+        "lng"
+      ],
+      "moods": [
+        "photo",
+        "quiet"
+      ],
+      "type": "resort",
+      "tier": "mid",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 2200,
+        "max": 4500
+      },
+      "verify_note": "Traveloka and Hotelplanner show the property now trades as Kalanan Riverside Resort at 17/55 Moo 7 Soi Sukhaprachasan 2 (coordinates about 13.928, 100.502); no current rate was found.",
+      "sources": [
+        "https://www.traveloka.com/en-ph/hotel/thailand/kalanan-riverside-resort-1000000377525",
+        "https://www.hotelplanner.com/Hotels/139598/Reservations-Kalanan-Riverside-Resort-Pak-Kret-17-56-Moo-7-Sukhaprachasan-2-Bangpood-11200"
+      ]
+    },
+    {
+      "id": "nonthaburi-palace-hotel",
+      "province": "nonthaburi",
+      "name_en": "Nonthaburi Palace Hotel",
+      "lat": 13.8482,
+      "lng": 100.4891,
+      "image_url": "https://images.pexels.com/photos/37835990/pexels-photo-37835990.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Ariyan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37835990/",
+      "website": null,
+      "name": "โรงแรม นนทบุรี เพลส",
+      "area": "เมืองนนทบุรี / นนทบุรี 1",
+      "description": "โรงแรมราคาประหยัดบนถนนนนทบุรี เมืองนนทบุรี มีร้านอาหาร ที่จอดรถ และไวไฟฟรี",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "lat",
+        "lng",
+        "price_per_night"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "type": "hotel",
+      "tier": "saver",
+      "amenities": [
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 650,
+        "max": 1000
+      },
+      "verify_note": "Kayak, Expedia and Hotels.com confirm a 3-star Nonthaburi Palace Hotel (check-in 14:00, check-out 12:00, about THB 650-800 per night); exact coordinates were not available.",
+      "sources": [
+        "https://www.vn.kayak.com/Bangkok-Hotels-Nonthaburi-Palace-Hotel.380666.ksp",
+        "https://www.expedia.co.in/Bangkok-Hotels-Nonthaburi-Palace-Hotel.h12565791.Hotel-Information"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "my-castle-cafe",
+      "reason": "No My Castle Cafe in Nonthaburi found (only 'My Castle Beach' listed without address)."
+    },
+    {
+      "id": "plern-cafe-and-bistro",
+      "reason": "No Plern Cafe & Bistro in Pak Kret found on Wongnai or in web searches."
+    },
+    {
+      "id": "item-nonthaburi",
+      "reason": "Nai Song stewed duck in Sai Noi not found; Song Ped Palow branches exist only in Bangkok."
+    },
+    {
+      "id": "som-tum-pa-pao-nonthaburi",
+      "reason": "No Som Tum Pa Pao near Tha Nam Non found."
+    },
+    {
+      "id": "kuay-tiew-phak-wan-nonthaburi",
+      "reason": "Wongnai lists only a boxed-meal delivery shop (0 reviews) at Tiwanon 43, not the described noodle restaurant."
+    },
+    {
+      "id": "bed-by-city-hotel",
+      "reason": "No Bed by City Hotel on Ngamwongwan Rd found; only Bed by Boat/Bed by Cruise exist."
+    }
+  ],
+  "not_checked": []
+}

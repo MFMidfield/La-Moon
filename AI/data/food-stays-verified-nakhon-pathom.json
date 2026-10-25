@@ -1,0 +1,401 @@
+{
+  "province": "nakhon-pathom",
+  "restaurants": [
+    {
+      "id": "kung-ob",
+      "province": "nakhon-pathom",
+      "name_en": "Kung Ob Phu Khaofai",
+      "lat": 13.80433,
+      "lng": 100.041341,
+      "image_url": "https://images.pexels.com/photos/18502881/pexels-photo-18502881.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Adisak Thangthong / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/18502881/",
+      "website": "https://www.facebook.com/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%AD%E0%B8%9A%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B9%84%E0%B8%9F-160358674021417/",
+      "name": "กุ้งอบภูเขาไฟ",
+      "area": "สนามจันทร์ ถนนเพชรเกษม เมืองนครปฐม",
+      "description": "ร้านอาหารดังเมืองนครปฐม ขึ้นชื่อเรื่องกุ้งอบภูเขาไฟที่เสิร์ฟพร้อมไฟลุกที่โต๊ะ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person",
+        "signature_dishes"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "opening_hours": "10:00-21:00",
+      "closed_days": null,
+      "cuisine": [
+        "ซีฟู้ด",
+        "ไทย"
+      ],
+      "signature_dishes": [
+        "กุ้งอบภูเขาไฟ",
+        "กุ้งอบวุ้นเส้น",
+        "ปลาช่อนบ้าน"
+      ],
+      "price_per_person": {
+        "min": 250,
+        "max": 600
+      },
+      "verify_note": "Wongnai confirms 885 Phetkasem Rd (Sanam Chan), open daily 10:00-21:00; coordinates moved about 1.9 km; removed wrong website (volcanoshrimp.com is an unrelated site).",
+      "sources": [
+        "https://www.wongnai.com/restaurants/kungaob",
+        "https://mgronline.com/travel/detail/9600000069056",
+        "https://salehere.co.th/articles/kungaob-nakornpathom-review"
+      ]
+    },
+    {
+      "id": "tang-ha-seng",
+      "province": "nakhon-pathom",
+      "name_en": "Tang Ha Seng (Old Shop)",
+      "lat": 13.82273,
+      "lng": 100.059862,
+      "image_url": "https://images.pexels.com/photos/12824413/pexels-photo-12824413.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Manit Seekhao / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/12824413/",
+      "website": null,
+      "name": "ตั้งฮะเส็ง (ร้านเก่า)",
+      "area": "ถนนพญากง ตลาดล่าง เมืองนครปฐม",
+      "description": "ร้านข้าวหมูแดงหมูกรอบเก่าแก่หลายสิบปี ใกล้องค์พระปฐมเจดีย์ มีเต้าหู้ทอดชิ้นใหญ่เป็นเมนูเด่น",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "breakfast",
+        "lunch"
+      ],
+      "opening_hours": "07:30-16:00",
+      "closed_days": null,
+      "cuisine": [
+        "ข้าวหมูแดง",
+        "ไทย-จีน"
+      ],
+      "signature_dishes": [
+        "ข้าวหมูแดง",
+        "ข้าวหมูกรอบ",
+        "เต้าหู้ทอด"
+      ],
+      "price_per_person": {
+        "min": 50,
+        "max": 150
+      },
+      "verify_note": "Real shop is spelled ตั้งฮะเส็ง (ร้านเก่า) on Phaya Kong Rd near Phra Pathom Chedi, open daily 07:30-16:00 per Wongnai; name and coordinates corrected.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/8551KB-%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%AE%E0%B8%B0%E0%B9%80%E0%B8%AA%E0%B9%87%E0%B8%87%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%87",
+        "https://mgronline.com/travel/detail/9540000058490"
+      ]
+    },
+    {
+      "id": "say-hay-cafe-cuisine",
+      "province": "nakhon-pathom",
+      "name_en": "Say Hay Cafe & Cuisine",
+      "lat": 13.783941,
+      "lng": 100.233245,
+      "image_url": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Dinaziz2462 / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/27706147/",
+      "website": "https://www.facebook.com/Sayhaycafecuisine/",
+      "name": "เซย์เฮย์ คาเฟ่ แอนด์ ควิซีน",
+      "area": "พุทธมณฑลสาย 7 หอมเกร็ด สามพราน",
+      "description": "คาเฟ่และร้านอาหารฟิวชันร่มรื่น มีมินิสวนสัตว์ให้อาหารสัตว์ และปลูกเมลอนเอง",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person",
+        "signature_dishes",
+        "name"
+      ],
+      "moods": [
+        "food",
+        "photo",
+        "quiet"
+      ],
+      "kind": "cafe",
+      "meals": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "opening_hours": "11:00-20:00 (ส.-อา. เปิด 10:30)",
+      "closed_days": null,
+      "cuisine": [
+        "ฟิวชั่น",
+        "อาหารไทย",
+        "ขนมหวาน"
+      ],
+      "signature_dishes": [
+        "พิซซ่า",
+        "อาหารฟิวชัน",
+        "เมลอน"
+      ],
+      "price_per_person": {
+        "min": 250,
+        "max": 500
+      },
+      "verify_note": "Wongnai confirms the cafe on Phutthamonthon Sai 7, Hom Kret, Sam Phran (not Phutthamonthon district); coordinates were about 8 km off and are corrected.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/327679Iu-say-hay-%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%8B%E0%B8%A2%E0%B9%8C%E0%B9%80%E0%B8%AE%E0%B8%A2%E0%B9%8C",
+        "https://mgronline.com/travel/detail/9610000087466",
+        "https://www.facebook.com/Sayhaycafecuisine/"
+      ]
+    },
+    {
+      "id": "moo-yot-khao-mu-dang",
+      "province": "nakhon-pathom",
+      "name_en": "Khao Moo Dang Nai Chua",
+      "lat": 13.822237,
+      "lng": 100.060847,
+      "image_url": "https://images.pexels.com/photos/38429596/pexels-photo-38429596.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Dale / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/38429596/",
+      "website": null,
+      "name": "ข้าวหมูแดงนายฉั้ว",
+      "area": "ซอยซ้ายพระ ตลาดล่าง เมืองนครปฐม",
+      "description": "ร้านข้าวหมูแดงหมูกรอบเก่าแก่ใกล้องค์พระปฐมเจดีย์ หมูแดงหนา หมูกรอบกรอบ ข้าวสามกษัตริย์เป็นเมนูแนะนำ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "opening_hours",
+        "price_per_person"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "street_food",
+      "meals": [
+        "lunch"
+      ],
+      "opening_hours": "09:00-15:00",
+      "closed_days": null,
+      "cuisine": [
+        "ข้าวหมูแดง"
+      ],
+      "signature_dishes": [
+        "ข้าวสามกษัตริย์ (หมูแดง หมูกรอบ ไก่ย่าง)",
+        "ข้าวหมูแดง"
+      ],
+      "price_per_person": {
+        "min": 40,
+        "max": 100
+      },
+      "verify_note": "Wongnai lists ร้านนายฉั้ว on Soi Sai Phra near Phra Pathom Chedi, open 09:00-15:00 (other sites say 07:00-17:00); coordinates moved about 400 m.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/105493xf-%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%89%E0%B8%B1%E0%B9%89%E0%B8%A7",
+        "https://www.naewna.com/columnonline/46190",
+        "https://www.ryoiireview.com/restaurant/view/9011"
+      ]
+    }
+  ],
+  "stays": [
+    {
+      "id": "mida-grande-hotel-dhavaravati",
+      "province": "nakhon-pathom",
+      "name_en": "Mida Grande Hotel Dhavaravati Nakhon Pathom",
+      "lat": 13.80721,
+      "lng": 100.057924,
+      "image_url": "https://images.pexels.com/photos/37835990/pexels-photo-37835990.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Ariyan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37835990/",
+      "website": "https://www.midagrandehoteldhavaravati.com/en/",
+      "name": "โรงแรมไมด้า แกรนด์ ทวารวดี นครปฐม",
+      "area": "สนามจันทร์ ถนนเพชรเกษม เมืองนครปฐม",
+      "description": "โรงแรมระดับ 4-5 ดาวบนถนนเพชรเกษม ตกแต่งสไตล์ทวารวดี มีสระว่ายน้ำ สปา และบาร์ดาดฟ้า",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "amenities",
+        "tier"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "type": "hotel",
+      "tier": "mid",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 1300,
+        "max": 2200
+      },
+      "verify_note": "Exists at 711 Phetkasem Rd, Sanam Chan; coordinates moved about 1.9 km to the Trip.com pin; price from HotelsCombined/Tripadvisor USD snapshots.",
+      "sources": [
+        "https://www.trip.com/hotels/nakorn-pathom-hotel-detail-3717068/mida-grande-hotel-dhavaravati-nakhon-pathom/",
+        "https://www.midagrandehoteldhavaravati.com/en/",
+        "https://www.hotelscombined.com/Hotel/Mida_Grande_Hotel_Dhavaravati_Nakhon_Pathom.htm"
+      ]
+    },
+    {
+      "id": "xen-hotel-nakhon-pathom",
+      "province": "nakhon-pathom",
+      "name_en": "Xen Hotel Nakhon Pathom",
+      "lat": 13.811981,
+      "lng": 100.054363,
+      "image_url": "https://images.pexels.com/photos/37836001/pexels-photo-37836001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Ariyan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37836001/",
+      "website": "https://www.xenhotel-nakhonpathom.com",
+      "name": "โรงแรมเซ็น นครปฐม",
+      "area": "ถนนราชมรรคา เมืองนครปฐม",
+      "description": "โรงแรม 3 ดาว 134 ห้อง ใจกลางเมืองนครปฐม ใกล้องค์พระปฐมเจดีย์ จอดรถสะดวก",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "type": "hotel",
+      "tier": "saver",
+      "amenities": [
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 900,
+        "max": 1400
+      },
+      "verify_note": "Exists (Agoda/Tripadvisor/Trip.com/official site) on Rachamanka Rd; coordinates moved about 1.7 km; published Superior rate from THB 1,000 without breakfast.",
+      "sources": [
+        "https://sg.trip.com/hotels/nakorn-pathom-hotel-detail-6405914/xen-hotel-nakhon-pathom/",
+        "https://www.xenhotel-nakhonpathom.com",
+        "https://www.hotelscombined.com/Hotel/Xen_Hotel_Nakhon_Pathom.htm"
+      ]
+    },
+    {
+      "id": "the-pround-hotel",
+      "province": "nakhon-pathom",
+      "name_en": "The Proud Exclusive Hotel",
+      "lat": 13.812689,
+      "lng": 100.048455,
+      "image_url": "https://images.pexels.com/photos/6606354/pexels-photo-6606354.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Belle Shang / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/6606354/",
+      "website": null,
+      "name": "เดอะ พราวด์ เอ็กซ์คลูซีฟ โฮเทล",
+      "area": "ถนนราชมรรคา เมืองนครปฐม",
+      "description": "โรงแรมราคาประหยัดใกล้พระราชวังสนามจันทร์ มีสระว่ายน้ำ ที่จอดรถ และห้องพักสะอาด",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "amenities",
+        "name"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "type": "hotel",
+      "tier": "saver",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 700,
+        "max": 1300
+      },
+      "verify_note": "Real name is The Proud Exclusive Hotel on Rachamanka Rd; coordinates moved about 500 m to the Trip.com pin; price from HotelsCombined/MakeMyTrip USD snapshots.",
+      "sources": [
+        "https://www.trip.com/hotels/nakorn-pathom-hotel-detail-11054448/the-proud-exclusive-hotel/",
+        "https://www.hotelscombined.com/Hotel/The_Proud_Exclusive_Hotel.htm",
+        "https://www.klook.com/en-US/hotels/detail/574308-the-proud-exclusive-hotel/"
+      ]
+    },
+    {
+      "id": "parnvati-resort",
+      "province": "nakhon-pathom",
+      "name_en": "Parn Dhevi Riverside Resort & Spa",
+      "lat": 13.7699,
+      "lng": 100.2387,
+      "image_url": "https://images.pexels.com/photos/37610710/pexels-photo-37610710.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Cihad Yildiz / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37610710/",
+      "website": null,
+      "name": "ปานเทวี ริเวอร์ไซด์ รีสอร์ท แอนด์ สปา",
+      "area": "หอมเกร็ด สามพราน (พุทธมณฑลสาย 7)",
+      "description": "รีสอร์ตริมน้ำที่หอมเกร็ด สามพราน มีคาเฟ่ลอยน้ำ RIVA Floating Cafe และสปา",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "amenities",
+        "check_in",
+        "check_out"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "type": "resort",
+      "tier": "mid",
+      "amenities": [
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 1200,
+        "max": 1900
+      },
+      "verify_note": "Real name is Parn Dhevi Riverside Resort & Spa (Hom Kret, Sam Phran) with RIVA Floating Cafe; coordinates moved about 24 km; price from HotelsCombined/Tripadvisor USD snapshots.",
+      "sources": [
+        "https://in.trip.com/hotels/sam-phran-hotel-detail-2549546/parn-dhevi-riverside-resort-and-spa/",
+        "https://www.hotelscombined.com/Hotel/Parn_Dhevi_Riverside_Resort_Nakhon_Pathom.htm",
+        "https://www.wongnai.com/restaurants/148521Tx-riva-floating-cafe-parndhevi-riverside-resort"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "rive-droit-cafe",
+      "reason": "No cafe named Rive Droit/ริฟ ดรัวต์ found in Nakhon Chai Si or Nakhon Pathom (closest is Riva Floating Cafe in Sam Phran, a different name)."
+    },
+    {
+      "id": "charn-at-nakhon-chai-si",
+      "reason": "No stay named ชาน ณ นครชัยศรี / Charn at Nakhon Chai Si found on booking sites or the web."
+    }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "province": "phuket",
+  "restaurants": [
+    {
+      "id": "raya-restaurant",
+      "province": "phuket",
+      "name_en": "Raya Restaurant",
+      "lat": 7.88593,
+      "lng": 98.3909,
+      "image_url": "https://images.pexels.com/photos/18502881/pexels-photo-18502881.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Adisak Thangthong / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/18502881/",
+      "website": null,
+      "name": "ร้านอาหารระย้า",
+      "area": "ถนนดีบุก ตลาดใหญ่ อำเภอเมืองภูเก็ต",
+      "description": "ร้านอาหารใต้และอาหารพื้นเมืองภูเก็ตในบ้านชิโนโปรตุกีสเก่าบนถนนดีบุก ขึ้นชื่อเรื่องแกงปูและหมูฮ้อง",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person",
+        "awards"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "opening_hours": "10:00-22:00",
+      "closed_days": null,
+      "cuisine": [
+        "ไทยใต้",
+        "พื้นเมืองภูเก็ต"
+      ],
+      "signature_dishes": [
+        "แกงปู",
+        "หมูฮ้อง",
+        "ปลาทอดกระเทียม"
+      ],
+      "price_per_person": {
+        "min": 350,
+        "max": 800
+      },
+      "verify_note": "Open daily 10:00-22:00 at 48/1 Dibuk Rd; Michelin Bib Gourmand reportedly lapsed (Selected in 2025, absent 2026) so no award is listed; coordinates fixed (~430 m off).",
+      "sources": [
+        "https://www.eatingthaifood.com/raya-restaurant-phuket",
+        "https://www.phuket101.net/raya-house/",
+        "https://www.thaiholidayguide.com/attraction/raya-restaurant-phuket/"
+      ]
+    },
+    {
+      "id": "tu-kab-khao",
+      "province": "phuket",
+      "name_en": "Tu Kab Khao",
+      "lat": 7.88369,
+      "lng": 98.3882,
+      "image_url": "https://images.pexels.com/photos/33939170/pexels-photo-33939170.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Nana LLJ / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/33939170/",
+      "website": null,
+      "name": "ตู้กับข้าว",
+      "area": "ถนนพังงา ตลาดใหญ่ อำเภอเมืองภูเก็ต",
+      "description": "ร้านอาหารใต้ในอาคารชิโนโปรตุกีสริมถนนพังงา ขึ้นชื่อเรื่องแกงปูกับขนมจีนและหมูฮ้อง",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person",
+        "awards"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "opening_hours": "11:00-21:00",
+      "closed_days": null,
+      "cuisine": [
+        "ไทยใต้",
+        "พื้นเมืองภูเก็ต"
+      ],
+      "signature_dishes": [
+        "แกงเนื้อปูขนมจีน",
+        "หมูฮ้อง",
+        "กุ้งผัดสะตอ"
+      ],
+      "price_per_person": {
+        "min": 350,
+        "max": 900
+      },
+      "verify_note": "MICHELIN lists Tu Kab Khao at 8 Phang Nga Rd, open daily 11:00-21:00; name corrected (it is not \"Raya Tu Kab Khao\"); Bib Gourmand dated 2020 so current award not asserted.",
+      "sources": [
+        "https://guide.michelin.com/en/phuket-region/phuket/restaurant/tu-kab-khao",
+        "https://mail.thephuketnews.com/phuket-phang-nga-gain-new-entries-in-michelin-guide-78346.php"
+      ]
+    },
+    {
+      "id": "one-chun-cafe-restaurant",
+      "province": "phuket",
+      "name_en": "One Chun Cafe & Restaurant",
+      "lat": 7.88578,
+      "lng": 98.39069,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/One_Chun.jpg/1280px-One_Chun.jpg",
+      "image_credit": "Vano111ru / Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:One_Chun.jpg",
+      "website": null,
+      "name": "วันจันทร์",
+      "area": "ถนนเทพกระษัตรี ตลาดใหญ่ อำเภอเมืองภูเก็ต",
+      "description": "ร้านอาหารใต้และอาหารพื้นเมืองภูเก็ตในบ้านเก่าบนถนนเทพกระษัตรี ได้รับการแนะนำใน MICHELIN Guide",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person",
+        "awards"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "opening_hours": "10:00-22:00 (อังคารปิด 21:00)",
+      "closed_days": null,
+      "cuisine": [
+        "ไทยใต้",
+        "พื้นเมืองภูเก็ต"
+      ],
+      "signature_dishes": [
+        "หมูฮ้อง",
+        "แกงส้มปลากะพง",
+        "ใบเหลียงผัดไข่"
+      ],
+      "price_per_person": {
+        "min": 250,
+        "max": 650
+      },
+      "verify_note": "MICHELIN confirms 48/1 Thep Krasattri Rd, 10:00-22:00 (Tue to 21:00); listed in the guide with no award confirmed; exact Commons photo.",
+      "sources": [
+        "https://guide.michelin.com/en/phuket-region/phuket/restaurant/one-chun",
+        "https://en.wikipedia.org/wiki/One_Chun",
+        "https://commons.wikimedia.org/wiki/File:One_Chun.jpg"
+      ]
+    },
+    {
+      "id": "mor-mu-dong",
+      "province": "phuket",
+      "name_en": "Mor Mu Dong",
+      "lat": 7.84314,
+      "lng": 98.37199,
+      "image_url": "https://images.pexels.com/photos/37279451/pexels-photo-37279451.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Liuuu / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37279451/",
+      "website": null,
+      "name": "หมอมูดง",
+      "area": "ฉลอง อำเภอเมืองภูเก็ต",
+      "description": "ร้านอาหารพื้นบ้านริมป่าชายเลน บรรยากาศซุ้มไม้ไผ่ริมน้ำ อาหารรสจัดจ้าน",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "name",
+        "price_per_person",
+        "awards"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "opening_hours": "10:00-21:00",
+      "closed_days": null,
+      "cuisine": [
+        "ไทยใต้",
+        "ซีฟู้ดพื้นบ้าน"
+      ],
+      "signature_dishes": [
+        "ปลายัดไส้",
+        "แกงส้มสับปะรดปลา",
+        "หมูคั่วเกลือ"
+      ],
+      "price_per_person": {
+        "min": 250,
+        "max": 600
+      },
+      "verify_note": "MICHELIN lists Mor Mu Dong at 9/4 Moo 3 Soi Pa Lai, Chalong, open daily 10:00-21:00; coordinates fixed (~2 km off) and mountain mood removed.",
+      "sources": [
+        "https://guide.michelin.com/ca/fr/phuket-region/phuket/restaurant/mor-mu-dong",
+        "https://www.phuket101.net/mor-mu-dong-restaurant/"
+      ]
+    },
+    {
+      "id": "kan-eang-at-pier",
+      "province": "phuket",
+      "name_en": "Kan Eang @ Pier",
+      "lat": 7.8199,
+      "lng": 98.34442,
+      "image_url": "https://images.pexels.com/photos/12561888/pexels-photo-12561888.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Captured by Augustine / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/12561888/",
+      "website": null,
+      "name": "กันเอง แอท เพียร์",
+      "area": "อ่าวฉลอง ถนนวิเศษ อำเภอเมืองภูเก็ต",
+      "description": "ร้านอาหารซีฟู้ดริมอ่าวฉลอง วิวสวย บรรยากาศดี อาหารทะเลสดใหม่คุณภาพเยี่ยม",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "opening_hours",
+        "price_per_person",
+        "coordinates"
+      ],
+      "moods": [
+        "food",
+        "beach"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "opening_hours": "10:30-22:30",
+      "closed_days": null,
+      "cuisine": [
+        "ซีฟู้ด",
+        "ไทยใต้",
+        "ญี่ปุ่น"
+      ],
+      "signature_dishes": [
+        "กุ้งมังกรซาชิมิ",
+        "ปูผัดผงกะหรี่",
+        "แกงส้มยอดมะพร้าวปลา"
+      ],
+      "price_per_person": {
+        "min": 500,
+        "max": 1500
+      },
+      "verify_note": "Seafood restaurant at 44/1 Moo 5 Viset Rd on Chalong Bay is confirmed, but sources disagree on hours; coordinates moved ~1 km to the OSM Kan Eang point.",
+      "sources": [
+        "https://www.phuket101.net/kep-restaurant/",
+        "https://thegate.boardingarea.com/kan-eang-pier-in-phuket-to-celebrate-50-year-anniversary/",
+        "https://photon.komoot.io (OSM point)"
+      ]
+    },
+    {
+      "id": "kopitiam-by-wilaiwan",
+      "province": "phuket",
+      "name_en": "Kopitiam by Wilai",
+      "lat": 7.88478,
+      "lng": 98.38808,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Kopitiam_by_Wilai%2C_Phuket_%2813271249955%29.jpg/1280px-Kopitiam_by_Wilai%2C_Phuket_%2813271249955%29.jpg",
+      "image_credit": "Thanakrit Gu from Shanghai, China / Wikimedia Commons",
+      "image_license": "CC BY 2.0",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Kopitiam_by_Wilai,_Phuket_(13271249955).jpg",
+      "website": "https://www.facebook.com/kopitiambywilai/",
+      "name": "โกปี้เทียม บาย วิไล",
+      "area": "ถนนถลาง ตลาดเหนือ อำเภอเมืองภูเก็ต",
+      "description": "ร้านอาหารพื้นเมืองภูเก็ตสไตล์โกปี้เตี๊ยมบนถนนถลางในย่านเมืองเก่า มีหมี่ฮกเกี้ยนและผัดไทยเป็นเมนูเด่น",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "name",
+        "opening_hours",
+        "closed_days",
+        "price_per_person",
+        "signature_dishes"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "opening_hours": "11:00-22:00",
+      "closed_days": null,
+      "cuisine": [
+        "อาหารพื้นเมืองภูเก็ต",
+        "กาแฟโบราณ"
+      ],
+      "signature_dishes": [
+        "บะหมี่ฮกเกี้ยน",
+        "ข้าวผัดน้ำพริกกุ้งสด",
+        "ขนมปังปังสังขยา"
+      ],
+      "price_per_person": {
+        "min": 100,
+        "max": 250
+      },
+      "verify_note": "Real shop at 18 Thalang Rd (name is \"Kopitiam by Wilai\", not \"Wilaiwan\"); phuket101 gives 11:00-22:00 and dishes at 70-120 baht, older source says closed Sundays; exact Commons photo.",
+      "sources": [
+        "https://www.phuket101.net/best-pad-thai-restaurants-phuket",
+        "https://www.villa-phuket.com/magazine/2016/05/phuket-towns-cheap-eats/amp",
+        "https://commons.wikimedia.org/wiki/File:Kopitiam_by_Wilai,_Phuket_(13271249955).jpg"
+      ]
+    },
+    {
+      "id": "lock-tien-food-center",
+      "province": "phuket",
+      "name_en": "Lock Tien",
+      "lat": 7.8803,
+      "lng": 98.3868,
+      "image_url": "https://images.pexels.com/photos/28600264/pexels-photo-28600264.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Jean Papillon / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/28600264/",
+      "website": null,
+      "name": "ลกเที้ยน",
+      "area": "ถนนบางกอก ตลาดเหนือ อำเภอเมืองภูเก็ต",
+      "description": "ร้านอาหารพื้นเมืองภูเก็ตและฮกเกี้ยนเก่าแก่ ย้ายจากมุมถนนเยาวราชมาอยู่ถนนบางกอก",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "coordinates",
+        "opening_hours",
+        "price_per_person"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "snack"
+      ],
+      "opening_hours": "09:00-19:00",
+      "closed_days": null,
+      "cuisine": [
+        "พื้นเมืองภูเก็ต",
+        "ฮกเกี้ยน"
+      ],
+      "signature_dishes": [
+        "หมี่ฮกเกี้ยน",
+        "โลบะ",
+        "ปอเปี๊ยะสด",
+        "โอ้เอ๋ว"
+      ],
+      "price_per_person": {
+        "min": 80,
+        "max": 250
+      },
+      "verify_note": "The old food court at Yaowarat/Dibuk closed and Lock Tien reopened at 59/14 Bangkok Rd (09:00-19:00); coordinates are approximate (about 650 m south of the old site).",
+      "sources": [
+        "https://www.phuket101.net/lock-tien-food-court/",
+        "https://www.wongnai.com/restaurants/13419Uq-%E0%B8%A5%E0%B8%81%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%99"
+      ]
+    },
+    {
+      "id": "aramis-cafe-phuket",
+      "province": "phuket",
+      "name_en": "Torry's Ice Cream",
+      "lat": 7.88546,
+      "lng": 98.38925,
+      "image_url": "https://images.pexels.com/photos/6612572/pexels-photo-6612572.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Pavel Danilyuk / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/6612572/",
+      "website": null,
+      "name": "ทอร์รี่ส์ ไอศกรีม",
+      "area": "ซอยรมณีย์ ตลาดใหญ่ อำเภอเมืองภูเก็ต",
+      "description": "ร้านไอศกรีมในตึกแถวชิโนโปรตุกีสสีชมพูที่ซอยรมณีย์ มีไอศกรีมรสพื้นเมืองภูเก็ตอย่างโอ้เอ๋วและบีโกหมอย",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "name",
+        "opening_hours"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "kind": "cafe",
+      "meals": [
+        "snack"
+      ],
+      "opening_hours": "11:00-18:00 (ศุกร์-อาทิตย์ถึง 21:30)",
+      "closed_days": null,
+      "cuisine": [
+        "ไอศกรีม",
+        "ขนมพื้นเมืองภูเก็ต"
+      ],
+      "signature_dishes": [
+        "โอ้เอ๋ว",
+        "บีโกหมอย",
+        "อาโป๊ง"
+      ],
+      "price_per_person": {
+        "min": 100,
+        "max": 250
+      },
+      "verify_note": "Torry's Ice Cream at 16 Soi Romanee is confirmed; hours vary by source (11:00-18:00, longer Fri-Sun); original name/website were wrong.",
+      "sources": [
+        "https://www.phuket101.net/torrys-ice-cream-in-phuket-town/",
+        "https://www.wongnai.com/restaurants/torryicecream"
+      ]
+    },
+    {
+      "id": "a-pon-mae-sunee",
+      "province": "phuket",
+      "name_en": "Apong Mae Sunee",
+      "lat": 7.88581,
+      "lng": 98.38738,
+      "image_url": "https://images.pexels.com/photos/15797984/pexels-photo-15797984.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Eaksit Sangdee / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/15797984/",
+      "website": null,
+      "name": "อาโป๊งแม่สุณี",
+      "area": "ซอยสุ่นอุทิศ ถนนเยาวราช ตลาดใหญ่ อำเภอเมืองภูเก็ต",
+      "description": "ร้านขนมอาโป๊งเตาถ่านเก่าแก่ริมซอยสุ่นอุทิศ ขายจนของหมดในแต่ละวัน",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "opening_hours",
+        "closed_days",
+        "price_per_person"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "street_food",
+      "meals": [
+        "snack"
+      ],
+      "opening_hours": "09:00-15:00",
+      "closed_days": null,
+      "cuisine": [
+        "ขนมพื้นเมืองภูเก็ต"
+      ],
+      "signature_dishes": [
+        "ขนมอาโป๊งกรอบนอกนุ่มใน"
+      ],
+      "price_per_person": {
+        "min": 20,
+        "max": 60
+      },
+      "verify_note": "Street stall at 99 Soi Sun Uthit, Yaowarat Rd (MICHELIN guide listing); sources conflict on hours (09:00-15:00 vs Tuesday-only 09:00-14:00 on MICHELIN) and it sells out early.",
+      "sources": [
+        "https://guide.michelin.com/th/th/phuket-region/phuket/restaurant/a-pong-mae-sunee",
+        "https://www.eatingthaifood.com/phuket-thai-khanom-ahpong/"
+      ]
+    }
+  ],
+  "stays": [
+    {
+      "id": "the-memory-at-on-on-hotel",
+      "province": "phuket",
+      "name_en": "The Memory at On On Hotel",
+      "lat": 7.88381,
+      "lng": 98.38854,
+      "image_url": "https://images.pexels.com/photos/19810875/pexels-photo-19810875.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Wutthichai Charoenburi / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/19810875/",
+      "website": null,
+      "name": "เดอะ เมมโมรี แอท ออน ออน โฮเต็ล",
+      "area": "ถนนพังงา ย่านเมืองเก่าภูเก็ต",
+      "description": "โรงแรมประวัติศาสตร์สไตล์ชิโนโปรตุกีสสุดคลาสสิกใจกลางเมืองเก่าภูเก็ต",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night"
+      ],
+      "moods": [
+        "temple",
+        "photo",
+        "quiet"
+      ],
+      "type": "hotel",
+      "tier": "mid",
+      "amenities": [
+        "free_wifi",
+        "near_transit"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 900,
+        "max": 2500
+      },
+      "verify_note": "Real hotel on Phang Nga Rd, check-in 14:00 / check-out 12:00, no on-site parking; original price far too high (snapshot about USD 28), so a planning estimate is used.",
+      "sources": [
+        "https://uk.hotels.com/ho429082/the-memory-at-on-on-hotel-phuket-thailand/",
+        "https://hotel.iberia.com/hotel/th/the-memory-at-on-on.en-gb.html"
+      ]
+    },
+    {
+      "id": "blu-monkey-hub-hotel-phuket",
+      "province": "phuket",
+      "name_en": "Blu Monkey Hub and Hotel Phuket",
+      "lat": 7.8838,
+      "lng": 98.3868,
+      "image_url": "https://images.pexels.com/photos/37835990/pexels-photo-37835990.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Ariyan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37835990/",
+      "website": null,
+      "name": "บลู มังกี้ ฮับ แอนด์ โฮเต็ล ภูเก็ต",
+      "area": "ถนนพังงา ตลาดใหญ่ ตัวเมืองภูเก็ต",
+      "description": "โรงแรมดีไซน์โมเดิร์นโคาสต์ สไตล์ฮิปสเตอร์ราคาสบายกระเป๋าสำหรับคนรุ่นใหม่",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "coordinates",
+        "price_per_night",
+        "amenities"
+      ],
+      "moods": [
+        "photo"
+      ],
+      "type": "hotel",
+      "tier": "mid",
+      "amenities": [
+        "free_wifi"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 900,
+        "max": 1800
+      },
+      "verify_note": "Real hotel at 3 Soi 3 Phang Nga Rd, Phuket Town (60 rooms, breakfast paid extra); coordinates are an approximate street point because no map pin was available.",
+      "sources": [
+        "https://www.traveloka.com/en-en/hotel/thailand/blu-monkey-hub-and-hotel-phuket-1000000544218",
+        "https://www.phuket101.net/blu-monkey-hub-hotel-phuket/",
+        "https://www.expedia.com/go/hotel/info/12225156"
+      ]
+    },
+    {
+      "id": "trisara-phuket-resort",
+      "province": "phuket",
+      "name_en": "Trisara Phuket",
+      "lat": 8.03501,
+      "lng": 98.2773,
+      "image_url": "https://images.pexels.com/photos/4089908/pexels-photo-4089908.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Dushenkovsky / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/4089908/",
+      "website": "https://www.trisara.com",
+      "name": "ตรีสรา ภูเก็ต",
+      "area": "หาดในทอน เชิงทะเล อำเภอถลาง",
+      "description": "รีสอร์ตวิลล่าหรูระดับอัลตร้าลักชูรีริมทะเล พร้อมสระว่ายน้ำส่วนตัวและความเป็นส่วนตัวสูงสุด",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "check_in",
+        "check_out",
+        "price_per_night"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "type": "resort",
+      "tier": "comfy",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "beach_access"
+      ],
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 28000,
+        "max": 60000
+      },
+      "verify_note": "Real luxury resort at 60/1 Moo 6 Si Sunthon Rd (Nai Thon); coordinates fixed (~700 m); entry rate about USD 870-1,100 so range raised; Commons photo exists but is only 99 px wide so the illustrative image is kept.",
+      "sources": [
+        "https://guide.michelin.com/en/hotels-stays/phuket-area/trisara-13796",
+        "https://www.mrandmrssmith.com/luxury-hotels/trisara",
+        "https://commons.wikimedia.org/wiki/File:Thumb_Thailand_Phuket_NaithornBeach_TRISARA_Ocean_Front_Pool_Villa_View.jpg"
+      ]
+    },
+    {
+      "id": "the-siam-heritage-phuket-or-similar",
+      "province": "phuket",
+      "name_en": "SALA Phuket Mai Khao Beach Resort",
+      "lat": 8.15795,
+      "lng": 98.29673,
+      "image_url": "https://images.pexels.com/photos/31387456/pexels-photo-31387456.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Vince / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/31387456/",
+      "website": null,
+      "name": "ศาลา ภูเก็ต ไม้ขาว บีช รีสอร์ท",
+      "area": "หาดไม้ขาว อำเภอถลาง",
+      "description": "พูลวิลล่ารีสอร์ตสไตล์มินิมอลริมหาดไม้ขาว ดีไซน์โดดเด่นและเงียบสงบ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "check_in",
+        "check_out",
+        "price_per_night",
+        "name"
+      ],
+      "moods": [
+        "beach",
+        "quiet"
+      ],
+      "type": "resort",
+      "tier": "comfy",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "beach_access"
+      ],
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 5500,
+        "max": 12000
+      },
+      "verify_note": "Real resort on Mai Khao beach (name corrected from \"SALAK\"/placeholder id; coordinates fixed, ~4 km off); breakfast buffet is paid extra so removed; rates are a planning range.",
+      "sources": [
+        "https://guide.michelin.com/en/hotels-stays/Phuket/sala-phuket-mai-khao-beach-resort-410",
+        "https://www.mrandmrssmith.com/luxury-hotels/sala-phuket-mai-khao-beach-resort",
+        "https://www.kayak.com/Mai-Khao-Hotels-Sala-Phuket-Mai-Khao-Beach-Resort.199364.ksp"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "poon-yosh-restaurant",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    },
+    {
+      "id": "woody-inn-phuket",
+      "reason": "no listing found on Wongnai/Google-indexed sources, Michelin or travel guides; cannot confirm it exists"
+    }
+  ],
+  "not_checked": []
+}

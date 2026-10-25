@@ -1,0 +1,458 @@
+{
+  "province": "pathum-thani",
+  "restaurants": [
+    {
+      "id": "pae-pochana",
+      "province": "pathum-thani",
+      "name_en": "Pae Pochana",
+      "lat": 14.042349,
+      "lng": 100.419872,
+      "image_url": "https://images.pexels.com/photos/18502881/pexels-photo-18502881.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Adisak Thangthong / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/18502881/",
+      "website": "https://www.facebook.com/pare.phochana",
+      "name": "แปโภชนา",
+      "area": "ตลาดระแหง 100 ปี ลาดหลุมแก้ว",
+      "description": "ร้านอาหารไทย-จีนโบราณในตลาดระแหง 100 ปี เปิดมากว่า 50 ปี ได้รับ MICHELIN Bib Gourmand",
+      "awards": [
+        "MICHELIN Bib Gourmand 2026"
+      ],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person",
+        "temporary_closure_until_2027-01-01",
+        "signature_dishes"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch"
+      ],
+      "opening_hours": "09:00-14:30",
+      "closed_days": null,
+      "cuisine": [
+        "ไทย",
+        "จีน",
+        "อาหารพื้นบ้าน"
+      ],
+      "signature_dishes": [
+        "ปลากรายและหมูห่อฟองเต้าหู้",
+        "ต้มยำขาหมู",
+        "ผัดฉ่าปลาสลิด"
+      ],
+      "price_per_person": {
+        "min": 200,
+        "max": 450
+      },
+      "verify_note": "Michelin-listed (Bib Gourmand 2026) Thai-Chinese shop in Rahaeng 100-year market; coordinates from Michelin/Wongnai; Wongnai shows it temporarily closed since 2026-07-14 and reopening 2027-01-01.",
+      "sources": [
+        "https://guide.michelin.com/us/en/pathum-thani-region/pathum-thani/restaurant/pae-pochana",
+        "https://www.wongnai.com/restaurants/parephochana",
+        "https://www.facebook.com/pare.phochana"
+      ]
+    },
+    {
+      "id": "jae-mon-gui-chai",
+      "province": "pathum-thani",
+      "name_en": "Jae Mon Gui Chai (Wat San Chao)",
+      "lat": 14.002415,
+      "lng": 100.541305,
+      "image_url": "https://images.pexels.com/photos/12265850/pexels-photo-12265850.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Markus Winkler / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/12265850/",
+      "website": null,
+      "name": "กุยช่ายเจ๊มล (เจ้าเก่า) วัดศาลเจ้า",
+      "area": "ตลาดน้ำวัดศาลเจ้า บ้านกลาง เมืองปทุมธานี",
+      "description": "กุยช่ายสดแป้งบางไส้แน่นขายมากว่า 30 ปี ประจำตลาดน้ำวัดศาลเจ้า มีไส้ผัก เผือก หน่อไม้ มันแกว",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "opening_hours",
+        "price_per_person"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "street_food",
+      "meals": [
+        "breakfast",
+        "snack"
+      ],
+      "opening_hours": "05:00-17:00",
+      "closed_days": "วันจันทร์",
+      "cuisine": [
+        "ของว่างไทย-จีน"
+      ],
+      "signature_dishes": [
+        "กุยช่ายไส้ผัก",
+        "กุยช่ายเผือก",
+        "กุยช่ายหน่อไม้",
+        "กุยช่ายเปลือย"
+      ],
+      "price_per_person": {
+        "min": 40,
+        "max": 100
+      },
+      "verify_note": "Wongnai lists กุยช่ายเจ๊มล (เจ้าเก่า) at Wat San Chao floating market, open daily except Monday; coordinates moved about 1.5 km to the Wongnai pin.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/121881mu-%E0%B8%81%E0%B8%B8%E0%B8%A2%E0%B8%8A%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%88%E0%B9%8A%E0%B8%A1%E0%B8%A5-%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2-wat-sanchao-floating-market",
+        "https://food.mthai.com/food-recommend/88271.html"
+      ]
+    },
+    {
+      "id": "ko-boy-boat-noodle",
+      "province": "pathum-thani",
+      "name_en": "Ko Boy Boat Noodle Khlong 3 (Talat Pha Charoen)",
+      "lat": 14.03568,
+      "lng": 100.663199,
+      "image_url": "https://images.pexels.com/photos/7361022/pexels-photo-7361022.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Likeboss Lertpongsaporn / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/7361022/",
+      "website": null,
+      "name": "ก๋วยเตี๋ยวเรือโกบอย สาขาคลองสาม (ตลาดพาเจริญ)",
+      "area": "ตลาดพาเจริญ คลองสาม คลองหลวง",
+      "description": "ก๋วยเตี๋ยวเรือรังสิตเจ้าดัง น้ำซุปข้นเข้มข้น เนื้อหมกตับหมก กากหมูเจียวกรอบ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person",
+        "signature_dishes"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch"
+      ],
+      "opening_hours": "09:30-17:00",
+      "closed_days": null,
+      "cuisine": [
+        "ก๋วยเตี๋ยวเรือ",
+        "ไทย"
+      ],
+      "signature_dishes": [
+        "ก๋วยเตี๋ยวเรือหมู",
+        "กากหมูเจียว",
+        "เนื้อหมก ตับหมก"
+      ],
+      "price_per_person": {
+        "min": 60,
+        "max": 150
+      },
+      "verify_note": "Wongnai confirms the Khlong 3 branch at Talat Pha Charoen, Khlong Luang, open daily 09:30-17:00; coordinates moved about 5 km to the Wongnai pin.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/1210050uj-%E0%B8%81%E0%B9%8B%E0%B8%A7%E0%B8%A2%E0%B9%80%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B8%A2%E0%B8%A7-%E0%B9%82%E0%B8%81%E0%B8%9A%E0%B8%AD%E0%B8%A2-%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%B2%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D",
+        "https://www.wongnai.com/chains/koboy-boat-noodle"
+      ]
+    }
+  ],
+  "stays": [
+    {
+      "id": "tinidee-hotel-bangkok-golf-club",
+      "province": "pathum-thani",
+      "name_en": "Tinidee Hotel Bangkok Golf Club",
+      "lat": 13.981505,
+      "lng": 100.542286,
+      "image_url": "https://images.pexels.com/photos/13584138/pexels-photo-13584138.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Kien Le / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/13584138/",
+      "website": null,
+      "name": "โรงแรมทินิดี บางกอก กอล์ฟ คลับ",
+      "area": "บางกะดี เมืองปทุมธานี",
+      "description": "รีสอร์ตท่ามกลางสนามกอล์ฟและธรรมชาติอันเงียบสงบ เหมาะกับการพักผ่อนและเล่นกอล์ฟ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "amenities",
+        "check_out"
+      ],
+      "moods": [
+        "quiet",
+        "photo"
+      ],
+      "type": "resort",
+      "tier": "mid",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 1000,
+        "max": 1800
+      },
+      "verify_note": "Exists with 2026 listings on Trip.com/Expedia; coordinates moved about 1 km to the Trip.com pin; official website link was dead and removed; price from Agoda/Expedia snapshots.",
+      "sources": [
+        "https://us.trip.com/hotels/pathum-thani-hotel-detail-2506152/tinidee-hotel-bangkok-golf-club/",
+        "https://www.hotelscombined.com/Hotel/Tinidee_Hotel_Bangkok_Golf_Club.htm"
+      ]
+    },
+    {
+      "id": "novotel-bangkok-futurepark-rangsit",
+      "province": "pathum-thani",
+      "name_en": "Novotel Bangkok Future Park Rangsit",
+      "lat": 13.9952,
+      "lng": 100.6174,
+      "image_url": "https://images.pexels.com/photos/37836001/pexels-photo-37836001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Ariyan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37836001/",
+      "website": null,
+      "name": "โรงแรมโนโวเทล กรุงเทพ ฟิวเจอร์พาร์ค รังสิต",
+      "area": "ประชาธิปัตย์ คลองหลวง / รังสิต",
+      "description": "โรงแรม 4 ดาวทันสมัยใกล้ฟิวเจอร์พาร์ค รังสิต มีสระว่ายน้ำกลางแจ้งและที่จอดรถฟรี",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "amenities"
+      ],
+      "moods": [
+        "food",
+        "photo"
+      ],
+      "type": "hotel",
+      "tier": "mid",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 1900,
+        "max": 3200
+      },
+      "verify_note": "Exists (Trip.com/OSM); located in Prachathipat, Khlong Luang, near Future Park Rangsit; coordinates moved about 900 m; price from Agoda/Klook/hotel-site snapshots.",
+      "sources": [
+        "https://sg.trip.com/hotels/rangsit-hotel-detail-76394801/novotel-bangkok-future-park-rangsit/",
+        "https://www.klook.com/hotels/detail/732476-novotel-bangkok-future-park-rangsit/"
+      ]
+    },
+    {
+      "id": "pinehurst-golf-club-hotel",
+      "province": "pathum-thani",
+      "name_en": "Pinehurst Golf Club & Hotel",
+      "lat": 14.04532,
+      "lng": 100.601335,
+      "image_url": "https://images.pexels.com/photos/37610710/pexels-photo-37610710.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Cihad Yildiz / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37610710/",
+      "website": "https://pinehurst.co.th",
+      "name": "ไพน์เฮิร์สท กอล์ฟ คลับ แอนด์ โฮเต็ล",
+      "area": "คลองหนึ่ง คลองหลวง",
+      "description": "โรงแรมสไตล์รีสอร์ตบรรยากาศร่มรื่นท่ามกลางสนามกอล์ฟ ใกล้มหาวิทยาลัยกรุงเทพ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "amenities",
+        "check_in"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "type": "hotel",
+      "tier": "mid",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "price_per_night": {
+        "min": 1100,
+        "max": 1900
+      },
+      "verify_note": "Exists on Trip.com (Khlong Nueng, Khlong Luang); coordinates moved about 800 m; real check-in is 13:00 and check-out 11:00, kept in-set at 14:00 per task rules; paid breakfast and reported Wi-Fi fee noted.",
+      "sources": [
+        "https://www.trip.com/hotels/khlong-luang-hotel-detail-1522731/pinehurst-golf-club-and-hotel/",
+        "https://www.momondo.com/hotels/pathum-thani/Pinehurst-Golf-Club-Hotel.mhd2012201.ksp",
+        "https://pinehurst.co.th"
+      ]
+    },
+    {
+      "id": "the-pine-resort-pathum",
+      "province": "pathum-thani",
+      "name_en": "The Pine Resort",
+      "lat": 14.118775,
+      "lng": 100.50541,
+      "image_url": "https://images.pexels.com/photos/37610710/pexels-photo-37610710.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Cihad Yildiz / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37610710/",
+      "website": "http://www.thepineresort.com",
+      "name": "เดอะ ไพน์ รีสอร์ท",
+      "area": "ท้ายเกาะ สามโคก",
+      "description": "รีสอร์ตสามโคกที่มีสระว่ายน้ำ สนามเทนนิส สนามเด็กเล่น และพื้นที่จัดสัมมนา เหมาะพักผ่อนใกล้กรุงเทพฯ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "lat_lng",
+        "price_per_night",
+        "amenities"
+      ],
+      "moods": [
+        "adventure",
+        "quiet"
+      ],
+      "type": "resort",
+      "tier": "saver",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 800,
+        "max": 1500
+      },
+      "verify_note": "Exists at Tha Ko, Sam Khok (Booking/Tripadvisor/EaseMyTrip); coordinates moved about 3 km using the EaseMyTrip pin (single source); price from Trivago/Travelated snapshots.",
+      "sources": [
+        "https://www.easemytrip.com/hotels/the-pine-resort-1372953/",
+        "https://www.booking.com/hotel/th/po-the-pine-resort-ban-pho-taeng-tai.html",
+        "http://www.thepineresort.com"
+      ]
+    },
+    {
+      "id": "ingnamm-hotel-pathum",
+      "province": "pathum-thani",
+      "name_en": "Ingnaam Hotel",
+      "lat": 13.985146,
+      "lng": 100.625034,
+      "image_url": "https://images.pexels.com/photos/37098094/pexels-photo-37098094.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Sasi Tha / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37098094/",
+      "website": null,
+      "name": "โรงแรมอิงน้ำ",
+      "area": "ประชาธิปัตย์ ธัญบุรี / รังสิต",
+      "description": "โรงแรมขนาดเล็กราคาประหยัดบนถนนรังสิต-นครนายก ใกล้ฟิวเจอร์พาร์ค รังสิต มีสระว่ายน้ำและที่จอดรถ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "amenities",
+        "check_out"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "type": "hotel",
+      "tier": "saver",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 750,
+        "max": 1200
+      },
+      "verify_note": "Real name is Ingnaam Hotel in Prachathipat, Thanyaburi/Rangsit (not Mueang Pathum Thani); coordinates moved about 11 km from the wrong location; price from Kayak/Trip.com USD snapshots.",
+      "sources": [
+        "https://th.trip.com/hotels/rangsit-hotel-detail-9945240/ingnaam-residence/",
+        "https://www.tripadvisor.com/Hotel_Review-g2237176-d12280250-Reviews-Ingnaam_Hotel-Thanyaburi_Pathum_Thani_Province.html",
+        "https://www.facebook.com/ingnaamhotel/"
+      ]
+    },
+    {
+      "id": "asia-airport-hotel-rangsit",
+      "province": "pathum-thani",
+      "name_en": "Asia Airport Hotel Rangsit",
+      "lat": 13.96195,
+      "lng": 100.623024,
+      "image_url": "https://images.pexels.com/photos/19810875/pexels-photo-19810875.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Wutthichai Charoenburi / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/19810875/",
+      "website": "https://www.asiahotel.co.th",
+      "name": "โรงแรมเอเชีย แอร์พอร์ต รังสิต",
+      "area": "ลำลูกกา / รังสิต",
+      "description": "โรงแรมขนาดใหญ่บนศูนย์การค้าถนนพหลโยธิน ลำลูกกา ห่างสนามบินดอนเมืองราว 6 กม.",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "type": "hotel",
+      "tier": "saver",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 900,
+        "max": 1400
+      },
+      "verify_note": "Exists (Trip.com/Booking/official site) on Phahonyothin Rd, Lam Luk Ka; coordinates confirmed within 60 m; breakfast is extra so removed from amenities; price from Trip.com/Agoda USD snapshots.",
+      "sources": [
+        "https://us.trip.com/hotels/lam-luk-ka-hotel-detail-700851/asia-airport-hotel/",
+        "https://www.asiahotel.co.th/asia_airport/",
+        "https://www.booking.com/hotel/th/asia-airport.html"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "ruen-thai-goong-pao",
+      "reason": "เรือนไทยกุ้งเผา is at Wat Choeng Len, Bang Sai, Ayutthaya (Pantip/Facebook), not Pathum Thani; no Sam Khok branch found."
+    },
+    {
+      "id": "kru-tor-kung-pao",
+      "reason": "No grilled-prawn restaurant named ครูต้อ found in Sam Khok or Pathum Thani; only Kru Tor stops in Saraburi."
+    },
+    {
+      "id": "coffee-and-tree-khlong-15",
+      "reason": "Coffee and Tree cafe is at Khlong 15, Ongkharak, Nakhon Nayok province, not Thanyaburi/Pathum Thani."
+    },
+    {
+      "id": "baan-phruksa-thewa",
+      "reason": "No restaurant named บ้านพฤกษาเทวา found on Wongnai or the web."
+    },
+    {
+      "id": "samkhok-coffee",
+      "reason": "No cafe named Samkhok Coffee found; Sam Khok cafes found have different names."
+    },
+    {
+      "id": "tak-arkart-riverfront",
+      "reason": "No restaurant named ตากอากาศ found in Pathum Thani; identity cannot be established."
+    },
+    {
+      "id": "nai-sawang-pork-noodle",
+      "reason": "No noodle shop named นายสว่าง found in Pathum Thani on Wongnai or the web."
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "province": "nakhon-si-thammarat",
+  "restaurants": [
+    {
+      "id": "krua---------nakhon-si",
+      "province": "nakhon-si-thammarat",
+      "name_en": "Krua Nai Nang",
+      "lat": 8.42197,
+      "lng": 99.97342,
+      "image_url": "https://images.pexels.com/photos/18502881/pexels-photo-18502881.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Adisak Thangthong / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/18502881/",
+      "website": null,
+      "name": "ร้านอาหาร ครัวนายหนัง",
+      "area": "ถนนพัฒนาการคูขวาง เมืองนครศรีธรรมราช",
+      "description": "ร้านอาหารใต้รสชาติจัดจ้านต้นตำรับเมืองนคร มีการแสดงแกะสลักและเชิดหนังตะลุงให้ชมขณะรับประทานอาหาร",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_person",
+        "signature_dishes"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "opening_hours": "10:00-23:00",
+      "closed_days": null,
+      "cuisine": [
+        "ไทยใต้",
+        "ซีฟู้ด"
+      ],
+      "signature_dishes": [
+        "แกงส้มปลากะพงยอดมะพร้าว",
+        "แกงไตปลาทรงเครื่อง",
+        "หมูผัดกะปิสตอ"
+      ],
+      "price_per_person": {
+        "min": 150,
+        "max": 350
+      },
+      "verify_note": "Confirmed open daily 10:00-23:00 at 175/2 Phatthanakan Khukwang Rd with a nang talung show during meals; coordinates moved about 500 m east.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/133356wf-%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%A7%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87",
+        "https://wanderlog.com/place/details/2815439"
+      ]
+    },
+    {
+      "id": "ko-lan-kanom-jeen-mueang-nakhon",
+      "province": "nakhon-si-thammarat",
+      "name_en": "Kanom Jeen Mueang Khon Phanyom",
+      "lat": 8.41562,
+      "lng": 99.96696,
+      "image_url": "https://images.pexels.com/photos/33939170/pexels-photo-33939170.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Nana LLJ / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/33939170/",
+      "website": null,
+      "name": "ขนมจีนเมืองคอน ถนนพานยม",
+      "area": "23 ถนนพานยม เมืองนครศรีธรรมราช",
+      "description": "ร้านขนมจีนใต้ระดับตำนานประจำเมืองนคร น้ำยาหลากหลายรสชาติทานคู่ถาดผักสดพื้นบ้านไม่อั้น",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "opening_hours",
+        "lat",
+        "lng",
+        "price_per_person"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "breakfast",
+        "lunch"
+      ],
+      "opening_hours": "09:00-14:00",
+      "closed_days": "วันที่ 16 ของเดือน",
+      "cuisine": [
+        "ขนมจีนใต้",
+        "ไทยใต้"
+      ],
+      "signature_dishes": [
+        "ไก่ทอด",
+        "ข้าวยำน้ำบูดู",
+        "แกงเขียวหวาน",
+        "ขนมจีนน้ำยา"
+      ],
+      "price_per_person": {
+        "min": 100,
+        "max": 250
+      },
+      "verify_note": "Wongnai lists Khanom Jeen Mueang Khon at 23 Phanyom Rd (Mon-Fri 09:00-14:00, closed on the 16th of each month); a blog says 08:00-15:30 and sells since 1977.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/24376Ew-%E0%B8%82%E0%B8%99%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%99%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%99-%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%9E%E0%B8%B2%E0%B8%99%E0%B8%A2%E0%B8%A1",
+        "https://penang-traveltips.com/thailand/nakhon-si-thammarat/khanom-jin-muang-nakhon.htm"
+      ]
+    },
+    {
+      "id": "khao-yoi-kopitiam-nakhon-si",
+      "province": "nakhon-si-thammarat",
+      "name_en": "Ko Pi (beside the Provincial Hall)",
+      "lat": 8.42043,
+      "lng": 99.9638,
+      "image_url": "https://images.pexels.com/photos/2079448/pexels-photo-2079448.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Emrecan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/2079448/",
+      "website": null,
+      "name": "โกปี๊ ข้างศาลากลาง",
+      "area": "ซอยนางงาม เมืองนครศรีธรรมราช",
+      "description": "ร้านกาแฟโบราณและติ่มซำข้างศาลากลางจังหวัด ขายบะกุ๊ดเต๋ ข้าวจานเดียว ปาท่องโก๋ และโรตีไข่ดาว เปิดเช้าถึงบ่าย",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "lat",
+        "lng",
+        "price_per_person"
+      ],
+      "moods": [
+        "food"
+      ],
+      "kind": "restaurant",
+      "meals": [
+        "breakfast",
+        "lunch",
+        "snack"
+      ],
+      "opening_hours": "06:30-15:00",
+      "closed_days": null,
+      "cuisine": [
+        "ติ่มซำ",
+        "กาแฟโบราณ",
+        "ข้าวจานเดียว"
+      ],
+      "signature_dishes": [
+        "บะกุ๊ดเต๋",
+        "ติ่มซำ",
+        "ข้าวขาหมู",
+        "โกปี้ร้อน"
+      ],
+      "price_per_person": {
+        "min": 60,
+        "max": 200
+      },
+      "verify_note": "Wongnai lists Ko Pi beside the provincial hall on Soi Nang Ngam, open daily 06:30-15:00; renamed from the unverified 'Khao Yoi Kopitiam' and removed the unsupported Sino-Portuguese claim.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/26924lP-%E0%B9%82%E0%B8%81%E0%B8%9B%E0%B8%B5%E0%B9%8A-%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87"
+      ]
+    },
+    {
+      "id": "blue-surf-cafe-by-sichon-cabana",
+      "province": "nakhon-si-thammarat",
+      "name_en": "Blue Surf Cafe by Sichon Cabana",
+      "lat": 9.0106,
+      "lng": 99.9211,
+      "image_url": "https://images.pexels.com/photos/6612572/pexels-photo-6612572.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Pavel Danilyuk / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/6612572/",
+      "website": null,
+      "name": "บลูเซิร์ฟคาเฟ่ (Blue Surf Cafe by Sichon Cabana)",
+      "area": "หาดหินงาม สิชล",
+      "description": "คาเฟ่สุดชิคสไตล์เซิร์ฟติดริมหาดหินงามสิชล จิบกาแฟชมวิวคลื่นทะเลและนักเล่นเซิร์ฟบอร์ด",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "lat",
+        "lng",
+        "opening_hours",
+        "signature_dishes"
+      ],
+      "moods": [
+        "food",
+        "beach",
+        "photo"
+      ],
+      "kind": "cafe",
+      "meals": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "opening_hours": "10:00-22:00",
+      "closed_days": null,
+      "cuisine": [
+        "กาแฟ",
+        "เบเกอรี่",
+        "ฟิวชั่น"
+      ],
+      "signature_dishes": [
+        "Coconut Dirty Coffee",
+        "Croissant Pizza",
+        "Smoothie Bowl Fruit"
+      ],
+      "price_per_person": {
+        "min": 100,
+        "max": 250
+      },
+      "verify_note": "Wongnai lists Blue Surf Cafe in Sichon (Mon-Fri 10:00-22:00, Sat-Sun 08:00-22:00); reviews place it at Sichon Cabana beach resort on Hin Ngam beach.",
+      "sources": [
+        "https://www.wongnai.com/restaurants/378771Vf-blue-surf-cafe",
+        "https://wanderlog.com/place/details/2965656/blue-surf-cafe"
+      ]
+    }
+  ],
+  "stays": [
+    {
+      "id": "grand-fortune-hotel-nakhon-si-thammarat",
+      "province": "nakhon-si-thammarat",
+      "name_en": "Grand Fortune Hotel Nakhon Si Thammarat",
+      "lat": 8.4215,
+      "lng": 99.962,
+      "image_url": "https://images.pexels.com/photos/19810875/pexels-photo-19810875.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Wutthichai Charoenburi / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/19810875/",
+      "website": null,
+      "name": "โรงแรม แกรนด์ ฟอร์จูน นครศรีธรรมราช",
+      "area": "เมืองนครศรีธรรมราช",
+      "description": "โรงแรมในเมืองนครศรีธรรมราช ถนนพัฒนาการคูขวาง มีสระว่ายน้ำและสปา อาหารเช้าแยกจ่าย",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "lat",
+        "lng",
+        "check_in",
+        "check_out",
+        "price_per_night"
+      ],
+      "moods": [
+        "temple",
+        "quiet"
+      ],
+      "type": "hotel",
+      "tier": "mid",
+      "amenities": [
+        "pool",
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 1500,
+        "max": 2500
+      },
+      "verify_note": "Hotel at 359 Pattanakarn-Khukwang Rd confirmed on Expedia/Hotels.com (about USD 45-54 per night; Fortune Group promo THB 1,499 with breakfast); breakfast is a paid extra.",
+      "sources": [
+        "https://www.expedia.com/go/hotel/info/28898935",
+        "https://www.hotels.com/ho925765920/grand-fortune-hotel-nakhon-si-thammarat-nakhon-si-thammarat-thailand",
+        "https://www.thaipost.net/public-relations-news/1054429/"
+      ]
+    },
+    {
+      "id": "sichon-cabana-beach-resort",
+      "province": "nakhon-si-thammarat",
+      "name_en": "Sichon Cabana Beach Resort",
+      "lat": 9.0106,
+      "lng": 99.9211,
+      "image_url": "https://images.pexels.com/photos/3355777/pexels-photo-3355777.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Quang Nguyen Vinh / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/3355777/",
+      "website": null,
+      "name": "สิชล คาบาน่า บีช รีสอร์ท",
+      "area": "หาดหินงาม สิชล",
+      "description": "รีสอร์ตริมหาดหินงามสิชล 12 ห้อง มีสระว่ายน้ำ คาเฟ่ริมหาด และกิจกรรมเล่นเซิร์ฟ",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "lat",
+        "lng",
+        "price_per_night",
+        "amenities"
+      ],
+      "moods": [
+        "beach",
+        "photo",
+        "adventure"
+      ],
+      "type": "resort",
+      "tier": "mid",
+      "amenities": [
+        "pool",
+        "beach_access",
+        "free_wifi",
+        "parking",
+        "breakfast"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 2200,
+        "max": 4200
+      },
+      "verify_note": "Kayak confirms the 3-star beachfront resort at 625 Moo 3 Hin Ngam Beach (check-in 14:00, check-out 12:00, standard USD 97, deluxe USD 119).",
+      "sources": [
+        "https://www.kayak.com/Ban-Talat-Sichon-Hotels-Sichon-Cabana-Beach-Resort.436578.ksp",
+        "https://www.wongnai.com/restaurants/175177in-sichon-cabana"
+      ]
+    },
+    {
+      "id": "khanom-beach-resort-and-spa",
+      "province": "nakhon-si-thammarat",
+      "name_en": "Khanom Beach Resort & Spa",
+      "lat": 9.16704,
+      "lng": 99.87284,
+      "image_url": "https://images.pexels.com/photos/4089908/pexels-photo-4089908.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Dushenkovsky / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/4089908/",
+      "website": null,
+      "name": "ขนอม บีช รีสอร์ท แอนด์ สปา",
+      "area": "หาดหน้าด่าน ขนอม",
+      "description": "รีสอร์ตและสปาย่านหาดหน้าด่านขนอม ห่างชายหาดราว 200 เมตร ห้องพักมีระเบียง",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "price_per_night",
+        "amenities",
+        "check_in",
+        "check_out"
+      ],
+      "moods": [
+        "beach",
+        "quiet",
+        "photo"
+      ],
+      "type": "resort",
+      "tier": "comfy",
+      "amenities": [
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 3000,
+        "max": 5500
+      },
+      "verify_note": "OpenStreetMap and Booking.com confirm the resort on Hat Na Dan, about 200 m from the beach (KTC promo listed deluxe at THB 3,780); coordinates moved about 1 km.",
+      "sources": [
+        "https://booking.com/hotel/th/khanom-beach-resort-amp-spa.en-gb.html",
+        "https://www.ktc.co.th/en/promotion/hotel-resort/domestic-hotel/khanom-beach-resort-and-spa",
+        "https://ae.trip.com/hotels/khanom-hotel-detail-44402702/khanom-beach-resort-spa"
+      ]
+    },
+    {
+      "id": "hop-inn-nakhon-si-thammarat",
+      "province": "nakhon-si-thammarat",
+      "name_en": "Hop Inn Nakhon Si Thammarat",
+      "lat": 8.44263,
+      "lng": 99.97072,
+      "image_url": "https://images.pexels.com/photos/37835990/pexels-photo-37835990.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Ariyan / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/37835990/",
+      "website": null,
+      "name": "โรงแรม ฮ็อป อินน์ นครศรีธรรมราช",
+      "area": "เมืองนครศรีธรรมราช",
+      "description": "โรงแรมราคาย่อมเยามาตรฐานความสะอาดสูง ใจกลางเมืองเดินทางสะดวก ปลอดภัย มีที่จอดรถกว้างขวาง",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "amenities",
+        "check_in",
+        "check_out",
+        "price_per_night"
+      ],
+      "moods": [
+        "quiet"
+      ],
+      "type": "hotel",
+      "tier": "saver",
+      "amenities": [
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 600,
+        "max": 900
+      },
+      "verify_note": "Hop Inn Nakhon Si Thammarat confirmed on Phatthanakan Khukwang Rd (OpenStreetMap, Kayak, Trip.com; rooms about THB 640-650); coordinates moved about 1.5 km.",
+      "sources": [
+        "https://www.kayak.com/Nakhon-Si-Thammarat-Hotels-Hop-Inn-Nakhon-Si-Thammarat.2409709.ksp",
+        "https://www.trip.com/hotels/nakhon-si-thammarat-hotel-detail-3052787/hop-inn-nakhon-si-thammarat/"
+      ]
+    },
+    {
+      "id": "chonnapha-resort-khanom",
+      "province": "nakhon-si-thammarat",
+      "name_en": "Chonnapha Resort Khanom",
+      "lat": 9.19969,
+      "lng": 99.87501,
+      "image_url": "https://images.pexels.com/photos/31387456/pexels-photo-31387456.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_credit": "Vince / Pexels",
+      "image_license": "ภาพประกอบ · Pexels License",
+      "image_page_url": "https://www.pexels.com/photo/31387456/",
+      "website": null,
+      "name": "ชลนภา รีสอร์ท ขนอม",
+      "area": "หาดขนอม",
+      "description": "รีสอร์ตขนาดเล็กย่านหาดขนอม บรรยากาศเงียบสงบ เหมาะกับครอบครัว",
+      "awards": [],
+      "is_mock": false,
+      "unverified": false,
+      "uncertain_fields": [
+        "amenities",
+        "check_in",
+        "check_out",
+        "price_per_night"
+      ],
+      "moods": [
+        "beach",
+        "quiet"
+      ],
+      "type": "resort",
+      "tier": "mid",
+      "amenities": [
+        "free_wifi",
+        "parking"
+      ],
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "price_per_night": {
+        "min": 1100,
+        "max": 1900
+      },
+      "verify_note": "Chonnapha Resort exists in Khanom (OpenStreetMap, Expedia; about USD 40-47 per night); coordinates moved about 3 km north.",
+      "sources": [
+        "https://www.expedia.com/Khanom-Hotels-Chonnapha-Resort.h13521655.Hotel-Information"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "krua-sea-bass-sichon",
+      "reason": "Could not confirm a Krua Tang Ke / Krua Sea Bass seafood restaurant in Sichon; the only 'Tankay Seafood' on Wongnai is in Pattaya."
+    },
+    {
+      "id": "suan-por-iam-kiriwong",
+      "reason": "No listing for Suan Por Iam in Kiriwong on Wongnai or in web searches."
+    },
+    {
+      "id": "rot-dee-teochew-noodle-nakhon",
+      "reason": "No listing for a Golden Dragon (Mangkon Thong) Teochew noodle shop in Tha Wang, Nakhon Si Thammarat."
+    },
+    {
+      "id": "khanom-roti--------nakhon-si",
+      "reason": "No Wongnai listing or web result for Roti Bang Bang Ka Ae."
+    },
+    {
+      "id": "pak-phanang-seafood-market-restaurant",
+      "reason": "Generic name; no specific riverside restaurant in Pak Phanang could be identified or confirmed."
+    },
+    {
+      "id": "cc-khanom-beach-cafe",
+      "reason": "Only CC Beach Resort/Bar found in Khanom (about 9.153, 99.874); a 'CC Beach Cafe' on Na Dan beach closed Thursdays could not be confirmed."
+    },
+    {
+      "id": "khao-thong-roti-cha-chak-sichon",
+      "reason": "No listing for Roti Bang Bas in Sichon found."
+    },
+    {
+      "id": "chada-tea-house-nakhon-si",
+      "reason": "No listing for Chada Thai dessert and tea house in Nakhon Si Thammarat."
+    },
+    {
+      "id": "kiriwong-resort-lan-saka",
+      "reason": "No single property named Kiriwong Resort; Kiriwong has several differently named lodgings (Passion, Keree, Bansuanrari, Valley Villas)."
+    }
+  ],
+  "not_checked": []
+}
