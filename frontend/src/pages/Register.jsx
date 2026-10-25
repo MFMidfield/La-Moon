@@ -91,23 +91,23 @@ export default function Register() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink">
-      <div className="flex h-16 shrink-0 items-center px-[22px]">
+    <form onSubmit={handleSubmit} className="mx-auto flex min-h-svh w-full max-w-[560px] flex-col bg-cream text-ink lg:min-h-0 lg:max-w-[640px] lg:py-8">
+      <div className="flex h-16 shrink-0 items-center px-[22px] lg:h-14">
         <div className="text-lg font-semibold">ตั้งค่าโปรไฟล์</div>
       </div>
 
       <div className="flex flex-col gap-1.5 px-[22px] pt-2">
-        <h1 className="m-0 flex items-center gap-2 text-[26px] font-bold">
+        <h1 className="m-0 flex items-center gap-2 text-[26px] font-bold lg:text-[32px]">
           ยินดีต้อนรับสู่ LaMoon
           <Moon size={26} fill="#E8793A" className="-rotate-12" />
           <span className="-ml-1.5 -mt-3.5 flex">
             <Sparkle size={14} fill="#5A2E14" />
           </span>
         </h1>
-        <p className="m-0 text-sm leading-[1.6] text-[#4A3A30]">บอกเราเล็กน้อย เพื่อให้การ์ดที่ปัดตรงใจตั้งแต่ใบแรก</p>
+        <p className="m-0 text-sm leading-[1.6] text-[#4A3A30] lg:text-base">บอกเราเล็กน้อย เพื่อให้การ์ดที่ปัดตรงใจตั้งแต่ใบแรก</p>
       </div>
 
-      <div className="mx-4 mt-[18px] flex flex-col gap-3.5">
+      <div className="mx-4 mt-[18px] flex flex-col gap-3.5 lg:mt-6 lg:gap-4">
         <ProfileCard
           avatarUrl={previewUrl ?? googleAvatar}
           onAvatarChange={setAvatarFile}
@@ -120,9 +120,9 @@ export default function Register() {
 
       <TermsCheckbox checked={accepted} onChange={setAccepted} onOpenDoc={setTermsDoc} />
 
-      <div className="grow" />
+      <div className="grow lg:hidden" />
 
-      <div className="flex flex-col gap-2.5 px-4 pb-7 pt-5">
+      <div className="flex flex-col gap-2.5 px-4 pb-7 pt-5 lg:pb-0 lg:pt-8">
         <button
           type="submit"
           disabled={!canSubmit}

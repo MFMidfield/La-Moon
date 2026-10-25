@@ -37,7 +37,7 @@ export default function StartBox() {
   const { resetDraft } = useTripDraft()
 
   return (
-    <section className="relative mx-4 mt-4 overflow-hidden rounded-[36px] bg-peach px-5 pb-5 pt-4">
+    <section className="relative mx-4 mt-4 overflow-hidden rounded-[36px] bg-peach px-5 pb-5 pt-4 lg:col-start-2 lg:row-start-3 lg:mx-0 lg:mt-5">
       <div className="relative mx-auto h-[128px] max-w-[300px]" aria-hidden="true">
         {CARDS.map((c) => (
           <MiniCard key={c.tone} {...c} reduce={reduce} />

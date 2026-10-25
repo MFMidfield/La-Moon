@@ -37,7 +37,7 @@ export default function HomeHeader({ profile, onSignOut }) {
   }
 
   return (
-    <header className="flex h-16 shrink-0 items-center justify-between px-4">
+    <header className="flex h-16 shrink-0 items-center justify-between px-4 lg:col-span-2 lg:h-20 lg:px-0">
       <Logo size={26} className="text-[22px]" />
       <button
         type="button"

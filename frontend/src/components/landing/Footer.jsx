@@ -9,7 +9,7 @@ const LINKS = [
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col items-center gap-2 px-[22px] pb-8 pt-7 text-[13px] text-muted lg:pt-12">
+    <footer className="flex flex-col items-center gap-2 px-[22px] pb-8 pt-7 text-[13px] text-muted lg:mx-auto lg:mt-16 lg:w-full lg:max-w-[1120px] lg:flex-row lg:justify-between lg:gap-4 lg:border-t lg:border-[#EDE5DD] lg:px-8 lg:pb-8 lg:pt-8 lg:text-sm">
       <Logo size={20} className="text-lg" />
       <div className="flex gap-4">
         {LINKS.map(([label, to]) => (

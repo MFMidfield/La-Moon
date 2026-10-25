@@ -4,7 +4,7 @@ import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 export default function TermsCheckbox({ checked, onChange, onOpenDoc }) {
   const reduced = useReducedMotion()
   return (
-    <div className="mx-[22px] mt-[18px] flex items-start gap-3">
+    <div className="mx-[22px] mt-[18px] flex items-start gap-3 lg:mt-6">
       <span className="relative mt-0.5 flex h-6 w-6 shrink-0">
         <input
           id="accept-terms"

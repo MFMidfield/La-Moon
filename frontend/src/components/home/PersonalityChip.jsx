@@ -3,7 +3,7 @@ import SlideLink from '../SlideLink'
 import { Sparkle } from '../icons'
 
 export function PersonalityChipSkeleton() {
-  return <div className="mx-4 mt-4 h-14 animate-pulse rounded-full bg-white/70" aria-hidden="true" />
+  return <div className="mx-4 mt-4 h-14 animate-pulse rounded-full bg-white/70 lg:col-start-2 lg:row-start-2 lg:mx-0 lg:mt-0" aria-hidden="true" />
 }
 
 // chip ขาว "บุคลิกการเที่ยว: …" → /personality
@@ -11,7 +11,7 @@ export default function PersonalityChip({ title }) {
   return (
     <SlideLink
       to="/personality"
-      className="mx-4 mt-4 flex h-14 items-center gap-2.5 rounded-full bg-white pl-2.5 pr-4 text-[15px]"
+      className="mx-4 mt-4 flex h-14 items-center gap-2.5 rounded-full bg-white pl-2.5 pr-4 text-[15px] lg:col-start-2 lg:row-start-2 lg:mx-0 lg:mt-0"
     >
       <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#FBE3D2]">
         <Sparkle size={18} fill="#E8793A" />

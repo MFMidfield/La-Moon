@@ -24,10 +24,10 @@ export default function Home() {
 
   return (
     <div className="min-h-svh bg-cream text-ink">
-      <div className="mx-auto flex w-full max-w-[560px] flex-col pb-10 lg:pt-6">
+      <div className="mx-auto flex w-full max-w-[560px] flex-col pb-10 lg:grid lg:max-w-[1120px] lg:grid-cols-[minmax(0,1fr)_380px] lg:grid-rows-[auto_auto_auto_1fr] lg:gap-x-10 lg:px-8 lg:pb-16 lg:pt-6">
         <HomeHeader profile={profile} onSignOut={signOut} />
 
-        <h1 className="m-0 break-words px-[22px] pt-2 text-[26px] font-bold leading-[1.3]">
+        <h1 className="m-0 break-words px-[22px] pt-2 text-[26px] font-bold leading-[1.3] lg:col-start-1 lg:row-start-2 lg:min-w-0 lg:self-center lg:px-0 lg:pt-0 lg:text-4xl">
           สวัสดี {profile.display_name}
         </h1>
 

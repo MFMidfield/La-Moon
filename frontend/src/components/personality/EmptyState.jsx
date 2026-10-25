@@ -4,7 +4,7 @@ import { Moon, Sparkle } from '../icons'
 // ยังไม่เคยปัดขวา → ชวนไปเริ่มทริป
 export default function EmptyState() {
   return (
-    <div className="flex grow flex-col items-center px-[22px] pt-16 text-center">
+    <div className="flex grow flex-col items-center px-[22px] pt-16 text-center lg:mx-auto lg:max-w-[480px] lg:grow-0 lg:pt-20">
       <div className="relative flex h-32 w-32 items-center justify-center rounded-full bg-peach" aria-hidden="true">
         <Moon size={56} fill="#E8793A" className="-rotate-12" />
         <Sparkle size={20} fill="#5A2E14" className="absolute right-4 top-5" />

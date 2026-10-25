@@ -7,9 +7,9 @@ export default function WishProvinces({ ids = [] }) {
   if (!provinces.length) return null
 
   return (
-    <section className="mt-8">
-      <h2 className="m-0 px-[22px] text-[22px] font-bold">จังหวัดที่อยากไป</h2>
-      <div className="mx-4 mt-3 flex flex-wrap gap-2">
+    <section className="mt-8 lg:col-start-2 lg:row-start-4 lg:mt-8">
+      <h2 className="m-0 px-[22px] text-[22px] font-bold lg:px-0">จังหวัดที่อยากไป</h2>
+      <div className="mx-4 mt-3 flex flex-wrap gap-2 lg:mx-0">
         {provinces.map((p) => (
           <SlideLink
             key={p.id}

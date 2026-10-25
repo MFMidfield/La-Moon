@@ -35,7 +35,7 @@ export default function ProvincePicker({ value, onChange }) {
   }
 
   return (
-    <div className="flex flex-col gap-3 rounded-[28px] bg-white p-[18px]">
+    <div className="flex flex-col gap-3 rounded-[28px] bg-white p-[18px] lg:p-6">
       <div className="flex items-baseline justify-between">
         <div className="text-base font-semibold">จังหวัดที่อยากไป</div>
         <div className="text-xs text-muted">ไม่บังคับ</div>
