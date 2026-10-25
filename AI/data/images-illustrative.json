@@ -1,0 +1,263 @@
+[
+  {
+    "id": "nong-bon-water-sports-center",
+    "category": "lake-park",
+    "image_url": "https://images.unsplash.com/photo-1599745823202-de5d074168e1?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/city-skyline-across-body-of-water-during-daytime-ASZ-DbTIuG4",
+    "image_credit": "Vitalijs Barilo / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบบึงในสวนลุมพินี กรุงเทพฯ มีเรือถีบขนาดเล็ก แนวต้นไม้และอาคารเมือง ใช้สื่อบรรยากาศสวนริมบึง ไม่ใช่บึงหนองบอนหรือกิจกรรมกีฬาทางน้ำของศูนย์"
+  },
+  {
+    "id": "ban-koh-klang-community",
+    "category": "coastal-community",
+    "image_url": "https://images.unsplash.com/photo-1774961764599-24fec63eb8de?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/stilted-houses-and-mosque-on-the-water-3EV_ctTfa7s",
+    "image_credit": "Laszlo Oveges / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบชุมชนบ้านยกพื้นริมน้ำ มีมัสยิดและแนวเขาหินปูนในอ่าวพังงา ประเทศไทย ใช้สื่อชุมชนชายฝั่งภาคใต้ ไม่ใช่ภาพชุมชนบ้านเกาะกลางหรืองานฝีมือของชุมชน"
+  },
+  {
+    "id": "wat-khlong-thom-museum",
+    "category": "museum-and-ceramics",
+    "image_url": "https://images.unsplash.com/photo-1707789339832-a15c8389463b?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/a-blue-and-white-vase-sitting-on-top-of-a-table-Zy4x6eW6MyY",
+    "image_credit": "CJ / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบเครื่องเคลือบลายครามและแผงไม้แกะสลักในพิพิธภัณฑ์บ้านจิม ทอมป์สัน กรุงเทพฯ ใช้สื่อการจัดแสดงโบราณวัตถุ ไม่ใช่ลูกปัดหรือโบราณวัตถุของพิพิธภัณฑ์วัดคลองท่อม"
+  },
+  {
+    "id": "lam-phaya-floating-market",
+    "category": "floating-market",
+    "image_url": "https://images.pexels.com/photos/4318375/pexels-photo-4318375.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/boats-on-the-river-4318375/",
+    "image_credit": "Chait Goli / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบคลองตลาดน้ำในประเทศไทย มีเรือไม้และร้านค้าริมคลอง หน้าภาพระบุบริเวณกรุงเทพฯ โดยไม่ระบุชื่อตลาด ไม่ใช่ภาพตลาดน้ำวัดลำพญา"
+  },
+  {
+    "id": "ban-than-khun-nakhon-si-thammarat",
+    "category": "heritage-town",
+    "image_url": "https://images.pexels.com/photos/7286748/pexels-photo-7286748.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/empty-road-in-between-concrete-structures-7286748/",
+    "image_credit": "Jom / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบตึกแถวเก่าในเมืองภูเก็ตยามเย็น ใช้สื่อสถาปัตยกรรมย่านเก่า ไม่ใช่บ้านทรงปั้นหยาของบ้านท่านขุน"
+  },
+  {
+    "id": "khao-sun-viewpoint",
+    "category": "mountain-viewpoint",
+    "image_url": "https://images.pexels.com/photos/11753923/pexels-photo-11753923.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/aerial-view-of-mountain-in-forest-11753923/",
+    "image_credit": "Maksim Romashkin / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบก้อนหินใหญ่เหนือป่าเขาบนเกาะพะงัน จ.สุราษฎร์ธานี มีแนวทะเลอยู่ไกล ๆ ใช้สื่อทิวทัศน์ภูเขาภาคใต้ ไม่ใช่จุดชมวิวเขาศูนย์หรือทะเลหมอกที่เขาศูนย์"
+  },
+  {
+    "id": "khao-wang-thong-cave",
+    "category": "limestone-cave",
+    "image_url": "https://images.unsplash.com/photo-1614888905077-7bbc07ec4d4a?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/brown-rock-formation-during-daytime-2AE8WByMvYo",
+    "image_credit": "Jugro Scarlett / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบหินงอกหินย้อยภายในถ้ำในอุทยานแห่งชาติเขาสก จ.สุราษฎร์ธานี มีแสงจากปากถ้ำ ไม่ใช่ภาพถ้ำเขาวังทอง"
+  },
+  {
+    "id": "laem-homestay",
+    "category": "coastal-community",
+    "image_url": "https://images.unsplash.com/photo-1774961764599-24fec63eb8de?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/stilted-houses-and-mosque-on-the-water-3EV_ctTfa7s",
+    "image_credit": "Laszlo Oveges / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบชุมชนบ้านยกพื้นริมน้ำ มีมัสยิดและแนวเขาหินปูนในอ่าวพังงา ประเทศไทย ใช้สื่อวิถีชุมชนชายฝั่ง ไม่ใช่บ้านแหลมโฮมสเตย์ และไม่แสดงสปาโคลนหรือการปลูกป่าชายเลน"
+  },
+  {
+    "id": "ligor-floating-market",
+    "category": "floating-market",
+    "image_url": "https://images.pexels.com/photos/4318375/pexels-photo-4318375.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/boats-on-the-river-4318375/",
+    "image_credit": "Chait Goli / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบคลองตลาดน้ำในประเทศไทย มีเรือไม้และร้านค้าริมคลอง หน้าภาพระบุบริเวณกรุงเทพฯ โดยไม่ระบุชื่อตลาด ไม่ใช่ภาพตลาดน้ำเมืองลิกอร์"
+  },
+  {
+    "id": "pak-phanang-retro-market",
+    "category": "heritage-town",
+    "image_url": "https://images.pexels.com/photos/7286748/pexels-photo-7286748.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/empty-road-in-between-concrete-structures-7286748/",
+    "image_credit": "Jom / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบตึกแถวเก่าในเมืองภูเก็ตยามเย็น ใช้สื่อบรรยากาศย่านการค้าเก่า ไม่ใช่ตลาดย้อนยุคปากพนัง และไม่แสดงแผงอาหารของตลาด"
+  },
+  {
+    "id": "wat-sangkhathan",
+    "category": "thai-temple",
+    "image_url": "https://images.pexels.com/photos/27401263/pexels-photo-27401263.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/buddhist-temple-27401263/",
+    "image_credit": "Kirandeep Singh Walia / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบอาคารวัดไทยหน้าบันสีน้ำเงินและทองในกรุงเทพฯ ใช้สื่อสถาปัตยกรรมวัดไทย ไม่ใช่วัดสังฆทานหรืออุโบสถแก้วทรงแปดเหลี่ยม"
+  },
+  {
+    "id": "wat-takian-floating-market",
+    "category": "floating-market",
+    "image_url": "https://images.pexels.com/photos/4318375/pexels-photo-4318375.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/boats-on-the-river-4318375/",
+    "image_credit": "Chait Goli / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบคลองตลาดน้ำในประเทศไทย มีเรือไม้และร้านค้าริมคลอง หน้าภาพระบุบริเวณกรุงเทพฯ โดยไม่ระบุชื่อตลาด ไม่ใช่ภาพตลาดน้ำวัดตะเคียน"
+  },
+  {
+    "id": "talad-thai",
+    "category": "covered-market",
+    "image_url": "https://images.pexels.com/photos/32543353/pexels-photo-32543353.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/bustling-indoor-market-in-bangkok-thailand-32543353/",
+    "image_credit": "Felix Schickel / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบภายในอาคารตลาดในกรุงเทพฯ มองเห็นโครงหลังคา แผงดอกไม้และกล่องสินค้า ใช้สื่อบรรยากาศตลาดสินค้าเกษตรในอาคาร ไม่ใช่ภาพตลาดไทหรือหลักฐานขนาดและรูปแบบการค้าส่งของตลาดไท"
+  },
+  {
+    "id": "wat-panyanantaram",
+    "category": "thai-temple",
+    "image_url": "https://images.pexels.com/photos/27401263/pexels-photo-27401263.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/buddhist-temple-27401263/",
+    "image_credit": "Kirandeep Singh Walia / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบอาคารวัดไทยหน้าบันสีน้ำเงินและทองในกรุงเทพฯ ใช้สื่อบรรยากาศวัดไทย ไม่ใช่ภาพวัดปัญญานันทาราม"
+  },
+  {
+    "id": "ban-nam-khem-tsunami-memorial",
+    "category": "coastal-community",
+    "image_url": "https://images.unsplash.com/photo-1774961764599-24fec63eb8de?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/stilted-houses-and-mosque-on-the-water-3EV_ctTfa7s",
+    "image_credit": "Laszlo Oveges / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบชุมชนบ้านยกพื้นริมน้ำ มีมัสยิดและแนวเขาหินปูนในอ่าวพังงา ประเทศไทย ใช้สื่อบริบทชุมชนชายฝั่งเท่านั้น ไม่ใช่บ้านน้ำเค็ม และไม่มีอนุสรณ์หรือพื้นที่รำลึกสึนามิในภาพ"
+  },
+  {
+    "id": "bang-phat-village",
+    "category": "coastal-community",
+    "image_url": "https://images.unsplash.com/photo-1774961764599-24fec63eb8de?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/stilted-houses-and-mosque-on-the-water-3EV_ctTfa7s",
+    "image_credit": "Laszlo Oveges / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบชุมชนบ้านยกพื้นริมน้ำ มีมัสยิดและแนวเขาหินปูนในอ่าวพังงา ประเทศไทย ใช้สื่อวิถีชุมชนริมทะเล ไม่ใช่ภาพหมู่บ้านบางพัฒน์หรือร้านอาหารของชุมชน"
+  },
+  {
+    "id": "little-amazon-takua-pa",
+    "category": "mangrove-canal",
+    "image_url": "https://images.unsplash.com/photo-1754643981673-6131db584310?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/lush-green-trees-reflected-in-clear-turquoise-water-JXB3xNf7uIc",
+    "image_credit": "Nestor Mehanikov / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบลำคลองน้ำใสและกิ่งไม้ป่าชายเลนในกระบี่ตามข้อมูลหน้าภาพ โดยไม่ระบุชื่อคลอง ใช้สื่อธรรมชาติริมคลอง ไม่ใช่คลองสังเน่ห์หรือลิตเติลแอมะซอนตะกั่วป่า"
+  },
+  {
+    "id": "phang-nga-city-museum",
+    "category": "museum-and-ceramics",
+    "image_url": "https://images.unsplash.com/photo-1707789339832-a15c8389463b?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/a-blue-and-white-vase-sitting-on-top-of-a-table-Zy4x6eW6MyY",
+    "image_credit": "CJ / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบเครื่องเคลือบลายครามและแผงไม้แกะสลักในพิพิธภัณฑ์บ้านจิม ทอมป์สัน กรุงเทพฯ ใช้สื่อหมวดพิพิธภัณฑ์ ไม่ใช่สิ่งจัดแสดงหรืออาคารพิพิธภัณฑ์เมืองพังงา"
+  },
+  {
+    "id": "takua-pa-old-town",
+    "category": "heritage-town",
+    "image_url": "https://images.pexels.com/photos/7286748/pexels-photo-7286748.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/empty-road-in-between-concrete-structures-7286748/",
+    "image_credit": "Jom / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบตึกแถวเก่าในเมืองภูเก็ตยามเย็น ใช้สื่อสถาปัตยกรรมย่านการค้าเก่าภาคใต้ ไม่ใช่ภาพย่านเมืองเก่าตะกั่วป่า"
+  },
+  {
+    "id": "ban-tha-chat-chai-community",
+    "category": "coastal-community",
+    "image_url": "https://images.unsplash.com/photo-1774961764599-24fec63eb8de?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/stilted-houses-and-mosque-on-the-water-3EV_ctTfa7s",
+    "image_credit": "Laszlo Oveges / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบชุมชนบ้านยกพื้นริมน้ำ มีมัสยิดและแนวเขาหินปูนในอ่าวพังงา ประเทศไทย ใช้สื่อชุมชนชายฝั่งภาคใต้ ไม่ใช่บ้านท่าฉัตรไชย และไม่ได้แสดงวัฒนธรรมมอแกล็น"
+  },
+  {
+    "id": "khao-khad-views-tower",
+    "category": "mountain-viewpoint",
+    "image_url": "https://images.pexels.com/photos/11753923/pexels-photo-11753923.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/aerial-view-of-mountain-in-forest-11753923/",
+    "image_credit": "Maksim Romashkin / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบก้อนหินใหญ่เหนือป่าเขาบนเกาะพะงัน จ.สุราษฎร์ธานี มีแนวทะเลอยู่ไกล ๆ ใช้สื่อมุมสูงเหนือภูมิประเทศชายฝั่งภาคใต้ ไม่ใช่หอชมวิวเขาขาดหรืออ่าวรอบแหลมพันวา"
+  },
+  {
+    "id": "naka-weekend-market",
+    "category": "covered-market",
+    "image_url": "https://images.pexels.com/photos/32543353/pexels-photo-32543353.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/bustling-indoor-market-in-bangkok-thailand-32543353/",
+    "image_credit": "Felix Schickel / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบภายในอาคารตลาดในกรุงเทพฯ มองเห็นโครงหลังคา แผงดอกไม้และกล่องสินค้า ใช้สื่อหมวดตลาดทั่วไปเท่านั้น ไม่ใช่ตลาดนัดนาคา และไม่แสดงเสื้อผ้า ของมือสองหรือบรรยากาศตลาดนัดกลางแจ้ง"
+  },
+  {
+    "id": "don-kai-di-benjarong-village",
+    "category": "museum-and-ceramics",
+    "image_url": "https://images.unsplash.com/photo-1707789339832-a15c8389463b?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/a-blue-and-white-vase-sitting-on-top-of-a-table-Zy4x6eW6MyY",
+    "image_credit": "CJ / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบเครื่องเคลือบลายครามและแผงไม้แกะสลักในพิพิธภัณฑ์บ้านจิม ทอมป์สัน กรุงเทพฯ ใช้สื่อหมวดงานเครื่องเคลือบเท่านั้น ไม่ใช่เครื่องเบญจรงค์ ขั้นตอนผลิต หรือภาพหมู่บ้านดอนไก่ดี"
+  },
+  {
+    "id": "wat-lak-si-rat-samoson",
+    "category": "thai-temple",
+    "image_url": "https://images.pexels.com/photos/27401263/pexels-photo-27401263.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/buddhist-temple-27401263/",
+    "image_credit": "Kirandeep Singh Walia / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบอาคารวัดไทยหน้าบันสีน้ำเงินและทองในกรุงเทพฯ ใช้สื่อสถาปัตยกรรมวัดไทย ไม่ใช่วัดหลักสี่ราษฎร์สโมสร หลวงพ่อโต หรือศาลาริมคลองดำเนินสะดวก"
+  },
+  {
+    "id": "chaiya-national-museum",
+    "category": "museum-and-ceramics",
+    "image_url": "https://images.unsplash.com/photo-1707789339832-a15c8389463b?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/a-blue-and-white-vase-sitting-on-top-of-a-table-Zy4x6eW6MyY",
+    "image_credit": "CJ / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบเครื่องเคลือบลายครามและแผงไม้แกะสลักในพิพิธภัณฑ์บ้านจิม ทอมป์สัน กรุงเทพฯ ใช้สื่อการจัดแสดงโบราณวัตถุ ไม่ใช่ประติมากรรมหรือโบราณวัตถุจากพิพิธภัณฑสถานแห่งชาติไชยา"
+  },
+  {
+    "id": "hin-phat-viewpoint",
+    "category": "mountain-viewpoint",
+    "image_url": "https://images.pexels.com/photos/11753923/pexels-photo-11753923.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/aerial-view-of-mountain-in-forest-11753923/",
+    "image_credit": "Maksim Romashkin / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบก้อนหินใหญ่เหนือป่าเขาบนเกาะพะงัน จ.สุราษฎร์ธานี มีแนวทะเลอยู่ไกล ๆ ใช้สื่อจุดชมวิวที่มีหินและทิวเขาภาคใต้ ไม่ใช่ก้อนหินพัดหรือทิวทัศน์คีรีรัฐนิคม"
+  },
+  {
+    "id": "phum-riang-village",
+    "category": "coastal-community",
+    "image_url": "https://images.unsplash.com/photo-1774961764599-24fec63eb8de?w=1200&q=80&fit=crop",
+    "image_page_url": "https://unsplash.com/photos/stilted-houses-and-mosque-on-the-water-3EV_ctTfa7s",
+    "image_credit": "Laszlo Oveges / Unsplash",
+    "image_license": "ภาพประกอบ · Unsplash License",
+    "note": "ภาพประกอบชุมชนบ้านยกพื้นริมน้ำ มีมัสยิดและแนวเขาหินปูนในอ่าวพังงา ประเทศไทย ใช้สื่อบรรยากาศชุมชนใกล้ทะเล ไม่ใช่หมู่บ้านพุมเรียง และไม่แสดงการทอผ้าไหม"
+  },
+  {
+    "id": "sala-athit-garden",
+    "category": "fruit-orchard",
+    "image_url": "https://images.pexels.com/photos/36490021/pexels-photo-36490021.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/green-mangoes-on-tree-branch-in-lush-orchard-36490021/",
+    "image_credit": "Weerawut Wantayuth / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบผลมะม่วงสีเขียวบนต้นในสวนผลไม้ประเทศไทย ใช้สื่อการปลูกผลไม้ ไม่ใช่ผลสละหรือภาพสวนสละอาทิตย์"
+  },
+  {
+    "id": "wat-khao-phang-hanging-bridge",
+    "category": "suspension-bridge",
+    "image_url": "https://images.pexels.com/photos/14328330/pexels-photo-14328330.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_page_url": "https://www.pexels.com/photo/bicycle-on-footbridge-14328330/",
+    "image_credit": "Picas Joe / Pexels",
+    "image_license": "ภาพประกอบ · Pexels License",
+    "note": "ภาพประกอบสะพานแขวนสีแดงในย่านสบตุ๋ย จ.ลำปาง มีจักรยานจอดบนสะพาน ใช้สื่อรูปแบบสะพานแขวนในประเทศไทย ไม่ใช่สะพานวัดเขาพัง คลองพระแสง หรือภูมิทัศน์ภาคใต้"
+  }
+]
